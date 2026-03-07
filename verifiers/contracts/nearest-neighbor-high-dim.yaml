@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.nearest-neighbor-high-dim
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/nearest_neighbor_high_dim_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nearest Neighbor Search in High Dimensions. Can we build efficient data
+  structures for finding the closest point in a dataset when the data lives in a high-dimensional space? Current methods either
+  use exponential space or have query time exponential in the dimension.'
+parameters: {}

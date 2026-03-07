@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.discrete-geometry.ungar-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/ungar_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ungar''s Conjecture on Direction Sets. Given n points in d-dimensional space
+  not all on a hyperplane, how few distinct directions can the connecting lines determine? Ungar proved the 2D case; the higher-dimensional
+  analogue is open.'
+parameters: {}

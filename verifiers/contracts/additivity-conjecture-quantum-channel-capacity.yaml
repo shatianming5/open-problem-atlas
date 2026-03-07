@@ -1,0 +1,14 @@
+problem_id: opa.phys.quantum-information.additivity-conjecture-quantum-channel-capacity
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/additivity_conjecture_quantum_channel_capacity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Additivity Conjecture for Quantum Channel Capacity. When we send classical
+  information through a quantum channel, can we always compute the maximum transmission rate (classical capacity) from a single
+  use of the channel, or do we need to consider entangled inputs across many channel uses? While the general additivity conjecture
+  was disproved, dete...'
+parameters: {}

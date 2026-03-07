@@ -1,0 +1,13 @@
+problem_id: opa.phys.condensed-matter-theory.topological-order-classification-general
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/topological_order_classification_general_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Topological Order Classification (General). Quantum matter can exist in
+  exotic phases characterized by topological properties rather than conventional symmetry breaking. Completely classifying
+  all possible such phases of matter is a grand challenge at the interface of physics and mathematics.'
+parameters: {}

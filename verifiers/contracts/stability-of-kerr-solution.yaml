@@ -1,0 +1,13 @@
+problem_id: opa.phys.general-relativity.stability-of-kerr-solution
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stability_of_kerr_solution_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stability of the Kerr Solution. If you slightly perturb a rotating black
+  hole, does it settle down to another rotating black hole, or does something catastrophic happen? This is one of the most
+  important open problems in mathematical general relativity.'
+parameters: {}

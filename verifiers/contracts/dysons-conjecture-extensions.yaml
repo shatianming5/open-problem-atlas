@@ -1,0 +1,13 @@
+problem_id: opa.phys.mathematical-physics.dysons-conjecture-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dysons_conjecture_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dyson''s Conjecture Extensions. Dyson conjectured a beautiful identity for
+  the constant term of a Laurent polynomial associated to root systems. While the original conjecture is proved, extending
+  it to elliptic and more general settings remains open.'
+parameters: {}

@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.logic-and-foundations.vaughts-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/vaughts_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Vaught''s Conjecture. When studying a mathematical theory (a consistent
+  set of axioms in first-order logic), one can ask: how many essentially different countable structures satisfy these axioms?
+  Vaught conjectured that the answer is either small (countably many) or as large as possible (continuum many) -- there is
+  no...'
+parameters: {}

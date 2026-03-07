@@ -1,0 +1,13 @@
+problem_id: opa.phys.statistical-mechanics.spin-glass-parisi-ultrametricity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/spin_glass_parisi_ultrametricity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Spin Glass Theory and Parisi Ultrametricity. In spin glasses, the landscape
+  of states has a remarkable tree-like (ultrametric) structure predicted by Parisi''s replica symmetry breaking theory. While
+  the free energy was proven correct by Talagrand, the ultrametric structure itself remains unproven.'
+parameters: {}

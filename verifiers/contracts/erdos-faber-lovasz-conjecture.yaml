@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.erdos-faber-lovasz-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/erdos_faber_lovasz_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Faber-Lovasz Conjecture. Take n complete graphs, each with n vertices.
+  Combine them so that any two share at most one vertex. Then you can color the edges of each complete graph (equivalently,
+  the vertices of the union) using just n colors, so that no two adjacent edges share a color.'
+parameters: {}

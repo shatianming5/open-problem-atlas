@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.partial-differential-equations.strong-cosmic-censorship-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/strong_cosmic_censorship_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Strong Cosmic Censorship Conjecture (Mathematical Formulation). The laws
+  of general relativity, given generic initial conditions, should determine the spacetime uniquely — there should be no way
+  to extend the solution beyond a certain boundary (the Cauchy horizon) in a physically meaningful way. This is the mathematical
+  version of the statement that "physics ...'
+parameters: {}

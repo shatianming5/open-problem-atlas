@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.agoh-giuga-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/agoh_giuga_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Agoh-Giuga Conjecture. If you sum 1^{n-1} + 2^{n-1} + ... + (n-1)^{n-1}
+  and the result is -1 modulo n, then n must be prime. No composite number can produce this sum. The conjecture says this
+  power-sum condition perfectly characterizes primality.'
+parameters: {}

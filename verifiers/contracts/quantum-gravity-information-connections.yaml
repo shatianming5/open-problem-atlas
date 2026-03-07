@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.quantum-gravity-information-connections
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_gravity_information_connections_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Gravity and Quantum Information Connections. Are entanglement and
+  wormholes the same thing? Is the geometry of spacetime built from quantum information? These deep conjectures connecting
+  quantum information to gravity remain unproven.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.cryptography.mpc-optimal-rounds
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/mpc_optimal_rounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multi-Party Computation Optimal Round Complexity. When multiple parties
+  want to jointly compute a function of their private inputs without revealing anything else, how many rounds of communication
+  are needed? What is the minimum possible?'
+parameters: {}

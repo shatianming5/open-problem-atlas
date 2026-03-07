@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.discrete-geometry.borsuk-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/borsuk_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Borsuk''s Conjecture. Can every bounded set in n-dimensional space be divided
+  into n+1 pieces each smaller in diameter than the original? This is true in dimensions 1, 2, 3, but fails for high dimensions.
+  The precise threshold dimension is unknown.'
+parameters: {}

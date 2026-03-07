@@ -1,0 +1,13 @@
+problem_id: opa.phys.mathematical-physics.agt-correspondence-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/agt_correspondence_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: AGT Correspondence Proof. The AGT correspondence is a surprising duality
+  between 4D gauge theory partition functions and 2D conformal field theory correlation functions. Despite overwhelming evidence,
+  a mathematical proof is missing.'
+parameters: {}

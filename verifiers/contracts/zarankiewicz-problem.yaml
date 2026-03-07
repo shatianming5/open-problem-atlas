@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.extremal-combinatorics.zarankiewicz-problem
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/zarankiewicz_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Zarankiewicz Problem. How many edges can a bipartite graph have while avoiding
+  a complete bipartite subgraph K_{s,t}? The Kovari-Sos-Turan theorem gives an upper bound, but matching constructions exist
+  only for special cases.'
+parameters: {}

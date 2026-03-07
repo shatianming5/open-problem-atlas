@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.probability.random-schrodinger-operator-localization
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/random_schrodinger_operator_localization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Anderson Localization in Higher Dimensions. In a disordered quantum system
+  on a lattice, particles can get trapped (localized) by randomness. In low dimensions or with strong disorder, all states
+  are localized. In higher dimensions with weak disorder, there should be a transition where some states become delocalized
+  — waves can propagate. ...'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.non-commutative-algebra.langlands-functoriality-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/langlands_functoriality_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Langlands Functoriality Conjecture. There should be a systematic way to
+  transfer automorphic forms between different algebraic groups, governed by homomorphisms between their dual groups. This
+  "functoriality principle" is the central organizing conjecture of the Langlands program.'
+parameters: {}

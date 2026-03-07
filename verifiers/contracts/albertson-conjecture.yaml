@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.albertson-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/albertson_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Albertson Conjecture. If a graph needs n colors for a proper vertex coloring,
+  then it is at least as hard to draw without crossings as the complete graph on n vertices. The complete graph is the "easiest
+  to draw" among all graphs requiring that many colors.'
+parameters: {}

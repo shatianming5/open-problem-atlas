@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.coding-theory.cerny-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/cerny_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cerny Conjecture. If a machine with n states has the property that some
+  input sequence forces it into a single state no matter where it starts, then there exists such a sequence of length at most
+  (n-1)^2.'
+parameters: {}

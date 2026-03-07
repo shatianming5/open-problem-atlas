@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.qma-vs-qcma
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/qma_vs_qcma_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: QMA vs QCMA. Do quantum proofs (witnesses) provide extra power compared
+  to classical proofs when verified by a quantum computer? Can every quantum proof be replaced by a classical one?'
+parameters: {}

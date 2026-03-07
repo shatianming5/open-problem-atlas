@@ -1,0 +1,13 @@
+problem_id: opa.phys.general-relativity.cosmic-no-hair-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cosmic_no_hair_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cosmic No-Hair Conjecture. Does every expanding universe with a positive
+  cosmological constant eventually look like de Sitter space (exponentially expanding, empty space)? This conjecture suggests
+  that the cosmological constant dominates all other forms of matter and energy at late times.'
+parameters: {}

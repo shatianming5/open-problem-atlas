@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.polya-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/polya_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polya Conjecture on Dirichlet Characters. Sums of Dirichlet characters (which
+  generalize the Legendre symbol) should be much smaller than what the classical Polya-Vinogradov inequality proves. The conjecture
+  sharpens the best known general bound.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-field-theory.seiberg-witten-theory-completeness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/seiberg_witten_theory_completeness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Seiberg-Witten Theory Completeness. Seiberg and Witten found an "exact solution"
+  to a supersymmetric gauge theory, computing its low-energy physics precisely. But this solution relies on physical assumptions
+  (holomorphy, duality) rather than mathematical proof. Can we make it rigorous?'
+parameters: {}

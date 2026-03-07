@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.dynamical-systems.hilbert-16th-problem-second-part
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/hilbert_16th_problem_second_part_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hilbert''s 16th Problem (Second Part). Consider a system of two differential
+  equations in the plane where the right-hand sides are polynomials of degree n. The question asks: what is the maximum number
+  of closed loops (limit cycles) that the trajectories of such a system can form? Even for quadratic systems (n=2), this remains
+  unsolved.'
+parameters: {}

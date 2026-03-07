@@ -1,0 +1,14 @@
+problem_id: opa.phys.statistical-mechanics.3d-ising-model-phase-transition
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/3d_ising_model_phase_transition_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rigorous Analysis of the 3D Ising Model Phase Transition. The Ising model
+  describes magnetic spins on a lattice that prefer to align with their neighbors. In two dimensions, Onsager found an exact
+  solution in 1944. In three dimensions, we know a phase transition occurs (the material becomes magnetic below a critical
+  temperature), but we cannot prove the...'
+parameters: {}

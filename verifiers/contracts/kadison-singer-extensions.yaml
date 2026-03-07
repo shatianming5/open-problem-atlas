@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.operator-algebras.kadison-singer-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kadison_singer_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kadison-Singer Problem Extensions (Infinite-Dimensional Paving). The original
+  Kadison-Singer problem (solved in 2013) asked about extending certain linear functionals on diagonal operators. The solved
+  version dealt with finite-dimensional approximations. The remaining open extensions ask whether similar "paving" (breaking
+  matrices into small blocks that are ne...'
+parameters: {}

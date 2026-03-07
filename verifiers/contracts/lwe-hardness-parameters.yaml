@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.lwe-hardness-parameters
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/lwe_hardness_parameters_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: LWE Hardness Exact Parameters. How hard is the LWE problem as a function
+  of its parameters? The answer determines the security levels of most lattice-based cryptographic schemes.'
+parameters: {}

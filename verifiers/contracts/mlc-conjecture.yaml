@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.complex-analysis.mlc-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mlc_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: MLC Conjecture (Mandelbrot Set Locally Connected). The Mandelbrot set is
+  the famous fractal that catalogs the behavior of quadratic maps z -> z^2 + c. The MLC conjecture asserts that this set has
+  no "infinitely thin filaments" -- every point can be surrounded by an arbitrarily small connected neighborhood within the
+  set.'
+parameters: {}

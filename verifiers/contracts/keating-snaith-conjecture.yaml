@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.probability.keating-snaith-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/keating_snaith_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Keating-Snaith Conjecture. The moments of the Riemann zeta function along
+  the critical line grow like specific powers of log T, with precise constants predicted by modeling the zeta function as
+  a random unitary matrix.'
+parameters: {}

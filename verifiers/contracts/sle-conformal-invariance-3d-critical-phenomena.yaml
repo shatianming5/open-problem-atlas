@@ -1,0 +1,14 @@
+problem_id: opa.phys.statistical-mechanics.sle-conformal-invariance-3d-critical-phenomena
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sle_conformal_invariance_3d_critical_phenomena_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: SLE and Conformal Invariance for 3D Critical Phenomena. In two dimensions,
+  mathematicians developed a beautiful theory (SLE) for random curves that appear at phase transitions, proving they have
+  a special symmetry called conformal invariance. Can we extend this to three dimensions? Can we prove that the random surfaces
+  appearing at 3D phase transition...'
+parameters: {}

@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.harmonic-analysis.carleson-coefficients-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/carleson_coefficients_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dimension-Free Estimates in Harmonic Analysis. The Hardy-Littlewood maximal
+  function is one of the most basic tools in analysis, computing the maximal average of a function over balls. In high dimensions,
+  one expects it to remain well-behaved. The conjecture says its operator norm on L^p spaces does not blow up as the dimension
+  increases -- t...'
+parameters: {}

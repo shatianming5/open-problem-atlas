@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.holographic-entanglement-entropy-conjectures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/holographic_entanglement_entropy_conjectures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Holographic Entanglement Entropy Conjectures. In the AdS/CFT correspondence,
+  the entanglement entropy of a boundary region equals the area of a minimal surface in the bulk spacetime, plus quantum corrections.
+  Proving this rigorously and characterizing all possible entanglement structures in holographic theories is an open problem.'
+parameters: {}

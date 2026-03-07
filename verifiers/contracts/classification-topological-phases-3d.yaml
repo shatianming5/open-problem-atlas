@@ -1,0 +1,14 @@
+problem_id: opa.phys.condensed-matter-theory.classification-topological-phases-3d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/classification_topological_phases_3d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Classification of Topological Phases of Matter in 3D. Matter can exist in
+  exotic "topological phases" where the properties are determined not by symmetry breaking (like ordinary phases) but by global
+  quantum entanglement patterns. In two dimensions, we have a fairly complete mathematical classification of these phases.
+  The challenge is to achieve th...'
+parameters: {}

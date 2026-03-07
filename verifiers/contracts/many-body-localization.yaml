@@ -1,0 +1,13 @@
+problem_id: opa.phys.condensed-matter-theory.many-body-localization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/many_body_localization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Many-Body Localization. In most quantum systems, interactions cause thermalization.
+  Many-body localization claims that strong enough disorder can prevent thermalization even with interactions. Whether true
+  MBL exists in the thermodynamic limit is hotly debated.'
+parameters: {}

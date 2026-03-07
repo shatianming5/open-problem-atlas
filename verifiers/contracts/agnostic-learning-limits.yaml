@@ -1,0 +1,13 @@
+problem_id: opa.tcs.learning-theory.agnostic-learning-limits
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/agnostic_learning_limits_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Agnostic Learning Fundamental Limits. When learning without assuming the
+  data fits a model perfectly, how well can we learn? For basic concept classes like linear classifiers, even approximately
+  finding the best-fitting classifier is open.'
+parameters: {}

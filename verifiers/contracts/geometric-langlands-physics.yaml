@@ -1,0 +1,13 @@
+problem_id: opa.phys.mathematical-physics.geometric-langlands-physics
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/geometric_langlands_physics_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Geometric Langlands Conjecture (Physics Approach). Kapustin and Witten showed
+  that the geometric Langlands correspondence, one of the deepest conjectures in mathematics, can be understood as an electromagnetic
+  duality in physics. Making this physical argument into a proof is a grand challenge.'
+parameters: {}

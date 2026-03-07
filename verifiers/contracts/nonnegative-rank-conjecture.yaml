@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.mathematical-optimization.nonnegative-rank-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/nonnegative_rank_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nonnegative Rank vs Extension Complexity. How efficiently can combinatorial
+  optimization polytopes be represented as projections of simpler polytopes? Understanding this determines the power of linear
+  programming for combinatorial optimization.'
+parameters: {}

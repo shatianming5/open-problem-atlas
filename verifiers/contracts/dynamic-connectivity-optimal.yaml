@@ -1,0 +1,13 @@
+problem_id: opa.tcs.graph-algorithms.dynamic-connectivity-optimal
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/dynamic_connectivity_optimal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamic Connectivity Optimal Bounds. When a graph changes over time, how
+  fast can we determine whether two vertices are connected? The known algorithms take O(log^2 n) amortized time, but it is
+  unknown if this is optimal.'
+parameters: {}

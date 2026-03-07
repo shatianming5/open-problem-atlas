@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.berman-hartmanis-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/berman_hartmanis_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Berman-Hartmanis Isomorphism Conjecture. Are all NP-complete problems essentially
+  the same under efficient renaming? Can we always find a bijective efficient translation between any two NP-complete problems?'
+parameters: {}

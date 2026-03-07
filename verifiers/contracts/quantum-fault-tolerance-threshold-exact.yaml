@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.quantum-fault-tolerance-threshold-exact
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/quantum_fault_tolerance_threshold_exact_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Exact Quantum Fault Tolerance Threshold. How noisy can quantum gates be
+  before fault-tolerant quantum computing becomes impossible? We know a threshold exists, but its exact value for optimal
+  codes and realistic noise models is unknown.'
+parameters: {}

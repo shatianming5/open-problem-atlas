@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebraic-topology.birman-conjecture-braids
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/birman_conjecture_braids_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Birman''s Conjecture on Braid Groups. Certain natural subgroups of braid
+  groups (groups describing how strands can be intertwined) should have a particularly clean algebraic structure described
+  by a graph.'
+parameters: {}

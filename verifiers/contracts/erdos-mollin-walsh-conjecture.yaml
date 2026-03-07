@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.erdos-mollin-walsh-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/erdos_mollin_walsh_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Mollin-Walsh Conjecture. A powerful number is one where every prime
+  factor appears at least to the second power (like 4, 8, 9, 25, 27, ...). The conjecture says you can never find three powerful
+  numbers in a row.'
+parameters: {}

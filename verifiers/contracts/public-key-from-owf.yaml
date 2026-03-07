@@ -1,0 +1,13 @@
+problem_id: opa.tcs.cryptography.public-key-from-owf
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/public_key_from_owf_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Public-Key Cryptography from One-Way Functions. If hard-to-invert functions
+  exist, does that automatically mean we can do public-key cryptography? We know hard-to-invert functions give us symmetric
+  crypto, but it is open whether they give us asymmetric/public-key crypto.'
+parameters: {}

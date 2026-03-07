@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.total-coloring-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/total_coloring_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Total Coloring Conjecture. If you want to color both the vertices and edges
+  of a graph so that no two neighboring elements share a color, you never need more than Delta + 2 colors, where Delta is
+  the maximum degree.'
+parameters: {}

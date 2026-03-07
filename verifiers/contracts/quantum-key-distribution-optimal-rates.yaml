@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.quantum-key-distribution-optimal-rates
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/quantum_key_distribution_optimal_rates_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Key Rates in Quantum Key Distribution. What is the maximum rate
+  at which two parties can generate a shared secret key using a quantum channel, even against the most powerful eavesdropper
+  allowed by quantum mechanics? Finding exact answers for realistic channels is still open.'
+parameters: {}

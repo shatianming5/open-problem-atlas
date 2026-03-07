@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.lehmers-totient-problem
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/lehmers_totient_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lehmer''s Totient Problem. Euler''s totient function phi(n) counts how many
+  integers from 1 to n are coprime to n. For primes p, phi(p) = p - 1, which divides p - 1. The question asks whether any
+  composite number can also have the property that phi(n) divides n - 1.'
+parameters: {}

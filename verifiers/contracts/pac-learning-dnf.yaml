@@ -1,0 +1,13 @@
+problem_id: opa.tcs.learning-theory.pac-learning-dnf
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/pac_learning_dnf_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: PAC Learning DNF Formulas. Can we efficiently learn any Boolean function
+  expressible as a short OR-of-ANDs formula from random examples? This is one of the most basic open problems in computational
+  learning theory.'
+parameters: {}

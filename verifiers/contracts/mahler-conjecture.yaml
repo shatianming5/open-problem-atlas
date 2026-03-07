@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.convex-geometry.mahler-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/mahler_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mahler Conjecture. Among all centrally symmetric convex bodies, the hypercube
+  (and its dual, the cross-polytope) should minimize the product of the volume of the body and the volume of its polar dual.'
+parameters: {}

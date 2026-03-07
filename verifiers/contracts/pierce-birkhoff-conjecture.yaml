@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.commutative-algebra.pierce-birkhoff-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/pierce_birkhoff_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Pierce-Birkhoff Conjecture. Any continuous function that is polynomial on
+  each piece of a finite partition of R^n can be written using max and min of finitely many polynomials.'
+parameters: {}

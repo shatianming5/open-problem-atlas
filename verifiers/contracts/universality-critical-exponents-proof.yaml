@@ -1,0 +1,13 @@
+problem_id: opa.phys.statistical-mechanics.universality-critical-exponents-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/universality_critical_exponents_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Universality of Critical Exponents Proof. Why do completely different physical
+  systems behave identically near a phase transition? This remarkable phenomenon, called universality, has been observed experimentally
+  and computed numerically, but never proven mathematically.'
+parameters: {}

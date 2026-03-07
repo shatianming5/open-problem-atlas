@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.acc0-lower-bounds
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/acc0_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: ACC0 Circuit Lower Bounds. Can we prove that there are problems in NP that
+  cannot be solved by small constant-depth circuits even when those circuits are allowed to use modular counting gates?'
+parameters: {}

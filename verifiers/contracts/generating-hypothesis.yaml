@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.homological-algebra.generating-hypothesis
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/generating_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Freyd''s Generating Hypothesis. In stable homotopy theory, we study spaces
+  "up to suspension." The generating hypothesis says that stable homotopy groups detect everything: if a map between finite
+  spaces induces the zero map on all stable homotopy groups, then the map itself must be zero (stably).'
+parameters: {}

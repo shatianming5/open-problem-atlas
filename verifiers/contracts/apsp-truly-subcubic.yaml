@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.apsp-truly-subcubic
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/apsp_truly_subcubic_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: All-Pairs Shortest Paths in Truly Subcubic Time. Can we find shortest paths
+  between all pairs of vertices in a weighted graph significantly faster than the naive cubic-time algorithm?'
+parameters: {}

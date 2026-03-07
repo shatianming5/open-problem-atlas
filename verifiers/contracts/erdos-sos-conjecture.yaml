@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.extremal-combinatorics.erdos-sos-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/erdos_sos_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Sos Conjecture. If a graph has enough edges (average degree bigger
+  than k - 2), then it must contain every possible tree with k edges. Having many edges forces all tree shapes to appear.'
+parameters: {}

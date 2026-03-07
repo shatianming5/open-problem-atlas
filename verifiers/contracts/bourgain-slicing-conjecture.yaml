@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.convex-geometry.bourgain-slicing-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/bourgain_slicing_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bourgain''s Slicing Conjecture. Every high-dimensional convex body of unit
+  volume can be sliced by a hyperplane to produce a cross-section whose area is bounded below by a universal constant, regardless
+  of the dimension or shape of the body.'
+parameters: {}

@@ -1,0 +1,14 @@
+problem_id: opa.phys.quantum-field-theory.consistent-theory-of-quantum-gravity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/consistent_theory_of_quantum_gravity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of a Consistent Theory of Quantum Gravity. General relativity
+  describes gravity as the curvature of spacetime, and quantum mechanics describes the behavior of particles at the smallest
+  scales. Both theories are extraordinarily successful, but they are fundamentally incompatible: attempts to combine them
+  using standard techniques produce n...'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.commutative-algebra.tate-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/tate_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tate Conjecture. For varieties over finite fields or number fields, every
+  cohomology class that is fixed by the Galois symmetry group actually comes from a geometric object (an algebraic cycle).'
+parameters: {}

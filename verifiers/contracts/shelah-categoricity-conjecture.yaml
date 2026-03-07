@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.model-theory.shelah-categoricity-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/shelah_categoricity_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Shelah''s Categoricity Conjecture. In first-order logic, Morley proved that
+  if a theory has exactly one model of some uncountable size, it has exactly one model of every uncountable size. Shelah conjectured
+  this "transfer of uniqueness" should hold in a much more general logical setting called abstract elementary classes, which
+  en...'
+parameters: {}

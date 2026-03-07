@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.gyarfas-sumner-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/gyarfas_sumner_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gyarfas-Sumner Conjecture. If you forbid a specific tree as an induced subgraph,
+  then graphs cannot have a huge chromatic number unless they also have a large clique. Trees are "well-behaved" as forbidden
+  induced subgraphs in this sense.'
+parameters: {}

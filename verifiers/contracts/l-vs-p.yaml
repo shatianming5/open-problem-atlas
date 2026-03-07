@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.l-vs-p
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/l_vs_p_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: L vs P Problem. Can every problem solvable in polynomial time also be solved
+  using only logarithmic memory? This asks whether time-efficient computation can always be made space-efficient.'
+parameters: {}

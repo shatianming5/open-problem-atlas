@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.burnside-problem-bounded-exponent
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/burnside_problem_bounded_exponent_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Restricted Burnside Problem Generalizations. Consider a group generated
+  by d elements where every element raised to the n-th power equals the identity. Is this group always finite? The answer
+  is no for large n, and yes for small n, but the exact dividing line is unknown.'
+parameters: {}

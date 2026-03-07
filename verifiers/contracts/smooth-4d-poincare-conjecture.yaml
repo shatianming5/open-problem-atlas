@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.topology.smooth-4d-poincare-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/smooth_4d_poincare_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Smooth 4-Dimensional Poincare Conjecture. The standard 4-dimensional sphere
+  has a natural "smooth structure" that lets us do calculus on it. The conjecture asks: is this the only way to make the 4-sphere
+  smooth? Unlike other dimensions (where the answer is known), the 4-dimensional case remains wide open.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.ppt-bound-entanglement
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ppt_bound_entanglement_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: PPT Bound Entanglement Problem. Some quantum states are entangled but their
+  entanglement cannot be "purified" or concentrated into a useful form. The PPT bound entanglement problem asks whether having
+  a positive partial transpose is exactly the dividing line between distillable and undistillable entanglement.'
+parameters: {}

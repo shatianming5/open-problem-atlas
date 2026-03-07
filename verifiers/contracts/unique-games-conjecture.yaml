@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.unique-games-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/unique_games_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Unique Games Conjecture. Consider a system of "unique" constraints where
+  each constraint relates two variables via a one-to-one mapping over a set of labels. The conjecture says that even approximately
+  deciding whether nearly all constraints can be satisfied (versus almost none can be) is computationally intractable (NP-...'
+parameters: {}

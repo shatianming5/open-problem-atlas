@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.mip-star-equals-re
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mip_star_equals_re_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: MIP* = RE. If two provers who share unlimited quantum entanglement try to
+  convince a classical verifier of a statement, they can convince the verifier of any statement that is true (recursively
+  enumerable), even undecidable ones like the halting problem. This was proven by Ji, Natarajan, Vidick, Wright, and...'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.rotas-basis-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/rotas_basis_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rota''s Basis Conjecture. Given n bases of a matroid, each with n elements,
+  arrange them in a grid. Can you always rearrange each row so that every column also forms a basis? Rota conjectured yes.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.mcsp-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mcsp_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimum Circuit Size Problem Complexity. Given a complete description of
+  a Boolean function and a size bound, can we efficiently determine whether there exists a small circuit computing that function?
+  This problem is known to be in NP but its exact hardness is a mystery.'
+parameters: {}

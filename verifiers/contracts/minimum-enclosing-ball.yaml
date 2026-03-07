@@ -1,0 +1,13 @@
+problem_id: opa.tcs.computational-geometry.minimum-enclosing-ball
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/minimum_enclosing_ball_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimum Enclosing Ball Algorithms in High Dimensions. How fast can we find
+  the smallest sphere containing a set of points, especially when the number of dimensions is large? This is easy in low dimensions
+  but becomes challenging in high dimensions.'
+parameters: {}

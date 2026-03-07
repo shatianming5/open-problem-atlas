@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.analysis.navier-stokes-existence-and-smoothness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/navier_stokes_existence_and_smoothness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Navier-Stokes Existence and Smoothness. The Navier-Stokes equations describe
+  the motion of fluids like water and air. In three dimensions, we do not know whether smooth solutions always exist for all
+  time, or whether the fluid can develop a "singularity" where the velocity becomes infinite. This problem asks for a definitive
+  answer.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.bunyakovsky-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/bunyakovsky_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bunyakovsky Conjecture. If you have a polynomial with integer coefficients
+  that cannot be factored further, and there is no single number greater than 1 that divides all of its positive-integer outputs,
+  then the polynomial must produce infinitely many prime values.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.homomorphic-encryption-efficiency
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/homomorphic_encryption_efficiency_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fully Homomorphic Encryption Efficiency. Can we perform computations on
+  encrypted data with only a small (ideally constant) overhead compared to computing on unencrypted data?'
+parameters: {}

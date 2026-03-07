@@ -1,0 +1,13 @@
+problem_id: opa.tcs.quantum-computing.quantum-communication-complexity
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/quantum_communication_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Communication Complexity Advantages. How much can quantum communication
+  reduce the amount of information two parties need to exchange to compute a joint function? For all functions (not just specially
+  constructed ones), is the quantum advantage limited?'
+parameters: {}

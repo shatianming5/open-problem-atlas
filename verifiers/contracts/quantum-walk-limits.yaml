@@ -1,0 +1,13 @@
+problem_id: opa.tcs.quantum-computing.quantum-walk-limits
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/quantum_walk_limits_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Walk Algorithms Limits. Quantum walks (the quantum analogue of random
+  walks) give speedups for many problems. But how far can this approach go? Are there natural problems where quantum walks
+  give exponential speedups, or are polynomial speedups the limit?'
+parameters: {}

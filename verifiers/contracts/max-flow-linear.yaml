@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.max-flow-linear
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/max_flow_linear_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maximum Flow in Linear Time. Can we compute the maximum flow through a network
+  in time proportional to just reading the input? Recent breakthroughs got very close, but truly linear time remains elusive.'
+parameters: {}

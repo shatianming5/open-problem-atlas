@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.differential-equations.leray-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/leray_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Leray''s Conjecture on Self-Similar Blow-Up. If the Navier-Stokes equations
+  describing fluid flow were to develop a singularity (blow-up), it cannot happen in a self-similar way -- the simplest type
+  of singularity is ruled out.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.convex-geometry.log-brunn-minkowski-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/log_brunn_minkowski_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Log-Brunn-Minkowski Conjecture. The conjecture proposes a multiplicative
+  (logarithmic) strengthening of the classical Brunn-Minkowski inequality for origin-symmetric convex bodies, replacing the
+  usual Minkowski addition with a geometric-mean operation on support functions.'
+parameters: {}

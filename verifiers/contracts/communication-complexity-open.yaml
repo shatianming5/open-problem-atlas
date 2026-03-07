@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.communication-complexity-open
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/communication_complexity_open_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Log-Rank Conjecture in Communication Complexity. When two parties need to
+  compute a joint function of their inputs by exchanging messages, is the amount of communication needed always bounded by
+  a polynomial in the logarithm of the rank of the function''s truth table viewed as a matrix?'
+parameters: {}

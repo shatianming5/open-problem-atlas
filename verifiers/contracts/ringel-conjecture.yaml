@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.enumerative-combinatorics.ringel-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/ringel_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ringel''s Conjecture. Any tree with n edges can tile the complete graph
+  on 2n+1 vertices perfectly -- the edges of the complete graph can be partitioned into 2n+1 copies of the tree with no overlaps.'
+parameters: {}

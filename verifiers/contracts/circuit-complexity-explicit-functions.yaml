@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.circuit-complexity-explicit-functions
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/circuit_complexity_explicit_functions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Circuit Complexity of Explicit Functions. Can we prove that some specific,
+  natural Boolean function requires large circuits to compute? Despite knowing that most functions require exponential-size
+  circuits (by counting arguments), we cannot prove more than a roughly 3n lower bound for any explicit function.'
+parameters: {}

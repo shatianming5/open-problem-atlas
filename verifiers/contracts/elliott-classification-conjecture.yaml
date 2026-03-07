@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.operator-algebras.elliott-classification-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/elliott_classification_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Elliott Classification Conjecture. C*-algebras are algebras of operators
+  on Hilbert spaces, fundamental in quantum mechanics and noncommutative geometry. Elliott conjectured that the "well-behaved"
+  (nuclear) ones that are also simple (have no ideals) can be completely characterized by a small collection of algebraic
+  and topologica...'
+parameters: {}

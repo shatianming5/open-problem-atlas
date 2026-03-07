@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.geometry.bellman-lost-in-forest
+backend: python_checker
+task_type: counterexample_search
+checker:
+  file: verifiers/checkers/auto/bellman_lost_in_forest_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bellman''s Lost-in-a-Forest Problem. You are lost in a forest of known shape
+  but unknown position and direction. What is the shortest path you can walk to guarantee escaping the forest, no matter where
+  you started and which way you are facing?'
+parameters: {}

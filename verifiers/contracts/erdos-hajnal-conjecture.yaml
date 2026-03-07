@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.erdos-hajnal-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/erdos_hajnal_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Hajnal Conjecture. If a graph avoids some fixed pattern as an induced
+  subgraph, then it must contain either a very large clique or a very large independent set -- specifically, of polynomial
+  size in the number of vertices, rather than just logarithmic size.'
+parameters: {}

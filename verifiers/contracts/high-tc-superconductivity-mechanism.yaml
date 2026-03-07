@@ -1,0 +1,13 @@
+problem_id: opa.phys.condensed-matter-theory.high-tc-superconductivity-mechanism
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/high_tc_superconductivity_mechanism_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mechanism of High-Temperature Superconductivity. High-temperature superconductors
+  conduct electricity with zero resistance at temperatures far above what conventional theory predicts. Despite decades of
+  research, we still don''t have a proven theory for how this works.'
+parameters: {}

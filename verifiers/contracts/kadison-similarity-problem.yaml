@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.operator-algebras.kadison-similarity-problem
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/kadison_similarity_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kadison''s Similarity Problem. When you represent a C*-algebra (a special
+  algebra of operators) as operators on a Hilbert space, a well-behaved representation preserves the adjoint operation. Kadison
+  asked whether every bounded (but not necessarily adjoint-preserving) representation can be "corrected" by a change of basis
+  to b...'
+parameters: {}

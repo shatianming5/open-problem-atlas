@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.differential-equations.hot-spots-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/hot_spots_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hot Spots Conjecture. If you heat a flat, insulated metal plate, the hottest
+  and coldest spots will eventually end up on the boundary, not in the interior. This is conjectured to hold for all convex
+  domains, but the general case for simply connected domains is open.'
+parameters: {}

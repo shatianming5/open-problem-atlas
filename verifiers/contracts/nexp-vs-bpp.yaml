@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.nexp-vs-bpp
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/nexp_vs_bpp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: NEXP vs BPP Problem. Can randomized polynomial-time algorithms solve all
+  problems solvable by nondeterministic exponential-time machines? It is widely believed that NEXP is much more powerful than
+  BPP, but a proof remains elusive.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.bpp-vs-p
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/bpp_vs_p_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: BPP vs P Problem. Does access to random coin flips give computers any extra
+  power for solving problems efficiently? Or can every problem that can be solved quickly with randomness also be solved quickly
+  without it? Most experts believe randomness does not help — that P = BPP — but proving this remains open.'
+parameters: {}

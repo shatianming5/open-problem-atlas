@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.vizings-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/vizings_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Vizing''s Conjecture. The minimum number of vertices needed to dominate
+  the Cartesian product of two graphs is at least the product of the domination numbers of the individual graphs. In other
+  words, domination does not become easier in the product.'
+parameters: {}

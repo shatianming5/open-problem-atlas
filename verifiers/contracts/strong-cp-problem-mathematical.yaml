@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-field-theory.strong-cp-problem-mathematical
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/strong_cp_problem_mathematical_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Strong CP Problem Mathematical Formulation. QCD has a parameter theta that
+  could violate CP symmetry (the symmetry between matter and antimatter). Experiments show theta is essentially zero, but
+  there''s no known reason why. Why is theta so small? This is the strong CP problem.'
+parameters: {}

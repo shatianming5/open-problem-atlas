@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.topology.hilbert-smith-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/hilbert_smith_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hilbert–Smith Conjecture. If a group acts continuously and faithfully on
+  a manifold, the group must itself be a smooth object (a Lie group). In particular, exotic groups like the p-adic integers
+  cannot act in this way.'
+parameters: {}

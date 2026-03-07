@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.category-theory.deninger-program
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/deninger_program_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Deninger''s Program. There should exist a geometric/dynamical object whose
+  spectral properties encode the zeros of the Riemann zeta function. Finding and rigorously constructing this object would
+  prove the Riemann Hypothesis.'
+parameters: {}

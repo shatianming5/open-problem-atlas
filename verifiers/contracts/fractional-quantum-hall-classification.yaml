@@ -1,0 +1,13 @@
+problem_id: opa.phys.condensed-matter-theory.fractional-quantum-hall-classification
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/fractional_quantum_hall_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Classification of Fractional Quantum Hall States. The fractional quantum
+  Hall effect produces exotic states of matter with fractionally charged excitations. Classifying all possible such states
+  and their exotic braiding statistics is a major open problem in condensed matter theory.'
+parameters: {}

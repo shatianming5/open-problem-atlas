@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-field-theory.confinement-in-qcd
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/confinement_in_qcd_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Confinement in Quantum Chromodynamics. Why can''t we ever see a single quark?
+  QCD predicts that the force between quarks grows with distance, permanently confining them inside protons and neutrons.
+  But no one has proven this mathematically from the fundamental theory.'
+parameters: {}

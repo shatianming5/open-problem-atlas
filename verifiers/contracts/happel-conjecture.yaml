@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebra.happel-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/happel_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Happel''s Conjecture. If the derived category of a finite-dimensional algebra
+  is well-behaved (has no self-extensions of a certain type and possesses a tilting object), then the algebra should be essentially
+  as simple as a hereditary algebra (one with no higher extension groups).'
+parameters: {}

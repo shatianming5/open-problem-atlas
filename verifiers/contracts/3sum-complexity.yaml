@@ -1,0 +1,14 @@
+problem_id: opa.tcs.algorithms.3sum-complexity
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/3sum_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: 3SUM Complexity: Is There an O(n log n) Algorithm?. Given a list of n numbers,
+  can we find three of them that add up to zero faster than checking almost all triples? The obvious approach takes time proportional
+  to n-squared. Can we do significantly better, perhaps in time proportional to n times log(n)? Most researchers believe we
+  cannot do much b...'
+parameters: {}

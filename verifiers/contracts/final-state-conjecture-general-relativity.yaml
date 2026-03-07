@@ -1,0 +1,14 @@
+problem_id: opa.phys.general-relativity.final-state-conjecture-general-relativity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/final_state_conjecture_general_relativity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Final State Conjecture in General Relativity. According to general relativity,
+  what is the ultimate fate of a gravitating system? The final state conjecture says that any isolated gravitational system
+  will eventually settle down to a collection of Kerr black holes (rotating black holes described by just mass and spin) flying
+  apart, plus grav...'
+parameters: {}

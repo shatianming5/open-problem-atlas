@@ -1,0 +1,13 @@
+problem_id: opa.phys.statistical-mechanics.self-avoiding-walk-connective-constant
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/self_avoiding_walk_connective_constant_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Self-Avoiding Walk Connective Constant. A self-avoiding walk never revisits
+  a point. How many SAWs of length n are there? The answer grows like mu^n, where mu is the connective constant. Finding the
+  exact value of mu for most lattices is an open problem.'
+parameters: {}

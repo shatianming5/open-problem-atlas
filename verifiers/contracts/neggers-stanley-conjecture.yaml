@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.order-theory.neggers-stanley-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/neggers_stanley_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Neggers-Stanley Conjecture. A polynomial that counts the number of ways
+  to assign values from {1,...,t} to elements of a partially ordered set in an order-respecting way should, after a suitable
+  transformation, have only real roots.'
+parameters: {}

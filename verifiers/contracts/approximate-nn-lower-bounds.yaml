@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.approximate-nn-lower-bounds
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/approximate_nn_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Approximate Nearest Neighbor Lower Bounds. What is the best possible tradeoff
+  for approximate nearest neighbor search? We have good algorithms (like LSH) but do not know if they are optimal.'
+parameters: {}

@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.complex-analysis.fatou-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fatou_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fatou Conjecture (Density of Hyperbolicity). Among all polynomial or rational
+  maps that define dynamical systems on the complex plane, the "well-behaved" (hyperbolic) ones should be the typical case.
+  The conjecture says that for almost any parameter value, the corresponding dynamical system is structurally stable -- chaotic
+  maps that are no...'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-field-theory.constructive-qft-4d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/constructive_qft_4d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Constructive Quantum Field Theory in 4D. Despite the enormous success of
+  quantum field theory in physics, no one has ever rigorously constructed a single interacting quantum field theory in the
+  physical four-dimensional spacetime. Can this be done for any model?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.matroid-theory.dowling-wilson-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/dowling_wilson_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dowling-Wilson Top-Heavy Conjecture. In any matroid, there are at least
+  as many high-rank flats as low-rank flats. The number of subspaces "increases toward the top" of the lattice.'
+parameters: {}

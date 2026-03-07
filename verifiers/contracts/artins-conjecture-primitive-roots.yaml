@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.homological-algebra.artins-conjecture-primitive-roots
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/artins_conjecture_primitive_roots_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Artin''s Conjecture on Primitive Roots. A primitive root modulo a prime
+  p is a number whose successive powers give all nonzero remainders when divided by p. Artin conjectured that any "generic"
+  integer (not -1 or a perfect square) serves as a primitive root for infinitely many primes, and this happens with a predictable
+  frequency.'
+parameters: {}

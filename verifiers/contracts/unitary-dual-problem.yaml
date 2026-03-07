@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.representation-theory.unitary-dual-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/unitary_dual_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Unitary Dual Problem for Reductive Groups. A "representation" describes
+  how a symmetry group can act on a vector space by rotations and reflections. The unitary dual problem asks for a complete
+  list of all the basic (irreducible) ways a given Lie group can act while preserving lengths and angles (unitarily). This
+  is the fundamental classi...'
+parameters: {}

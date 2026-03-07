@@ -1,0 +1,13 @@
+problem_id: opa.phys.statistical-mechanics.dimer-model-3d
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/dimer_model_3d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dimer Model Exact Solutions in 3D. How many ways can you perfectly tile
+  a 3D box with dominoes? In 2D, there is a beautiful exact formula. In 3D, no exact solution is known, and it is unclear
+  whether one exists.'
+parameters: {}

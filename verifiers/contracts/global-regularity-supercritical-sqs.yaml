@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.partial-differential-equations.global-regularity-supercritical-sqs
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/global_regularity_supercritical_sqs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Global Regularity for Supercritical Surface Quasi-Geostrophic Equation.
+  The surface quasi-geostrophic equation is a 2D model from geophysics that shares many structural features with the 3D Euler
+  equations. The question is whether smooth solutions can develop singularities in finite time.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.phys.statistical-mechanics.griffiths-singularities-rigorous
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/griffiths_singularities_rigorous_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Griffiths Singularities Rigorous Treatment. In disordered magnets, rare
+  regions can locally order at temperatures above the bulk critical temperature, creating unusual singularities. Rigorously
+  characterizing these subtle effects is an important open problem.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-field-theory.renormalization-group-rigorous
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/renormalization_group_rigorous_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rigorous Treatment of the Renormalization Group. The renormalization group
+  is one of the most powerful tools in physics, explaining why different physical systems behave the same near phase transitions.
+  But a complete rigorous mathematical treatment is still missing.'
+parameters: {}

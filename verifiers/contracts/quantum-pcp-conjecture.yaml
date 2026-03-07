@@ -1,0 +1,14 @@
+problem_id: opa.tcs.quantum-computing.quantum-pcp-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/quantum_pcp_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum PCP Conjecture. The classical PCP theorem says you can verify any
+  mathematical proof by reading only a few random bits of it. The quantum PCP conjecture asks whether a similar phenomenon
+  holds for quantum proofs: is it computationally hard even to approximately determine the lowest energy state of a quantum
+  syst...'
+parameters: {}

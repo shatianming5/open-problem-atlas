@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.erdos-straus-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/erdos_straus_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Straus Conjecture. The conjecture claims that for any integer n >=
+  2, the fraction 4/n can always be written as a sum of exactly three unit fractions (fractions with numerator 1).'
+parameters: {}

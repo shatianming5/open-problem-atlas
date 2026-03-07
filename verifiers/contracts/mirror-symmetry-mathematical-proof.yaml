@@ -1,0 +1,13 @@
+problem_id: opa.phys.mathematical-physics.mirror-symmetry-mathematical-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mirror_symmetry_mathematical_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mirror Symmetry Mathematical Proof. Mirror symmetry is a deep duality from
+  string theory that relates pairs of Calabi-Yau manifolds, exchanging their complex and symplectic geometry. Proving this
+  duality rigorously is one of the central challenges of modern mathematics.'
+parameters: {}

@@ -1,0 +1,14 @@
+problem_id: opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/yang_mills_existence_and_mass_gap_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Yang-Mills Existence and Mass Gap. Yang-Mills theory describes the fundamental
+  forces (strong and weak nuclear forces) in the Standard Model of particle physics. The problem asks: can we rigorously prove
+  that this theory makes mathematical sense (satisfies fundamental axioms of quantum field theory) and that the lightest particle
+  ...'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.hadwiger-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/hadwiger_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hadwiger Conjecture. If a graph needs at least t colors to color its vertices
+  (so that no two adjacent vertices share a color), then it must contain a "squished" version of the complete graph on t vertices
+  as a substructure.'
+parameters: {}

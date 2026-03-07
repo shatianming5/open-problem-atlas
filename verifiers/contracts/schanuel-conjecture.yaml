@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.schanuel-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/schanuel_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Schanuel''s Conjecture. Given n complex numbers that are linearly independent
+  over the rationals, the 2n numbers formed by these numbers together with their exponentials contain at least n that are
+  algebraically independent. This would settle nearly all open problems in transcendental number theory.'
+parameters: {}

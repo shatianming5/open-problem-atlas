@@ -1,0 +1,14 @@
+problem_id: opa.phys.quantum-information.quantum-unique-games-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_unique_games_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Unique Games Conjecture. The classical Unique Games Conjecture is
+  a central assumption in computational complexity that implies tight hardness-of-approximation results. The quantum version
+  asks: if two provers in a unique game are allowed to share quantum entanglement, does the problem remain hard, or can entanglement
+  he...'
+parameters: {}

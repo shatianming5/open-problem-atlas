@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.complex-analysis.sendov-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/sendov_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sendov''s Conjecture. Consider a polynomial whose roots all lie within the
+  unit circle in the complex plane. Sendov conjectured that near each root, there is always a critical point (a place where
+  the derivative vanishes) within distance 1. Despite its elementary statement, this conjecture has been open since 1958.'
+parameters: {}

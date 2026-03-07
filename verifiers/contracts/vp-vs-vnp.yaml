@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.vp-vs-vnp
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/vp_vs_vnp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: VP vs VNP Problem. Is the permanent polynomial as easy to compute as the
+  determinant? This is the algebraic analogue of P vs NP, asking whether every polynomial with a short description also has
+  a short computation.'
+parameters: {}

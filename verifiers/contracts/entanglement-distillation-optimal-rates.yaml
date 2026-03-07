@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.entanglement-distillation-optimal-rates
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/entanglement_distillation_optimal_rates_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Rates of Entanglement Distillation. Given many copies of a noisy
+  entangled state shared between two distant parties, what is the best rate at which they can distill pure Bell pairs using
+  only local operations and classical communication? Finding this rate for general states remains an open problem.'
+parameters: {}

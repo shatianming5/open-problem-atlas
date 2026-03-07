@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.differential-geometry.hopf-conjecture-positive-curvature
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/hopf_conjecture_positive_curvature_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hopf Conjecture (Positive Sectional Curvature). In Riemannian geometry,
+  sectional curvature measures how curved a space is in each 2-dimensional direction. If a compact even-dimensional manifold
+  curves positively in every direction, Hopf conjectured that a topological invariant called the Euler characteristic must
+  be positive. This is known in...'
+parameters: {}

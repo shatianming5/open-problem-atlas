@@ -1,0 +1,13 @@
+problem_id: opa.tcs.cryptography.ideal-lattice-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ideal_lattice_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ideal Lattice Problems Hardness. Lattice-based cryptography uses structured
+  lattices for efficiency, but does that structure make the underlying mathematical problems easier to solve? If so, the security
+  of many proposed post-quantum cryptosystems could be compromised.'
+parameters: {}

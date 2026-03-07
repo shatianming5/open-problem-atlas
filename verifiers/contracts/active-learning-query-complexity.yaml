@@ -1,0 +1,13 @@
+problem_id: opa.tcs.learning-theory.active-learning-query-complexity
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/active_learning_query_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Active Learning Query Complexity. If a learning algorithm can choose which
+  data points to get labels for (rather than receiving random labeled data), how many labels does it need? When does this
+  adaptive querying help significantly?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.learning-theory.computational-statistical-gap
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/computational_statistical_gap_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Computational-Statistical Gap. Some learning problems can be solved with
+  very few examples if we have unlimited computation time, but all known efficient algorithms need many more examples. Is
+  this gap inherent, or are we missing better algorithms?'
+parameters: {}

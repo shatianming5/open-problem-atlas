@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.topology.kervaire-invariant-problem
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/kervaire_invariant_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kervaire Invariant Problem. A classical topological invariant called the
+  Kervaire invariant is known to be nontrivial in certain specific dimensions. The question of whether it is nontrivial in
+  dimension 126 is the last unsettled case.'
+parameters: {}

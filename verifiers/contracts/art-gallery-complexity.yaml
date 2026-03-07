@@ -1,0 +1,13 @@
+problem_id: opa.tcs.computational-geometry.art-gallery-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/art_gallery_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Art Gallery Problem Computational Complexity. How hard is it to compute
+  the minimum number of guards needed to watch every point in an art gallery (polygon)? We know it is NP-hard, but is it even
+  in NP?'
+parameters: {}

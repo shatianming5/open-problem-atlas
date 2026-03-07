@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.union-closed-sets-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/union_closed_sets_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Union-Closed Sets Conjecture. Consider a collection of sets that is closed
+  under taking unions (combining any two sets in the collection produces another set that is also in the collection). The
+  conjecture says there must be some element that appears in at least half the sets.'
+parameters: {}

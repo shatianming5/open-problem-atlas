@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.entanglement-entropy-area-law-general
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entanglement_entropy_area_law_general_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entanglement Entropy Area Law in General. For quantum systems with a gap
+  above the ground state, the entanglement between a region and its complement should be proportional to the boundary area,
+  not the volume. This "area law" has been proven in one dimension but remains unproven in higher dimensions.'
+parameters: {}

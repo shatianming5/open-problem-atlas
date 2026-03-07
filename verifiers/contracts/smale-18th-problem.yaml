@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.mathematical-optimization.smale-18th-problem
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/smale_18th_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Smale''s 18th Problem. Can we mathematically characterize the ultimate limits
+  of what any intelligent system (biological or artificial) can learn, given bounded computational resources and finite data?
+  This is the most open-ended of Smale''s problems for the 21st century.'
+parameters: {}

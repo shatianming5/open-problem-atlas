@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.quantum-hamiltonian-complexity-qma
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_hamiltonian_complexity_qma_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Hamiltonian Complexity and QMA-completeness. Is approximating the
+  ground state energy of quantum systems hard even when we only need a rough estimate? The quantum PCP conjecture says yes,
+  which would have profound implications for quantum computing and physics.'
+parameters: {}

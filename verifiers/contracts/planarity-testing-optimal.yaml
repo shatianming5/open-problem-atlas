@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.planarity-testing-optimal
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/planarity_testing_optimal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Planarity Testing in Optimal Parallel Time. We can test whether a graph
+  is planar in linear time, but can we do it efficiently in parallel? And what about when the graph keeps changing?'
+parameters: {}

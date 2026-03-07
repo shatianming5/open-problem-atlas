@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.tfnp-structure
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tfnp_structure_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Structure of Total NP Search Problems (TFNP). For computational problems
+  where a solution always exists (like finding a Nash equilibrium), how do the different complexity subclasses relate to each
+  other? What is the full landscape of hardness for guaranteed-to-exist solutions?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.union-find-optimal
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/union_find_optimal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Union-Find Optimal Bounds. The union-find data structure is essentially
+  optimal for the pointer machine model, but what about for modern computing models that account for parallelism, caching,
+  and concurrency?'
+parameters: {}

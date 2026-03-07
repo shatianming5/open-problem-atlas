@@ -1,0 +1,14 @@
+problem_id: opa.phys.general-relativity.cosmic-censorship-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cosmic_censorship_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cosmic Censorship Conjecture. When a massive star collapses under its own
+  gravity, general relativity predicts that a singularity (a point of infinite density) forms. The cosmic censorship conjecture
+  says that such singularities are always hidden inside black holes and can never be "naked" (visible to distant observers).
+  The ...'
+parameters: {}

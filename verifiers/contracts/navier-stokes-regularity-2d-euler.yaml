@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.partial-differential-equations.navier-stokes-regularity-2d-euler
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/navier_stokes_regularity_2d_euler_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Global Regularity of 3D Euler Equations. The 3D Euler equations describe
+  the motion of an ideal (inviscid, incompressible) fluid. Starting from smooth initial conditions, does the fluid flow always
+  remain smooth, or can it develop infinite vorticity in finite time? This is one of the fundamental open problems in mathematical
+  fluid dynam...'
+parameters: {}

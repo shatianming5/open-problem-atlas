@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.hardy-littlewood-k-tuple-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/hardy_littlewood_k_tuple_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hardy-Littlewood k-Tuple Conjecture. Consider any pattern of gaps between
+  primes that is not ruled out by simple divisibility obstructions. The conjecture predicts that this pattern appears infinitely
+  often among the primes, and gives an exact formula for how frequently it appears.'
+parameters: {}

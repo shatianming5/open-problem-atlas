@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.brocards-problem
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/brocards_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Brocard''s Problem. Are there any factorials other than 4! = 24, 5! = 120,
+  and 7! = 5040 such that adding 1 gives a perfect square? (Since 25, 121, and 5041 are all perfect squares.) The conjecture
+  is that no other such factorials exist.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.phys.condensed-matter-theory.anderson-metal-insulator-transition
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/anderson_metal_insulator_transition_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Anderson Metal-Insulator Transition. In a crystal with random impurities,
+  electrons can either spread freely (metal) or get trapped (insulator). Proving that this metal-insulator transition exists
+  in 3D is one of the most important open problems in mathematical physics.'
+parameters: {}

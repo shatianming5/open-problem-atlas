@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.commutative-algebra.casas-alvero-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/casas_alvero_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Casas-Alvero Conjecture. If a polynomial shares a root with each of its
+  derivatives (first, second, ..., up to the (n-1)-st), then it must be a power of a linear factor.'
+parameters: {}

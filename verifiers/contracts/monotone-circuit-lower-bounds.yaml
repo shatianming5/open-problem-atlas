@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.monotone-circuit-lower-bounds
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/monotone_circuit_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Monotone Circuit Lower Bounds. How much does negation help in circuit computation?
+  For which problems does removing NOT gates make circuits exponentially larger?'
+parameters: {}

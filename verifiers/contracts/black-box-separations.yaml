@@ -1,0 +1,13 @@
+problem_id: opa.tcs.cryptography.black-box-separations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/black_box_separations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Black-Box Separations of Cryptographic Primitives. We know many cryptographic
+  tools cannot be built from simpler ones using standard "black-box" techniques. But are these limitations fundamental, or
+  can clever non-standard techniques overcome them?'
+parameters: {}

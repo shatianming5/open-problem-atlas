@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.differential-geometry.yau-first-eigenvalue-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/yau_first_eigenvalue_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Yau''s Conjecture on the First Eigenvalue. Minimal surfaces in spheres are
+  surfaces that locally minimize area. Yau conjectured that for any such surface embedded (without self-intersections) in
+  the sphere, the lowest nontrivial frequency of vibration (first eigenvalue of the Laplacian) takes a specific universal
+  value that depends only o...'
+parameters: {}

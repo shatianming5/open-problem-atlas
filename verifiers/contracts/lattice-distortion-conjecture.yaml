@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.lattice-theory.lattice-distortion-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/lattice_distortion_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lattice Distortion Problem. How well can the metric structure of lattices
+  be preserved when embedded into familiar geometric spaces? The worst-case distortion for embedding lattice metrics into
+  L^1 is poorly understood.'
+parameters: {}

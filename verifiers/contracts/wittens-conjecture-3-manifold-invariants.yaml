@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-field-theory.wittens-conjecture-3-manifold-invariants
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/wittens_conjecture_3_manifold_invariants_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Witten''s Conjecture on 3-Manifold Invariants. Witten showed that quantum
+  field theory (Chern-Simons theory) naturally produces invariants of 3-dimensional manifolds and knots. While mathematicians
+  have constructed these invariants by other means, proving that the physics approach is rigorous and equivalent remains open.'
+parameters: {}

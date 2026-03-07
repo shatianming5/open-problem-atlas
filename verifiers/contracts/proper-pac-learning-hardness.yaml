@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.proper-pac-learning-hardness
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/proper_pac_learning_hardness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Proper PAC Learning Hardness. When learning, does it matter if the hypothesis
+  we output has the same form as the target function? Is it sometimes fundamentally easier to learn using a different representation?'
+parameters: {}

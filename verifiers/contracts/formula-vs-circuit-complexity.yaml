@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.formula-vs-circuit-complexity
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/formula_vs_circuit_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Formula vs Circuit Complexity Gap. Formulas are a restricted form of circuits
+  where intermediate results cannot be reused. Is there a natural function that can be computed by small circuits but requires
+  very large formulas?'
+parameters: {}

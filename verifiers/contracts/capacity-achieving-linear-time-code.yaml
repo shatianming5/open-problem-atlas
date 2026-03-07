@@ -1,0 +1,14 @@
+problem_id: opa.tcs.information-theory.capacity-achieving-linear-time-code
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/capacity_achieving_linear_time_code_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Capacity-Achieving Code with Linear-Time Encoding and Decoding. Shannon
+  proved in 1948 that reliable communication over a noisy channel is possible up to a fundamental limit called the channel
+  capacity. But can we build practical codes that reach this limit while being extremely fast — encoding and decoding each
+  message in time proportional to its length?'
+parameters: {}

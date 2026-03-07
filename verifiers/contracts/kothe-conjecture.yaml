@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebra.kothe-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kothe_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kothe Conjecture. In a ring (an algebraic structure with addition and multiplication),
+  a nil ideal is one where every element, when raised to some power, gives zero. The conjecture asks: if there is no "global"
+  nil ideal, can there still be a "one-sided" nil ideal?'
+parameters: {}

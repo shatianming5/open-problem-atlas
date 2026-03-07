@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.measure-theory.uhl-conjecture-measures
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/uhl_conjecture_measures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Uhl''s Conjecture on Vector Measures. Which Banach spaces have the property
+  that vector-valued measures always have densities? The conjecture connects this analytic property to the geometry of convex
+  sets in the space.'
+parameters: {}

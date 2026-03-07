@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebra.kaplansky-unit-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kaplansky_unit_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kaplansky''s Unit Conjecture. If you form the group ring of a torsion-free
+  group over a field, the conjecture says the only invertible elements are the obvious ones: nonzero scalar multiples of single
+  group elements.'
+parameters: {}

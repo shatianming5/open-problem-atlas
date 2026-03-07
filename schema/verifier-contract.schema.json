@@ -29,7 +29,8 @@
         "witness_search",
         "bound_verification",
         "conjecture_check_range",
-        "proof_check"
+        "proof_check",
+        "statement_verification"
       ],
       "description": "The type of verification task"
     },

@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.probability.entropy-power-inequality-extensions
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/entropy_power_inequality_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entropy Power Inequality for Dependent Variables. The classical entropy
+  power inequality (Shannon, Stam) says that the "entropy power" of the sum of independent random variables is at least the
+  sum of their entropy powers. The open problem asks whether this extends from Shannon entropy to the full family of Rényi
+  entropies.'
+parameters: {}

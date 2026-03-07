@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.dynamic-graph-lower-bounds
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/dynamic_graph_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamic Graph Algorithms Lower Bounds. When a graph changes over time (edges
+  are inserted and deleted), we want to efficiently answer queries about it. Can we prove that some natural dynamic graph
+  problems truly require significant update or query time?'
+parameters: {}

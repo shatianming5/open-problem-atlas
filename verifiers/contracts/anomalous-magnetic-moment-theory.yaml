@@ -1,0 +1,14 @@
+problem_id: opa.phys.quantum-field-theory.anomalous-magnetic-moment-theory
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/anomalous_magnetic_moment_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Muon Anomalous Magnetic Moment Theory Prediction. The muon''s magnetic moment
+  has been measured to exquisite precision and may disagree with the Standard Model prediction, hinting at new physics. But
+  the theory prediction itself is uncertain because of difficulties computing the strong-force contributions. Resolving this
+  is one of the most pressi...'
+parameters: {}

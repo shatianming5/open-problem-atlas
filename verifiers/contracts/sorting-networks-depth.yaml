@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.sorting-networks-depth
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/sorting_networks_depth_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Depth of Sorting Networks. We know sorting networks of depth O(log
+  n) exist, but the known constructions have huge hidden constants. Can we build sorting networks with both optimal depth
+  and practical constants?'
+parameters: {}

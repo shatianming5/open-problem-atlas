@@ -1,0 +1,13 @@
+problem_id: opa.phys.general-relativity.penrose-inequality-general
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/penrose_inequality_general_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Penrose Inequality (General Case). The Penrose inequality provides a lower
+  bound on the total mass of a spacetime in terms of the area of its black hole horizons. It has been proven for the time-symmetric
+  case but remains open in full generality.'
+parameters: {}

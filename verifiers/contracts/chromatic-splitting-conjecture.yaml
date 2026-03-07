@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.homological-algebra.chromatic-splitting-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/chromatic_splitting_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chromatic Splitting Conjecture. Chromatic homotopy theory breaks stable
+  homotopy into layers by "color" (chromatic level). The chromatic splitting conjecture predicts how these layers fit together:
+  the transition from one level to the next should decompose in a very specific and simple way.'
+parameters: {}

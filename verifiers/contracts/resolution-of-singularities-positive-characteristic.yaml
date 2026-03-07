@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.algebraic-geometry.resolution-of-singularities-positive-characteristic
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/resolution_of_singularities_positive_characteristic_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Resolution of Singularities in Positive Characteristic. Every algebraic
+  variety (solution set of polynomial equations) over a field of characteristic zero can be "desingularized" — replaced by
+  a smooth variety that is birationally equivalent. Can the same always be done when the characteristic of the field is a
+  prime number?'
+parameters: {}

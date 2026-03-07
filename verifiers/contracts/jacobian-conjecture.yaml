@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebra.jacobian-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/jacobian_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Jacobian Conjecture. If you have a system of polynomial equations in n variables
+  whose Jacobian determinant (a measure of local invertibility) is everywhere nonzero, then the system must have a global
+  polynomial inverse -- you can solve for the original variables using polynomials.'
+parameters: {}

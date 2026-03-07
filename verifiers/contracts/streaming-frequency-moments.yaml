@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.streaming-frequency-moments
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/streaming_frequency_moments_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Streaming Lower Bounds for Frequency Moments. How much memory is needed
+  to approximately compute statistical properties (frequency moments) of a data stream in one pass? For higher moments (k>2),
+  the exact answer is still not fully understood.'
+parameters: {}

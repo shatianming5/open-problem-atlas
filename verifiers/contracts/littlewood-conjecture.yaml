@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.approximation-theory.littlewood-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/littlewood_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Littlewood Conjecture. For any two irrational numbers alpha and beta, one
+  can find integers n making n, n*alpha, and n*beta all simultaneously close to integers, in the sense that the product of
+  the three distances tends to zero.'
+parameters: {}

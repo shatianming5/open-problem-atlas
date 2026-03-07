@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.operator-algebras.dixmier-problem
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/dixmier_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dixmier Problem. A group is "unitarizable" if every way of representing
+  it as bounded operators on a Hilbert space can be conjugated to act by unitary (distance- preserving) operators. Amenable
+  groups are always unitarizable. The Dixmier problem asks the converse: is amenability the only reason a group could be u...'
+parameters: {}

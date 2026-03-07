@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.quantum-communication-complexity-separations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_communication_complexity_separations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Communication Complexity Exact Separations. Can quantum communication
+  be exponentially more efficient than classical communication for computing functions where both Alice and Bob have inputs?
+  For partial functions this is known, but for total functions the largest known separation is only polynomial.'
+parameters: {}

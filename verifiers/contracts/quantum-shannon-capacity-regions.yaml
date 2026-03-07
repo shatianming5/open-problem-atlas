@@ -1,0 +1,14 @@
+problem_id: opa.phys.quantum-information.quantum-shannon-capacity-regions
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/quantum_shannon_capacity_regions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Shannon Theory Capacity Regions. When multiple senders and receivers
+  share a quantum communication channel, what are the maximum rates at which they can simultaneously communicate? This generalizes
+  Shannon''s classical network information theory to the quantum realm, where entanglement and superposition create fundamentally
+  new p...'
+parameters: {}

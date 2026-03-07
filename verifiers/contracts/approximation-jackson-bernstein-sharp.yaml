@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.approximation-theory.approximation-jackson-bernstein-sharp
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/approximation_jackson_bernstein_sharp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sharp Jackson-Bernstein Constants Problem. How well can smooth functions
+  be approximated by trigonometric polynomials? The best possible constant relating approximation error to smoothness is known
+  only in a few cases.'
+parameters: {}

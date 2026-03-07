@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.twin-prime-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/twin_prime_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Twin Prime Conjecture. Twin primes are pairs of prime numbers that differ
+  by exactly 2, such as (3, 5), (11, 13), and (17, 19). The twin prime conjecture asserts that there are infinitely many such
+  pairs.'
+parameters: {}

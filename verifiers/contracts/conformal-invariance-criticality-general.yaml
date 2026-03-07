@@ -1,0 +1,13 @@
+problem_id: opa.phys.statistical-mechanics.conformal-invariance-criticality-general
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/conformal_invariance_criticality_general_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Conformal Invariance at Criticality (General). At a phase transition, lattice
+  systems become scale-invariant. A stronger property, conformal invariance, is widely assumed but proven only for the 2D
+  Ising model and a few other cases. Proving it in general is a major challenge.'
+parameters: {}

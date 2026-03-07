@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.matroid-theory.rota-welsh-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/rota_welsh_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rota-Welsh Conjecture (Extensions). The coefficients of the characteristic
+  polynomial of a matroid are log-concave (proved). The remaining open question is whether a stronger "ultra-log-concavity"
+  property holds, which would imply even tighter control on coefficient ratios.'
+parameters: {}

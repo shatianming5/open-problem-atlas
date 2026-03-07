@@ -1,0 +1,13 @@
+problem_id: opa.tcs.quantum-computing.topological-qc-universality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/topological_qc_universality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Topological Quantum Computation Universality. Can we build quantum computers
+  using exotic particles (anyons) whose quantum information is protected by topology? Which types of anyons give full quantum
+  computing power?'
+parameters: {}

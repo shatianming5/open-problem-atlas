@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.mathematical-optimization.linear-programming-strongly-polynomial
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/linear_programming_strongly_polynomial_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Strongly Polynomial Linear Programming. Can linear programs be solved in
+  a number of steps that depends only on the number of variables and constraints, not on the size of the numbers involved?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.sublinear-edit-distance
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/sublinear_edit_distance_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sublinear Time Algorithms for Edit Distance. How fast can we approximately
+  compute the edit distance between two strings? The exact problem takes quadratic time (and this is conditionally optimal),
+  but can we get good approximations much faster, even without reading the entire input?'
+parameters: {}

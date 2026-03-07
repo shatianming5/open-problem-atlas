@@ -1,0 +1,13 @@
+problem_id: opa.tcs.quantum-computing.quantum-money-standard
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_money_standard_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Money from Standard Assumptions. Can we create digital money that
+  is physically impossible to counterfeit, where anyone can verify a bill but no one can copy it, based on well-understood
+  mathematical problems?'
+parameters: {}

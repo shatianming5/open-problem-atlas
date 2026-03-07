@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.derandomization-p-bpp
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/derandomization_p_bpp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Derandomization: Does P = BPP?. Is randomness ever truly useful for efficient
+  computation? Most experts believe P = BPP, meaning that randomized algorithms can always be made deterministic without significant
+  slowdown, but a proof is lacking.'
+parameters: {}

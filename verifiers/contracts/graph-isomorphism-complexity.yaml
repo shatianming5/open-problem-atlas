@@ -1,0 +1,14 @@
+problem_id: opa.tcs.complexity-theory.graph-isomorphism-complexity
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/graph_isomorphism_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Graph Isomorphism Problem Complexity. Given two networks (graphs), is there
+  a way to relabel the nodes of one so that it becomes identical to the other? We know this can be checked quickly once a
+  relabeling is proposed, but we do not know whether the relabeling can always be found quickly. Is this problem fundamentally
+  hard (NP-compl...'
+parameters: {}

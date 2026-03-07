@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.list-coloring-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/list_coloring_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: List Coloring Conjecture. Edge coloring with lists is no harder than ordinary
+  edge coloring. If k colors suffice for a proper edge coloring, then you can still color properly even when each edge is
+  restricted to its own palette of k colors.'
+parameters: {}

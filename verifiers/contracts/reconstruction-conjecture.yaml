@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.reconstruction-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/reconstruction_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Reconstruction Conjecture. Imagine you have a graph and you create a collection
+  of smaller graphs, each obtained by removing one vertex (and all its edges). The conjecture says that you can always figure
+  out the original graph from this collection of subgraphs, as long as it has at least 3 vertices.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.rysers-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/rysers_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ryser''s Conjecture. In an n x n Latin square (where each symbol appears
+  exactly once in each row and column), can you always find n entries, one per row and one per column, that are all different?
+  Ryser conjectured yes when n is odd; the Brualdi-Stein extension asks for n - 1 such entries in all cases.'
+parameters: {}

@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.graph-theory.cycle-double-cover-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/cycle_double_cover_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cycle Double Cover Conjecture. In any connected graph where removing a single
+  edge never disconnects the graph, it is possible to find a collection of cycles that together cover every edge exactly twice.
+  This is equivalent to saying the graph can be drawn on some surface (like a sphere or torus) so that every face is bounded
+  b...'
+parameters: {}

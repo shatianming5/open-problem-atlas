@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.post-quantum-hash-functions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/post_quantum_hash_functions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Post-Quantum Secure Hash Functions. Are current hash functions secure against
+  quantum computers? Can we build provably quantum-resistant hash functions from well-understood mathematical problems?'
+parameters: {}

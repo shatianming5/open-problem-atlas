@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.riemann-hypothesis
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/riemann_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Riemann Hypothesis. The Riemann zeta function encodes deep information about
+  the distribution of prime numbers. The hypothesis states that all its "interesting" zeros lie on a single vertical line
+  in the complex plane (the critical line Re(s) = 1/2).'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.lander-parkin-selfridge-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/lander_parkin_selfridge_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lander-Parkin-Selfridge Conjecture. When expressing an equation of equal
+  sums of k-th powers on both sides, the total number of terms on both sides combined must be at least k. You cannot write
+  an identity with too few k-th power terms.'
+parameters: {}

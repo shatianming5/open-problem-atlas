@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.matroid-theory.welsh-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/welsh_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Welsh''s Conjecture. How many matroids are there on n elements? The number
+  grows super-exponentially, roughly as 2^{cn^2}. Welsh conjectured that the growth rate (in a logarithmic sense) converges
+  to a precise constant.'
+parameters: {}

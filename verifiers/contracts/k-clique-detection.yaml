@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.k-clique-detection
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/k_clique_detection_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal k-Clique Detection Algorithm. How fast can we find a clique of size
+  k in a graph? The naive approach takes about n^k time. Can we do much better, especially for large k?'
+parameters: {}

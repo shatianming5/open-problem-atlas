@@ -1,0 +1,13 @@
+problem_id: opa.tcs.quantum-computing.quantum-speedup-np
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/quantum_speedup_np_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Speedup for NP-Complete Problems. Grover''s search gives a quadratic
+  speedup (from 2^n to 2^(n/2)) for brute-force search. Can quantum computers do even better for NP-complete problems, or
+  is quadratic the limit?'
+parameters: {}

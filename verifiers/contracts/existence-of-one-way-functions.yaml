@@ -1,0 +1,14 @@
+problem_id: opa.tcs.cryptography.existence-of-one-way-functions
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/existence_of_one_way_functions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of One-Way Functions. A one-way function is easy to compute but
+  hard to reverse. For example, multiplying two large prime numbers is easy, but finding the prime factors of the product
+  is believed to be hard. Do functions with this property actually exist, or can every efficiently computable function be
+  efficiently inv...'
+parameters: {}

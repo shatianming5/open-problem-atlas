@@ -1,0 +1,14 @@
+problem_id: opa.tcs.algorithms.matrix-multiplication-exponent
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/matrix_multiplication_exponent_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Matrix Multiplication Exponent. Multiplying two n-by-n matrices the standard
+  way takes about n^3 operations. Strassen showed in 1969 that it can be done faster. The fundamental question is: what is
+  the best possible exponent? Can we multiply matrices in essentially n^2 operations (which is optimal since just reading
+  the input t...'
+parameters: {}

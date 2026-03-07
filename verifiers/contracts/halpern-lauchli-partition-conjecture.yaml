@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.set-theory.halpern-lauchli-partition-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/halpern_lauchli_partition_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Halpern-Lauchli Theorem Extensions to Uncountable Cardinals. The Halpern-Lauchli
+  theorem is a powerful Ramsey-type result about coloring products of trees. It works beautifully for trees of countable height.
+  The open question is whether this deep combinatorial principle extends to trees of uncountable height, which requires fundamentally
+  new techniques or ...'
+parameters: {}

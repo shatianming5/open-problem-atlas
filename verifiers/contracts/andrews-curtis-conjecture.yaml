@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebra.andrews-curtis-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/andrews_curtis_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Andrews–Curtis Conjecture. If you have a way of presenting the trivial group
+  with the same number of generators and relations, can you always simplify it to the obvious trivial presentation using a
+  specific set of allowed moves?'
+parameters: {}

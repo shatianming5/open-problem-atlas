@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.hardness-vs-randomness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hardness_vs_randomness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hardness vs Randomness Connections. If randomness can be eliminated from
+  efficient algorithms, does that necessarily mean hard problems exist? Is there a tight bidirectional connection between
+  computational hardness and the uselessness of randomness?'
+parameters: {}

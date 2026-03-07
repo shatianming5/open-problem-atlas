@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.geometry.wegner-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/wegner_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Wegner''s Conjecture on Disk Graphs. If you represent a graph by disks in
+  the plane where vertices are connected when their disks overlap, how many colors do you need? Wegner conjectured that the
+  answer is at most about 3/2 times the size of the largest clique.'
+parameters: {}

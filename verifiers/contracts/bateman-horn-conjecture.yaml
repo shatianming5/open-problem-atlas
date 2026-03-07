@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.bateman-horn-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/bateman_horn_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bateman-Horn Conjecture. The Bateman-Horn conjecture gives a precise formula
+  for how often a collection of polynomials simultaneously take prime values. It generalizes the prime number theorem and
+  encompasses the twin prime conjecture, Bunyakovsky''s conjecture, and many others.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.sato-tate-generalizations
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/sato_tate_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Generalized Sato-Tate Conjecture. The classical Sato-Tate conjecture (now
+  a theorem for elliptic curves over totally real fields) predicts the distribution of point counts on elliptic curves mod
+  p. The generalization to higher-dimensional abelian varieties and more general motives remains open.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.non-commutative-algebra.matrix-mortality-problem
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/matrix_mortality_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Matrix Mortality Problem. Given a collection of 2x2 integer matrices, can
+  we always determine whether some product of these matrices (with repetition allowed) gives the zero matrix?'
+parameters: {}

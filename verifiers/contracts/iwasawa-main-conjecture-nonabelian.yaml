@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.representation-theory.iwasawa-main-conjecture-nonabelian
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/iwasawa_main_conjecture_nonabelian_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-abelian Iwasawa Main Conjecture. Iwasawa theory connects algebraic objects
+  (ideal class groups in towers of number fields) with analytic objects (p-adic L-functions). The classical theory works for
+  commutative (abelian) towers. The non-abelian conjecture extends this to non-commutative towers, requiring fundamentally
+  new algebra...'
+parameters: {}

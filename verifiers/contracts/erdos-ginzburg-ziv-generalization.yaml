@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.erdos-ginzburg-ziv-generalization
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/erdos_ginzburg_ziv_generalization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Ginzburg-Ziv Constant for General Groups. Given a finite abelian group,
+  how long does a sequence of elements need to be before it must contain some nonempty subset that sums to zero? The conjectured
+  answer is determined by the group''s invariant factor decomposition, but this remains unproven in general.'
+parameters: {}

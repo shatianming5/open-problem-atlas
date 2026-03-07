@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.quantum-error-correction-fundamental-limits
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/quantum_error_correction_fundamental_limits_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fundamental Limits of Quantum Error Correction. How much quantum information
+  can be reliably sent through a noisy quantum channel? Unlike classical channels where Shannon''s theorem gives a clean formula,
+  the quantum capacity requires an intractable regularization. The open problem is whether a computable formula exists.'
+parameters: {}

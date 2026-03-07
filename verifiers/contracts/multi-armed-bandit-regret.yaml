@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.multi-armed-bandit-regret
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/multi_armed_bandit_regret_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multi-Armed Bandit Optimal Regret. When making sequential decisions under
+  uncertainty with limited feedback, what is the best possible performance for complex, structured settings? Many important
+  variants of the bandit problem still lack tight bounds.'
+parameters: {}

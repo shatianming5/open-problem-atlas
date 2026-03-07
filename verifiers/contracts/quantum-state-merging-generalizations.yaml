@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.quantum-state-merging-generalizations
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/quantum_state_merging_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum State Merging Generalizations. Quantum state merging allows one
+  party to transfer their share of an entangled state to another using entanglement and communication. Extending this to many
+  parties and understanding the exact resource costs remains an open problem.'
+parameters: {}

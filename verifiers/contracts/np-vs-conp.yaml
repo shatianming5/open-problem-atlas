@@ -1,0 +1,14 @@
+problem_id: opa.tcs.complexity-theory.np-vs-conp
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/np_vs_conp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: NP vs co-NP Problem. For problems where "yes" answers have short proofs
+  that can be checked quickly (NP problems), do "no" answers also always have short proofs that can be checked quickly? For
+  example, we can quickly verify that a number is composite by exhibiting a factor, but can we always quickly verify that
+  a nu...'
+parameters: {}

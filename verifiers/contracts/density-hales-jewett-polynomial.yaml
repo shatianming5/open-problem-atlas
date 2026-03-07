@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.probability.density-hales-jewett-polynomial
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/density_hales_jewett_polynomial_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polynomial Density Hales–Jewett Conjecture. The density Hales–Jewett theorem
+  (proved by the Polymath project) says that dense subsets of high-dimensional grids contain combinatorial lines. The polynomial
+  version asks whether the same holds for polynomial patterns, which would vastly generalize Bergelson–Leibman type results.'
+parameters: {}

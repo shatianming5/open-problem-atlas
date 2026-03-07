@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.overfull-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/overfull_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Overfull Conjecture. For graphs with sufficiently high maximum degree, the
+  only reason a graph needs one extra color for edge-coloring (beyond its maximum degree) is if it contains a dense substructure
+  (an overfull subgraph) that forces this.'
+parameters: {}

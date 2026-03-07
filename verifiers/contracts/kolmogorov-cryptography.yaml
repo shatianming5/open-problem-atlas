@@ -1,0 +1,13 @@
+problem_id: opa.tcs.cryptography.kolmogorov-cryptography
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/kolmogorov_cryptography_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kolmogorov Complexity and Cryptography. Is the difficulty of compressing
+  strings (computing Kolmogorov complexity) exactly equivalent to the existence of cryptographic hardness? Can we fully characterize
+  cryptographic primitives through the lens of Kolmogorov complexity?'
+parameters: {}

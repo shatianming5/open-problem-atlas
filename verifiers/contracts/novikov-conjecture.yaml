@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.topology.novikov-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/novikov_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Novikov Conjecture. Certain numerical invariants of manifolds defined using
+  their fundamental group (called higher signatures) should be preserved when one manifold is continuously deformed into another
+  in a way that preserves orientation.'
+parameters: {}

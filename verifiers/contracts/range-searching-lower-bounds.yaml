@@ -1,0 +1,13 @@
+problem_id: opa.tcs.computational-geometry.range-searching-lower-bounds
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/range_searching_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Range Searching Lower Bounds. How efficiently can we count points inside
+  geometric shapes after preprocessing? We have good algorithms, but proving they cannot be improved requires lower bounds
+  that are largely missing.'
+parameters: {}

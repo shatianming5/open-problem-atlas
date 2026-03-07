@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.npt-bound-entanglement-existence
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/npt_bound_entanglement_existence_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of NPT Bound Entangled States. If a quantum state fails the PPT
+  test (its partial transpose has negative eigenvalues), it is certainly entangled. But can we always extract useful entanglement
+  from such states, or could there be NPT states whose entanglement is permanently locked away?'
+parameters: {}

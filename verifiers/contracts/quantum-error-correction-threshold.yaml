@@ -1,0 +1,13 @@
+problem_id: opa.tcs.quantum-computing.quantum-error-correction-threshold
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/quantum_error_correction_threshold_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Error Correction Threshold (Exact). How noisy can quantum gates
+  be while still allowing reliable quantum computation through error correction? We know a threshold exists, but its exact
+  value depends on details that are not fully understood.'
+parameters: {}

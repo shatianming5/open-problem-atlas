@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.sensitivity-conjecture-extensions
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/sensitivity_conjecture_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sensitivity Conjecture Extensions. The sensitivity conjecture was resolved,
+  but the exact polynomial relationships between sensitivity and other measures of Boolean function complexity remain unknown.
+  What are the tight bounds?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebraic-topology.combinatorial-hodge-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/combinatorial_hodge_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Combinatorial Hodge Conjecture. The tropical (combinatorial) analogue of
+  the Hodge conjecture asks whether every "Hodge-type" cohomology class on a tropical variety comes from a geometric tropical
+  cycle.'
+parameters: {}

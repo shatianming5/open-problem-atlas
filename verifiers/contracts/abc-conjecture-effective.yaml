@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.abc-conjecture-effective
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/abc_conjecture_effective_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Effective abc Conjecture. The abc conjecture says that when three coprime
+  positive integers satisfy a + b = c, the number c cannot be too large compared to the product of the distinct prime factors
+  of abc. The effective version demands explicit, computable bounds.'
+parameters: {}

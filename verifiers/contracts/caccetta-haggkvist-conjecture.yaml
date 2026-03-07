@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.caccetta-haggkvist-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/caccetta_haggkvist_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Caccetta-Haggkvist Conjecture. If every vertex in a directed graph points
+  to at least n/k other vertices, then the graph must contain a short directed cycle of length at most k. Even the case of
+  directed triangles (k = 3) remains unproved.'
+parameters: {}

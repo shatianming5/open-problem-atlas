@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.lebesgue-universal-covering-problem
+backend: python_checker
+task_type: counterexample_search
+checker:
+  file: verifiers/checkers/auto/lebesgue_universal_covering_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lebesgue''s Universal Covering Problem. Find the smallest convex shape that
+  can cover (after suitable rotation and translation) any shape whose widest extent is at most 1.'
+parameters: {}

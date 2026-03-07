@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.category-theory.kontsevich-zagier-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kontsevich_zagier_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kontsevich-Zagier Conjecture. All relations between periods (a class of
+  numbers including pi, log(2), and values of the zeta function at integers) should follow from three basic rules of calculus:
+  linearity, substitution, and Stokes'' theorem.'
+parameters: {}

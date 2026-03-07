@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.online-learning-experts
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/online_learning_experts_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Online Learning with Expert Advice Optimal Bounds. When learning from experts
+  over time, we want to perform nearly as well as the best expert in hindsight. For many natural variants of this problem,
+  the exact optimal performance and efficient algorithms are still unknown.'
+parameters: {}

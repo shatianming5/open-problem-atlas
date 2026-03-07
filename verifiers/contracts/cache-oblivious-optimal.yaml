@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.cache-oblivious-optimal
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/cache_oblivious_optimal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Cache-Oblivious Algorithms. Algorithms that automatically adapt
+  to the memory hierarchy without knowing its parameters can often match algorithms that are specifically designed for the
+  cache. Is this always possible, or are there problems where knowledge of cache parameters provably helps?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.numerical-analysis.smale-17th-problem
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/smale_17th_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Smale''s 17th Problem. Is there an efficient algorithm to find approximate
+  solutions to systems of polynomial equations? Smale asks whether this can be done in polynomial time on average.'
+parameters: {}

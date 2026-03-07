@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.number-theory.birch-swinnerton-dyer-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/birch_swinnerton_dyer_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Birch and Swinnerton-Dyer Conjecture. For an elliptic curve (a certain type
+  of cubic equation) defined over the rational numbers, there is a deep connection between the number of rational solutions
+  and the behavior of an associated analytic function (the L-function) at a specific point. The conjecture gives an exact
+  recipe relating t...'
+parameters: {}

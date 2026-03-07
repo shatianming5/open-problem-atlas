@@ -1,0 +1,14 @@
+problem_id: opa.phys.quantum-information.quantum-reverse-shannon-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_reverse_shannon_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Reverse Shannon Theorem Extensions. The quantum reverse Shannon
+  theorem says that any quantum channel can be simulated using shared entanglement and classical communication at a rate given
+  by the channel''s entanglement-assisted capacity. The open problem is to extend this to more general settings involving
+  channels with memory, net...'
+parameters: {}

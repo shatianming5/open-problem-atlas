@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.approximation-theory.khintchine-flatness-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/khintchine_flatness_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Khintchine''s Flatness Conjecture. How "thin" must a convex body be in some
+  direction if it avoids all integer points? The precise growth rate of the flatness constant with dimension is unknown.'
+parameters: {}

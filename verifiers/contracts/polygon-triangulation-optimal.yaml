@@ -1,0 +1,13 @@
+problem_id: opa.tcs.computational-geometry.polygon-triangulation-optimal
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/polygon_triangulation_optimal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Polygon Triangulation. We know how to divide a simple polygon into
+  triangles in optimal linear time, but the known algorithm is so complicated that nobody has ever implemented it. Can we
+  find a simpler algorithm that is equally fast?'
+parameters: {}

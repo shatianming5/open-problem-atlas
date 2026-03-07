@@ -1,0 +1,13 @@
+problem_id: opa.phys.statistical-mechanics.percolation-threshold-exact-values
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/percolation_threshold_exact_values_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Percolation Threshold Exact Values. At what probability does a random network
+  first become connected across its whole extent? For some 2D lattices, exact values are known (like p_c = 1/2 for bond percolation
+  on the square lattice), but for 3D lattices, only numerical estimates exist.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.nisan-wigderson-hypothesis
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/nisan_wigderson_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nisan-Wigderson Hypothesis. Is there a problem solvable in exponential time
+  that cannot be solved by any sub-exponential-size circuit? Proving this would show that randomness can be eliminated from
+  efficient computation.'
+parameters: {}

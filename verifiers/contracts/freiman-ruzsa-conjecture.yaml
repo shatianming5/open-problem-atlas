@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.enumerative-combinatorics.freiman-ruzsa-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/freiman_ruzsa_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polynomial Freiman-Ruzsa Conjecture. Sets with small additive doubling (the
+  sumset is not much larger than the set itself) must have a strong additive structure: they can be efficiently covered by
+  a structured set (generalized arithmetic progression) of comparable size.'
+parameters: {}

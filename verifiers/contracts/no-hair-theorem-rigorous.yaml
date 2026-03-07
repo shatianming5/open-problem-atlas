@@ -1,0 +1,13 @@
+problem_id: opa.phys.general-relativity.no-hair-theorem-rigorous
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/no_hair_theorem_rigorous_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: No-Hair Theorem (Rigorous General Proof). Black holes are believed to be
+  completely characterized by just three numbers: mass, spin, and charge. While this has been proven under strong technical
+  assumptions, a fully rigorous proof remains elusive.'
+parameters: {}

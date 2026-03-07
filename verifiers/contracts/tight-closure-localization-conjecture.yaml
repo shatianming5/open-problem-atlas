@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebraic-geometry.tight-closure-localization-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/tight_closure_localization_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tight Closure Localization Conjecture. Tight closure is an important operation
+  on ideals in commutative algebra defined using the Frobenius endomorphism in characteristic p. The conjecture says that
+  this operation behaves well under localization — restricting to a smaller piece of the ring preserves the tight closure.'
+parameters: {}

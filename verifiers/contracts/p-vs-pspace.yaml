@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.p-vs-pspace
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/p_vs_pspace_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: P vs PSPACE Problem. We know that problems solvable quickly (polynomial
+  time) can also be solved with limited memory (polynomial space). But is the reverse true? Can every problem that requires
+  only a reasonable amount of memory also be solved quickly? Most researchers believe the answer is no, but this remains unpro...'
+parameters: {}

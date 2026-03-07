@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.model-theory.cherlin-zilber-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cherlin_zilber_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cherlin-Zilber Conjecture. Morley rank is a model-theoretic measure of complexity.
+  Groups of finite Morley rank generalize algebraic groups. The conjecture predicts that among these, the simple ones (those
+  without nontrivial normal subgroups) are always classical algebraic groups -- no exotic examples exist.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.non-commutative-algebra.connes-embedding-problem
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/connes_embedding_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Connes Embedding Problem (Consequences). Not every von Neumann algebra can
+  be approximated by matrix algebras in the appropriate sense. This was disproved in 2020 with deep consequences for quantum
+  computing. The remaining questions concern characterizing which algebras embed and the quantum information-theoretic implications.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.geometry.kakeya-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/kakeya_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kakeya Conjecture. A Kakeya set is a set in n-dimensional space that contains
+  a unit-length needle pointing in every possible direction. In 2D, Besicovitch showed such sets can have zero area, but the
+  conjecture says in higher dimensions they must be "full-dimensional" in a precise sense.'
+parameters: {}

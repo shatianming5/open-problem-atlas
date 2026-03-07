@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.online-bipartite-matching
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/online_bipartite_matching_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Online Bipartite Matching Optimal Competitive Ratio. When items arrive one
+  at a time and must be immediately and permanently assigned to available slots, how close to optimal can we get without knowing
+  the future? The unweighted case is solved but the weighted version remains open.'
+parameters: {}

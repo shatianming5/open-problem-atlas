@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.moving-sofa-problem
+backend: python_checker
+task_type: counterexample_search
+checker:
+  file: verifiers/checkers/auto/moving_sofa_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Moving Sofa Problem. What is the largest sofa (measured by area) that can
+  be moved around a right-angle turn in a hallway of fixed width?'
+parameters: {}

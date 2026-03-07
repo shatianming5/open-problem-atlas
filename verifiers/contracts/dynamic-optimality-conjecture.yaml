@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithms.dynamic-optimality-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/dynamic_optimality_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamic Optimality Conjecture for Binary Search Trees. Is the splay tree
+  always within a constant factor of the best possible binary search tree for any access sequence, even compared to one that
+  knows the future?'
+parameters: {}

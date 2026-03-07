@@ -1,0 +1,13 @@
+problem_id: opa.tcs.quantum-computing.quantum-interactive-proofs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_interactive_proofs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Interactive Proofs Structure. When provers share quantum entanglement,
+  interactive proof systems become incredibly powerful (equivalent to all computably enumerable languages). What happens for
+  restricted variants of quantum interactive proofs?'
+parameters: {}

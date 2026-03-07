@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.quantum-channel-capacity-additivity-general
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_channel_capacity_additivity_general_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Channel Capacity Additivity (General Conjectures). Hastings showed
+  that entanglement between channel inputs can boost classical communication capacity. But for which channels does this happen,
+  and can we compute the exact capacity? This remains open for most channels.'
+parameters: {}

@@ -1,0 +1,14 @@
+problem_id: opa.tcs.algorithms.strongly-polynomial-lp
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/strongly_polynomial_lp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Strongly Polynomial Algorithm for Linear Programming. Linear programming
+  is the problem of finding the best outcome in a mathematical model with linear constraints. We know how to solve it efficiently,
+  but all known methods have running times that depend on the sizes of the numbers in the input, not just on the number of
+  variables and constraints. C...'
+parameters: {}

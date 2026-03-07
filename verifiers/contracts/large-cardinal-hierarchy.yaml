@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.logic-and-foundations.large-cardinal-hierarchy
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/large_cardinal_hierarchy_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Large Cardinal Consistency Strength Hierarchy. Large cardinal axioms form
+  a linear hierarchy of increasingly strong assumptions about the universe of sets. Inner model theory provides canonical
+  models that "tame" these axioms. Building inner models has succeeded up to Woodin cardinals, but extending the theory to
+  supercompact cardinals and be...'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.cryptography.indistinguishability-obfuscation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/indistinguishability_obfuscation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Indistinguishability Obfuscation from Standard Assumptions. Can we make
+  computer programs unreadable while preserving their functionality, based on well-understood mathematical assumptions? Current
+  constructions rely on novel assumptions whose security is less well understood.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.computational-geometry.rectilinear-steiner-tree
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/rectilinear_steiner_tree_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rectilinear Steiner Tree Problem. What is the shortest way to connect a
+  set of points using only horizontal and vertical lines, when we are allowed to add extra junction points? This problem arises
+  in VLSI chip design.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.schinzel-hypothesis-h
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/schinzel_hypothesis_h_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Schinzel''s Hypothesis H. Any collection of integer polynomials that could
+  conceivably all be prime at the same time (no obvious obstruction from a single prime dividing the product) will indeed
+  all be simultaneously prime for infinitely many inputs.'
+parameters: {}

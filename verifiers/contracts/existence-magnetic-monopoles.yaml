@@ -1,0 +1,13 @@
+problem_id: opa.phys.mathematical-physics.existence-magnetic-monopoles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_magnetic_monopoles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Magnetic Monopoles. Do magnetic monopoles exist? Dirac showed
+  they would explain charge quantization, and grand unified theories predict them. Proving their existence or non-existence
+  as mathematical solutions, and understanding their properties, is a major challenge.'
+parameters: {}

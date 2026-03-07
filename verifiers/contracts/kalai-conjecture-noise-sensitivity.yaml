@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.probability.kalai-conjecture-noise-sensitivity
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/kalai_conjecture_noise_sensitivity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kalai''s Conjecture on Noise Sensitivity of Boolean Functions. Boolean functions
+  where no single variable has much influence are easily corrupted by random noise — a small amount of random bit-flipping
+  destroys the correlation with the original output.'
+parameters: {}

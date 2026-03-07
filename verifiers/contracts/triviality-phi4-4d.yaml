@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-field-theory.triviality-phi4-4d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/triviality_phi4_4d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Triviality of phi^4 Theory in 4D. The simplest interacting quantum field
+  theory, phi^4 in 4D, is widely believed to become a free (non-interacting) theory when you try to remove the lattice approximation.
+  Proving this rigorously would have profound implications for the Higgs mechanism and the Standard Model.'
+parameters: {}

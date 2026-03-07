@@ -1,0 +1,14 @@
+problem_id: opa.phys.statistical-mechanics.kpz-universality-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kpz_universality_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: KPZ Universality Conjecture. Many different random growth processes, from
+  burning paper to bacterial colonies, are believed to share the same universal statistical behavior described by the KPZ
+  equation. Proving this universality and understanding it in higher dimensions is one of the major open problems in probability
+  and m...'
+parameters: {}

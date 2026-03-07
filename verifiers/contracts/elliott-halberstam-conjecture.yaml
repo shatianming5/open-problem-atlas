@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.probability.elliott-halberstam-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/elliott_halberstam_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Elliott-Halberstam Conjecture. Primes are equidistributed among arithmetic
+  progressions to a much greater extent than currently provable. The conjecture extends the Bombieri-Vinogradov theorem from
+  moduli up to sqrt(x) to moduli nearly as large as x.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-field-theory.mass-gap-non-abelian-gauge-theories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mass_gap_non_abelian_gauge_theories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mass Gap in Non-Abelian Gauge Theories. Does every non-abelian gauge theory
+  have massive particles? Even assuming we can rigorously define the theory, proving that the lightest excitation has positive
+  mass is a separate and deep challenge.'
+parameters: {}

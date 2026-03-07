@@ -1,0 +1,14 @@
+problem_id: opa.tcs.complexity-theory.polynomial-hierarchy-infinite
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/polynomial_hierarchy_infinite_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Is the Polynomial Hierarchy Infinite?. The polynomial hierarchy is a tower
+  of complexity classes built on top of P and NP, where each level adds another layer of alternating "guessing." Does this
+  tower go on forever with each level being strictly more powerful than the one below it, or does it eventually flatten out
+  (collapse) so that...'
+parameters: {}

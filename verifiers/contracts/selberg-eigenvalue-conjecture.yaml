@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.functional-analysis.selberg-eigenvalue-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/selberg_eigenvalue_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Selberg Eigenvalue Conjecture. The Laplacian on modular surfaces coming
+  from congruence subgroups should have no "small eigenvalues" — all non-trivial eigenvalues should be at least 1/4. This
+  is an analogue of the Ramanujan conjecture for non-holomorphic modular forms.'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.turan-brick-factory-problem
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/turan_brick_factory_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Turan''s Brick Factory Problem. What is the minimum number of edge crossings
+  when drawing the complete bipartite graph K_{m,n} in the plane? Turan conjectured that the obvious symmetric drawing is
+  optimal.'
+parameters: {}

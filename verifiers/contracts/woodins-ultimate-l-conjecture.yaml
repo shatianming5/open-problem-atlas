@@ -1,0 +1,14 @@
+problem_id: opa.mathematics.set-theory.woodins-ultimate-l-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/woodins_ultimate_l_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Woodin''s Ultimate L Conjecture. The Ultimate L Conjecture proposes that
+  there is a "best" canonical model of set theory that looks like Godel''s constructible universe L but is large enough to
+  accommodate all known large cardinal axioms. This would resolve the Continuum Hypothesis (it would be true in this model)
+  and provide a d...'
+parameters: {}

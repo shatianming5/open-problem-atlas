@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.coding-theory.simplex-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/auto/simplex_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Simplex Conjecture in Information Theory. When packing M points on a sphere
+  to maximize the minimum distance between any two points, the optimal arrangement for n+1 points in n dimensions forms a
+  regular simplex. The problem is open for many other values of M and n.'
+parameters: {}

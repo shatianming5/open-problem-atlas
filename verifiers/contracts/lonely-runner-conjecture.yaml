@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.lonely-runner-conjecture
+backend: lean4
+task_type: proof_check
+checker:
+  file: verifiers/checkers/auto/lonely_runner_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lonely Runner Conjecture. Imagine k runners jogging around a circular track,
+  all starting at the same point but at different constant speeds. The conjecture says that each runner will, at some point
+  in time, be "lonely" -- separated from every other runner by at least 1/k of the track''s length.'
+parameters: {}
