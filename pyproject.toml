@@ -39,6 +39,18 @@ runner = [
 runner-smt = [
     "z3-solver>=4.12",
 ]
+publish = [
+    "huggingface_hub>=0.20",
+    "pyarrow>=14.0",
+    "pandas>=2.0",
+]
+
+[project.scripts]
+opa = "runner.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src", "."]
+include = ["opa*", "runner*"]
 
 [tool.ruff]
 line-length = 100
