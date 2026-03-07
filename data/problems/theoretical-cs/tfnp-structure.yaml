@@ -1,0 +1,116 @@
+id: opa.tcs.complexity-theory.tfnp-structure
+kind: problem
+title: "Structure of Total NP Search Problems (TFNP)"
+aliases:
+  - "TFNP complexity"
+  - "Total function NP structure"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: classification_list
+verification_mode: proof
+
+statement:
+  canonical: >
+    TFNP is the class of total NP search problems, where a solution is guaranteed to
+    exist. Important subclasses include PLS, PPAD, PPA, PPP, and CLS. Determine the
+    complete structure of TFNP: are these subclasses all distinct? Is TFNP itself
+    characterized by a syntactic complexity class?
+  informal: >
+    For computational problems where a solution always exists (like finding a Nash
+    equilibrium), how do the different complexity subclasses relate to each other?
+    What is the full landscape of hardness for guaranteed-to-exist solutions?
+
+why_it_matters: >
+  TFNP and its subclasses capture the complexity of fundamental problems in game
+  theory (Nash equilibrium via PPAD), economics, and combinatorics. Understanding
+  this landscape has practical implications for algorithmic mechanism design and
+  equilibrium computation.
+
+prerequisites:
+  - NP search problems
+  - PPAD, PLS, PPP classes
+  - fixed-point theorems
+  - Nash equilibrium computation
+
+dates:
+  first_stated: 1994
+
+sources:
+  canonical:
+    - source_id: src_megiddo_papadimitriou_1991
+      kind: paper
+      title: "On Total Functions, Existence Theorems and Computational Complexity"
+      authors:
+        - "Nimrod Megiddo"
+        - "Christos Papadimitriou"
+      url: "https://doi.org/10.1016/0304-3975(91)90322-T"
+      year: 1991
+  status_evidence:
+    - source_id: src_goldberg_hollender_2020
+      kind: paper
+      title: "The Hairy Ball Problem is PPAD-Complete"
+      authors:
+        - "Paul Goldberg"
+        - "Alexandros Hollender"
+      url: "https://doi.org/10.1016/j.jcss.2020.06.002"
+      year: 2020
+
+partial_results:
+  - summary: "Daskalakis, Goldberg, and Papadimitriou (2009) proved that computing a Nash equilibrium is PPAD-complete, establishing PPAD as a fundamental class."
+    year: 2009
+  - summary: "Fearnley, Gordon, Mehta, and Savani (2021) established the CLS-completeness of many continuous optimization problems."
+    year: 2021
+  - summary: "Separations between TFNP subclasses have been proven relative to oracles, but unconditional separations remain open."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases:
+    - "opa.tcs.complexity-theory.ppad-nash-equilibrium"
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Understanding the structure of TFNP, the class of total NP search problems, is
+    a central open question connecting complexity theory, game theory, and economics.
+  decomposition:
+    - "Prove unconditional separations between TFNP subclasses"
+    - "Determine whether TFNP has a complete problem"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

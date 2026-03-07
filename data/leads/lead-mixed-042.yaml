@@ -1,0 +1,11 @@
+title: "Minimum Circuit Size Problem Complexity"
+statement: "Is MCSP (Minimum Circuit Size Problem) NP-complete? Its complexity status is one of the most important open questions in meta-complexity."
+source_id: "src_ilango_2022"
+source_url: "https://arxiv.org/abs/2202.13509"
+domain_hint: "theoretical-cs"
+subdomain_hint: "meta-complexity"
+confidence: 0.60
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

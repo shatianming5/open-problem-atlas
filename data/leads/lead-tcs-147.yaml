@@ -1,0 +1,11 @@
+title: "Cycle Detection in Directed Graphs"
+statement: "Can all simple cycles in a directed graph be enumerated with optimal delay between outputs?"
+source_id: "src_johnson_1975"
+source_url: "https://doi.org/10.1137/0204007"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

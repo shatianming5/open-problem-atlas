@@ -1,0 +1,11 @@
+title: "Dynamic Optimality Conjecture for Splay Trees"
+statement: "Are splay trees O(1)-competitive with the optimal offline binary search tree for every access sequence?"
+source_id: "src_sleator_tarjan_1985"
+source_url: "https://doi.org/10.1145/3828.3835"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

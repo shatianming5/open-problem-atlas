@@ -1,0 +1,11 @@
+title: "Quantum Capacity Superadditivity"
+statement: "To what extent is the quantum capacity of a quantum channel superadditive? Full characterization of superadditivity effects remains an open problem."
+source_id: "src_cubitt_2015b"
+source_url: "https://arxiv.org/abs/1408.5115"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

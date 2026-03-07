@@ -1,0 +1,119 @@
+id: opa.phys.quantum-information.quantum-fault-tolerance-threshold-exact
+kind: problem
+title: "Exact Quantum Fault Tolerance Threshold"
+aliases:
+  - "Accuracy Threshold for Quantum Computation"
+  - "Fault-Tolerant Quantum Computing Threshold"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the exact value of the fault-tolerance threshold p_th for quantum
+    computation under the most general noise model (adversarial, local, Markovian).
+    Specifically, for the standard depolarizing noise model, determine the supremum
+    of error rates p such that arbitrary quantum computations can be performed with
+    polynomial overhead using concatenated codes, topological codes, or any fault-tolerant
+    scheme. Current rigorous lower bounds give p_th >= 10^{-4} while numerical estimates
+    suggest p_th ~ 10^{-2} for surface codes.
+  informal: >
+    How noisy can quantum gates be before fault-tolerant quantum computing becomes
+    impossible? We know a threshold exists, but its exact value for optimal codes
+    and realistic noise models is unknown.
+
+why_it_matters: >
+  The fault-tolerance threshold is the most important number in quantum computing
+  engineering. It determines whether current and near-future quantum hardware can
+  support scalable computation. Closing the gap between rigorous bounds and numerical
+  estimates is crucial for quantum computing development.
+
+prerequisites:
+  - quantum information theory
+  - quantum error correction
+  - coding theory
+  - probability theory
+  - computational complexity
+
+dates:
+  first_stated: 1996
+
+sources:
+  canonical:
+    - source_id: src_aharonov_1997
+      kind: paper
+      title: "Fault-Tolerant Quantum Computation with Constant Error"
+      url: "https://doi.org/10.1145/258533.258579"
+      year: 1997
+      locator: "STOC 1997, 176-188"
+    - source_id: src_knill_1998
+      kind: paper
+      title: "Resilient Quantum Computation"
+      url: "https://doi.org/10.1126/science.279.5349.342"
+      year: 1998
+      locator: "Science 279(5349), 342-345"
+  status_evidence:
+    - source_id: src_gottesman_2014
+      kind: survey
+      title: "Fault-Tolerant Quantum Computation"
+      url: "https://arxiv.org/abs/1610.03507"
+      year: 2016
+
+partial_results:
+  - summary: "Aharonov and Ben-Or proved the threshold theorem: a threshold exists, with rigorous lower bound around 10^{-6}."
+    year: 1997
+  - summary: "Knill improved the rigorous lower bound significantly using postselection techniques."
+    year: 2005
+  - summary: "Numerical simulations for surface codes suggest thresholds around 1% for depolarizing noise."
+    year: 2012
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-error-correction-fundamental-limits"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.92
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.60
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Determining the exact fault-tolerance threshold for quantum computation under realistic noise models.
+  decomposition:
+    - "Close the gap between rigorous lower bounds and numerical estimates"
+    - "Determine the optimal code family achieving the highest threshold"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,117 @@
+id: opa.mathematics.mathematical-optimization.nonnegative-rank-conjecture
+kind: problem
+title: "Nonnegative Rank vs Extension Complexity"
+aliases:
+  - "Extension Complexity of Polytopes"
+  - "Yannakakis' Theorem Extensions"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - mathematical-optimization
+  - convex-geometry
+
+problem_type: open_question
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a polytope P, the extension complexity xc(P) is the minimum number of facets of
+    any polytope Q that linearly projects onto P. Yannakakis showed xc(P) equals the
+    nonnegative rank of the slack matrix of P. The open question is to determine the
+    extension complexity of fundamental polytopes: in particular, does the matching polytope
+    of K_n have extension complexity 2^{Omega(n)}, and what is the extension complexity of
+    the TSP polytope?
+  informal: >
+    How efficiently can combinatorial optimization polytopes be represented as projections
+    of simpler polytopes? Understanding this determines the power of linear programming
+    for combinatorial optimization.
+
+why_it_matters: >
+  Extension complexity bridges combinatorial optimization and convex geometry. Rothvoss (2017)
+  proved that the matching polytope has exponential extension complexity, resolving a major
+  open question. But many related questions remain: the extension complexity of the TSP
+  polytope, the cut polytope, and the role of semidefinite extended formulations are open.
+
+prerequisites:
+  - combinatorial optimization
+  - polyhedral combinatorics
+  - nonnegative matrix factorization
+  - information theory
+
+dates:
+  first_stated: 1991
+
+sources:
+  canonical:
+    - source_id: src_yannakakis_1991
+      kind: paper
+      title: "Expressing combinatorial optimization problems by linear programs"
+      authors:
+        - "Mihalis Yannakakis"
+      year: 1991
+      url: "https://doi.org/10.1016/0022-0000(91)90024-Y"
+  status_evidence:
+    - source_id: src_rothvoss_2017
+      kind: paper
+      title: "The matching polytope has exponential extension complexity"
+      authors:
+        - "Thomas Rothvoss"
+      url: "https://doi.org/10.1145/3127497"
+      year: 2017
+
+partial_results:
+  - summary: "Rothvoss proved the matching polytope has exponential extension complexity."
+    year: 2017
+  - summary: "Fiorini, Massar, Pokutta, Tiwary, and de Wolf proved exponential lower bounds for TSP."
+    year: 2015
+  - summary: "Tight bounds for extension complexity of many specific polytopes remain unknown."
+    year: 2022
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.unique-games-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The extension complexity problem asks for the minimum size of linear programming
+    formulations for combinatorial polytopes. Exponential bounds proved for matching and TSP;
+    many specific polytopes remain open.
+  decomposition:
+    - "Nonnegative matrix factorization techniques"
+    - "Communication complexity and information-theoretic lower bounds"
+    - "Semidefinite extension complexity"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "IMO Grand Challenge Automation"
+statement: "Can a machine learning system be built that solves IMO problems at the gold medal level, requiring advances in automated theorem proving and mathematical reasoning?"
+source_id: "src_trinh_2024"
+source_url: "https://arxiv.org/abs/2407.06018"
+domain_hint: "mathematics"
+subdomain_hint: "automated-reasoning"
+confidence: 0.70
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

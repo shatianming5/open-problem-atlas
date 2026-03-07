@@ -1,0 +1,11 @@
+title: "Resolution of Singularities in Positive Characteristic"
+statement: "Every algebraic variety over a field of positive characteristic admits a resolution of singularities."
+source_id: "src_hironaka_1964"
+source_url: "https://en.wikipedia.org/wiki/Resolution_of_singularities"
+domain_hint: "mathematics"
+subdomain_hint: "algebraic-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

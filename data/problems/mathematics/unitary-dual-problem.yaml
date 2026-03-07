@@ -1,0 +1,120 @@
+id: opa.mathematics.representation-theory.unitary-dual-problem
+kind: problem
+title: "Unitary Dual Problem for Reductive Groups"
+aliases:
+  - "Classification of Unitary Representations"
+  - "Unitary Dual Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - representation-theory
+  - harmonic-analysis
+
+problem_type: classification
+answer_type: classification_list
+verification_mode: proof
+
+statement:
+  canonical: >
+    Classify all irreducible unitary representations of a real reductive Lie
+    group G. That is, determine the unitary dual G-hat = {equivalence classes
+    of irreducible unitary representations of G on Hilbert spaces} for all
+    real reductive groups G. The problem remains open for general real
+    reductive groups beyond the classical groups of small rank.
+  informal: >
+    A "representation" describes how a symmetry group can act on a vector
+    space by rotations and reflections. The unitary dual problem asks for a
+    complete list of all the basic (irreducible) ways a given Lie group can
+    act while preserving lengths and angles (unitarily). This is the
+    fundamental classification problem in representation theory.
+
+why_it_matters: >
+  The classification of unitary representations is one of the central problems
+  in mathematics, with applications to number theory (automorphic forms),
+  physics (quantum mechanics), and harmonic analysis. Despite Vogan's program
+  and major advances including the Atlas of Lie Groups project (computing
+  unitary duals algorithmically for specific groups), the general problem
+  remains open. It connects to the Langlands program and the theory of
+  automorphic forms.
+
+prerequisites:
+  - Lie groups and Lie algebras
+  - representation theory
+  - harmonic analysis
+  - functional analysis
+
+dates:
+  first_stated: 1950
+
+sources:
+  canonical:
+    - source_id: src_vogan_1986
+      kind: textbook
+      title: "Unitary Representations of Reductive Lie Groups"
+      authors:
+        - "David Vogan"
+      year: 1986
+      locator: "Annals of Mathematics Studies, vol. 118, Princeton University Press"
+  status_evidence:
+    - source_id: src_adams_vogan_2020
+      kind: paper
+      title: "Atlas of Lie Groups project and the unitary dual"
+      authors:
+        - "Jeffrey Adams"
+        - "David Vogan"
+      year: 2020
+
+partial_results:
+  - summary: "Bargmann classified the unitary dual of SL(2,R)."
+    year: 1947
+  - summary: "Vogan developed algorithms and conjectures for computing unitary duals using Kazhdan-Lusztig theory."
+    year: 1984
+  - summary: "The Atlas of Lie Groups project computed KLV polynomials for exceptional groups, including E8."
+    year: 2007
+  - summary: "Adams, van Leeuwen, Trapa, and Vogan made significant progress on algorithms for detecting unitarity."
+    year: 2015
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The unitary dual problem asks for a complete classification of all
+    irreducible unitary representations of real reductive Lie groups. Despite
+    major algorithmic and theoretical progress, the general problem remains open.
+  decomposition:
+    - "Algorithmic detection of unitarity using Kazhdan-Lusztig methods"
+    - "Dirac inequality and cohomological methods"
+    - "Connections to Arthur packets and the Langlands program"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

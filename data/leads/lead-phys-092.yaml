@@ -1,0 +1,11 @@
+title: "KPZ Universality in Higher Dimensions"
+statement: "Does KPZ universality extend to surface growth in dimensions d >= 2, and what are the exact critical exponents?"
+source_id: "src_corwin_2012"
+source_url: "https://arxiv.org/abs/1106.1596"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

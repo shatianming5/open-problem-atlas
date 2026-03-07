@@ -1,0 +1,111 @@
+id: opa.phys.quantum-field-theory.mass-gap-non-abelian-gauge-theories
+kind: problem
+title: "Mass Gap in Non-Abelian Gauge Theories"
+aliases:
+  - "Mass Gap Problem (General Gauge Groups)"
+  - "Spectral Gap in Gauge Theories"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a general compact simple gauge group G, prove that the pure Yang-Mills quantum
+    field theory (without matter) in four spacetime dimensions has a mass gap Delta > 0.
+    This means the energy spectrum has a gap between the vacuum energy E=0 and the
+    first excited state E >= Delta > 0. While the Clay Millennium Problem focuses on
+    existence and mass gap together, the mass gap alone (assuming existence) is already
+    a deep open problem. Determine the dependence of Delta on the gauge group G and
+    whether the mass gap is related to the dynamically generated scale Lambda_QCD.
+  informal: >
+    Does every non-abelian gauge theory have massive particles? Even assuming we can
+    rigorously define the theory, proving that the lightest excitation has positive mass
+    is a separate and deep challenge.
+
+why_it_matters: >
+  The mass gap explains why nuclear forces are short-range. Understanding its origin
+  for general gauge groups would illuminate confinement, the structure of the hadron
+  spectrum, and connections between gauge theory and geometry.
+
+prerequisites:
+  - quantum field theory
+  - gauge theory
+  - spectral theory
+  - non-perturbative methods
+  - lattice gauge theory
+
+dates:
+  first_stated: 1979
+
+sources:
+  canonical:
+    - source_id: src_jaffe_witten_2000
+      kind: paper
+      title: "Quantum Yang-Mills Theory"
+      url: "https://www.claymath.org/sites/default/files/yangmills.pdf"
+      year: 2000
+      locator: "Clay Mathematics Institute Millennium Problem description"
+  status_evidence:
+    - source_id: src_teper_2009
+      kind: paper
+      title: "Large N and the Lattice"
+      url: "https://doi.org/10.22323/1.066.0009"
+      year: 2009
+
+partial_results:
+  - summary: "Lattice simulations provide precise numerical values for the mass gap in SU(2), SU(3), and larger gauge groups."
+    year: 2004
+  - summary: "In 2+1 dimensions, significant progress has been made toward proving the mass gap, but 3+1 dimensions remain out of reach."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap"
+    - "opa.phys.quantum-field-theory.confinement-in-qcd"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.92
+  underexplored: 0.40
+  toolability: 0.25
+  formality: 0.55
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the existence of a positive mass gap in non-abelian gauge theories for general compact simple gauge groups.
+  decomposition:
+    - "Establish the mass gap for SU(2) pure Yang-Mills in 4D"
+    - "Determine the dependence of the mass gap on the gauge group"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,121 @@
+id: opa.mathematics.number-theory.hardy-littlewood-k-tuple-conjecture
+kind: problem
+title: "Hardy-Littlewood k-Tuple Conjecture"
+aliases:
+  - "Prime k-Tuples Conjecture"
+  - "First Hardy-Littlewood Conjecture"
+  - "Hardy-Littlewood Conjecture B"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - analytic-number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let H = {h_1, h_2, ..., h_k} be an admissible k-tuple of non-negative integers (meaning
+    for every prime p, the set H does not cover all residue classes modulo p). Let
+    pi_H(x) denote the number of integers n <= x such that n + h_1, n + h_2, ..., n + h_k
+    are all prime. Then pi_H(x) ~ S(H) * x / (log x)^k as x -> infinity, where
+    S(H) = prod_{p prime} (1 - nu_H(p)/p) / (1 - 1/p)^k and nu_H(p) is the number of
+    distinct residues of H modulo p. In particular, pi_H(x) -> infinity.
+  informal: >
+    Consider any pattern of gaps between primes that is not ruled out by simple divisibility
+    obstructions. The conjecture predicts that this pattern appears infinitely often among
+    the primes, and gives an exact formula for how frequently it appears.
+
+why_it_matters: >
+  The Hardy-Littlewood k-tuple conjecture is one of the most fundamental conjectures in
+  analytic number theory. It implies the twin prime conjecture and predicts the fine
+  distribution of prime constellations. It forms the backbone of quantitative predictions
+  about primes.
+
+prerequisites:
+  - analytic number theory
+  - sieve methods
+  - Hardy-Littlewood circle method
+
+dates:
+  first_stated: 1923
+
+sources:
+  canonical:
+    - source_id: src_hardy_littlewood_1923b
+      kind: paper
+      title: "Some problems of 'Partitio numerorum'; III: On the expression of a number as a sum of primes"
+      authors:
+        - "G. H. Hardy"
+        - "J. E. Littlewood"
+      url: "https://doi.org/10.1007/BF02403921"
+      year: 1923
+  status_evidence:
+    - source_id: src_goldston_pintz_yildirim_2009
+      kind: paper
+      title: "Primes in tuples I"
+      url: "https://doi.org/10.4007/annals.2009.170.819"
+      year: 2009
+
+partial_results:
+  - summary: "Goldston-Pintz-Yildirim (GPY) proved that lim inf (p_{n+1} - p_n) / log p_n = 0, a major step toward k-tuples."
+    year: 2005
+  - summary: "Zhang proved bounded gaps between primes (gap at most 70 million), the first finite bound."
+    year: 2013
+  - summary: "Maynard and Tao independently proved bounded gaps with a much smaller bound, and showed lim inf (p_{n+m} - p_n) < infinity for all m."
+    year: 2014
+  - summary: "The full quantitative prediction for the constant S(H) has been confirmed numerically to high precision for many specific tuples."
+    year: 2010
+
+relations:
+  equivalent_to: []
+  generalizes:
+    - opa.mathematics.number-theory.twin-prime-conjecture
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.bateman-horn-conjecture
+    - opa.mathematics.number-theory.gilbreaths-conjecture
+    - opa.mathematics.number-theory.goldbach-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.25
+  toolability: 0.40
+  formality: 0.90
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Hardy-Littlewood k-tuple conjecture predicts the asymptotic density of prime
+    constellations of any admissible shape, generalizing the twin prime conjecture.
+  decomposition:
+    - "Extending the Maynard-Tao sieve to capture asymptotic densities rather than just existence"
+    - "Proving the conjecture for specific small tuples (e.g., twin primes, prime triplets)"
+    - "Connecting to the Elliott-Halberstam conjecture and distribution of primes in progressions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

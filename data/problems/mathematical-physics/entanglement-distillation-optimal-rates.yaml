@@ -1,0 +1,108 @@
+id: opa.phys.quantum-information.entanglement-distillation-optimal-rates
+kind: problem
+title: "Optimal Rates of Entanglement Distillation"
+aliases:
+  - "Distillable Entanglement"
+  - "Entanglement Distillation Capacity"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the distillable entanglement E_D(rho) for a general bipartite mixed state
+    rho, defined as the maximum asymptotic rate at which Bell pairs (maximally entangled
+    states) can be extracted from many copies of rho using LOCC. In particular, determine
+    whether E_D(rho) equals the regularized relative entropy of entanglement, or find
+    a computable formula for E_D.
+  informal: >
+    Given many copies of a noisy entangled state shared between two distant parties,
+    what is the best rate at which they can distill pure Bell pairs using only local
+    operations and classical communication? Finding this rate for general states remains
+    an open problem.
+
+why_it_matters: >
+  Entanglement distillation is a core primitive for quantum communication, quantum
+  key distribution, and quantum computing. Determining optimal rates would establish
+  the fundamental value of entanglement as a resource.
+
+prerequisites:
+  - quantum information theory
+  - entanglement theory
+  - convex optimization
+  - operator algebras
+
+dates:
+  first_stated: 1996
+
+sources:
+  canonical:
+    - source_id: src_bennett_1996
+      kind: paper
+      title: "Purification of Noisy Entanglement and Faithful Teleportation via Noisy Channels"
+      url: "https://doi.org/10.1103/PhysRevLett.76.722"
+      year: 1996
+      locator: "Physical Review Letters 76, 722"
+  status_evidence:
+    - source_id: src_horodecki_review_2009
+      kind: survey
+      title: "Quantum entanglement"
+      url: "https://doi.org/10.1103/RevModPhys.81.865"
+      year: 2009
+
+partial_results:
+  - summary: "The hashing inequality provides a lower bound: E_D >= I_coh for any state."
+    year: 1996
+  - summary: "Rains established the Rains bound as an upper bound on distillable entanglement."
+    year: 2001
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.ppt-bound-entanglement"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.50
+  toolability: 0.35
+  formality: 0.65
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    Determining the optimal asymptotic rate of entanglement distillation for general bipartite mixed states.
+  decomposition:
+    - "Close the gap between hashing bound and Rains bound"
+    - "Determine whether the regularized relative entropy of entanglement equals distillable entanglement"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Geometric Langlands and Gauge Theory"
+statement: "Can the geometric Langlands program be fully realized through the physics of four-dimensional N=4 super Yang-Mills theory and its topological twists?"
+source_id: "src_kapustin_2006"
+source_url: "https://arxiv.org/abs/hep-th/0604151"
+domain_hint: "mathematical-physics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,133 @@
+id: opa.tcs.complexity-theory.polynomial-hierarchy-infinite
+kind: problem
+title: "Is the Polynomial Hierarchy Infinite?"
+aliases:
+  - "PH collapse problem"
+  - "Does the polynomial hierarchy collapse?"
+  - "PH infinite question"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The polynomial hierarchy (PH) is defined as the union of the classes
+    Sigma_k^P for k >= 0, where Sigma_0^P = P, and Sigma_{k+1}^P = NP^{Sigma_k^P}.
+    The hierarchy is said to collapse to level k if Sigma_k^P = Sigma_{k+1}^P
+    (equivalently, if PH = Sigma_k^P). Is the polynomial hierarchy infinite,
+    i.e., is Sigma_k^P strictly contained in Sigma_{k+1}^P for every k >= 0?
+  informal: >
+    The polynomial hierarchy is a tower of complexity classes built on top of P
+    and NP, where each level adds another layer of alternating "guessing."
+    Does this tower go on forever with each level being strictly more powerful
+    than the one below it, or does it eventually flatten out (collapse) so that
+    additional levels of guessing add no more power?
+
+why_it_matters: >
+  The polynomial hierarchy is one of the central structures in computational
+  complexity theory. Many natural computational problems are complete for
+  various levels of PH. If PH collapses, it would have dramatic consequences
+  for the landscape of complexity theory — for instance, if PH collapses to P,
+  then P = NP. Conversely, proving PH is infinite would separate P from NP
+  (since P = NP implies PH = P). The question connects to circuit complexity,
+  counting complexity, and the relativization barrier.
+
+prerequisites:
+  - computational complexity theory
+  - NP-completeness
+  - oracle Turing machines
+  - polynomial-time hierarchy
+  - alternating Turing machines
+
+dates:
+  first_stated: 1976
+
+sources:
+  canonical:
+    - source_id: src_stockmeyer_1976
+      kind: paper
+      title: "The Polynomial-Time Hierarchy"
+      authors:
+        - "Larry J. Stockmeyer"
+      url: "https://doi.org/10.1016/0304-3975(76)90061-X"
+      year: 1976
+      locator: "Theoretical Computer Science, 3(1), pp. 1-22"
+    - source_id: src_meyer_stockmeyer_1972
+      kind: paper
+      title: "The Equivalence Problem for Regular Expressions with Squaring Requires Exponential Space"
+      authors:
+        - "Albert R. Meyer"
+        - "Larry J. Stockmeyer"
+      url: "https://doi.org/10.1109/SWAT.1972.29"
+      year: 1972
+      locator: "Proceedings of FOCS 1972, pp. 125-129"
+  status_evidence:
+    - source_id: src_arora_barak_2009_ph
+      kind: textbook
+      title: "Computational Complexity: A Modern Approach"
+      authors:
+        - "Sanjeev Arora"
+        - "Boaz Barak"
+      url: "https://theory.cs.princeton.edu/complexity/"
+      year: 2009
+
+partial_results:
+  - summary: "Relative to a random oracle, the polynomial hierarchy is infinite with probability 1 (Babai, 1985; Cai, 1986)."
+    year: 1986
+  - summary: "Toda's theorem shows that PH is contained in P^{#P}, connecting the polynomial hierarchy to counting complexity."
+    year: 1991
+  - summary: "Karp and Lipton showed that if NP is contained in P/poly, then PH collapses to Sigma_2^P."
+    year: 1980
+  - summary: "If any Sigma_k^P-complete problem is also in Pi_k^P, then PH collapses to Sigma_k^P."
+    year: 1976
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.20
+  toolability: 0.15
+  formality: 0.95
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    This problem asks whether the polynomial hierarchy is strictly infinite, meaning each level is strictly more powerful than the previous one, which would imply P != NP.
+  decomposition:
+    - "Develop techniques for separating levels of the polynomial hierarchy beyond oracle results"
+    - "Connect circuit complexity lower bounds to structural separations within PH"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,58 @@
+collection_id: col_rolling-benchmark
+title: Rolling Benchmark Subset (March 2026)
+description: 'A monthly rotating subset of open problems selected for AI evaluation. Problems are chosen based on: open status,
+  high confidence, high formality score, and no overlap with the previous 3 months'' subsets. This subset is designed to minimize
+  contamination risk for benchmarking AI reasoning systems. See docs/benchmark-protocol.md for the evaluation protocol.
+
+  '
+curator: OpenProblemAtlas
+created_at: '2026-03-07'
+updated_at: '2026-03-07'
+tags:
+- benchmark
+- rolling
+- evaluation
+- ai-ready
+- contamination-aware
+featured: false
+problems:
+- problem_id: opa.mathematics.coding-theory.cerny-conjecture
+  note: formality=0.85, ai_fit=0.6
+- problem_id: opa.mathematics.number-theory.erdos-straus-conjecture
+  note: formality=0.85, ai_fit=0.6
+- problem_id: opa.mathematics.commutative-algebra.casas-alvero-conjecture
+  note: formality=0.9, ai_fit=0.55
+- problem_id: opa.mathematics.number-theory.collatz-conjecture
+  note: formality=0.9, ai_fit=0.55
+- problem_id: opa.mathematics.combinatorics.lonely-runner-conjecture
+  note: Combinatorial/dynamical problem with clear statement
+- problem_id: opa.mathematics.combinatorics.ramsey-number-r55
+  note: formality=0.9, ai_fit=0.55
+- problem_id: opa.mathematics.number-theory.selfridges-conjecture
+  note: formality=0.85, ai_fit=0.55
+- problem_id: opa.mathematics.combinatorics.union-closed-sets-conjecture
+  note: High formality, well-defined boolean answer, good benchmark target
+- problem_id: opa.mathematics.number-theory.agoh-giuga-conjecture
+  note: formality=0.9, ai_fit=0.5
+- problem_id: opa.mathematics.number-theory.brocards-problem
+  note: formality=0.85, ai_fit=0.5
+- problem_id: opa.mathematics.number-theory.erdos-mollin-walsh-conjecture
+  note: formality=0.85, ai_fit=0.5
+- problem_id: opa.mathematics.number-theory.lehmers-totient-problem
+  note: formality=0.9, ai_fit=0.5
+- problem_id: opa.mathematics.approximation-theory.approximation-jackson-bernstein-sharp
+  note: formality=0.85, ai_fit=0.45
+- problem_id: opa.mathematics.number-theory.catalan-dickson-conjecture
+  note: formality=0.9, ai_fit=0.45
+- problem_id: opa.mathematics.graph-theory.erdos-gyarfas-conjecture
+  note: formality=0.85, ai_fit=0.45
+- problem_id: opa.mathematics.extremal-combinatorics.frankl-conjecture-specific-bounds
+  note: formality=0.85, ai_fit=0.45
+- problem_id: opa.mathematics.convex-geometry.mahler-conjecture
+  note: formality=0.85, ai_fit=0.45
+- problem_id: opa.mathematics.non-commutative-algebra.matrix-mortality-problem
+  note: formality=0.85, ai_fit=0.45
+- problem_id: opa.mathematics.mathematical-optimization.nonnegative-rank-conjecture
+  note: formality=0.85, ai_fit=0.45
+- problem_id: opa.mathematics.graph-theory.reconstruction-conjecture
+  note: Well-defined graph theory problem with partial results

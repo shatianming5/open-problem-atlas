@@ -1,0 +1,11 @@
+title: "Deterministic Approximate Counting for DNF"
+statement: "Can the number of satisfying assignments of a DNF formula be deterministically approximated in polynomial time, matching the randomized result of Luby and Velickovic?"
+source_id: "src_moitra_2020"
+source_url: "https://arxiv.org/abs/1711.03236"
+domain_hint: "theoretical-cs"
+subdomain_hint: "derandomization"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

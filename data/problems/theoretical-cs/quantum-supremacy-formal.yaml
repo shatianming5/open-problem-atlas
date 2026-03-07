@@ -1,0 +1,115 @@
+id: opa.tcs.quantum-computing.quantum-supremacy-formal
+kind: problem
+title: "Quantum Supremacy Formal Proof"
+aliases:
+  - "Quantum computational advantage proof"
+  - "Unconditional quantum speedup"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can we formally prove that quantum computers can solve some problem asymptotically
+    faster than any classical computer (i.e., prove an unconditional separation between
+    BQP and BPP)? Current quantum speedup results (e.g., Shor's algorithm) rely on
+    unproven hardness assumptions about classical computation.
+  informal: >
+    Can we mathematically prove, without any unproven assumptions, that quantum
+    computers are genuinely faster than classical computers for some problem?
+
+why_it_matters: >
+  While quantum computers appear to be faster for certain problems (factoring, simulation),
+  all known proofs rely on unproven assumptions about classical hardness. A formal
+  unconditional proof of quantum advantage would resolve one of the deepest questions
+  in quantum computing.
+
+prerequisites:
+  - quantum complexity theory
+  - BQP and BPP
+  - circuit lower bounds
+  - quantum algorithms
+
+dates:
+  first_stated: 1997
+
+sources:
+  canonical:
+    - source_id: src_bernstein_vazirani_1997
+      kind: paper
+      title: "Quantum Complexity Theory"
+      authors:
+        - "Ethan Bernstein"
+        - "Umesh Vazirani"
+      url: "https://doi.org/10.1137/S0097539796300921"
+      year: 1997
+  status_evidence:
+    - source_id: src_aaronson_arkhipov_2011
+      kind: paper
+      title: "The Computational Complexity of Linear Optics"
+      authors:
+        - "Scott Aaronson"
+        - "Alex Arkhipov"
+      url: "https://doi.org/10.1145/1993636.1993682"
+      year: 2011
+
+partial_results:
+  - summary: "Oracle separations between BQP and BPP are known (Bernstein-Vazirani 1997), but unconditional separations are not."
+    year: 1997
+  - summary: "Aaronson and Arkhipov (2011) showed boson sampling provides evidence for quantum supremacy under plausible assumptions."
+    year: 2011
+  - summary: "Google's Sycamore experiment (2019) demonstrated practical quantum supremacy, but the theoretical claim has been debated."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.quantum-computing.quantum-speedup-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.20
+  toolability: 0.20
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Formally proving an unconditional quantum computational advantage over classical
+    computers, without relying on unproven complexity assumptions, remains one of the
+    central open problems in quantum computing.
+  decomposition:
+    - "Prove unconditional separation between BQP and BPP"
+    - "Develop new proof techniques beyond relativization for quantum complexity"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Birch and Swinnerton-Dyer Conjecture"
+statement: "The rank of the group of rational points on an elliptic curve E equals the order of vanishing of the L-function L(E,s) at s=1."
+source_id: "src_birch_1965"
+source_url: "https://www.claymath.org/millennium-problems/birch-and-swinnerton-dyer-conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

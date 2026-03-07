@@ -1,0 +1,117 @@
+id: opa.mathematics.matroid-theory.rota-welsh-conjecture
+kind: problem
+title: "Rota-Welsh Conjecture (Extensions)"
+aliases:
+  - "Log-Concavity of Matroid Characteristic Polynomial"
+  - "Ultra-Log-Concavity Conjecture for Matroids"
+
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - matroid-theory
+  - enumerative-combinatorics
+  - algebraic-topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The original Rota-Welsh conjecture — that the absolute values of coefficients of the
+    characteristic polynomial of any matroid form a log-concave sequence — was proved by
+    Adiprasito, Huh, and Katz (2018). The extended conjecture asks whether the same sequence
+    is ultra-log-concave: |a_k|^2 >= (1 + 1/k)(1 + 1/(r-k)) |a_{k-1}| |a_{k+1}| for all
+    relevant k, where r is the rank. This stronger property remains open for general matroids.
+  informal: >
+    The coefficients of the characteristic polynomial of a matroid are log-concave (proved).
+    The remaining open question is whether a stronger "ultra-log-concavity" property holds,
+    which would imply even tighter control on coefficient ratios.
+
+why_it_matters: >
+  The resolution of the Rota-Welsh conjecture by Adiprasito, Huh, and Katz was a landmark
+  achievement connecting combinatorics to algebraic geometry (June Huh's Fields Medal 2022).
+  The remaining ultra-log-concavity extension would complete the picture and has implications
+  for combinatorial probability and negative dependence theory.
+
+prerequisites:
+  - matroid theory
+  - combinatorial Hodge theory
+  - algebraic geometry
+  - log-concavity theory
+
+dates:
+  first_stated: 1970
+
+sources:
+  canonical:
+    - source_id: src_rota_1971
+      kind: paper
+      title: "Combinatorial theory, old and new"
+      authors:
+        - "Gian-Carlo Rota"
+      year: 1971
+  status_evidence:
+    - source_id: src_ahk_2018
+      kind: paper
+      title: "Hodge theory for combinatorial geometries"
+      authors:
+        - "Karim Adiprasito"
+        - "June Huh"
+        - "Eric Katz"
+      url: "https://doi.org/10.4007/annals.2018.188.2.1"
+      year: 2018
+
+partial_results:
+  - summary: "Adiprasito, Huh, and Katz proved log-concavity for all matroids."
+    year: 2018
+  - summary: "Ultra-log-concavity proved for representable matroids by Anari, Liu, Oveis Gharan, Vinzant."
+    year: 2019
+  - summary: "Ultra-log-concavity for general matroids remains open."
+    year: 2022
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.matroid-theory.dowling-wilson-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.45
+  toolability: 0.35
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Rota-Welsh log-concavity conjecture is proved. The remaining extension asks for
+    ultra-log-concavity of characteristic polynomial coefficients for all matroids.
+  decomposition:
+    - "Combinatorial Hodge theory and Lorentzian polynomials"
+    - "Negative dependence and strongly Rayleigh measures"
+    - "Extension to non-representable matroids"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

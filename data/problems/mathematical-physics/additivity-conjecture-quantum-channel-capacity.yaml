@@ -1,0 +1,126 @@
+id: opa.phys.quantum-information.additivity-conjecture-quantum-channel-capacity
+kind: problem
+title: "Additivity Conjecture for Quantum Channel Capacity"
+aliases:
+  - "Additivity of Minimum Output Entropy Conjecture"
+  - "Additivity of Holevo Capacity"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The additivity conjecture for quantum channel capacity, in its strongest form, asserted
+    that the minimum output entropy S_min(Phi) = min_{rho} S(Phi(rho)) of a quantum channel
+    Phi is additive under tensor products: S_min(Phi_1 tensor Phi_2) = S_min(Phi_1) + S_min(Phi_2)
+    for all channels Phi_1, Phi_2. Hastings (2009) disproved this conjecture by showing the
+    existence of counterexamples. However, the fundamental open problem remains: determine the
+    classical capacity C(Phi) = lim_{n -> infinity} (1/n) chi(Phi^{tensor n}) of a general
+    quantum channel Phi in a single-letter (computable) formula, i.e., whether the regularization
+    in the HSW theorem can be removed for specific classes of channels, and characterize for
+    which channels additivity of the Holevo capacity chi(Phi_1 tensor Phi_2) = chi(Phi_1) + chi(Phi_2) holds.
+  informal: >
+    When we send classical information through a quantum channel, can we always compute the
+    maximum transmission rate (classical capacity) from a single use of the channel, or do we
+    need to consider entangled inputs across many channel uses? While the general additivity
+    conjecture was disproved, determining the classical capacity of a general quantum channel
+    and identifying which channels have additive capacity remains wide open.
+
+why_it_matters: >
+  Understanding quantum channel capacity is central to quantum information theory and quantum
+  communication. The resolution of the additivity question determines whether the classical
+  capacity of a quantum channel is computable. Hastings' counterexample showed the problem is
+  fundamentally harder than hoped, but a complete characterization of channel capacities remains
+  one of the deepest open problems in quantum Shannon theory.
+
+prerequisites:
+  - quantum information theory
+  - operator algebras
+  - quantum entropy
+  - quantum channel theory
+
+dates:
+  first_stated: 2002
+
+sources:
+  canonical:
+    - source_id: src_holevo_1998
+      kind: paper
+      title: "The capacity of the quantum channel with general signal states"
+      url: "https://ieeexplore.ieee.org/document/650065"
+      year: 1998
+      locator: "IEEE Trans. Inform. Theory 44(1), 269-273"
+    - source_id: src_shor_2004
+      kind: paper
+      title: "Equivalence of Additivity Questions in Quantum Information Theory"
+      url: "https://arxiv.org/abs/quant-ph/0305035"
+      year: 2004
+      locator: "Comm. Math. Phys. 246, 453-472"
+  status_evidence:
+    - source_id: src_hastings_2009
+      kind: paper
+      title: "Superadditivity of communication capacity using entangled inputs"
+      url: "https://arxiv.org/abs/0809.3972"
+      year: 2009
+    - source_id: src_wilde_2017
+      kind: textbook
+      title: "Quantum Information Theory (2nd ed.)"
+      year: 2017
+
+partial_results:
+  - summary: "King proved additivity for unital qubit channels and entanglement-breaking channels."
+    year: 2003
+  - summary: "Shor showed equivalence of several additivity conjectures: additivity of Holevo capacity, additivity of minimum output entropy, strong superadditivity of entanglement of formation, and additivity of entanglement of formation."
+    year: 2004
+  - summary: "Hastings disproved the general additivity conjecture by constructing random counterexamples for minimum output entropy."
+    year: 2009
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.45
+  toolability: 0.55
+  formality: 0.80
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    The additivity conjecture problem concerns whether the classical capacity of a quantum channel can be determined from a single use, or requires considering entangled inputs across multiple uses.
+  decomposition:
+    - "Characterize the class of quantum channels for which Holevo capacity is additive"
+    - "Develop computable bounds or single-letter formulas for the classical capacity of specific channel families"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

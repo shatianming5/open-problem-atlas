@@ -1,0 +1,11 @@
+title: "Optimal Depth for Quantum Circuits"
+statement: "What is the minimum depth of a quantum circuit needed to prepare topologically ordered states, and does this match theoretical lower bounds from circuit complexity?"
+source_id: "src_bravyi_2022"
+source_url: "https://arxiv.org/abs/2210.06796"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

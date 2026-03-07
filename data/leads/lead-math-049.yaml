@@ -1,0 +1,11 @@
+title: "Barnette's Conjecture"
+statement: "Every 3-connected bipartite cubic planar graph is Hamiltonian."
+source_id: "src_barnette_1969"
+source_url: "https://en.wikipedia.org/wiki/Barnette%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

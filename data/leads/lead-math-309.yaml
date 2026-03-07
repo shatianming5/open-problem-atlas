@@ -1,0 +1,11 @@
+title: "Whittle's Stabilizer Theorem Extensions"
+statement: "Extend stabilizer theorems to characterize representability of matroids over partial fields."
+source_id: "src_whittle_1997"
+source_url: "https://en.wikipedia.org/wiki/Matroid_representation"
+domain_hint: "mathematics"
+subdomain_hint: "matroid-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

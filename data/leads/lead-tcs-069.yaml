@@ -1,0 +1,11 @@
+title: "Faster Algorithms for Maximum Weight Matching"
+statement: "Can maximum weight matching in general graphs be solved faster than O(mn + n^2 log n)?"
+source_id: "src_gabow_tarjan_1991"
+source_url: "https://doi.org/10.1145/103418.103459"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

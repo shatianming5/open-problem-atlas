@@ -1,0 +1,114 @@
+id: opa.mathematics.functional-analysis.weiss-conjecture-admissibility
+kind: problem
+title: "Weiss Conjecture on Admissibility"
+aliases:
+  - "Weiss Admissibility Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - functional-analysis
+  - differential-equations
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let A be the generator of a bounded analytic semigroup on a Hilbert space H, and let
+    C: D(A) -> Y be an observation operator. Then C is an infinite-time admissible observation
+    operator for the semigroup if and only if the Carleson measure condition holds:
+    sup_{Re(s)>0} ||C(sI - A)^{-1}|| < infinity. In other words, resolvent boundedness
+    characterizes admissibility.
+  informal: >
+    For certain infinite-dimensional linear systems (e.g., heat equations, wave equations),
+    the question is whether observability (can you recover the state from measurements?) is
+    equivalent to a simple resolvent estimate.
+
+why_it_matters: >
+  The Weiss conjecture (1989) is a central open problem in infinite-dimensional systems theory.
+  It connects operator semigroup theory, control theory for PDEs, and Carleson measure theory.
+  Jacob and Partington proved it for specific semigroups, but the general case remains open.
+  It has implications for PDE control and stabilization.
+
+prerequisites:
+  - operator semigroups
+  - control theory
+  - functional analysis
+  - PDE theory
+
+dates:
+  first_stated: 1989
+
+sources:
+  canonical:
+    - source_id: src_weiss_1989
+      kind: paper
+      title: "Admissibility of unbounded control operators"
+      authors:
+        - "George Weiss"
+      year: 1989
+      url: "https://doi.org/10.1137/0327028"
+  status_evidence:
+    - source_id: src_jacob_partington_2001
+      kind: paper
+      title: "Admissibility of control and observation operators for semigroups: a survey"
+      authors:
+        - "Birgit Jacob"
+        - "Jonathan R. Partington"
+      url: "https://doi.org/10.1007/978-3-0348-8362-7_11"
+      year: 2001
+
+partial_results:
+  - summary: "Proved for right-shift semigroups and diagonal semigroups by Jacob and Partington."
+    year: 2001
+  - summary: "Le Merdy proved it for bounded analytic semigroups on L^p spaces."
+    year: 2003
+  - summary: "Counterexamples exist on Banach spaces; the Hilbert space case is open."
+    year: 2004
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.50
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Weiss conjecture characterizes admissible observation operators via a resolvent condition.
+    Proved for special semigroups; open for general analytic semigroups on Hilbert spaces.
+  decomposition:
+    - "Carleson measure theory and harmonic analysis"
+    - "Operator semigroup techniques"
+    - "Connections to H-infinity calculus"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

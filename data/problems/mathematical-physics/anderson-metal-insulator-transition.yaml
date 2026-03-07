@@ -1,0 +1,112 @@
+id: opa.phys.condensed-matter-theory.anderson-metal-insulator-transition
+kind: problem
+title: "Anderson Metal-Insulator Transition"
+aliases:
+  - "Anderson Localization Transition"
+  - "Anderson Transition in 3D"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - condensed-matter-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove the existence of the Anderson metal-insulator transition for the Anderson
+    model (tight-binding Hamiltonian with random on-site potential) on Z^d for d >= 3.
+    Specifically, prove that there exists a critical disorder strength W_c such that
+    for W < W_c the spectrum contains absolutely continuous component (extended states,
+    metallic phase) and for W > W_c the spectrum is pure point with exponentially
+    localized eigenstates (insulating phase). In d=3, determine the critical exponent
+    nu for the divergence of the localization length xi ~ |W - W_c|^{-nu}.
+  informal: >
+    In a crystal with random impurities, electrons can either spread freely (metal)
+    or get trapped (insulator). Proving that this metal-insulator transition exists
+    in 3D is one of the most important open problems in mathematical physics.
+
+why_it_matters: >
+  Anderson localization is a fundamental phenomenon in condensed matter physics.
+  Proving the existence of a metal-insulator transition in 3D would be a landmark
+  result connecting probability theory, spectral theory, and physics.
+
+prerequisites:
+  - condensed matter theory
+  - spectral theory
+  - probability theory
+  - random Schrodinger operators
+  - mathematical physics
+
+dates:
+  first_stated: 1958
+
+sources:
+  canonical:
+    - source_id: src_anderson_1958
+      kind: paper
+      title: "Absence of Diffusion in Certain Random Lattices"
+      url: "https://doi.org/10.1103/PhysRev.109.1492"
+      year: 1958
+      locator: "Physical Review 109, 1492"
+  status_evidence:
+    - source_id: src_aizenman_warzel_2015
+      kind: textbook
+      title: "Random Operators: Disorder Effects on Quantum Spectra and Dynamics"
+      url: "https://doi.org/10.1090/gsm/168"
+      year: 2015
+
+partial_results:
+  - summary: "Froehlich and Spencer proved Anderson localization at large disorder (insulating phase) using multiscale analysis."
+    year: 1983
+  - summary: "Aizenman and Molchanov proved localization using fractional moment methods."
+    year: 1993
+  - summary: "The existence of absolutely continuous spectrum (extended states) at weak disorder in d >= 3 remains unproven."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.condensed-matter-theory.many-body-localization"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.70
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the existence of the Anderson metal-insulator transition in three-dimensional disordered systems.
+  decomposition:
+    - "Prove existence of absolutely continuous spectrum at weak disorder in d >= 3"
+    - "Determine the critical disorder strength and critical exponent"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

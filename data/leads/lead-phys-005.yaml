@@ -1,0 +1,11 @@
+title: "NLTS Conjecture and Quantum Error Correction"
+statement: "Does the No Low-Energy Trivial States conjecture hold for all quantum LDPC codes? Recent progress by Anshu, Breuckmann, and Nirkhe resolved this, but generalizations remain open."
+source_id: "src_anshu_2022"
+source_url: "https://arxiv.org/abs/2206.13228"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Smale's Mean Value Conjecture"
+statement: "For a polynomial p of degree n with p(0) = 0 and p'(0) = 1, there exists a critical point c with |p(c)/c| <= (n-1)/n."
+source_id: "src_smale_1981"
+source_url: "https://en.wikipedia.org/wiki/Smale%27s_mean_value_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "complex-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

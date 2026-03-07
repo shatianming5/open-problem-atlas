@@ -1,0 +1,11 @@
+title: "Furstenberg x2-x3 Conjecture"
+statement: "The only continuous probability measures on the circle invariant under both x->2x and x->3x (mod 1) are Lebesgue measure and Dirac masses."
+source_id: "src_furstenberg_1967"
+source_url: "https://en.wikipedia.org/wiki/Furstenberg%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Banach-Mazur Rotation Problem"
+statement: "If every linear isometry of a Banach space X onto itself is transitive on the unit sphere, is X a Hilbert space?"
+source_id: "src_banachmazur_1932"
+source_url: "https://en.wikipedia.org/wiki/Banach%E2%80%93Mazur_compactum"
+domain_hint: "mathematics"
+subdomain_hint: "functional-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

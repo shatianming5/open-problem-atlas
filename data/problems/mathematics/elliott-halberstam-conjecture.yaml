@@ -1,0 +1,113 @@
+id: opa.mathematics.probability.elliott-halberstam-conjecture
+kind: problem
+title: "Elliott-Halberstam Conjecture"
+aliases:
+  - "EH Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - probability
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every theta < 1 and every A > 0, the sum over q <= x^theta of the maximum over
+    (a,q)=1 of |pi(x; q, a) - li(x)/phi(q)| is O(x / (log x)^A), where pi(x; q, a) counts
+    primes up to x congruent to a mod q. The Bombieri-Vinogradov theorem establishes this
+    for theta < 1/2; the conjecture extends it to all theta < 1.
+  informal: >
+    Primes are equidistributed among arithmetic progressions to a much greater extent than
+    currently provable. The conjecture extends the Bombieri-Vinogradov theorem from moduli
+    up to sqrt(x) to moduli nearly as large as x.
+
+why_it_matters: >
+  The Elliott-Halberstam conjecture (1968) is a major open problem in analytic number theory.
+  It would have dramatic consequences: Goldston, Pintz, and Yildirim showed that EH implies
+  bounded gaps between primes (later proved unconditionally by Zhang and Maynard). A full proof
+  of EH would yield twin primes separated by at most 6.
+
+prerequisites:
+  - analytic number theory
+  - sieve methods
+  - probability (distribution of primes)
+
+dates:
+  first_stated: 1968
+
+sources:
+  canonical:
+    - source_id: src_elliott_halberstam_1968
+      kind: paper
+      title: "A conjecture in prime number theory"
+      authors:
+        - "Peter D.T.A. Elliott"
+        - "Heini Halberstam"
+      year: 1968
+  status_evidence:
+    - source_id: src_gpy_2009
+      kind: paper
+      title: "Primes in tuples I"
+      authors:
+        - "Daniel Goldston"
+        - "Janos Pintz"
+        - "Cem Yildirim"
+      url: "https://doi.org/10.4007/annals.2009.170.819"
+      year: 2009
+
+partial_results:
+  - summary: "Bombieri-Vinogradov theorem establishes the result for theta < 1/2."
+    year: 1965
+  - summary: "Zhang and Maynard proved bounded prime gaps unconditionally (not requiring EH)."
+    year: 2014
+  - summary: "Polymath8 showed that EH implies prime gaps <= 6."
+    year: 2014
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Elliott-Halberstam conjecture extends the Bombieri-Vinogradov theorem on prime distribution
+    in arithmetic progressions to moduli almost as large as x. Implies twin prime gaps <= 6.
+  decomposition:
+    - "Extensions of sieve methods and bilinear sum estimates"
+    - "Type I/II sum decompositions beyond Bombieri-Vinogradov range"
+    - "Connections to generalized Riemann hypothesis"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

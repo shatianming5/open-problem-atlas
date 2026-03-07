@@ -1,0 +1,11 @@
+title: "Constructive Quantum Field Theory in 4D"
+statement: "Rigorously construct an interacting quantum field theory in four spacetime dimensions."
+source_id: "src_glimmjaffe_1968"
+source_url: "https://en.wikipedia.org/wiki/Constructive_quantum_field_theory"
+domain_hint: "mathematics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Quantum Advantage in Property Testing"
+statement: "For which graph properties does quantum query complexity provide a provably polynomial advantage over classical property testing?"
+source_id: "src_ambainis_2023"
+source_url: "https://arxiv.org/abs/2303.10408"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-algorithms"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

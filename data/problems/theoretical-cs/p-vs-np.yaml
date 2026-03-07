@@ -1,0 +1,151 @@
+id: opa.tcs.complexity-theory.p-vs-np
+kind: problem
+title: "P vs NP Problem"
+aliases:
+  - "P = NP?"
+  - "Cook's Problem"
+  - "P versus NP"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let P denote the class of languages decidable by a deterministic Turing machine
+    in polynomial time, and NP denote the class of languages decidable by a
+    nondeterministic Turing machine in polynomial time (equivalently, languages for
+    which a proposed solution can be verified in polynomial time). Does P = NP?
+  informal: >
+    If a solution to a problem can be quickly verified (in polynomial time), can
+    the solution itself always be quickly found (in polynomial time)? In other words,
+    is efficient verification of answers just as powerful as efficient computation
+    of answers?
+
+why_it_matters: >
+  The P vs NP problem is widely regarded as the most important open problem in
+  theoretical computer science and one of the seven Millennium Prize Problems.
+  A proof that P = NP would revolutionize cryptography (rendering most current
+  encryption insecure), optimization, artificial intelligence, and mathematics.
+  A proof that P != NP would formally justify the belief that many important
+  computational problems are inherently intractable and would place fundamental
+  limits on what can be efficiently computed.
+
+prerequisites:
+  - computational complexity theory
+  - Turing machines
+  - nondeterminism
+  - NP-completeness
+  - polynomial-time reductions
+
+dates:
+  first_stated: 1971
+
+sources:
+  canonical:
+    - source_id: src_cook_1971
+      kind: paper
+      title: "The Complexity of Theorem-Proving Procedures"
+      authors:
+        - "Stephen A. Cook"
+      url: "https://doi.org/10.1145/800157.805047"
+      year: 1971
+      locator: "Proceedings of the 3rd Annual ACM Symposium on Theory of Computing, pp. 151-158"
+    - source_id: src_karp_1972
+      kind: paper
+      title: "Reducibility Among Combinatorial Problems"
+      authors:
+        - "Richard M. Karp"
+      url: "https://doi.org/10.1007/978-1-4684-2001-2_9"
+      year: 1972
+      locator: "Complexity of Computer Computations, pp. 85-103"
+    - source_id: src_clay_pvsnp
+      kind: problem_list
+      title: "P vs NP Problem — Clay Mathematics Institute"
+      url: "https://www.claymath.org/millennium-problems/p-vs-np-problem"
+      year: 2000
+  status_evidence:
+    - source_id: src_fortnow_2009
+      kind: survey
+      title: "The Status of the P Versus NP Problem"
+      authors:
+        - "Lance Fortnow"
+      url: "https://doi.org/10.1145/1562164.1562186"
+      year: 2009
+    - source_id: src_aaronson_2016
+      kind: survey
+      title: "P =? NP"
+      authors:
+        - "Scott Aaronson"
+      url: "https://www.scottaaronson.com/papers/pnp.pdf"
+      year: 2016
+
+partial_results:
+  - summary: "Baker, Gill, and Solovay proved that there exist oracles A and B such that P^A = NP^A and P^B != NP^B, showing that any proof resolving P vs NP must be non-relativizing."
+    year: 1975
+  - summary: "Razborov and Rudich showed that 'natural proofs' cannot prove P != NP if one-way functions exist, ruling out a large class of proof strategies."
+    year: 1997
+  - summary: "Aaronson and Wigderson showed that the algebrization barrier further restricts the class of techniques that can resolve P vs NP."
+    year: 2009
+  - summary: "Ryan Williams proved that NEXP is not in ACC^0, the strongest circuit lower bound known, using a connection between algorithms and circuit lower bounds."
+    year: 2011
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.np-vs-conp"
+    - "opa.tcs.complexity-theory.p-vs-pspace"
+    - "opa.tcs.complexity-theory.bpp-vs-p"
+    - "opa.tcs.complexity-theory.polynomial-hierarchy-infinite"
+    - "opa.tcs.cryptography.existence-of-one-way-functions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 1.00
+  underexplored: 0.10
+  toolability: 0.20
+  formality: 0.95
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The P vs NP problem asks whether every problem whose solution can be verified in polynomial time can also be solved in polynomial time, and is the most important open question in computational complexity theory.
+  decomposition:
+    - "Develop new circuit lower bound techniques beyond relativization, natural proofs, and algebrization barriers"
+    - "Explore connections between proof complexity, algebraic geometry, and combinatorial optimization"
+  disclaimer: unverified
+
+prize:
+  amount: "1000000"
+  currency: USD
+  offered_by: Clay Mathematics Institute
+  url: "https://www.claymath.org/millennium-problems/p-vs-np-problem"
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Subquadratic Algorithm for Frechet Distance"
+statement: "Can the Frechet distance between two polygonal curves be computed in truly sub-quadratic time?"
+source_id: "src_bringmann_2014"
+source_url: "https://doi.org/10.1109/FOCS.2014.63"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

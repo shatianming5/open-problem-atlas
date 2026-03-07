@@ -1,0 +1,11 @@
+title: "Torsion Conjecture for Abelian Varieties"
+statement: "Is there a uniform bound on the torsion subgroup of an abelian variety of dimension g defined over a number field of degree d, depending only on g and d?"
+source_id: "src_merel_1996"
+source_url: "https://en.wikipedia.org/wiki/Torsion_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

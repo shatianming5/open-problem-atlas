@@ -1,0 +1,11 @@
+title: "Catalan-Dickson Conjecture on Aliquot Sequences"
+statement: "Do all aliquot sequences either terminate or become periodic? Equivalently, are there no aliquot sequences that diverge to infinity?"
+source_id: "src_guy_2004"
+source_url: "https://en.wikipedia.org/wiki/Aliquot_sequence"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

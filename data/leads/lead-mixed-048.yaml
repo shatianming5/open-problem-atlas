@@ -1,0 +1,11 @@
+title: "Zilber-Pink Conjecture"
+statement: "Does the Zilber-Pink conjecture hold for all semi-abelian varieties, implying that unlikely intersections of subvarieties with special subvarieties are finite?"
+source_id: "src_zannier_2022"
+source_url: "https://arxiv.org/abs/2209.04981"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

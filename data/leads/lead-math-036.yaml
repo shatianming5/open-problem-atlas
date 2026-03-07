@@ -1,0 +1,11 @@
+title: "Dubner's Conjecture on Consecutive Prime Gaps"
+statement: "For every integer k, there exist k consecutive primes in arithmetic progression."
+source_id: "src_green_2004"
+source_url: "https://en.wikipedia.org/wiki/Primes_in_arithmetic_progression"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

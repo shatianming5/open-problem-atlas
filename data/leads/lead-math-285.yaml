@@ -1,0 +1,11 @@
+title: "Inner Model Problem for One Supercompact Cardinal"
+statement: "Construct a canonical inner model with a supercompact cardinal."
+source_id: "src_steel_2010"
+source_url: "https://en.wikipedia.org/wiki/Inner_model_theory"
+domain_hint: "mathematics"
+subdomain_hint: "set-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

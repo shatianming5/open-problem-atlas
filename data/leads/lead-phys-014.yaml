@@ -1,0 +1,11 @@
+title: "Entanglement Distillation of Multipartite States"
+statement: "What is the optimal rate of multipartite entanglement distillation for general multipartite quantum states? The theory is well-developed only for bipartite systems."
+source_id: "src_horodecki_2009"
+source_url: "https://arxiv.org/abs/quant-ph/0702225"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

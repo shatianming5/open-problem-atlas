@@ -1,0 +1,11 @@
+title: "Quantum Error Correction Threshold for Surface Codes"
+statement: "What is the exact fault-tolerant threshold for the surface code under realistic (non-i.i.d.) noise models, and can it be rigorously proved?"
+source_id: "src_bombin_2023"
+source_url: "https://arxiv.org/abs/2310.12124"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-error-correction"
+confidence: 0.60
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

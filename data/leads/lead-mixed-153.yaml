@@ -1,0 +1,11 @@
+title: "Topological Recursion and Enumerative Geometry"
+statement: "Can topological recursion be proved to compute all-genus Gromov-Witten invariants of arbitrary toric Calabi-Yau threefolds?"
+source_id: "src_eynard_2023"
+source_url: "https://arxiv.org/abs/2303.15519"
+domain_hint: "mathematical-physics"
+subdomain_hint: "enumerative-geometry"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

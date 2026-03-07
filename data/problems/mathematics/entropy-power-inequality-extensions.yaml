@@ -1,0 +1,119 @@
+id: opa.mathematics.probability.entropy-power-inequality-extensions
+kind: problem
+title: "Entropy Power Inequality for Dependent Variables"
+aliases:
+  - "Rényi Entropy Power Inequality Conjecture"
+  - "EPI Extensions"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - probability
+  - coding-theory
+  - measure-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Does the entropy power inequality extend to Rényi entropies of all orders p >= 1?
+    Specifically, for independent continuous random variables X and Y with finite Rényi
+    entropy of order p, does e^{2 H_p(X+Y)/n} >= e^{2 H_p(X)/n} + e^{2 H_p(Y)/n}
+    hold, where H_p denotes the Rényi entropy of order p and n is the dimension?
+  informal: >
+    The classical entropy power inequality (Shannon, Stam) says that the "entropy power" of
+    the sum of independent random variables is at least the sum of their entropy powers. The
+    open problem asks whether this extends from Shannon entropy to the full family of Rényi
+    entropies.
+
+why_it_matters: >
+  The entropy power inequality (EPI) is a pillar of information theory with applications to
+  channel capacity, estimation theory, and probability. Extending it to Rényi entropies would
+  unify and generalize numerous information-theoretic inequalities and has applications to
+  coding theory and statistical mechanics.
+
+prerequisites:
+  - information theory
+  - probability theory
+  - measure theory
+  - functional analysis
+
+dates:
+  first_stated: 1985
+
+sources:
+  canonical:
+    - source_id: src_dembo_cover_thomas_1991
+      kind: paper
+      title: "Information theoretic inequalities"
+      authors:
+        - "Amir Dembo"
+        - "Thomas M. Cover"
+        - "Joy A. Thomas"
+      year: 1991
+      url: "https://doi.org/10.1109/18.104312"
+  status_evidence:
+    - source_id: src_bobkov_chistyakov_2015
+      kind: paper
+      title: "Entropy power inequality for the Rényi entropy"
+      authors:
+        - "Sergey G. Bobkov"
+        - "Gennadiy P. Chistyakov"
+      url: "https://doi.org/10.1109/TIT.2015.2412554"
+      year: 2015
+
+partial_results:
+  - summary: "Bobkov and Chistyakov proved the Rényi EPI for p in [1, ∞) under log-concavity assumptions."
+    year: 2015
+  - summary: "Ram and Sason established the inequality for integer-valued random variables."
+    year: 2016
+  - summary: "Li proved the conjecture for p in [1, 43/41] without extra assumptions."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.55
+  toolability: 0.50
+  formality: 0.80
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The conjecture extends Shannon's entropy power inequality to Rényi entropies of all orders,
+    partially proved for restricted parameter ranges and special distributions.
+  decomposition:
+    - "Young's inequality and sharp constants approach"
+    - "Log-concavity and convexity methods"
+    - "Connections to optimal transport and heat flow"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

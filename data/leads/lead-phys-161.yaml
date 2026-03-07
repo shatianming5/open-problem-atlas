@@ -1,0 +1,11 @@
+title: "Anderson Localization in Interacting Systems"
+statement: "Does Anderson localization persist in the presence of interactions at finite temperature in dimensions d >= 2, or does it always eventually thermalize?"
+source_id: "src_basko_2006"
+source_url: "https://arxiv.org/abs/cond-mat/0602510"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

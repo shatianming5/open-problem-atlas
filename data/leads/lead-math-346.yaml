@@ -1,0 +1,11 @@
+title: "DeVore-Temlyakov Conjecture on Greedy Approximation"
+statement: "Greedy algorithms achieve near-optimal rates for m-term approximation in arbitrary redundant systems."
+source_id: "src_devoretemlyakov_1996"
+source_url: "https://en.wikipedia.org/wiki/Greedy_algorithm"
+domain_hint: "mathematics"
+subdomain_hint: "approximation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

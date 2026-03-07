@@ -1,0 +1,11 @@
+title: "N-term Approximation Widths Conjecture"
+statement: "For nonlinear n-term approximation from wavelet bases, the optimal rate is achieved by thresholding."
+source_id: "src_devore_1998"
+source_url: "https://en.wikipedia.org/wiki/Nonlinear_approximation"
+domain_hint: "mathematics"
+subdomain_hint: "approximation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

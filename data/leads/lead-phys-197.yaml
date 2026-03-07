@@ -1,0 +1,11 @@
+title: "Integrable Systems Classification"
+statement: "Can all integrable partial differential equations in two dimensions be completely classified, and does integrability persist under quantization?"
+source_id: "src_zakharov_1991"
+source_url: "https://doi.org/10.1007/978-3-642-88703-1"
+domain_hint: "mathematical-physics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

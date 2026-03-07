@@ -1,0 +1,110 @@
+id: opa.phys.general-relativity.penrose-inequality-general
+kind: problem
+title: "Penrose Inequality (General Case)"
+aliases:
+  - "Penrose Conjecture"
+  - "Penrose Cosmic Censorship Inequality"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - general-relativity
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove the general Penrose inequality: for an asymptotically flat initial data set
+    (M, g, K) satisfying the dominant energy condition, with outermost apparent horizon
+    of area A, the ADM mass m satisfies m >= sqrt(A / (16 pi)). The Riemannian case
+    (K = 0, time-symmetric) was proved by Huisken-Ilmanen (for connected horizons)
+    and Bray (general), but the full Lorentzian case with non-zero second fundamental
+    form K remains open.
+  informal: >
+    The Penrose inequality provides a lower bound on the total mass of a spacetime
+    in terms of the area of its black hole horizons. It has been proven for the
+    time-symmetric case but remains open in full generality.
+
+why_it_matters: >
+  The Penrose inequality is deeply connected to cosmic censorship and the fundamental
+  structure of black holes in general relativity. It provides a quantitative test of
+  whether singularities are always hidden behind horizons.
+
+prerequisites:
+  - differential geometry
+  - general relativity
+  - geometric analysis
+  - PDE theory
+  - Riemannian geometry
+
+dates:
+  first_stated: 1973
+
+sources:
+  canonical:
+    - source_id: src_penrose_1973
+      kind: paper
+      title: "Naked Singularities"
+      url: "https://doi.org/10.1111/j.1749-6632.1973.tb41447.x"
+      year: 1973
+      locator: "Ann. N.Y. Acad. Sci. 224, 125-134"
+  status_evidence:
+    - source_id: src_mars_2009
+      kind: survey
+      title: "Present status of the Penrose inequality"
+      url: "https://doi.org/10.1088/0264-9381/26/19/193001"
+      year: 2009
+
+partial_results:
+  - summary: "Huisken and Ilmanen proved the Riemannian Penrose inequality for a single connected horizon using inverse mean curvature flow."
+    year: 2001
+  - summary: "Bray proved the Riemannian Penrose inequality for general (possibly disconnected) horizons using conformal flow."
+    year: 2001
+  - summary: "The full Lorentzian Penrose inequality with general initial data remains open."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.general-relativity.cosmic-censorship-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.70
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the general Penrose inequality relating the ADM mass to the area of apparent horizons in Lorentzian initial data.
+  decomposition:
+    - "Extend Bray's or Huisken-Ilmanen's proof techniques to non-time-symmetric data"
+    - "Develop new geometric flow methods for the Lorentzian case"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

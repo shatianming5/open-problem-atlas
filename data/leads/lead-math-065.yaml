@@ -1,0 +1,11 @@
+title: "Exact Ramsey Number R(5,5)"
+statement: "Determine the exact value of the Ramsey number R(5,5). It is known that 43 <= R(5,5) <= 48."
+source_id: "src_radziszowski_2021"
+source_url: "https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS1"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "BQP vs PH"
+statement: "Is BQP contained in the polynomial hierarchy? Or does quantum computation offer advantages outside PH?"
+source_id: "src_aaronson_2010"
+source_url: "https://doi.org/10.1098/rspa.2009.0232"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,118 @@
+id: opa.mathematics.graph-theory.erdos-hajnal-conjecture
+kind: problem
+title: "Erdos-Hajnal Conjecture"
+aliases:
+  - "Erdos-Hajnal Property"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - extremal-combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every graph H, there exists a constant delta(H) > 0 such that every graph G on n
+    vertices that does not contain H as an induced subgraph has either a clique or an
+    independent set of size at least n^{delta(H)}.
+  informal: >
+    If a graph avoids some fixed pattern as an induced subgraph, then it must contain either
+    a very large clique or a very large independent set -- specifically, of polynomial size
+    in the number of vertices, rather than just logarithmic size.
+
+why_it_matters: >
+  The Erdos-Hajnal conjecture, posed in 1989, is one of the most important open problems
+  in structural graph theory. The Ramsey theorem only guarantees cliques or independent
+  sets of logarithmic size in general graphs. The conjecture asserts a dramatic improvement
+  for graphs with forbidden induced subgraphs, and has deep connections to the Regularity
+  Lemma, model theory, and tournament structure.
+
+prerequisites:
+  - Ramsey theory
+  - structural graph theory
+  - extremal graph theory
+
+dates:
+  first_stated: 1989
+
+sources:
+  canonical:
+    - source_id: src_erdos_hajnal_1989
+      kind: paper
+      title: "Ramsey-type theorems"
+      authors:
+        - "Paul Erdos"
+        - "Andras Hajnal"
+      year: 1989
+    - source_id: src_chudnovsky_2014
+      kind: survey
+      title: "The Erdos-Hajnal conjecture -- a survey"
+      authors:
+        - "Maria Chudnovsky"
+      url: "https://doi.org/10.1016/j.jctb.2013.09.001"
+      year: 2014
+  status_evidence:
+    - source_id: src_nguyen_scott_seymour_2024
+      kind: paper
+      title: "Induced subgraph density. V. All paths approach Erdos-Hajnal"
+      url: "https://arxiv.org/abs/2403.01543"
+      year: 2024
+
+partial_results:
+  - summary: "Erdos and Hajnal proved the conjecture for graphs H on at most 4 vertices."
+    year: 1989
+  - summary: "The conjecture is known for paths P_4, the bull graph, and a few other small graphs."
+    year: 2003
+  - summary: "Chudnovsky, Scott, Seymour, and Spirkl proved the conjecture for the 5-vertex path (P_5, the path of length 4)."
+    year: 2023
+  - summary: "Nguyen, Scott, and Seymour showed that all paths approach the Erdos-Hajnal property."
+    year: 2024
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Erdos-Hajnal conjecture states that for every graph H, graphs with no induced copy
+    of H have polynomial-sized cliques or independent sets. It is proved for only a few
+    specific graphs H and remains widely open.
+  decomposition:
+    - "Resolving the conjecture for cycles C_5 and larger forbidden subgraphs"
+    - "Improving the known bounds on delta(H) for specific H"
+    - "Connections to the strong Erdos-Hajnal property and regularity methods"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

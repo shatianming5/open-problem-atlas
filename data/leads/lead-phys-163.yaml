@@ -1,0 +1,11 @@
+title: "Deconfined Quantum Critical Points"
+statement: "Do deconfined quantum critical points exist in realistic lattice models, realizing continuous transitions forbidden by the Landau paradigm?"
+source_id: "src_senthil_2004"
+source_url: "https://arxiv.org/abs/cond-mat/0312617"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

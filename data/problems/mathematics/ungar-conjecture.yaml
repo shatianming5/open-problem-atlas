@@ -1,0 +1,112 @@
+id: opa.mathematics.discrete-geometry.ungar-conjecture
+kind: problem
+title: "Ungar's Conjecture on Direction Sets"
+aliases:
+  - "Directions Determined by Points"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - discrete-geometry
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let S be a set of n points in R^d (d >= 2), not all on a single hyperplane. The set of
+    directions determined by pairs of points in S has cardinality at least 2*floor(n/2). In
+    the plane (d=2), Ungar proved this bound of 2*floor(n/2) directions in 1982. The
+    conjecture extends to higher dimensions: for d >= 3, what is the minimum number of
+    directions determined by n points in general position in R^d?
+  informal: >
+    Given n points in d-dimensional space not all on a hyperplane, how few distinct directions
+    can the connecting lines determine? Ungar proved the 2D case; the higher-dimensional
+    analogue is open.
+
+why_it_matters: >
+  This problem connects discrete geometry, combinatorics, and algebraic methods. Ungar's elegant
+  proof in 2D used allowable sequences. Higher-dimensional extensions relate to the Sylvester-Gallai
+  theorem, the orchard problem, and extremal combinatorial geometry.
+
+prerequisites:
+  - discrete geometry
+  - combinatorics
+  - algebraic topology
+
+dates:
+  first_stated: 1982
+
+sources:
+  canonical:
+    - source_id: src_ungar_1982
+      kind: paper
+      title: "2N noncollinear points determine at least 2N directions"
+      authors:
+        - "Peter Ungar"
+      year: 1982
+      url: "https://doi.org/10.1016/0097-3165(82)90045-0"
+  status_evidence:
+    - source_id: src_pach_sharir_2009
+      kind: textbook
+      title: "Combinatorial Geometry and Its Algorithmic Applications"
+      authors:
+        - "Janos Pach"
+        - "Micha Sharir"
+      year: 2009
+
+partial_results:
+  - summary: "Ungar proved the tight bound 2*floor(n/2) for the plane."
+    year: 1982
+  - summary: "In R^3, the problem remains open; lower bounds of order n are known."
+    year: 2009
+  - summary: "Related results on distinct distances and incidence geometry continue to develop."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.60
+  toolability: 0.60
+  formality: 0.80
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Ungar's conjecture concerns the minimum number of directions determined by n points in R^d.
+    Solved in 2D; higher-dimensional generalizations remain open.
+  decomposition:
+    - "Allowable sequence and topological methods"
+    - "Polynomial method in higher dimensions"
+    - "Extremal examples and computational search"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

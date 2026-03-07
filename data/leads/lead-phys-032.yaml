@@ -1,0 +1,11 @@
+title: "Quantum Low-Density Parity Check Codes"
+statement: "Can quantum LDPC codes achieve constant encoding rate and linear distance simultaneously with efficient decoders?"
+source_id: "src_panteleev_2022"
+source_url: "https://arxiv.org/abs/2111.03654"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

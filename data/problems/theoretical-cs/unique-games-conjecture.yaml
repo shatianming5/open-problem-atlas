@@ -1,0 +1,135 @@
+id: opa.tcs.complexity-theory.unique-games-conjecture
+kind: problem
+title: "Unique Games Conjecture"
+aliases:
+  - "UGC"
+  - "Khot's Unique Games Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every constant epsilon > 0, the following promise problem is NP-hard:
+    given a unique game instance (a constraint satisfaction problem where each
+    constraint is a bijection between label sets of size k), distinguish between
+    the case where at least (1 - epsilon) fraction of constraints can be satisfied
+    and the case where at most epsilon fraction of constraints can be satisfied.
+    Formally, for all epsilon > 0, there exists a label set size k = k(epsilon)
+    such that it is NP-hard to (1 - epsilon, epsilon)-decide the Unique Label
+    Cover problem with label set size k.
+  informal: >
+    Consider a system of "unique" constraints where each constraint relates two
+    variables via a one-to-one mapping over a set of labels. The conjecture says
+    that even approximately deciding whether nearly all constraints can be
+    satisfied (versus almost none can be) is computationally intractable (NP-hard).
+
+why_it_matters: >
+  The Unique Games Conjecture (UGC), proposed by Subhash Khot in 2002, has become
+  one of the central conjectures in computational complexity and approximation
+  algorithms. If true, it would provide tight inapproximability results for a
+  wide range of optimization problems, including Max-Cut, Vertex Cover, and
+  constraint satisfaction problems. It would unify and strengthen many known
+  hardness-of-approximation results. The conjecture led Khot to receive the
+  Nevanlinna Prize in 2014 for its transformative impact on the field.
+
+prerequisites:
+  - computational complexity theory
+  - probabilistically checkable proofs (PCP)
+  - approximation algorithms
+  - hardness of approximation
+  - constraint satisfaction problems
+
+dates:
+  first_stated: 2002
+
+sources:
+  canonical:
+    - source_id: src_khot_2002
+      kind: paper
+      title: "On the Power of Unique 2-Prover 1-Round Games"
+      authors:
+        - "Subhash Khot"
+      url: "https://doi.org/10.1145/509907.510017"
+      year: 2002
+      locator: "Proceedings of STOC 2002, pp. 767-775"
+    - source_id: src_khot_2010
+      kind: paper
+      title: "On the Unique Games Conjecture"
+      authors:
+        - "Subhash Khot"
+      url: "https://doi.org/10.4171/077-1/5"
+      year: 2010
+      locator: "Proceedings of the ICM 2010, Vol. I, pp. 99-121"
+  status_evidence:
+    - source_id: src_khot_2014_survey
+      kind: survey
+      title: "Hardness of Approximation"
+      authors:
+        - "Subhash Khot"
+      url: "https://doi.org/10.4171/171-1/10"
+      year: 2014
+
+partial_results:
+  - summary: "Khot, Kindler, Mossel, and O'Donnell showed that UGC implies the Goemans-Williamson SDP-based algorithm for Max-Cut is optimal."
+    year: 2007
+  - summary: "Raghavendra showed that assuming UGC, the SDP relaxation gives the optimal approximation for every constraint satisfaction problem."
+    year: 2008
+  - summary: "Arora, Barak, and Steurer gave a subexponential-time algorithm for unique games, showing that if the conjecture is true, NP-hard problems admit subexponential algorithms."
+    year: 2015
+  - summary: "Khot and Moshkovitz proved a candidate reduction for the 2-to-2 conjecture (a weaker variant of UGC)."
+    year: 2018
+  - summary: "Barak, Kothari, and Steurer showed limitations of SDP approaches for unique games."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-unique-games-conjecture"
+    - "opa.tcs.quantum-computing.quantum-pcp-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.25
+  toolability: 0.30
+  formality: 0.90
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Unique Games Conjecture asserts that approximately solving unique constraint satisfaction problems is NP-hard, and if true, would yield tight hardness-of-approximation results for many optimization problems.
+  decomposition:
+    - "Resolve the 2-to-2 Games Conjecture and extend to the full UGC"
+    - "Determine whether subexponential-time algorithms for unique games can be improved to refute or confirm the conjecture"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

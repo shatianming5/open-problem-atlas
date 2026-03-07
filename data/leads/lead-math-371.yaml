@@ -1,0 +1,11 @@
+title: "Sarnak's Mobius Disjointness Conjecture"
+statement: "The Mobius function is disjoint from all zero-entropy dynamical systems."
+source_id: "src_sarnak_2010"
+source_url: "https://en.wikipedia.org/wiki/Sarnak_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "ergodic-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

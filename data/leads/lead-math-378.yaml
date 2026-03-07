@@ -1,0 +1,11 @@
+title: "Sinai's Conjecture on Boltzmann-Grad Limit"
+statement: "The Boltzmann equation arises as the kinetic limit of hard sphere dynamics in the Boltzmann-Grad scaling."
+source_id: "src_sinai_1970"
+source_url: "https://en.wikipedia.org/wiki/Boltzmann_equation"
+domain_hint: "mathematics"
+subdomain_hint: "ergodic-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

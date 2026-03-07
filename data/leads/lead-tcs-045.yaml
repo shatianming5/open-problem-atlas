@@ -1,0 +1,11 @@
+title: "Parameterized Complexity of k-Clique"
+statement: "Is k-Clique W[1]-complete or fixed-parameter tractable? Showing W[1] != FPT would yield major separations."
+source_id: "src_downey_fellows_1999"
+source_url: "https://doi.org/10.1007/978-1-4612-0515-9"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

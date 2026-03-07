@@ -1,0 +1,11 @@
+title: "Large Cardinal Hierarchy Completeness"
+statement: "Is there a natural large cardinal axiom that is inconsistent, providing an upper bound on the large cardinal hierarchy?"
+source_id: "src_kunen_1971"
+source_url: "https://en.wikipedia.org/wiki/Large_cardinal"
+domain_hint: "mathematics"
+subdomain_hint: "set-theory"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "ETH-Tight Algorithms for k-Clique"
+statement: "Is the n^{omega*k/3} algorithm for k-clique detection optimal under the Exponential Time Hypothesis, where omega is the matrix multiplication exponent?"
+source_id: "src_lincoln_2022"
+source_url: "https://arxiv.org/abs/2211.11006"
+domain_hint: "theoretical-cs"
+subdomain_hint: "fine-grained-complexity"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

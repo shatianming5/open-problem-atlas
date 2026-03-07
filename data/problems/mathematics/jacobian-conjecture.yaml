@@ -1,0 +1,125 @@
+id: opa.mathematics.algebra.jacobian-conjecture
+kind: problem
+title: "Jacobian Conjecture"
+aliases:
+  - "Keller's Jacobian Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebra
+  - algebraic-geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let F = (F_1, ..., F_n): C^n -> C^n be a polynomial map such that the Jacobian determinant
+    det(dF_i/dx_j) is a nonzero constant. Then F is a polynomial automorphism, i.e., F has a
+    polynomial inverse. Equivalently, if F: C^n -> C^n is a polynomial map with constant
+    nonzero Jacobian determinant, then F is bijective.
+  informal: >
+    If you have a system of polynomial equations in n variables whose Jacobian determinant
+    (a measure of local invertibility) is everywhere nonzero, then the system must have a
+    global polynomial inverse -- you can solve for the original variables using polynomials.
+
+why_it_matters: >
+  The Jacobian conjecture, posed by Keller in 1939, is one of the most famous open problems in
+  algebraic geometry and commutative algebra. It appears on Smale's list of problems for the
+  21st century. Despite its simple statement, it has resisted proof even in two dimensions
+  and has surprising connections to many areas including D-modules, the Dixmier conjecture,
+  and affine algebraic geometry.
+
+prerequisites:
+  - commutative algebra
+  - algebraic geometry
+  - polynomial automorphisms
+  - differential algebra
+
+dates:
+  first_stated: 1939
+
+sources:
+  canonical:
+    - source_id: src_keller_1939
+      kind: paper
+      title: "Ganze Cremona-Transformationen"
+      authors:
+        - "Ott-Heinrich Keller"
+      year: 1939
+    - source_id: src_bass_connell_wright_1982
+      kind: paper
+      title: "The Jacobian conjecture: Reduction of degree and formal expansion of the inverse"
+      authors:
+        - "Hyman Bass"
+        - "Edwin H. Connell"
+        - "David Wright"
+      year: 1982
+      url: "https://doi.org/10.1090/S0273-0979-1982-15032-7"
+  status_evidence:
+    - source_id: src_van_den_essen_2000
+      kind: textbook
+      title: "Polynomial Automorphisms and the Jacobian Conjecture"
+      authors:
+        - "Arno van den Essen"
+      year: 2000
+
+partial_results:
+  - summary: "Bass, Connell, and Wright, and independently Yagzhev, reduced the conjecture to the case where each F_i has degree at most 3."
+    year: 1982
+  - summary: "Druzkowski further reduced to the case where F(x) = x + (Ax)^{*3} for a nilpotent matrix A."
+    year: 1983
+  - summary: "The conjecture is equivalent to the Dixmier conjecture about endomorphisms of the Weyl algebra."
+    year: 2005
+  - summary: "The conjecture remains open even in dimension 2."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+    - sage
+
+machine_generated:
+  summary: >
+    The Jacobian conjecture states that a polynomial map from C^n to C^n with constant
+    nonzero Jacobian determinant must be a polynomial automorphism. It appears on Smale's
+    list and remains open even in dimension 2.
+  decomposition:
+    - "Degree reduction approaches and the Druzkowski normal form"
+    - "Connections to the Dixmier conjecture and Weyl algebra endomorphisms"
+    - "D-module theoretic and formal power series inversion methods"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

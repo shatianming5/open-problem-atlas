@@ -1,0 +1,11 @@
+title: "Sample Complexity of PAC Learning DNF Formulas"
+statement: "Can DNF formulas be PAC learned in polynomial time with polynomial samples? The best known algorithms use membership queries."
+source_id: "src_jackson_1997"
+source_url: "https://doi.org/10.1006/inco.1996.2647"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Quantum Optimization Lower Bounds"
+statement: "Can one prove unconditional lower bounds showing that quantum approximate optimization algorithms require super-constant depth for specific combinatorial problems?"
+source_id: "src_basso_2022"
+source_url: "https://arxiv.org/abs/2207.14169"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-algorithms"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,118 @@
+id: opa.mathematics.geometric-topology.weinstein-conjecture
+kind: problem
+title: "Weinstein Conjecture"
+aliases:
+  - "Weinstein's Conjecture on Reeb Orbits"
+  - "Existence of Periodic Reeb Orbits"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - geometric-topology
+  - differential-geometry
+  - symplectic-geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every closed contact manifold (M, xi) admits at least one closed orbit of
+    the Reeb vector field associated to any contact form alpha defining xi.
+    Equivalently, for any contact form on a closed manifold, the Reeb flow has
+    at least one periodic orbit.
+  informal: >
+    On any compact odd-dimensional manifold equipped with a contact structure
+    (a geometric structure arising naturally in mechanics and optics), there is
+    always a trajectory of the associated dynamical system that returns to its
+    starting point -- a periodic orbit must exist.
+
+why_it_matters: >
+  The Weinstein conjecture, posed in 1979, is a foundational problem in
+  symplectic and contact topology. It connects the global topology of contact
+  manifolds with the dynamics of Reeb flows. Its resolution in dimension 3 by
+  Taubes (2007) using Seiberg-Witten theory was a landmark achievement, but the
+  general case in higher dimensions remains open.
+
+prerequisites:
+  - contact geometry
+  - symplectic topology
+  - differential geometry
+  - dynamical systems
+
+dates:
+  first_stated: 1979
+
+sources:
+  canonical:
+    - source_id: src_weinstein_1979
+      kind: paper
+      title: "On the hypotheses of Rabinowitz' periodic orbit theorems"
+      authors:
+        - "Alan Weinstein"
+      year: 1979
+      locator: "Journal of Differential Equations, vol. 33, pp. 353-358"
+  status_evidence:
+    - source_id: src_taubes_2007
+      kind: paper
+      title: "The Seiberg-Witten equations and the Weinstein conjecture"
+      authors:
+        - "Clifford Henry Taubes"
+      year: 2007
+      locator: "Geometry & Topology, vol. 11, pp. 2117-2202"
+
+partial_results:
+  - summary: "Viterbo proved the conjecture for contact-type hypersurfaces in R^{2n}."
+    year: 1987
+  - summary: "Hofer proved it for overtwisted contact structures in dimension 3 and for S^3."
+    year: 1993
+  - summary: "Taubes proved the conjecture in full generality for all closed 3-manifolds using Seiberg-Witten Floer homology."
+    year: 2007
+  - summary: "Albers and Hofer developed methods for higher-dimensional cases using symplectic field theory."
+    year: 2009
+
+relations:
+  related:
+    - opa.mathematics.topology.smooth-4d-poincare-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    The Weinstein conjecture asserts that every Reeb vector field on a closed
+    contact manifold has at least one periodic orbit. Proved in dimension 3 by
+    Taubes, it remains open in higher dimensions.
+  decomposition:
+    - "Extension of Seiberg-Witten techniques to higher-dimensional contact manifolds"
+    - "Symplectic field theory approaches to Reeb dynamics"
+    - "Relationship between fillability, overtwistedness, and orbit existence"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

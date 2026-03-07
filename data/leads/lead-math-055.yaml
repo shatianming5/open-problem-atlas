@@ -1,0 +1,11 @@
+title: "Ryser's Conjecture on Transversals"
+statement: "Every Latin square of odd order n has a transversal (a set of n entries with no repeated row, column, or symbol)."
+source_id: "src_ryser_1967"
+source_url: "https://en.wikipedia.org/wiki/Latin_square#Transversals_and_rainbow_matchings"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

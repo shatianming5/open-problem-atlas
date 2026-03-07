@@ -1,0 +1,11 @@
+title: "Stable Field Conjecture"
+statement: "An infinite stable field is separably closed."
+source_id: "src_macintyre_1971"
+source_url: "https://en.wikipedia.org/wiki/Stable_theory"
+domain_hint: "mathematics"
+subdomain_hint: "model-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

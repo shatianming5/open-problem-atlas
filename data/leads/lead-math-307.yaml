@@ -1,0 +1,11 @@
+title: "Matroid Secretary Problem"
+statement: "There exists a constant-competitive algorithm for the matroid secretary problem."
+source_id: "src_babaioffimmorlicakleinberg_2007"
+source_url: "https://en.wikipedia.org/wiki/Matroid_secretary_problem"
+domain_hint: "mathematics"
+subdomain_hint: "matroid-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

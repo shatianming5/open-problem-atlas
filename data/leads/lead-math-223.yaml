@@ -1,0 +1,11 @@
+title: "Unitary Dual Problem"
+statement: "Classify all irreducible unitary representations of a given real reductive Lie group."
+source_id: "src_vogan_1986"
+source_url: "https://en.wikipedia.org/wiki/Unitary_representation"
+domain_hint: "mathematics"
+subdomain_hint: "representation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

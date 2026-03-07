@@ -1,0 +1,11 @@
+title: "Nisan-Wigderson Generator Optimality"
+statement: "Is the Nisan-Wigderson pseudorandom generator construction optimal, or can better derandomization be achieved from weaker hardness assumptions?"
+source_id: "src_nisan_wigderson_1994"
+source_url: "https://doi.org/10.1006/jcss.1994.1025"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

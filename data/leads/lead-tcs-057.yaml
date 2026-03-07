@@ -1,0 +1,11 @@
+title: "Optimal Approximate Nearest Neighbor Search"
+statement: "What is the optimal query time for approximate nearest neighbor search in high-dimensional spaces with polynomial preprocessing?"
+source_id: "src_andoni_indyk_2006"
+source_url: "https://doi.org/10.1109/FOCS.2006.49"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

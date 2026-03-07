@@ -1,0 +1,11 @@
+title: "Witten's Conjecture on Donaldson Invariants"
+statement: "Can the relation between Donaldson and Seiberg-Witten invariants be proved rigorously for all smooth 4-manifolds using gauge theory?"
+source_id: "src_feehan_2023"
+source_url: "https://arxiv.org/abs/2301.07441"
+domain_hint: "mathematical-physics"
+subdomain_hint: "gauge-theory"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Boltzmann Equation Derivation"
+statement: "Can the Boltzmann equation be rigorously derived from Newtonian mechanics for long times beyond the Lanford result which is valid only for short times?"
+source_id: "src_gallagher_2014"
+source_url: "https://arxiv.org/abs/1208.5753"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

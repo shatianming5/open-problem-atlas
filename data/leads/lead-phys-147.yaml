@@ -1,0 +1,11 @@
+title: "Topological Classification of Interacting Phases"
+statement: "Can all symmetry-protected topological phases of interacting fermions and bosons be completely classified in arbitrary dimensions?"
+source_id: "src_chen_2013"
+source_url: "https://arxiv.org/abs/1106.4752"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,114 @@
+id: opa.mathematics.graph-theory.albertson-conjecture
+kind: problem
+title: "Albertson Conjecture"
+aliases:
+  - "Albertson's Crossing Number Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every graph G, the crossing number cr(G) >= cr(K_{chi(G)}), where chi(G) is the
+    chromatic number. In other words, among all graphs with chromatic number n, the complete
+    graph K_n has the smallest crossing number.
+  informal: >
+    If a graph needs n colors for a proper vertex coloring, then it is at least as hard to
+    draw without crossings as the complete graph on n vertices. The complete graph is the
+    "easiest to draw" among all graphs requiring that many colors.
+
+why_it_matters: >
+  Albertson's conjecture, posed in 2007, creates a beautiful bridge between chromatic graph
+  theory and topological graph theory. It connects two fundamental graph invariants -- the
+  chromatic number and the crossing number -- that are usually studied independently. The
+  conjecture strengthens our understanding of how colorability relates to planarity.
+
+prerequisites:
+  - graph theory
+  - crossing numbers
+  - chromatic number theory
+  - topological graph theory
+
+dates:
+  first_stated: 2007
+
+sources:
+  canonical:
+    - source_id: src_albertson_2007
+      kind: paper
+      title: "Crossing numbers and chromatic numbers"
+      authors:
+        - "Michael O. Albertson"
+      year: 2007
+    - source_id: src_albertson_2008
+      kind: paper
+      title: "Chromatic number, independence ratio, and crossing number"
+      authors:
+        - "Michael O. Albertson"
+      url: "https://doi.org/10.26493/1855-3974.11.e12"
+      year: 2008
+  status_evidence:
+    - source_id: src_barany_toth_2010
+      kind: paper
+      title: "Towards the Albertson conjecture"
+      url: "https://doi.org/10.37236/459"
+      year: 2010
+
+partial_results:
+  - summary: "The conjecture is verified for graphs with chromatic number at most 12 by Barany and Toth."
+    year: 2010
+  - summary: "The conjecture holds for graphs with chromatic number at most 16 using improved crossing number bounds for complete graphs."
+    year: 2012
+  - summary: "The conjecture follows from Hadwiger's conjecture together with known crossing number bounds for complete graphs."
+    year: 2007
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.50
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Albertson's conjecture asserts that the crossing number of any graph is at least the
+    crossing number of the complete graph on the same number of colors. It links chromatic
+    number and crossing number and is verified for small chromatic numbers.
+  decomposition:
+    - "Extending verification beyond chromatic number 16"
+    - "Connections to Hadwiger's conjecture and graph minor theory"
+    - "Improving crossing number bounds for complete graphs"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

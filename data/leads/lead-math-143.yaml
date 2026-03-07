@@ -1,0 +1,11 @@
+title: "Volume Conjecture for Knots"
+statement: "The asymptotic growth rate of the colored Jones polynomial of a hyperbolic knot K equals the hyperbolic volume of the knot complement S^3 \\ K."
+source_id: "src_kashaev_1997"
+source_url: "https://en.wikipedia.org/wiki/Volume_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Arthur's Conjectures on Automorphic Representations"
+statement: "A complete classification of automorphic representations of classical groups via Arthur packets and Arthur parameters."
+source_id: "src_arthur_1989"
+source_url: "https://en.wikipedia.org/wiki/Arthur%27s_conjectures"
+domain_hint: "mathematics"
+subdomain_hint: "representation-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

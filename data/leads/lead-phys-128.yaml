@@ -1,0 +1,11 @@
+title: "Hoop Conjecture"
+statement: "Can the Thorne hoop conjecture, stating that black holes form when and only when a mass is compacted into a region with circumference less than 4piGM/c^2, be proven rigorously?"
+source_id: "src_schoen_2009"
+source_url: "https://arxiv.org/abs/0710.4112"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

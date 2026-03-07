@@ -1,0 +1,11 @@
+title: "Andrews-Curtis Conjecture"
+statement: "Every balanced presentation of the trivial group can be transformed to the trivial presentation by a sequence of Andrews-Curtis moves."
+source_id: "src_andrews_1965"
+source_url: "https://en.wikipedia.org/wiki/Andrews%E2%80%93Curtis_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

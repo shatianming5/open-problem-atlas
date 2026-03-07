@@ -1,0 +1,118 @@
+id: opa.mathematics.number-theory.agoh-giuga-conjecture
+kind: problem
+title: "Agoh-Giuga Conjecture"
+aliases:
+  - "Giuga's Conjecture"
+  - "Giuga Number Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    A positive integer n is prime if and only if it satisfies
+    sum_{k=1}^{n-1} k^{n-1} ≡ -1 (mod n). Equivalently, a composite number n satisfying
+    this sum condition (called a Giuga number) does not exist. The conjecture also has
+    Agoh's equivalent formulation: n is prime if and only if n * B_{n-1} ≡ -1 (mod n),
+    where B_k denotes the k-th Bernoulli number.
+  informal: >
+    If you sum 1^{n-1} + 2^{n-1} + ... + (n-1)^{n-1} and the result is -1 modulo n,
+    then n must be prime. No composite number can produce this sum. The conjecture says
+    this power-sum condition perfectly characterizes primality.
+
+why_it_matters: >
+  The Agoh-Giuga conjecture provides an elegant characterization of primes through power
+  sums and Bernoulli numbers. Its resolution would give a new theoretical primality criterion
+  and deepen understanding of the interplay between combinatorial sums and divisibility.
+
+prerequisites:
+  - elementary number theory
+  - Bernoulli numbers
+  - p-adic analysis
+
+dates:
+  first_stated: 1950
+
+sources:
+  canonical:
+    - source_id: src_giuga_1950
+      kind: paper
+      title: "Su una presumibile proprietà caratteristica dei numeri primi"
+      authors:
+        - "Giuseppe Giuga"
+      url: "https://doi.org/10.1007/BF02882148"
+      year: 1950
+    - source_id: src_agoh_1995
+      kind: paper
+      title: "On Giuga's conjecture"
+      authors:
+        - "Takashi Agoh"
+      url: "https://doi.org/10.1007/BF02567379"
+      year: 1995
+  status_evidence:
+    - source_id: src_borwein_borwein_borwein_girgensohn_2005
+      kind: paper
+      title: "Giuga's Conjecture on Primality"
+      url: "https://doi.org/10.1080/00029890.1996.12004762"
+      year: 1996
+
+partial_results:
+  - summary: "Any counterexample (Giuga number) must have at least 13,800 digits (Borwein, Borwein, Borwein, and Girgensohn)."
+    year: 1996
+  - summary: "Any Giuga number must be squarefree and have at least 12 prime factors."
+    year: 1996
+  - summary: "The conjecture has been verified for all composite n up to 10^{13800}."
+    year: 2011
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.lehmers-totient-problem
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.50
+  toolability: 0.65
+  formality: 0.90
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Agoh-Giuga conjecture provides a primality characterization via power sums,
+    asserting that no composite number can satisfy the Giuga sum condition.
+  decomposition:
+    - "Strengthening lower bounds on the number of prime factors of a Giuga number"
+    - "Connecting to the theory of Bernoulli numbers and Kummer's congruences"
+    - "Analyzing structural constraints on squarefree composites satisfying the sum condition"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

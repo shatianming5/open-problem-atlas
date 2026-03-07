@@ -1,0 +1,11 @@
+title: "Vinogradov Mean Value Conjecture Generalizations"
+statement: "Generalize the mean value theorem for exponential sums to higher degree polynomials and number fields."
+source_id: "src_vinogradov_1935"
+source_url: "https://en.wikipedia.org/wiki/Vinogradov%27s_mean-value_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "harmonic-analysis"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

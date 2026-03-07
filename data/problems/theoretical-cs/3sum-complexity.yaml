@@ -1,0 +1,136 @@
+id: opa.tcs.algorithms.3sum-complexity
+kind: problem
+title: "3SUM Complexity: Is There an O(n log n) Algorithm?"
+aliases:
+  - "3SUM conjecture"
+  - "3SUM hardness"
+  - "Subquadratic 3SUM"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The 3SUM problem asks: given a set S of n integers, do there exist three
+    elements a, b, c in S such that a + b + c = 0? The classical algorithm
+    solves this in O(n^2) time. The 3SUM conjecture asserts that no algorithm
+    can solve 3SUM in O(n^{2-epsilon}) time for any constant epsilon > 0
+    (in the real RAM model or comparison-based model). Is there an algorithm
+    for 3SUM running in time O(n log n), or more generally, in truly
+    subquadratic time o(n^2)?
+  informal: >
+    Given a list of n numbers, can we find three of them that add up to zero
+    faster than checking almost all triples? The obvious approach takes time
+    proportional to n-squared. Can we do significantly better, perhaps in time
+    proportional to n times log(n)? Most researchers believe we cannot do much
+    better than n-squared.
+
+why_it_matters: >
+  The 3SUM problem serves as a cornerstone of fine-grained complexity theory.
+  Many problems in computational geometry, pattern matching, and graph algorithms
+  have been shown to be "3SUM-hard," meaning a truly subquadratic algorithm for
+  them would imply a truly subquadratic algorithm for 3SUM. The 3SUM conjecture
+  is one of the key hypotheses (alongside SETH and APSP conjecture) used to
+  establish conditional lower bounds throughout algorithm design. Understanding
+  the true complexity of 3SUM would clarify the landscape of polynomial-time
+  problems.
+
+prerequisites:
+  - algorithm design and analysis
+  - fine-grained complexity
+  - computational geometry
+  - decision tree complexity
+  - algebraic computation models
+
+dates:
+  first_stated: 1995
+
+sources:
+  canonical:
+    - source_id: src_gajentaan_overmars_1995
+      kind: paper
+      title: "On a Class of O(n^2) Problems in Computational Geometry"
+      authors:
+        - "Anka Gajentaan"
+        - "Mark H. Overmars"
+      url: "https://doi.org/10.1016/0925-7721(95)00022-2"
+      year: 1995
+      locator: "Computational Geometry, 5(3), pp. 165-185"
+    - source_id: src_vassilevska_williams_2018
+      kind: survey
+      title: "On Some Fine-Grained Questions in Algorithms and Complexity"
+      authors:
+        - "Virginia Vassilevska Williams"
+      url: "https://doi.org/10.4171/ICM2018/3/7"
+      year: 2018
+      locator: "Proceedings of the ICM 2018, Vol. 3, pp. 3447-3487"
+  status_evidence:
+    - source_id: src_kopelowitz_et_al_2016
+      kind: paper
+      title: "Higher Lower Bounds from the 3SUM Conjecture"
+      authors:
+        - "Tsvi Kopelowitz"
+        - "Seth Pettie"
+        - "Ely Porat"
+      url: "https://doi.org/10.1137/1.9781611974331.ch94"
+      year: 2016
+
+partial_results:
+  - summary: "Gronlund and Pettie gave a decision-tree algorithm for 3SUM using O(n^{3/2} sqrt(log n)) comparisons, breaking the n^2 barrier in the comparison model."
+    year: 2014
+  - summary: "Freund gave a randomized algorithm solving 3SUM in expected O(n^2 / (log n / log log n)^{2/3}) time in the real RAM model."
+    year: 2017
+  - summary: "Chan showed 3SUM can be solved in O(n^2 (log log n)^{O(1)} / log^2 n) time by combining hashing with word-RAM techniques."
+    year: 2020
+  - summary: "Kane, Lovett, and Moran proved that the 3SUM problem requires Omega(n log n) comparisons in the linear decision tree model."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.60
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - cpp
+
+machine_generated:
+  summary: >
+    The 3SUM complexity problem asks whether three numbers summing to zero can be found in truly subquadratic time, serving as a foundational hypothesis in fine-grained complexity theory.
+  decomposition:
+    - "Develop new algorithmic techniques beyond hashing and word-level parallelism to break the quadratic barrier"
+    - "Prove unconditional lower bounds in realistic computational models such as the real RAM model"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

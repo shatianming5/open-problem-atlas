@@ -1,0 +1,11 @@
+title: "Non-Invertible Symmetries Classification"
+statement: "Can all non-invertible (categorical) symmetries in quantum field theories be classified, and what are their implications for phase structure?"
+source_id: "src_shao_2024"
+source_url: "https://arxiv.org/abs/2305.18296"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

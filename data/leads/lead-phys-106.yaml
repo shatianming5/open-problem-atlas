@@ -1,0 +1,11 @@
+title: "Equilibrium Crystal Shapes"
+statement: "Can the equilibrium crystal shape (Wulff shape) be derived rigorously from microscopic models at low temperature for three-dimensional lattice systems?"
+source_id: "src_dobrushin_1992"
+source_url: "https://doi.org/10.1007/978-1-4612-2168-5"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

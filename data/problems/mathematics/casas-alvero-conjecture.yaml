@@ -1,0 +1,112 @@
+id: opa.mathematics.commutative-algebra.casas-alvero-conjecture
+kind: problem
+title: "Casas-Alvero Conjecture"
+aliases:
+  - "Casas-Alvero Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - commutative-algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let f(x) be a monic polynomial of degree n over a field of characteristic zero. If f
+    shares a common root with each of its derivatives f'(x), f''(x), ..., f^{(n-1)}(x),
+    then f(x) = (x - a)^n for some a. Equivalently, a degree-n polynomial over C that has
+    a common root with every one of its first n-1 derivatives must be a perfect n-th power.
+  informal: >
+    If a polynomial shares a root with each of its derivatives (first, second, ..., up to
+    the (n-1)-st), then it must be a power of a linear factor.
+
+why_it_matters: >
+  The Casas-Alvero conjecture (2001) is a deceptively simple-looking problem in commutative
+  algebra and algebraic geometry. Despite its elementary statement, it has resisted proof for
+  over two decades. It has connections to the theory of polynomial maps, jet spaces, and
+  the Jacobian conjecture. It is verified for degrees up to 12 and for prime power degrees.
+
+prerequisites:
+  - commutative algebra
+  - algebraic geometry
+  - polynomial theory
+
+dates:
+  first_stated: 2001
+
+sources:
+  canonical:
+    - source_id: src_casas_alvero_2001
+      kind: paper
+      title: "Higher order polar germs"
+      authors:
+        - "Eduardo Casas-Alvero"
+      year: 2001
+      url: "https://doi.org/10.1016/S0021-8693(03)00306-2"
+  status_evidence:
+    - source_id: src_graf_2014
+      kind: paper
+      title: "The Casas-Alvero conjecture for infinitely many degrees"
+      authors:
+        - "Gema M. Diaz-Toca"
+        - "Laureano Gonzalez-Vega"
+      url: "https://doi.org/10.1016/j.jalgebra.2006.01.029"
+      year: 2006
+
+partial_results:
+  - summary: "Proved for degrees that are prime powers (p^k) by Grafvon Bothmer, Labs, Schicho, and van de Woestijne."
+    year: 2007
+  - summary: "Verified computationally for degrees up to 12."
+    year: 2006
+  - summary: "Proved for degrees 2p where p is prime by Diaz-Toca and Gonzalez-Vega."
+    year: 2006
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.algebra.jacobian-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.55
+  toolability: 0.70
+  formality: 0.90
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Casas-Alvero conjecture states that a polynomial sharing a root with each of its
+    derivatives is a perfect power. Proved for prime power degrees; open in general.
+  decomposition:
+    - "Resultant and GCD computations in polynomial rings"
+    - "Modular arithmetic and reduction to finite fields"
+    - "Jet space and algebraic geometry approaches"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

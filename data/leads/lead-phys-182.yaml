@@ -1,0 +1,11 @@
+title: "Holographic Entanglement Entropy Beyond RT"
+statement: "Can the Ryu-Takayanagi formula for holographic entanglement entropy be derived from first principles and extended to time-dependent and quantum-corrected settings?"
+source_id: "src_ryu_2006"
+source_url: "https://arxiv.org/abs/hep-th/0603001"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,124 @@
+id: opa.mathematics.dynamical-systems.jakobson-conjecture
+kind: problem
+title: "Jakobson's Conjecture (Prevalence of Stochastic Behavior)"
+aliases:
+  - "Palis Conjecture on Attractors"
+  - "Palis Global Conjecture for One-Dimensional Maps"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - dynamical-systems
+  - harmonic-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a generic smooth one-parameter family of unimodal maps f_a: [0,1] -> [0,1]
+    (such as the quadratic family f_a(x) = ax(1-x)), the set of parameters a for
+    which f_a admits an absolutely continuous invariant probability measure (a.c.i.p.)
+    -- i.e., exhibits stochastic behavior -- has positive Lebesgue measure. More
+    broadly (Palis conjecture), for typical one-dimensional dynamical systems, the
+    parameter space decomposes into a set where the system is hyperbolic (structurally
+    stable) and a set where it supports an a.c.i.p., and together these sets have
+    full Lebesgue measure.
+  informal: >
+    Consider the family of maps x -> ax(1-x) as the parameter a varies. For some
+    values of a the dynamics are orderly (periodic), and for others they are
+    chaotic with a natural probability distribution. The conjecture predicts that
+    "almost all" parameter values fall into one of these two categories -- there
+    is essentially no third type of behavior.
+
+why_it_matters: >
+  This conjecture, building on Jakobson's landmark 1981 theorem and extended by
+  Palis, is fundamental to understanding the global structure of parameter
+  spaces in dynamics. It predicts a clean dichotomy between regular and
+  stochastic behavior that would provide a complete probabilistic picture of
+  one-dimensional dynamics. The higher-dimensional generalization (Palis
+  conjecture) is one of the most ambitious open problems in dynamical systems.
+
+prerequisites:
+  - smooth dynamical systems
+  - ergodic theory
+  - measure theory
+  - bifurcation theory
+
+dates:
+  first_stated: 1981
+
+sources:
+  canonical:
+    - source_id: src_jakobson_1981
+      kind: paper
+      title: "Absolutely continuous invariant measures for one-parameter families of one-dimensional maps"
+      authors:
+        - "Michael V. Jakobson"
+      year: 1981
+      locator: "Communications in Mathematical Physics, vol. 81, pp. 39-88"
+  status_evidence:
+    - source_id: src_palis_2005
+      kind: paper
+      title: "A global perspective for non-conservative dynamics"
+      authors:
+        - "Jacob Palis"
+      year: 2005
+      locator: "Annales de l'Institut Henri Poincare, Analyse Non Lineaire, vol. 22, pp. 485-507"
+
+partial_results:
+  - summary: "Jakobson proved that the quadratic family has positive measure set of parameters with a.c.i.p."
+    year: 1981
+  - summary: "Lyubich proved the regular/stochastic dichotomy for almost every parameter in the quadratic family."
+    year: 2002
+  - summary: "Avila and Moreira proved the conjecture for the quadratic family (Lebesgue a.e. parameter is regular or stochastic)."
+    year: 2005
+  - summary: "The higher-dimensional Palis conjecture remains wide open, even for Henon maps."
+    year: 2020
+
+relations:
+  related:
+    - opa.mathematics.complex-analysis.fatou-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.35
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    The Palis conjecture predicts a regular/stochastic dichotomy for generic
+    dynamical systems: almost every parameter yields either a hyperbolic system
+    or one with an absolutely continuous invariant measure. Proved for the
+    quadratic family, it remains open for higher-dimensional systems.
+  decomposition:
+    - "Extension from one-dimensional to Henon-like maps"
+    - "Statistical properties of non-uniformly hyperbolic systems"
+    - "Measure-theoretic structure of parameter spaces"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

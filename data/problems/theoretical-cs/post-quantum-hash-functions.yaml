@@ -1,0 +1,114 @@
+id: opa.tcs.cryptography.post-quantum-hash-functions
+kind: problem
+title: "Post-Quantum Secure Hash Functions"
+aliases:
+  - "Quantum-resistant collision-resistant hashing"
+  - "Hash function security against quantum attacks"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - cryptography
+
+problem_type: conjecture
+answer_type: existential
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can we construct collision-resistant hash functions that are provably secure against
+    quantum adversaries, based on well-studied assumptions? Specifically, what is the
+    exact quantum query complexity of collision-finding, and which lattice-based or
+    code-based constructions provably resist quantum attacks with optimal parameters?
+  informal: >
+    Are current hash functions secure against quantum computers? Can we build
+    provably quantum-resistant hash functions from well-understood mathematical problems?
+
+why_it_matters: >
+  Hash functions are ubiquitous in cryptography and security. Ensuring they remain
+  secure in a post-quantum world is critical. While Grover's algorithm provides only
+  a quadratic speedup for generic preimage search, the security of specific constructions
+  and collision-resistance against quantum adversaries requires careful analysis.
+
+prerequisites:
+  - collision-resistant hash functions
+  - quantum algorithms
+  - lattice-based cryptography
+  - Grover's algorithm
+
+dates:
+  first_stated: 2004
+
+sources:
+  canonical:
+    - source_id: src_bernstein_2009
+      kind: textbook
+      title: "Post-Quantum Cryptography"
+      authors:
+        - "Daniel J. Bernstein"
+        - "Johannes Buchmann"
+        - "Erik Dahmen"
+      url: "https://doi.org/10.1007/978-3-540-88702-7"
+      year: 2009
+  status_evidence:
+    - source_id: src_zhandry_2015
+      kind: paper
+      title: "A Note on the Quantum Collision and k-Distinctness Problems"
+      authors:
+        - "Mark Zhandry"
+      url: "https://doi.org/10.1016/j.ic.2015.05.002"
+      year: 2015
+
+partial_results:
+  - summary: "Aaronson and Shi (2004) proved Omega(n^(1/3)) quantum lower bound for collision finding, matching the BHT algorithm."
+    year: 2004
+  - summary: "Zhandry (2015) showed that random oracles are collision-resistant against quantum adversaries making superposition queries."
+    year: 2015
+  - summary: "NIST post-quantum standards include hash-based signatures but the exact security parameters for hash functions against quantum attacks remain debated."
+    year: 2022
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.cryptography.lwe-hardness-parameters"
+    - "opa.tcs.quantum-computing.quantum-speedup-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.30
+  toolability: 0.35
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Constructing provably post-quantum secure hash functions with optimal parameters
+    and understanding their exact security against quantum adversaries remain open.
+  decomposition:
+    - "Determine tight quantum security bounds for standard hash function constructions"
+    - "Construct hash functions with provable post-quantum security from standard assumptions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

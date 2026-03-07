@@ -1,0 +1,116 @@
+id: opa.tcs.graph-algorithms.dynamic-connectivity-optimal
+kind: problem
+title: "Dynamic Connectivity Optimal Bounds"
+aliases:
+  - "Optimal dynamic graph connectivity"
+  - "Dynamic connectivity lower and upper bounds"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - graph-algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    In the dynamic connectivity problem, we maintain an undirected graph under edge
+    insertions and deletions while answering connectivity queries. Holm, de Lichtenberg,
+    and Thorup (2001) achieved O(log^2 n) amortized time per operation. Kapron,
+    King, and Mountjoy (2013) achieved O(log^4 n) worst-case. What are the optimal
+    bounds for both amortized and worst-case dynamic connectivity?
+  informal: >
+    When a graph changes over time, how fast can we determine whether two vertices
+    are connected? The known algorithms take O(log^2 n) amortized time, but it is
+    unknown if this is optimal.
+
+why_it_matters: >
+  Dynamic connectivity is a fundamental data structure problem with applications in
+  network monitoring, incremental algorithms, and computational geometry. The gap
+  between known O(log^2 n) upper bounds and Omega(log n) lower bounds is open.
+
+prerequisites:
+  - dynamic data structures
+  - spanning tree maintenance
+  - link-cut trees
+  - amortized analysis
+
+dates:
+  first_stated: 2001
+
+sources:
+  canonical:
+    - source_id: src_holm_lichtenberg_thorup_2001
+      kind: paper
+      title: "Poly-Logarithmic Deterministic Fully-Dynamic Algorithms for Connectivity"
+      authors:
+        - "Jacob Holm"
+        - "Kristian de Lichtenberg"
+        - "Mikkel Thorup"
+      url: "https://doi.org/10.1145/502090.502095"
+      year: 2001
+  status_evidence:
+    - source_id: src_patrascu_demaine_2006
+      kind: paper
+      title: "Logarithmic Lower Bounds in the Cell-Probe Model"
+      authors:
+        - "Mihai Pătraşcu"
+        - "Erik D. Demaine"
+      url: "https://doi.org/10.1137/S0097539705447256"
+      year: 2006
+
+partial_results:
+  - summary: "Holm, de Lichtenberg, and Thorup (2001) achieved O(log^2 n) amortized update time for dynamic connectivity."
+    year: 2001
+  - summary: "Pǎtraşcu and Demaine (2006) proved an Omega(log n) cell probe lower bound for dynamic connectivity."
+    year: 2006
+  - summary: "Wulff-Nilsen (2013) improved the worst-case bound, and Huang, Huang, Kopelowitz, and Pettie (2017) achieved O(log^4 n) worst-case time."
+    year: 2017
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.algorithms.dynamic-graph-lower-bounds"
+    - "opa.tcs.graph-algorithms.max-flow-linear"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Closing the gap between O(log^2 n) upper bound and Omega(log n) lower bound for
+    dynamic connectivity is a central open problem in dynamic graph algorithms.
+  decomposition:
+    - "Prove Omega(log^2 n) lower bound or achieve O(log n) upper bound"
+    - "Determine optimal worst-case bounds for dynamic connectivity"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

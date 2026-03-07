@@ -1,0 +1,11 @@
+title: "Shelah's Main Gap for Uncountable Theories"
+statement: "Extend Shelah's classification theory and main gap theorem to characterize the number of models of an uncountable first-order theory in every cardinality."
+source_id: "src_shelah_1990"
+source_url: "https://en.wikipedia.org/wiki/Shelah%27s_categoricity_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "logic"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

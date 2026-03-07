@@ -1,0 +1,11 @@
+title: "Quantum Contextuality and Computational Advantage"
+statement: "Is quantum contextuality both necessary and sufficient for quantum computational advantage in all models of quantum computation?"
+source_id: "src_howard_2014"
+source_url: "https://arxiv.org/abs/1401.4174"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

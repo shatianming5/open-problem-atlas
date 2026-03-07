@@ -1,0 +1,11 @@
+title: "Nonequilibrium Fluctuations in Granular Materials"
+statement: "Can a consistent statistical mechanics framework be developed for granular materials that captures jamming transitions and force chain statistics?"
+source_id: "src_edwards_1989"
+source_url: "https://doi.org/10.1016/0378-4371(89)90034-4"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

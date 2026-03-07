@@ -1,0 +1,49 @@
+{# Reusable attempt card component.
+   Usage: {% include "components/attempt-card.html" with context %}
+   Requires: att (attempt dict)
+#}
+<div class="problem-card attempt-card"
+     data-problem="{{ att.problem_title | default(att.problem_id | default('')) }}"
+     data-actor="{{ att.actor | default('') }}"
+     data-actor-type="{{ att.actor_type | default('') }}"
+     data-verification="{{ att.verification_status | default('') }}"
+     data-result-type="{{ att.result_type | default('') }}"
+     data-method="{{ att.method_summary | default('') }}">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+    <div class="title">
+      {% if att.problem_id %}
+      <a href="/problem/{{ att.problem_id | replace('.', '-') }}.html" style="color: var(--accent);">{{ att.problem_title | default(att.problem_id) }}</a>
+      {% else %}
+      {{ att.problem_title | default('Unknown Problem') }}
+      {% endif %}
+    </div>
+    <span style="color: var(--text-muted); font-size: 13px; white-space: nowrap; margin-left: 12px;">{{ att.date | default('') }}</span>
+  </div>
+  <div class="meta" style="margin-top: 8px;">
+    <span>{{ att.actor | default('Unknown') }}</span>
+    <span class="tag {% if att.actor_type == 'ai' %}tag-domain{% elif att.actor_type == 'human' %}tag-type{% else %}tag-open{% endif %}">
+      {{ att.actor_type | default('unknown') }}
+    </span>
+    {% if att.model %}
+    <span class="tag tag-domain">{{ att.model }}</span>
+    {% endif %}
+    {% if att.outcome %}
+    <span>{{ att.outcome }}</span>
+    {% endif %}
+    <span class="tag {% if att.verification_status == 'verified' %}tag-open{% elif att.verification_status == 'disputed' %}tag-solved{% else %}tag-type{% endif %}">
+      {{ att.verification_status | default('pending') }}
+    </span>
+    {% if att.result_type %}
+    <span class="tag tag-type">{{ att.result_type }}</span>
+    {% endif %}
+  </div>
+  {% if att.method_summary %}
+  <div style="margin-top: 8px; font-size: 14px; color: var(--text-muted);">{{ att.method_summary }}</div>
+  {% endif %}
+  {% if att.prompt %}
+  <details style="margin-top: 8px;">
+    <summary style="cursor: pointer; font-size: 13px; color: var(--accent);">Show prompt</summary>
+    <pre style="margin-top: 8px; padding: 12px; background: var(--bg-secondary); border-radius: var(--radius); font-size: 12px; white-space: pre-wrap; overflow-x: auto;">{{ att.prompt }}</pre>
+  </details>
+  {% endif %}
+</div>

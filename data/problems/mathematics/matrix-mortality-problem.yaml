@@ -1,0 +1,114 @@
+id: opa.mathematics.non-commutative-algebra.matrix-mortality-problem
+kind: problem
+title: "Matrix Mortality Problem"
+aliases:
+  - "Matrix Semigroup Membership Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - non-commutative-algebra
+  - computational-complexity
+
+problem_type: open_question
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Given a finite set of n x n integer matrices {M_1, ..., M_k}, is it decidable whether
+    there exists a product M_{i_1} M_{i_2} ... M_{i_m} equal to the zero matrix? This is
+    known to be undecidable for n >= 3 (Paterson, 1970). The question is open for 2x2 matrices:
+    given a finite set of 2x2 integer matrices, is the mortality problem (does some product
+    equal the zero matrix?) decidable?
+  informal: >
+    Given a collection of 2x2 integer matrices, can we always determine whether some product
+    of these matrices (with repetition allowed) gives the zero matrix?
+
+why_it_matters: >
+  The matrix mortality problem is a fundamental question in decidability theory and
+  non-commutative algebra. It connects automata theory, the theory of matrix semigroups,
+  and computational complexity. The 2x2 case remains one of the most prominent open
+  decidability questions, with connections to the Post correspondence problem and
+  word problems in semigroups.
+
+prerequisites:
+  - linear algebra
+  - computability theory
+  - semigroup theory
+
+dates:
+  first_stated: 1970
+
+sources:
+  canonical:
+    - source_id: src_paterson_1970
+      kind: paper
+      title: "Unsolvability in 3x3 matrices"
+      authors:
+        - "Michael S. Paterson"
+      year: 1970
+      url: "https://doi.org/10.1002/malq.19700160305"
+  status_evidence:
+    - source_id: src_halava_harju_2001
+      kind: paper
+      title: "Mortality in matrix semigroups"
+      authors:
+        - "Vesa Halava"
+        - "Tero Harju"
+      year: 2001
+      url: "https://doi.org/10.2307/2695093"
+
+partial_results:
+  - summary: "Undecidable for 3x3 integer matrices (Paterson, 1970)."
+    year: 1970
+  - summary: "Decidable for 2x2 matrices over non-negative integers."
+    year: 2005
+  - summary: "The general 2x2 integer case remains open."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.50
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The matrix mortality problem asks if some product of given matrices equals zero. Undecidable
+    for 3x3 matrices; the 2x2 case is a major open problem in decidability theory.
+  decomposition:
+    - "Automata-theoretic reductions and encoding techniques"
+    - "Algebraic properties of 2x2 matrix semigroups"
+    - "Connections to the Skolem problem for linear recurrences"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

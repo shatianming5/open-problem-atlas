@@ -1,0 +1,11 @@
+title: "Fine-Grained Complexity of All-Pairs Shortest Paths"
+statement: "Is there a truly subcubic algorithm for APSP in dense weighted graphs, or can a conditional lower bound matching n^3 be established?"
+source_id: "src_williams_2020"
+source_url: "https://arxiv.org/abs/1407.6247"
+domain_hint: "theoretical-cs"
+subdomain_hint: "fine-grained-complexity"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

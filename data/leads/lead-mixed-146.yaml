@@ -1,0 +1,11 @@
+title: "Penrose Singularity Theorem Quantum Extensions"
+statement: "Can Penrose's singularity theorem be extended to incorporate quantum effects, rigorously proving or disproving singularity avoidance in quantum gravity?"
+source_id: "src_fewster_2022"
+source_url: "https://arxiv.org/abs/2203.16438"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.45
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

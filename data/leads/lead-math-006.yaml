@@ -1,0 +1,11 @@
+title: "Existence of Infinitely Many Mersenne Primes"
+statement: "Are there infinitely many primes of the form 2^p - 1 where p is prime?"
+source_id: "src_lenstra_1980"
+source_url: "https://en.wikipedia.org/wiki/Mersenne_prime"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,121 @@
+id: opa.mathematics.combinatorics.union-closed-sets-conjecture
+kind: problem
+title: "Union-Closed Sets Conjecture"
+aliases:
+  - "Frankl's Conjecture"
+  - "Frankl's Union-Closed Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - combinatorics
+  - extremal-combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let F be a finite family of finite sets, not all empty, that is union-closed (i.e., the
+    union of any two sets in F is also in F). Then there exists an element that belongs to at
+    least half of the sets in F. Formally, there exists x in the union of F such that
+    |{A in F : x in A}| >= |F|/2.
+  informal: >
+    Consider a collection of sets that is closed under taking unions (combining any two sets
+    in the collection produces another set that is also in the collection). The conjecture
+    says there must be some element that appears in at least half the sets.
+
+why_it_matters: >
+  Frankl's conjecture, posed in 1979, is one of the most tantalizing open problems in
+  extremal combinatorics. It is extremely easy to state but has resisted all proof attempts.
+  Gilmer's 2022 breakthrough proved the first constant-fraction bound, and subsequent
+  improvements have brought renewed attention to the problem.
+
+prerequisites:
+  - extremal combinatorics
+  - lattice theory
+  - entropy methods
+
+dates:
+  first_stated: 1979
+
+sources:
+  canonical:
+    - source_id: src_frankl_1979
+      kind: paper
+      title: "Families of finite sets satisfying a union condition"
+      authors:
+        - "Peter Frankl"
+      year: 1979
+    - source_id: src_bruhn_schaudt_2015
+      kind: survey
+      title: "The journey of the union-closed sets conjecture"
+      authors:
+        - "Henning Bruhn"
+        - "Oliver Schaudt"
+      url: "https://arxiv.org/abs/1309.3297"
+      year: 2015
+  status_evidence:
+    - source_id: src_gilmer_2022
+      kind: paper
+      title: "A constant lower bound for the union-closed sets conjecture"
+      url: "https://arxiv.org/abs/2211.09055"
+      year: 2022
+
+partial_results:
+  - summary: "Gilmer proved that there exists an element in at least a 0.01 fraction of the sets, the first constant-fraction lower bound."
+    year: 2022
+  - summary: "Chase and Lovett, Alweiss-Huang-Sellke, and Cambie-Dvir-Saraf improved the constant to (3-sqrt(5))/2 approx 0.382."
+    year: 2023
+  - summary: "The conjecture is known to hold for families with at most 50 sets."
+    year: 2019
+  - summary: "Knill proved the conjecture holds when the union-closed family is a lattice."
+    year: 1994
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.70
+  formality: 0.85
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Frankl's union-closed sets conjecture asserts that in any union-closed family of finite
+    sets (not all empty), some element belongs to at least half the sets. Gilmer's 2022
+    breakthrough gave the first constant-fraction bound.
+  decomposition:
+    - "Entropy-based and information-theoretic approaches to improve the constant bound"
+    - "Lattice-theoretic reductions and structural characterizations"
+    - "Extremal examples and computational search for tight bounds"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

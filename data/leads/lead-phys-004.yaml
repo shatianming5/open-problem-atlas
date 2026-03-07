@@ -1,0 +1,11 @@
+title: "Quantum PCP Conjecture"
+statement: "Is there a quantum analogue of the PCP theorem? The quantum PCP conjecture asserts that approximating the ground state energy of a local Hamiltonian is QMA-hard even to constant relative precision."
+source_id: "src_aharonov_2013"
+source_url: "https://arxiv.org/abs/1309.7495"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

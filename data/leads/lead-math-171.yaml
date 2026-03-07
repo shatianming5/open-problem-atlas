@@ -1,0 +1,11 @@
+title: "Brownian Motion on Fractals - Spectral Dimension"
+statement: "Determine the exact spectral dimension of Brownian motion on the Sierpinski carpet and other self-similar fractals."
+source_id: "src_barlow_2004"
+source_url: "https://doi.org/10.1007/978-3-540-39587-0"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

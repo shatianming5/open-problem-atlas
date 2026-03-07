@@ -1,0 +1,11 @@
+title: "Space-Bounded Derandomization"
+statement: "Can BPL (bounded-error probabilistic log-space) be derandomized to L? The RL = L question was settled by Reingold for undirected connectivity."
+source_id: "src_nisan_1992"
+source_url: "https://doi.org/10.1007/BF01275672"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

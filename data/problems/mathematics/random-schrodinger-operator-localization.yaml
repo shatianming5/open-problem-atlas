@@ -1,0 +1,135 @@
+id: opa.mathematics.probability.random-schrodinger-operator-localization
+kind: problem
+title: "Anderson Localization in Higher Dimensions"
+aliases:
+  - "Extended States Conjecture"
+  - "Anderson Delocalization Transition"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - probability
+  - analysis
+  - partial-differential-equations
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Consider the Anderson model H = -Δ + V on ℓ^2(Z^d) where V is an
+    i.i.d. random potential with bounded distribution. For d ≥ 3 and
+    sufficiently small disorder (small coupling constant λ), does the
+    operator H have absolutely continuous spectrum and extended (delocalized)
+    eigenstates? Prove the existence of a mobility edge separating
+    localized and extended states in dimensions d ≥ 3.
+  informal: >
+    In a disordered quantum system on a lattice, particles can get trapped
+    (localized) by randomness. In low dimensions or with strong disorder,
+    all states are localized. In higher dimensions with weak disorder, there
+    should be a transition where some states become delocalized — waves can
+    propagate. Proving this transition exists is one of the great open
+    problems in mathematical physics.
+
+why_it_matters: >
+  The Anderson localization-delocalization transition is one of the most
+  important open problems in mathematical physics and probability theory.
+  Anderson's 1958 prediction of localization won him the Nobel Prize in
+  Physics. While localization has been rigorously proved (Fröhlich-Spencer,
+  Aizenman-Molchanov), the existence of delocalized states and the mobility
+  edge in d >= 3 remains completely open from a rigorous mathematical
+  standpoint.
+
+prerequisites:
+  - probability theory
+  - spectral theory
+  - random matrix theory
+  - functional analysis
+
+dates:
+  first_stated: 1958
+
+sources:
+  canonical:
+    - source_id: src_anderson_1958
+      kind: paper
+      title: "Absence of Diffusion in Certain Random Lattices"
+      authors:
+        - "Philip W. Anderson"
+      year: 1958
+      url: "https://doi.org/10.1103/PhysRev.109.1492"
+    - source_id: src_frohlich_spencer_1983
+      kind: paper
+      title: "Absence of diffusion in the Anderson tight binding model for large disorder or low energy"
+      authors:
+        - "Jürg Fröhlich"
+        - "Thomas Spencer"
+      year: 1983
+      url: "https://doi.org/10.1007/BF01209475"
+  status_evidence:
+    - source_id: src_aizenman_warzel_2015
+      kind: textbook
+      title: "Random Operators: Disorder Effects on Quantum Spectra and Dynamics"
+      authors:
+        - "Michael Aizenman"
+        - "Simone Warzel"
+      year: 2015
+      url: "https://doi.org/10.1090/gsm/168"
+
+partial_results:
+  - summary: "Fröhlich and Spencer proved localization for large disorder and at band edges via multi-scale analysis."
+    year: 1983
+  - summary: "Aizenman and Molchanov proved localization via the fractional moment method."
+    year: 1993
+  - summary: "Erdős, Knowles, Yau, and Yin proved delocalization for random band matrices of sufficient width."
+    year: 2013
+  - summary: "The existence of extended states and mobility edges for the Anderson model on Z^d remains open for all d ≥ 3."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.35
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    Proving the existence of delocalized states and a mobility edge for
+    the Anderson model on Z^d (d >= 3) with weak disorder is a major open
+    problem in mathematical physics and probability.
+  decomposition:
+    - "Supersymmetric methods and sigma models"
+    - "Random band matrix analogues and delocalization"
+    - "Multi-scale analysis extensions and renormalization group approaches"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

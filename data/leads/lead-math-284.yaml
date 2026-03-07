@@ -1,0 +1,11 @@
+title: "Borel Determinacy Strength"
+statement: "Characterize the optimal proof-theoretic strength needed for Borel determinacy beyond ZFC."
+source_id: "src_martin_1975"
+source_url: "https://en.wikipedia.org/wiki/Borel_determinacy_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "set-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

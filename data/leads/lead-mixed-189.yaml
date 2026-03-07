@@ -1,0 +1,11 @@
+title: "Quantum Spin Liquids Mathematical Theory"
+statement: "Can quantum spin liquid ground states be rigorously proved to exist in physically realistic 2D frustrated spin models like the kagome Heisenberg antiferromagnet?"
+source_id: "src_savary_2022"
+source_url: "https://arxiv.org/abs/2204.04263"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

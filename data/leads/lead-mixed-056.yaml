@@ -1,0 +1,11 @@
+title: "Frankl's Union-Closed Sets Conjecture Progress"
+statement: "Following Gilmer's breakthrough lower bound of 0.01, can the constant in Frankl's conjecture be improved to the conjectured 1/2?"
+source_id: "src_gilmer_2022"
+source_url: "https://arxiv.org/abs/2211.09055"
+domain_hint: "mathematics"
+subdomain_hint: "extremal-combinatorics"
+confidence: 0.68
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

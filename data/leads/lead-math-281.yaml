@@ -1,0 +1,11 @@
+title: "Woodin's Ultimate L Conjecture"
+statement: "The Ultimate L model gives a canonical inner model for a supercompact cardinal with all large cardinal axioms."
+source_id: "src_woodin_2010"
+source_url: "https://en.wikipedia.org/wiki/Ultimate_L"
+domain_hint: "mathematics"
+subdomain_hint: "set-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

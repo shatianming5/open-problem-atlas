@@ -1,0 +1,11 @@
+title: "Gravitational Lensing in Strong Field"
+statement: "Can strong-field gravitational lensing by black holes reveal signatures of quantum gravity corrections or deviations from the Kerr metric?"
+source_id: "src_virbhadra_2000"
+source_url: "https://arxiv.org/abs/gr-qc/9906118"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

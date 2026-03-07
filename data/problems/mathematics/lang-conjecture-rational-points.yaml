@@ -1,0 +1,122 @@
+id: opa.mathematics.differential-geometry.lang-conjecture-rational-points
+kind: problem
+title: "Lang's Conjecture on Rational Points"
+aliases:
+  - "Lang Conjecture"
+  - "Lang's Conjecture on Varieties of General Type"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - differential-geometry
+  - complex-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let X be a smooth projective variety of general type defined over a number
+    field K. Then the set of K-rational points X(K) is not Zariski dense in X.
+    More precisely, there exists a proper closed subvariety Z subset X such
+    that X(K) subset Z(K), i.e., all but finitely many rational points lie on
+    a proper subvariety.
+  informal: >
+    Varieties of general type are the "most curved" algebraic varieties, the
+    higher-dimensional analogues of hyperbolic curves. Lang conjectured that
+    such varieties over number fields can only have a "sparse" set of rational
+    points -- they must all be confined to a fixed lower-dimensional subset.
+    This vastly generalizes Faltings' theorem (Mordell conjecture) from curves
+    to higher dimensions.
+
+why_it_matters: >
+  Lang's conjecture, formulated in the 1970s-80s, is one of the grand
+  conjectures in arithmetic geometry linking the geometry of varieties (via
+  Kodaira dimension) to the arithmetic of their rational points. It would
+  unify and extend Faltings' theorem, the Bombieri-Lang conjecture, and
+  provide a geometric framework for understanding Diophantine equations in
+  higher dimensions.
+
+prerequisites:
+  - algebraic geometry
+  - arithmetic geometry
+  - Diophantine geometry
+  - number theory
+
+dates:
+  first_stated: 1974
+
+sources:
+  canonical:
+    - source_id: src_lang_1986
+      kind: paper
+      title: "Hyperbolic and Diophantine analysis"
+      authors:
+        - "Serge Lang"
+      year: 1986
+      locator: "Bulletin of the AMS, vol. 14, no. 2, pp. 159-205"
+  status_evidence:
+    - source_id: src_hindry_silverman_2000
+      kind: textbook
+      title: "Diophantine Geometry: An Introduction"
+      authors:
+        - "Marc Hindry"
+        - "Joseph H. Silverman"
+      year: 2000
+      locator: "Graduate Texts in Mathematics, vol. 201, Springer"
+
+partial_results:
+  - summary: "Faltings proved the Mordell conjecture: curves of genus >= 2 have finitely many rational points."
+    year: 1983
+  - summary: "Faltings proved the conjecture for subvarieties of abelian varieties."
+    year: 1991
+  - summary: "Caporaso, Harris, and Mazur showed Lang's conjecture implies uniform bounds on rational points of curves."
+    year: 1997
+  - summary: "Demailly and others developed jet differential techniques approaching hyperbolicity results related to the conjecture."
+    year: 2011
+
+relations:
+  related:
+    - opa.mathematics.differential-geometry.abundance-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - magma
+
+machine_generated:
+  summary: >
+    Lang's conjecture predicts that rational points on varieties of general
+    type over number fields are not Zariski dense. It vastly generalizes
+    Faltings' theorem (Mordell conjecture) to higher dimensions.
+  decomposition:
+    - "Connections between hyperbolicity and arithmetic"
+    - "Jet differentials and Green-Griffiths-Lang conjecture"
+    - "Uniformity conjectures for rational points"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

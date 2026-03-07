@@ -1,0 +1,120 @@
+id: opa.tcs.complexity-theory.circuit-complexity-explicit-functions
+kind: problem
+title: "Circuit Complexity of Explicit Functions"
+aliases:
+  - "Explicit circuit lower bounds"
+  - "Superlinear circuit lower bounds"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove a superlinear lower bound on the circuit complexity of an explicit Boolean
+    function. Specifically, exhibit a function f in NP (or even in P) and prove that
+    any Boolean circuit computing f requires more than C*n gates for every constant C,
+    where n is the input length.
+  informal: >
+    Can we prove that some specific, natural Boolean function requires large circuits
+    to compute? Despite knowing that most functions require exponential-size circuits
+    (by counting arguments), we cannot prove more than a roughly 3n lower bound for
+    any explicit function.
+
+why_it_matters: >
+  The inability to prove strong circuit lower bounds for explicit functions is one of
+  the most embarrassing gaps in complexity theory. The best known lower bound for an
+  explicit function is approximately 3n - o(n) by Blum (1984) and Lachish-Raz (2001).
+  Any significant improvement would constitute a major breakthrough.
+
+prerequisites:
+  - circuit complexity
+  - Boolean function complexity
+  - counting arguments
+  - gate elimination method
+
+dates:
+  first_stated: 1975
+
+sources:
+  canonical:
+    - source_id: src_blum_1984
+      kind: paper
+      title: "A Boolean Function Requiring 3n Network Size"
+      authors:
+        - "Norbert Blum"
+      url: "https://doi.org/10.1016/0304-3975(84)90145-5"
+      year: 1984
+  status_evidence:
+    - source_id: src_find_golovnev_hirsch_kulikov_2016
+      kind: paper
+      title: "A Better-than-3n Lower Bound for the Circuit Complexity of an Explicit Function"
+      authors:
+        - "Magnus Gausdal Find"
+        - "Alexander Golovnev"
+        - "Edward A. Hirsch"
+        - "Alexander S. Kulikov"
+      url: "https://doi.org/10.1109/FOCS.2016.55"
+      year: 2016
+
+partial_results:
+  - summary: "Blum (1984) proved a 3n - o(n) lower bound for an explicit function, which remained the record for over 30 years."
+    year: 1984
+  - summary: "Find, Golovnev, Hirsch, and Kulikov (2016) proved a (3 + 1/86)n - o(n) lower bound, the first improvement beyond 3n."
+    year: 2016
+  - summary: "Shannon (1949) showed by counting that most Boolean functions require circuits of size Omega(2^n/n), but this is non-constructive."
+    year: 1949
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+    - "opa.tcs.complexity-theory.acc0-lower-bounds"
+    - "opa.tcs.complexity-theory.formula-vs-circuit-complexity"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.25
+  toolability: 0.30
+  formality: 0.90
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The problem asks for superlinear circuit lower bounds for explicit Boolean
+    functions. The best known bound is barely above 3n, far from the exponential
+    bounds known to exist non-constructively.
+  decomposition:
+    - "Develop new proof techniques beyond gate elimination"
+    - "Bridge the gap between counting-based existential bounds and explicit constructions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

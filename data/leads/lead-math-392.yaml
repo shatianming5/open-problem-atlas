@@ -1,0 +1,11 @@
+title: "Tate Conjecture"
+statement: "The Tate conjecture predicts that the rank of the group of algebraic cycles modulo homological equivalence is determined by poles of L-functions."
+source_id: "src_tate_1965"
+source_url: "https://en.wikipedia.org/wiki/Tate_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "arithmetic-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

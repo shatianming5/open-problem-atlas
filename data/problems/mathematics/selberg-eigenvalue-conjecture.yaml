@@ -1,0 +1,113 @@
+id: opa.mathematics.functional-analysis.selberg-eigenvalue-conjecture
+kind: problem
+title: "Selberg Eigenvalue Conjecture"
+aliases:
+  - "Selberg 1/4 Conjecture"
+  - "Ramanujan Conjecture for Maass Forms"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - functional-analysis
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For any congruence subgroup Gamma of SL(2, Z), every nonzero eigenvalue lambda of the
+    Laplacian on the modular surface Gamma\H satisfies lambda >= 1/4, where H is the upper
+    half-plane. Equivalently, for Maass cusp forms on congruence subgroups, the spectral
+    parameter satisfies |Re(s) - 1/2| = 0 (i.e., s lies on the critical line Re(s) = 1/2).
+  informal: >
+    The Laplacian on modular surfaces coming from congruence subgroups should have no
+    "small eigenvalues" — all non-trivial eigenvalues should be at least 1/4. This is
+    an analogue of the Ramanujan conjecture for non-holomorphic modular forms.
+
+why_it_matters: >
+  The Selberg eigenvalue conjecture (1965) is a cornerstone of the theory of automorphic forms
+  and spectral geometry. It is equivalent to the Ramanujan conjecture for GL(2) Maass forms.
+  It has applications to the distribution of primes in arithmetic progressions, quantum chaos,
+  and expander graph constructions. Selberg proved lambda >= 3/16; the best known bound is 975/4096.
+
+prerequisites:
+  - spectral theory
+  - automorphic forms
+  - representation theory
+  - analytic number theory
+
+dates:
+  first_stated: 1965
+
+sources:
+  canonical:
+    - source_id: src_selberg_1965
+      kind: paper
+      title: "On the estimation of Fourier coefficients of modular forms"
+      authors:
+        - "Atle Selberg"
+      year: 1965
+  status_evidence:
+    - source_id: src_kim_sarnak_2003
+      kind: paper
+      title: "Refined estimates towards the Ramanujan and Selberg conjectures"
+      authors:
+        - "Henry Kim"
+        - "Peter Sarnak"
+      url: "https://doi.org/10.1090/S0894-0347-03-00428-0"
+      year: 2003
+
+partial_results:
+  - summary: "Selberg proved lambda >= 3/16 = 0.1875."
+    year: 1965
+  - summary: "Kim and Sarnak improved the bound to lambda >= 975/4096 ~ 0.238."
+    year: 2003
+  - summary: "The conjecture is proved for specific families of congruence subgroups via functoriality."
+    year: 2003
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.90
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Selberg's eigenvalue conjecture asserts that nonzero Laplacian eigenvalues on congruence
+    modular surfaces are >= 1/4. Best bound is 975/4096, far from the target.
+  decomposition:
+    - "Langlands functoriality and symmetric power L-functions"
+    - "Trace formula methods and spectral analysis"
+    - "Connections to Sato-Tate and Ramanujan conjectures"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

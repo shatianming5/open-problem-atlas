@@ -1,0 +1,121 @@
+id: opa.tcs.quantum-computing.topological-qc-universality
+kind: problem
+title: "Topological Quantum Computation Universality"
+aliases:
+  - "Topological quantum computing"
+  - "Non-abelian anyons for universal QC"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can non-abelian anyons (specifically Fibonacci anyons or Ising anyons supplemented
+    with additional operations) be physically realized to implement a universal set of
+    quantum gates with topological protection? What is the exact computational power
+    of topological quantum computation with specific anyon models?
+  informal: >
+    Can we build quantum computers using exotic particles (anyons) whose quantum
+    information is protected by topology? Which types of anyons give full quantum
+    computing power?
+
+why_it_matters: >
+  Topological quantum computation promises inherently fault-tolerant quantum computing
+  by encoding information in topological properties that are immune to local noise.
+  Determining which anyon models are computationally universal and physically realizable
+  would guide experimental efforts.
+
+prerequisites:
+  - topological quantum computation
+  - anyons and braiding
+  - topological quantum error correction
+  - quantum universality
+
+dates:
+  first_stated: 2002
+
+sources:
+  canonical:
+    - source_id: src_freedman_kitaev_larsen_wang_2003
+      kind: paper
+      title: "Topological Quantum Computation"
+      authors:
+        - "Michael H. Freedman"
+        - "Alexei Kitaev"
+        - "Michael J. Larsen"
+        - "Zhenghan Wang"
+      url: "https://doi.org/10.1090/S0273-0979-02-00964-3"
+      year: 2003
+  status_evidence:
+    - source_id: src_nayak_simon_stern_freedman_das_sarma_2008
+      kind: paper
+      title: "Non-Abelian Anyons and Topological Quantum Computation"
+      authors:
+        - "Chetan Nayak"
+        - "Steven H. Simon"
+        - "Ady Stern"
+        - "Michael Freedman"
+        - "Sankar Das Sarma"
+      url: "https://doi.org/10.1103/RevModPhys.80.1083"
+      year: 2008
+
+partial_results:
+  - summary: "Freedman, Kitaev, Larsen, and Wang (2003) proved that Fibonacci anyons yield universal quantum computation."
+    year: 2003
+  - summary: "Ising anyons alone are not universal but can be supplemented to achieve universality."
+    year: 2008
+  - summary: "Physical realization of non-abelian anyons remains experimentally challenging with recent progress in Majorana platforms."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.quantum-computing.quantum-error-correction-threshold"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.30
+  formality: 0.75
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - qiskit
+
+machine_generated:
+  summary: >
+    Determining which anyon models support universal topological quantum computation
+    and whether they can be physically realized is a key open question bridging
+    physics and computer science.
+  decomposition:
+    - "Classify computational universality of physically realizable anyon models"
+    - "Develop efficient compilation of quantum circuits into braiding operations"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,127 @@
+id: opa.mathematics.analysis.invariant-subspace-problem
+kind: problem
+title: "Invariant Subspace Problem"
+aliases:
+  - "Invariant Subspace Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Does every bounded linear operator T on a separable, infinite-dimensional
+    Hilbert space H have a non-trivial closed invariant subspace? That is,
+    does there exist a closed subspace M of H with {0} ⊊ M ⊊ H such that
+    T(M) ⊆ M?
+  informal: >
+    Given any continuous linear transformation on an infinite-dimensional
+    Hilbert space, must there always be a proper closed subspace that the
+    transformation maps into itself?
+
+why_it_matters: >
+  The invariant subspace problem is one of the most important open questions
+  in functional analysis and operator theory. It is connected to the structure
+  theory of operators and the understanding of how operators can be decomposed.
+  Enflo (1976) and Read (1985) showed counterexamples exist on general Banach
+  spaces, but the Hilbert space case remains open.
+
+prerequisites:
+  - functional analysis
+  - operator theory
+  - spectral theory
+  - Hilbert space theory
+
+dates:
+  first_stated: 1935
+
+sources:
+  canonical:
+    - source_id: src_halmos_1966
+      kind: paper
+      title: "Invariant subspaces of polynomially compact operators"
+      authors:
+        - "Paul Halmos"
+      year: 1966
+      url: "https://doi.org/10.2140/pjm.1966.16.433"
+    - source_id: src_enflo_1987
+      kind: paper
+      title: "On the invariant subspace problem for Banach spaces"
+      authors:
+        - "Per Enflo"
+      year: 1987
+      url: "https://doi.org/10.1007/BF02454548"
+  status_evidence:
+    - source_id: src_chalendar_partington_2011
+      kind: textbook
+      title: "Modern Approaches to the Invariant-Subspace Problem"
+      authors:
+        - "Isabelle Chalendar"
+        - "Jonathan R. Partington"
+      year: 2011
+      url: "https://doi.org/10.1017/CBO9780511862434"
+
+partial_results:
+  - summary: "Aronszajn and Smith proved the result for compact operators on Hilbert spaces."
+    year: 1954
+  - summary: "Lomonosov proved that operators commuting with a nonzero compact operator have invariant subspaces."
+    year: 1973
+  - summary: "Enflo constructed a counterexample on a Banach space (published 1987, circulated 1976)."
+    year: 1976
+  - summary: "Read constructed a counterexample on ℓ^1."
+    year: 1985
+  - summary: "The problem remains open on Hilbert spaces and reflexive Banach spaces."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.35
+  formality: 0.90
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The invariant subspace problem asks whether every bounded linear operator
+    on a separable infinite-dimensional Hilbert space has a non-trivial closed
+    invariant subspace. Counterexamples exist on Banach spaces but the Hilbert
+    space case remains open.
+  decomposition:
+    - "Spectral-theoretic approaches and Brown's theorem"
+    - "Connections to the structure of operators on Hilbert spaces"
+    - "Lomonosov-type techniques and compact operator commutants"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

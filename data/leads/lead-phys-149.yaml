@@ -1,0 +1,11 @@
+title: "Non-Fermi Liquid Theory"
+statement: "Is there a controlled theoretical framework for non-Fermi liquid behavior in metals near quantum critical points in dimensions d >= 2?"
+source_id: "src_lee_2018"
+source_url: "https://arxiv.org/abs/1803.09491"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

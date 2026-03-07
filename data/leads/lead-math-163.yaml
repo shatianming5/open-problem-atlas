@@ -1,0 +1,11 @@
+title: "KPZ Universality Conjecture"
+statement: "The KPZ equation describes the universal scaling limit of a broad class of random growth models, with fluctuation exponent 1/3 and correlation exponent 2/3."
+source_id: "src_kardar_1986"
+source_url: "https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

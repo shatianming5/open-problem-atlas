@@ -1,0 +1,123 @@
+id: opa.mathematics.topology.hilbert-smith-conjecture
+kind: problem
+title: "Hilbert–Smith Conjecture"
+aliases:
+  - "Hilbert-Smith Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - topology
+  - geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    If a locally compact group G acts faithfully and continuously on a
+    connected topological manifold M, then G must be a Lie group. Equivalently,
+    the p-adic integers Z_p cannot act faithfully and continuously on any
+    connected topological manifold.
+  informal: >
+    If a group acts continuously and faithfully on a manifold, the group
+    must itself be a smooth object (a Lie group). In particular, exotic
+    groups like the p-adic integers cannot act in this way.
+
+why_it_matters: >
+  The Hilbert–Smith conjecture is a natural generalization of Hilbert's
+  fifth problem (solved by Gleason, Montgomery, and Zippin in 1952). It
+  connects the topology of transformation groups with the structure theory
+  of locally compact groups and has implications for understanding
+  symmetries of manifolds.
+
+prerequisites:
+  - topological groups
+  - Lie group theory
+  - transformation groups
+  - p-adic analysis
+
+dates:
+  first_stated: 1940
+
+sources:
+  canonical:
+    - source_id: src_smith_1941
+      kind: paper
+      title: "Periodic and nearly periodic transformations"
+      authors:
+        - "Paul A. Smith"
+      year: 1941
+    - source_id: src_yang_1960
+      kind: paper
+      title: "Hilbert's fifth problem and related problems on transformation groups"
+      authors:
+        - "C. T. Yang"
+      year: 1960
+  status_evidence:
+    - source_id: src_pardon_2013
+      kind: paper
+      title: "The Hilbert-Smith conjecture for three-manifolds"
+      authors:
+        - "John Pardon"
+      year: 2013
+      url: "https://doi.org/10.1090/S0894-0347-2013-00766-3"
+
+partial_results:
+  - summary: "Newman (1931) and Smith (1941) established foundational results on periodic transformations of manifolds."
+    year: 1941
+  - summary: "The conjecture was proved for actions on 1- and 2-manifolds."
+    year: 1946
+  - summary: "Repovš and Ščepin proved the conjecture for Lipschitz actions."
+    year: 1997
+  - summary: "Pardon proved the conjecture for 3-manifolds."
+    year: 2013
+  - summary: "The conjecture remains open for manifolds of dimension ≥ 4."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Hilbert–Smith conjecture asserts that any locally compact group
+    acting faithfully on a connected manifold must be a Lie group. It has
+    been proved for dimensions up to 3 but remains open in higher dimensions.
+  decomposition:
+    - "Reduction to ruling out p-adic actions on manifolds"
+    - "Cohomological dimension techniques"
+    - "Extensions of Pardon's 3-manifold proof to higher dimensions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

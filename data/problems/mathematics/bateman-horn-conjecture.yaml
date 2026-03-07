@@ -1,0 +1,119 @@
+id: opa.mathematics.number-theory.bateman-horn-conjecture
+kind: problem
+title: "Bateman-Horn Conjecture"
+aliases:
+  - "Bateman-Horn Formula"
+  - "Bateman-Horn Quantitative Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - analytic-number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let f_1(x), f_2(x), ..., f_r(x) be distinct irreducible polynomials with integer
+    coefficients and positive leading coefficients. Let N(f_1, ..., f_r; x) denote the
+    number of positive integers n <= x such that f_1(n), f_2(n), ..., f_r(n) are all prime.
+    If the product f_1 * f_2 * ... * f_r has no fixed prime divisor, then
+    N(f_1, ..., f_r; x) ~ (C(f_1, ..., f_r) / (d_1 * d_2 * ... * d_r)) * Li_r(x),
+    where d_i = deg(f_i), Li_r(x) = integral from 2 to x of dt/(log t)^r, and
+    C(f_1, ..., f_r) = prod_{p prime} (1 - N_p/p) / (1 - 1/p)^r with N_p the number of
+    solutions to f_1(n) * ... * f_r(n) ≡ 0 (mod p).
+  informal: >
+    The Bateman-Horn conjecture gives a precise formula for how often a collection of
+    polynomials simultaneously take prime values. It generalizes the prime number theorem
+    and encompasses the twin prime conjecture, Bunyakovsky's conjecture, and many others.
+
+why_it_matters: >
+  The Bateman-Horn conjecture is the most comprehensive quantitative prediction for prime
+  values of polynomials. It unifies a vast collection of conjectures in analytic number theory
+  under a single precise asymptotic framework.
+
+prerequisites:
+  - analytic number theory
+  - sieve methods
+  - algebraic number theory
+
+dates:
+  first_stated: 1962
+
+sources:
+  canonical:
+    - source_id: src_bateman_horn_1962
+      kind: paper
+      title: "A heuristic asymptotic formula concerning the distribution of prime numbers"
+      authors:
+        - "Paul T. Bateman"
+        - "Roger A. Horn"
+      url: "https://doi.org/10.1090/S0025-5718-1962-0148632-7"
+      year: 1962
+  status_evidence:
+    - source_id: src_sander_2009
+      kind: paper
+      title: "On the Bateman-Horn conjecture"
+      url: "https://doi.org/10.1016/j.jnt.2009.01.007"
+      year: 2009
+
+partial_results:
+  - summary: "The conjecture reduces to the prime number theorem for a single linear polynomial f(x) = x, and is consistent with the Hardy-Littlewood k-tuple conjecture."
+    year: 1962
+  - summary: "Friedlander and Iwaniec proved that x^2 + y^4 represents infinitely many primes, consistent with Bateman-Horn predictions."
+    year: 1998
+  - summary: "Extensive computational verification confirms the predicted densities to high accuracy for many polynomial families."
+    year: 2010
+
+relations:
+  equivalent_to: []
+  generalizes:
+    - opa.mathematics.number-theory.bunyakovsky-conjecture
+    - opa.mathematics.number-theory.hardy-littlewood-k-tuple-conjecture
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.twin-prime-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.90
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Bateman-Horn conjecture provides a unified quantitative formula for the density of
+    simultaneous prime values of polynomials, generalizing most major conjectures about
+    polynomial primes.
+  decomposition:
+    - "Proving the conjecture for a single irreducible polynomial of degree >= 2"
+    - "Extending sieve methods to capture the main term rather than just upper bounds"
+    - "Verifying the predicted constants against extensive numerical data"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

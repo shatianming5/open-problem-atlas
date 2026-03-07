@@ -1,0 +1,11 @@
+title: "Kaplansky's Conjectures on Group Rings"
+statement: "For a torsion-free group G and field K, the group ring K[G] has no zero divisors, no idempotents other than 0 and 1, and every unit is trivial."
+source_id: "src_kaplansky_1970"
+source_url: "https://en.wikipedia.org/wiki/Kaplansky%27s_conjectures"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

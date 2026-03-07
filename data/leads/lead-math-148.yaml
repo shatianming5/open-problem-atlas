@@ -1,0 +1,11 @@
+title: "Telescope Conjecture in Stable Homotopy Theory"
+statement: "The n-th telescope conjecture predicts the localization of spectra with respect to the telescope of a v_n-self-map equals the localization at the Johnson-Wilson spectrum E(n)."
+source_id: "src_ravenel_1984"
+source_url: "https://en.wikipedia.org/wiki/Telescope_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

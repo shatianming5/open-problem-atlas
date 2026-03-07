@@ -1,0 +1,145 @@
+id: opa.tcs.quantum-computing.quantum-pcp-conjecture
+kind: problem
+title: "Quantum PCP Conjecture"
+aliases:
+  - "qPCP conjecture"
+  - "Quantum PCP theorem"
+  - "Quantum probabilistically checkable proofs"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The classical PCP theorem states that every language in NP has a probabilistically
+    checkable proof (PCP) where the verifier reads only a constant number of bits
+    of the proof. The quantum PCP conjecture asks for an analogous result in the
+    quantum setting: is it QMA-hard to approximate the ground state energy of a
+    local Hamiltonian to within a constant fraction of the total number of terms?
+    Formally, does there exist a constant epsilon > 0 such that the following
+    promise problem is QMA-hard: given a k-local Hamiltonian H = sum_{i=1}^m H_i
+    on n qubits (where each H_i acts on at most k qubits and 0 <= H_i <= I),
+    distinguish between the cases where the ground state energy is at most
+    epsilon * m and at least (1 - epsilon) * m?
+  informal: >
+    The classical PCP theorem says you can verify any mathematical proof by
+    reading only a few random bits of it. The quantum PCP conjecture asks
+    whether a similar phenomenon holds for quantum proofs: is it computationally
+    hard even to approximately determine the lowest energy state of a quantum
+    system, even when "approximately" means just getting the answer roughly right?
+
+why_it_matters: >
+  The quantum PCP conjecture is considered one of the most important open problems
+  in quantum complexity theory and quantum information. If true, it would have
+  profound implications for condensed matter physics (implying that ground states
+  of local Hamiltonians are generically hard to approximate), quantum error
+  correction, quantum algorithms, and the hardness of approximation for quantum
+  problems. It would be the quantum analogue of the PCP theorem, which
+  revolutionized classical complexity theory and hardness of approximation.
+  The conjecture also connects to the study of entanglement, area laws, and
+  the structure of quantum ground states.
+
+prerequisites:
+  - quantum computation and information
+  - quantum complexity theory (QMA)
+  - PCP theorem
+  - local Hamiltonians
+  - quantum error correction
+
+dates:
+  first_stated: 2013
+
+sources:
+  canonical:
+    - source_id: src_aharonov_arad_vidick_2013
+      kind: paper
+      title: "Guest Column: The Quantum PCP Conjecture"
+      authors:
+        - "Dorit Aharonov"
+        - "Itai Arad"
+        - "Thomas Vidick"
+      url: "https://doi.org/10.1145/2491533.2491549"
+      year: 2013
+      locator: "SIGACT News, 44(2), pp. 47-79"
+    - source_id: src_aharonov_naveh_2002
+      kind: paper
+      title: "Quantum NP - A Survey"
+      authors:
+        - "Dorit Aharonov"
+        - "Tomer Naveh"
+      url: "https://arxiv.org/abs/quant-ph/0210077"
+      year: 2002
+  status_evidence:
+    - source_id: src_gharibian_2015
+      kind: survey
+      title: "Quantum Hamiltonian Complexity"
+      authors:
+        - "Sevag Gharibian"
+        - "Yichen Huang"
+        - "Zeph Landau"
+        - "Seung Woo Shin"
+      url: "https://doi.org/10.1561/0400000066"
+      year: 2015
+
+partial_results:
+  - summary: "Kitaev showed that the local Hamiltonian problem is QMA-complete for 5-local Hamiltonians, later improved to 2-local (Kempe, Kitaev, Regev, 2006), establishing the quantum analogue of Cook's theorem."
+    year: 2002
+  - summary: "Brandao and Harrow showed that the quantum PCP conjecture is false for the special case of dense local Hamiltonians, using a quantum de Finetti theorem."
+    year: 2013
+  - summary: "Aharonov, Arad, Landau, and Vazirani proved a quantum analogue of gap amplification (the detectability lemma), a key ingredient in classical PCP proofs."
+    year: 2009
+  - summary: "Eldar and Harrow showed that no-low-energy trivial states (NLTS) exist, proving a prerequisite conjecture for the quantum PCP conjecture."
+    year: 2017
+  - summary: "Anshu, Breuckmann, and Nirkhe proved the NLTS conjecture using quantum LDPC codes, removing a major barrier to the quantum PCP conjecture."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.unique-games-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - qiskit
+
+machine_generated:
+  summary: >
+    The quantum PCP conjecture asks whether approximating the ground state energy of a local Hamiltonian to constant precision is QMA-hard, which would be the quantum analog of the classical PCP theorem.
+  decomposition:
+    - "Build on the NLTS theorem to construct quantum locally testable codes with constant soundness"
+    - "Develop quantum gap amplification techniques analogous to classical PCP proof composition"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

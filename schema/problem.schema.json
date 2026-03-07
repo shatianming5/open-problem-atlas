@@ -1,0 +1,318 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openproblem-atlas.org/schema/problem.schema.json",
+  "title": "OpenProblemAtlas Problem",
+  "description": "Schema for a verified open problem entry",
+  "type": "object",
+  "required": [
+    "id",
+    "kind",
+    "title",
+    "status",
+    "domain",
+    "subdomains",
+    "statement",
+    "sources"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^opa\\.[a-z-]+\\.[a-z-]+\\.[a-z0-9-]+$",
+      "description": "Unique identifier: opa.<domain>.<subdomain>.<slug>"
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["problem"],
+      "description": "Entry type, always 'problem' for verified problems"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3,
+      "description": "Canonical problem title"
+    },
+    "aliases": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "Alternative names for this problem"
+    },
+    "status": {
+      "type": "object",
+      "required": ["label", "confidence", "last_reviewed_at", "review_state"],
+      "properties": {
+        "label": {
+          "type": "string",
+          "enum": [
+            "open",
+            "partially_solved",
+            "solved",
+            "disproved",
+            "conditional",
+            "independent",
+            "ambiguous",
+            "retired_duplicate"
+          ]
+        },
+        "confidence": {
+          "type": "string",
+          "enum": ["high", "medium", "low"]
+        },
+        "last_reviewed_at": {
+          "type": "string",
+          "format": "date"
+        },
+        "review_state": {
+          "type": "string",
+          "enum": ["human_verified", "needs_review", "auto_generated"]
+        },
+        "stale_after": {
+          "type": "string",
+          "format": "date",
+          "description": "Date after which status should be re-checked"
+        },
+        "reviewer": {
+          "type": "string",
+          "description": "GitHub handle or name of the last reviewer"
+        },
+        "history": {
+          "type": "array",
+          "description": "Status change history",
+          "items": {
+            "type": "object",
+            "required": ["from", "to", "date"],
+            "properties": {
+              "from": { "type": "string" },
+              "to": { "type": "string" },
+              "date": { "type": "string", "format": "date" },
+              "evidence": { "type": "string" },
+              "reviewer": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "domain": {
+      "type": "string",
+      "enum": ["mathematics", "theoretical-cs", "mathematical-physics"]
+    },
+    "subdomains": {
+      "type": "array",
+      "items": { "type": "string" },
+      "minItems": 1
+    },
+    "problem_type": {
+      "type": "string",
+      "enum": [
+        "conjecture",
+        "open_question",
+        "characterization",
+        "existence",
+        "computation",
+        "classification",
+        "algorithm",
+        "bound"
+      ]
+    },
+    "answer_type": {
+      "type": "string",
+      "enum": [
+        "boolean",
+        "numeric",
+        "constructive",
+        "existential",
+        "classification_list",
+        "algorithm",
+        "bound"
+      ]
+    },
+    "verification_mode": {
+      "type": "string",
+      "enum": ["proof", "formal_proof", "expert_review", "computational", "mixed"]
+    },
+    "statement": {
+      "type": "object",
+      "required": ["canonical"],
+      "properties": {
+        "canonical": {
+          "type": "string",
+          "minLength": 10,
+          "description": "Precise canonical statement of the problem"
+        },
+        "informal": {
+          "type": "string",
+          "description": "Informal/accessible version of the statement"
+        }
+      }
+    },
+    "why_it_matters": {
+      "type": "string",
+      "description": "Brief explanation of the problem's significance"
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "sources": {
+      "type": "object",
+      "required": ["canonical"],
+      "properties": {
+        "canonical": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["source_id", "kind"],
+            "properties": {
+              "source_id": { "type": "string" },
+              "kind": {
+                "type": "string",
+                "enum": ["paper", "survey", "textbook", "problem_list", "database", "website", "discussion"]
+              },
+              "locator": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "doi": { "type": "string" },
+              "title": { "type": "string" },
+              "authors": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "year": { "type": "integer" }
+            }
+          },
+          "minItems": 1
+        },
+        "status_evidence": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["source_id", "kind"],
+            "properties": {
+              "source_id": { "type": "string" },
+              "kind": { "type": "string" },
+              "locator": { "type": "string" },
+              "url": { "type": "string", "format": "uri" },
+              "doi": { "type": "string" },
+              "title": { "type": "string" },
+              "year": { "type": "integer" }
+            }
+          }
+        }
+      }
+    },
+    "partial_results": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["summary"],
+        "properties": {
+          "summary": { "type": "string" },
+          "source_id": { "type": "string" },
+          "year": { "type": "integer" }
+        }
+      }
+    },
+    "relations": {
+      "type": "object",
+      "properties": {
+        "equivalent_to": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "generalizes": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "special_cases": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "related": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "formalization": {
+      "type": "object",
+      "properties": {
+        "available": { "type": "boolean" },
+        "systems": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "wanted": { "type": "boolean" },
+        "links": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "system": { "type": "string" },
+              "url": { "type": "string", "format": "uri" }
+            }
+          }
+        }
+      }
+    },
+    "scores": {
+      "type": "object",
+      "properties": {
+        "impact": { "type": "number", "minimum": 0, "maximum": 1 },
+        "underexplored": { "type": "number", "minimum": 0, "maximum": 1 },
+        "toolability": { "type": "number", "minimum": 0, "maximum": 1 },
+        "formality": { "type": "number", "minimum": 0, "maximum": 1 },
+        "ai_fit": { "type": "number", "minimum": 0, "maximum": 1 }
+      }
+    },
+    "ai": {
+      "type": "object",
+      "properties": {
+        "solver_ready": { "type": "boolean" },
+        "recommended_tools": {
+          "type": "array",
+          "items": { "type": "string" }
+        }
+      }
+    },
+    "prize": {
+      "type": "object",
+      "properties": {
+        "amount": { "type": "string" },
+        "currency": { "type": "string" },
+        "offered_by": { "type": "string" },
+        "url": { "type": "string", "format": "uri" }
+      }
+    },
+    "dates": {
+      "type": "object",
+      "properties": {
+        "first_stated": { "type": "integer" },
+        "first_published": { "type": "integer" }
+      }
+    },
+    "machine_generated": {
+      "type": "object",
+      "properties": {
+        "summary": { "type": "string" },
+        "decomposition": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "keywords": {
+          "type": "array",
+          "items": { "type": "string" }
+        },
+        "disclaimer": {
+          "type": "string",
+          "const": "unverified"
+        }
+      }
+    },
+    "provenance": {
+      "type": "object",
+      "properties": {
+        "created_from": { "type": "string" },
+        "parser_version": { "type": "string" },
+        "schema_version": { "type": "string" }
+      }
+    }
+  },
+  "additionalProperties": false
+}

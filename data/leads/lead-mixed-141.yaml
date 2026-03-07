@@ -1,0 +1,11 @@
+title: "Furstenberg-Bergelson-Leibman Conjecture"
+statement: "Does every set of positive upper density contain polynomial progressions of arbitrary length, extending the polynomial Szemeredi theorem to all configurations?"
+source_id: "src_peluse_2022"
+source_url: "https://arxiv.org/abs/2203.07269"
+domain_hint: "mathematics"
+subdomain_hint: "additive-combinatorics"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

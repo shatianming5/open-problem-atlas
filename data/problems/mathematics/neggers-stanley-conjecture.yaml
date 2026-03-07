@@ -1,0 +1,115 @@
+id: opa.mathematics.order-theory.neggers-stanley-conjecture
+kind: problem
+title: "Neggers-Stanley Conjecture"
+aliases:
+  - "Poset Conjecture"
+  - "Stanley's Conjecture on Order Polynomials"
+
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - order-theory
+  - enumerative-combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a finite poset P, the order polynomial Omega(P, t) (counting the number of
+    order-preserving maps from P to {1, 2, ..., t}) has only real zeros when expressed
+    in the basis of binomial coefficients. Equivalently, the W-polynomial (a transformation
+    of the order polynomial) has only real roots. The original Neggers conjecture (for
+    naturally labeled posets) was disproved; the modified version due to Stanley remains open.
+  informal: >
+    A polynomial that counts the number of ways to assign values from {1,...,t} to elements
+    of a partially ordered set in an order-respecting way should, after a suitable transformation,
+    have only real roots.
+
+why_it_matters: >
+  The Neggers-Stanley conjecture connects enumerative combinatorics with the theory of real-rooted
+  polynomials. Real-rootedness implies log-concavity and unimodality, which are central topics
+  in algebraic combinatorics. The conjecture stimulates research on P-partitions, Ehrhart theory,
+  and symmetric function theory.
+
+prerequisites:
+  - order theory
+  - enumerative combinatorics
+  - polynomial theory
+  - symmetric functions
+
+dates:
+  first_stated: 1978
+
+sources:
+  canonical:
+    - source_id: src_stanley_1986
+      kind: paper
+      title: "Two poset polytopes"
+      authors:
+        - "Richard P. Stanley"
+      year: 1986
+      url: "https://doi.org/10.1016/0012-365X(86)90093-3"
+  status_evidence:
+    - source_id: src_branden_2004
+      kind: paper
+      title: "Counterexamples to the Neggers-Stanley conjecture"
+      authors:
+        - "Petter Branden"
+      url: "https://doi.org/10.1016/S0195-6698(03)00154-1"
+      year: 2004
+
+partial_results:
+  - summary: "Branden disproved the original Neggers conjecture for naturally labeled posets."
+    year: 2004
+  - summary: "Stembridge verified Stanley's modified version computationally for posets of small size."
+    year: 2007
+  - summary: "Proved for graded posets and for width-2 posets."
+    year: 2006
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.55
+  toolability: 0.65
+  formality: 0.80
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Neggers-Stanley conjecture concerns real-rootedness of W-polynomials of posets.
+    The original version is disproved; Stanley's modified formulation remains open.
+  decomposition:
+    - "Techniques from total positivity and stable polynomials"
+    - "P-partition theory and Ehrhart-theoretic approaches"
+    - "Computational verification for larger poset families"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

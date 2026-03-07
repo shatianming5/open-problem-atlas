@@ -1,0 +1,115 @@
+id: opa.tcs.algorithms.streaming-frequency-moments
+kind: problem
+title: "Streaming Lower Bounds for Frequency Moments"
+aliases:
+  - "Optimal streaming for F_k"
+  - "Frequency moment estimation in streams"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    In the streaming model, a sequence of items from a universe of size m arrives one
+    at a time. The k-th frequency moment F_k = sum_i (f_i)^k where f_i is the frequency
+    of item i. For k > 2, what is the exact space complexity of (1+epsilon)-approximating
+    F_k in a single pass? Are the known upper and lower bounds tight?
+  informal: >
+    How much memory is needed to approximately compute statistical properties (frequency
+    moments) of a data stream in one pass? For higher moments (k>2), the exact answer
+    is still not fully understood.
+
+why_it_matters: >
+  Streaming algorithms are fundamental for processing massive data sets. Frequency
+  moment estimation is the canonical problem in streaming, and determining its
+  exact space complexity would complete our understanding of the streaming model's
+  power and limitations.
+
+prerequisites:
+  - streaming algorithms
+  - frequency moments
+  - communication complexity
+  - sketching
+
+dates:
+  first_stated: 1999
+
+sources:
+  canonical:
+    - source_id: src_alon_matias_szegedy_1999
+      kind: paper
+      title: "The Space Complexity of Approximating the Frequency Moments"
+      authors:
+        - "Noga Alon"
+        - "Yossi Matias"
+        - "Mario Szegedy"
+      url: "https://doi.org/10.1006/jcss.1997.1545"
+      year: 1999
+  status_evidence:
+    - source_id: src_braverman_ostrovsky_2013
+      kind: paper
+      title: "Zero-One Frequency Laws"
+      authors:
+        - "Vladimir Braverman"
+        - "Rafail Ostrovsky"
+      url: "https://doi.org/10.1145/2488608.2488657"
+      year: 2013
+
+partial_results:
+  - summary: "Alon, Matias, and Szegedy (1999) initiated the study and gave polynomial space algorithms for all frequency moments."
+    year: 1999
+  - summary: "Indyk and Woodruff (2005) proved Omega(m^(1-2/k)) space lower bounds for F_k estimation for k > 2."
+    year: 2005
+  - summary: "The gap between upper and lower bounds for general k and epsilon has been narrowed but not closed."
+    year: 2013
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.algorithms.sublinear-edit-distance"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Determining the exact space complexity of streaming frequency moment estimation
+    for k > 2 remains open despite decades of progress.
+  decomposition:
+    - "Close the gap between upper and lower bounds for F_k estimation space complexity"
+    - "Develop tighter communication complexity lower bounds for streaming problems"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

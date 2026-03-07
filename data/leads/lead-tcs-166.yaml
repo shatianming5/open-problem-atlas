@@ -1,0 +1,11 @@
+title: "Optimal Ham-Sandwich Cuts in High Dimensions"
+statement: "Can ham-sandwich cuts in R^d be found in polynomial time for arbitrary d? Known algorithms are exponential in d."
+source_id: "src_lo_matousek_steiger_1994"
+source_url: "https://doi.org/10.1007/BF02574008"
+domain_hint: "theoretical-cs"
+subdomain_hint: "computational-geometry"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

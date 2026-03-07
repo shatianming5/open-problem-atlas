@@ -1,0 +1,11 @@
+title: "Optimal Dynamic Connectivity"
+statement: "What is the optimal time per operation for dynamic graph connectivity? The best known is O(log^2(n)/log log n) by Holm et al."
+source_id: "src_holm_de_lichtenberg_thorup_2001"
+source_url: "https://doi.org/10.1145/502090.502095"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

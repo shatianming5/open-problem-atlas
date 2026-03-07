@@ -1,0 +1,11 @@
+title: "Uniqueness of Leray-Hopf Solutions for Navier-Stokes"
+statement: "Are Leray-Hopf weak solutions of the 3D Navier-Stokes equations unique? Non-uniqueness has been shown for weaker solution classes."
+source_id: "src_leray_1934"
+source_url: "https://arxiv.org/abs/1709.10033"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

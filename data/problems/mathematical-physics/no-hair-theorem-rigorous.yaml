@@ -1,0 +1,117 @@
+id: opa.phys.general-relativity.no-hair-theorem-rigorous
+kind: problem
+title: "No-Hair Theorem (Rigorous General Proof)"
+aliases:
+  - "Black Hole Uniqueness Theorem"
+  - "No-Hair Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - general-relativity
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove the no-hair conjecture in full generality: every stationary, asymptotically
+    flat, vacuum black hole solution of the Einstein equations in 3+1 dimensions is
+    uniquely characterized by its mass M, angular momentum J, and electric charge Q,
+    and is therefore a member of the Kerr-Newman family. Remove the remaining technical
+    assumptions (analyticity of the event horizon, non-degeneracy conditions) from
+    existing uniqueness theorems. Extend to include relevant matter fields and higher
+    dimensions.
+  informal: >
+    Black holes are believed to be completely characterized by just three numbers:
+    mass, spin, and charge. While this has been proven under strong technical
+    assumptions, a fully rigorous proof remains elusive.
+
+why_it_matters: >
+  The no-hair theorem is fundamental to black hole physics and the information
+  paradox. A complete proof would settle whether classical black holes can carry
+  any additional information, with implications for quantum gravity.
+
+prerequisites:
+  - general relativity
+  - differential geometry
+  - PDE theory
+  - geometric analysis
+  - Lorentzian geometry
+
+dates:
+  first_stated: 1967
+
+sources:
+  canonical:
+    - source_id: src_israel_1967
+      kind: paper
+      title: "Event Horizons in Static Vacuum Space-Times"
+      url: "https://doi.org/10.1103/PhysRev.164.1776"
+      year: 1967
+      locator: "Physical Review 164, 1776"
+    - source_id: src_carter_1971
+      kind: paper
+      title: "Axisymmetric Black Hole Has Only Two Degrees of Freedom"
+      url: "https://doi.org/10.1103/PhysRevLett.26.331"
+      year: 1971
+      locator: "Physical Review Letters 26, 331"
+  status_evidence:
+    - source_id: src_chrusciel_2012
+      kind: survey
+      title: "Stationary Black Holes: Uniqueness and Beyond"
+      url: "https://doi.org/10.12942/lrr-2012-7"
+      year: 2012
+
+partial_results:
+  - summary: "Israel proved uniqueness of static vacuum black holes (Schwarzschild)."
+    year: 1967
+  - summary: "Carter and Robinson proved uniqueness of axisymmetric vacuum black holes (Kerr) assuming analyticity."
+    year: 1975
+  - summary: "Ionescu and Klainerman removed the analyticity assumption for perturbations of Kerr."
+    year: 2009
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.general-relativity.stability-of-kerr-solution"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.40
+  toolability: 0.25
+  formality: 0.65
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the no-hair conjecture for black holes without technical assumptions like analyticity.
+  decomposition:
+    - "Remove the analyticity assumption from black hole uniqueness theorems"
+    - "Extend uniqueness to include matter fields and higher dimensions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

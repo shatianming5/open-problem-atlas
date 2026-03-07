@@ -1,0 +1,11 @@
+title: "Polynomial Identity Testing Derandomization"
+statement: "Can polynomial identity testing be derandomized in polynomial time, providing a hitting set generator for arithmetic circuits?"
+source_id: "src_agrawal_2021"
+source_url: "https://arxiv.org/abs/2107.12386"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algebraic-complexity"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

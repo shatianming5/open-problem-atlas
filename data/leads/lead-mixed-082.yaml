@@ -1,0 +1,11 @@
+title: "4-Coloring Conjecture for Planar Graphs"
+statement: "Can every planar graph be 4-colored such that no face has all vertices of the same color, known as the strong 4-coloring conjecture?"
+source_id: "src_thomassen_2020"
+source_url: "https://mathoverflow.net/questions/373108"
+domain_hint: "mathematics"
+subdomain_hint: "graph-theory"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

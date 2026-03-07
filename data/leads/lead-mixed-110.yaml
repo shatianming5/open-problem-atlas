@@ -1,0 +1,11 @@
+title: "Sachdev-Ye-Kitaev in Higher Dimensions"
+statement: "Can the exactly solvable features of the SYK model be extended to higher-dimensional models while preserving maximal chaos and holographic duality?"
+source_id: "src_kim_2023"
+source_url: "https://arxiv.org/abs/2303.02179"
+domain_hint: "mathematical-physics"
+subdomain_hint: "holography"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

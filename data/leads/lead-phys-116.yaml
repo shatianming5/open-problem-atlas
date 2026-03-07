@@ -1,0 +1,11 @@
+title: "Quantum Thermalization Timescales"
+statement: "What are the rigorous bounds on thermalization timescales for generic quantum many-body systems, and when can thermalization fail?"
+source_id: "src_gogolin_2016"
+source_url: "https://arxiv.org/abs/1503.07538"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

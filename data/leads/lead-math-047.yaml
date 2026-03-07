@@ -1,0 +1,11 @@
+title: "Erdos-Faber-Lovasz Conjecture"
+statement: "If n complete graphs each having exactly n vertices are combined such that any two share at most one vertex, then the chromatic number of the union is n."
+source_id: "src_erdos_1972"
+source_url: "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Faber%E2%80%93Lov%C3%A1sz_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

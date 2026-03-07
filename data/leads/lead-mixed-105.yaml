@@ -1,0 +1,11 @@
+title: "Superconformal Index and Black Hole Entropy"
+statement: "Does the superconformal index of N=4 SYM exactly reproduce the Bekenstein-Hawking entropy of dual AdS_5 black holes for all charges?"
+source_id: "src_choi_2023"
+source_url: "https://arxiv.org/abs/2304.05401"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

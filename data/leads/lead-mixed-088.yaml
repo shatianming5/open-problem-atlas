@@ -1,0 +1,11 @@
+title: "Derandomization of BPP"
+statement: "Does BPP = P? Can we unconditionally derandomize all efficient randomized algorithms, perhaps using hardness vs randomness tradeoffs?"
+source_id: "src_chen_2023b"
+source_url: "https://arxiv.org/abs/2304.01236"
+domain_hint: "theoretical-cs"
+subdomain_hint: "derandomization"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

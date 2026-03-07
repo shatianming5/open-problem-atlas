@@ -1,0 +1,11 @@
+title: "Renormalization Group Fixed Points Classification"
+statement: "Can all renormalization group fixed points in four dimensions be classified? Is there a finite number of UV-complete QFTs?"
+source_id: "src_rychkov_2017"
+source_url: "https://arxiv.org/abs/1601.05000"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

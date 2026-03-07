@@ -1,0 +1,117 @@
+id: opa.mathematics.number-theory.collatz-conjecture
+kind: problem
+title: "Collatz Conjecture"
+aliases:
+  - "3x+1 Problem"
+  - "Syracuse Problem"
+  - "Kakutani's Problem"
+  - "Ulam's Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - dynamical-systems
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Define the function T: N -> N by T(n) = n/2 if n is even, and T(n) = 3n+1 if n is odd.
+    The Collatz conjecture asserts that for every positive integer n, there exists a finite k
+    such that T^k(n) = 1, i.e., the orbit of every positive integer under T eventually reaches 1.
+  informal: >
+    Take any positive integer. If it is even, divide it by 2. If it is odd, multiply it by 3
+    and add 1. Repeat. The conjecture states that no matter what number you start with, you
+    will always eventually reach 1.
+
+why_it_matters: >
+  The Collatz conjecture is one of the simplest-to-state unsolved problems in mathematics.
+  It connects number theory with dynamical systems and ergodic theory. Despite its elementary
+  formulation, it resists all known proof techniques and has been called "an extraordinarily
+  difficult problem, completely out of reach of present day mathematics" by Paul Erdos.
+
+prerequisites:
+  - elementary number theory
+  - dynamical systems
+  - ergodic theory
+
+dates:
+  first_stated: 1937
+
+sources:
+  canonical:
+    - source_id: src_collatz_1937
+      kind: paper
+      title: "On the origin of the 3x+1 problem"
+      authors:
+        - "Lothar Collatz"
+      year: 1937
+    - source_id: src_lagarias_2010
+      kind: survey
+      title: "The Ultimate Challenge: The 3x+1 Problem"
+      authors:
+        - "Jeffrey C. Lagarias"
+      url: "https://bookstore.ams.org/mbk-78"
+      year: 2010
+  status_evidence:
+    - source_id: src_tao_2019
+      kind: paper
+      title: "Almost all orbits of the Collatz map attain almost bounded values"
+      url: "https://arxiv.org/abs/1909.03562"
+      year: 2019
+
+partial_results:
+  - summary: "Verified computationally for all integers up to 2^68 (approximately 2.95 x 10^20)."
+    year: 2020
+  - summary: "Terence Tao proved that almost all Collatz orbits attain almost bounded values, in a logarithmic density sense."
+    year: 2019
+  - summary: "Krasikov and Lagarias showed that the number of integers up to x that eventually reach 1 is at least x^0.84."
+    year: 2003
+
+relations:
+  related:
+    - opa.mathematics.dynamical-systems.furstenberg-x2-x3-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.70
+  formality: 0.90
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Collatz conjecture asserts that iterating the map n -> n/2 (even) or n -> 3n+1 (odd)
+    on any positive integer eventually reaches 1. Despite its elementary statement, it remains
+    one of the most resistant problems in mathematics.
+  decomposition:
+    - "Ergodic and measure-theoretic approaches to orbit density"
+    - "Algebraic and p-adic analytic extensions of the 3x+1 map"
+    - "Computational verification and probabilistic heuristic models"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Quantum Channel Capacity"
+statement: "Is the quantum capacity of a quantum channel additive? The non-additivity of Holevo capacity has been shown but many channel capacity questions remain open."
+source_id: "src_hastings_2009"
+source_url: "https://doi.org/10.1038/nphys1224"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

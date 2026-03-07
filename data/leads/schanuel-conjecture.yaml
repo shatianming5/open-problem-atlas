@@ -1,0 +1,11 @@
+title: "Schanuel's Conjecture"
+statement: "Given any n complex numbers z_1, ..., z_n that are linearly independent over the rational numbers, the field extension Q(z_1, ..., z_n, e^{z_1}, ..., e^{z_n}) has transcendence degree at least n over Q."
+source_id: "src_schanuel_1966"
+source_url: "https://en.wikipedia.org/wiki/Schanuel%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "transcendental-number-theory"
+confidence: 0.6
+extraction_method: "manual_seed"
+discovered_by: "seed"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

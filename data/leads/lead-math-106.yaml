@@ -1,0 +1,11 @@
+title: "Fuglede's Conjecture (Spectral Set Conjecture)"
+statement: "A bounded measurable set in R^n tiles R^n by translations if and only if L^2 of the set has an orthogonal basis of exponential functions."
+source_id: "src_fuglede_1974"
+source_url: "https://en.wikipedia.org/wiki/Fuglede%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

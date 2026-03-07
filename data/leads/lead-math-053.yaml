@@ -1,0 +1,11 @@
+title: "Alon-Tarsi Conjecture on Latin Squares"
+statement: "For even n, the number of even Latin squares of order n differs from the number of odd Latin squares."
+source_id: "src_alon_1992"
+source_url: "https://en.wikipedia.org/wiki/Alon%E2%80%93Tarsi_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

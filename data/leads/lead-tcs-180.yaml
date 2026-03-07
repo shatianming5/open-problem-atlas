@@ -1,0 +1,11 @@
+title: "Online Learning with Partial Information"
+statement: "What are the optimal regret bounds for the partial monitoring setting interpolating between full-information and bandit feedback?"
+source_id: "src_bartok_et_al_2014"
+source_url: "https://doi.org/10.1287/moor.2013.0616"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

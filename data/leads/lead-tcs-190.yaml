@@ -1,0 +1,11 @@
+title: "List-Decodable Learning"
+statement: "What is the optimal sample complexity for list-decodable mean estimation and regression?"
+source_id: "src_charikar_steinhardt_valiant_2017"
+source_url: "https://doi.org/10.1145/3055399.3055491"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

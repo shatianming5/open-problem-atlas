@@ -1,0 +1,11 @@
+title: "Non-Perturbative Definition of String Theory"
+statement: "Does a complete non-perturbative formulation of string theory (M-theory) exist beyond the matrix model and AdS/CFT descriptions?"
+source_id: "src_banks_1997"
+source_url: "https://arxiv.org/abs/hep-th/9610043"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

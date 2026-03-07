@@ -1,0 +1,11 @@
+title: "Distortion Problem for Hilbert Space"
+statement: "Does the Hilbert space l^2 admit an equivalent norm such that every infinite-dimensional subspace contains vectors that are distorted?"
+source_id: "src_milmanshchechtman_1986"
+source_url: "https://en.wikipedia.org/wiki/Distortion_problem"
+domain_hint: "mathematics"
+subdomain_hint: "functional-analysis"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

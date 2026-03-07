@@ -1,0 +1,11 @@
+title: "Optimal Online Paging with Predictions"
+statement: "What is the optimal competitive ratio for online paging when given machine-learned predictions of varying quality?"
+source_id: "src_lykouris_vassilvitskii_2021"
+source_url: "https://doi.org/10.1145/3450349"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

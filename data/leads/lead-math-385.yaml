@@ -1,0 +1,11 @@
+title: "Bieberbach Conjecture Generalizations"
+statement: "Extend coefficient bounds for univalent functions to multiply connected domains and higher dimensions."
+source_id: "src_debranges_1985"
+source_url: "https://en.wikipedia.org/wiki/De_Branges%27s_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "complex-analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

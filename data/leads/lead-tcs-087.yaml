@@ -1,0 +1,11 @@
+title: "Secretary Problem Generalizations"
+statement: "What is the optimal competitive ratio for the matroid secretary problem? The 1/e conjecture for general matroids remains open."
+source_id: "src_babaioff_immorlica_kleinberg_2007"
+source_url: "https://doi.org/10.1145/1283383.1283449"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

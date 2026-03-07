@@ -1,0 +1,28 @@
+collection_id: col_millennium-problems
+title: "Clay Millennium Prize Problems"
+description: >
+  The seven Millennium Prize Problems, each carrying a $1,000,000 prize,
+  selected by the Clay Mathematics Institute in 2000. These represent some of
+  the most important unsolved problems in mathematics. The Poincaré conjecture
+  was solved by Perelman (2003) and is not included in this atlas (it concerns
+  3-manifolds, not smooth 4-manifolds).
+curator: "OpenProblemAtlas"
+created_at: "2026-03-07"
+updated_at: "2026-03-07"
+tags:
+  - millennium
+  - prize
+  - famous
+  - high-impact
+featured: true
+problems:
+  - problem_id: opa.mathematics.number-theory.riemann-hypothesis
+    note: "Concerns the zeros of the Riemann zeta function"
+  - problem_id: opa.mathematics.analysis.navier-stokes-existence-and-smoothness
+    note: "Existence and smoothness of solutions to the Navier-Stokes equations"
+  - problem_id: opa.mathematics.number-theory.birch-swinnerton-dyer-conjecture
+    note: "Relates rank of elliptic curves to L-functions"
+  - problem_id: opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap
+    note: "Existence of Yang-Mills theory with mass gap"
+  - problem_id: opa.tcs.complexity-theory.p-vs-np
+    note: "Does P equal NP?"

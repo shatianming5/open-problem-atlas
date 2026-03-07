@@ -1,0 +1,121 @@
+id: opa.mathematics.geometry.lebesgue-universal-covering-problem
+kind: problem
+title: "Lebesgue's Universal Covering Problem"
+aliases:
+  - "Lebesgue's Universal Cover Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - geometry
+
+problem_type: computation
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    What is the convex region of smallest area in the plane that can contain
+    a congruent copy of every planar set of diameter one? Such a region is
+    called a universal covering or universal cover.
+  informal: >
+    Find the smallest convex shape that can cover (after suitable rotation
+    and translation) any shape whose widest extent is at most 1.
+
+why_it_matters: >
+  Lebesgue's universal covering problem, dating to 1914, is one of the
+  oldest open problems in geometry. Despite its elementary statement,
+  determining the exact minimum area has resisted all attempts. The best
+  bounds have been improved incrementally over more than a century, with
+  the current best upper bound around 0.8441 (Gibbs, 2018).
+
+prerequisites:
+  - convex geometry
+  - combinatorial geometry
+  - geometric optimization
+
+dates:
+  first_stated: 1914
+
+sources:
+  canonical:
+    - source_id: src_lebesgue_1914
+      kind: paper
+      title: "Sur quelques questions de minimum, relatives aux courbes orbiformes, et sur leurs rapports avec le calcul des variations"
+      authors:
+        - "Henri Lebesgue"
+      year: 1914
+    - source_id: src_pal_1920
+      kind: paper
+      title: "Über ein elementares Variationsproblem"
+      authors:
+        - "Julius Pál"
+      year: 1920
+  status_evidence:
+    - source_id: src_brass_moser_pach_2005
+      kind: textbook
+      title: "Research Problems in Discrete Geometry"
+      authors:
+        - "Peter Brass"
+        - "William Moser"
+        - "János Pach"
+      year: 2005
+
+partial_results:
+  - summary: "Pál showed that the minimum universal cover has area at most that of a regular hexagon circumscribed about a unit circle, approximately 0.8660."
+    year: 1920
+  - summary: "Sprague improved the bound by cutting corners off Pál's hexagon."
+    year: 1936
+  - summary: "Hansen improved the upper bound to approximately 0.8441153."
+    year: 1992
+  - summary: "Gibbs reported a further small improvement on Hansen's bound."
+    year: 2018
+  - summary: "The lower bound of π/8 + √3/4 ≈ 0.8257 has been known since Pál."
+    year: 1920
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.50
+  toolability: 0.60
+  formality: 0.75
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Lebesgue's universal covering problem asks for the convex set of smallest
+    area that contains a congruent copy of every planar set of diameter one.
+    The optimal area is known to lie between approximately 0.8257 and 0.8441.
+  decomposition:
+    - "Improving upper bounds via corner-cutting techniques"
+    - "Computational search for optimal coverings"
+    - "Strengthening the lower bound via packing arguments"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,131 @@
+id: opa.mathematics.logic-and-foundations.new-foundations-consistency
+kind: problem
+title: "Consistency of Quine's New Foundations"
+aliases:
+  - "NF Consistency Problem"
+  - "Consistency of NF"
+
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - logic-and-foundations
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Is Quine's set theory NF (New Foundations) consistent relative to
+    standard set-theoretic axioms? NF is the set theory with a universal
+    set, stratified comprehension, and extensionality. The question is
+    whether NF is consistent relative to ZFC or to some natural extension
+    of ZFC. Holmes (2012+) has claimed a proof of consistency of NF, which
+    is being formalized in Lean, but the proof has not yet been fully
+    verified and published in a peer-reviewed journal.
+  informal: >
+    Quine proposed an alternative set theory in 1937 that allows a universal
+    set (the set of all sets). Despite decades of study, nobody has been
+    able to prove whether this theory is consistent. A claimed proof exists
+    but has not been fully verified.
+
+why_it_matters: >
+  NF is one of the oldest alternative set theories, proposed by Quine in
+  1937. Despite nearly 90 years of study, its consistency relative to
+  standard axioms remains unclear. The problem is intimately connected to
+  the foundations of mathematics, the nature of stratification, and
+  questions about the cumulative hierarchy vs. universal set approaches
+  to set theory. A formalized proof would be a landmark in the foundations
+  of mathematics.
+
+prerequisites:
+  - mathematical logic
+  - set theory
+  - model theory
+  - type theory
+
+dates:
+  first_stated: 1937
+
+sources:
+  canonical:
+    - source_id: src_quine_1937
+      kind: paper
+      title: "New Foundations for Mathematical Logic"
+      authors:
+        - "Willard Van Orman Quine"
+      year: 1937
+      url: "https://doi.org/10.2307/2300564"
+    - source_id: src_holmes_2012
+      kind: paper
+      title: "The consistency of NF"
+      authors:
+        - "M. Randall Holmes"
+      year: 2012
+      url: "https://arxiv.org/abs/1503.01406"
+  status_evidence:
+    - source_id: src_forster_1995
+      kind: textbook
+      title: "Set Theory with a Universal Set: Exploring an Untyped Universe"
+      authors:
+        - "Thomas Forster"
+      year: 1995
+      url: "https://doi.org/10.1093/oso/9780198514770.001.0001"
+
+partial_results:
+  - summary: "Specker proved that NF disproves the axiom of choice for sets (Choice holds for Cantorian sets)."
+    year: 1953
+  - summary: "Jensen proved that NFU (NF with urelements, weakening extensionality) is consistent relative to PA."
+    year: 1969
+  - summary: "Holmes claimed a proof of the consistency of NF; the proof is being formalized in Lean."
+    year: 2012
+  - summary: "The Lean formalization project is ongoing; the proof has not yet been fully peer-reviewed."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems:
+    - lean
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - coq
+
+machine_generated:
+  summary: >
+    The consistency of Quine's NF set theory relative to standard axioms
+    has been open since 1937. Holmes claims a proof that is being formalized
+    in Lean, but it has not yet been fully verified.
+  decomposition:
+    - "Tangled type theory and its relationship to NF"
+    - "Lean formalization of Holmes's claimed proof"
+    - "Model-theoretic approaches via automorphisms of set models"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

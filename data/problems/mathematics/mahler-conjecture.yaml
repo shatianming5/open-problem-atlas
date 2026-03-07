@@ -1,0 +1,114 @@
+id: opa.mathematics.convex-geometry.mahler-conjecture
+kind: problem
+title: "Mahler Conjecture"
+aliases:
+  - "Mahler Volume Product Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - convex-geometry
+  - functional-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every centrally symmetric convex body K in R^n, the volume product
+    Vol(K) * Vol(K^o) >= 4^n / n!, where K^o is the polar body of K. Equality is conjectured
+    to hold if and only if K is a hypercube (or its affine image). In the non-symmetric case,
+    the conjectured minimum is (n+1)^{n+1} / (n!)^2, achieved by the simplex.
+  informal: >
+    Among all centrally symmetric convex bodies, the hypercube (and its dual, the cross-polytope)
+    should minimize the product of the volume of the body and the volume of its polar dual.
+
+why_it_matters: >
+  Mahler's conjecture (1939) is a central open problem in convex geometry and geometric
+  functional analysis. The reverse direction (the Blaschke-Santalo inequality, maximizing
+  the volume product) is long established. The conjecture has connections to number theory,
+  symplectic geometry, and information theory.
+
+prerequisites:
+  - convex geometry
+  - polar duality
+  - volume inequalities
+  - functional analysis
+
+dates:
+  first_stated: 1939
+
+sources:
+  canonical:
+    - source_id: src_mahler_1939
+      kind: paper
+      title: "Ein Ubertragungsprinzip fur konvexe Korper"
+      authors:
+        - "Kurt Mahler"
+      year: 1939
+  status_evidence:
+    - source_id: src_tao_2007_mahler
+      kind: paper
+      title: "Open question: the Mahler conjecture on convex bodies"
+      authors:
+        - "Terence Tao"
+      url: "https://terrytao.wordpress.com/2007/03/08/open-problem-the-mahler-conjecture-on-convex-bodies/"
+      year: 2007
+
+partial_results:
+  - summary: "Proved in dimension 2 by Mahler himself (1939)."
+    year: 1939
+  - summary: "Bourgain and Milman proved a lower bound c^n / n! for some universal constant c > 0."
+    year: 1987
+  - summary: "Kuperberg improved the constant to pi/4 in the exponent for symmetric bodies."
+    year: 2008
+  - summary: "Proved in dimension 3 by Iriyeh and Shibata (2020)."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.convex-geometry.log-brunn-minkowski-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Mahler's conjecture predicts the minimum volume product among centrally symmetric convex bodies
+    is achieved by the hypercube. Proved in dimensions 2 and 3, open in general.
+  decomposition:
+    - "Functional-analytic and isoperimetric methods"
+    - "Symplectic geometry approaches (Viterbo's conjecture)"
+    - "Computational verification in low dimensions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

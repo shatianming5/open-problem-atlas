@@ -1,0 +1,108 @@
+id: opa.phys.quantum-information.quantum-communication-complexity-separations
+kind: problem
+title: "Quantum Communication Complexity Exact Separations"
+aliases:
+  - "Quantum vs Classical Communication Complexity"
+  - "Exponential Quantum Communication Advantage"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the exact relationship between quantum and classical communication
+    complexity for total Boolean functions. Specifically, prove or disprove that
+    there exists a total Boolean function f:{0,1}^n x {0,1}^n -> {0,1} such that
+    the quantum communication complexity Q(f) is exponentially smaller than the
+    classical (randomized) communication complexity R(f). Determine whether the
+    log-rank conjecture holds for quantum communication.
+  informal: >
+    Can quantum communication be exponentially more efficient than classical
+    communication for computing functions where both Alice and Bob have inputs?
+    For partial functions this is known, but for total functions the largest known
+    separation is only polynomial.
+
+why_it_matters: >
+  Communication complexity is a foundational model in theoretical computer science.
+  Understanding quantum advantages here has implications for quantum algorithms,
+  circuit complexity, and the power of quantum computing.
+
+prerequisites:
+  - quantum information theory
+  - communication complexity
+  - computational complexity
+  - Boolean function analysis
+
+dates:
+  first_stated: 1999
+
+sources:
+  canonical:
+    - source_id: src_buhrman_2001
+      kind: paper
+      title: "Quantum Communication Complexity"
+      url: "https://doi.org/10.1109/SFCS.2001.959942"
+      year: 2001
+      locator: "FOCS 2001"
+  status_evidence:
+    - source_id: src_buhrman_survey_2010
+      kind: survey
+      title: "Nonlocality and communication complexity"
+      url: "https://doi.org/10.1103/RevModPhys.82.665"
+      year: 2010
+
+partial_results:
+  - summary: "Raz showed exponential separation for a promise (partial) problem using quantum communication."
+    year: 1999
+  - summary: "The best known separation for total functions remains quadratic (e.g., via the Aaronson-Ambainis conjecture framework)."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.50
+  toolability: 0.40
+  formality: 0.75
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Determining the exact separation between quantum and classical communication complexity for total Boolean functions.
+  decomposition:
+    - "Find total functions with superpolynomial quantum-classical separation"
+    - "Resolve the log-rank conjecture for quantum communication"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

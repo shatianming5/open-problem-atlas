@@ -1,0 +1,120 @@
+id: opa.mathematics.probability.keating-snaith-conjecture
+kind: problem
+title: "Keating-Snaith Conjecture"
+aliases:
+  - "Moments of the Riemann Zeta Function Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - probability
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For each positive real k, the 2k-th moment of the Riemann zeta function on the critical
+    line satisfies (1/T) integral_0^T |zeta(1/2 + it)|^{2k} dt ~ c_k (log T)^{k^2} as
+    T -> infinity, where c_k is an explicit constant predicted by random matrix theory
+    involving Barnes' G-function: c_k = g_k * a_k, with g_k from the CUE ensemble and a_k
+    an arithmetic factor involving primes.
+  informal: >
+    The moments of the Riemann zeta function along the critical line grow like specific
+    powers of log T, with precise constants predicted by modeling the zeta function as a
+    random unitary matrix.
+
+why_it_matters: >
+  The Keating-Snaith conjecture (2000) provides a stunning bridge between number theory and
+  random matrix theory. Confirming it would validate the deep analogy between the zeta function
+  and random matrices. Only the cases k = 1 (Hardy-Littlewood) and k = 2 (Ingham) are proved.
+  The conjecture has applications to the distribution of primes and L-functions.
+
+prerequisites:
+  - analytic number theory
+  - random matrix theory
+  - probability theory
+  - complex analysis
+
+dates:
+  first_stated: 2000
+
+sources:
+  canonical:
+    - source_id: src_keating_snaith_2000
+      kind: paper
+      title: "Random matrix theory and zeta(1/2+it)"
+      authors:
+        - "Jonathan P. Keating"
+        - "Nina C. Snaith"
+      year: 2000
+      url: "https://doi.org/10.1007/s002200000261"
+  status_evidence:
+    - source_id: src_cfkrs_2005
+      kind: paper
+      title: "Integral moments of L-functions"
+      authors:
+        - "Brian Conrey"
+        - "David W. Farmer"
+        - "Jonathan P. Keating"
+        - "Michael O. Rubinstein"
+        - "Nina C. Snaith"
+      url: "https://doi.org/10.1112/plms/pdl004"
+      year: 2005
+
+partial_results:
+  - summary: "Proved for k = 1 (Hardy-Littlewood, 1918) and k = 2 (Ingham, 1926)."
+    year: 1926
+  - summary: "Lower bounds of the correct order for all k >= 0 by Radziwiłł and Soundararajan."
+    year: 2015
+  - summary: "Harper proved sharp upper bounds for all k > 0, matching the conjecture up to constants."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.number-theory.riemann-hypothesis"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.35
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Keating-Snaith conjecture predicts exact asymptotics for moments of the Riemann zeta
+    function using random matrix theory. Proved for k=1,2; open for k>=3.
+  decomposition:
+    - "Random matrix theory and CUE moment calculations"
+    - "Multiple Dirichlet series and shifted convolution sums"
+    - "Probabilistic models for the zeta function"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

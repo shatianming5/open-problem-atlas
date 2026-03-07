@@ -1,0 +1,11 @@
+title: "Normality of Pi"
+statement: "Is pi normal in base 10, meaning every finite digit string appears with equal limiting frequency? No irrational algebraic or natural constant has been proved normal."
+source_id: "src_bailey_2020"
+source_url: "https://mathoverflow.net/questions/51853"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.35
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

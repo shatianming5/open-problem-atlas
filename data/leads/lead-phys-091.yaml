@@ -1,0 +1,11 @@
+title: "Rigorous Derivation of Fourier's Law"
+statement: "Derive Fourier's law of heat conduction rigorously from microscopic Hamiltonian dynamics for a realistic model system."
+source_id: "src_bonetto_2000"
+source_url: "https://arxiv.org/abs/math-ph/0002052"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

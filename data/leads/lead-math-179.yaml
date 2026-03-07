@@ -1,0 +1,11 @@
+title: "Hilbert's 16th Problem (Second Part)"
+statement: "Find the maximum number of limit cycles H(n) of a polynomial vector field of degree n in the plane."
+source_id: "src_hilbert_1900"
+source_url: "https://en.wikipedia.org/wiki/Hilbert%27s_sixteenth_problem"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

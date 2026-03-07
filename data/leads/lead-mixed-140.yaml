@@ -1,0 +1,11 @@
+title: "Polymath14: Homogeneous Sets in C4-Free Graphs"
+statement: "Can the Polymath14 bounds for Ramsey multiplicity of C4-free graphs be improved using the flag algebra method?"
+source_id: "src_polymath14_2021"
+source_url: "https://gowers.wordpress.com/2021/04/09/polymath14/"
+domain_hint: "mathematics"
+subdomain_hint: "ramsey-theory"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

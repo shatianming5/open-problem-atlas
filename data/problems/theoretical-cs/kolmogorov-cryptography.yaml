@@ -1,0 +1,116 @@
+id: opa.tcs.cryptography.kolmogorov-cryptography
+kind: problem
+title: "Kolmogorov Complexity and Cryptography"
+aliases:
+  - "One-way functions from Kolmogorov complexity"
+  - "Time-bounded Kolmogorov complexity and crypto"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - cryptography
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Time-bounded Kolmogorov complexity Kt(x) measures the minimum description length
+    of x among programs running in time t. Liu and Pass (2020) showed that the average-case
+    hardness of computing Kt implies one-way functions. Is the converse true? Does the
+    existence of one-way functions imply that Kt is hard on average? More broadly, what
+    is the precise relationship between Kolmogorov complexity and cryptographic hardness?
+  informal: >
+    Is the difficulty of compressing strings (computing Kolmogorov complexity) exactly
+    equivalent to the existence of cryptographic hardness? Can we fully characterize
+    cryptographic primitives through the lens of Kolmogorov complexity?
+
+why_it_matters: >
+  Establishing a tight equivalence between Kolmogorov complexity and one-way functions
+  would provide a beautiful unification of algorithmic information theory and
+  cryptography, giving a new characterization of the minimal assumption for cryptography.
+
+prerequisites:
+  - Kolmogorov complexity
+  - one-way functions
+  - average-case complexity
+  - time-bounded compression
+
+dates:
+  first_stated: 2020
+
+sources:
+  canonical:
+    - source_id: src_liu_pass_2020
+      kind: paper
+      title: "On One-way Functions and Kolmogorov Complexity"
+      authors:
+        - "Yanyi Liu"
+        - "Rafael Pass"
+      url: "https://doi.org/10.1109/FOCS46700.2020.00097"
+      year: 2020
+  status_evidence:
+    - source_id: src_liu_pass_2023
+      kind: paper
+      title: "One-Way Functions and the Hardness of (Probabilistic) Time-Bounded Kolmogorov Complexity"
+      authors:
+        - "Yanyi Liu"
+        - "Rafael Pass"
+      url: "https://doi.org/10.1007/978-3-031-38545-2_22"
+      year: 2023
+
+partial_results:
+  - summary: "Liu and Pass (2020) proved that average-case hardness of time-bounded Kolmogorov complexity implies one-way functions."
+    year: 2020
+  - summary: "Hirahara (2023) established connections between MCSP, Kolmogorov complexity, and derandomization."
+    year: 2023
+  - summary: "The full equivalence between OWFs and average-case hardness of Kt remains open."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.cryptography.existence-of-one-way-functions"
+    - "opa.tcs.complexity-theory.mcsp-complexity"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The relationship between Kolmogorov complexity and cryptographic hardness is
+    being actively explored, with recent breakthroughs connecting time-bounded
+    compression to one-way functions.
+  decomposition:
+    - "Prove the converse: OWFs imply average-case hardness of Kt"
+    - "Extend the connection to other cryptographic primitives beyond OWFs"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

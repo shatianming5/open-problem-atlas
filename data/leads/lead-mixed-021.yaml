@@ -1,0 +1,11 @@
+title: "Approximation Resistance of Predicate CSPs"
+statement: "Characterize exactly which predicates yield approximation-resistant constraint satisfaction problems under the Unique Games Conjecture."
+source_id: "src_austrin_2020"
+source_url: "https://arxiv.org/abs/0904.4441"
+domain_hint: "theoretical-cs"
+subdomain_hint: "hardness-of-approximation"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,127 @@
+id: opa.mathematics.algebraic-geometry.resolution-of-singularities-positive-characteristic
+kind: problem
+title: "Resolution of Singularities in Positive Characteristic"
+aliases:
+  - "Resolution of Singularities in Characteristic p"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebraic-geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Does every algebraic variety over a field of positive characteristic p
+    admit a resolution of singularities? That is, given an integral scheme
+    X of finite type over a field k with char(k) = p > 0, does there exist
+    a proper birational morphism Y → X with Y smooth?
+  informal: >
+    Every algebraic variety (solution set of polynomial equations) over a
+    field of characteristic zero can be "desingularized" — replaced by a
+    smooth variety that is birationally equivalent. Can the same always be
+    done when the characteristic of the field is a prime number?
+
+why_it_matters: >
+  Hironaka's celebrated 1964 proof of resolution of singularities in
+  characteristic zero is one of the landmarks of algebraic geometry. Extending
+  this to positive characteristic is one of the most important open problems
+  in the field. Resolution of singularities has deep applications to number
+  theory (via arithmetic geometry), the minimal model program, and the
+  classification of algebraic varieties.
+
+prerequisites:
+  - algebraic geometry
+  - commutative algebra
+  - birational geometry
+  - scheme theory
+
+dates:
+  first_stated: 1964
+
+sources:
+  canonical:
+    - source_id: src_hironaka_1964
+      kind: paper
+      title: "Resolution of Singularities of an Algebraic Variety over a Field of Characteristic Zero"
+      authors:
+        - "Heisuke Hironaka"
+      year: 1964
+      url: "https://doi.org/10.2307/1970486"
+    - source_id: src_hauser_2010
+      kind: paper
+      title: "On the problem of resolution of singularities in positive characteristic"
+      authors:
+        - "Herwig Hauser"
+      year: 2010
+      url: "https://doi.org/10.1007/s00574-010-0020-2"
+  status_evidence:
+    - source_id: src_cossart_piltant_2019
+      kind: paper
+      title: "Resolution of Singularities of Arithmetical Threefolds"
+      authors:
+        - "Vincent Cossart"
+        - "Olivier Piltant"
+      year: 2019
+      url: "https://doi.org/10.1016/j.jalgebra.2019.02.017"
+
+partial_results:
+  - summary: "Hironaka resolved singularities in characteristic zero in all dimensions."
+    year: 1964
+  - summary: "Abhyankar proved resolution for surfaces in all characteristics and for 3-folds in characteristic > 5."
+    year: 1966
+  - summary: "Cossart and Piltant proved resolution for 3-folds in all characteristics."
+    year: 2009
+  - summary: "The problem remains open for varieties of dimension ≥ 4 in characteristic p > 0."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.30
+  formality: 0.90
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - sage
+    - macaulay2
+    - lean
+
+machine_generated:
+  summary: >
+    The problem asks whether every algebraic variety over a field of positive
+    characteristic admits a resolution of singularities. Known in dimension
+    up to 3, but open for dimension >= 4.
+  decomposition:
+    - "Extending Hironaka's inductive approach to positive characteristic"
+    - "Local uniformization and valuation-theoretic methods"
+    - "Connections to the minimal model program in mixed characteristic"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

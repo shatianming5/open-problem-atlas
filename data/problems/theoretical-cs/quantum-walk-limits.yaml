@@ -1,0 +1,117 @@
+id: opa.tcs.quantum-computing.quantum-walk-limits
+kind: problem
+title: "Quantum Walk Algorithms Limits"
+aliases:
+  - "Quantum walk speedup bounds"
+  - "Limits of quantum walk framework"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    Quantum walks provide a framework for quantum algorithms that has yielded speedups
+    for search, element distinctness, and graph problems. What are the fundamental
+    limits of quantum walk algorithms? For which problems can quantum walks provide
+    superpolynomial speedups over classical algorithms, and for which are the
+    speedups at most polynomial?
+  informal: >
+    Quantum walks (the quantum analogue of random walks) give speedups for many
+    problems. But how far can this approach go? Are there natural problems where
+    quantum walks give exponential speedups, or are polynomial speedups the limit?
+
+why_it_matters: >
+  Quantum walks are one of the main paradigms for designing quantum algorithms.
+  Understanding their fundamental limits would guide quantum algorithm design and
+  clarify which problems can benefit from quantum computation.
+
+prerequisites:
+  - quantum walks
+  - random walks
+  - quantum search
+  - element distinctness
+
+dates:
+  first_stated: 2003
+
+sources:
+  canonical:
+    - source_id: src_ambainis_2007
+      kind: paper
+      title: "Quantum Walk Algorithm for Element Distinctness"
+      authors:
+        - "Andris Ambainis"
+      url: "https://doi.org/10.1137/S0097539705447311"
+      year: 2007
+  status_evidence:
+    - source_id: src_magniez_nayak_roland_santha_2011
+      kind: paper
+      title: "Search via Quantum Walk"
+      authors:
+        - "Frédéric Magniez"
+        - "Ashwin Nayak"
+        - "Jérémie Roland"
+        - "Miklos Santha"
+      url: "https://doi.org/10.1137/090745854"
+      year: 2011
+
+partial_results:
+  - summary: "Ambainis (2007) used quantum walks to solve element distinctness in O(n^(2/3)) queries, a polynomial speedup over classical O(n)."
+    year: 2007
+  - summary: "Quantum walks on Johnson graphs give speedups for various property testing problems."
+    year: 2011
+  - summary: "For general graph problems, superpolynomial quantum walk speedups are not known beyond oracle settings."
+    year: 2011
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.quantum-computing.quantum-speedup-np"
+    - "opa.tcs.quantum-computing.quantum-supremacy-formal"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.40
+  toolability: 0.35
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - qiskit
+
+machine_generated:
+  summary: >
+    Understanding the fundamental limits of quantum walk algorithms, including whether
+    they can achieve superpolynomial speedups for natural problems, remains open.
+  decomposition:
+    - "Prove limitations on quantum walk speedups for specific problem classes"
+    - "Identify new problems admitting quantum walk speedups"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

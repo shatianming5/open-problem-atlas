@@ -1,0 +1,11 @@
+title: "Pseudogap Phase in Cuprates"
+statement: "What is the nature of the pseudogap phase in underdoped cuprates? Is it a distinct phase of matter with its own order parameter?"
+source_id: "src_proust_2019"
+source_url: "https://arxiv.org/abs/1801.09125"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

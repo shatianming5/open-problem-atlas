@@ -1,0 +1,123 @@
+id: opa.mathematics.set-theory.halpern-lauchli-partition-conjecture
+kind: problem
+title: "Halpern-Lauchli Theorem Extensions to Uncountable Cardinals"
+aliases:
+  - "Halpern-Lauchli at Uncountable Cardinals"
+  - "Strong Tree Partition Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - set-theory
+  - model-theory
+
+problem_type: open_question
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Halpern-Lauchli theorem states that for any finite number d of
+    perfect binary trees T_1, ..., T_d of height omega, and any finite
+    coloring of the level product Union_n (T_1(n) x ... x T_d(n)), there
+    exist strong subtrees S_i subset T_i of height omega such that the level
+    product of S_1, ..., S_d is monochromatic. The open problem asks: does
+    the analogous statement hold when omega is replaced by an uncountable
+    cardinal kappa? In particular, does it hold at kappa = omega_1?
+  informal: >
+    The Halpern-Lauchli theorem is a powerful Ramsey-type result about coloring
+    products of trees. It works beautifully for trees of countable height. The
+    open question is whether this deep combinatorial principle extends to trees
+    of uncountable height, which requires fundamentally new techniques or
+    potentially new axioms.
+
+why_it_matters: >
+  The Halpern-Lauchli theorem is a cornerstone of infinitary combinatorics
+  with applications to Banach space theory and Ramsey theory. Extending it to
+  uncountable cardinals is a central problem in set-theoretic combinatorics
+  that connects to large cardinal axioms and forcing. Understanding this
+  extension has implications for partition calculus and the structure of
+  uncountable trees.
+
+prerequisites:
+  - set theory
+  - infinitary combinatorics
+  - Ramsey theory
+  - forcing and large cardinals
+
+dates:
+  first_stated: 1966
+
+sources:
+  canonical:
+    - source_id: src_halpern_lauchli_1966
+      kind: paper
+      title: "A partition theorem"
+      authors:
+        - "James D. Halpern"
+        - "Hans Lauchli"
+      year: 1966
+      locator: "Transactions of the AMS, vol. 124, pp. 360-367"
+  status_evidence:
+    - source_id: src_dobrinen_2017
+      kind: paper
+      title: "Halpern-Lauchli theorem at a measurable cardinal"
+      authors:
+        - "Natasha Dobrinen"
+      year: 2017
+      locator: "Journal of Symbolic Logic, vol. 82, no. 4, pp. 1560-1575"
+
+partial_results:
+  - summary: "The original Halpern-Lauchli theorem was proved at omega by Halpern and Lauchli."
+    year: 1966
+  - summary: "Laver-Shelah showed consistency of the theorem at a weakly compact cardinal."
+    year: 1981
+  - summary: "Dobrinen proved versions of the Halpern-Lauchli theorem at a measurable cardinal."
+    year: 2017
+  - summary: "The case at omega_1 without large cardinal assumptions remains open."
+    year: 2020
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.50
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - isabelle
+
+machine_generated:
+  summary: >
+    The problem asks whether the Halpern-Lauchli partition theorem for products
+    of trees extends from countable height to uncountable cardinals. Results
+    exist at measurable and weakly compact cardinals, but the general case,
+    especially at omega_1, remains open.
+  decomposition:
+    - "Consistency strength of the uncountable Halpern-Lauchli theorem"
+    - "Relationship to large cardinal axioms"
+    - "Connections to Banach space geometry via trees"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

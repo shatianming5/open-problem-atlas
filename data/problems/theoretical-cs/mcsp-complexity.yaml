@@ -1,0 +1,117 @@
+id: opa.tcs.complexity-theory.mcsp-complexity
+kind: problem
+title: "Minimum Circuit Size Problem Complexity"
+aliases:
+  - "MCSP"
+  - "Is MCSP NP-complete?"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: classification_list
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Minimum Circuit Size Problem (MCSP) asks: given the truth table of a Boolean
+    function f and a parameter s, does there exist a Boolean circuit of size at most s
+    that computes f? Determine the exact computational complexity of MCSP. In particular,
+    is MCSP NP-complete?
+  informal: >
+    Given a complete description of a Boolean function and a size bound, can we
+    efficiently determine whether there exists a small circuit computing that function?
+    This problem is known to be in NP but its exact hardness is a mystery.
+
+why_it_matters: >
+  MCSP occupies a unique position in complexity theory. It is a natural NP problem whose
+  NP-completeness status is unknown, and it has deep connections to one-way functions,
+  natural proofs, learning theory, and Kolmogorov complexity. Resolving its complexity
+  could have far-reaching consequences for cryptography and circuit complexity.
+
+prerequisites:
+  - circuit complexity
+  - NP-completeness
+  - Kolmogorov complexity
+  - one-way functions
+
+dates:
+  first_stated: 2000
+
+sources:
+  canonical:
+    - source_id: src_kabanets_cai_2000
+      kind: paper
+      title: "Circuit Minimization Problem"
+      authors:
+        - "Valentine Kabanets"
+        - "Jin-Yi Cai"
+      url: "https://doi.org/10.1145/335305.335314"
+      year: 2000
+  status_evidence:
+    - source_id: src_allender_2017
+      kind: survey
+      title: "The Complexity of Complexity"
+      authors:
+        - "Eric Allender"
+      url: "https://doi.org/10.1007/978-3-319-50062-1_2"
+      year: 2017
+
+partial_results:
+  - summary: "Kabanets and Cai (2000) showed that MCSP is not NP-complete under standard (p-many-one) reductions unless EXP != ZPP."
+    year: 2000
+  - summary: "Allender and Das (2014) connected MCSP to Kolmogorov complexity and established hardness under randomized reductions."
+    year: 2014
+  - summary: "Hirahara (2018) showed connections between MCSP and the existence of one-way functions."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.natural-proofs-barrier"
+    - "opa.tcs.cryptography.existence-of-one-way-functions"
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.30
+  formality: 0.90
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    MCSP asks whether computing the minimum circuit size of a Boolean function
+    given its truth table is NP-complete. It has deep connections to cryptography,
+    learning theory, and fundamental complexity questions.
+  decomposition:
+    - "Determine whether MCSP is NP-complete under some notion of reduction"
+    - "Establish connections between MCSP hardness and the existence of one-way functions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,121 @@
+id: opa.mathematics.complex-analysis.fatou-conjecture
+kind: problem
+title: "Fatou Conjecture (Density of Hyperbolicity)"
+aliases:
+  - "Density of Hyperbolicity Conjecture"
+  - "Fatou's Conjecture on Quadratic Maps"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - complex-analysis
+  - dynamical-systems
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    In the space of rational maps of degree d >= 2 on the Riemann sphere,
+    the hyperbolic maps form a dense open subset. Equivalently, for the
+    quadratic family f_c(z) = z^2 + c, the set of parameters c in C for
+    which f_c is hyperbolic (every critical orbit converges to an attracting
+    cycle) is dense in the Mandelbrot set's complement, and hyperbolic
+    components are dense in the Mandelbrot set.
+  informal: >
+    Among all polynomial or rational maps that define dynamical systems on the
+    complex plane, the "well-behaved" (hyperbolic) ones should be the typical
+    case. The conjecture says that for almost any parameter value, the
+    corresponding dynamical system is structurally stable -- chaotic maps that
+    are not hyperbolic should be rare in a topological sense.
+
+why_it_matters: >
+  The Fatou conjecture, originating from Fatou's work in the 1920s, is one of
+  the most important open problems in complex dynamics. It implies that
+  structurally stable systems are generic, which would give a comprehensive
+  understanding of the parameter space of rational maps. It is closely related
+  to the MLC conjecture and has profound implications for our understanding of
+  the Mandelbrot set.
+
+prerequisites:
+  - complex analysis
+  - holomorphic dynamics
+  - hyperbolic dynamics
+  - Riemann surfaces
+
+dates:
+  first_stated: 1920
+
+sources:
+  canonical:
+    - source_id: src_fatou_1920
+      kind: paper
+      title: "Sur les equations fonctionnelles"
+      authors:
+        - "Pierre Fatou"
+      year: 1920
+      locator: "Bulletin de la Societe Mathematique de France, vol. 48, pp. 33-94"
+  status_evidence:
+    - source_id: src_mcmullen_1994
+      kind: textbook
+      title: "Complex Dynamics and Renormalization"
+      authors:
+        - "Curtis T. McMullen"
+      year: 1994
+      locator: "Annals of Mathematics Studies, no. 135, Princeton University Press"
+
+partial_results:
+  - summary: "Mane, Sad, and Sullivan proved the conjecture is equivalent to density of structural stability."
+    year: 1983
+  - summary: "Lyubich proved density of hyperbolicity for real quadratic maps."
+    year: 1997
+  - summary: "Graczyk and Swiatek independently proved density of hyperbolicity for real quadratic maps."
+    year: 1997
+  - summary: "Kozlovski, Shen, and van Strien proved density of hyperbolicity for real polynomials of any degree."
+    year: 2007
+
+relations:
+  related:
+    - opa.mathematics.complex-analysis.mlc-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.35
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    The Fatou conjecture asserts that hyperbolic rational maps are dense in the
+    space of all rational maps of a given degree. Proved for real polynomials,
+    the full complex case remains open.
+  decomposition:
+    - "Quasiconformal deformation techniques for rational maps"
+    - "Relationship to MLC and combinatorial rigidity"
+    - "Extension from real to complex parameter spaces"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

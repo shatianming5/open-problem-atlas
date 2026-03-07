@@ -1,0 +1,11 @@
+title: "Rota's Basis Conjecture"
+statement: "Given n bases of an n-dimensional vector space, can their elements always be arranged in an n x n grid so that each row is a basis and each column is a permutation of one original basis?"
+source_id: "src_geelen_2020"
+source_url: "https://arxiv.org/abs/2008.07538"
+domain_hint: "mathematics"
+subdomain_hint: "matroid-theory"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

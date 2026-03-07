@@ -1,0 +1,11 @@
+title: "Positive Mass Conjecture for Higher Dimensions"
+statement: "An asymptotically flat Riemannian manifold of dimension n >= 3 with nonnegative scalar curvature has nonneg ADM mass, with equality only for flat space."
+source_id: "src_schoen_1979"
+source_url: "https://en.wikipedia.org/wiki/Positive_energy_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "differential-geometry"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

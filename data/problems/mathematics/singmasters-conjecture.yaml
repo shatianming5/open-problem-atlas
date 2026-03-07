@@ -1,0 +1,113 @@
+id: opa.mathematics.combinatorics.singmasters-conjecture
+kind: problem
+title: "Singmaster's Conjecture"
+aliases:
+  - "Singmaster's Binomial Coefficient Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - combinatorics
+  - number-theory
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    There exists a finite upper bound N such that every integer greater than 1 appears at most
+    N times in Pascal's triangle. Equivalently, for each integer k > 1, the number of solutions
+    to the equation C(n, m) = k (with 0 < m < n) is bounded by a universal constant.
+    Singmaster conjectured N = 8, the multiplicity achieved by the number 3003.
+  informal: >
+    In Pascal's triangle, each number appears some number of times. The number 1 appears
+    infinitely often (it borders both sides), but every other number seems to appear only
+    finitely many times. The conjecture says there is a universal upper bound on how many
+    times any number greater than 1 can appear.
+
+why_it_matters: >
+  Singmaster's conjecture sits at the intersection of combinatorics and number theory. It
+  concerns the structure of Pascal's triangle, one of the most fundamental objects in
+  combinatorics. The conjecture relates to the Diophantine problem of when binomial
+  coefficients coincide, connecting to questions about factorials and divisibility.
+
+prerequisites:
+  - combinatorics
+  - Diophantine equations
+  - analytic number theory
+
+dates:
+  first_stated: 1971
+
+sources:
+  canonical:
+    - source_id: src_singmaster_1971
+      kind: paper
+      title: "How often does an integer occur as a binomial coefficient?"
+      authors:
+        - "David Singmaster"
+      year: 1971
+      locator: "American Mathematical Monthly, vol. 78, no. 4, pp. 385-386"
+  status_evidence:
+    - source_id: src_kane_2007
+      kind: paper
+      title: "Singmaster's conjecture revisited"
+      year: 2007
+
+partial_results:
+  - summary: "Singmaster showed that N(x), the maximum multiplicity of integers up to x in Pascal's triangle, satisfies N(x) = O(log x / (log log x)^2)."
+    year: 1971
+  - summary: "Abbott, Erdos, and Hanson improved the bound to N(x) = O(log x / log log x)."
+    year: 1974
+  - summary: "Kane proved the upper bound N(x) = O((log x)^{2/3 + epsilon})."
+    year: 2007
+  - summary: "The number 3003 = C(78,2) = C(15,5) = C(14,6) is known to appear 8 times; no number is known to appear more."
+    year: 1971
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.55
+  toolability: 0.70
+  formality: 0.80
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Singmaster's conjecture states that there is a universal upper bound on how many times
+    any integer greater than 1 can appear in Pascal's triangle. The conjectured bound is 8,
+    achieved by 3003.
+  decomposition:
+    - "Diophantine analysis of coincidences among binomial coefficients"
+    - "Improving analytic upper bounds on multiplicity functions"
+    - "Computational searches for high-multiplicity entries in Pascal's triangle"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

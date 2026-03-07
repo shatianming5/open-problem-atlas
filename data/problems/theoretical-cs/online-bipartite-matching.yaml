@@ -1,0 +1,115 @@
+id: opa.tcs.algorithms.online-bipartite-matching
+kind: problem
+title: "Online Bipartite Matching Optimal Competitive Ratio"
+aliases:
+  - "Online matching problem"
+  - "Karp-Vazirani-Vazirani conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    In the online bipartite matching problem, vertices on one side arrive online and
+    must be irrevocably matched to previously arrived vertices. Karp, Vazirani, and
+    Vazirani (1990) achieved a competitive ratio of 1 - 1/e for the unweighted case.
+    For the general weighted (edge-weighted) online bipartite matching problem, what
+    is the optimal competitive ratio? Can 1 - 1/e be achieved in the weighted setting?
+  informal: >
+    When items arrive one at a time and must be immediately and permanently assigned
+    to available slots, how close to optimal can we get without knowing the future?
+    The unweighted case is solved but the weighted version remains open.
+
+why_it_matters: >
+  Online matching is central to the theory of online algorithms and has direct
+  applications to ad auctions, resource allocation, and kidney exchange. Determining
+  the optimal competitive ratio for weighted variants would advance both theory and practice.
+
+prerequisites:
+  - online algorithms
+  - competitive analysis
+  - bipartite matching
+  - primal-dual method
+
+dates:
+  first_stated: 1990
+
+sources:
+  canonical:
+    - source_id: src_karp_vazirani_vazirani_1990
+      kind: paper
+      title: "An Optimal Algorithm for On-Line Bipartite Matching"
+      authors:
+        - "Richard M. Karp"
+        - "Umesh V. Vazirani"
+        - "Vijay V. Vazirani"
+      url: "https://doi.org/10.1145/100216.100262"
+      year: 1990
+  status_evidence:
+    - source_id: src_huang_zhang_2020
+      kind: paper
+      title: "Online Primal Dual Meets Online Matching with Stochastic Rewards"
+      authors:
+        - "Zhiyi Huang"
+        - "Yuhao Zhang"
+      url: "https://doi.org/10.1145/3357713.3384256"
+      year: 2020
+
+partial_results:
+  - summary: "Karp, Vazirani, and Vazirani (1990) proved a tight 1 - 1/e competitive ratio for unweighted online bipartite matching."
+    year: 1990
+  - summary: "For the fully online model where both sides arrive, the optimal ratio is still open with current best around 0.5541."
+    year: 2020
+  - summary: "Various stochastic and semi-online models have been studied with improved ratios."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.algorithms.secretary-problem-variants"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The online bipartite matching problem asks for the optimal competitive ratio
+    in weighted and general variants, extending the classical 1-1/e result.
+  decomposition:
+    - "Determine optimal competitive ratio for edge-weighted online matching"
+    - "Close the gap for fully online matching where both sides arrive online"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

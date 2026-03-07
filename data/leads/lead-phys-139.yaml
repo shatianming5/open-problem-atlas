@@ -1,0 +1,11 @@
+title: "Hawking Radiation Detection"
+statement: "Can analogue Hawking radiation in laboratory systems provide conclusive evidence for the Hawking effect, and what corrections arise beyond the leading order?"
+source_id: "src_unruh_1981"
+source_url: "https://doi.org/10.1103/PhysRevLett.46.1351"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

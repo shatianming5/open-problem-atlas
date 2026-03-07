@@ -1,0 +1,11 @@
+title: "Erdos-Hajnal Conjecture"
+statement: "For every undirected graph H, there exists a constant delta(H)>0 such that every H-free graph on n vertices contains a clique or independent set of size at least n^{delta(H)}."
+source_id: "src_erdos_1989"
+source_url: "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Hajnal_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

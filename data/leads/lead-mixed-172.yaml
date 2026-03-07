@@ -1,0 +1,11 @@
+title: "Exact Complexity of Maximum Matching"
+statement: "Can maximum bipartite matching be solved in O(m sqrt(n)) time in the worst case, or is there a conditional lower bound ruling this out?"
+source_id: "src_chen_2023c"
+source_url: "https://arxiv.org/abs/2301.02363"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

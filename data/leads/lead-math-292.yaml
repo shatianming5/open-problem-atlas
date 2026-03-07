@@ -1,0 +1,11 @@
+title: "Zilber's Conjecture on Strongly Minimal Sets"
+statement: "Every strongly minimal set is either trivial, a vector space, or an algebraically closed field."
+source_id: "src_zilber_1984"
+source_url: "https://en.wikipedia.org/wiki/Strongly_minimal_theory"
+domain_hint: "mathematics"
+subdomain_hint: "model-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Turbulence and Statistical Mechanics"
+statement: "Can a statistical mechanics framework provide a complete theory of fully developed turbulence, explaining Kolmogorov scaling and intermittency corrections?"
+source_id: "src_falkovich_2011"
+source_url: "https://arxiv.org/abs/0910.4452"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

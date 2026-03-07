@@ -1,0 +1,113 @@
+id: opa.mathematics.coding-theory.cerny-conjecture
+kind: problem
+title: "Cerny Conjecture"
+aliases:
+  - "Černý Conjecture"
+  - "Synchronizing Automata Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - coding-theory
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every synchronizing deterministic finite automaton on n states has a synchronizing (reset)
+    word of length at most (n-1)^2. A synchronizing word is a string that maps every state
+    to a single fixed state regardless of the starting state.
+  informal: >
+    If a machine with n states has the property that some input sequence forces it into a
+    single state no matter where it starts, then there exists such a sequence of length at
+    most (n-1)^2.
+
+why_it_matters: >
+  The Cerny conjecture (1964) is the most famous open problem in automata theory. The bound
+  (n-1)^2 would be tight (achieved by Cerny's automaton). Despite decades of effort, the best
+  upper bound is approximately O(n^3/6). The conjecture has applications in coding theory,
+  symbolic dynamics, and industrial systems (part orienters).
+
+prerequisites:
+  - automata theory
+  - combinatorics
+  - semigroup theory
+
+dates:
+  first_stated: 1964
+
+sources:
+  canonical:
+    - source_id: src_cerny_1964
+      kind: paper
+      title: "Poznamka k homogennym experimentom s konecnymi automatmi"
+      authors:
+        - "Jan Cerny"
+      year: 1964
+  status_evidence:
+    - source_id: src_volkov_2008
+      kind: paper
+      title: "Synchronizing Automata and the Černý Conjecture"
+      authors:
+        - "Mikhail V. Volkov"
+      url: "https://doi.org/10.1007/978-3-540-85780-8_2"
+      year: 2008
+
+partial_results:
+  - summary: "Pin proved the bound (n-1)^2 for automata with a letter acting as a cyclic permutation."
+    year: 1983
+  - summary: "Kari proved it for Eulerian automata."
+    year: 2003
+  - summary: "Szykula proved the best general upper bound of O(n^3/6 - n/6)."
+    year: 2018
+  - summary: "Steinberg proved it for aperiodic automata."
+    year: 2011
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.45
+  toolability: 0.70
+  formality: 0.85
+  ai_fit: 0.60
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Cerny conjecture bounds the length of the shortest synchronizing word for an n-state
+    automaton at (n-1)^2. Best general bound is cubic; proved for several special classes.
+  decomposition:
+    - "Algebraic semigroup theory approaches"
+    - "Extremal combinatorics on transformation monoids"
+    - "Computational verification and search for extremal automata"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

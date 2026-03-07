@@ -1,0 +1,11 @@
+title: "Information Engines and Landauer Limit"
+statement: "Can physical systems approach the Landauer limit of kT ln 2 per bit erased, and what are the fundamental speed-accuracy tradeoffs?"
+source_id: "src_berut_2012"
+source_url: "https://doi.org/10.1038/nature10872"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

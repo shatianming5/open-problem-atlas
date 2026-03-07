@@ -1,0 +1,11 @@
+title: "Artin's Conjecture on Primitive Roots"
+statement: "Every integer that is neither -1 nor a perfect square is a primitive root modulo infinitely many primes."
+source_id: "src_artin_1927"
+source_url: "https://en.wikipedia.org/wiki/Artin%27s_conjecture_on_primitive_roots"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

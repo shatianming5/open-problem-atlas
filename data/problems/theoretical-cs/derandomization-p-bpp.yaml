@@ -1,0 +1,117 @@
+id: opa.tcs.complexity-theory.derandomization-p-bpp
+kind: problem
+title: "Derandomization: Does P = BPP?"
+aliases:
+  - "P = BPP conjecture"
+  - "Complete derandomization"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    BPP is the class of languages decidable in polynomial time by a probabilistic
+    Turing machine with bounded error probability. Is P = BPP? That is, can every
+    randomized polynomial-time algorithm be derandomized to a deterministic
+    polynomial-time algorithm?
+  informal: >
+    Is randomness ever truly useful for efficient computation? Most experts believe
+    P = BPP, meaning that randomized algorithms can always be made deterministic
+    without significant slowdown, but a proof is lacking.
+
+why_it_matters: >
+  Proving P = BPP would show that randomness is not a fundamental computational
+  resource for efficient decision-making. This has profound implications for algorithm
+  design, cryptography, and our understanding of computational resources. The
+  Impagliazzo-Wigderson framework shows P = BPP follows from circuit lower bounds.
+
+prerequisites:
+  - pseudorandom generators
+  - circuit lower bounds
+  - hardness vs randomness
+  - BPP and probabilistic computation
+
+dates:
+  first_stated: 1980
+
+sources:
+  canonical:
+    - source_id: src_impagliazzo_wigderson_1997
+      kind: paper
+      title: "P = BPP if E requires exponential circuits: Derandomizing the XOR lemma"
+      authors:
+        - "Russell Impagliazzo"
+        - "Avi Wigderson"
+      url: "https://doi.org/10.1145/258533.258590"
+      year: 1997
+  status_evidence:
+    - source_id: src_goldreich_2011
+      kind: survey
+      title: "In a world of P = BPP"
+      authors:
+        - "Oded Goldreich"
+      url: "https://doi.org/10.1007/978-3-642-22670-0_12"
+      year: 2011
+
+partial_results:
+  - summary: "Impagliazzo and Wigderson (1997) proved P = BPP if E = DTIME(2^O(n)) requires exponential-size circuits."
+    year: 1997
+  - summary: "Nisan and Wigderson (1994) constructed pseudorandom generators from hard functions, establishing the hardness-randomness connection."
+    year: 1994
+  - summary: "Specific problems like primality testing (AKS 2004) have been derandomized, supporting the P = BPP conjecture."
+    year: 2004
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+    - "opa.tcs.complexity-theory.hardness-vs-randomness"
+    - "opa.tcs.complexity-theory.nisan-wigderson-hypothesis"
+    - "opa.tcs.complexity-theory.circuit-complexity-explicit-functions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.25
+  toolability: 0.25
+  formality: 0.90
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The P = BPP conjecture asks whether randomness can always be eliminated from
+    efficient algorithms, which is widely believed but unproven unconditionally.
+  decomposition:
+    - "Prove sufficiently strong circuit lower bounds to apply the Impagliazzo-Wigderson framework"
+    - "Develop unconditional derandomization techniques for restricted models"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

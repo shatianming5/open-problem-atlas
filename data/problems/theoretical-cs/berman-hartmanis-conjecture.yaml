@@ -1,0 +1,112 @@
+id: opa.tcs.complexity-theory.berman-hartmanis-conjecture
+kind: problem
+title: "Berman-Hartmanis Isomorphism Conjecture"
+aliases:
+  - "Isomorphism conjecture"
+  - "All NP-complete sets are p-isomorphic"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Berman-Hartmanis conjecture states that all NP-complete languages are
+    polynomial-time isomorphic to each other. That is, for any two NP-complete
+    languages A and B, there exists a polynomial-time computable bijection f
+    with a polynomial-time computable inverse such that x is in A iff f(x) is in B.
+  informal: >
+    Are all NP-complete problems essentially the same under efficient renaming?
+    Can we always find a bijective efficient translation between any two NP-complete
+    problems?
+
+why_it_matters: >
+  The isomorphism conjecture, if true, would show that all NP-complete problems share
+  a deep structural similarity beyond mere polynomial-time reducibility. Its resolution
+  is connected to the existence of one-way functions: Agrawal (2002) showed the
+  conjecture is false if and only if P != NP and one-way functions exist.
+
+prerequisites:
+  - NP-completeness
+  - polynomial-time reductions
+  - one-way functions
+  - structural complexity
+
+dates:
+  first_stated: 1977
+
+sources:
+  canonical:
+    - source_id: src_berman_hartmanis_1977
+      kind: paper
+      title: "On Isomorphisms and Density of NP and Other Complete Sets"
+      authors:
+        - "Leonard Berman"
+        - "Juris Hartmanis"
+      url: "https://doi.org/10.1137/0206023"
+      year: 1977
+  status_evidence:
+    - source_id: src_agrawal_2002
+      kind: paper
+      title: "Pseudo-random Generators and the Frequency of Simplicity"
+      authors:
+        - "Manindra Agrawal"
+      url: "https://doi.org/10.1007/3-540-45841-7_1"
+      year: 2002
+
+partial_results:
+  - summary: "Joseph and Young (1985) proved the conjecture holds for all known 'natural' NP-complete sets."
+    year: 1985
+  - summary: "Agrawal (2002) showed the conjecture fails iff P != NP and one-way functions exist, linking it to cryptography."
+    year: 2002
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+    - "opa.tcs.cryptography.existence-of-one-way-functions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.20
+  formality: 0.90
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Berman-Hartmanis conjecture posits that all NP-complete languages are
+    polynomial-time isomorphic, and its truth depends on the existence of one-way functions.
+  decomposition:
+    - "Resolve the connection between isomorphism conjecture and one-way functions"
+    - "Determine whether natural NP-complete problems exhibit additional structural properties"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

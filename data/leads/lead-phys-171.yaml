@@ -1,0 +1,11 @@
+title: "String Theory Landscape and the Swampland"
+statement: "Can the swampland conjectures be proven, delineating which effective field theories can be consistently coupled to quantum gravity?"
+source_id: "src_vafa_2005"
+source_url: "https://arxiv.org/abs/hep-th/0509212"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

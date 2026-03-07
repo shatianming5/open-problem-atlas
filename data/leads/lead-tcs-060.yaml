@@ -1,0 +1,11 @@
+title: "Optimal Online Bipartite Matching"
+statement: "What is the optimal competitive ratio for online bipartite matching? The RANKING algorithm achieves 1-1/e; is this tight?"
+source_id: "src_karp_vazirani_vazirani_1990"
+source_url: "https://doi.org/10.1145/100216.100262"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Phase Transitions in Networks"
+statement: "Can a comprehensive theory of phase transitions on complex networks predict critical behavior for arbitrary degree distributions and correlations?"
+source_id: "src_dorogovtsev_2008"
+source_url: "https://arxiv.org/abs/0705.0010"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

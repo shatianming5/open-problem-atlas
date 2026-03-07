@@ -1,0 +1,120 @@
+id: opa.mathematics.differential-geometry.yau-first-eigenvalue-conjecture
+kind: problem
+title: "Yau's Conjecture on the First Eigenvalue"
+aliases:
+  - "Yau's Eigenvalue Conjecture"
+  - "First Eigenvalue of Embedded Minimal Surfaces"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - differential-geometry
+  - harmonic-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let Sigma be a closed embedded minimal hypersurface in the unit sphere
+    S^{n+1}. Then the first eigenvalue of the Laplacian on Sigma equals n,
+    i.e., lambda_1(Sigma) = n. This is known to hold for totally geodesic
+    equators (where lambda_1 = n) and the conjecture asserts it holds for
+    all such embedded minimal hypersurfaces.
+  informal: >
+    Minimal surfaces in spheres are surfaces that locally minimize area. Yau
+    conjectured that for any such surface embedded (without self-intersections)
+    in the sphere, the lowest nontrivial frequency of vibration (first
+    eigenvalue of the Laplacian) takes a specific universal value that depends
+    only on the dimension.
+
+why_it_matters: >
+  Yau's conjecture, posed in 1982, is a major open problem in spectral
+  geometry connecting minimal surface theory with eigenvalue problems. It
+  relates the extrinsic geometry of minimal submanifolds to their intrinsic
+  spectral properties. Progress on this conjecture has stimulated the
+  development of new tools in geometric analysis.
+
+prerequisites:
+  - Riemannian geometry
+  - spectral theory of the Laplacian
+  - minimal surface theory
+  - geometric analysis
+
+dates:
+  first_stated: 1982
+
+sources:
+  canonical:
+    - source_id: src_yau_1982
+      kind: paper
+      title: "Problem section, Seminar on Differential Geometry"
+      authors:
+        - "Shing-Tung Yau"
+      year: 1982
+      locator: "Annals of Mathematics Studies, no. 102, Princeton University Press, pp. 669-706"
+  status_evidence:
+    - source_id: src_choe_soret_2006
+      kind: paper
+      title: "First eigenvalue of symmetric minimal surfaces in S^3"
+      authors:
+        - "Jaigyoung Choe"
+        - "Marc Soret"
+      year: 2006
+      locator: "Indiana University Mathematics Journal, vol. 55, pp. 629-644"
+
+partial_results:
+  - summary: "Choi and Wang proved lambda_1 >= n/2 for embedded minimal hypersurfaces in S^{n+1}."
+    year: 1983
+  - summary: "Barros and Bessa proved the conjecture for minimal surfaces in S^3 that are invariant under an antipodal map."
+    year: 2007
+  - summary: "Tang and Yan verified the conjecture for isoparametric minimal hypersurfaces."
+    year: 2013
+  - summary: "The conjecture has been verified computationally for the Clifford torus and Lawson surfaces."
+    year: 2018
+
+relations:
+  related:
+    - opa.mathematics.differential-geometry.hopf-conjecture-positive-curvature
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Yau's conjecture predicts that the first eigenvalue of the Laplacian on
+    any closed embedded minimal hypersurface in the unit sphere S^{n+1} equals
+    n. The lower bound n/2 is known, but the sharp bound remains open.
+  decomposition:
+    - "Improvement of the Choi-Wang lower bound"
+    - "Spectral analysis of specific families of minimal surfaces"
+    - "Connections to index theory and stability of minimal surfaces"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

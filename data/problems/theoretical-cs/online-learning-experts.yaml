@@ -1,0 +1,113 @@
+id: opa.tcs.algorithms.online-learning-experts
+kind: problem
+title: "Online Learning with Expert Advice Optimal Bounds"
+aliases:
+  - "Prediction with expert advice"
+  - "Optimal regret for experts problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    In the prediction with expert advice setting, a learner must choose among n
+    experts over T rounds. The minimax optimal regret is known to be Theta(sqrt(T log n))
+    for the basic setting. For structured variants (e.g., combinatorial experts, sleeping
+    experts, experts with limited feedback), what are the exact minimax optimal regret
+    bounds? Can we achieve computationally efficient algorithms matching the
+    information-theoretic optimum?
+  informal: >
+    When learning from experts over time, we want to perform nearly as well as the
+    best expert in hindsight. For many natural variants of this problem, the exact
+    optimal performance and efficient algorithms are still unknown.
+
+why_it_matters: >
+  Online learning with expert advice is foundational to online optimization, machine
+  learning, and game theory. Understanding the exact minimax rates for structured
+  variants is essential for practical algorithm design.
+
+prerequisites:
+  - online learning
+  - regret minimization
+  - multiplicative weights
+  - minimax theory
+
+dates:
+  first_stated: 1997
+
+sources:
+  canonical:
+    - source_id: src_cesa_bianchi_lugosi_2006
+      kind: textbook
+      title: "Prediction, Learning, and Games"
+      authors:
+        - "Nicolò Cesa-Bianchi"
+        - "Gábor Lugosi"
+      url: "https://doi.org/10.1017/CBO9780511546921"
+      year: 2006
+  status_evidence:
+    - source_id: src_hazan_2016
+      kind: textbook
+      title: "Introduction to Online Convex Optimization"
+      authors:
+        - "Elad Hazan"
+      url: "https://arxiv.org/abs/1909.05207"
+      year: 2016
+
+partial_results:
+  - summary: "The multiplicative weights algorithm achieves O(sqrt(T log n)) regret, which is minimax optimal for the basic setting."
+    year: 1997
+  - summary: "For combinatorial experts (e.g., experts indexed by paths in a graph), efficient algorithms with optimal regret are not always known."
+    year: 2006
+  - summary: "The sleeping experts problem and bandit variants have gaps between known upper and lower bounds."
+    year: 2016
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases:
+    - "opa.tcs.algorithms.multi-armed-bandit-regret"
+  related: []
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.35
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Determining exact minimax optimal regret and efficient algorithms for structured
+    variants of the prediction with expert advice problem remains open.
+  decomposition:
+    - "Determine minimax optimal regret for sleeping experts and combinatorial experts"
+    - "Close the gap between information-theoretic and computational bounds"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

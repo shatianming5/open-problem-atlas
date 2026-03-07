@@ -1,0 +1,119 @@
+id: opa.phys.mathematical-physics.existence-magnetic-monopoles
+kind: problem
+title: "Existence of Magnetic Monopoles"
+aliases:
+  - "Dirac Monopole Problem"
+  - "Magnetic Monopole Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - mathematical-physics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine whether magnetic monopoles exist as stable solutions in physically
+    relevant gauge theories. Specifically: (1) Prove that the 't Hooft-Polyakov monopole
+    solutions in spontaneously broken gauge theories (such as SU(2) Higgs theory) are
+    stable and have finite energy in the full quantum theory. (2) Determine whether
+    magnetic monopoles exist in the Standard Model or its grand unified extensions.
+    (3) Prove Dirac's quantization condition eg = n hbar c / 2 from first principles
+    in a rigorous quantum field theory framework. (4) Establish whether monopole
+    solutions in Yang-Mills-Higgs theories on R^3 are classified by pi_2(G/H) as
+    conjectured.
+  informal: >
+    Do magnetic monopoles exist? Dirac showed they would explain charge quantization,
+    and grand unified theories predict them. Proving their existence or non-existence
+    as mathematical solutions, and understanding their properties, is a major challenge.
+
+why_it_matters: >
+  Magnetic monopoles would explain one of the deepest mysteries in physics: why
+  electric charge is quantized. They arise naturally in grand unified theories and
+  are connected to important problems in topology, gauge theory, and quantum field theory.
+
+prerequisites:
+  - gauge theory
+  - differential geometry
+  - algebraic topology
+  - quantum field theory
+  - mathematical physics
+
+dates:
+  first_stated: 1931
+
+sources:
+  canonical:
+    - source_id: src_dirac_1931
+      kind: paper
+      title: "Quantised Singularities in the Electromagnetic Field"
+      url: "https://doi.org/10.1098/rspa.1931.0130"
+      year: 1931
+      locator: "Proc. Roy. Soc. London A 133, 60-72"
+    - source_id: src_thooft_1974
+      kind: paper
+      title: "Magnetic monopoles in unified gauge theories"
+      url: "https://doi.org/10.1016/0550-3213(74)90486-6"
+      year: 1974
+      locator: "Nuclear Physics B 79, 276-284"
+  status_evidence:
+    - source_id: src_shnir_2005
+      kind: textbook
+      title: "Magnetic Monopoles"
+      url: "https://doi.org/10.1007/3-540-29082-6"
+      year: 2005
+
+partial_results:
+  - summary: "'t Hooft and Polyakov independently found classical monopole solutions in SU(2) gauge-Higgs theory."
+    year: 1974
+  - summary: "Jaffe and Taubes rigorously proved existence of the 't Hooft-Polyakov monopole in the BPS limit."
+    year: 1980
+  - summary: "No experimental evidence for magnetic monopoles has been found despite extensive searches."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.confinement-in-qcd"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.45
+  toolability: 0.25
+  formality: 0.60
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Determining the existence and properties of magnetic monopoles in gauge theories and their physical realizability.
+  decomposition:
+    - "Prove stability of 't Hooft-Polyakov monopoles in the full quantum theory"
+    - "Classify monopole solutions in general gauge theories"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

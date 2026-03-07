@@ -1,0 +1,116 @@
+id: opa.tcs.algorithms.sublinear-edit-distance
+kind: problem
+title: "Sublinear Time Algorithms for Edit Distance"
+aliases:
+  - "Edit distance approximation"
+  - "Sublinear edit distance estimation"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    What is the best approximation ratio achievable for edit distance (Levenshtein
+    distance) between two strings of length n in truly subquadratic time? Can edit
+    distance be approximated within a constant factor in near-linear time? Can it be
+    estimated in sublinear time with reasonable approximation?
+  informal: >
+    How fast can we approximately compute the edit distance between two strings?
+    The exact problem takes quadratic time (and this is conditionally optimal), but
+    can we get good approximations much faster, even without reading the entire input?
+
+why_it_matters: >
+  Edit distance is fundamental to string processing, bioinformatics, and natural
+  language processing. The quadratic barrier for exact computation (conditional on
+  SETH) motivates the study of fast approximation algorithms. Achieving constant-factor
+  approximation in near-linear time would be a major breakthrough.
+
+prerequisites:
+  - string algorithms
+  - edit distance
+  - approximation algorithms
+  - fine-grained complexity
+
+dates:
+  first_stated: 2003
+
+sources:
+  canonical:
+    - source_id: src_andoni_krauthgamer_onak_2010
+      kind: paper
+      title: "Polylogarithmic Approximation for Edit Distance and the Asymmetric Query Complexity"
+      authors:
+        - "Alexandr Andoni"
+        - "Robert Krauthgamer"
+        - "Krzysztof Onak"
+      url: "https://doi.org/10.1109/FOCS.2010.28"
+      year: 2010
+  status_evidence:
+    - source_id: src_andoni_nosatzki_2020
+      kind: paper
+      title: "Edit Distance in Near-Linear Time: it's a Constant Factor"
+      authors:
+        - "Alexandr Andoni"
+        - "Negev Shekel Nosatzki"
+      url: "https://doi.org/10.1109/FOCS46700.2020.00096"
+      year: 2020
+
+partial_results:
+  - summary: "Andoni, Krauthgamer, and Onak (2010) achieved polylogarithmic approximation in near-linear time."
+    year: 2010
+  - summary: "Chakraborty, Das, Goldenberg, Koucky, and Saks (2018) obtained constant-factor approximation in truly subquadratic time."
+    year: 2018
+  - summary: "Andoni and Nosatzki (2020) achieved constant-factor approximation in near-linear time for the asymmetric case."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.eth-vs-seth"
+    - "opa.tcs.algorithms.streaming-frequency-moments"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.30
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The sublinear edit distance problem asks for the best approximation ratio achievable
+    in truly subquadratic or near-linear time for edit distance computation.
+  decomposition:
+    - "Achieve constant-factor approximation in near-linear time for general edit distance"
+    - "Determine whether (1+epsilon)-approximation is possible in subquadratic time"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

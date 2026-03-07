@@ -1,0 +1,113 @@
+id: opa.mathematics.extremal-combinatorics.erdos-sos-conjecture
+kind: problem
+title: "Erdos-Sos Conjecture"
+aliases:
+  - "Erdos-Sos Tree Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - extremal-combinatorics
+  - graph-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every graph G with average degree greater than k - 2 contains every tree T with k edges
+    as a subgraph. Equivalently, if |E(G)| > (k-2)|V(G)|/2, then G contains a copy of every
+    tree on k + 1 vertices.
+  informal: >
+    If a graph has enough edges (average degree bigger than k - 2), then it must contain
+    every possible tree with k edges. Having many edges forces all tree shapes to appear.
+
+why_it_matters: >
+  The Erdos-Sos conjecture, posed in 1963, is a central conjecture in extremal graph theory
+  about embedding trees in dense graphs. It strengthens the classical Erdos-Gallai theorem
+  on paths and would be a key step toward understanding the Turan problem for trees. Ajtai,
+  Komlos, Simonovits, and Szemeredi announced a proof for large trees around 2010, but the
+  full manuscript has not been published.
+
+prerequisites:
+  - extremal graph theory
+  - tree embedding
+  - Regularity Lemma
+
+dates:
+  first_stated: 1963
+
+sources:
+  canonical:
+    - source_id: src_erdos_sos_1963
+      kind: paper
+      title: "On a problem in graph theory (problem)"
+      authors:
+        - "Paul Erdos"
+        - "Vera T. Sos"
+      year: 1963
+  status_evidence:
+    - source_id: src_ajtai_etal_2009
+      kind: paper
+      title: "The Erdos-Sos conjecture for trees of large size"
+      authors:
+        - "Miklos Ajtai"
+        - "Janos Komlos"
+        - "Miklos Simonovits"
+        - "Endre Szemeredi"
+      year: 2009
+
+partial_results:
+  - summary: "The conjecture holds for paths (Erdos-Gallai theorem), stars, and caterpillars."
+    year: 1959
+  - summary: "Ajtai, Komlos, Simonovits, and Szemeredi announced a proof for all sufficiently large trees (not yet published as a full paper)."
+    year: 2010
+  - summary: "The conjecture is proved for trees with bounded maximum degree by using the Regularity Lemma."
+    year: 1995
+  - summary: "Besomi, Pavez-Signe, and Stein proved the conjecture for trees of given size in graphs of large girth."
+    year: 2021
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.82
+  underexplored: 0.30
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Erdos-Sos conjecture states that every graph with average degree > k-2 contains
+    every tree with k edges. An unpublished proof for large trees was announced by Ajtai,
+    Komlos, Simonovits, and Szemeredi. The conjecture remains formally open.
+  decomposition:
+    - "Completing and publishing the Ajtai-Komlos-Simonovits-Szemeredi proof"
+    - "Proving the conjecture for all tree sizes without the Regularity Lemma"
+    - "Extensions to sparse random graphs and digraphs"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

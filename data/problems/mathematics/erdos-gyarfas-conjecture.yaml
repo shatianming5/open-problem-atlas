@@ -1,0 +1,112 @@
+id: opa.mathematics.graph-theory.erdos-gyarfas-conjecture
+kind: problem
+title: "Erdos-Gyarfas Conjecture"
+aliases:
+  - "Erdos-Gyarfas Conjecture on Cycles"
+  - "Power of 2 Cycle Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every graph with minimum degree at least 3 contains a cycle whose length is a power
+    of 2. That is, for every graph G with delta(G) >= 3, there exists a cycle of length
+    2^k for some positive integer k.
+  informal: >
+    In any graph where every vertex has at least 3 neighbors, you can always find a cycle
+    whose length is a power of 2 (i.e., length 2, 4, 8, 16, ...).
+
+why_it_matters: >
+  The Erdos-Gyarfas conjecture, posed in 1995, is a beautiful and natural conjecture about
+  cycle lengths in graphs. It connects graph structure to number-theoretic properties of
+  cycle lengths. Despite significant effort, even the weaker question of whether every
+  such graph contains a cycle of length divisible by a power of 2 remains challenging.
+
+prerequisites:
+  - graph theory
+  - cycle theory
+  - extremal graph theory
+
+dates:
+  first_stated: 1995
+
+sources:
+  canonical:
+    - source_id: src_erdos_gyarfas_1997
+      kind: paper
+      title: "A variant of the classical Ramsey problem"
+      authors:
+        - "Paul Erdos"
+        - "Andras Gyarfas"
+        - "Lajos Posa"
+      year: 1997
+  status_evidence:
+    - source_id: src_liu_montgomery_2020
+      kind: paper
+      title: "A solution to Erdos and Hajnal's odd cycle problem"
+      url: "https://arxiv.org/abs/2010.15802"
+      year: 2020
+
+partial_results:
+  - summary: "Markstrom verified the conjecture computationally for graphs on up to 24 vertices."
+    year: 2004
+  - summary: "Daniel and Shauger verified the conjecture for planar graphs and for 3-connected cubic graphs."
+    year: 2001
+  - summary: "Heckman and Krakovski proved the conjecture for 3-connected cubic planar graphs."
+    year: 2013
+  - summary: "The problem remains open for general graphs with minimum degree 3."
+    year: 2020
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+    - opa.mathematics.graph-theory.cycle-double-cover-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.68
+  underexplored: 0.50
+  toolability: 0.60
+  formality: 0.85
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Erdos-Gyarfas conjecture states that every graph with minimum degree at least 3
+    contains a cycle whose length is a power of 2. It is verified for small graphs and
+    special classes but remains open in general.
+  decomposition:
+    - "Extending computational verification to larger graphs"
+    - "Structural approaches via graph decomposition"
+    - "Connections to cycle spectrum problems and Thomassen's results"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

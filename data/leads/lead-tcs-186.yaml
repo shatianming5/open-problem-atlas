@@ -1,0 +1,11 @@
+title: "Learning Automata and Regular Languages"
+statement: "Can deterministic finite automata be efficiently PAC learned from random examples alone without membership queries?"
+source_id: "src_angluin_1987"
+source_url: "https://doi.org/10.1016/0890-5401(87)90052-6"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

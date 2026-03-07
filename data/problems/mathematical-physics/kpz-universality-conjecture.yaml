@@ -1,0 +1,114 @@
+id: opa.phys.statistical-mechanics.kpz-universality-conjecture
+kind: problem
+title: "KPZ Universality Conjecture"
+aliases:
+  - "Kardar-Parisi-Zhang Universality"
+  - "KPZ Universality Class"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove the KPZ universality conjecture: a wide class of one-dimensional random
+    growth models, interacting particle systems, and directed polymers in random media
+    belong to the KPZ universality class, sharing the same scaling exponents (growth
+    exponent beta = 1/3, roughness exponent alpha = 1/2, dynamic exponent z = 3/2)
+    and the same limiting distributions (Tracy-Widom for curved initial conditions,
+    Baik-Rains for flat initial conditions). Extend KPZ universality to higher
+    dimensions d >= 2, where even the scaling exponents are not known exactly.
+  informal: >
+    Many different random growth processes, from burning paper to bacterial colonies,
+    are believed to share the same universal statistical behavior described by the KPZ
+    equation. Proving this universality and understanding it in higher dimensions is
+    one of the major open problems in probability and mathematical physics.
+
+why_it_matters: >
+  KPZ universality is one of the most important discoveries in non-equilibrium
+  statistical mechanics. It connects random growth, interacting particles, random
+  matrices, and combinatorics. Hairer's Fields Medal work on the KPZ equation solved
+  part of the problem, but full universality remains open.
+
+prerequisites:
+  - probability theory
+  - stochastic PDEs
+  - integrable systems
+  - random matrix theory
+  - statistical mechanics
+
+dates:
+  first_stated: 1986
+
+sources:
+  canonical:
+    - source_id: src_kardar_1986
+      kind: paper
+      title: "Dynamic Scaling of Growing Interfaces"
+      url: "https://doi.org/10.1103/PhysRevLett.56.889"
+      year: 1986
+      locator: "Physical Review Letters 56, 889"
+  status_evidence:
+    - source_id: src_corwin_2012
+      kind: survey
+      title: "The Kardar-Parisi-Zhang equation and universality class"
+      url: "https://doi.org/10.1142/S2010326311300014"
+      year: 2012
+
+partial_results:
+  - summary: "Hairer gave a rigorous construction of the KPZ equation using regularity structures (Fields Medal 2014)."
+    year: 2013
+  - summary: "Exact solutions for specific initial conditions were obtained via integrable methods (Tracy-Widom distributions)."
+    year: 2010
+  - summary: "Matetski, Quastel, and Remenik constructed the full KPZ fixed point."
+    year: 2021
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.random-matrix-universality"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.40
+  toolability: 0.35
+  formality: 0.65
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the KPZ universality conjecture for one-dimensional random growth models and extending it to higher dimensions.
+  decomposition:
+    - "Prove convergence to the KPZ fixed point for general initial conditions and models"
+    - "Determine KPZ scaling exponents in dimensions d >= 2"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

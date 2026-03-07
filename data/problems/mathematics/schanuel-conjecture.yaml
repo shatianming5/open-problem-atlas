@@ -1,0 +1,112 @@
+id: opa.mathematics.number-theory.schanuel-conjecture
+kind: problem
+title: "Schanuel's Conjecture"
+aliases:
+  - "Schanuel's Conjecture on Transcendental Numbers"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    If z_1, z_2, ..., z_n are complex numbers that are linearly independent over the
+    rational numbers Q, then the field extension Q(z_1, ..., z_n, e^{z_1}, ..., e^{z_n})
+    has transcendence degree at least n over Q.
+  informal: >
+    Given n complex numbers that are linearly independent over the rationals, the 2n numbers
+    formed by these numbers together with their exponentials contain at least n that are
+    algebraically independent. This would settle nearly all open problems in transcendental
+    number theory.
+
+why_it_matters: >
+  Schanuel's conjecture is arguably the most important open problem in transcendental number
+  theory. It implies the Lindemann-Weierstrass theorem, the Gelfond-Schneider theorem, and
+  would resolve the algebraic independence of e and pi, among many other fundamental questions.
+
+prerequisites:
+  - transcendental number theory
+  - algebraic independence
+  - commutative algebra
+
+dates:
+  first_stated: 1960
+
+sources:
+  canonical:
+    - source_id: src_lang_1966
+      kind: textbook
+      title: "Introduction to Transcendental Numbers"
+      authors:
+        - "Serge Lang"
+      url: "https://doi.org/10.1007/978-1-4757-6592-5"
+      year: 1966
+  status_evidence:
+    - source_id: src_waldschmidt_2006
+      kind: survey
+      title: "Transcendence of periods: the state of the art"
+      url: "https://doi.org/10.4310/PAMQ.2006.v2.n2.a3"
+      year: 2006
+
+partial_results:
+  - summary: "The Lindemann-Weierstrass theorem (1882/1885) establishes the case where z_1, ..., z_n are algebraic numbers."
+    year: 1885
+  - summary: "The Gelfond-Schneider theorem (1934) handles the case n=2 with one algebraic z_i."
+    year: 1934
+  - summary: "The six exponentials theorem (Siegel, Lang, Ramachandra) proves a special case with a matrix of exponents."
+    year: 1966
+  - summary: "Ax proved a function field analogue of Schanuel's conjecture."
+    year: 1971
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.90
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - sage
+
+machine_generated:
+  summary: >
+    Schanuel's conjecture gives a sweeping lower bound on the transcendence degree of
+    exponentials, implying virtually all known and conjectured results in transcendental
+    number theory.
+  decomposition:
+    - "Proving special cases involving small collections of algebraically related numbers"
+    - "Extending Baker's theory of linear forms in logarithms toward algebraic independence"
+    - "Connecting to model theory and the Zilber-Pink conjecture"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

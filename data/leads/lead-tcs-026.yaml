@@ -1,0 +1,11 @@
+title: "Relativization Barrier Circumvention"
+statement: "Can techniques beyond relativization and algebrization settle major complexity questions like P vs NP?"
+source_id: "src_aaronson_wigderson_2009"
+source_url: "https://doi.org/10.1145/1490270.1490272"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

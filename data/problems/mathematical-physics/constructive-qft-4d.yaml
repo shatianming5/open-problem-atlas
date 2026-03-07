@@ -1,0 +1,110 @@
+id: opa.phys.quantum-field-theory.constructive-qft-4d
+kind: problem
+title: "Constructive Quantum Field Theory in 4D"
+aliases:
+  - "Rigorous QFT in Four Dimensions"
+  - "Non-perturbative QFT Construction"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Construct a non-trivial (interacting) quantum field theory in four spacetime
+    dimensions that satisfies the Wightman axioms or the Osterwalder-Schrader axioms.
+    The theory should have a well-defined Hilbert space, field operators as
+    operator-valued distributions, a unitary representation of the Poincare group, and
+    satisfy locality, spectral condition, and clustering. No such construction exists
+    for any interacting theory in d=4, though several exist in d=2 and d=3.
+  informal: >
+    Despite the enormous success of quantum field theory in physics, no one has ever
+    rigorously constructed a single interacting quantum field theory in the physical
+    four-dimensional spacetime. Can this be done for any model?
+
+why_it_matters: >
+  This is one of the most fundamental open problems in mathematical physics. The
+  absence of any rigorous interacting QFT in 4D means we lack mathematical proof that
+  the theoretical framework underlying the Standard Model of particle physics is
+  self-consistent.
+
+prerequisites:
+  - quantum field theory
+  - functional analysis
+  - probability theory
+  - constructive field theory
+  - renormalization theory
+
+dates:
+  first_stated: 1964
+
+sources:
+  canonical:
+    - source_id: src_glimm_jaffe_1987
+      kind: textbook
+      title: "Quantum Physics: A Functional Integral Point of View"
+      year: 1987
+      locator: "Springer, 2nd edition"
+  status_evidence:
+    - source_id: src_rivasseau_2000
+      kind: survey
+      title: "Constructive Field Theory and Applications"
+      year: 2000
+
+partial_results:
+  - summary: "Glimm and Jaffe constructed phi^4_2 (interacting scalar field in 2D) rigorously."
+    year: 1968
+  - summary: "Feldman, Magnen, Rivasseau, and Seneor constructed phi^4_3 using renormalization group methods."
+    year: 1986
+  - summary: "Gubinelli, Imkeller, and Perkowski gave an alternative construction of phi^4_3 using paracontrolled distributions."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap"
+    - "opa.phys.quantum-field-theory.triviality-phi4-4d"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.40
+  toolability: 0.20
+  formality: 0.65
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Constructing a rigorous interacting quantum field theory in four spacetime dimensions satisfying the Wightman or Osterwalder-Schrader axioms.
+  decomposition:
+    - "Extend constructive methods from d=3 to d=4"
+    - "Control ultraviolet divergences non-perturbatively in 4D"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

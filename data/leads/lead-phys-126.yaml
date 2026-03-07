@@ -1,0 +1,11 @@
+title: "Stability of Kerr Black Holes"
+statement: "Is the Kerr metric stable under linearized and nonlinear gravitational perturbations for all sub-extremal spin parameters?"
+source_id: "src_dafermos_2016"
+source_url: "https://arxiv.org/abs/1601.06467"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

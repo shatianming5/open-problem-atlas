@@ -1,0 +1,11 @@
+title: "Purely Functional Data Structures Optimality"
+statement: "Can every data structure be made purely functional with at most O(log n) overhead per operation?"
+source_id: "src_okasaki_1998"
+source_url: "https://doi.org/10.1017/CBO9780511530043"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

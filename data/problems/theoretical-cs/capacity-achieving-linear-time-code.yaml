@@ -1,0 +1,135 @@
+id: opa.tcs.information-theory.capacity-achieving-linear-time-code
+kind: problem
+title: "Capacity-Achieving Code with Linear-Time Encoding and Decoding"
+aliases:
+  - "Linear-time capacity-achieving codes"
+  - "Efficient capacity-achieving codes"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - information-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Shannon's channel coding theorem guarantees the existence of codes that achieve
+    the capacity of any discrete memoryless channel with vanishing error probability
+    as the block length tends to infinity. However, Shannon's proof is
+    non-constructive. Does there exist an explicit family of codes that
+    simultaneously: (1) achieves the capacity of the binary symmetric channel
+    (or more generally, any discrete memoryless channel), (2) has a linear-time
+    encoding algorithm (O(n) time for block length n), and (3) has a linear-time
+    decoding algorithm (O(n) time for block length n)?
+  informal: >
+    Shannon proved in 1948 that reliable communication over a noisy channel is
+    possible up to a fundamental limit called the channel capacity. But can we
+    build practical codes that reach this limit while being extremely fast —
+    encoding and decoding each message in time proportional to its length?
+
+why_it_matters: >
+  Finding capacity-achieving codes with linear-time complexity would be a major
+  breakthrough at the intersection of information theory, coding theory, and
+  algorithm design. While LDPC codes and polar codes approach capacity and
+  have near-linear complexity, achieving exact capacity with strictly linear-time
+  encoding and decoding for general channels remains open. Such codes would
+  have enormous practical impact in communications, storage, and any system
+  where data must be transmitted reliably over noisy channels at the highest
+  possible rate with minimal computational overhead.
+
+prerequisites:
+  - information theory
+  - coding theory
+  - channel capacity
+  - LDPC codes
+  - polar codes
+
+dates:
+  first_stated: 1948
+
+sources:
+  canonical:
+    - source_id: src_shannon_1948
+      kind: paper
+      title: "A Mathematical Theory of Communication"
+      authors:
+        - "Claude E. Shannon"
+      url: "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x"
+      year: 1948
+      locator: "Bell System Technical Journal, 27(3), pp. 379-423"
+    - source_id: src_arikan_2009
+      kind: paper
+      title: "Channel Polarization: A Method for Constructing Capacity-Achieving Codes for Symmetric Binary-Input Memoryless Channels"
+      authors:
+        - "Erdal Arikan"
+      url: "https://doi.org/10.1109/TIT.2009.2021379"
+      year: 2009
+      locator: "IEEE Transactions on Information Theory, 55(7), pp. 3051-3073"
+  status_evidence:
+    - source_id: src_richardson_urbanke_2008
+      kind: textbook
+      title: "Modern Coding Theory"
+      authors:
+        - "Tom Richardson"
+        - "Ruediger Urbanke"
+      url: "https://doi.org/10.1017/CBO9780511791338"
+      year: 2008
+
+partial_results:
+  - summary: "Gallager's LDPC codes (1962) empirically approach capacity and have near-linear decoding complexity under iterative message-passing decoding, but provable capacity-achievement with linear-time decoding is not established for general channels."
+    year: 1962
+  - summary: "Arikan's polar codes (2009) provably achieve the capacity of any binary-input symmetric memoryless channel with encoding and decoding complexity O(n log n)."
+    year: 2009
+  - summary: "Spielman showed how to construct linear-time encodable and decodable codes that correct a constant fraction of errors (for adversarial channels), but these do not achieve Shannon capacity."
+    year: 1996
+  - summary: "Pfister and Urbanke showed that spatially coupled LDPC codes universally achieve capacity on the BEC with near-linear complexity under belief propagation decoding."
+    year: 2014
+  - summary: "Polar codes with successive cancellation list decoding achieve competitive performance in 5G NR standards, with O(n log n) complexity."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    This problem asks whether there exist explicit error-correcting codes that achieve Shannon channel capacity with both encoding and decoding running in linear time O(n).
+  decomposition:
+    - "Improve polar code decoding from O(n log n) to O(n) while maintaining capacity-achieving performance"
+    - "Design new code families combining LDPC-like structure with provable capacity-achieving guarantees and linear-time algorithms"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

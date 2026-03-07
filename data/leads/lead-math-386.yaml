@@ -1,0 +1,11 @@
+title: "Corona Problem for H-infinity of Riemann Surfaces"
+statement: "Does the corona theorem hold for the algebra H-infinity on arbitrary Riemann surfaces?"
+source_id: "src_carleson_1962"
+source_url: "https://en.wikipedia.org/wiki/Corona_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "complex-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

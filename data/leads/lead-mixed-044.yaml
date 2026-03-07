@@ -1,0 +1,11 @@
+title: "Tight Bounds for Online Bipartite Matching"
+statement: "What is the exact competitive ratio for online bipartite matching with free disposal under adversarial arrivals? The gap between 0.5211 and 0.5368 remains open."
+source_id: "src_huang_2021"
+source_url: "https://arxiv.org/abs/2005.08441"
+domain_hint: "theoretical-cs"
+subdomain_hint: "online-algorithms"
+confidence: 0.62
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

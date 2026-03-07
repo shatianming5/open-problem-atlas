@@ -1,0 +1,11 @@
+title: "Optimal Agnostic Learning"
+statement: "What is the optimal time complexity of agnostic learning for halfspaces with respect to arbitrary distributions?"
+source_id: "src_daniely_2016"
+source_url: "https://doi.org/10.1145/2840728.2840731"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

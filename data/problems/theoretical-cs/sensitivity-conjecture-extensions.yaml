@@ -1,0 +1,115 @@
+id: opa.tcs.algorithms.sensitivity-conjecture-extensions
+kind: problem
+title: "Sensitivity Conjecture Extensions"
+aliases:
+  - "Post-Huang sensitivity questions"
+  - "Sensitivity vs other complexity measures"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    Huang (2019) proved that the sensitivity s(f) of a Boolean function f satisfies
+    s(f) >= sqrt(deg(f)), resolving the sensitivity conjecture. What are the tight
+    relationships between sensitivity and other Boolean function complexity measures
+    (block sensitivity, certificate complexity, decision tree depth, degree)?
+    Specifically, is s(f) = Theta(bs(f))? What is the exact polynomial relationship?
+  informal: >
+    The sensitivity conjecture was resolved, but the exact polynomial relationships
+    between sensitivity and other measures of Boolean function complexity remain
+    unknown. What are the tight bounds?
+
+why_it_matters: >
+  Boolean function complexity measures (sensitivity, block sensitivity, degree,
+  certificate complexity) are fundamental tools in theoretical computer science.
+  Determining their exact relationships would complete our understanding of Boolean
+  function structure.
+
+prerequisites:
+  - Boolean function complexity
+  - sensitivity and block sensitivity
+  - polynomial degree
+  - decision tree complexity
+
+dates:
+  first_stated: 2019
+
+sources:
+  canonical:
+    - source_id: src_huang_2019
+      kind: paper
+      title: "Induced Subgraphs of Hypercubes and a Proof of the Sensitivity Conjecture"
+      authors:
+        - "Hao Huang"
+      url: "https://doi.org/10.4007/annals.2019.190.3.6"
+      year: 2019
+  status_evidence:
+    - source_id: src_aaronson_2020
+      kind: survey
+      title: "Open problems related to the sensitivity conjecture"
+      authors:
+        - "Scott Aaronson"
+      url: "https://www.scottaaronson.com/blog/?p=4229"
+      year: 2019
+
+partial_results:
+  - summary: "Huang (2019) proved s(f) >= sqrt(deg(f)), confirming the sensitivity conjecture with a short spectral proof."
+    year: 2019
+  - summary: "The best known upper bound is bs(f) <= 2^(s(f)-1), and the gap between sensitivity and block sensitivity can be at most exponential."
+    year: 2019
+  - summary: "Tight quadratic separation between sensitivity and block sensitivity is known for specific functions."
+    year: 2011
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.communication-complexity-open"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    After the resolution of the sensitivity conjecture, open problems remain about
+    the exact polynomial relationships between sensitivity and other Boolean function
+    complexity measures.
+  decomposition:
+    - "Determine the exact polynomial relationship between sensitivity and block sensitivity"
+    - "Improve the known gaps between various complexity measures"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Fixed-Parameter Tractability of Minimum Bisection"
+statement: "Is the minimum bisection problem fixed-parameter tractable when parameterized by the cut size?"
+source_id: "src_cygan_et_al_2015"
+source_url: "https://doi.org/10.1007/978-3-319-21275-3"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

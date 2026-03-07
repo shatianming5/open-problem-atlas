@@ -1,0 +1,11 @@
+title: "Smoothed Analysis of Simplex Method"
+statement: "What is the smoothed complexity of the simplex method under various pivot rules? Only partial results are known beyond the shadow vertex rule."
+source_id: "src_spielman_teng_2004"
+source_url: "https://doi.org/10.1145/990308.990310"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

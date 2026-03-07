@@ -1,0 +1,123 @@
+id: opa.mathematics.graph-theory.erdos-faber-lovasz-conjecture
+kind: problem
+title: "Erdos-Faber-Lovasz Conjecture"
+aliases:
+  - "EFL Conjecture"
+
+status:
+  label: solved
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    If n complete graphs, each having exactly n vertices, are combined in such a way that any
+    two of them share at most one vertex, then the union graph can be properly colored with
+    n colors. Equivalently, the chromatic index of any linear hypergraph on n vertices is at
+    most n.
+  informal: >
+    Take n complete graphs, each with n vertices. Combine them so that any two share at most
+    one vertex. Then you can color the edges of each complete graph (equivalently, the vertices
+    of the union) using just n colors, so that no two adjacent edges share a color.
+
+why_it_matters: >
+  The Erdos-Faber-Lovasz conjecture, posed in 1972, was one of Erdos's favorite problems and
+  carried a $500 prize. It stood open for nearly 50 years before being resolved by Kang,
+  Kelly, Kuhn, Methuku, and Osthus in 2021. The proof uses absorption techniques and
+  probabilistic methods, advancing our understanding of coloring in hypergraphs.
+
+prerequisites:
+  - graph theory
+  - hypergraph theory
+  - probabilistic combinatorics
+
+dates:
+  first_stated: 1972
+
+sources:
+  canonical:
+    - source_id: src_erdos_1972_efl
+      kind: paper
+      title: "Problems and results on chromatic numbers in finite and infinite graphs"
+      authors:
+        - "Paul Erdos"
+      year: 1972
+    - source_id: src_kang_2021
+      kind: paper
+      title: "A proof of the Erdos-Faber-Lovasz conjecture"
+      authors:
+        - "Dong Yeap Kang"
+        - "Tom Kelly"
+        - "Daniela Kuhn"
+        - "Abhishek Methuku"
+        - "Deryk Osthus"
+      url: "https://arxiv.org/abs/2101.04698"
+      year: 2021
+  status_evidence:
+    - source_id: src_kang_annals_2023
+      kind: paper
+      title: "A proof of the Erdos-Faber-Lovasz conjecture"
+      url: "https://annals.math.princeton.edu/2023/198-2/p08"
+      year: 2023
+
+partial_results:
+  - summary: "The conjecture was fully proved by Kang, Kelly, Kuhn, Methuku, and Osthus for all sufficiently large n."
+    year: 2021
+  - summary: "Previously, Kahn proved an asymptotic version: the chromatic index is at most n + o(n)."
+    year: 1992
+  - summary: "Chang and Lawler proved an upper bound of (3/2)n - 2."
+    year: 1988
+  - summary: "The conjecture published in Annals of Mathematics as a complete proof."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: false
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.10
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Erdos-Faber-Lovasz conjecture, now proved for large n, states that the union of n
+    complete graphs on n vertices (pairwise sharing at most one vertex) can be properly colored
+    with n colors. It was resolved by Kang et al. in 2021.
+  decomposition:
+    - "Absorption and probabilistic methods for hypergraph coloring"
+    - "Extending the proof to cover all finite cases (small n verification)"
+    - "Generalizations to broader classes of linear hypergraphs"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

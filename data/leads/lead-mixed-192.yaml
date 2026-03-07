@@ -1,0 +1,11 @@
+title: "Total NP Search Problems"
+statement: "Can the complete picture of the relationships between TFNP subclasses (PPAD, PLS, CLS, PPP, PPA) be fully determined?"
+source_id: "src_goldberg_2023"
+source_url: "https://arxiv.org/abs/2310.17672"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

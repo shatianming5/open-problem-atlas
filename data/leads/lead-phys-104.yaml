@@ -1,0 +1,11 @@
+title: "Percolation Critical Exponents in 3D"
+statement: "Can exact values of percolation critical exponents in three dimensions be determined analytically?"
+source_id: "src_stauffer_1994"
+source_url: "https://doi.org/10.1201/9781315274386"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

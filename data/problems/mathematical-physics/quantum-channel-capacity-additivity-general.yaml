@@ -1,0 +1,110 @@
+id: opa.phys.quantum-information.quantum-channel-capacity-additivity-general
+kind: problem
+title: "Quantum Channel Capacity Additivity (General Conjectures)"
+aliases:
+  - "Additivity of Minimum Output Entropy"
+  - "Multiplicativity of p-norms"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Characterize which quantum channels satisfy additivity of the minimum output entropy:
+    S_min(N_1 tensor N_2) = S_min(N_1) + S_min(N_2). Although the general additivity
+    conjecture was disproved by Hastings (2009), determine the precise classes of channels
+    for which additivity holds, and find computable single-letter formulas for the
+    classical capacity of quantum channels beyond the known cases (degradable channels,
+    entanglement-breaking channels, unital qubit channels).
+  informal: >
+    Hastings showed that entanglement between channel inputs can boost classical
+    communication capacity. But for which channels does this happen, and can we
+    compute the exact capacity? This remains open for most channels.
+
+why_it_matters: >
+  The classical capacity of quantum channels is the most fundamental quantity in
+  quantum communication. Despite Hastings' counterexample, the problem of computing
+  capacities for specific important channels (e.g., depolarizing channel) remains
+  open and is critical for practical quantum communication.
+
+prerequisites:
+  - quantum information theory
+  - operator theory
+  - convex optimization
+  - random matrix theory
+
+dates:
+  first_stated: 2002
+
+sources:
+  canonical:
+    - source_id: src_hastings_2009
+      kind: paper
+      title: "Superadditivity of communication capacity using entangled inputs"
+      url: "https://doi.org/10.1038/nphys1224"
+      year: 2009
+      locator: "Nature Physics 5, 255-257"
+  status_evidence:
+    - source_id: src_holevo_2012
+      kind: textbook
+      title: "Quantum Systems, Channels, Information"
+      year: 2012
+
+partial_results:
+  - summary: "Hastings disproved the general additivity conjecture using random unitary channels."
+    year: 2009
+  - summary: "Additivity holds for degradable, anti-degradable, and entanglement-breaking channels."
+    year: 2005
+  - summary: "The depolarizing channel capacity remains unknown despite extensive numerical study."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-error-correction-fundamental-limits"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.45
+  toolability: 0.40
+  formality: 0.70
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    Characterizing which quantum channels have additive minimum output entropy and finding computable capacity formulas beyond known cases.
+  decomposition:
+    - "Determine the classical capacity of the depolarizing channel"
+    - "Classify channels for which additivity holds"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

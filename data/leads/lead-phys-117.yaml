@@ -1,0 +1,11 @@
+title: "Dimer Models and Exact Results"
+statement: "Can the exact solution of dimer models on planar lattices be extended to three-dimensional lattices or to interacting dimer models?"
+source_id: "src_kenyon_2009"
+source_url: "https://arxiv.org/abs/0910.3129"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

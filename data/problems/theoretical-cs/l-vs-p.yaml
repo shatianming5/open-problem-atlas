@@ -1,0 +1,112 @@
+id: opa.tcs.complexity-theory.l-vs-p
+kind: problem
+title: "L vs P Problem"
+aliases:
+  - "L = P?"
+  - "Logspace vs polynomial time"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let L denote the class of languages decidable in deterministic logarithmic space,
+    and P denote the class decidable in deterministic polynomial time. Does L = P?
+  informal: >
+    Can every problem solvable in polynomial time also be solved using only logarithmic
+    memory? This asks whether time-efficient computation can always be made space-efficient.
+
+why_it_matters: >
+  The L vs P question concerns the fundamental relationship between time and space in
+  computation. It is known that L is contained in P (by simulation), but separation
+  has not been proven. Proving L != P would be a breakthrough in establishing
+  time-space tradeoffs.
+
+prerequisites:
+  - space complexity
+  - time complexity
+  - time-space tradeoffs
+  - P-complete problems
+
+dates:
+  first_stated: 1975
+
+sources:
+  canonical:
+    - source_id: src_cook_1971_tcs
+      kind: paper
+      title: "Characterizations of Pushdown Machines in Terms of Time-Bounded Computers"
+      authors:
+        - "Stephen A. Cook"
+      url: "https://doi.org/10.1145/321623.321625"
+      year: 1971
+  status_evidence:
+    - source_id: src_arora_barak_2009
+      kind: textbook
+      title: "Computational Complexity: A Modern Approach"
+      authors:
+        - "Sanjeev Arora"
+        - "Boaz Barak"
+      url: "https://theory.cs.princeton.edu/complexity/"
+      year: 2009
+
+partial_results:
+  - summary: "It is known that L is contained in NL is contained in P. No unconditional separation is known between any of these classes."
+    year: 1970
+  - summary: "P-complete problems under logspace reductions (like circuit value problem) are believed to be outside L but this is unproven."
+    year: 1975
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases:
+    - "opa.tcs.complexity-theory.l-vs-nl"
+  related:
+    - "opa.tcs.complexity-theory.nc-vs-p"
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.20
+  formality: 0.90
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The L vs P problem asks whether every polynomial-time problem can be solved in
+    logarithmic space, probing the fundamental relationship between time and space
+    in computation.
+  decomposition:
+    - "Prove time-space tradeoff lower bounds for P-complete problems"
+    - "Develop new techniques for separating space classes from time classes"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

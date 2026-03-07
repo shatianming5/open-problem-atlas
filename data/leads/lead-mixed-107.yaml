@@ -1,0 +1,11 @@
+title: "Space Complexity of Approximating Max-Flow"
+statement: "Can max-flow in directed graphs be (1+epsilon)-approximated in O(n polylog n) space in the streaming model?"
+source_id: "src_assadi_2023"
+source_url: "https://arxiv.org/abs/2302.03543"
+domain_hint: "theoretical-cs"
+subdomain_hint: "streaming-algorithms"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

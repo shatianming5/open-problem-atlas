@@ -1,0 +1,11 @@
+title: "Dixmier Conjecture"
+statement: "Is every non-zero endomorphism of the Weyl algebra A_n an automorphism?"
+source_id: "src_dixmier_1968"
+source_url: "https://en.wikipedia.org/wiki/Dixmier_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "functional-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

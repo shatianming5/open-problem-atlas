@@ -1,0 +1,130 @@
+id: opa.tcs.complexity-theory.np-vs-conp
+kind: problem
+title: "NP vs co-NP Problem"
+aliases:
+  - "NP = co-NP?"
+  - "Does NP equal co-NP?"
+  - "NP closure under complement"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let NP denote the class of languages for which membership can be verified
+    in polynomial time given a suitable certificate, and let co-NP denote the class
+    of languages whose complements are in NP (equivalently, languages for which
+    non-membership can be verified in polynomial time). Does NP = co-NP?
+  informal: >
+    For problems where "yes" answers have short proofs that can be checked quickly
+    (NP problems), do "no" answers also always have short proofs that can be checked
+    quickly? For example, we can quickly verify that a number is composite by
+    exhibiting a factor, but can we always quickly verify that a number is prime
+    by providing a short proof of primality? (This particular example was resolved
+    — primality is in P — but the general question remains open.)
+
+why_it_matters: >
+  The NP vs co-NP question is fundamental to our understanding of the structure
+  of computational complexity. If NP != co-NP, it would immediately imply P != NP,
+  since P is closed under complement. The question has deep implications for
+  proof complexity: NP = co-NP would mean that every tautology has a polynomially
+  bounded proof in some proof system. It also relates to the existence of
+  optimal propositional proof systems and the foundations of cryptography.
+
+prerequisites:
+  - computational complexity theory
+  - NP-completeness
+  - propositional proof complexity
+  - co-NP-completeness
+
+dates:
+  first_stated: 1971
+
+sources:
+  canonical:
+    - source_id: src_cook_reckhow_1979
+      kind: paper
+      title: "The Relative Efficiency of Propositional Proof Systems"
+      authors:
+        - "Stephen A. Cook"
+        - "Robert A. Reckhow"
+      url: "https://doi.org/10.2307/2273702"
+      year: 1979
+      locator: "Journal of Symbolic Logic, 44(1), pp. 36-50"
+    - source_id: src_sipser_2012_np
+      kind: textbook
+      title: "Introduction to the Theory of Computation"
+      authors:
+        - "Michael Sipser"
+      year: 2012
+      locator: "Chapter 7, Section 7.3"
+  status_evidence:
+    - source_id: src_fortnow_homer_2003
+      kind: survey
+      title: "A Short History of Computational Complexity"
+      authors:
+        - "Lance Fortnow"
+        - "Steve Homer"
+      url: "https://doi.org/10.1016/S0007-4497(03)00058-7"
+      year: 2003
+
+partial_results:
+  - summary: "If NP != co-NP, then P != NP. The converse is not known; P != NP does not obviously imply NP != co-NP."
+    year: 1971
+  - summary: "Pratt showed that primality is in NP (via Pratt certificates), and later AKS showed primality is in P, but these results do not resolve the general NP vs co-NP question."
+    year: 1975
+  - summary: "In proof complexity, superpolynomial lower bounds have been shown for restricted proof systems (resolution, bounded-depth Frege), but not for general proof systems."
+    year: 1985
+  - summary: "Razborov proved exponential lower bounds on the size of resolution proofs for the pigeonhole principle, contributing to proof complexity understanding."
+    year: 2003
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.93
+  underexplored: 0.20
+  toolability: 0.20
+  formality: 0.95
+  ai_fit: 0.12
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The NP vs co-NP problem asks whether every problem with efficiently verifiable "yes" answers also has efficiently verifiable "no" answers, with deep implications for proof complexity and cryptography.
+  decomposition:
+    - "Prove superpolynomial lower bounds for general propositional proof systems"
+    - "Explore connections between proof complexity and circuit complexity to establish separations"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

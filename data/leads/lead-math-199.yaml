@@ -1,0 +1,11 @@
+title: "Existence of a Natural Model of NF"
+statement: "Is Quine's set theory New Foundations (NF) consistent? Provide a natural model or prove inconsistency."
+source_id: "src_holmes_2012"
+source_url: "https://en.wikipedia.org/wiki/New_Foundations"
+domain_hint: "mathematics"
+subdomain_hint: "logic"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

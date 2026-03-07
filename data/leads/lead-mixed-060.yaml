@@ -1,0 +1,11 @@
+title: "Sum-of-Squares Hierarchy and Planted Problems"
+statement: "What is the precise power of constant-degree sum-of-squares relaxations for refuting random CSPs and solving planted clique below the sqrt(n) threshold?"
+source_id: "src_barak_2020"
+source_url: "https://arxiv.org/abs/1903.04097"
+domain_hint: "theoretical-cs"
+subdomain_hint: "average-case-complexity"
+confidence: 0.60
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

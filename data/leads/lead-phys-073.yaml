@@ -1,0 +1,11 @@
+title: "Anomaly Matching in Chiral Gauge Theories"
+statement: "Can all chiral gauge theories be consistently defined non-perturbatively on the lattice while preserving gauge invariance and anomaly matching?"
+source_id: "src_luscher_2000"
+source_url: "https://arxiv.org/abs/hep-th/0002194"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

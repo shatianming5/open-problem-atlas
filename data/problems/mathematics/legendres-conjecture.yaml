@@ -1,0 +1,112 @@
+id: opa.mathematics.number-theory.legendres-conjecture
+kind: problem
+title: "Legendre's Conjecture"
+aliases:
+  - "Legendre's Prime Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - analytic-number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every positive integer n, there exists a prime number p such that n^2 < p < (n+1)^2.
+    Equivalently, there is always at least one prime between consecutive perfect squares.
+  informal: >
+    Between any two consecutive perfect squares (like 100 and 121, or 144 and 169), there is
+    always at least one prime number. Despite strong numerical evidence, this has never been proved.
+
+why_it_matters: >
+  Legendre's conjecture is one of Landau's four "unattackable" problems presented at the 1912
+  International Congress of Mathematicians. It is weaker than the Cramer conjecture and stronger
+  than Bertrand's postulate. Resolving it would significantly advance our understanding of
+  prime gaps and the distribution of primes in short intervals.
+
+prerequisites:
+  - analytic number theory
+  - prime gap theory
+  - sieve methods
+
+dates:
+  first_stated: 1798
+
+sources:
+  canonical:
+    - source_id: src_legendre_1808
+      kind: textbook
+      title: "Essai sur la theorie des nombres"
+      authors:
+        - "Adrien-Marie Legendre"
+      year: 1808
+    - source_id: src_guy_2004_legendre
+      kind: textbook
+      title: "Unsolved Problems in Number Theory"
+      authors:
+        - "Richard K. Guy"
+      year: 2004
+      locator: "Problem A1"
+  status_evidence:
+    - source_id: src_landau_problems
+      kind: survey
+      title: "Landau's problems on primes"
+      year: 1912
+
+partial_results:
+  - summary: "Ingham showed there is a prime between n^3 and (n+1)^3 for all sufficiently large n."
+    year: 1937
+  - summary: "Baker, Harman, and Pintz proved there is always a prime in the interval [x, x + x^{0.525}] for sufficiently large x."
+    year: 2001
+  - summary: "Verified computationally for n up to very large values (exceeding 10^18)."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.35
+  toolability: 0.50
+  formality: 0.90
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Legendre's conjecture asserts there is always a prime between consecutive perfect squares.
+    It is one of Landau's four problems and lies between Bertrand's postulate and Cramer's conjecture in strength.
+  decomposition:
+    - "Improving zero-density estimates for the Riemann zeta function near the critical line"
+    - "Short interval prime counting via exponential sum techniques"
+    - "Connections to the distribution of primes in polynomial sequences"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

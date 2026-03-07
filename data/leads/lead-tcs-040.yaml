@@ -1,0 +1,11 @@
+title: "Counting Complexity: #P vs FP"
+statement: "Does FP = #P? Equivalently, can every counting problem associated with an NP decision problem be solved in polynomial time?"
+source_id: "src_valiant_1979b"
+source_url: "https://doi.org/10.1016/0304-3975(79)90044-8"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

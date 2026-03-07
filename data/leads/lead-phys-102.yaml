@@ -1,0 +1,11 @@
+title: "Many-Body Localization in Higher Dimensions"
+statement: "Does many-body localization survive in dimensions greater than one, or does it inevitably thermalize due to rare-region effects?"
+source_id: "src_nandkishore_2015"
+source_url: "https://arxiv.org/abs/1404.0686"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

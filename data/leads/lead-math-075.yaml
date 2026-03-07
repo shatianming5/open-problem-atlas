@@ -1,0 +1,11 @@
+title: "Köthe's Conjecture"
+statement: "If a ring has no nonzero nil right ideal, then it has no nonzero nil left ideal either."
+source_id: "src_kothe_1930"
+source_url: "https://en.wikipedia.org/wiki/K%C3%B6the_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,110 @@
+id: opa.phys.quantum-information.ppt-bound-entanglement
+kind: problem
+title: "PPT Bound Entanglement Problem"
+aliases:
+  - "Bound Entanglement Conjecture"
+  - "PPT Entanglement Distillation Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine whether every entangled quantum state with a positive partial transpose
+    (PPT) is bound entangled, meaning no pure entanglement can be distilled from it
+    by local operations and classical communication (LOCC). Equivalently, prove or
+    disprove that there exist NPT (negative partial transpose) bound entangled states,
+    or that the PPT condition is both necessary and sufficient for undistillability.
+  informal: >
+    Some quantum states are entangled but their entanglement cannot be "purified" or
+    concentrated into a useful form. The PPT bound entanglement problem asks whether
+    having a positive partial transpose is exactly the dividing line between distillable
+    and undistillable entanglement.
+
+why_it_matters: >
+  Understanding bound entanglement is fundamental to quantum information theory.
+  It determines the structure of entanglement as a resource, impacts quantum
+  communication protocols, and connects to key questions in operator algebras
+  and the geometry of quantum states.
+
+prerequisites:
+  - quantum information theory
+  - entanglement theory
+  - operator algebras
+  - linear algebra
+  - convex geometry
+
+dates:
+  first_stated: 1998
+
+sources:
+  canonical:
+    - source_id: src_horodecki_1998
+      kind: paper
+      title: "Mixed-State Entanglement and Distillation: Is there a Bound Entanglement in Nature?"
+      url: "https://doi.org/10.1103/PhysRevLett.80.5239"
+      year: 1998
+      locator: "Physical Review Letters 80, 5239"
+  status_evidence:
+    - source_id: src_horodecki_review_2009
+      kind: survey
+      title: "Quantum entanglement"
+      url: "https://doi.org/10.1103/RevModPhys.81.865"
+      year: 2009
+
+partial_results:
+  - summary: "Horodecki et al. proved the existence of PPT bound entangled states in 1998."
+    year: 1998
+  - summary: "The distillability problem was shown to be equivalent to several other open questions in quantum information theory."
+    year: 2000
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.npt-bound-entanglement-existence"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.50
+  toolability: 0.40
+  formality: 0.65
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    The PPT bound entanglement problem asks whether positive partial transpose is the exact criterion for undistillability of entangled quantum states.
+  decomposition:
+    - "Characterize the structure of PPT entangled states"
+    - "Determine whether NPT bound entangled states exist"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

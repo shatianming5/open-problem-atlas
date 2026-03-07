@@ -1,0 +1,11 @@
+title: "Global Regularity for Euler Equations"
+statement: "Do solutions of the 3D incompressible Euler equations develop finite-time singularities from smooth initial data?"
+source_id: "src_beale_1984"
+source_url: "https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

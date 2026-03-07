@@ -1,0 +1,11 @@
+title: "Conformal Bootstrap Rigorous Bounds in 3D Ising"
+statement: "Can the conformal bootstrap program produce rigorous mathematical proofs of the critical exponents of the 3D Ising model matching numerical results?"
+source_id: "src_elshowk_2021"
+source_url: "https://arxiv.org/abs/1203.6064"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

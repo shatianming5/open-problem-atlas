@@ -1,0 +1,11 @@
+title: "Cherlin-Zilber Conjecture"
+statement: "Every simple infinite group of finite Morley rank is an algebraic group over an algebraically closed field."
+source_id: "src_cherlin_1979"
+source_url: "https://en.wikipedia.org/wiki/Cherlin%E2%80%93Zilber_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "logic"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

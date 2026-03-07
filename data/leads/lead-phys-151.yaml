@@ -1,0 +1,11 @@
+title: "Mott Transition in the Hubbard Model"
+statement: "Can the metal-insulator (Mott) transition in the two-dimensional Hubbard model be characterized exactly, including the nature of the transition and the critical doping?"
+source_id: "src_imada_1998"
+source_url: "https://doi.org/10.1103/RevModPhys.70.1039"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

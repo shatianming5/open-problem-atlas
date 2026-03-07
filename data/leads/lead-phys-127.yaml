@@ -1,0 +1,11 @@
+title: "BKL Cosmological Singularity"
+statement: "Is the Belinsky-Khalatnikov-Lifshitz oscillatory approach to cosmological singularities generic for solutions of the Einstein equations?"
+source_id: "src_berger_2002"
+source_url: "https://doi.org/10.12942/lrr-2002-1"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

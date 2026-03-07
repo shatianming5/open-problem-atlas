@@ -1,0 +1,11 @@
+title: "Exact Distance Oracles"
+statement: "Can a compact data structure of size O(n^{1+epsilon}) answer exact distance queries in general weighted graphs in O(1) time?"
+source_id: "src_thorup_zwick_2005"
+source_url: "https://doi.org/10.1145/1044731.1044732"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

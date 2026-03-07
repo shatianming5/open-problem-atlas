@@ -1,0 +1,11 @@
+title: "Cerny Conjecture"
+statement: "Every synchronizing deterministic finite automaton with n states has a synchronizing word of length at most (n-1)^2."
+source_id: "src_cerny_1964"
+source_url: "https://en.wikipedia.org/wiki/%C4%8Cern%C3%BD_conjecture"
+domain_hint: "theoretical-cs"
+subdomain_hint: "automata-theory"
+confidence: 0.6
+extraction_method: "manual_seed"
+discovered_by: "seed"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

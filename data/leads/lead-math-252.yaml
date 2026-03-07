@@ -1,0 +1,11 @@
+title: "Ruzsa's Conjecture on Measure and Sumsets"
+statement: "If A is a subset of Z with positive upper Banach density, then A-A contains a Bohr neighborhood."
+source_id: "src_ruzsa_1991"
+source_url: "https://en.wikipedia.org/wiki/Sumset"
+domain_hint: "mathematics"
+subdomain_hint: "measure-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

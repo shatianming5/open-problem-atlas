@@ -1,0 +1,11 @@
+title: "Toms-Winter Conjecture"
+statement: "For simple separable nuclear unital C*-algebras, finite nuclear dimension, Z-stability, and strict comparison are equivalent."
+source_id: "src_tomswinter_2008"
+source_url: "https://en.wikipedia.org/wiki/Toms%E2%80%93Winter_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "operator-algebras"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

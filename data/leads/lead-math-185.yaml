@@ -1,0 +1,11 @@
+title: "Density of Axiom A Diffeomorphisms"
+statement: "Is the set of Axiom A diffeomorphisms dense in the space of all C^r diffeomorphisms of a compact manifold (Smale's conjecture)?"
+source_id: "src_smale_1967"
+source_url: "https://en.wikipedia.org/wiki/Axiom_A"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

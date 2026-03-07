@@ -1,0 +1,113 @@
+id: opa.mathematics.number-theory.erdos-straus-conjecture
+kind: problem
+title: "Erdos-Straus Conjecture"
+aliases:
+  - "Erdős–Straus Conjecture"
+  - "4/n Egyptian Fraction Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every integer n >= 2, there exist positive integers x, y, z such that
+    4/n = 1/x + 1/y + 1/z.
+  informal: >
+    The conjecture claims that for any integer n >= 2, the fraction 4/n can always be
+    written as a sum of exactly three unit fractions (fractions with numerator 1).
+
+why_it_matters: >
+  The Erdos-Straus conjecture is a central problem in the theory of Egyptian fractions,
+  connecting elementary number theory with Diophantine equations. Its resolution would
+  advance understanding of the representability properties of rational numbers as sums of
+  unit fractions.
+
+prerequisites:
+  - elementary number theory
+  - Diophantine equations
+  - modular arithmetic
+
+dates:
+  first_stated: 1948
+
+sources:
+  canonical:
+    - source_id: src_erdos_1950
+      kind: paper
+      title: "On a Diophantine equation"
+      authors:
+        - "Paul Erdős"
+      year: 1950
+    - source_id: src_oblaath_1950
+      kind: paper
+      title: "Sur l'équation diophantienne 4/n = 1/x_1 + 1/x_2 + 1/x_3"
+      authors:
+        - "Richard Obláth"
+      year: 1950
+  status_evidence:
+    - source_id: src_swett_1999
+      kind: paper
+      title: "Computational verification of the Erdős–Straus conjecture"
+      url: "http://math.uindy.edu/swett/esc.htm"
+      year: 1999
+
+partial_results:
+  - summary: "Verified computationally for all n up to 10^14 by Allan Swett and later extended by others."
+    year: 2014
+  - summary: "Schinzel showed the conjecture holds for all n not congruent to 1 (mod 24) by elementary parametric identities."
+    year: 1956
+  - summary: "The density of integers n for which 4/n has a three-term Egyptian fraction representation is 1 (Vaughan, Elsholtz, Tao)."
+    year: 2011
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.40
+  toolability: 0.75
+  formality: 0.85
+  ai_fit: 0.60
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Erdos-Straus conjecture states that for every integer n >= 2, the fraction 4/n
+    can be expressed as a sum of three unit fractions, verified computationally to very
+    large bounds but still open in general.
+  decomposition:
+    - "Analyzing residue classes modulo small numbers and finding parametric identity families"
+    - "Extending computational verification and refining probabilistic heuristics"
+    - "Connecting to sieve methods and the distribution of primes in special forms"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Schwinger Model Exact Solution Extensions"
+statement: "Can the exact solvability of the Schwinger model be extended to QED in higher dimensions or to non-Abelian gauge theories in two dimensions?"
+source_id: "src_schwinger_1962"
+source_url: "https://doi.org/10.1103/PhysRev.128.2425"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

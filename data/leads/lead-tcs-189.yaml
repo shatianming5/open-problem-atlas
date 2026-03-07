@@ -1,0 +1,11 @@
+title: "Differentially Private Learning Optimal Bounds"
+statement: "What are the optimal sample complexity bounds for differentially private PAC learning for various concept classes?"
+source_id: "src_bun_et_al_2020"
+source_url: "https://doi.org/10.1145/3381868"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

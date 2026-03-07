@@ -1,0 +1,11 @@
+title: "Rauzy Gasket Conjecture"
+statement: "The Rauzy gasket (arising from interval exchange transformations) has Hausdorff dimension strictly between 1 and 2."
+source_id: "src_rauzy_1979"
+source_url: "https://en.wikipedia.org/wiki/Interval_exchange_transformation"
+domain_hint: "mathematics"
+subdomain_hint: "ergodic-theory"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

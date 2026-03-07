@@ -1,0 +1,11 @@
+title: "Yang-Mills Existence and Mass Gap"
+statement: "Prove that for any compact simple gauge group, quantum Yang-Mills theory on R^4 exists and has a positive mass gap. This is one of the Millennium Prize Problems."
+source_id: "src_jaffe_2006"
+source_url: "https://www.claymath.org/millennium/yang-mills-the-maths-gap/"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

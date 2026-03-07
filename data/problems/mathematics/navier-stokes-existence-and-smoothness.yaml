@@ -1,0 +1,138 @@
+id: opa.mathematics.analysis.navier-stokes-existence-and-smoothness
+kind: problem
+title: "Navier-Stokes Existence and Smoothness"
+aliases:
+  - "Navier-Stokes Problem"
+  - "Navier-Stokes Millennium Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - analysis
+  - partial-differential-equations
+  - mathematical-physics
+
+problem_type: existence
+answer_type: existential
+verification_mode: proof
+
+statement:
+  canonical: >
+    In three spatial dimensions, given any initial velocity field v_0(x) that is smooth and
+    divergence-free (and decays sufficiently rapidly at infinity), prove one of the following:
+    (A) There exist smooth functions v(x,t) (velocity) and p(x,t) (pressure) defined for all
+    t > 0 that satisfy the incompressible Navier-Stokes equations
+    dv/dt + (v . nabla)v = -nabla p + nu Delta v, div v = 0,
+    with v(x, 0) = v_0(x), and v has bounded energy for all t > 0; or
+    (B) There exists a smooth, divergence-free initial condition v_0 for which no such smooth
+    solution exists for all t > 0 (i.e., singularities develop in finite time).
+  informal: >
+    The Navier-Stokes equations describe the motion of fluids like water and air. In three
+    dimensions, we do not know whether smooth solutions always exist for all time, or whether
+    the fluid can develop a "singularity" where the velocity becomes infinite. This problem
+    asks for a definitive answer.
+
+why_it_matters: >
+  The Navier-Stokes existence and smoothness problem is one of the seven Millennium Prize
+  Problems. The Navier-Stokes equations are the fundamental equations governing fluid dynamics
+  and are used throughout science and engineering. Understanding whether solutions can blow up
+  in finite time is crucial for the mathematical foundations of fluid mechanics and has
+  implications for turbulence theory.
+
+prerequisites:
+  - partial differential equations
+  - functional analysis
+  - Sobolev spaces
+  - fluid dynamics
+  - harmonic analysis
+
+dates:
+  first_stated: 1845
+
+sources:
+  canonical:
+    - source_id: src_fefferman_2000
+      kind: problem_list
+      title: "Existence and Smoothness of the Navier-Stokes Equation (Millennium Prize Problem description)"
+      authors:
+        - "Charles L. Fefferman"
+      url: "https://www.claymath.org/millennium/navier-stokes-equation/"
+      year: 2000
+    - source_id: src_navier_1822
+      kind: paper
+      title: "Memoire sur les lois du mouvement des fluides"
+      authors:
+        - "Claude-Louis Navier"
+      year: 1822
+  status_evidence:
+    - source_id: src_robinson_2016
+      kind: textbook
+      title: "The Three-Dimensional Navier-Stokes Equations"
+      authors:
+        - "James C. Robinson"
+        - "Jose L. Rodrigo"
+        - "Witold Sadowski"
+      year: 2016
+
+partial_results:
+  - summary: "Leray proved existence of weak solutions (Leray-Hopf solutions) in 3D for all time."
+    year: 1934
+  - summary: "Caffarelli, Kohn, and Nirenberg proved that the set of singular points in space-time has zero one-dimensional Hausdorff measure."
+    year: 1982
+  - summary: "In 2D, global existence and uniqueness of smooth solutions is fully established."
+    year: 1969
+  - summary: "Tao constructed a modified Navier-Stokes system (averaged equations) exhibiting finite-time blowup, showing certain approaches cannot work."
+    year: 2016
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 1.00
+  underexplored: 0.15
+  toolability: 0.40
+  formality: 0.90
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Navier-Stokes problem asks whether smooth solutions to the 3D incompressible
+    Navier-Stokes equations exist for all time or can develop singularities. It is a
+    Millennium Prize Problem fundamental to the mathematical foundations of fluid dynamics.
+  decomposition:
+    - "Regularity criteria and blow-up analysis for critical Sobolev norms"
+    - "Energy methods and enstrophy growth estimates in 3D"
+    - "Modified equation approaches and potential finite-time singularity constructions"
+  disclaimer: unverified
+
+prize:
+  amount: "1000000"
+  currency: "USD"
+  offered_by: "Clay Mathematics Institute"
+  url: "https://www.claymath.org/millennium/navier-stokes-equation/"
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

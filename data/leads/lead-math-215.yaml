@@ -1,0 +1,11 @@
+title: "Lawson's Conjecture"
+statement: "The Clifford torus is the only minimally embedded torus in S^3."
+source_id: "src_lawson_1970"
+source_url: "https://en.wikipedia.org/wiki/Lawson%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "differential-geometry"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

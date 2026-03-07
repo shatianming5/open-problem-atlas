@@ -1,0 +1,11 @@
+title: "Free Group Factor Problem"
+statement: "Are the free group factors L(F_n) and L(F_m) isomorphic for n != m?"
+source_id: "src_murray_1943"
+source_url: "https://en.wikipedia.org/wiki/Free_group_factor"
+domain_hint: "mathematics"
+subdomain_hint: "operator-algebras"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

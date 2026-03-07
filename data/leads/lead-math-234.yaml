@@ -1,0 +1,11 @@
+title: "Generalized Nakayama Conjecture"
+statement: "For each indecomposable projective module P over an Artin algebra, there exists i > 0 with Ext^i(D(A), P) nonzero."
+source_id: "src_auslanderreiten_1975b"
+source_url: "https://en.wikipedia.org/wiki/Nakayama_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "homological-algebra"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Vaught's Conjecture"
+statement: "A countable first-order complete theory has either countably many or continuum-many nonisomorphic countable models."
+source_id: "src_vaught_1961"
+source_url: "https://en.wikipedia.org/wiki/Vaught_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "logic"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

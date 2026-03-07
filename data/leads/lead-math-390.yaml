@@ -1,0 +1,11 @@
+title: "Density of Hyperbolicity Conjecture"
+statement: "Hyperbolic parameters are dense in the Mandelbrot set."
+source_id: "src_fatou_1920"
+source_url: "https://en.wikipedia.org/wiki/Mandelbrot_set#Conjectures"
+domain_hint: "mathematics"
+subdomain_hint: "complex-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

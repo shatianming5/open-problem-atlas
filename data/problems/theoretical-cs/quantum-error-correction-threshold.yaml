@@ -1,0 +1,115 @@
+id: opa.tcs.quantum-computing.quantum-error-correction-threshold
+kind: problem
+title: "Quantum Error Correction Threshold (Exact)"
+aliases:
+  - "Fault-tolerant threshold exact value"
+  - "Accuracy threshold theorem optimal bound"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    The threshold theorem for quantum computation states that if the error rate per
+    gate is below a threshold p_th, arbitrary long quantum computations can be
+    performed with polynomial overhead. What is the exact value of p_th for the most
+    general noise model? Current estimates range from 10^-4 to 10^-2 depending on the
+    model and error correction code.
+  informal: >
+    How noisy can quantum gates be while still allowing reliable quantum computation
+    through error correction? We know a threshold exists, but its exact value depends
+    on details that are not fully understood.
+
+why_it_matters: >
+  The error correction threshold determines the engineering requirements for building
+  a scalable quantum computer. A higher threshold would make quantum computing more
+  practical; a lower one would demand more stringent hardware.
+
+prerequisites:
+  - quantum error correction
+  - fault-tolerant quantum computation
+  - stabilizer codes
+  - topological codes
+
+dates:
+  first_stated: 1996
+
+sources:
+  canonical:
+    - source_id: src_aharonov_ben_or_1997
+      kind: paper
+      title: "Fault-Tolerant Quantum Computation with Constant Error"
+      authors:
+        - "Dorit Aharonov"
+        - "Michael Ben-Or"
+      url: "https://doi.org/10.1145/258533.258579"
+      year: 1997
+  status_evidence:
+    - source_id: src_knill_2005
+      kind: paper
+      title: "Quantum Computing with Realistically Noisy Devices"
+      authors:
+        - "Emanuel Knill"
+      url: "https://doi.org/10.1038/nature03350"
+      year: 2005
+
+partial_results:
+  - summary: "Aharonov and Ben-Or (1997) first proved the threshold theorem, with threshold around 10^-6."
+    year: 1997
+  - summary: "Knill (2005) showed thresholds as high as 3-5% are achievable with postselection and magic state distillation."
+    year: 2005
+  - summary: "Surface codes achieve thresholds around 1% for local noise models."
+    year: 2012
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.quantum-computing.topological-qc-universality"
+    - "opa.tcs.quantum-computing.quantum-supremacy-formal"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.40
+  formality: 0.75
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - qiskit
+
+machine_generated:
+  summary: >
+    Determining the exact quantum error correction threshold for various noise models
+    is critical for understanding the engineering requirements of scalable quantum computation.
+  decomposition:
+    - "Determine the optimal threshold for general adversarial noise"
+    - "Close the gap between theoretical thresholds and practical implementations"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

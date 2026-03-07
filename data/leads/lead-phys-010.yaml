@@ -1,0 +1,11 @@
+title: "Separability Problem Complexity"
+statement: "What is the precise computational complexity of determining whether a given quantum state is separable or entangled? The problem is known to be NP-hard in general, but the exact complexity class remains unclear."
+source_id: "src_gurvits_2003"
+source_url: "https://arxiv.org/abs/quant-ph/0303055"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

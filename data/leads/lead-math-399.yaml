@@ -1,0 +1,11 @@
+title: "Malle's Conjecture on Number Field Counting"
+statement: "The number of number fields with Galois group G and discriminant bounded by X grows as X^{a(G)} (log X)^{b(G)}."
+source_id: "src_malle_2002"
+source_url: "https://en.wikipedia.org/wiki/Malle%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "arithmetic-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,115 @@
+id: opa.mathematics.coding-theory.simplex-conjecture
+kind: problem
+title: "Simplex Conjecture in Information Theory"
+aliases:
+  - "Optimal Simplex Covering Conjecture"
+  - "Channel Coding Simplex Bound"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - coding-theory
+  - discrete-geometry
+  - mathematical-optimization
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Among all codes (finite subsets) of M points on the unit sphere S^{n-1} in R^n, the
+    configuration that maximizes the minimum pairwise distance is the regular simplex when
+    M = n+1. For general M > n+1, the conjecture extends to the arrangement maximizing the
+    minimum distance, which remains open in most dimensions for M not equal to special values.
+    In the information-theoretic formulation, the simplex code achieves the optimal error
+    exponent for equal-energy codes on the Gaussian channel.
+  informal: >
+    When packing M points on a sphere to maximize the minimum distance between any two points,
+    the optimal arrangement for n+1 points in n dimensions forms a regular simplex. The problem
+    is open for many other values of M and n.
+
+why_it_matters: >
+  The simplex conjecture connects discrete geometry (sphere packing), information theory
+  (channel coding), and mathematical optimization. The optimal arrangement of points on
+  spheres has applications in signal constellation design, error-correcting codes, and quantum
+  information theory.
+
+prerequisites:
+  - coding theory
+  - discrete geometry
+  - optimization
+  - information theory
+
+dates:
+  first_stated: 1967
+
+sources:
+  canonical:
+    - source_id: src_rankin_1955
+      kind: paper
+      title: "The closest packing of spherical caps in n dimensions"
+      authors:
+        - "Robert A. Rankin"
+      year: 1955
+      url: "https://doi.org/10.1017/S0013091500014194"
+  status_evidence:
+    - source_id: src_coxeter_1963
+      kind: textbook
+      title: "Regular Polytopes"
+      authors:
+        - "H.S.M. Coxeter"
+      year: 1963
+
+partial_results:
+  - summary: "Proved for M = n+1 (simplex is optimal) in all dimensions."
+    year: 1955
+  - summary: "Proved for M = 2n (cross-polytope is optimal) by Rankin."
+    year: 1955
+  - summary: "Open for most intermediate values of M between n+1 and 2n."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.50
+  toolability: 0.65
+  formality: 0.80
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The simplex conjecture concerns optimal packing of points on spheres, proved for M=n+1
+    and M=2n but open for most intermediate values.
+  decomposition:
+    - "Linear programming bounds and Delsarte method"
+    - "Semidefinite programming relaxations"
+    - "Algebraic and geometric symmetry arguments"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

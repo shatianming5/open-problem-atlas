@@ -1,0 +1,113 @@
+id: opa.tcs.complexity-theory.nc-vs-p
+kind: problem
+title: "NC vs P Problem"
+aliases:
+  - "NC = P?"
+  - "Efficient parallelization question"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let NC denote the class of languages decidable by Boolean circuits of polylogarithmic
+    depth and polynomial size (equivalently, problems solvable in polylogarithmic
+    parallel time with polynomially many processors). Let P denote the class of
+    polynomial-time decidable languages. Does NC = P?
+  informal: >
+    Can every polynomial-time problem be efficiently parallelized? That is, can
+    we always achieve a massive speedup by using many processors working in parallel?
+
+why_it_matters: >
+  The NC vs P question captures whether inherently sequential computation exists.
+  If NC != P, there are problems that can be solved efficiently but cannot be
+  significantly sped up through parallelism. P-complete problems like the circuit
+  value problem are candidates for such inherently sequential problems.
+
+prerequisites:
+  - parallel computation
+  - circuit complexity
+  - P-completeness
+  - NC hierarchy
+
+dates:
+  first_stated: 1979
+
+sources:
+  canonical:
+    - source_id: src_pippenger_1979
+      kind: paper
+      title: "On Simultaneous Resource Bounds"
+      authors:
+        - "Nicholas Pippenger"
+      url: "https://doi.org/10.1109/SFCS.1979.27"
+      year: 1979
+  status_evidence:
+    - source_id: src_greenlaw_hoover_ruzzo_1995
+      kind: textbook
+      title: "Limits to Parallel Computation: P-Completeness Theory"
+      authors:
+        - "Raymond Greenlaw"
+        - "H. James Hoover"
+        - "Walter Ruzzo"
+      url: "https://global.oup.com/academic/product/limits-to-parallel-computation-9780195085914"
+      year: 1995
+
+partial_results:
+  - summary: "Many natural problems have been shown P-complete under NC reductions, including the circuit value problem, linear programming, and maximum flow."
+    year: 1995
+  - summary: "NC^1 is known to be contained in L is contained in NL is contained in NC^2, but no separation between any adjacent pair is known."
+    year: 1979
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.l-vs-p"
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.20
+  formality: 0.90
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The NC vs P problem asks whether all polynomial-time problems can be efficiently
+    parallelized, or whether inherently sequential computation exists.
+  decomposition:
+    - "Prove circuit depth lower bounds for P-complete problems"
+    - "Develop new techniques for showing problems require sequential computation"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

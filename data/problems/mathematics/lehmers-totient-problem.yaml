@@ -1,0 +1,106 @@
+id: opa.mathematics.number-theory.lehmers-totient-problem
+kind: problem
+title: "Lehmer's Totient Problem"
+aliases:
+  - "Lehmer's Conjecture on Euler's Totient"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There is no composite positive integer n such that Euler's totient function phi(n)
+    divides n - 1. Equivalently, if phi(n) | (n - 1), then n is prime.
+  informal: >
+    Euler's totient function phi(n) counts how many integers from 1 to n are coprime to n.
+    For primes p, phi(p) = p - 1, which divides p - 1. The question asks whether any
+    composite number can also have the property that phi(n) divides n - 1.
+
+why_it_matters: >
+  Lehmer's totient problem is a fundamental question in multiplicative number theory connecting
+  the structure of Euler's totient function to primality testing. Its resolution would clarify
+  the extent to which the divisibility condition phi(n) | (n-1) characterizes primes.
+
+prerequisites:
+  - elementary number theory
+  - multiplicative functions
+  - analytic number theory
+
+dates:
+  first_stated: 1932
+
+sources:
+  canonical:
+    - source_id: src_lehmer_1932
+      kind: paper
+      title: "On Euler's totient function"
+      authors:
+        - "Derrick Henry Lehmer"
+      url: "https://doi.org/10.1090/S0002-9904-1932-05521-5"
+      year: 1932
+  status_evidence:
+    - source_id: src_banks_luca_2012
+      kind: paper
+      title: "Composite integers n for which φ(n) | n − 1"
+      url: "https://doi.org/10.4064/aa152-2-1"
+      year: 2012
+
+partial_results:
+  - summary: "Any counterexample n must be odd and squarefree, and must have at least 15 distinct prime factors (Cohen and Hagis, 1980)."
+    year: 1980
+  - summary: "Any counterexample must exceed 10^30 (current computational bounds)."
+    year: 2011
+  - summary: "Luca showed that there are at most finitely many counterexamples with a fixed number of prime factors."
+    year: 2007
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.45
+  toolability: 0.65
+  formality: 0.90
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Lehmer's totient problem asks whether any composite n satisfies phi(n) | (n-1), with
+    all evidence suggesting the answer is no.
+  decomposition:
+    - "Strengthening lower bounds on the number of prime factors of any counterexample"
+    - "Analyzing structural constraints from the multiplicative properties of phi"
+    - "Connecting to Carmichael numbers and pseudoprimality conditions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

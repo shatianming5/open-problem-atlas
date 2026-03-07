@@ -1,0 +1,11 @@
+title: "Kadison-Singer Problem Generalizations"
+statement: "While the Kadison-Singer problem was solved by Marcus-Spielman-Srivastava, quantitative improvements and generalizations to other operator algebras remain open."
+source_id: "src_marcus_2015"
+source_url: "https://arxiv.org/abs/1306.3969"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

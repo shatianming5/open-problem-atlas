@@ -1,0 +1,11 @@
+title: "Hodge Conjecture"
+statement: "Every Hodge class on a projective complex algebraic variety is a rational linear combination of classes of algebraic cycles."
+source_id: "src_hodge_1950"
+source_url: "https://www.claymath.org/millennium-problems/hodge-conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

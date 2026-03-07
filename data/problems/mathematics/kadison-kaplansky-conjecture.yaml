@@ -1,0 +1,112 @@
+id: opa.mathematics.functional-analysis.kadison-kaplansky-conjecture
+kind: problem
+title: "Kadison-Kaplansky Conjecture"
+aliases:
+  - "Kaplansky Idempotent Conjecture"
+  - "Kadison Idempotent Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - functional-analysis
+  - non-commutative-algebra
+  - algebraic-topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a torsion-free discrete group G, the reduced group C*-algebra C*_r(G) contains no
+    idempotent elements other than 0 and 1. Equivalently, the Kadison-Kaplansky conjecture
+    asserts that for torsion-free groups, the K_0 group of C*_r(G) has no non-trivial
+    projections.
+  informal: >
+    If a discrete group has no elements of finite order (other than the identity), then a
+    certain operator algebra built from the group should have no non-trivial projections.
+
+why_it_matters: >
+  The Kadison-Kaplansky conjecture is a fundamental problem in operator algebras and noncommutative
+  geometry. It is implied by the Baum-Connes conjecture, which is one of the most important
+  conjectures connecting topology, geometry, and analysis. Progress on this conjecture has driven
+  the development of K-theory for operator algebras and index theory.
+
+prerequisites:
+  - operator algebras
+  - K-theory
+  - group theory
+  - noncommutative geometry
+
+dates:
+  first_stated: 1967
+
+sources:
+  canonical:
+    - source_id: src_kadison_1967
+      kind: paper
+      title: "Operator algebras and group representations"
+      authors:
+        - "Richard V. Kadison"
+      year: 1967
+  status_evidence:
+    - source_id: src_valette_2002
+      kind: textbook
+      title: "Introduction to the Baum-Connes Conjecture"
+      authors:
+        - "Alain Valette"
+      url: "https://doi.org/10.1007/978-3-0348-8187-6"
+      year: 2002
+
+partial_results:
+  - summary: "Proved for groups satisfying the Baum-Connes conjecture, including amenable groups, hyperbolic groups, and groups acting on trees."
+    year: 2002
+  - summary: "Lafforgue proved the Baum-Connes conjecture for hyperbolic groups, implying Kadison-Kaplansky."
+    year: 2012
+  - summary: "The conjecture is open for general torsion-free groups, e.g., Thompson's group F."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.45
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Kadison-Kaplansky conjecture asserts that the reduced C*-algebra of a torsion-free group
+    has no non-trivial idempotents. It follows from the Baum-Connes conjecture.
+  decomposition:
+    - "K-theoretic and index-theoretic approaches"
+    - "Baum-Connes conjecture and its status for various group classes"
+    - "Explicit constructions in specific torsion-free groups"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

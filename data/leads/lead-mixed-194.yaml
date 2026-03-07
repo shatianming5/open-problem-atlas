@@ -1,0 +1,11 @@
+title: "Thue-Morse Sequence and Rudin-Shapiro Pattern"
+statement: "Can extremal properties of the Thue-Morse and Rudin-Shapiro sequences be proved optimal among all binary sequences for their respective discrepancy-like measures?"
+source_id: "src_konieczny_2023"
+source_url: "https://arxiv.org/abs/2304.07441"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,108 @@
+id: opa.mathematics.graph-theory.overfull-conjecture
+kind: problem
+title: "Overfull Conjecture"
+aliases:
+  - "Chetwynd-Hilton Overfull Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let G be a graph with maximum degree Delta(G) > n/3, where n = |V(G)|. Then the
+    chromatic index chi'(G) = Delta(G) + 1 (i.e., G is Class 2) if and only if G contains
+    an overfull subgraph H with Delta(H) = Delta(G). A graph H is overfull if |E(H)| >
+    Delta(H) * floor(|V(H)|/2).
+  informal: >
+    For graphs with sufficiently high maximum degree, the only reason a graph needs one
+    extra color for edge-coloring (beyond its maximum degree) is if it contains a dense
+    substructure (an overfull subgraph) that forces this.
+
+why_it_matters: >
+  The Overfull conjecture, posed by Chetwynd and Hilton in 1986, would provide a complete
+  characterization of the chromatic index for graphs with large maximum degree. By Vizing's
+  theorem, every simple graph has chromatic index Delta or Delta + 1. Determining which case
+  holds is NP-complete in general, but the Overfull conjecture implies it can be decided in
+  polynomial time for dense graphs.
+
+prerequisites:
+  - graph theory
+  - edge coloring
+  - Vizing's theorem
+
+dates:
+  first_stated: 1986
+
+sources:
+  canonical:
+    - source_id: src_chetwynd_hilton_1986
+      kind: paper
+      title: "Star multigraphs with three vertices of maximum degree"
+      authors:
+        - "Amanda G. Chetwynd"
+        - "Anthony J.W. Hilton"
+      year: 1986
+  status_evidence:
+    - source_id: src_mcdonald_2013
+      kind: survey
+      title: "Edge-colorings"
+      url: "https://doi.org/10.1007/978-1-4614-6971-1"
+      year: 2013
+
+partial_results:
+  - summary: "The conjecture is proved for graphs with Delta(G) >= (2/3)|V(G)| by Chetwynd and Hilton."
+    year: 1989
+  - summary: "Plantholt and Tipnis proved the conjecture for graphs with Delta(G) >= (sqrt(7/2))|V(G)|^{1/2}."
+    year: 1991
+  - summary: "The conjecture holds for regular graphs (a regular graph is overfull if and only if it has odd order)."
+    year: 1986
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.72
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Overfull conjecture characterizes when a dense graph needs Delta+1 colors for
+    edge-coloring: precisely when it contains an overfull subgraph. It is proved for graphs
+    with maximum degree at least 2n/3 but remains open in general.
+  decomposition:
+    - "Reducing the degree threshold for the conjecture"
+    - "Algorithmic implications for chromatic index computation"
+    - "Connections to Goldberg's conjecture on multigraph edge-coloring"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

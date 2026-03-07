@@ -1,0 +1,11 @@
+title: "Grothendieck's Standard Conjectures"
+statement: "Can the standard conjectures on algebraic cycles (Lefschetz and Hodge) be proved, implying Weil cohomology foundations for algebraic geometry?"
+source_id: "src_andre_2021"
+source_url: "https://arxiv.org/abs/1906.03564"
+domain_hint: "mathematics"
+subdomain_hint: "algebraic-geometry"
+confidence: 0.35
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

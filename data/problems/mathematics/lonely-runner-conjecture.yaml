@@ -1,0 +1,124 @@
+id: opa.mathematics.combinatorics.lonely-runner-conjecture
+kind: problem
+title: "Lonely Runner Conjecture"
+aliases:
+  - "Lonely Runner Problem"
+  - "Wills' Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - combinatorics
+  - number-theory
+  - diophantine-approximation
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Consider k >= 2 runners on a circular track of circumference 1, starting at the same point
+    and running with pairwise distinct constant speeds. For each runner, there exists a time at
+    which that runner is at distance at least 1/k from all other runners. Equivalently, for
+    every set of k-1 positive integers v_1, ..., v_{k-1}, there exists a real number t such
+    that for all i, the fractional part of t * v_i is in [1/k, (k-1)/k].
+  informal: >
+    Imagine k runners jogging around a circular track, all starting at the same point but at
+    different constant speeds. The conjecture says that each runner will, at some point in time,
+    be "lonely" -- separated from every other runner by at least 1/k of the track's length.
+
+why_it_matters: >
+  The lonely runner conjecture, posed by Wills (1967) and independently by Cusick (1982),
+  is a beautiful problem at the intersection of combinatorics, number theory, and Diophantine
+  approximation. It connects to view-obstruction problems in geometry, to flows in graphs,
+  and to chromatic numbers of distance graphs.
+
+prerequisites:
+  - Diophantine approximation
+  - combinatorics
+  - number theory
+  - harmonic analysis
+
+dates:
+  first_stated: 1967
+
+sources:
+  canonical:
+    - source_id: src_wills_1967
+      kind: paper
+      title: "Zwei Satze uber inhomogene diophantische Approximation von Irrationalzahlen"
+      authors:
+        - "Joerg M. Wills"
+      year: 1967
+    - source_id: src_cusick_1982
+      kind: paper
+      title: "View-obstruction problems in n-dimensional geometry"
+      authors:
+        - "Thomas W. Cusick"
+      year: 1982
+  status_evidence:
+    - source_id: src_tao_2018_lonely
+      kind: paper
+      title: "Some remarks on the lonely runner conjecture"
+      authors:
+        - "Terence Tao"
+      url: "https://arxiv.org/abs/1701.02048"
+      year: 2018
+
+partial_results:
+  - summary: "The conjecture is proved for k <= 7 runners (Barajas and Serra, 2008)."
+    year: 2008
+  - summary: "Bohman, Holzman, and Kleitman proved the conjecture for k = 6."
+    year: 2001
+  - summary: "Tao proved the conjecture in a number-theoretic special case using the polynomial method."
+    year: 2018
+  - summary: "Dubickas extended Tao's results to more general speed configurations."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.50
+  toolability: 0.70
+  formality: 0.85
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The lonely runner conjecture states that among k runners on a circular track with distinct
+    speeds, each runner is at some time separated from all others by at least 1/k of the
+    circumference. It is proved for up to 7 runners.
+  decomposition:
+    - "Diophantine approximation and inhomogeneous linear forms modulo 1"
+    - "Fourier-analytic and polynomial method techniques"
+    - "Computational and case-analysis approaches for k=8 and beyond"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

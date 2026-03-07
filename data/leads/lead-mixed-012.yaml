@@ -1,0 +1,11 @@
+title: "Existence of Conformal Field Theories in d>6"
+statement: "Do non-trivial interacting conformal field theories exist in spacetime dimensions greater than 6, or is there a rigorous proof that d=6 is the upper critical dimension?"
+source_id: "src_poland_2022"
+source_url: "https://arxiv.org/abs/1805.04405"
+domain_hint: "mathematical-physics"
+subdomain_hint: "conformal-field-theory"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

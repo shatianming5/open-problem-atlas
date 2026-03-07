@@ -1,0 +1,121 @@
+id: opa.mathematics.algebra.kaplansky-unit-conjecture
+kind: problem
+title: "Kaplansky's Unit Conjecture"
+aliases:
+  - "Kaplansky Unit Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let K be a field and G a torsion-free group. Then the only units in
+    the group ring K[G] are the trivial units, i.e., elements of the form
+    a·g where a ∈ K \ {0} and g ∈ G.
+  informal: >
+    If you form the group ring of a torsion-free group over a field, the
+    conjecture says the only invertible elements are the obvious ones:
+    nonzero scalar multiples of single group elements.
+
+why_it_matters: >
+  Kaplansky's unit conjecture is one of three famous conjectures (along with
+  the zero-divisor and idempotent conjectures) about group rings of torsion-free
+  groups. It is the strongest of the three. A counterexample was found by
+  Gardam (2021) over the field F_2 for a virtually abelian group, but the
+  conjecture remains open over fields of characteristic zero and for many
+  classes of groups.
+
+prerequisites:
+  - group ring theory
+  - group theory
+  - ring theory
+  - homological algebra
+
+dates:
+  first_stated: 1970
+
+sources:
+  canonical:
+    - source_id: src_kaplansky_1970
+      kind: paper
+      title: "Problems in the theory of rings revisited"
+      authors:
+        - "Irving Kaplansky"
+      year: 1970
+    - source_id: src_gardam_2021
+      kind: paper
+      title: "A counterexample to the unit conjecture for group rings"
+      authors:
+        - "Giles Gardam"
+      year: 2021
+      url: "https://doi.org/10.4007/annals.2021.194.3.9"
+  status_evidence:
+    - source_id: src_gardam_2021_evidence
+      kind: paper
+      title: "A counterexample to the unit conjecture for group rings"
+      authors:
+        - "Giles Gardam"
+      year: 2021
+      url: "https://doi.org/10.4007/annals.2021.194.3.9"
+
+partial_results:
+  - summary: "Gardam found a counterexample over F_2 for a virtually abelian group (the Hantzsche-Wendt group), refuting the conjecture in full generality."
+    year: 2021
+  - summary: "The conjecture remains open over fields of characteristic zero, particularly over Q."
+    year: 2024
+  - summary: "The zero-divisor conjecture (weaker version) remains fully open for all torsion-free groups."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.40
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - gap
+    - sage
+
+machine_generated:
+  summary: >
+    Kaplansky's unit conjecture asserts that group rings of torsion-free groups
+    over fields have only trivial units. Gardam refuted this over F_2 in 2021,
+    but the conjecture remains open over characteristic zero fields.
+  decomposition:
+    - "Characteristic zero case and connections to the Atiyah conjecture"
+    - "Combinatorial and computational approaches to group rings"
+    - "Extensions of Gardam's counterexample to other characteristics"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

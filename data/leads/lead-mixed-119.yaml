@@ -1,0 +1,11 @@
+title: "Wess-Zumino-Witten Models and Vertex Algebras"
+statement: "Can one fully classify rational vertex operator algebras arising from WZW models at all levels, including the non-simply-laced cases?"
+source_id: "src_arakawa_2023"
+source_url: "https://arxiv.org/abs/2302.03206"
+domain_hint: "mathematical-physics"
+subdomain_hint: "vertex-algebras"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

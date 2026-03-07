@@ -1,0 +1,11 @@
+title: "Computational-Statistical Gap in Learning"
+statement: "Can the conjectured computational-statistical gaps for planted problems be formally proved? Are there problems with polynomial samples but no polynomial algorithms?"
+source_id: "src_brennan_bresler_2020"
+source_url: "https://doi.org/10.1145/3406325.3451135"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

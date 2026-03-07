@@ -1,0 +1,11 @@
+title: "Worst-Case to Average-Case Reductions for Lattice Problems"
+statement: "Can the hardness of worst-case lattice problems like GapSVP be tightly reduced to average-case problems like LWE for all parameters?"
+source_id: "src_regev_2009"
+source_url: "https://doi.org/10.1145/1568318.1568324"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

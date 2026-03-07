@@ -1,0 +1,11 @@
+title: "Quantum Random Access Codes"
+statement: "What are the optimal success probabilities for quantum random access codes encoding n classical bits into m qubits for general n and m?"
+source_id: "src_ambainis_1999"
+source_url: "https://arxiv.org/abs/quant-ph/9904066"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

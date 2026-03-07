@@ -1,0 +1,11 @@
+title: "Erdos-Faber-Lovasz Conjecture Generalization"
+statement: "Following the proof of the Erdos-Faber-Lovasz conjecture by Kang et al. (2023), can the result be extended to fractional chromatic number or list coloring variants?"
+source_id: "src_kang_2023"
+source_url: "https://arxiv.org/abs/2101.04698"
+domain_hint: "mathematics"
+subdomain_hint: "graph-theory"
+confidence: 0.68
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

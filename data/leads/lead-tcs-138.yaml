@@ -1,0 +1,11 @@
+title: "Quantum Algorithms for Graph Properties"
+statement: "What is the quantum query complexity of determining graph connectivity and other monotone graph properties?"
+source_id: "src_durr_heiligman_hoyer_mhalla_2006"
+source_url: "https://doi.org/10.1007/s00453-006-0171-0"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

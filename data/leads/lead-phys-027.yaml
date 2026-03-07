@@ -1,0 +1,11 @@
+title: "Quantum Gravity and Quantum Error Correction"
+statement: "To what extent does the AdS/CFT correspondence realize quantum error correction, and can this framework be extended beyond the semiclassical regime?"
+source_id: "src_almheiri_2015"
+source_url: "https://arxiv.org/abs/1411.7041"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

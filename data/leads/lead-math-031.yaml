@@ -1,0 +1,11 @@
+title: "Hardy-Littlewood First Conjecture (Prime k-tuples)"
+statement: "The density of prime k-tuples (e.g., twin primes, prime triplets) follows a specific asymptotic formula involving a product over primes."
+source_id: "src_hardy_1923"
+source_url: "https://en.wikipedia.org/wiki/First_Hardy%E2%80%93Littlewood_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

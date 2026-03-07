@@ -1,0 +1,11 @@
+title: "Gyarfas-Sumner Conjecture"
+statement: "For every tree T and complete graph K_r, there exists a constant c such that every graph that is T-free and K_r-free has at most c vertices."
+source_id: "src_gyarfas_1975"
+source_url: "https://en.wikipedia.org/wiki/Gy%C3%A1rf%C3%A1s%E2%80%93Sumner_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,116 @@
+id: opa.mathematics.number-theory.twin-prime-conjecture
+kind: problem
+title: "Twin Prime Conjecture"
+aliases:
+  - "Twin Primes Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - analytic-number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There are infinitely many primes p such that p + 2 is also prime. Equivalently,
+    lim inf_{n -> infinity} (p_{n+1} - p_n) = 2, where p_n denotes the n-th prime number.
+  informal: >
+    Twin primes are pairs of prime numbers that differ by exactly 2, such as (3, 5), (11, 13),
+    and (17, 19). The twin prime conjecture asserts that there are infinitely many such pairs.
+
+why_it_matters: >
+  The twin prime conjecture is one of the oldest open problems in number theory, intimately
+  connected to the distribution of prime numbers. Its resolution would deepen our understanding
+  of prime gaps and has connections to sieve methods, the Hardy-Littlewood conjectures, and
+  the structure of the primes.
+
+prerequisites:
+  - analytic number theory
+  - sieve methods
+  - prime number theory
+
+dates:
+  first_stated: 1849
+
+sources:
+  canonical:
+    - source_id: src_de_polignac_1849
+      kind: paper
+      title: "Recherches nouvelles sur les nombres premiers"
+      authors:
+        - "Alphonse de Polignac"
+      year: 1849
+    - source_id: src_hardy_littlewood_1923
+      kind: paper
+      title: "Some problems of 'Partitio numerorum'; III: On the expression of a number as a sum of primes"
+      authors:
+        - "G. H. Hardy"
+        - "J. E. Littlewood"
+      year: 1923
+  status_evidence:
+    - source_id: src_zhang_2014
+      kind: paper
+      title: "Bounded gaps between primes"
+      url: "https://annals.math.princeton.edu/2014/179-3/p07"
+      year: 2014
+    - source_id: src_maynard_2015
+      kind: paper
+      title: "Small gaps between primes"
+      url: "https://annals.math.princeton.edu/2015/181-1/p07"
+      year: 2015
+
+partial_results:
+  - summary: "Yitang Zhang proved that there are infinitely many pairs of primes differing by at most 70,000,000."
+    year: 2013
+  - summary: "James Maynard and the Polymath8 project reduced the bound to 246: there are infinitely many pairs of primes with gap at most 246."
+    year: 2014
+  - summary: "Under the Elliott-Halberstam conjecture, Maynard's method gives a gap bound of 6."
+    year: 2014
+
+relations:
+  related:
+    - opa.mathematics.number-theory.goldbach-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.25
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The twin prime conjecture states that there are infinitely many pairs of primes differing
+    by 2. Major breakthroughs by Zhang and Maynard have reduced the proven bounded gap to 246.
+  decomposition:
+    - "Extending sieve-theoretic methods beyond the current gap bound of 246"
+    - "Connections to the Elliott-Halberstam conjecture and distribution of primes in arithmetic progressions"
+    - "Analytic approaches via Hardy-Littlewood circle method and prime k-tuple asymptotics"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Fine-Grained Complexity of Dynamic Connectivity"
+statement: "Is there a fully dynamic graph connectivity data structure with polylogarithmic worst-case update time, or is amortized poly-log optimal?"
+source_id: "src_chuzhoy_2023"
+source_url: "https://arxiv.org/abs/2308.14605"
+domain_hint: "theoretical-cs"
+subdomain_hint: "data-structures"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

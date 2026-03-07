@@ -1,0 +1,11 @@
+title: "Thermodynamic Uncertainty Relations"
+statement: "What are the tightest thermodynamic uncertainty relations for general Markov processes far from equilibrium with broken time-reversal symmetry?"
+source_id: "src_horowitz_2020"
+source_url: "https://arxiv.org/abs/1909.10526"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

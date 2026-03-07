@@ -1,0 +1,11 @@
+title: "Representation Type of Finite-Dimensional Algebras"
+statement: "Classify finite-dimensional algebras of tame representation type completely. The second Brauer-Thrall conjecture (now proven) leaves open the full wild/tame dichotomy in positive characteristic."
+source_id: "src_drozd_1980"
+source_url: "https://en.wikipedia.org/wiki/Brauer%E2%80%93Thrall_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

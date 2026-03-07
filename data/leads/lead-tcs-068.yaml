@@ -1,0 +1,11 @@
+title: "Optimal Streaming Algorithms for Frequency Moments"
+statement: "What are the exact space bounds for computing the k-th frequency moment in the streaming model for general k?"
+source_id: "src_alon_matias_szegedy_1999"
+source_url: "https://doi.org/10.1006/jcss.1997.1545"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

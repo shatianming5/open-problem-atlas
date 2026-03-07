@@ -1,0 +1,11 @@
+title: "Network Design with Degree Constraints"
+statement: "What is the approximability of degree-bounded network design problems such as minimum degree spanning tree?"
+source_id: "src_singh_lau_2015"
+source_url: "https://doi.org/10.1145/2746539.2746618"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

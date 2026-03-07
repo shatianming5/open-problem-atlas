@@ -1,0 +1,121 @@
+id: opa.mathematics.homological-algebra.chromatic-splitting-conjecture
+kind: problem
+title: "Chromatic Splitting Conjecture"
+aliases:
+  - "Hopkins' Chromatic Splitting Conjecture"
+  - "CSC in Stable Homotopy Theory"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - homological-algebra
+  - geometric-topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a prime p and chromatic level n, the homotopy type of the
+    E(n)-local sphere L_{E(n)} S^0 is determined by a specific splitting
+    of the chromatic fracture square. More precisely, the fiber of the
+    localization map L_{E(n)} S^0 -> L_{K(n)} S^0 decomposes as a
+    finite wedge of localizations L_{E(n-1)} S^{k_i} for specific shifts
+    k_i. This predicts the precise structure of the homotopy groups of
+    L_{E(n)} S^0 in terms of the Morava K-theory localizations.
+  informal: >
+    Chromatic homotopy theory breaks stable homotopy into layers by "color"
+    (chromatic level). The chromatic splitting conjecture predicts how
+    these layers fit together: the transition from one level to the next
+    should decompose in a very specific and simple way.
+
+why_it_matters: >
+  Hopkins' chromatic splitting conjecture is a central structural prediction
+  in chromatic homotopy theory, the dominant framework for understanding
+  stable homotopy theory. It would provide a complete inductive understanding
+  of how the chromatic layers assemble. Known to hold at chromatic level 1,
+  partial results exist at level 2, but the general case remains open and
+  has been shown to fail in certain formulations at large primes and high
+  chromatic levels.
+
+prerequisites:
+  - stable homotopy theory
+  - chromatic homotopy theory
+  - Morava K-theory and E-theory
+  - homological algebra
+
+dates:
+  first_stated: 1992
+
+sources:
+  canonical:
+    - source_id: src_hovey_1995
+      kind: paper
+      title: "Bousfield localization functors and Hopkins' chromatic splitting conjecture"
+      authors:
+        - "Mark Hovey"
+      year: 1995
+      locator: "The Cech Centennial, Contemporary Mathematics, vol. 181, pp. 225-250"
+  status_evidence:
+    - source_id: src_beaudry_2017
+      kind: paper
+      title: "The chromatic splitting conjecture at n = p = 2"
+      authors:
+        - "Agnes Beaudry"
+      year: 2017
+      locator: "Geometry & Topology, vol. 21, pp. 3213-3230"
+
+partial_results:
+  - summary: "Hopkins verified the conjecture at chromatic level n = 1 for all primes."
+    year: 1992
+  - summary: "Goerss, Henn, Mahowald, and Rezk verified the conjecture at n = 2, p = 3."
+    year: 2005
+  - summary: "Beaudry proved the conjecture at n = 2, p = 2."
+    year: 2017
+  - summary: "Barthel, Schlank, and others showed that naive generalizations of the conjecture fail at large n and p, requiring reformulations."
+    year: 2021
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    Hopkins' chromatic splitting conjecture predicts the precise decomposition
+    of E(n)-local spheres in chromatic homotopy theory. It holds at low
+    chromatic levels but the general formulation is under active revision.
+  decomposition:
+    - "Verification at chromatic level n = 2 for remaining primes"
+    - "Reformulation at higher chromatic levels"
+    - "Connections to the telescope conjecture and Picard groups"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

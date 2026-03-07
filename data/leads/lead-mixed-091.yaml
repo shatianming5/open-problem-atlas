@@ -1,0 +1,11 @@
+title: "Query Complexity of Local Search"
+statement: "What is the exact query complexity of local search on the Boolean hypercube? The gap between Omega(2^{n/2}/sqrt(n)) and O(2^{n/2} sqrt(n)) remains."
+source_id: "src_bruna_2023"
+source_url: "https://arxiv.org/abs/2309.04434"
+domain_hint: "theoretical-cs"
+subdomain_hint: "query-complexity"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

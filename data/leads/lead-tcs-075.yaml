@@ -1,0 +1,11 @@
+title: "Sublinear Algorithms for Edit Distance Estimation"
+statement: "Can edit distance be estimated to within a constant factor in truly sublinear time?"
+source_id: "src_batu_ergun_kilian_magen_raskhodnikova_rubinfeld_sami_2003"
+source_url: "https://doi.org/10.1145/780542.780590"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

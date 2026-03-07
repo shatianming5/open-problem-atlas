@@ -1,0 +1,11 @@
+title: "Smooth Realization Conjecture"
+statement: "Every ergodic measure-preserving system with finite entropy can be realized as a smooth diffeomorphism of a compact manifold."
+source_id: "src_katok_1980"
+source_url: "https://en.wikipedia.org/wiki/Ergodic_theory"
+domain_hint: "mathematics"
+subdomain_hint: "ergodic-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

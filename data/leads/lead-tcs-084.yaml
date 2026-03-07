@@ -1,0 +1,11 @@
+title: "Optimal Subset Sum Algorithms"
+statement: "Can Subset Sum be solved in time O*(2^{n/2-epsilon}) for some epsilon > 0, improving on meet-in-the-middle?"
+source_id: "src_bringmann_2017"
+source_url: "https://doi.org/10.1137/1.9781611974782.59"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

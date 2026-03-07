@@ -1,0 +1,11 @@
+title: "Polymath DHJ: Density Hales-Jewett Extensions"
+statement: "Can the Polymath1 density Hales-Jewett theorem bounds be made effective and tight, giving the exact threshold density?"
+source_id: "src_polymath1_2020"
+source_url: "https://arxiv.org/abs/0910.3926"
+domain_hint: "mathematics"
+subdomain_hint: "additive-combinatorics"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "SLE and Conformal Loop Ensembles in Higher Dimensions"
+statement: "Extend the theory of Schramm-Loewner evolution and conformal loop ensembles beyond two dimensions."
+source_id: "src_schramm_2000"
+source_url: "https://en.wikipedia.org/wiki/Schramm%E2%80%93Loewner_evolution"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

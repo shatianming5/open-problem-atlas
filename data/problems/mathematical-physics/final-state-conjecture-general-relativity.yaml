@@ -1,0 +1,133 @@
+id: opa.phys.general-relativity.final-state-conjecture-general-relativity
+kind: problem
+title: "Final State Conjecture in General Relativity"
+aliases:
+  - "Black Hole Stability and Final State"
+  - "Kerr Stability Conjecture"
+  - "No-Hair Theorem (Dynamic Version)"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - general-relativity
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Final State Conjecture asserts that generic, asymptotically flat vacuum initial
+    data (Sigma, h, K) for the Einstein vacuum equations Ric(g) = 0, satisfying the
+    constraint equations and possessing sufficient mass concentration, evolve to a
+    spacetime that asymptotically settles down to a finite number of Kerr black holes
+    moving apart from each other, plus gravitational radiation dispersing to null infinity.
+    More precisely, the maximal globally hyperbolic development (M, g) of generic
+    asymptotically flat initial data, assuming cosmic censorship, decomposes in the far
+    future into: (1) an exterior region approaching Minkowski space (for subcritical data)
+    or a finite union of regions each asymptotic to a member of the Kerr family
+    (M, g_{a_i, m_i}) with parameters (a_i, m_i), plus (2) gravitational radiation
+    escaping to future null infinity. This encompasses as special cases the nonlinear
+    stability of Minkowski space (proved by Christodoulou-Klainerman, 1993) and the
+    nonlinear stability of the Kerr family (partially resolved).
+  informal: >
+    According to general relativity, what is the ultimate fate of a gravitating system?
+    The final state conjecture says that any isolated gravitational system will eventually
+    settle down to a collection of Kerr black holes (rotating black holes described by
+    just mass and spin) flying apart, plus gravitational waves radiating away. This is
+    the dynamic version of the "no-hair theorem": black holes shed all their complexity
+    and are completely characterized by mass and angular momentum.
+
+why_it_matters: >
+  The final state conjecture is the central dynamical question in general relativity.
+  It unifies black hole uniqueness, stability, and the long-time behavior of Einstein's
+  equations into a single grand conjecture. Its resolution would confirm that Kerr black
+  holes are the universal endpoints of gravitational collapse, validate the theoretical
+  framework underlying gravitational wave astronomy (LIGO/Virgo observations), and
+  represent a crowning achievement of the mathematical theory of general relativity.
+
+prerequisites:
+  - general relativity
+  - geometric analysis
+  - partial differential equations (hyperbolic PDE)
+  - Kerr spacetime geometry
+  - gravitational wave theory
+
+dates:
+  first_stated: 1973
+
+sources:
+  canonical:
+    - source_id: src_kerr_1963
+      kind: paper
+      title: "Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics"
+      url: "https://doi.org/10.1103/PhysRevLett.11.237"
+      year: 1963
+      locator: "Physical Review Letters 11(5), 237-238"
+    - source_id: src_dafermos_rodnianski_2013
+      kind: paper
+      title: "Lectures on black holes and linear waves"
+      url: "https://arxiv.org/abs/0811.0354"
+      year: 2013
+      locator: "Clay Math. Proc. 17, 97-205"
+  status_evidence:
+    - source_id: src_klainerman_szeftel_2021
+      kind: paper
+      title: "Kerr stability for small angular momentum"
+      url: "https://arxiv.org/abs/2104.11857"
+      year: 2021
+
+partial_results:
+  - summary: "Christodoulou and Klainerman proved the nonlinear stability of Minkowski spacetime (the vacuum, zero-mass case of the final state conjecture)."
+    year: 1993
+  - summary: "Dafermos, Holzegel, Rodnianski, and Taylor proved the linear stability of the Schwarzschild black hole (non-rotating case)."
+    year: 2019
+  - summary: "Klainerman and Szeftel proved the nonlinear stability of Kerr black holes for small angular momentum |a| << m."
+    year: 2021
+  - summary: "Giorgi, Klainerman, and Szeftel extended the Kerr stability result, and Dafermos, Holzegel, Rodnianski, and Taylor independently proved Kerr stability for the full subextremal range |a| < m."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.general-relativity.cosmic-censorship-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.35
+  toolability: 0.30
+  formality: 0.70
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    The final state conjecture asserts that generic gravitational systems in general relativity asymptotically settle down to a finite collection of Kerr black holes plus dispersing gravitational radiation.
+  decomposition:
+    - "Prove nonlinear stability of Kerr black holes for the full subextremal range and extend to multi-black-hole configurations"
+    - "Establish global existence and asymptotic behavior results for the Einstein vacuum equations with generic data"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

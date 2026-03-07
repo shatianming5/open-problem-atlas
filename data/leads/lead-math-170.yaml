@@ -1,0 +1,11 @@
+title: "Upper Tail Large Deviations for Random Graphs"
+statement: "Determine the exact rate function for the upper tail of the number of triangles in G(n,p) for all p."
+source_id: "src_chatterjee_2012"
+source_url: "https://arxiv.org/abs/1105.4791"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

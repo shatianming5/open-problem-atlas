@@ -1,0 +1,11 @@
+title: "Arnold Diffusion"
+statement: "In a generic nearly integrable Hamiltonian system with more than two degrees of freedom, there exist orbits whose action variables change by O(1) over time (Arnold diffusion)."
+source_id: "src_arnold_1964"
+source_url: "https://en.wikipedia.org/wiki/Arnold_diffusion"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

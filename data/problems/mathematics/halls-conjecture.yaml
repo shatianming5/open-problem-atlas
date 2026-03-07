@@ -1,0 +1,110 @@
+id: opa.mathematics.number-theory.halls-conjecture
+kind: problem
+title: "Hall's Conjecture"
+aliases:
+  - "Marshall Hall's Conjecture"
+  - "Hall's Conjecture on the Distance Between Cubes and Squares"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every epsilon > 0, there exists a constant c(epsilon) > 0 such that if x and y are
+    positive integers with x^3 != y^2, then |x^3 - y^2| > c(epsilon) * x^{1/2 - epsilon}.
+    The strong form asserts that |x^3 - y^2| > c * x^{1/2} for an absolute constant c > 0.
+  informal: >
+    When a perfect cube and a perfect square are not equal, the gap between them grows at
+    least roughly as the square root of the cube. It is hard for a cube and a square to be
+    very close together without being equal.
+
+why_it_matters: >
+  Hall's conjecture is a fundamental Diophantine inequality related to the abc conjecture
+  and the theory of elliptic curves. It has direct implications for bounding solutions to
+  Mordell's equation y^2 = x^3 + k.
+
+prerequisites:
+  - Diophantine equations
+  - algebraic number theory
+  - elliptic curves
+
+dates:
+  first_stated: 1971
+
+sources:
+  canonical:
+    - source_id: src_hall_1971
+      kind: paper
+      title: "The Diophantine equation x^3 - y^2 = k"
+      authors:
+        - "Marshall Hall Jr."
+      url: "https://doi.org/10.1016/0022-314X(71)90058-8"
+      year: 1971
+  status_evidence:
+    - source_id: src_elkies_2007
+      kind: paper
+      title: "Rational points near curves and small nonzero |x^3 - y^2| via lattice reduction"
+      url: "https://doi.org/10.1007/978-3-540-79456-1_3"
+      year: 2007
+
+partial_results:
+  - summary: "Danilov proved that |x^3 - y^2| >> x^{1/2} / (log x)^c for some constant c, assuming the abc conjecture."
+    year: 1982
+  - summary: "Elkies found extremely close pairs (x^3, y^2) by lattice methods, but none violating the conjecture."
+    year: 2007
+  - summary: "The weak form (with epsilon) follows from the abc conjecture (Langevin, 1986)."
+    year: 1986
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.abc-conjecture-effective
+    - opa.mathematics.number-theory.pillais-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.45
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    Hall's conjecture bounds the minimal distance between perfect cubes and perfect squares,
+    asserting that |x^3 - y^2| grows at least as fast as x^{1/2 - epsilon}.
+  decomposition:
+    - "Connecting to the abc conjecture and deriving conditional results"
+    - "Lattice reduction methods to search for near-counterexamples"
+    - "Analyzing the equation via elliptic curve theory and heights"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

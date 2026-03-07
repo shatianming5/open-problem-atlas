@@ -1,0 +1,11 @@
+title: "Map Labeling Problem Complexity"
+statement: "What is the approximability of the maximum number of non-overlapping axis-aligned labels on a map?"
+source_id: "src_agarwal_van_kreveld_suri_1998"
+source_url: "https://doi.org/10.1007/PL00009192"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

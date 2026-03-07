@@ -1,0 +1,11 @@
+title: "Durdevic Conjecture on Quantum Principal Bundles"
+statement: "Classify all quantum principal bundles over quantum homogeneous spaces of compact quantum groups."
+source_id: "src_durdevic_1997"
+source_url: "https://arxiv.org/abs/q-alg/9507017"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.35
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

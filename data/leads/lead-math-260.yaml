@@ -1,0 +1,11 @@
+title: "Kakeya Maximal Function Conjecture"
+statement: "The Kakeya maximal function operator on R^n is bounded on L^n with a bound depending only on the dimension."
+source_id: "src_bourgain_1991"
+source_url: "https://en.wikipedia.org/wiki/Kakeya_set#Kakeya_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "measure-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

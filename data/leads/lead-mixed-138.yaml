@@ -1,0 +1,11 @@
+title: "Communication Complexity of Lifting Theorems"
+statement: "Can query-to-communication lifting theorems be made tight for all query measures, providing a complete dictionary between query and communication complexity?"
+source_id: "src_chattopadhyay_2022"
+source_url: "https://arxiv.org/abs/2204.10218"
+domain_hint: "theoretical-cs"
+subdomain_hint: "communication-complexity"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

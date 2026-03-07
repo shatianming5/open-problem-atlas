@@ -1,0 +1,112 @@
+id: opa.phys.general-relativity.bkl-conjecture-singularity-structure
+kind: problem
+title: "BKL Conjecture on Singularity Structure"
+aliases:
+  - "BKL Conjecture"
+  - "Belinski-Khalatnikov-Lifshitz Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - general-relativity
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove the BKL conjecture: generic spacelike singularities in solutions of the
+    Einstein equations are oscillatory (Mixmaster-like), locally spatially homogeneous,
+    and the dynamics at each spatial point near the singularity is well-approximated
+    by a sequence of Kasner epochs connected by BKL maps (Bianchi type IX or type VIII
+    dynamics). Specifically, prove that as the singularity is approached, spatial
+    derivatives become negligible compared to time derivatives ("asymptotically velocity
+    term dominated" or AVTD behavior is replaced by BKL oscillations for generic data).
+  informal: >
+    What happens at the singularity inside a black hole or at the Big Bang? The BKL
+    conjecture predicts a wild, chaotic oscillation of the geometry where each point
+    in space evolves independently. Proving this is one of the hardest problems in GR.
+
+why_it_matters: >
+  The BKL conjecture describes the generic structure of spacetime singularities in
+  general relativity. Proving it would complete our understanding of singularity
+  formation and has implications for quantum gravity, where knowledge of classical
+  singularity structure is essential.
+
+prerequisites:
+  - general relativity
+  - dynamical systems
+  - PDE theory
+  - geometric analysis
+  - Lorentzian geometry
+
+dates:
+  first_stated: 1970
+
+sources:
+  canonical:
+    - source_id: src_bkl_1970
+      kind: paper
+      title: "Oscillatory approach to a singular point in the relativistic cosmology"
+      url: "https://doi.org/10.1016/0001-8708(70)90024-X"
+      year: 1970
+      locator: "Advances in Physics 19, 525-573"
+  status_evidence:
+    - source_id: src_berger_2002
+      kind: survey
+      title: "Numerical Approaches to Spacetime Singularities"
+      url: "https://doi.org/10.12942/lrr-2002-1"
+      year: 2002
+
+partial_results:
+  - summary: "Ringstrom proved the BKL conjecture for Bianchi type IX cosmologies (spatially homogeneous case)."
+    year: 2001
+  - summary: "Numerical simulations by Garfinkle and others strongly support BKL behavior for inhomogeneous cosmologies."
+    year: 2004
+  - summary: "Damour, Henneaux, and Nicolai connected BKL dynamics to hyperbolic Kac-Moody algebras."
+    year: 2003
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.general-relativity.cosmic-censorship-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.50
+  toolability: 0.25
+  formality: 0.55
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the BKL conjecture that generic spacetime singularities are oscillatory and locally homogeneous.
+  decomposition:
+    - "Extend Ringstrom's proof from homogeneous to inhomogeneous spacetimes"
+    - "Prove that spatial derivatives are asymptotically negligible near generic singularities"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

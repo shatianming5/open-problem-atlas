@@ -1,0 +1,111 @@
+id: opa.phys.statistical-mechanics.percolation-threshold-exact-values
+kind: problem
+title: "Percolation Threshold Exact Values"
+aliases:
+  - "Critical Probability for Percolation"
+  - "Percolation Critical Points"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the exact percolation thresholds p_c for site percolation on common
+    lattices where exact values are not known, including the simple cubic lattice in
+    d=3 (numerically p_c approx 0.3116), the BCC lattice (p_c approx 0.2464), and
+    the FCC lattice (p_c approx 0.198). For bond percolation, determine exact p_c
+    for the simple cubic lattice (p_c approx 0.2488). Determine whether these
+    thresholds can be expressed in closed form or are transcendental numbers.
+  informal: >
+    At what probability does a random network first become connected across its whole
+    extent? For some 2D lattices, exact values are known (like p_c = 1/2 for bond
+    percolation on the square lattice), but for 3D lattices, only numerical estimates exist.
+
+why_it_matters: >
+  Percolation thresholds are fundamental constants in statistical mechanics and
+  probability theory. Finding exact values would deepen our understanding of phase
+  transitions and could reveal hidden mathematical structures.
+
+prerequisites:
+  - probability theory
+  - graph theory
+  - statistical mechanics
+  - combinatorics
+  - mathematical physics
+
+dates:
+  first_stated: 1957
+
+sources:
+  canonical:
+    - source_id: src_broadbent_1957
+      kind: paper
+      title: "Percolation processes I. Crystals and mazes"
+      url: "https://doi.org/10.1017/S0305004100033515"
+      year: 1957
+      locator: "Proc. Cambridge Philos. Soc. 53, 629-641"
+  status_evidence:
+    - source_id: src_grimmett_1999
+      kind: textbook
+      title: "Percolation (2nd edition)"
+      url: "https://doi.org/10.1007/978-3-662-03981-6"
+      year: 1999
+
+partial_results:
+  - summary: "Kesten proved p_c = 1/2 for bond percolation on the square lattice."
+    year: 1980
+  - summary: "Exact thresholds are known for several 2D lattices using self-duality and star-triangle transformations."
+    year: 2006
+  - summary: "High-precision numerical estimates exist for 3D lattices but no exact values."
+    year: 2014
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.universality-critical-exponents-proof"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.50
+  toolability: 0.45
+  formality: 0.70
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Determining exact percolation thresholds for common lattices in three and higher dimensions.
+  decomposition:
+    - "Find exact p_c for site percolation on the simple cubic lattice"
+    - "Determine whether 3D percolation thresholds are algebraic or transcendental"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

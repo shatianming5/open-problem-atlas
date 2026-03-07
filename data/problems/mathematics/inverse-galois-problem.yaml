@@ -1,0 +1,123 @@
+id: opa.mathematics.algebra.inverse-galois-problem
+kind: problem
+title: "Inverse Galois Problem"
+aliases:
+  - "Inverse Problem of Galois Theory"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebra
+  - number-theory
+  - galois-theory
+
+problem_type: open_question
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Is every finite group isomorphic to the Galois group of some Galois extension of the
+    rational numbers Q? That is, for every finite group G, does there exist a Galois extension
+    K/Q such that Gal(K/Q) is isomorphic to G?
+  informal: >
+    Galois theory associates a symmetry group to every polynomial equation. The inverse Galois
+    problem asks: can every possible finite symmetry group arise from some polynomial equation
+    with rational coefficients?
+
+why_it_matters: >
+  The inverse Galois problem is one of the most fundamental open questions in algebra. It
+  connects group theory with algebraic number theory and arithmetic geometry. Hilbert posed
+  it in the late 19th century, and it remains open despite major advances in our understanding
+  of Galois groups, modular forms, and arithmetic geometry.
+
+prerequisites:
+  - Galois theory
+  - algebraic number theory
+  - group theory
+  - algebraic geometry
+
+dates:
+  first_stated: 1892
+
+sources:
+  canonical:
+    - source_id: src_hilbert_1892
+      kind: paper
+      title: "Ueber die Irreduzibilitat ganzer rationaler Funktionen mit ganzzahligen Koeffizienten"
+      authors:
+        - "David Hilbert"
+      year: 1892
+    - source_id: src_malle_matzat_1999
+      kind: textbook
+      title: "Inverse Galois Theory"
+      authors:
+        - "Gunter Malle"
+        - "B. Heinrich Matzat"
+      year: 1999
+  status_evidence:
+    - source_id: src_serre_2008
+      kind: textbook
+      title: "Topics in Galois Theory"
+      authors:
+        - "Jean-Pierre Serre"
+      year: 2008
+
+partial_results:
+  - summary: "Hilbert's irreducibility theorem reduces the problem to finding regular extensions of Q(t)."
+    year: 1892
+  - summary: "Shafarevich proved every finite solvable group is a Galois group over Q."
+    year: 1954
+  - summary: "All symmetric and alternating groups S_n and A_n are known to be Galois groups over Q."
+    year: 1892
+  - summary: "All sporadic simple groups except possibly the Mathieu group M_23 are known to be Galois groups over Q."
+    year: 2004
+  - summary: "Thompson and Voelklein verified many simple groups of Lie type as Galois groups over Q."
+    year: 1999
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - sage
+    - lean
+
+machine_generated:
+  summary: >
+    The inverse Galois problem asks whether every finite group arises as a Galois group
+    over the rational numbers. All solvable groups and most sporadic simple groups are known
+    to occur, but the general case remains open.
+  decomposition:
+    - "Rigidity methods and Hurwitz space approaches for simple groups of Lie type"
+    - "Modular forms and Galois representations as realization tools"
+    - "Algorithmic and computational approaches to explicit polynomial construction"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

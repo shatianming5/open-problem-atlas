@@ -1,0 +1,119 @@
+id: opa.tcs.cryptography.ideal-lattice-problems
+kind: problem
+title: "Ideal Lattice Problems Hardness"
+aliases:
+  - "Ring-LWE vs LWE"
+  - "Algebraic structure in lattice cryptography"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - cryptography
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Ideal lattices (lattices with algebraic structure arising from polynomial rings)
+    are used in efficient lattice-based cryptography. Are computational problems on
+    ideal lattices (such as Ring-LWE, Ring-SIS, and the Shortest Vector Problem on
+    ideal lattices) as hard as their counterparts on general lattices? Or does the
+    algebraic structure enable faster algorithms?
+  informal: >
+    Lattice-based cryptography uses structured lattices for efficiency, but does that
+    structure make the underlying mathematical problems easier to solve? If so, the
+    security of many proposed post-quantum cryptosystems could be compromised.
+
+why_it_matters: >
+  Most practical lattice-based cryptographic schemes (including NIST post-quantum
+  standards like CRYSTALS-Kyber) rely on structured lattices. If ideal lattice problems
+  are significantly easier than general lattice problems, these schemes could be broken.
+
+prerequisites:
+  - lattice-based cryptography
+  - algebraic number theory
+  - Ring-LWE
+  - shortest vector problem
+
+dates:
+  first_stated: 2009
+
+sources:
+  canonical:
+    - source_id: src_lyubashevsky_peikert_regev_2010
+      kind: paper
+      title: "On Ideal Lattices and Learning with Errors over Rings"
+      authors:
+        - "Vadim Lyubashevsky"
+        - "Chris Peikert"
+        - "Oded Regev"
+      url: "https://doi.org/10.1007/978-3-642-13190-5_1"
+      year: 2010
+  status_evidence:
+    - source_id: src_cramer_ducas_wesolowski_2021
+      kind: paper
+      title: "Short Stickelberger Class Relations and Application to Ideal-SVP"
+      authors:
+        - "Ronald Cramer"
+        - "Léo Ducas"
+        - "Benjamin Wesolowski"
+      url: "https://doi.org/10.1007/978-3-319-56620-7_11"
+      year: 2017
+
+partial_results:
+  - summary: "Lyubashevsky, Peikert, and Regev (2010) proved worst-case to average-case reductions for Ring-LWE from ideal lattice problems."
+    year: 2010
+  - summary: "Cramer, Ducas, and Wesolowski (2017) showed that SVP on ideal lattices in certain number fields can be solved faster than on general lattices."
+    year: 2017
+  - summary: "No polynomial-time algorithm is known for ideal lattice problems in standard cyclotomic rings."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.cryptography.lwe-hardness-parameters"
+    - "opa.tcs.cryptography.post-quantum-hash-functions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.35
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    Whether algebraic structure in ideal lattices makes core computational problems
+    easier than on general lattices is critical for the security of post-quantum
+    cryptographic standards.
+  decomposition:
+    - "Determine whether SVP on ideal lattices admits subexponential algorithms"
+    - "Prove or disprove worst-case hardness equivalence between ideal and general lattice problems"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

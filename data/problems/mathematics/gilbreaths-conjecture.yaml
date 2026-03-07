@@ -1,0 +1,111 @@
+id: opa.mathematics.number-theory.gilbreaths-conjecture
+kind: problem
+title: "Gilbreath's Conjecture"
+aliases:
+  - "Gilbreath's Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let p_1 = 2, p_2 = 3, p_3 = 5, ... be the sequence of prime numbers. Define the sequence
+    of iterated absolute differences: d_1(n) = |p_{n+1} - p_n| and d_k(n) = |d_{k-1}(n+1) - d_{k-1}(n)|
+    for k >= 2. Then d_k(1) = 1 for all k >= 1.
+  informal: >
+    Write down the prime numbers. Take the absolute differences of consecutive terms. Repeat
+    this process. The conjecture says the first element of each resulting row of differences
+    is always 1.
+
+why_it_matters: >
+  Gilbreath's conjecture is a striking regularity in the sequence of primes that has been
+  verified extensively but resists all proof attempts. It encodes deep structural information
+  about the distribution of prime gaps.
+
+prerequisites:
+  - elementary number theory
+  - prime number theory
+  - combinatorics
+
+dates:
+  first_stated: 1958
+
+sources:
+  canonical:
+    - source_id: src_gilbreath_1958
+      kind: paper
+      title: "Gilbreath's conjecture (unpublished, communicated to Richard Guy)"
+      authors:
+        - "Norman Gilbreath"
+      year: 1958
+    - source_id: src_guy_2004
+      kind: textbook
+      title: "Unsolved Problems in Number Theory"
+      authors:
+        - "Richard K. Guy"
+      url: "https://doi.org/10.1007/978-0-387-26677-0"
+      year: 2004
+  status_evidence:
+    - source_id: src_odlyzko_1993
+      kind: paper
+      title: "Iterated absolute values of differences of consecutive primes"
+      url: "https://doi.org/10.1090/S0025-5718-1993-1182247-7"
+      year: 1993
+
+partial_results:
+  - summary: "Odlyzko verified Gilbreath's conjecture for the first 10^13 primes."
+    year: 1993
+  - summary: "Odlyzko showed that a sufficiently strong form of the prime k-tuples conjecture would imply Gilbreath's conjecture."
+    year: 1993
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.hardy-littlewood-k-tuple-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.60
+  toolability: 0.70
+  formality: 0.80
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Gilbreath's conjecture asserts that the leading term in each row of iterated absolute
+    differences of consecutive primes is always 1, verified computationally to enormous bounds.
+  decomposition:
+    - "Connecting the conjecture to probabilistic models of prime gaps"
+    - "Analyzing the dynamics of iterated differencing on structured sequences"
+    - "Extending computational verification and developing rigorous sufficient conditions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

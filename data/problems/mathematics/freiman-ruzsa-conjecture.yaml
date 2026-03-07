@@ -1,0 +1,117 @@
+id: opa.mathematics.enumerative-combinatorics.freiman-ruzsa-conjecture
+kind: problem
+title: "Polynomial Freiman-Ruzsa Conjecture"
+aliases:
+  - "PFR Conjecture"
+  - "Marton's Conjecture"
+
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - enumerative-combinatorics
+  - probability
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    If A is a finite subset of Z^n (or more generally an abelian group) with |A + A| <= K|A|
+    (small doubling), then A can be covered by at most poly(K) translates of a subgroup H
+    with |H| <= |A|. More precisely, there exists a generalized arithmetic progression of
+    dimension at most C(K) containing A, where C(K) is polynomial in K.
+  informal: >
+    Sets with small additive doubling (the sumset is not much larger than the set itself)
+    must have a strong additive structure: they can be efficiently covered by a structured
+    set (generalized arithmetic progression) of comparable size.
+
+why_it_matters: >
+  The Polynomial Freiman-Ruzsa conjecture is a central problem in additive combinatorics.
+  Freiman's theorem (1973) provides exponential bounds; the conjecture sharpens these to
+  polynomial. In late 2023, Gowers, Green, Manners, and Tao proved the conjecture over F_2^n
+  using entropy methods, a major breakthrough. The integer (Z^n) case remains open with
+  polynomial bounds.
+
+prerequisites:
+  - additive combinatorics
+  - probability and entropy methods
+  - group theory
+
+dates:
+  first_stated: 1999
+
+sources:
+  canonical:
+    - source_id: src_ruzsa_1999
+      kind: paper
+      title: "An analog of Freiman's theorem in groups"
+      authors:
+        - "Imre Ruzsa"
+      year: 1999
+  status_evidence:
+    - source_id: src_ggmt_2023
+      kind: paper
+      title: "On a conjecture of Marton"
+      authors:
+        - "Timothy Gowers"
+        - "Ben Green"
+        - "Freddie Manners"
+        - "Terence Tao"
+      url: "https://arxiv.org/abs/2311.05762"
+      year: 2023
+
+partial_results:
+  - summary: "Gowers, Green, Manners, and Tao proved the conjecture over F_2^n."
+    year: 2023
+  - summary: "Sanders gave quasi-polynomial bounds over the integers."
+    year: 2012
+  - summary: "The polynomial bound over Z (the integer case) remains open."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: true
+  wanted: true
+  systems:
+    - "Lean 4 (formalized by Tao et al. in the PFR project)"
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.55
+  formality: 0.90
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Polynomial Freiman-Ruzsa conjecture sharpens Freiman's theorem to polynomial bounds.
+    Proved over F_2^n by Gowers-Green-Manners-Tao; the integer case remains open.
+  decomposition:
+    - "Entropy methods and information-theoretic techniques"
+    - "Additive structure in abelian groups"
+    - "Quasi-polynomial to polynomial improvement over Z"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Color Superconductivity in Dense QCD"
+statement: "What is the ground state of QCD at asymptotically high baryon density? Can color-flavor locking be demonstrated from first principles?"
+source_id: "src_alford_2008"
+source_url: "https://arxiv.org/abs/0709.4635"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

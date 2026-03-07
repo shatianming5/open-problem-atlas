@@ -1,0 +1,116 @@
+id: opa.phys.quantum-information.quantum-error-correction-fundamental-limits
+kind: problem
+title: "Fundamental Limits of Quantum Error Correction"
+aliases:
+  - "Quantum Error Correction Capacity"
+  - "Optimal Quantum Error Correcting Codes"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the quantum capacity Q(N) of a general quantum channel N, defined as the
+    maximum asymptotic rate at which quantum information can be reliably transmitted
+    through the channel. In particular, determine whether the regularized coherent
+    information I_coh^{reg}(N) = lim_{n->infty} (1/n) max_{rho} I_coh(N^{tensor n}, rho)
+    admits a single-letter formula, or prove that the quantum capacity is not additive
+    and no single-letter formula exists.
+  informal: >
+    How much quantum information can be reliably sent through a noisy quantum channel?
+    Unlike classical channels where Shannon's theorem gives a clean formula, the quantum
+    capacity requires an intractable regularization. The open problem is whether a
+    computable formula exists.
+
+why_it_matters: >
+  The quantum capacity is the most fundamental quantity in quantum communication theory.
+  Finding computable formulas or proving their non-existence would resolve a central
+  question in quantum Shannon theory and guide the design of practical quantum
+  communication systems.
+
+prerequisites:
+  - quantum information theory
+  - quantum Shannon theory
+  - operator algebras
+  - convex optimization
+
+dates:
+  first_stated: 1996
+
+sources:
+  canonical:
+    - source_id: src_lloyd_1997
+      kind: paper
+      title: "Capacity of the noisy quantum channel"
+      url: "https://doi.org/10.1103/PhysRevA.55.1613"
+      year: 1997
+      locator: "Physical Review A 55, 1613"
+    - source_id: src_devetak_2005
+      kind: paper
+      title: "The private classical capacity and quantum capacity of a quantum channel"
+      url: "https://doi.org/10.1109/TIT.2004.839515"
+      year: 2005
+      locator: "IEEE Trans. Inf. Theory 51(1), 44-55"
+  status_evidence:
+    - source_id: src_smith_yard_2008
+      kind: paper
+      title: "Quantum Communication with Zero-Capacity Channels"
+      url: "https://doi.org/10.1126/science.1162242"
+      year: 2008
+
+partial_results:
+  - summary: "The LSD theorem (Lloyd, Shor, Devetak) established Q(N) = I_coh^{reg}(N), but this formula is not computable in general."
+    year: 2005
+  - summary: "Smith and Yard showed superactivation: two zero-capacity channels can have positive capacity when used together."
+    year: 2008
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-shannon-capacity-regions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.45
+  toolability: 0.35
+  formality: 0.70
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    Determining the quantum capacity of general quantum channels and whether computable single-letter formulas exist.
+  decomposition:
+    - "Prove or disprove additivity of coherent information"
+    - "Find computable bounds that are tight for important channel families"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

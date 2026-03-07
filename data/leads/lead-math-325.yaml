@@ -1,0 +1,11 @@
+title: "Dar's Volume Conjecture"
+statement: "A conjectured inequality relating the volume of a convex body to its mean width and other intrinsic volumes."
+source_id: "src_dar_1999"
+source_url: "https://en.wikipedia.org/wiki/Intrinsic_volume"
+domain_hint: "mathematics"
+subdomain_hint: "convex-geometry"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

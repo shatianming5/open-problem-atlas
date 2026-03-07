@@ -1,0 +1,11 @@
+title: "Gorenstein Symmetry Conjecture"
+statement: "For an Artin algebra, the left and right injective dimensions of the algebra are either both infinite or both finite and equal."
+source_id: "src_auslanderbuchweitz_1989"
+source_url: "https://en.wikipedia.org/wiki/Gorenstein_ring"
+domain_hint: "mathematics"
+subdomain_hint: "homological-algebra"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

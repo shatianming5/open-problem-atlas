@@ -1,0 +1,236 @@
+{% extends "base.html" %}
+{% block title %}{{ problem.title }} — OpenProblemAtlas{% endblock %}
+
+{% block content %}
+<div class="container">
+  <div class="detail-header">
+    <div class="meta" style="margin-bottom: 12px;">
+      <span class="tag {% if problem.status.label == 'open' %}tag-open{% elif problem.status.label == 'solved' %}tag-solved{% endif %}">
+        {{ problem.status.label }}
+      </span>
+      <span class="tag tag-domain">{{ problem.domain | replace('-', ' ') }}</span>
+      {% if problem.problem_type %}
+      <span class="tag tag-type">{{ problem.problem_type | replace('_', ' ') }}</span>
+      {% endif %}
+    </div>
+    <h1>{{ problem.title }}</h1>
+    {% if problem.aliases %}
+    <p style="color: var(--text-muted); font-size: 14px;">
+      Also known as: {{ problem.aliases | join(', ') }}
+    </p>
+    {% endif %}
+  </div>
+
+  <div class="detail-section">
+    <h2>Canonical Statement</h2>
+    <div class="statement-box">{{ problem.statement.canonical }}</div>
+  </div>
+
+  {% if problem.statement.informal %}
+  <div class="detail-section">
+    <h2>Informal Statement</h2>
+    <p style="color: var(--text-muted);">{{ problem.statement.informal }}</p>
+  </div>
+  {% endif %}
+
+  {% if problem.why_it_matters %}
+  <div class="detail-section">
+    <h2>Why It Matters</h2>
+    <p>{{ problem.why_it_matters }}</p>
+  </div>
+  {% endif %}
+
+  <div class="detail-section">
+    <h2>Status</h2>
+    <table style="font-size: 14px;">
+      <tr><td style="padding-right: 24px; color: var(--text-muted);">Status</td><td>{{ problem.status.label }}</td></tr>
+      <tr><td style="padding-right: 24px; color: var(--text-muted);">Confidence</td><td>{{ problem.status.confidence }}</td></tr>
+      <tr><td style="padding-right: 24px; color: var(--text-muted);">Last Reviewed</td><td>{{ problem.status.last_reviewed_at }}</td></tr>
+      <tr><td style="padding-right: 24px; color: var(--text-muted);">Review State</td><td>{{ problem.status.review_state }}</td></tr>
+    </table>
+  </div>
+
+  {% if problem.dates %}
+  <div class="detail-section">
+    <h2>Dates</h2>
+    <table style="font-size: 14px;">
+      {% if problem.dates.first_stated %}
+      <tr><td style="padding-right: 24px; color: var(--text-muted);">First Stated</td><td>{{ problem.dates.first_stated }}</td></tr>
+      {% endif %}
+      {% if problem.dates.first_published %}
+      <tr><td style="padding-right: 24px; color: var(--text-muted);">First Published</td><td>{{ problem.dates.first_published }}</td></tr>
+      {% endif %}
+    </table>
+  </div>
+  {% endif %}
+
+  {% if problem.prize %}
+  <div class="detail-section">
+    <h2>Prize</h2>
+    <div style="padding: 12px; background: rgba(210, 153, 34, 0.1); border-radius: var(--radius); border-left: 3px solid var(--yellow);">
+      <strong>{{ problem.prize.currency | default('') }} {{ problem.prize.amount | default('') }}</strong>
+      {% if problem.prize.offered_by %} offered by {{ problem.prize.offered_by }}{% endif %}
+      {% if problem.prize.url %}<br><a href="{{ problem.prize.url }}" style="font-size: 13px;">{{ problem.prize.url }}</a>{% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if problem.relations %}
+  <div class="detail-section">
+    <h2>Relations</h2>
+    {% if problem.relations.equivalent_to %}
+    <div style="margin-bottom: 8px;">
+      <span style="color: var(--text-muted); font-size: 13px;">Equivalent to:</span>
+      {% for rid in problem.relations.equivalent_to %}
+      <a href="/problem/{{ rid | replace('.', '-') }}.html" class="tag tag-open" style="text-decoration: none;">{{ rid }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if problem.relations.generalizes %}
+    <div style="margin-bottom: 8px;">
+      <span style="color: var(--text-muted); font-size: 13px;">Generalizes:</span>
+      {% for rid in problem.relations.generalizes %}
+      <a href="/problem/{{ rid | replace('.', '-') }}.html" class="tag tag-type" style="text-decoration: none;">{{ rid }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if problem.relations.special_cases %}
+    <div style="margin-bottom: 8px;">
+      <span style="color: var(--text-muted); font-size: 13px;">Special cases:</span>
+      {% for rid in problem.relations.special_cases %}
+      <a href="/problem/{{ rid | replace('.', '-') }}.html" class="tag tag-type" style="text-decoration: none;">{{ rid }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+    {% if problem.relations.related %}
+    <div style="margin-bottom: 8px;">
+      <span style="color: var(--text-muted); font-size: 13px;">Related:</span>
+      {% for rid in problem.relations.related %}
+      <a href="/problem/{{ rid | replace('.', '-') }}.html" class="tag tag-domain" style="text-decoration: none;">{{ rid }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if problem.partial_results %}
+  <div class="detail-section">
+    <h2>Partial Results</h2>
+    <ul style="list-style: none; padding: 0;">
+      {% for pr in problem.partial_results %}
+      <li style="padding: 8px 0; border-bottom: 1px solid var(--border); font-size: 14px;">
+        {{ pr.summary }}
+        {% if pr.year %}<span style="color: var(--text-muted);">({{ pr.year }})</span>{% endif %}
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endif %}
+
+  {% if problem.scores %}
+  <div class="detail-section">
+    <h2>Scores</h2>
+    <div class="scores-grid">
+      {% for key, val in problem.scores.items() %}
+      <div class="score-item">
+        <div style="display: flex; justify-content: space-between; font-size: 13px;">
+          <span>{{ key | replace('_', ' ') | title }}</span>
+          <span>{{ (val * 100) | int }}%</span>
+        </div>
+        <div class="score-bar">
+          <div class="fill" style="width: {{ (val * 100) | int }}%"></div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if problem.sources %}
+  <div class="detail-section">
+    <h2>Sources</h2>
+    {% for src in problem.sources.canonical %}
+    <div style="padding: 8px 0; font-size: 14px;">
+      <strong>{{ src.title | default(src.source_id) }}</strong>
+      {% if src.kind %}<span class="tag tag-type">{{ src.kind }}</span>{% endif %}
+      {% if src.year %}<span style="color: var(--text-muted);">({{ src.year }})</span>{% endif %}
+      {% if src.url %}<br><a href="{{ src.url }}">{{ src.url }}</a>{% endif %}
+      {% if src.locator %}<br><span style="color: var(--text-muted);">{{ src.locator }}</span>{% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  {% if problem.formalization %}
+  <div class="detail-section">
+    <h2>Formalization</h2>
+    <p>
+      Available: {{ 'Yes' if problem.formalization.available else 'No' }}
+      {% if problem.formalization.wanted %} | <span style="color: var(--yellow);">Formalization wanted</span>{% endif %}
+    </p>
+    {% if problem.formalization.systems %}
+    <p>Systems: {{ problem.formalization.systems | join(', ') }}</p>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if problem.ai %}
+  <div class="detail-section">
+    <h2>AI Readiness</h2>
+    <table style="font-size: 14px;">
+      <tr><td style="padding-right: 24px; color: var(--text-muted);">Solver Ready</td><td>{{ 'Yes' if problem.ai.solver_ready else 'No' }}</td></tr>
+      {% if problem.ai.recommended_tools %}
+      <tr><td style="padding-right: 24px; color: var(--text-muted);">Recommended Tools</td><td>{{ problem.ai.recommended_tools | join(', ') }}</td></tr>
+      {% endif %}
+    </table>
+  </div>
+  {% endif %}
+
+  {% if problem.machine_generated %}
+  <div class="detail-section">
+    <h2>Machine-Generated Content</h2>
+    <div style="padding: 12px; background: var(--bg-secondary); border-radius: var(--radius); border-left: 3px solid var(--yellow);">
+      <p style="font-size: 12px; color: var(--yellow); margin-bottom: 8px;">Disclaimer: {{ problem.machine_generated.disclaimer | default('unverified') }}</p>
+      {% if problem.machine_generated.summary %}
+      <p style="font-size: 14px; margin-bottom: 8px;">{{ problem.machine_generated.summary }}</p>
+      {% endif %}
+      {% if problem.machine_generated.decomposition %}
+      <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 4px;">Decomposition:</p>
+      <ul style="font-size: 14px; padding-left: 20px;">
+        {% for d in problem.machine_generated.decomposition %}
+        <li>{{ d }}</li>
+        {% endfor %}
+      </ul>
+      {% endif %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if attempts %}
+  <div class="detail-section">
+    <h2>Attempts</h2>
+    {% for att in attempts %}
+    <div class="problem-card" style="margin-bottom: 12px;">
+      <div class="title">{{ att.actor }} ({{ att.actor_type }})</div>
+      <div class="meta">
+        <span>{{ att.date }}</span>
+        <span class="tag {% if att.verification_status == 'verified' %}tag-open{% else %}tag-type{% endif %}">
+          {{ att.verification_status }}
+        </span>
+      </div>
+      <p style="margin-top: 8px; font-size: 14px;">{{ att.method_summary }}</p>
+    </div>
+    {% endfor %}
+  </div>
+  {% endif %}
+
+  <div style="margin-top: 24px;">
+    <p style="font-size: 13px; color: var(--text-muted);">
+      ID: <code>{{ problem.id }}</code>
+      {% if problem.provenance and problem.provenance.schema_version %}
+      | Schema: {{ problem.provenance.schema_version }}
+      {% endif %}
+    </p>
+  </div>
+</div>
+{% endblock %}

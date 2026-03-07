@@ -1,0 +1,117 @@
+id: opa.mathematics.probability.kls-conjecture
+kind: problem
+title: "KLS Conjecture"
+aliases:
+  - "Kannan-Lovasz-Simonovits Conjecture"
+  - "Isoperimetric Conjecture for Log-Concave Measures"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - probability
+  - convex-geometry
+  - functional-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For any log-concave probability distribution mu on R^n, the Cheeger isoperimetric constant
+    psi_mu satisfies psi_mu >= c * sigma_mu, where sigma_mu is the square root of the smallest
+    eigenvalue of the covariance matrix and c > 0 is a universal constant independent of n.
+  informal: >
+    For any log-concave probability distribution in high dimensions, the isoperimetric constant
+    (measuring the minimal boundary-to-volume ratio of partitions) is controlled by the variance.
+    The conjecture says no dimension-dependent loss occurs.
+
+why_it_matters: >
+  The KLS conjecture (Kannan, Lovasz, Simonovits, 1995) is a cornerstone conjecture in
+  high-dimensional probability and geometry. It implies Bourgain's slicing conjecture and
+  the thin-shell conjecture. It would also yield optimal mixing times for Markov chains on
+  convex bodies, with major implications for sampling and optimization algorithms.
+
+prerequisites:
+  - probability theory
+  - convex geometry
+  - functional analysis
+  - Markov chains
+
+dates:
+  first_stated: 1995
+
+sources:
+  canonical:
+    - source_id: src_kls_1995
+      kind: paper
+      title: "Isoperimetric problems for convex bodies and a localization lemma"
+      authors:
+        - "Ravi Kannan"
+        - "Laszlo Lovasz"
+        - "Miklos Simonovits"
+      year: 1995
+      url: "https://doi.org/10.1007/BF02574061"
+  status_evidence:
+    - source_id: src_chen_2021
+      kind: paper
+      title: "Almost Optimal Variance-Dependent Bounds on the KLS Constant"
+      authors:
+        - "Yuansi Chen"
+      url: "https://arxiv.org/abs/2104.04482"
+      year: 2021
+
+partial_results:
+  - summary: "Yuansi Chen achieved the bound psi_n >= c / n^{o(1)} using stochastic localization, nearly resolving the conjecture."
+    year: 2021
+  - summary: "Lee and Vempala proved dimension-free bounds for specific families of log-concave distributions."
+    year: 2017
+  - summary: "Eldan introduced stochastic localization as a key tool for the KLS conjecture."
+    year: 2013
+
+relations:
+  equivalent_to: []
+  generalizes:
+    - "opa.mathematics.convex-geometry.bourgain-slicing-conjecture"
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The KLS conjecture predicts a dimension-free isoperimetric inequality for log-concave
+    distributions. Recent breakthroughs by Chen bring it close to resolution.
+  decomposition:
+    - "Stochastic localization and score function methods"
+    - "Spectral gap and Poincare inequality approaches"
+    - "Connections to sampling algorithms and mixing times"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

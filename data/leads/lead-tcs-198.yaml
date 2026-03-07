@@ -1,0 +1,11 @@
+title: "Non-Shannon Information Inequalities Completeness"
+statement: "Is there a finite set of information inequalities that characterizes the entropy region for four or more random variables?"
+source_id: "src_zhang_yeung_1998"
+source_url: "https://doi.org/10.1109/18.681320"
+domain_hint: "theoretical-cs"
+subdomain_hint: "information-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Quantum Supremacy for Sampling Problems"
+statement: "Can one prove unconditionally that no classical computer can efficiently sample from the output distribution of a random quantum circuit?"
+source_id: "src_aaronson_2023"
+source_url: "https://arxiv.org/abs/2306.07462"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Unique Games Conjecture"
+statement: "Is it NP-hard to distinguish satisfiable unique games from those where at most a small fraction of constraints can be satisfied?"
+source_id: "src_khot_2002"
+source_url: "https://doi.org/10.1145/509907.510017"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

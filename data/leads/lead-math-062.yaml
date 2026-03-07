@@ -1,0 +1,11 @@
+title: "Babai's Conjecture on Graph Diameters of Cayley Graphs"
+statement: "There exists a constant c such that the diameter of every Cayley graph of a finite simple group G with any generating set is at most (log |G|)^c."
+source_id: "src_babai_1992"
+source_url: "https://en.wikipedia.org/wiki/Babai%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

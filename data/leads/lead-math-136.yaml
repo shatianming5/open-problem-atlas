@@ -1,0 +1,11 @@
+title: "Existence of Exotic Spheres in Dimension 4"
+statement: "Does there exist a smooth manifold homeomorphic but not diffeomorphic to the standard 4-sphere?"
+source_id: "src_milnor_1956"
+source_url: "https://en.wikipedia.org/wiki/Exotic_sphere"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

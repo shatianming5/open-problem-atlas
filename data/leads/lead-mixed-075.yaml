@@ -1,0 +1,11 @@
+title: "Mirror Symmetry for Compact Calabi-Yau"
+statement: "Can homological mirror symmetry be rigorously proved for compact Calabi-Yau threefolds beyond the quintic, as conjectured by Kontsevich?"
+source_id: "src_sheridan_2021"
+source_url: "https://arxiv.org/abs/1507.02523"
+domain_hint: "mathematical-physics"
+subdomain_hint: "symplectic-geometry"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

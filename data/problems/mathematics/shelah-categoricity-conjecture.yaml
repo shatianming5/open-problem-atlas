@@ -1,0 +1,121 @@
+id: opa.mathematics.model-theory.shelah-categoricity-conjecture
+kind: problem
+title: "Shelah's Categoricity Conjecture"
+aliases:
+  - "Categoricity Conjecture for Abstract Elementary Classes"
+  - "Shelah's Eventual Categoricity Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - model-theory
+  - set-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let K be an abstract elementary class (AEC) with amalgamation. If K is
+    categorical in some cardinal lambda >= Hanf(K) (meaning K has exactly one
+    model of size lambda up to isomorphism), then K is categorical in all
+    cardinals mu >= Hanf(K). This would generalize Morley's categoricity theorem
+    from first-order logic to the much broader framework of abstract elementary
+    classes.
+  informal: >
+    In first-order logic, Morley proved that if a theory has exactly one model
+    of some uncountable size, it has exactly one model of every uncountable
+    size. Shelah conjectured this "transfer of uniqueness" should hold in a much
+    more general logical setting called abstract elementary classes, which
+    encompass many non-first-order logics.
+
+why_it_matters: >
+  Shelah's categoricity conjecture is the central open problem in the
+  classification theory of non-elementary classes. A positive resolution would
+  dramatically extend the reach of model-theoretic classification theory beyond
+  first-order logic, impacting infinitary logic, homogeneous model theory, and
+  the study of algebraic structures not axiomatizable in first-order logic.
+
+prerequisites:
+  - model theory
+  - abstract elementary classes
+  - set theory (large cardinals)
+  - infinitary logic
+
+dates:
+  first_stated: 1999
+
+sources:
+  canonical:
+    - source_id: src_shelah_1999
+      kind: textbook
+      title: "Classification Theory for Abstract Elementary Classes"
+      authors:
+        - "Saharon Shelah"
+      year: 1999
+      locator: "Draft monograph, later published in revised form by College Publications, 2009"
+  status_evidence:
+    - source_id: src_grossberg_2002
+      kind: survey
+      title: "Classification theory for abstract elementary classes"
+      authors:
+        - "Rami Grossberg"
+      year: 2002
+      locator: "Contemporary Mathematics, vol. 302, pp. 165-204"
+
+partial_results:
+  - summary: "Shelah proved categoricity transfer for AECs with amalgamation under the assumption of a strongly compact cardinal."
+    year: 1999
+  - summary: "Grossberg and VanDieren proved upward categoricity transfer for tame AECs."
+    year: 2006
+  - summary: "Vasey proved Shelah's eventual categoricity conjecture for universal classes, a large subclass of AECs."
+    year: 2017
+  - summary: "Boney proved that assuming large cardinals, every AEC is tame, yielding partial categoricity transfer."
+    year: 2014
+
+relations:
+  related:
+    - opa.mathematics.model-theory.cherlin-zilber-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - isabelle
+
+machine_generated:
+  summary: >
+    Shelah's categoricity conjecture generalizes Morley's theorem to abstract
+    elementary classes, predicting that categoricity in one large enough
+    cardinal implies categoricity in all such cardinals. Proved in special
+    cases, the general conjecture remains open.
+  decomposition:
+    - "Tameness and type-shortness in AECs"
+    - "Role of large cardinal hypotheses"
+    - "Superstability and limit models in non-elementary settings"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,111 @@
+id: opa.mathematics.graph-theory.seymours-second-neighborhood-conjecture
+kind: problem
+title: "Seymour's Second Neighborhood Conjecture"
+aliases:
+  - "Second Neighborhood Conjecture"
+  - "Seymour's Distance Two Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every finite simple directed graph (with no loops or parallel edges) has a vertex v
+    whose second neighborhood (the set of vertices reachable from v by a directed path
+    of length exactly 2, but not directly from v) is at least as large as its first
+    neighborhood (out-neighborhood). That is, there exists v with |N^+(N^+(v)) \ N^+(v)| >= |N^+(v)|.
+  informal: >
+    In any directed graph, there is always some vertex that has at least as many
+    "friends of friends" (reachable in exactly two steps, excluding direct neighbors)
+    as it has direct friends (outgoing neighbors).
+
+why_it_matters: >
+  Seymour's second neighborhood conjecture, posed in the 1990s, is a fundamental open
+  problem about the structure of directed graphs. It has connections to tournament theory,
+  network structure, and influence propagation. Despite its simple statement, it has
+  resisted proof for general digraphs.
+
+prerequisites:
+  - directed graph theory
+  - tournament theory
+  - combinatorics
+
+dates:
+  first_stated: 1990
+
+sources:
+  canonical:
+    - source_id: src_dean_latka_1995
+      kind: paper
+      title: "Squaring the tournament -- an open problem"
+      authors:
+        - "Nathaniel Dean"
+        - "Brenda J. Latka"
+      year: 1995
+  status_evidence:
+    - source_id: src_cohn_2023
+      kind: paper
+      title: "Seymour's second neighborhood conjecture for tournaments"
+      url: "https://doi.org/10.1002/jgt.22946"
+      year: 2023
+
+partial_results:
+  - summary: "Fisher proved the conjecture for tournaments using a probabilistic argument."
+    year: 1996
+  - summary: "Havet and Thomasse gave a simpler proof for tournaments using median orders."
+    year: 2000
+  - summary: "Chen, Shen, and Yuster proved the conjecture for digraphs with minimum out-degree at most 6."
+    year: 2003
+  - summary: "Ghazal proved the conjecture for digraphs missing a generalized star."
+    year: 2016
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.72
+  underexplored: 0.45
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Seymour's second neighborhood conjecture states that every digraph has a vertex whose
+    second neighborhood is at least as large as its first. Proved for tournaments, it
+    remains open for general digraphs.
+  decomposition:
+    - "Extending tournament proofs to larger classes of digraphs"
+    - "Probabilistic or algebraic approaches for general directed graphs"
+    - "Connections to Caccetta-Haggkvist conjecture"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

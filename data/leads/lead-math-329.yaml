@@ -1,0 +1,11 @@
+title: "Busemann-Petty Problem Extensions"
+statement: "For which dimensions and classes of bodies does the Busemann-Petty inequality extend beyond its known range?"
+source_id: "src_busemannpetty_1956"
+source_url: "https://en.wikipedia.org/wiki/Busemann%E2%80%93Petty_problem"
+domain_hint: "mathematics"
+subdomain_hint: "convex-geometry"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

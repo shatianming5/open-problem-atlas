@@ -1,0 +1,11 @@
+title: "Maximum Entropy Production Principle"
+statement: "Is there a rigorous maximum entropy production principle for nonequilibrium steady states, and under what conditions does it hold?"
+source_id: "src_martyushev_2006"
+source_url: "https://doi.org/10.1016/j.physrep.2006.08.002"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

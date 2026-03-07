@@ -1,0 +1,119 @@
+id: opa.mathematics.differential-geometry.hopf-conjecture-positive-curvature
+kind: problem
+title: "Hopf Conjecture (Positive Sectional Curvature)"
+aliases:
+  - "Hopf's Conjecture on Euler Characteristic"
+  - "Hopf Problem for Positive Curvature"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - differential-geometry
+  - geometric-topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let M be a closed (compact, without boundary) Riemannian manifold of even
+    dimension 2n with positive sectional curvature. Then the Euler
+    characteristic chi(M) > 0. Equivalently, does positive sectional curvature
+    in even dimensions force the Euler characteristic to be positive?
+  informal: >
+    In Riemannian geometry, sectional curvature measures how curved a space is
+    in each 2-dimensional direction. If a compact even-dimensional manifold
+    curves positively in every direction, Hopf conjectured that a topological
+    invariant called the Euler characteristic must be positive. This is known
+    in dimensions 2 and 4 but open in general.
+
+why_it_matters: >
+  The Hopf conjecture, dating to the 1930s, is one of the most fundamental
+  open problems in Riemannian geometry. It exemplifies the interaction between
+  curvature and topology, which is the central theme of differential geometry.
+  Despite its clean and elementary statement, it has resisted all approaches
+  for nearly a century. It is closely related to the Chern conjecture on the
+  Euler characteristic of affine manifolds.
+
+prerequisites:
+  - Riemannian geometry
+  - characteristic classes
+  - algebraic topology
+  - curvature and comparison geometry
+
+dates:
+  first_stated: 1931
+
+sources:
+  canonical:
+    - source_id: src_hopf_1931
+      kind: paper
+      title: "Uber die Abbildungen der dreidimensionalen Sphare auf die Kugelflache"
+      authors:
+        - "Heinz Hopf"
+      year: 1931
+      locator: "Mathematische Annalen, vol. 104, pp. 637-665"
+  status_evidence:
+    - source_id: src_ziller_2014
+      kind: survey
+      title: "Riemannian manifolds with positive sectional curvature"
+      authors:
+        - "Wolfgang Ziller"
+      year: 2014
+      locator: "Geometry of Manifolds with Non-negative Sectional Curvature, Lecture Notes in Mathematics, vol. 2110"
+
+partial_results:
+  - summary: "Chern proved the conjecture in dimension 4 using Gauss-Bonnet."
+    year: 1955
+  - summary: "The conjecture is open already in dimension 6."
+    year: 1990
+  - summary: "Positive Ricci curvature does not suffice, as shown by Sha and Yang's examples."
+    year: 1991
+  - summary: "Under the stronger assumption of positive curvature operator, the manifold is a sphere (Bohm-Wilking), so the conjecture holds trivially."
+    year: 2008
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    The Hopf conjecture predicts that closed even-dimensional Riemannian
+    manifolds with positive sectional curvature have positive Euler
+    characteristic. Known in dimension 4, it remains open in all higher
+    even dimensions.
+  decomposition:
+    - "Gauss-Bonnet integrand positivity in dimension 6 and above"
+    - "Topological constraints from positive curvature"
+    - "Comparison with non-negative curvature (Grove-Halperin conjecture)"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

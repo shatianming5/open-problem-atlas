@@ -1,0 +1,115 @@
+id: opa.phys.quantum-field-theory.renormalization-group-rigorous
+kind: problem
+title: "Rigorous Treatment of the Renormalization Group"
+aliases:
+  - "Mathematical Renormalization Group"
+  - "Non-perturbative Renormalization Group"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Develop a complete rigorous mathematical framework for the renormalization group
+    (RG) in quantum field theory. Specifically: (1) Rigorously prove the existence of
+    non-trivial RG fixed points for physically relevant theories in d=4 (such as QCD
+    or non-abelian gauge theories). (2) Prove that the RG flow is well-defined as a
+    dynamical system on a suitable space of quantum field theories. (3) Establish the
+    universality of critical exponents through RG fixed point analysis in d=3. (4) Give
+    a rigorous non-perturbative proof of asymptotic freedom for Yang-Mills theory using
+    RG methods.
+  informal: >
+    The renormalization group is one of the most powerful tools in physics, explaining
+    why different physical systems behave the same near phase transitions. But a
+    complete rigorous mathematical treatment is still missing.
+
+why_it_matters: >
+  The renormalization group is central to modern physics, from particle physics to
+  condensed matter. A rigorous framework would unify disparate approaches, prove
+  universality, and provide the mathematical foundation for one of physics' most
+  important conceptual tools.
+
+prerequisites:
+  - quantum field theory
+  - functional analysis
+  - dynamical systems
+  - probability theory
+  - statistical mechanics
+
+dates:
+  first_stated: 1971
+
+sources:
+  canonical:
+    - source_id: src_wilson_1971
+      kind: paper
+      title: "Renormalization Group and Critical Phenomena"
+      url: "https://doi.org/10.1103/PhysRevB.4.3174"
+      year: 1971
+      locator: "Physical Review B 4, 3174"
+  status_evidence:
+    - source_id: src_bauerschmidt_2019
+      kind: textbook
+      title: "Introduction to a Renormalisation Group Method"
+      url: "https://doi.org/10.1007/978-981-32-9593-3"
+      year: 2019
+
+partial_results:
+  - summary: "Balaban gave a rigorous RG analysis of lattice Yang-Mills in finite volume in 3D."
+    year: 1989
+  - summary: "Bauerschmidt, Brydges, and Slade developed rigorous RG methods for the 4D n-component phi^4 model."
+    year: 2015
+  - summary: "Rigorous RG methods have been successful for hierarchical models but not yet for realistic 4D theories."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.constructive-qft-4d"
+    - "opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.60
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+    - python
+
+machine_generated:
+  summary: >
+    Developing a complete rigorous mathematical framework for the renormalization group in quantum field theory.
+  decomposition:
+    - "Prove existence of non-trivial RG fixed points in d=4"
+    - "Establish universality of critical exponents via rigorous RG methods"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

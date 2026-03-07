@@ -1,0 +1,113 @@
+id: opa.phys.mathematical-physics.dysons-conjecture-extensions
+kind: problem
+title: "Dyson's Conjecture Extensions"
+aliases:
+  - "Generalized Dyson Conjecture"
+  - "Macdonald-Mehta-Opdam Conjectures"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - mathematical-physics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Extend and generalize Dyson's conjecture (proved by Wilson and Gunson) and the
+    Macdonald conjectures (proved by Cherednik using double affine Hecke algebras)
+    to new settings. Specifically: (1) Prove or find combinatorial/physical proofs
+    of the remaining open Macdonald-type constant term identities for exceptional root
+    systems. (2) Determine the full connection between these identities and random
+    matrix theory, particularly for the circular ensembles. (3) Extend the
+    Selberg-Dyson-Macdonald integral framework to the elliptic level (elliptic
+    Selberg integrals) and prove the conjectured evaluations.
+  informal: >
+    Dyson conjectured a beautiful identity for the constant term of a Laurent polynomial
+    associated to root systems. While the original conjecture is proved, extending it
+    to elliptic and more general settings remains open.
+
+why_it_matters: >
+  These identities lie at the intersection of random matrix theory, representation
+  theory, special functions, and mathematical physics. They connect to partition
+  functions in statistical mechanics and conformal field theory.
+
+prerequisites:
+  - representation theory
+  - special functions
+  - combinatorics
+  - random matrix theory
+  - mathematical physics
+
+dates:
+  first_stated: 1962
+
+sources:
+  canonical:
+    - source_id: src_dyson_1962
+      kind: paper
+      title: "Statistical Theory of the Energy Levels of Complex Systems I"
+      url: "https://doi.org/10.1063/1.1703773"
+      year: 1962
+      locator: "Journal of Mathematical Physics 3, 140-156"
+  status_evidence:
+    - source_id: src_forrester_warnaar_2008
+      kind: survey
+      title: "The importance of the Selberg integral"
+      url: "https://doi.org/10.1090/S0273-0979-08-01221-4"
+      year: 2008
+
+partial_results:
+  - summary: "Dyson's original conjecture was proved by Wilson (1962) and Gunson (1962) independently."
+    year: 1962
+  - summary: "Macdonald's conjectures were proved by Cherednik using double affine Hecke algebras."
+    year: 1995
+  - summary: "Elliptic extensions of the Selberg integral have been partially established by Rains and Spiridonov."
+    year: 2009
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.random-matrix-universality"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.72
+  underexplored: 0.55
+  toolability: 0.40
+  formality: 0.80
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+    - python
+
+machine_generated:
+  summary: >
+    Extending Dyson's conjecture and Macdonald identities to elliptic and more general settings.
+  decomposition:
+    - "Prove elliptic Selberg integral evaluations"
+    - "Find combinatorial proofs for Macdonald-type identities"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,115 @@
+id: opa.tcs.quantum-computing.quantum-communication-complexity
+kind: problem
+title: "Quantum Communication Complexity Advantages"
+aliases:
+  - "Quantum vs classical communication"
+  - "Exponential quantum communication separations"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    What is the largest possible separation between quantum and classical communication
+    complexity for total Boolean functions? For partial functions, exponential separations
+    are known (Raz 1999). For total functions, can quantum communication be exponentially
+    smaller than classical communication, or is the advantage at most polynomial?
+  informal: >
+    How much can quantum communication reduce the amount of information two parties
+    need to exchange to compute a joint function? For all functions (not just
+    specially constructed ones), is the quantum advantage limited?
+
+why_it_matters: >
+  Understanding the power of quantum communication has implications for quantum
+  networks, distributed quantum computing, and the foundations of quantum information.
+  It also connects to important questions in circuit complexity and data structures.
+
+prerequisites:
+  - communication complexity
+  - quantum entanglement
+  - quantum information theory
+  - Boolean function complexity
+
+dates:
+  first_stated: 1999
+
+sources:
+  canonical:
+    - source_id: src_raz_1999
+      kind: paper
+      title: "Exponential Separation of Quantum and Classical Communication Complexity"
+      authors:
+        - "Ran Raz"
+      url: "https://doi.org/10.1145/301250.301343"
+      year: 1999
+  status_evidence:
+    - source_id: src_anshu_ganor_kol_raz_2017
+      kind: paper
+      title: "Exponential Separation of Quantum Communication and Classical Information"
+      authors:
+        - "Anurag Anshu"
+        - "Anat Ganor"
+        - "Gillat Kol"
+        - "Ran Raz"
+      url: "https://doi.org/10.1145/3055399.3055401"
+      year: 2017
+
+partial_results:
+  - summary: "Raz (1999) proved exponential separation between quantum and classical communication for a partial function."
+    year: 1999
+  - summary: "For total functions, the largest known separation is quadratic (Buhrman et al.)."
+    year: 2001
+  - summary: "The quantum log-rank conjecture (which would imply at most polynomial advantage for total functions) remains open."
+    year: 2017
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.communication-complexity-open"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - qiskit
+
+machine_generated:
+  summary: >
+    The quantum communication complexity problem asks for the maximum separation
+    between quantum and classical communication, especially for total functions.
+  decomposition:
+    - "Determine whether quantum advantage for total functions can be super-polynomial"
+    - "Resolve the quantum log-rank conjecture"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

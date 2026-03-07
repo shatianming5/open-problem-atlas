@@ -1,0 +1,11 @@
+title: "Muon g-2 Anomaly"
+statement: "Does the discrepancy between the measured and predicted muon anomalous magnetic moment indicate new physics, or is it due to hadronic uncertainties?"
+source_id: "src_aoyama_2020"
+source_url: "https://arxiv.org/abs/2006.04822"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

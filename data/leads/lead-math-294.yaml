@@ -1,0 +1,11 @@
+title: "Zilber's Exponential-Algebraic Closedness Conjecture"
+statement: "The complex exponential field satisfies exponential-algebraic closedness."
+source_id: "src_zilber_2005"
+source_url: "https://en.wikipedia.org/wiki/Zilber%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "model-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

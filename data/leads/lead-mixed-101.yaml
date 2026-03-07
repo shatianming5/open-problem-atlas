@@ -1,0 +1,11 @@
+title: "Unique Games on Expanding Graphs"
+statement: "Can unique games on small-set expander graphs be solved in polynomial time, providing evidence against the Unique Games Conjecture?"
+source_id: "src_barak_2021"
+source_url: "https://arxiv.org/abs/2106.14293"
+domain_hint: "theoretical-cs"
+subdomain_hint: "hardness-of-approximation"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

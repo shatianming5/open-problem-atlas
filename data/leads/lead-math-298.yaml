@@ -1,0 +1,11 @@
+title: "Hrushovski's Group Configuration Theorem Extensions"
+statement: "Extend the group configuration theorem to non-stable settings such as simple or NIP theories."
+source_id: "src_hrushovski_1989"
+source_url: "https://en.wikipedia.org/wiki/Hrushovski_construction"
+domain_hint: "mathematics"
+subdomain_hint: "model-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Finite Generation of Cox Rings"
+statement: "Characterize all algebraic varieties whose Cox ring (total coordinate ring) is finitely generated."
+source_id: "src_hu_2000"
+source_url: "https://doi.org/10.1090/S0002-9947-00-02498-9"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Zeeman Conjecture"
+statement: "If K is a contractible 2-complex, then K x [0,1] is collapsible. This implies the Poincare conjecture (now proven) but itself remains open."
+source_id: "src_zeeman_1963"
+source_url: "https://en.wikipedia.org/wiki/Zeeman_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Optimal Distributed Graph Coloring"
+statement: "What is the optimal round complexity of (Delta+1)-coloring in the LOCAL model of distributed computing?"
+source_id: "src_chang_li_pettie_2018"
+source_url: "https://doi.org/10.1145/3188745.3188876"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

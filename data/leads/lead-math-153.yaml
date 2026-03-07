@@ -1,0 +1,11 @@
+title: "Whitehead Asphericity Conjecture"
+statement: "Every subcomplex of an aspherical 2-complex is itself aspherical."
+source_id: "src_whitehead_1941"
+source_url: "https://en.wikipedia.org/wiki/Whitehead_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

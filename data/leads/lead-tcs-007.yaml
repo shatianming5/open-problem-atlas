@@ -1,0 +1,11 @@
+title: "Circuit Complexity Lower Bounds for NP"
+statement: "Can we prove super-polynomial circuit lower bounds for problems in NP? No explicit Boolean function in NP is known to require super-polynomial size circuits."
+source_id: "src_razborov_rudich_1997"
+source_url: "https://doi.org/10.1006/jcss.1997.1494"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

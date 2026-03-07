@@ -1,0 +1,11 @@
+title: "James Conjecture"
+statement: "For the symmetric group, decomposition numbers can be computed from the canonical basis of a Fock space when the prime p is at least as large as the weight of the block."
+source_id: "src_james_1990"
+source_url: "https://en.wikipedia.org/wiki/James%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "representation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Topological Quantum Field Theory in 4D"
+statement: "Can a fully rigorous four-dimensional topological quantum field theory be constructed that computes Donaldson invariants or their generalizations?"
+source_id: "src_witten_1988"
+source_url: "https://doi.org/10.1007/BF01217730"
+domain_hint: "mathematical-physics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

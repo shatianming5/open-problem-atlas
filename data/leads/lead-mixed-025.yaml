@@ -1,0 +1,11 @@
+title: "Hardness of Approximation for Edit Distance"
+statement: "Is computing edit distance between two strings of length n in truly subquadratic time impossible, assuming SETH? What is the best polynomial approximation factor achievable?"
+source_id: "src_brakensiek_2020"
+source_url: "https://arxiv.org/abs/1905.01511"
+domain_hint: "theoretical-cs"
+subdomain_hint: "fine-grained-complexity"
+confidence: 0.62
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

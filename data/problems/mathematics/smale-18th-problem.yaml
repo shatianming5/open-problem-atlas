@@ -1,0 +1,116 @@
+id: opa.mathematics.mathematical-optimization.smale-18th-problem
+kind: problem
+title: "Smale's 18th Problem"
+aliases:
+  - "Limits of Intelligence"
+  - "What Are the Limits of Intelligence?"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - mathematical-optimization
+  - computational-complexity
+
+problem_type: open_question
+answer_type: constructive
+verification_mode: proof
+
+statement:
+  canonical: >
+    What are the limits of intelligence, both artificial and human? Smale's 18th problem
+    asks for a rigorous mathematical framework to understand the fundamental limits of
+    learning and intelligence. In a more precise formulation: what is the computational
+    complexity of learning and optimization in high-dimensional spaces, and what are the
+    inherent limitations of any learning algorithm given finite data?
+  informal: >
+    Can we mathematically characterize the ultimate limits of what any intelligent system
+    (biological or artificial) can learn, given bounded computational resources and finite
+    data? This is the most open-ended of Smale's problems for the 21st century.
+
+why_it_matters: >
+  Smale's 18th problem (1998) connects mathematical optimization, learning theory, and
+  computational complexity. It motivates research on PAC learning bounds, statistical learning
+  theory, neural network approximation theory, and the mathematical foundations of AI. Its
+  resolution would have profound implications for understanding both artificial and natural
+  intelligence.
+
+prerequisites:
+  - learning theory
+  - computational complexity
+  - approximation theory
+  - statistics and optimization
+
+dates:
+  first_stated: 1998
+
+sources:
+  canonical:
+    - source_id: src_smale_1998b
+      kind: paper
+      title: "Mathematical Problems for the Next Century"
+      authors:
+        - "Steve Smale"
+      year: 1998
+      url: "https://doi.org/10.1007/BF03025291"
+  status_evidence:
+    - source_id: src_cucker_smale_2002
+      kind: paper
+      title: "On the mathematical foundations of learning"
+      authors:
+        - "Felipe Cucker"
+        - "Steve Smale"
+      url: "https://doi.org/10.1090/S0273-0979-01-00923-5"
+      year: 2002
+
+partial_results:
+  - summary: "Cucker and Smale developed a mathematical framework for learning in reproducing kernel Hilbert spaces."
+    year: 2002
+  - summary: "Deep learning theory has produced approximation and generalization bounds, but fundamental limits remain unclear."
+    year: 2020
+  - summary: "Statistical-computational gaps have been identified for various learning tasks."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.55
+  toolability: 0.40
+  formality: 0.50
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Smale's 18th problem asks for a mathematical theory of the limits of intelligence and learning,
+    connecting optimization, complexity, and approximation theory.
+  decomposition:
+    - "Statistical learning theory and minimax bounds"
+    - "Computational complexity of learning problems"
+    - "Neural network approximation theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

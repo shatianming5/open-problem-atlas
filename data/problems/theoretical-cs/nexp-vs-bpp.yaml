@@ -1,0 +1,115 @@
+id: opa.tcs.complexity-theory.nexp-vs-bpp
+kind: problem
+title: "NEXP vs BPP Problem"
+aliases:
+  - "Does NEXP equal BPP?"
+  - "Nondeterministic exponential time vs bounded-error probabilistic polynomial time"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let NEXP denote the class of languages decidable by a nondeterministic Turing machine
+    in exponential time, and BPP denote the class of languages decidable by a probabilistic
+    Turing machine in polynomial time with bounded error. Is NEXP different from BPP?
+  informal: >
+    Can randomized polynomial-time algorithms solve all problems solvable by
+    nondeterministic exponential-time machines? It is widely believed that NEXP is
+    much more powerful than BPP, but a proof remains elusive.
+
+why_it_matters: >
+  Separating NEXP from BPP would be a major advance in computational complexity,
+  establishing that nondeterministic exponential time is strictly more powerful than
+  randomized polynomial time. This is one of the frontier separation problems in
+  complexity theory and is connected to circuit lower bounds and derandomization.
+
+prerequisites:
+  - computational complexity theory
+  - nondeterministic computation
+  - probabilistic computation
+  - circuit complexity
+
+dates:
+  first_stated: 1985
+
+sources:
+  canonical:
+    - source_id: src_babai_fortnow_lund_1991
+      kind: paper
+      title: "Non-Deterministic Exponential Time has Two-Prover Interactive Protocols"
+      authors:
+        - "László Babai"
+        - "Lance Fortnow"
+        - "Carsten Lund"
+      url: "https://doi.org/10.1007/BF01200056"
+      year: 1991
+  status_evidence:
+    - source_id: src_williams_2011
+      kind: paper
+      title: "Non-Uniform ACC Circuit Lower Bounds"
+      authors:
+        - "Ryan Williams"
+      url: "https://doi.org/10.1109/CCC.2011.26"
+      year: 2011
+
+partial_results:
+  - summary: "Williams (2011) proved NEXP is not in ACC^0, giving the strongest known circuit lower bound against NEXP."
+    year: 2011
+  - summary: "Impagliazzo and Wigderson (1997) showed that if EXP != BPP, then BPP can be derandomized, but the converse separation for NEXP remains open."
+    year: 1997
+
+relations:
+  equivalent_to: []
+  generalizes:
+    - "opa.tcs.complexity-theory.p-vs-np"
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.acc0-lower-bounds"
+    - "opa.tcs.complexity-theory.derandomization-p-bpp"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.20
+  formality: 0.90
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The NEXP vs BPP problem asks whether nondeterministic exponential time is strictly
+    more powerful than randomized polynomial time. Despite strong evidence for separation,
+    no proof is known.
+  decomposition:
+    - "Strengthen circuit lower bounds for NEXP beyond ACC^0"
+    - "Develop derandomization techniques that imply NEXP != BPP"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

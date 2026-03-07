@@ -1,0 +1,11 @@
+title: "Quantum Hall Effect and Noncommutative Geometry"
+statement: "Can the integer quantum Hall effect be fully derived within the framework of noncommutative geometry, extending Bellissard's K-theoretic approach to the fractional case?"
+source_id: "src_bellissard_2021"
+source_url: "https://arxiv.org/abs/2108.09230"
+domain_hint: "mathematical-physics"
+subdomain_hint: "noncommutative-geometry"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

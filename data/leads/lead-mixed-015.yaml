@@ -1,0 +1,11 @@
+title: "Algorithmic Lovasz Local Lemma for Quantum Systems"
+statement: "Can the constructive proof of the Lovasz Local Lemma be extended to commuting local Hamiltonians, yielding efficient quantum algorithms for finding satisfying ground states?"
+source_id: "src_gilyenA_2021"
+source_url: "https://arxiv.org/abs/2109.11563"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-algorithms"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

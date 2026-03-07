@@ -1,0 +1,11 @@
+title: "Auslander-Reiten Conjecture"
+statement: "If M is a finitely generated module over an Artin algebra such that Ext^i(M, M+A) = 0 for all i > 0, then M is projective."
+source_id: "src_auslanderreiten_1975"
+source_url: "https://en.wikipedia.org/wiki/Auslander%E2%80%93Reiten_theory"
+domain_hint: "mathematics"
+subdomain_hint: "representation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

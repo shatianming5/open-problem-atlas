@@ -1,0 +1,11 @@
+title: "Vaught's Conjecture"
+statement: "A countable complete first-order theory has either countably many or continuum many countable models."
+source_id: "src_vaught_1961"
+source_url: "https://en.wikipedia.org/wiki/Vaught%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "model-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

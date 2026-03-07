@@ -1,0 +1,122 @@
+id: opa.mathematics.operator-algebras.kadison-singer-extensions
+kind: problem
+title: "Kadison-Singer Problem Extensions (Infinite-Dimensional Paving)"
+aliases:
+  - "Infinite-Dimensional Paving Conjecture"
+  - "Kadison-Singer Type Problems for General Algebras"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - operator-algebras
+  - harmonic-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Does the paving property hold for operators on infinite-dimensional
+    Hilbert spaces relative to more general maximal abelian subalgebras
+    (MASAs) beyond l^infty? Specifically, for a type II_1 factor M with a
+    diffuse MASA A, does every operator T in M with E_A(T) = 0 (where E_A
+    is the conditional expectation onto A) satisfy an appropriate paving
+    condition? More broadly, can the Marcus-Spielman-Srivastava framework
+    be extended to infinite-dimensional settings?
+  informal: >
+    The original Kadison-Singer problem (solved in 2013) asked about
+    extending certain linear functionals on diagonal operators. The solved
+    version dealt with finite-dimensional approximations. The remaining
+    open extensions ask whether similar "paving" (breaking matrices into
+    small blocks that are nearly diagonal) works in truly infinite-dimensional
+    or continuous (type II_1) settings.
+
+why_it_matters: >
+  While Marcus, Spielman, and Srivastava resolved the original Kadison-Singer
+  conjecture in 2013, deep generalizations to von Neumann algebras, type
+  II_1 factors, and continuous MASAs remain open. These problems are central
+  to operator algebra theory and connect to quantum information theory,
+  frame theory, and harmonic analysis.
+
+prerequisites:
+  - operator algebras
+  - von Neumann algebras
+  - frame theory
+  - functional analysis
+
+dates:
+  first_stated: 2013
+
+sources:
+  canonical:
+    - source_id: src_marcus_spielman_srivastava_2015
+      kind: paper
+      title: "Interlacing families II: Mixed characteristic polynomials and the Kadison-Singer problem"
+      authors:
+        - "Adam Marcus"
+        - "Daniel Spielman"
+        - "Nikhil Srivastava"
+      year: 2015
+      locator: "Annals of Mathematics, vol. 182, pp. 327-350"
+  status_evidence:
+    - source_id: src_casazza_tremain_2016
+      kind: survey
+      title: "Consequences of the Marcus/Spielman/Srivastava solution of the Kadison-Singer problem"
+      authors:
+        - "Peter Casazza"
+        - "Janet Tremain"
+      year: 2016
+
+partial_results:
+  - summary: "Marcus, Spielman, and Srivastava resolved the original Kadison-Singer conjecture in the finite-dimensional (l^infty MASA) case."
+    year: 2013
+  - summary: "Casazza, Fickus, Tremain and others showed the original problem was equivalent to numerous conjectures in analysis and engineering."
+    year: 2006
+  - summary: "Popa and Vaes studied paving properties for operators in type II_1 factors with connections to deformation-rigidity theory."
+    year: 2014
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.45
+  toolability: 0.30
+  formality: 0.80
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Extensions of the Kadison-Singer problem to infinite-dimensional and
+    type II_1 factor settings remain open despite the resolution of the
+    original conjecture. These concern paving properties for general MASAs
+    and von Neumann algebras.
+  decomposition:
+    - "Paving for operators in type II_1 factors"
+    - "Extension of interlacing polynomial methods to infinite dimensions"
+    - "Connections to quantum information and frame theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

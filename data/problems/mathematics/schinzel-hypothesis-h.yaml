@@ -1,0 +1,114 @@
+id: opa.mathematics.number-theory.schinzel-hypothesis-h
+kind: problem
+title: "Schinzel's Hypothesis H"
+aliases:
+  - "Hypothesis H"
+  - "Schinzel-Sierpinski Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let f_1(x), ..., f_s(x) be irreducible polynomials with integer coefficients and positive
+    leading coefficients. Suppose that no prime p divides the product f_1(n)*...*f_s(n) for
+    all integers n (the "no fixed prime divisor" condition). Then there exist infinitely many
+    positive integers n such that f_1(n), ..., f_s(n) are all simultaneously prime.
+  informal: >
+    Any collection of integer polynomials that could conceivably all be prime at the same time
+    (no obvious obstruction from a single prime dividing the product) will indeed all be
+    simultaneously prime for infinitely many inputs.
+
+why_it_matters: >
+  Schinzel's Hypothesis H (1958) is one of the most general conjectures in prime number theory.
+  It subsumes the twin prime conjecture, Landau's conjecture (n^2+1 primes), Bunyakovsky's
+  conjecture, and many others. It remains completely open for any system of two or more
+  polynomials. Even single polynomial cases beyond linear are unproven (e.g., n^2+1).
+
+prerequisites:
+  - analytic number theory
+  - sieve methods
+  - algebraic number theory
+
+dates:
+  first_stated: 1958
+
+sources:
+  canonical:
+    - source_id: src_schinzel_sierpinski_1958
+      kind: paper
+      title: "Sur certaines hypotheses concernant les nombres premiers"
+      authors:
+        - "Andrzej Schinzel"
+        - "Waclaw Sierpinski"
+      year: 1958
+  status_evidence:
+    - source_id: src_schinzel_2005
+      kind: textbook
+      title: "Selecta"
+      authors:
+        - "Andrzej Schinzel"
+      year: 2005
+
+partial_results:
+  - summary: "The case s=1 with linear polynomials is Dirichlet's theorem (proved 1837)."
+    year: 1837
+  - summary: "Green-Tao proved the case of k linear polynomials forming an arithmetic progression."
+    year: 2008
+  - summary: "Maynard-Tao proved bounded gaps between primes, a weak consequence for s=2 linear case."
+    year: 2014
+  - summary: "No case with a non-linear polynomial has been proved."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes:
+    - "opa.mathematics.number-theory.twin-prime-conjecture"
+    - "opa.mathematics.number-theory.bunyakovsky-conjecture"
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Schinzel's Hypothesis H predicts simultaneous primality for polynomial families without fixed
+    prime divisors. Subsumes most prime-producing conjectures; open beyond linear cases.
+  decomposition:
+    - "Sieve methods and density estimates"
+    - "Hardy-Littlewood circle method extensions"
+    - "Algebraic and analytic approaches to irreducible polynomials"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

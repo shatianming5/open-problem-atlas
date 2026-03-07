@@ -1,0 +1,112 @@
+id: opa.phys.statistical-mechanics.griffiths-singularities-rigorous
+kind: problem
+title: "Griffiths Singularities Rigorous Treatment"
+aliases:
+  - "Griffiths Phase"
+  - "Griffiths-McCoy Singularities"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Provide a complete rigorous characterization of Griffiths singularities in dilute
+    and disordered spin systems. Prove that in the Griffiths phase (the temperature
+    region between the critical temperatures of the pure and disordered systems), the
+    free energy is an infinitely differentiable but non-analytic function of the magnetic
+    field. Determine the exact nature of the essential singularity and its dependence
+    on the disorder distribution. For quantum systems, prove that rare region effects
+    lead to power-law (Griffiths-McCoy) singularities with continuously varying exponents.
+  informal: >
+    In disordered magnets, rare regions can locally order at temperatures above the
+    bulk critical temperature, creating unusual singularities. Rigorously characterizing
+    these subtle effects is an important open problem.
+
+why_it_matters: >
+  Griffiths singularities demonstrate that disorder can have profound effects on phase
+  transitions. Understanding them rigorously is important for disordered systems ranging
+  from random magnets to neural networks and biological systems.
+
+prerequisites:
+  - statistical mechanics
+  - probability theory
+  - random matrices
+  - mathematical physics
+  - disordered systems
+
+dates:
+  first_stated: 1969
+
+sources:
+  canonical:
+    - source_id: src_griffiths_1969
+      kind: paper
+      title: "Nonanalytic Behavior Above the Critical Point in a Random Ising Ferromagnet"
+      url: "https://doi.org/10.1103/PhysRevLett.23.17"
+      year: 1969
+      locator: "Physical Review Letters 23, 17"
+  status_evidence:
+    - source_id: src_vojta_2006
+      kind: survey
+      title: "Rare region effects at classical, quantum, and nonequilibrium phase transitions"
+      url: "https://doi.org/10.1088/0305-4470/39/22/R01"
+      year: 2006
+
+partial_results:
+  - summary: "Griffiths proved the existence of essential singularities in the free energy of dilute Ising models."
+    year: 1969
+  - summary: "McCoy and Wu showed that quantum Griffiths effects lead to power-law singularities in random transverse-field Ising models."
+    year: 1968
+  - summary: "Rigorous bounds on Griffiths singularity strength have been obtained for specific models."
+    year: 1990
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.universality-critical-exponents-proof"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.60
+  toolability: 0.35
+  formality: 0.60
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Rigorously characterizing Griffiths singularities in disordered spin systems and determining their exact nature.
+  decomposition:
+    - "Prove the exact form of essential singularities in the Griffiths phase"
+    - "Rigorously establish power-law Griffiths-McCoy singularities in quantum systems"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

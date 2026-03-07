@@ -1,0 +1,11 @@
+title: "Dynamical Mean-Field Theory Extensions"
+statement: "Can cluster extensions of dynamical mean-field theory capture the essential physics of the cuprate phase diagram, including the pseudogap and d-wave superconductivity?"
+source_id: "src_georges_2004"
+source_url: "https://doi.org/10.1103/RevModPhys.68.13"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Kakeya Conjecture"
+statement: "A Besicovitch set in R^n (containing a unit segment in every direction) has Hausdorff dimension n."
+source_id: "src_kakeya_1917"
+source_url: "https://en.wikipedia.org/wiki/Kakeya_set"
+domain_hint: "mathematics"
+subdomain_hint: "harmonic-analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

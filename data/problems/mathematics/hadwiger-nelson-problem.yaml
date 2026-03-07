@@ -1,0 +1,118 @@
+id: opa.mathematics.combinatorics.hadwiger-nelson-problem
+kind: problem
+title: "Hadwiger-Nelson Problem"
+aliases:
+  - "Chromatic Number of the Plane"
+  - "Nelson Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - combinatorics
+  - graph-theory
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    What is the minimum number of colors needed to color all points of the Euclidean plane
+    such that no two points at distance exactly 1 from each other share the same color?
+    Equivalently, what is the chromatic number chi(G) of the unit-distance graph of the plane?
+    It is known that 5 <= chi <= 7.
+  informal: >
+    How many colors do you need to paint the plane so that no two points exactly 1 unit apart
+    share the same color? The answer is known to be between 5 and 7, but the exact value remains
+    unknown.
+
+why_it_matters: >
+  The Hadwiger-Nelson problem, first posed around 1950, is one of the most famous open problems
+  in combinatorial geometry. It connects discrete geometry, graph theory, and measure theory.
+  Despite its simple statement, it has resisted resolution for over 70 years. In 2018, Aubrey
+  de Grey made a breakthrough by improving the lower bound from 4 to 5, the first improvement
+  since the problem was posed.
+
+prerequisites:
+  - combinatorial geometry
+  - graph coloring
+  - unit-distance graphs
+  - Euclidean geometry
+
+dates:
+  first_stated: 1950
+
+sources:
+  canonical:
+    - source_id: src_soifer_2009
+      kind: textbook
+      title: "The Mathematical Coloring Book"
+      authors:
+        - "Alexander Soifer"
+      year: 2009
+    - source_id: src_degrey_2018
+      kind: paper
+      title: "The chromatic number of the plane is at least 5"
+      authors:
+        - "Aubrey D.N.J. de Grey"
+      url: "https://arxiv.org/abs/1804.02385"
+      year: 2018
+  status_evidence:
+    - source_id: src_parts_2020
+      kind: paper
+      title: "Small unit-distance graphs in the plane"
+      url: "https://arxiv.org/abs/2010.13607"
+      year: 2020
+
+partial_results:
+  - summary: "Nelson and Isbell independently showed chi >= 4 and Isbell showed chi <= 7 using a hexagonal tiling argument."
+    year: 1950
+  - summary: "Aubrey de Grey constructed a unit-distance graph requiring 5 colors, improving the lower bound to 5."
+    year: 2018
+  - summary: "The Polymath16 project refined de Grey's construction, finding smaller 5-chromatic unit-distance graphs."
+    year: 2019
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.60
+  formality: 0.80
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Hadwiger-Nelson problem asks for the chromatic number of the unit-distance graph of
+    the Euclidean plane. The current best bounds are 5 <= chi <= 7. The lower bound was
+    improved from 4 to 5 by de Grey in 2018.
+  decomposition:
+    - "Improving the lower bound beyond 5 via larger unit-distance graph constructions"
+    - "Reducing the upper bound below 7 by refining tiling-based coloring schemes"
+    - "Connections to measurable chromatic number and axiom of choice"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

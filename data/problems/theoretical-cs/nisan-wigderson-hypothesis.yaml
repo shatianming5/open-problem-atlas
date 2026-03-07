@@ -1,0 +1,114 @@
+id: opa.tcs.complexity-theory.nisan-wigderson-hypothesis
+kind: problem
+title: "Nisan-Wigderson Hypothesis"
+aliases:
+  - "NW pseudorandom generator conjecture"
+  - "Hardness assumption for derandomization"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Nisan-Wigderson hypothesis posits the existence of a function in E = DTIME(2^O(n))
+    that requires circuits of size 2^Omega(n). This is a sufficient condition for
+    constructing pseudorandom generators that derandomize BPP. Can this hypothesis be
+    proven unconditionally?
+  informal: >
+    Is there a problem solvable in exponential time that cannot be solved by any
+    sub-exponential-size circuit? Proving this would show that randomness can be
+    eliminated from efficient computation.
+
+why_it_matters: >
+  The Nisan-Wigderson hypothesis is a standard hardness assumption in complexity
+  theory. If true, it implies P = BPP and provides explicit pseudorandom generators.
+  Proving it unconditionally would be a major breakthrough, essentially resolving the
+  derandomization question.
+
+prerequisites:
+  - pseudorandom generators
+  - circuit lower bounds
+  - exponential time classes
+  - hardness vs randomness
+
+dates:
+  first_stated: 1994
+
+sources:
+  canonical:
+    - source_id: src_nisan_wigderson_1994
+      kind: paper
+      title: "Hardness vs Randomness"
+      authors:
+        - "Noam Nisan"
+        - "Avi Wigderson"
+      url: "https://doi.org/10.1016/S0022-0000(05)80043-1"
+      year: 1994
+  status_evidence:
+    - source_id: src_impagliazzo_wigderson_2001
+      kind: paper
+      title: "Randomness vs Time: Derandomization under a Uniform Assumption"
+      authors:
+        - "Russell Impagliazzo"
+        - "Avi Wigderson"
+      url: "https://doi.org/10.1006/jcss.2001.1780"
+      year: 2001
+
+partial_results:
+  - summary: "Nisan and Wigderson (1994) proved that the hypothesis implies explicit PRGs that derandomize BPP."
+    year: 1994
+  - summary: "The hypothesis is consistent with current knowledge but proving it requires proving circuit lower bounds beyond current techniques."
+    year: 1994
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.derandomization-p-bpp"
+    - "opa.tcs.complexity-theory.hardness-vs-randomness"
+    - "opa.tcs.complexity-theory.circuit-complexity-explicit-functions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.20
+  formality: 0.90
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Nisan-Wigderson hypothesis conjectures the existence of hard functions in E
+    that would enable complete derandomization of BPP via pseudorandom generators.
+  decomposition:
+    - "Prove unconditional circuit lower bounds for functions in E"
+    - "Develop alternative hardness assumptions sufficient for derandomization"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

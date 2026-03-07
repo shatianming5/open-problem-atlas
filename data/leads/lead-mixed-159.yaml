@@ -1,0 +1,11 @@
+title: "Higher-Form Symmetries and Confinement"
+statement: "Can higher-form generalized symmetries provide a rigorous criterion for confinement in non-abelian gauge theories?"
+source_id: "src_gaiotto_2022"
+source_url: "https://arxiv.org/abs/2211.11767"
+domain_hint: "mathematical-physics"
+subdomain_hint: "gauge-theory"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

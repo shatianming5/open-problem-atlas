@@ -1,0 +1,11 @@
+title: "Erdos-Gyarfas Conjecture"
+statement: "Every graph with minimum degree at least 3 contains a simple cycle whose length is a power of 2."
+source_id: "src_erdos_1995"
+source_url: "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Gy%C3%A1rf%C3%A1s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

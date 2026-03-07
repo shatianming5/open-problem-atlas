@@ -1,0 +1,11 @@
+title: "Kusner's Conjecture on Equilateral Sets"
+statement: "The maximum number of equidistant points in l^1_n is 2n."
+source_id: "src_kusner_1983"
+source_url: "https://en.wikipedia.org/wiki/Equilateral_set"
+domain_hint: "mathematics"
+subdomain_hint: "discrete-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

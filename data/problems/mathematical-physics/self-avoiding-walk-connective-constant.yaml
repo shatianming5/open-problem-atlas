@@ -1,0 +1,112 @@
+id: opa.phys.statistical-mechanics.self-avoiding-walk-connective-constant
+kind: problem
+title: "Self-Avoiding Walk Connective Constant"
+aliases:
+  - "SAW Connective Constant"
+  - "Self-Avoiding Walk Enumeration"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the connective constant mu for self-avoiding walks (SAWs) on common
+    lattices. Specifically, prove that for the honeycomb lattice mu = sqrt(2 + sqrt(2))
+    (conjectured by Nienhuis and proved by Duminil-Copin and Smirnov for the honeycomb
+    lattice). For the square lattice (numerically mu approx 2.63816), the simple cubic
+    lattice (mu approx 4.6842), and the triangular lattice (mu approx 4.1508), determine
+    exact values or prove they are transcendental. Prove the conjectured critical
+    exponents gamma = 43/32 and nu = 3/4 for SAWs in d=2.
+  informal: >
+    A self-avoiding walk never revisits a point. How many SAWs of length n are there?
+    The answer grows like mu^n, where mu is the connective constant. Finding the exact
+    value of mu for most lattices is an open problem.
+
+why_it_matters: >
+  Self-avoiding walks model polymer chains in chemistry and biology. The connective
+  constant is a fundamental mathematical invariant of a lattice. Understanding SAWs
+  connects to conformal field theory, SLE, and the geometry of random curves.
+
+prerequisites:
+  - probability theory
+  - combinatorics
+  - statistical mechanics
+  - conformal field theory
+  - complex analysis
+
+dates:
+  first_stated: 1954
+
+sources:
+  canonical:
+    - source_id: src_duminil_copin_2012
+      kind: paper
+      title: "The connective constant of the honeycomb lattice equals sqrt(2+sqrt(2))"
+      url: "https://doi.org/10.4007/annals.2012.175.3.14"
+      year: 2012
+      locator: "Annals of Mathematics 175(3), 1653-1665"
+  status_evidence:
+    - source_id: src_madras_slade_2013
+      kind: textbook
+      title: "The Self-Avoiding Walk"
+      url: "https://doi.org/10.1007/978-1-4614-6025-1"
+      year: 2013
+
+partial_results:
+  - summary: "Duminil-Copin and Smirnov proved mu = sqrt(2+sqrt(2)) for the honeycomb lattice."
+    year: 2012
+  - summary: "The conjectured critical exponents in d=2 remain unproven despite strong numerical evidence."
+    year: 2020
+  - summary: "In d >= 5, SAW critical behavior is mean-field, proven by Hara and Slade using lace expansion."
+    year: 1992
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.conformal-invariance-criticality-general"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.45
+  toolability: 0.40
+  formality: 0.70
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Determining exact connective constants for self-avoiding walks on common lattices and proving critical exponents.
+  decomposition:
+    - "Determine the connective constant for the square lattice"
+    - "Prove critical exponents gamma = 43/32 and nu = 3/4 for SAWs in d=2"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Lower Bounds for Matrix Rigidity"
+statement: "Can one prove superlinear rigidity lower bounds for an explicit matrix family, a key step toward arithmetic circuit lower bounds?"
+source_id: "src_alman_2021"
+source_url: "https://arxiv.org/abs/2105.02060"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algebraic-complexity"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

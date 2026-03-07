@@ -1,0 +1,11 @@
+title: "Morita Equivalence for Higher Categories"
+statement: "Develop a complete theory of Morita equivalence for enriched higher categories that generalizes classical Morita theory."
+source_id: "src_lurie_2009"
+source_url: "https://en.wikipedia.org/wiki/Morita_equivalence"
+domain_hint: "mathematics"
+subdomain_hint: "category-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

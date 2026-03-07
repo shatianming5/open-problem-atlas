@@ -1,0 +1,11 @@
+title: "PPAD-Completeness of Nash Equilibrium Variants"
+statement: "What is the exact complexity of computing approximate Nash equilibria in various game classes beyond PPAD-hardness of general Nash?"
+source_id: "src_daskalakis_goldberg_papadimitriou_2009"
+source_url: "https://doi.org/10.1145/1461928.1461951"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

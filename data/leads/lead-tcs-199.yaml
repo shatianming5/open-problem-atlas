@@ -1,0 +1,11 @@
+title: "Multiple Access Channel with Feedback Capacity"
+statement: "Does feedback increase the capacity region of the multiple access channel? Cover and Leung conjectured it does."
+source_id: "src_cover_leung_1981"
+source_url: "https://doi.org/10.1109/TIT.1981.1056307"
+domain_hint: "theoretical-cs"
+subdomain_hint: "information-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,118 @@
+id: opa.tcs.complexity-theory.eth-vs-seth
+kind: problem
+title: "ETH vs SETH Gap"
+aliases:
+  - "Exponential Time Hypothesis vs Strong ETH"
+  - "ETH-SETH gap"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Exponential Time Hypothesis (ETH) states that 3-SAT cannot be solved in
+    2^o(n) time. The Strong Exponential Time Hypothesis (SETH) states that for every
+    epsilon > 0, there exists k such that k-SAT cannot be solved in O(2^((1-epsilon)n))
+    time. Does ETH imply SETH, or are they independent? More broadly, what is the
+    relationship between these hypotheses and their fine-grained consequences?
+  informal: >
+    Are the two main hardness assumptions in fine-grained complexity theory (ETH and
+    SETH) equivalent, or does the stronger one (SETH) really add power? What are the
+    exact consequences of each assumption?
+
+why_it_matters: >
+  ETH and SETH are the foundational hypotheses of fine-grained complexity theory.
+  They imply tight conditional lower bounds for many natural problems. Understanding
+  whether SETH is strictly stronger than ETH would clarify the landscape of
+  fine-grained complexity.
+
+prerequisites:
+  - satisfiability
+  - fine-grained complexity
+  - exponential-time algorithms
+  - sparsification lemma
+
+dates:
+  first_stated: 2001
+
+sources:
+  canonical:
+    - source_id: src_impagliazzo_paturi_zane_2001
+      kind: paper
+      title: "Which Problems Have Strongly Exponential Complexity?"
+      authors:
+        - "Russell Impagliazzo"
+        - "Ramamohan Paturi"
+        - "Francis Zane"
+      url: "https://doi.org/10.1006/jcss.2001.1774"
+      year: 2001
+  status_evidence:
+    - source_id: src_williams_2015
+      kind: paper
+      title: "Hardness of Easy Problems: Basing Hardness on Popular Conjectures such as the Strong Exponential Time Hypothesis"
+      authors:
+        - "Virginia Vassilevska Williams"
+      url: "https://doi.org/10.4171/OWR/2015/24"
+      year: 2015
+
+partial_results:
+  - summary: "Impagliazzo, Paturi, and Zane (2001) proved the sparsification lemma showing ETH for 3-SAT implies ETH for k-SAT for every k."
+    year: 2001
+  - summary: "SETH implies numerous conditional lower bounds including for edit distance, LCS, and OV that ETH alone does not seem to imply."
+    year: 2015
+  - summary: "It is unknown whether ETH implies SETH; they may be independent hypotheses."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+    - "opa.tcs.complexity-theory.ppad-nash-equilibrium"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.30
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The ETH vs SETH gap problem asks whether the Strong Exponential Time Hypothesis
+    is strictly stronger than the Exponential Time Hypothesis, with implications
+    throughout fine-grained complexity theory.
+  decomposition:
+    - "Determine whether ETH implies SETH or construct an oracle separation"
+    - "Identify problems with tight conditional lower bounds from SETH but not ETH"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,135 @@
+id: opa.tcs.graph-algorithms.aanderaa-karp-rosenberg-conjecture
+kind: problem
+title: "Aanderaa-Karp-Rosenberg Conjecture (Evasiveness Conjecture)"
+aliases:
+  - "Evasiveness conjecture"
+  - "AKR conjecture"
+  - "Graph property evasiveness"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - graph-algorithms
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    A graph property is a class of graphs closed under isomorphism. A graph
+    property P on n vertices is called evasive if every deterministic algorithm
+    that determines whether an input graph on n vertices has property P by
+    querying individual edges must, in the worst case, query all n(n-1)/2 possible
+    edges. The Aanderaa-Karp-Rosenberg conjecture (evasiveness conjecture) states
+    that every nontrivial monotone graph property is evasive. A monotone graph
+    property is one that is preserved under the addition of edges, and nontrivial
+    means it is not satisfied by all graphs or by no graphs.
+  informal: >
+    Suppose you want to determine whether a graph has some property (such as
+    being connected, containing a triangle, or being planar) that is preserved
+    when you add edges. You learn about the graph by asking about one edge at
+    a time: "Is there an edge between vertex i and vertex j?" The conjecture
+    says that for any such property, an adversary can always force you to ask
+    about every possible edge before you can determine the answer.
+
+why_it_matters: >
+  The evasiveness conjecture connects combinatorics, topology, and computational
+  complexity. It concerns the query complexity (decision tree complexity) of
+  graph properties, which is a fundamental model of computation. Proofs for
+  special cases have used surprising topological methods (Oliver's theorem on
+  fixed points of group actions, simplicial complexes). The conjecture, if true,
+  would give a complete characterization of the deterministic query complexity
+  of monotone graph properties.
+
+prerequisites:
+  - graph theory
+  - decision tree complexity
+  - algebraic topology
+  - group actions
+  - monotone graph properties
+
+dates:
+  first_stated: 1975
+
+sources:
+  canonical:
+    - source_id: src_rosenberg_1973
+      kind: paper
+      title: "On the Time Required to Recognize Properties of Graphs: A Problem"
+      authors:
+        - "Arnold L. Rosenberg"
+      url: "https://doi.org/10.1145/321752.321756"
+      year: 1973
+      locator: "SIGACT News, 5(4), pp. 15-16"
+    - source_id: src_karp_1975
+      kind: paper
+      title: "On the Complexity of Combinatorial Problems"
+      authors:
+        - "Richard M. Karp"
+      year: 1975
+      locator: "Unpublished manuscript"
+  status_evidence:
+    - source_id: src_kahn_saks_sturtevant_1984
+      kind: paper
+      title: "A Topological Approach to Evasiveness"
+      authors:
+        - "Jeff Kahn"
+        - "Michael Saks"
+        - "Dean Sturtevant"
+      url: "https://doi.org/10.1007/BF02579389"
+      year: 1984
+
+partial_results:
+  - summary: "Kahn, Saks, and Sturtevant proved the conjecture for graphs on a prime power number of vertices, using Oliver's theorem from algebraic topology on fixed points of p-group actions on acyclic simplicial complexes."
+    year: 1984
+  - summary: "Rivest and Vuillemin proved that every nontrivial monotone graph property has decision tree complexity at least n^2/4, establishing a quadratic lower bound."
+    year: 1976
+  - summary: "The conjecture has been verified for specific properties: connectivity, planarity, containing a Hamiltonian cycle, k-colorability."
+    year: 1990
+  - summary: "Chakrabarti, Khot, and Shi proved near-optimal lower bounds on the randomized query complexity of monotone graph properties."
+    year: 2001
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.72
+  underexplored: 0.45
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Aanderaa-Karp-Rosenberg conjecture states that every nontrivial monotone graph property requires querying all edges in the worst case, connecting query complexity to algebraic topology.
+  decomposition:
+    - "Extend the topological approach of Kahn-Saks-Sturtevant beyond prime power vertex counts"
+    - "Develop new combinatorial or algebraic tools to handle general vertex counts"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

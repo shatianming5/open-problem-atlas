@@ -1,0 +1,124 @@
+id: opa.mathematics.logic-and-foundations.large-cardinal-hierarchy
+kind: problem
+title: "Large Cardinal Consistency Strength Hierarchy"
+aliases:
+  - "Inner Model Problem for Supercompact Cardinals"
+  - "Large Cardinal Consistency Strength Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - logic-and-foundations
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Construct an inner model (a canonical model of set theory analogous to Godel's L) for a
+    supercompact cardinal. More broadly, develop inner model theory for the large cardinal
+    hierarchy at and beyond the level of supercompact cardinals, establishing the consistency
+    strength of these axioms relative to each other and to combinatorial set-theoretic principles.
+  informal: >
+    Large cardinal axioms form a linear hierarchy of increasingly strong assumptions about
+    the universe of sets. Inner model theory provides canonical models that "tame" these
+    axioms. Building inner models has succeeded up to Woodin cardinals, but extending the
+    theory to supercompact cardinals and beyond remains a major open challenge.
+
+why_it_matters: >
+  The inner model program is one of the central projects in set theory, aiming to understand
+  the consistency strength of large cardinal axioms. Inner models have been constructed up
+  to the level of Woodin cardinals (by Steel, Mitchell, and others), but extending beyond
+  to supercompact and stronger cardinals is considered one of the hardest and most important
+  open problems in mathematical logic. Success would illuminate the structure of the set-
+  theoretic universe and the relationship between different foundational axioms.
+
+prerequisites:
+  - set theory
+  - inner model theory
+  - large cardinal axioms
+  - forcing
+  - fine structure theory
+
+dates:
+  first_stated: 1970
+
+sources:
+  canonical:
+    - source_id: src_steel_2010
+      kind: paper
+      title: "An Outline of Inner Model Theory"
+      authors:
+        - "John R. Steel"
+      year: 2010
+      url: "https://doi.org/10.1007/978-1-4020-5764-9_20"
+    - source_id: src_woodin_2017
+      kind: paper
+      title: "In search of Ultimate-L: the 19th Midrasha Mathematicae lectures"
+      authors:
+        - "W. Hugh Woodin"
+      year: 2017
+      url: "https://doi.org/10.1017/bsl.2017.25"
+  status_evidence:
+    - source_id: src_sargsyan_2015
+      kind: paper
+      title: "Hod Mice and the Mouse Set Conjecture"
+      authors:
+        - "Grigor Sargsyan"
+      year: 2015
+
+partial_results:
+  - summary: "Mitchell and Steel constructed inner models with Woodin cardinals using the core model theory."
+    year: 1994
+  - summary: "Woodin proposed the Ultimate-L program as a strategy for extending inner model theory to supercompacts."
+    year: 2010
+  - summary: "Sargsyan developed HOD analysis methods and constructed inner models with strengths approaching supercompact."
+    year: 2015
+  - summary: "The full inner model for a supercompact cardinal remains out of reach."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.15
+  formality: 0.95
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The inner model problem for supercompact cardinals asks for the construction of canonical
+    inner models at and beyond the supercompact level. Inner model theory succeeds up to
+    Woodin cardinals, but the supercompact case remains a central open problem in set theory.
+  decomposition:
+    - "Woodin's Ultimate-L program and its realizability"
+    - "HOD analysis and hod mice for large cardinal strength"
+    - "Connections between inner model theory and descriptive set theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

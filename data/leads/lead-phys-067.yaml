@@ -1,0 +1,11 @@
+title: "Chiral Symmetry Breaking Mechanism"
+statement: "Can spontaneous chiral symmetry breaking in QCD be proven rigorously from the QCD Lagrangian without lattice or model assumptions?"
+source_id: "src_nambu_1961"
+source_url: "https://doi.org/10.1103/PhysRev.122.345"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

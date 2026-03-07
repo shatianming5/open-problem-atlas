@@ -1,0 +1,11 @@
+title: "Anomalies and Symmetry-Protected Topological Phases"
+statement: "Can one completely classify anomalies in quantum field theories using cobordism, establishing a bijection between anomalies and SPT phases in one dimension higher?"
+source_id: "src_freed_2022"
+source_url: "https://arxiv.org/abs/2204.06564"
+domain_hint: "mathematical-physics"
+subdomain_hint: "topological-phases"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

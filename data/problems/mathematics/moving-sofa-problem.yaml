@@ -1,0 +1,124 @@
+id: opa.mathematics.geometry.moving-sofa-problem
+kind: problem
+title: "Moving Sofa Problem"
+aliases:
+  - "Sofa Problem"
+  - "Hammersley Sofa Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - geometry
+  - analysis
+
+problem_type: computation
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    What is the largest area of a connected planar region that can be moved
+    around a right-angled corner in an L-shaped hallway of unit width? The
+    region must be translated and rotated continuously through the hallway
+    without overlap.
+  informal: >
+    What is the largest sofa (measured by area) that can be moved around
+    a right-angle turn in a hallway of fixed width?
+
+why_it_matters: >
+  The moving sofa problem is a deceptively simple geometric optimization
+  problem that has remained open since 1966. It exemplifies the difficulty
+  of optimization over shapes and continuous motions. The best known lower
+  bound is Gerver's sofa (area ≈ 2.2195) from 1992, and Romik's ambidextrous
+  sofa handles a symmetric variant. A 2024 preprint by Jineon Baek claims
+  to prove that Gerver's sofa is optimal, but the proof is not yet fully
+  verified.
+
+prerequisites:
+  - plane geometry
+  - calculus of variations
+  - optimization theory
+
+dates:
+  first_stated: 1966
+
+sources:
+  canonical:
+    - source_id: src_hammersley_1968
+      kind: paper
+      title: "On the enfeeblement of mathematical skills by 'Modern Mathematics' and by similar soft intellectual trash in schools and universities"
+      authors:
+        - "John M. Hammersley"
+      year: 1968
+    - source_id: src_gerver_1992
+      kind: paper
+      title: "On moving a sofa around a corner"
+      authors:
+        - "Joseph L. Gerver"
+      year: 1992
+      url: "https://doi.org/10.1007/BF00150240"
+  status_evidence:
+    - source_id: src_romik_2018
+      kind: paper
+      title: "Differential equations and exact solutions in the moving sofa problem"
+      authors:
+        - "Dan Romik"
+      year: 2018
+      url: "https://doi.org/10.1080/10586458.2016.1270858"
+
+partial_results:
+  - summary: "Hammersley proposed a basic shape achieving area π/2 + 2/π ≈ 2.2074."
+    year: 1968
+  - summary: "Gerver improved the lower bound to approximately 2.2195 with a shape described by 18 curve segments."
+    year: 1992
+  - summary: "Romik studied the ambidextrous (symmetric hallway) variant and found an optimal ambidextrous sofa."
+    year: 2018
+  - summary: "Baek posted a preprint claiming to prove Gerver's sofa is optimal; the proof is under review."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.45
+  toolability: 0.65
+  formality: 0.75
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    The moving sofa problem asks for the planar region of largest area that
+    can be moved around a right-angle corner in a hallway of unit width.
+    The best known shape is Gerver's sofa with area ≈ 2.2195.
+  decomposition:
+    - "Shape optimization and variational methods"
+    - "Computational search for improved shapes"
+    - "Analysis of Gerver's conjectured optimality"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

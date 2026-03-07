@@ -1,0 +1,11 @@
+title: "Optimal Distributed Graph Algorithms"
+statement: "What is the exact round complexity of computing minimum spanning tree in the CONGEST model of distributed computing?"
+source_id: "src_elkin_2022"
+source_url: "https://arxiv.org/abs/2205.05040"
+domain_hint: "theoretical-cs"
+subdomain_hint: "distributed-computing"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

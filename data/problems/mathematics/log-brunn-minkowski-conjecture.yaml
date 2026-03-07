@@ -1,0 +1,122 @@
+id: opa.mathematics.convex-geometry.log-brunn-minkowski-conjecture
+kind: problem
+title: "Log-Brunn-Minkowski Conjecture"
+aliases:
+  - "Logarithmic Brunn-Minkowski Inequality"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - convex-geometry
+  - functional-analysis
+  - measure-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For origin-symmetric convex bodies K and L in R^n and lambda in [0,1],
+    the inequality Vol((1-lambda) cdot K +_0 lambda cdot L) >= Vol(K)^{1-lambda} Vol(L)^lambda
+    holds, where +_0 denotes the log-Minkowski addition (geometric mean of support functions).
+    Equivalently, the cone-volume measure satisfies a log-concavity property stronger than the
+    classical Brunn-Minkowski inequality.
+  informal: >
+    The conjecture proposes a multiplicative (logarithmic) strengthening of the classical
+    Brunn-Minkowski inequality for origin-symmetric convex bodies, replacing the usual
+    Minkowski addition with a geometric-mean operation on support functions.
+
+why_it_matters: >
+  The log-Brunn-Minkowski conjecture, proposed by Boroczky, Lutwak, Yang, and Zhang (2012),
+  would unify and strengthen several fundamental inequalities in convex geometry. It implies
+  the B-conjecture, the log-Minkowski inequality, and the uniqueness of the cone-volume measure.
+  It represents the deepest conjectured strengthening of the Brunn-Minkowski inequality.
+
+prerequisites:
+  - convex geometry
+  - Brunn-Minkowski theory
+  - measure theory
+  - functional analysis
+
+dates:
+  first_stated: 2012
+
+sources:
+  canonical:
+    - source_id: src_blyz_2012
+      kind: paper
+      title: "The log-Brunn-Minkowski inequality"
+      authors:
+        - "Karoly J. Boroczky"
+        - "Erwin Lutwak"
+        - "Deane Yang"
+        - "Gaoyong Zhang"
+      year: 2012
+      url: "https://doi.org/10.1016/j.aim.2012.07.015"
+  status_evidence:
+    - source_id: src_blyz_2013
+      kind: paper
+      title: "The logarithmic Minkowski problem"
+      authors:
+        - "Karoly J. Boroczky"
+        - "Erwin Lutwak"
+        - "Deane Yang"
+        - "Gaoyong Zhang"
+      url: "https://doi.org/10.1090/S0894-0347-2012-00741-3"
+      year: 2013
+
+partial_results:
+  - summary: "Proved in dimension 2 by Boroczky, Lutwak, Yang, and Zhang (2012)."
+    year: 2012
+  - summary: "Saroglou proved special cases for bodies with additional symmetry assumptions."
+    year: 2015
+  - summary: "Kolesnikov and Milman established connections to the Hilbert-Brunn-Minkowski inequality."
+    year: 2022
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.convex-geometry.mahler-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.45
+  toolability: 0.50
+  formality: 0.80
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The log-Brunn-Minkowski conjecture proposes a logarithmic strengthening of the Brunn-Minkowski
+    inequality for origin-symmetric convex bodies, proved in dimension 2 but open in higher dimensions.
+  decomposition:
+    - "Functional-analytic approach via L^p Minkowski problems"
+    - "Local log-Brunn-Minkowski inequality techniques"
+    - "Connections to cone-volume measure uniqueness"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

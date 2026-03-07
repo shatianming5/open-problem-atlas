@@ -1,0 +1,11 @@
+title: "Legendre's Conjecture"
+statement: "There is always a prime number between n^2 and (n+1)^2 for every positive integer n."
+source_id: "src_legendre_1808"
+source_url: "https://en.wikipedia.org/wiki/Legendre%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

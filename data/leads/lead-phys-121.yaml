@@ -1,0 +1,11 @@
+title: "Cosmic Censorship Conjecture"
+statement: "Does the weak cosmic censorship conjecture hold in general relativity, ensuring that singularities formed from generic initial conditions are hidden behind event horizons?"
+source_id: "src_penrose_1969"
+source_url: "https://doi.org/10.1007/BF02450518"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Density Functional Theory Exact Exchange-Correlation"
+statement: "Can the exact exchange-correlation functional in density functional theory be constructed or systematically approximated for strongly correlated systems?"
+source_id: "src_burke_2012"
+source_url: "https://arxiv.org/abs/1201.3679"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

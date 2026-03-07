@@ -1,0 +1,127 @@
+id: opa.tcs.complexity-theory.p-vs-pspace
+kind: problem
+title: "P vs PSPACE Problem"
+aliases:
+  - "P = PSPACE?"
+  - "Does P equal PSPACE?"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let P denote the class of languages decidable by a deterministic Turing machine
+    in polynomial time, and let PSPACE denote the class of languages decidable by a
+    deterministic Turing machine using polynomial space. It is known that P is contained
+    in PSPACE. Does P = PSPACE? Equivalently, can every problem solvable with
+    polynomial space also be solved in polynomial time?
+  informal: >
+    We know that problems solvable quickly (polynomial time) can also be solved
+    with limited memory (polynomial space). But is the reverse true? Can every
+    problem that requires only a reasonable amount of memory also be solved
+    quickly? Most researchers believe the answer is no, but this remains unproven.
+
+why_it_matters: >
+  Resolving whether P = PSPACE would clarify the relationship between time and
+  space as computational resources. PSPACE includes problems from game theory
+  (determining optimal strategies in two-player games like generalized chess),
+  formal verification, and planning. A separation would prove that there are
+  problems solvable with limited memory that inherently require exponential time,
+  establishing a fundamental gap between these two resources. Since NP is
+  contained in PSPACE, proving P != PSPACE would immediately imply P != NP.
+
+prerequisites:
+  - computational complexity theory
+  - Turing machines
+  - space complexity
+  - PSPACE-completeness
+  - Savitch's theorem
+
+dates:
+  first_stated: 1972
+
+sources:
+  canonical:
+    - source_id: src_savitch_1970
+      kind: paper
+      title: "Relationships Between Nondeterministic and Deterministic Tape Complexities"
+      authors:
+        - "Walter J. Savitch"
+      url: "https://doi.org/10.1016/S0022-0000(70)80006-X"
+      year: 1970
+      locator: "Journal of Computer and System Sciences, 4(2), pp. 177-192"
+    - source_id: src_sipser_2012
+      kind: textbook
+      title: "Introduction to the Theory of Computation"
+      authors:
+        - "Michael Sipser"
+      year: 2012
+      locator: "Chapter 8: Space Complexity"
+  status_evidence:
+    - source_id: src_arora_barak_2009
+      kind: textbook
+      title: "Computational Complexity: A Modern Approach"
+      authors:
+        - "Sanjeev Arora"
+        - "Boaz Barak"
+      url: "https://theory.cs.princeton.edu/complexity/"
+      year: 2009
+
+partial_results:
+  - summary: "By the time hierarchy theorem, P != EXPTIME, and by the space hierarchy theorem, PSPACE != EXPSPACE. However, no direct separation between P and PSPACE is known."
+    year: 1965
+  - summary: "Savitch's theorem shows NSPACE(s(n)) is contained in DSPACE(s(n)^2), implying NPSPACE = PSPACE, but does not help separate P from PSPACE."
+    year: 1970
+  - summary: "It is known that P is strictly contained in EXPTIME and L is strictly contained in PSPACE, but the relationship between P and PSPACE remains open."
+    year: 1972
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.92
+  underexplored: 0.25
+  toolability: 0.15
+  formality: 0.95
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The P vs PSPACE problem asks whether every problem solvable with polynomial space can also be solved in polynomial time, probing the fundamental relationship between time and space as computational resources.
+  decomposition:
+    - "Establish new time-space tradeoff lower bounds beyond current diagonalization techniques"
+    - "Investigate algebraic and combinatorial methods for separating time and space complexity classes"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

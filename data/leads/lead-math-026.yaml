@@ -1,0 +1,11 @@
+title: "Existence of Infinitely Many Sophie Germain Primes"
+statement: "Are there infinitely many primes p such that 2p+1 is also prime?"
+source_id: "src_germain_1825"
+source_url: "https://en.wikipedia.org/wiki/Sophie_Germain_prime"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

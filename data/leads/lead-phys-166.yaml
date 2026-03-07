@@ -1,0 +1,11 @@
+title: "Quantum Hall Effect Without Magnetic Field"
+statement: "Can the quantum anomalous Hall effect be realized at elevated temperatures in realistic materials beyond current achievements?"
+source_id: "src_chang_2013"
+source_url: "https://doi.org/10.1126/science.1234414"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

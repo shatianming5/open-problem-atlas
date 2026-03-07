@@ -1,0 +1,11 @@
+title: "Marczewski Problem"
+statement: "Is every Marczewski measurable set the union of a Borel set and a Marczewski null set?"
+source_id: "src_marczewski_1930"
+source_url: "https://en.wikipedia.org/wiki/Marczewski_measurable_set"
+domain_hint: "mathematics"
+subdomain_hint: "measure-theory"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

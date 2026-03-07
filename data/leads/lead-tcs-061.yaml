@@ -1,0 +1,11 @@
+title: "Faster All-Pairs Shortest Paths"
+statement: "Can all-pairs shortest paths in a dense graph be solved in truly sub-cubic time O(n^{3-epsilon}) for general weights?"
+source_id: "src_williams_2014b"
+source_url: "https://doi.org/10.1145/2611462"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

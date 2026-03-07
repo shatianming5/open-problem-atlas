@@ -1,0 +1,120 @@
+id: opa.mathematics.probability.kalai-conjecture-noise-sensitivity
+kind: problem
+title: "Kalai's Conjecture on Noise Sensitivity of Boolean Functions"
+aliases:
+  - "Kalai Noise Sensitivity Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - probability
+  - mathematical-optimization
+  - coding-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Consider a monotone Boolean function f: {0,1}^n -> {0,1} that is balanced (Pr[f=1] ~ 1/2).
+    If f has no "influential" variable (the influence of each variable is at most epsilon),
+    then f is noise-sensitive: for any delta > 0, the correlation between f(x) and f(x^delta)
+    tends to 0 as epsilon -> 0, where x^delta is obtained from x by independently flipping each
+    bit with probability delta. More precisely, f is noise-sensitive if and only if the sum of
+    squared Fourier coefficients above level k tends to zero for fixed k.
+  informal: >
+    Boolean functions where no single variable has much influence are easily corrupted by
+    random noise — a small amount of random bit-flipping destroys the correlation with the
+    original output.
+
+why_it_matters: >
+  Kalai's conjecture and related work by Benjamini, Kalai, and Schramm (1999) connects Boolean
+  function analysis to probability theory, social choice theory, and percolation theory. It has
+  applications to the hardness of approximation, voting theory (Arrow's theorem extensions),
+  and critical phenomena in statistical mechanics.
+
+prerequisites:
+  - Boolean function analysis
+  - Fourier analysis on the hypercube
+  - probability theory
+  - percolation theory
+
+dates:
+  first_stated: 1999
+
+sources:
+  canonical:
+    - source_id: src_bks_1999
+      kind: paper
+      title: "Noise sensitivity of Boolean functions and applications to percolation"
+      authors:
+        - "Itai Benjamini"
+        - "Gil Kalai"
+        - "Oded Schramm"
+      year: 1999
+      url: "https://doi.org/10.1007/BF02588461"
+  status_evidence:
+    - source_id: src_garban_steif_2015
+      kind: textbook
+      title: "Noise Sensitivity of Boolean Functions and Percolation"
+      authors:
+        - "Christophe Garban"
+        - "Jeffrey Steif"
+      url: "https://doi.org/10.1017/CBO9781139924160"
+      year: 2015
+
+partial_results:
+  - summary: "Proved for monotone functions by Benjamini, Kalai, and Schramm under certain influence conditions."
+    year: 1999
+  - summary: "Schramm and Steif extended noise sensitivity results to dynamical percolation."
+    year: 2010
+  - summary: "General quantitative noise sensitivity bounds remain open for arbitrary balanced functions."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.unique-games-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.45
+  toolability: 0.55
+  formality: 0.80
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Kalai's conjecture relates low influence of variables to noise sensitivity of Boolean
+    functions. Partially proved; quantitative bounds remain open in general.
+  decomposition:
+    - "Fourier analysis on the Boolean hypercube"
+    - "Hypercontractivity and logarithmic Sobolev inequalities"
+    - "Connections to percolation critical exponents"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

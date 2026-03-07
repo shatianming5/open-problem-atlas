@@ -1,0 +1,129 @@
+id: opa.mathematics.topology.volume-conjecture
+kind: problem
+title: "Volume Conjecture"
+aliases:
+  - "Kashaev–Murakami–Murakami Volume Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - topology
+  - geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For any hyperbolic knot K in S^3, let J_N(K; q) denote the colored
+    Jones polynomial colored by the N-dimensional irreducible representation
+    of sl(2,C), evaluated at q = exp(2πi/N). Then
+    lim_{N→∞} (2π/N) log |J_N(K; e^{2πi/N})| = vol(S^3 \ K),
+    where vol denotes the simplicial (hyperbolic) volume of the knot complement.
+  informal: >
+    The colored Jones polynomial is an algebraic knot invariant. The volume
+    conjecture says that if you evaluate it at special roots of unity and
+    take a limit, you recover the hyperbolic volume of the knot complement —
+    linking quantum algebra to hyperbolic geometry.
+
+why_it_matters: >
+  The volume conjecture is a remarkable bridge between quantum topology
+  (specifically, quantum invariants of knots) and hyperbolic geometry. It
+  connects the algebraic world of Jones polynomials and quantum groups to
+  the geometric world of Thurston's hyperbolic structures, and is a key
+  conjecture in the broader program of understanding 3-manifold topology
+  through quantum invariants.
+
+prerequisites:
+  - knot theory
+  - quantum topology
+  - hyperbolic geometry
+  - representation theory
+
+dates:
+  first_stated: 1997
+
+sources:
+  canonical:
+    - source_id: src_kashaev_1997
+      kind: paper
+      title: "The hyperbolic volume of knots from the quantum dilogarithm"
+      authors:
+        - "Rinat M. Kashaev"
+      year: 1997
+      url: "https://doi.org/10.1142/S0217732397001831"
+    - source_id: src_murakami_murakami_2001
+      kind: paper
+      title: "The colored Jones polynomials and the simplicial volume of a knot"
+      authors:
+        - "Hitoshi Murakami"
+        - "Jun Murakami"
+      year: 2001
+      url: "https://doi.org/10.1007/s101140100235"
+  status_evidence:
+    - source_id: src_murakami_2011
+      kind: paper
+      title: "An Introduction to the Volume Conjecture"
+      authors:
+        - "Hitoshi Murakami"
+      year: 2011
+      url: "https://doi.org/10.1007/978-3-642-20219-2_1"
+
+partial_results:
+  - summary: "Kashaev verified the conjecture numerically for several small knots including the figure-eight knot."
+    year: 1997
+  - summary: "Murakami and Murakami reformulated Kashaev's conjecture in terms of the colored Jones polynomial."
+    year: 2001
+  - summary: "The conjecture has been proved for the figure-eight knot by Ekholm."
+    year: 2004
+  - summary: "Extensions to the complexified volume (including Chern-Simons invariant) have been formulated."
+    year: 2004
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.80
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - snappy
+    - sage
+
+machine_generated:
+  summary: >
+    The volume conjecture relates the asymptotic behavior of the colored
+    Jones polynomial at roots of unity to the hyperbolic volume of the
+    knot complement. It bridges quantum topology and hyperbolic geometry.
+  decomposition:
+    - "Saddle-point analysis of the colored Jones polynomial"
+    - "Connections to Chern-Simons theory and the A-polynomial"
+    - "Generalization to 3-manifolds and quantum modularity"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

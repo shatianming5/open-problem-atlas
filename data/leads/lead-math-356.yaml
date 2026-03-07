@@ -1,0 +1,11 @@
+title: "Inf-Sup Stability for Stokes on General Meshes"
+statement: "Determine the optimal constant in the inf-sup condition for the Stokes equations on arbitrary polyhedral meshes."
+source_id: "src_brezzi_1974"
+source_url: "https://en.wikipedia.org/wiki/Ladyzhenskaya%E2%80%93Babu%C5%A1ka%E2%80%93Brezzi_condition"
+domain_hint: "mathematics"
+subdomain_hint: "numerical-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

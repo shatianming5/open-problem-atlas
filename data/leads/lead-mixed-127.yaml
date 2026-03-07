@@ -1,0 +1,11 @@
+title: "Serre's Uniformity Conjecture"
+statement: "Is the mod-p Galois representation attached to a non-CM elliptic curve over Q surjective for all primes p > 37?"
+source_id: "src_balakrishnan_2022"
+source_url: "https://arxiv.org/abs/2208.10254"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

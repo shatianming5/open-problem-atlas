@@ -1,0 +1,11 @@
+title: "Invariant Subspace Problem for Banach Spaces"
+statement: "Does every bounded linear operator on a separable infinite-dimensional Banach space have a non-trivial closed invariant subspace?"
+source_id: "src_enflo_2023"
+source_url: "https://arxiv.org/abs/2305.15442"
+domain_hint: "mathematics"
+subdomain_hint: "functional-analysis"
+confidence: 0.40
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

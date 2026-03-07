@@ -1,0 +1,11 @@
+title: "Stochastic Quantization of Gauge Theories"
+statement: "Can stochastic quantization via the Parisi-Wu approach be made rigorous for non-abelian gauge theories in four dimensions?"
+source_id: "src_shen_2023"
+source_url: "https://arxiv.org/abs/2305.07704"
+domain_hint: "mathematical-physics"
+subdomain_hint: "constructive-qft"
+confidence: 0.45
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

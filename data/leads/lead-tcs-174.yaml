@@ -1,0 +1,11 @@
+title: "Optimal Geometric Set Cover"
+statement: "What is the best polynomial-time approximation ratio for geometric set cover with disks or fat objects?"
+source_id: "src_mustafa_ray_2010"
+source_url: "https://doi.org/10.1007/s00454-009-9225-8"
+domain_hint: "theoretical-cs"
+subdomain_hint: "computational-geometry"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,116 @@
+id: opa.tcs.complexity-theory.acc0-lower-bounds
+kind: problem
+title: "ACC0 Circuit Lower Bounds"
+aliases:
+  - "ACC^0 lower bounds"
+  - "Constant-depth circuits with modular gates"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let ACC^0 denote the class of languages computable by constant-depth polynomial-size
+    circuits with AND, OR, NOT, and MOD_m gates for any fixed m. Can we prove that NP
+    is not contained in ACC^0? More generally, can we prove explicit superpolynomial
+    lower bounds against ACC^0 circuits for problems in NP?
+  informal: >
+    Can we prove that there are problems in NP that cannot be solved by small
+    constant-depth circuits even when those circuits are allowed to use modular
+    counting gates?
+
+why_it_matters: >
+  Proving that NP is not in ACC^0 would be a major step in circuit complexity. While
+  Williams (2011) showed NEXP is not in ACC^0, extending this to NP or even NP-complete
+  problems would be a dramatic improvement and would advance our understanding of the
+  P vs NP question.
+
+prerequisites:
+  - circuit complexity
+  - constant-depth circuits
+  - modular counting gates
+  - Razborov-Smolensky method
+
+dates:
+  first_stated: 1990
+
+sources:
+  canonical:
+    - source_id: src_williams_2014_acc
+      kind: paper
+      title: "Nonuniform ACC Circuit Lower Bounds"
+      authors:
+        - "Ryan Williams"
+      url: "https://doi.org/10.1145/2559903"
+      year: 2014
+  status_evidence:
+    - source_id: src_kopparty_srinivasan_2018
+      kind: paper
+      title: "Certifying Polynomials for AC^0[p] circuits"
+      authors:
+        - "Swastik Kopparty"
+        - "Srikanth Srinivasan"
+      url: "https://doi.org/10.4230/LIPIcs.FSTTCS.2012.36"
+      year: 2012
+
+partial_results:
+  - summary: "Razborov (1987) and Smolensky (1987) proved exponential lower bounds for AC^0[p] for prime p, but these techniques fail for composite moduli."
+    year: 1987
+  - summary: "Williams (2011) proved NEXP is not in ACC^0, the first superpolynomial lower bound against ACC^0 for any explicit function."
+    year: 2011
+  - summary: "The gap between the NEXP lower bound and the desired NP lower bound against ACC^0 remains wide open."
+    year: 2014
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.nexp-vs-bpp"
+    - "opa.tcs.complexity-theory.circuit-complexity-explicit-functions"
+    - "opa.tcs.complexity-theory.natural-proofs-barrier"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.25
+  formality: 0.90
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The ACC^0 lower bounds problem asks for explicit superpolynomial lower bounds
+    against constant-depth circuits with modular counting gates for NP problems.
+  decomposition:
+    - "Extend Williams' NEXP lower bound techniques to work for NP"
+    - "Overcome barriers for proving lower bounds against composite modulus gates"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

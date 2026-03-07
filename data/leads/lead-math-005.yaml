@@ -1,0 +1,11 @@
+title: "Bunyakovsky Conjecture"
+statement: "Every irreducible polynomial with integer coefficients and positive leading coefficient takes infinitely many prime values, provided the coefficients have no common factor."
+source_id: "src_bunyakovsky_1857"
+source_url: "https://en.wikipedia.org/wiki/Bunyakovsky_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

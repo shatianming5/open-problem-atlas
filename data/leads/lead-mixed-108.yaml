@@ -1,0 +1,11 @@
+title: "Quantum Unique Ergodicity on Arithmetic Surfaces"
+statement: "Does quantum unique ergodicity hold for all Hecke-Maass forms on non-compact arithmetic surfaces, extending the Lindenstrauss-Soundararajan results?"
+source_id: "src_lindenstrauss_2022"
+source_url: "https://arxiv.org/abs/2207.09501"
+domain_hint: "mathematics"
+subdomain_hint: "spectral-theory"
+confidence: 0.60
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

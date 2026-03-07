@@ -1,0 +1,11 @@
+title: "Amplituhedron and Scattering Amplitudes"
+statement: "Does the amplituhedron construction generalize beyond planar N=4 SYM to provide a geometric formulation of scattering amplitudes in realistic theories?"
+source_id: "src_arkani-hamed_2014"
+source_url: "https://arxiv.org/abs/1312.2007"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

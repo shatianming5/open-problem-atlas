@@ -1,0 +1,106 @@
+id: opa.phys.quantum-information.npt-bound-entanglement-existence
+kind: problem
+title: "Existence of NPT Bound Entangled States"
+aliases:
+  - "NPT Bound Entanglement Conjecture"
+  - "Distillability Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine whether there exist bipartite quantum states rho on H_A tensor H_B that
+    have a non-positive partial transpose (NPT) but are nevertheless bound entangled,
+    i.e., no pure entanglement can be distilled from any number of copies of rho via
+    LOCC. Equivalently, is every NPT state distillable?
+  informal: >
+    If a quantum state fails the PPT test (its partial transpose has negative eigenvalues),
+    it is certainly entangled. But can we always extract useful entanglement from such
+    states, or could there be NPT states whose entanglement is permanently locked away?
+
+why_it_matters: >
+  This is one of the most fundamental open problems in entanglement theory. A positive
+  answer would imply a radical restructuring of entanglement theory, while a negative
+  answer would simplify the resource theory of entanglement significantly.
+
+prerequisites:
+  - quantum information theory
+  - entanglement theory
+  - operator algebras
+  - convex optimization
+
+dates:
+  first_stated: 1998
+
+sources:
+  canonical:
+    - source_id: src_divincenzo_2000
+      kind: paper
+      title: "Evidence for bound entangled states with negative partial transpose"
+      url: "https://doi.org/10.1103/PhysRevA.61.062312"
+      year: 2000
+      locator: "Physical Review A 61, 062312"
+  status_evidence:
+    - source_id: src_pankowski_2010
+      kind: paper
+      title: "A few steps more towards NPT bound entanglement"
+      url: "https://doi.org/10.1109/TIT.2010.2054130"
+      year: 2010
+
+partial_results:
+  - summary: "DiVincenzo et al. provided numerical evidence for NPT bound entangled states in certain Werner-like states."
+    year: 2000
+  - summary: "Watrous showed that the problem is closely connected to the existence of non-decomposable positive maps."
+    year: 2004
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.ppt-bound-entanglement"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.82
+  underexplored: 0.55
+  toolability: 0.35
+  formality: 0.60
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    The NPT bound entanglement problem asks whether there exist quantum states with negative partial transpose from which no entanglement can be distilled.
+  decomposition:
+    - "Analyze distillation protocols for Werner-like NPT states"
+    - "Connect to the theory of positive maps and entanglement witnesses"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

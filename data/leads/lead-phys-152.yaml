@@ -1,0 +1,11 @@
+title: "Kitaev Quantum Spin Liquid Materials"
+statement: "Can a material realization of the exact Kitaev spin liquid with Majorana fermion excitations be definitively demonstrated experimentally?"
+source_id: "src_trebst_2017"
+source_url: "https://arxiv.org/abs/1701.07056"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

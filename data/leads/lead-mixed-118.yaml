@@ -1,0 +1,11 @@
+title: "Optimal Oblivious Routing"
+statement: "What is the optimal competitive ratio for oblivious routing in general undirected graphs? The O(log n) upper bound and Omega(log n / log log n) lower bound leave a gap."
+source_id: "src_racke_2021"
+source_url: "https://arxiv.org/abs/2107.10048"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

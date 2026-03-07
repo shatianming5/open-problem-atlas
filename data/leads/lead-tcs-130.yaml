@@ -1,0 +1,11 @@
+title: "Optimal Quantum Codes for Fault Tolerance"
+statement: "What is the optimal encoding rate for quantum error-correcting codes that support fault-tolerant universal computation?"
+source_id: "src_gottesman_2014"
+source_url: "https://arxiv.org/abs/1310.2984"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

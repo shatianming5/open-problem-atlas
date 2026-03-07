@@ -1,0 +1,11 @@
+title: "Quantum LDPC Codes with Optimal Parameters"
+statement: "Can quantum LDPC codes achieve constant rate and linear distance simultaneously, following the Panteleev-Kalachev breakthrough?"
+source_id: "src_panteleev_2022"
+source_url: "https://arxiv.org/abs/2111.03654"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-error-correction"
+confidence: 0.68
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

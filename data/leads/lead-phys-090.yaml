@@ -1,0 +1,11 @@
+title: "Finite-Temperature QCD Transition Order"
+statement: "What is the precise nature of the QCD phase transition at zero chemical potential with physical quark masses - crossover, first order, or otherwise?"
+source_id: "src_ding_2015"
+source_url: "https://arxiv.org/abs/1504.05274"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

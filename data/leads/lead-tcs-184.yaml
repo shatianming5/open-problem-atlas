@@ -1,0 +1,11 @@
+title: "Neural Network Learnability"
+statement: "Can two-layer neural networks with polynomial neurons be PAC learned in polynomial time? Hardness results exist but gaps remain."
+source_id: "src_daniely_shalev_shwartz_2020"
+source_url: "https://doi.org/10.1145/3382078"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Non-Malleable Codes for All Tampering Families"
+statement: "Can non-malleable codes be constructed for all efficient tampering families with optimal rate?"
+source_id: "src_dziembowski_pietrzak_wichs_2010"
+source_url: "https://doi.org/10.1007/978-3-642-13190-5_21"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

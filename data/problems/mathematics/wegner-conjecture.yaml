@@ -1,0 +1,114 @@
+id: opa.mathematics.geometry.wegner-conjecture
+kind: problem
+title: "Wegner's Conjecture on Disk Graphs"
+aliases:
+  - "Wegner Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - geometry
+  - algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every unit disk graph G with clique number ω(G), the chromatic
+    number χ(G) satisfies χ(G) ≤ (3/2)ω(G) - 1/2 for ω(G) ≥ 3. More
+    generally, for disk graphs (not necessarily unit), the chromatic
+    number should be bounded by a function that is at most 3/2 times
+    the clique number (up to lower-order terms).
+  informal: >
+    If you represent a graph by disks in the plane where vertices are
+    connected when their disks overlap, how many colors do you need?
+    Wegner conjectured that the answer is at most about 3/2 times the
+    size of the largest clique.
+
+why_it_matters: >
+  Wegner's conjecture is a fundamental question in geometric graph theory
+  connecting chromatic number, clique number, and geometric representation.
+  It has been open since 1977 and is important for frequency assignment
+  problems in wireless networks, where disk graphs naturally model
+  interference patterns.
+
+prerequisites:
+  - graph theory
+  - combinatorial geometry
+  - chromatic graph theory
+
+dates:
+  first_stated: 1977
+
+sources:
+  canonical:
+    - source_id: src_wegner_1977
+      kind: paper
+      title: "Graphs with given diameter and a coloring problem"
+      authors:
+        - "Gerd Wegner"
+      year: 1977
+  status_evidence:
+    - source_id: src_peeters_1991
+      kind: paper
+      title: "On coloring j-unit sphere graphs"
+      authors:
+        - "René Peeters"
+      year: 1991
+
+partial_results:
+  - summary: "The conjecture is known for ω(G) = 2 (triangle-free unit disk graphs can be 3-colored)."
+    year: 1977
+  - summary: "The best general upper bound is χ(G) ≤ 6ω(G) - 6 by Joret and Wood."
+    year: 2011
+  - summary: "For the special case of unit disk graphs, improved bounds have been obtained but the conjectured 3/2 factor remains unproved."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.50
+  toolability: 0.60
+  formality: 0.75
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    Wegner's conjecture bounds the chromatic number of unit disk graphs to
+    at most 3/2 times the clique number. It has been open since 1977 and
+    relates to frequency assignment in wireless networks.
+  decomposition:
+    - "Fractional chromatic number approaches"
+    - "Local coloring algorithms for geometric graphs"
+    - "Connections to the Hadwiger conjecture for geometric graph classes"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

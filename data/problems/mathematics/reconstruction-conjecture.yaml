@@ -1,0 +1,118 @@
+id: opa.mathematics.graph-theory.reconstruction-conjecture
+kind: problem
+title: "Reconstruction Conjecture"
+aliases:
+  - "Kelly-Ulam Conjecture"
+  - "Graph Reconstruction Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every simple finite undirected graph G on n >= 3 vertices is determined up to isomorphism
+    by its deck, the multiset of (isomorphism classes of) vertex-deleted subgraphs
+    {G - v : v in V(G)}. In other words, if two graphs G and H with at least 3 vertices have
+    the same deck, then G and H are isomorphic.
+  informal: >
+    Imagine you have a graph and you create a collection of smaller graphs, each obtained by
+    removing one vertex (and all its edges). The conjecture says that you can always figure out
+    the original graph from this collection of subgraphs, as long as it has at least 3 vertices.
+
+why_it_matters: >
+  The reconstruction conjecture, posed by Kelly and Ulam in 1941-1942, is one of the foremost
+  unsolved problems in graph theory. It asks a fundamental question about the information
+  content of local substructures of a graph and has deep connections to graph isomorphism
+  and structural graph theory.
+
+prerequisites:
+  - graph theory
+  - combinatorics
+  - graph isomorphism
+
+dates:
+  first_stated: 1942
+
+sources:
+  canonical:
+    - source_id: src_kelly_1942
+      kind: paper
+      title: "On isometric transformations"
+      authors:
+        - "Paul J. Kelly"
+      year: 1942
+    - source_id: src_ulam_1960
+      kind: textbook
+      title: "A Collection of Mathematical Problems"
+      authors:
+        - "Stanislaw Ulam"
+      year: 1960
+      locator: "Problem 43"
+  status_evidence:
+    - source_id: src_bondy_1991
+      kind: survey
+      title: "A graph reconstructor's manual"
+      authors:
+        - "J. A. Bondy"
+      year: 1991
+
+partial_results:
+  - summary: "The conjecture is verified for all graphs with at most 13 vertices."
+    year: 2018
+  - summary: "Regular graphs, trees, disconnected graphs, and unit interval graphs are known to be reconstructible."
+    year: 1977
+  - summary: "Muller (1977) proved that almost all graphs are reconstructible."
+    year: 1977
+  - summary: "Bollobas proved that almost all graphs can be reconstructed from just three cards in the deck."
+    year: 1990
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.60
+  formality: 0.85
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The reconstruction conjecture asserts that every simple graph on at least 3 vertices is
+    uniquely determined (up to isomorphism) by its multiset of vertex-deleted subgraphs.
+    It is one of the foremost open problems in graph theory.
+  decomposition:
+    - "Algebraic and polynomial-based reconstruction methods"
+    - "Extending computational verification beyond 13 vertices"
+    - "Probabilistic and counting arguments for graph parameters recoverable from the deck"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

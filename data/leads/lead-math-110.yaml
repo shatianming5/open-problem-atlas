@@ -1,0 +1,11 @@
+title: "Dimension of Singular Set for Navier-Stokes"
+statement: "What is the Hausdorff dimension of the potential singular set for solutions of the 3D Navier-Stokes equations? The Caffarelli-Kohn-Nirenberg theorem gives dimension < 1."
+source_id: "src_caffarelli_1982"
+source_url: "https://doi.org/10.1002/cpa.3160350604"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

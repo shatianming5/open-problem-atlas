@@ -1,0 +1,11 @@
+title: "Filling Area Conjecture"
+statement: "The hemisphere has the minimum filling area among all Riemannian metrics on the disk whose boundary has length 2*pi."
+source_id: "src_gromov_1983"
+source_url: "https://en.wikipedia.org/wiki/Filling_area_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

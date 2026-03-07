@@ -1,0 +1,11 @@
+title: "Hadamard Matrix Conjecture"
+statement: "Does a Hadamard matrix of order 4k exist for every positive integer k? The smallest unknown case is order 668."
+source_id: "src_kharaghani_2020"
+source_url: "https://mathoverflow.net/questions/48616"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.45
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

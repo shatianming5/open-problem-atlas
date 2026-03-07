@@ -1,0 +1,11 @@
+title: "Anderson Localization in Higher Dimensions"
+statement: "Prove Anderson localization for the random Schrodinger operator in dimensions d >= 3 at all energies for large disorder."
+source_id: "src_anderson_1958"
+source_url: "https://en.wikipedia.org/wiki/Anderson_localization"
+domain_hint: "mathematics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

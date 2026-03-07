@@ -1,0 +1,11 @@
+title: "Unconditional Basic Sequence Problem"
+statement: "Does every infinite-dimensional Banach space contain an unconditional basic sequence?"
+source_id: "src_mazur_1936"
+source_url: "https://en.wikipedia.org/wiki/Schauder_basis"
+domain_hint: "mathematics"
+subdomain_hint: "functional-analysis"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

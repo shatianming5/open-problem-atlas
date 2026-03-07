@@ -1,0 +1,11 @@
+title: "Cobordism Conjecture in Quantum Gravity"
+statement: "Does every consistent quantum gravity theory satisfy the Cobordism Conjecture: that the bordism group of quantum gravity is trivial, requiring dynamical objects to end all topological cobordisms?"
+source_id: "src_mcnamara_2021"
+source_url: "https://arxiv.org/abs/1909.10355"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-gravity"
+confidence: 0.45
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

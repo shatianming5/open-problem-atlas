@@ -1,0 +1,117 @@
+id: opa.mathematics.algebra.kothe-conjecture
+kind: problem
+title: "Kothe Conjecture"
+aliases:
+  - "Kothe's Nil Ideal Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebra
+  - ring-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    If a ring R has no nonzero two-sided nil ideal, then R has no nonzero one-sided nil ideal.
+    Equivalently, the sum of two left nil ideals of any ring is again a nil ideal. This can also
+    be stated as: the upper nil radical of any ring contains every left nil ideal.
+  informal: >
+    In a ring (an algebraic structure with addition and multiplication), a nil ideal is one where
+    every element, when raised to some power, gives zero. The conjecture asks: if there is no
+    "global" nil ideal, can there still be a "one-sided" nil ideal?
+
+why_it_matters: >
+  The Kothe conjecture, posed in 1930, is one of the oldest and most important open problems
+  in ring theory. It addresses the fundamental structure of nil ideals and radicals in
+  noncommutative rings. Its resolution would clarify the relationship between one-sided and
+  two-sided nil ideals, a basic question in abstract algebra.
+
+prerequisites:
+  - ring theory
+  - noncommutative algebra
+  - radical theory
+
+dates:
+  first_stated: 1930
+
+sources:
+  canonical:
+    - source_id: src_kothe_1930
+      kind: paper
+      title: "Die Struktur der Ringe, deren Restklassenring nach dem Radikal vollstandig reduzibel ist"
+      authors:
+        - "Gottfried Kothe"
+      year: 1930
+    - source_id: src_krempa_1997
+      kind: survey
+      title: "Logical connections between some open problems concerning nil rings"
+      authors:
+        - "Jan Krempa"
+      year: 1997
+  status_evidence:
+    - source_id: src_smoktunowicz_2006
+      kind: survey
+      title: "Some results in noncommutative ring theory"
+      authors:
+        - "Agata Smoktunowicz"
+      year: 2006
+
+partial_results:
+  - summary: "The conjecture holds for rings satisfying a polynomial identity (PI rings)."
+    year: 1956
+  - summary: "Krempa showed the Kothe conjecture is equivalent to the statement that polynomial rings over nil rings are Jacobson radical."
+    year: 1972
+  - summary: "Smoktunowicz constructed a nil ring whose polynomial ring is not nil, but this does not resolve the Kothe conjecture."
+    year: 2000
+  - summary: "Amitsur proved the conjecture for algebras over uncountable fields."
+    year: 1957
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.50
+  toolability: 0.30
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Kothe conjecture asks whether the sum of two left nil ideals in a ring is always nil.
+    It is one of the oldest open problems in ring theory, with deep implications for the
+    structure of radicals in noncommutative rings.
+  decomposition:
+    - "Polynomial ring extensions over nil rings and Jacobson radical properties"
+    - "Structural analysis of nil ideals in specific ring classes beyond PI rings"
+    - "Connections between one-sided and two-sided nil radical theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

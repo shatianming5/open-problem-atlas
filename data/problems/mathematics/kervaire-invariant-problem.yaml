@@ -1,0 +1,130 @@
+id: opa.mathematics.topology.kervaire-invariant-problem
+kind: problem
+title: "Kervaire Invariant Problem"
+aliases:
+  - "Kervaire Invariant One Problem"
+  - "Remaining Kervaire Invariant Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Does there exist a framed manifold of dimension 126 with Kervaire
+    invariant one? The Kervaire invariant θ_j ∈ π^s_{2^{j+1}-2} exists
+    only in dimensions 2^{j+1} - 2. Hill, Hopkins, and Ravenel (2016)
+    proved that framed manifolds with Kervaire invariant one do not exist
+    in dimensions 2^{j+1} - 2 for j ≥ 7 (i.e., dimensions ≥ 254). The
+    problem is resolved positively in dimensions 2, 6, 14, 30, and 62,
+    leaving dimension 126 as the sole remaining open case.
+  informal: >
+    A classical topological invariant called the Kervaire invariant is known
+    to be nontrivial in certain specific dimensions. The question of whether
+    it is nontrivial in dimension 126 is the last unsettled case.
+
+why_it_matters: >
+  The Kervaire invariant problem is one of the most celebrated questions in
+  stable homotopy theory and geometric topology. The resolution by Hill,
+  Hopkins, and Ravenel of all cases except dimension 126 was a landmark
+  achievement that introduced powerful new techniques in equivariant stable
+  homotopy theory. The remaining dimension 126 case is a fundamental open
+  question with deep connections to exotic spheres and surgery theory.
+
+prerequisites:
+  - stable homotopy theory
+  - surgery theory
+  - equivariant topology
+  - algebraic topology
+
+dates:
+  first_stated: 1960
+
+sources:
+  canonical:
+    - source_id: src_kervaire_1960
+      kind: paper
+      title: "A manifold which does not admit any differentiable structure"
+      authors:
+        - "Michel A. Kervaire"
+      year: 1960
+      url: "https://doi.org/10.1007/BF02564998"
+    - source_id: src_hill_hopkins_ravenel_2016
+      kind: paper
+      title: "On the nonexistence of elements of Kervaire invariant one"
+      authors:
+        - "Michael A. Hill"
+        - "Michael J. Hopkins"
+        - "Douglas C. Ravenel"
+      year: 2016
+      url: "https://doi.org/10.4007/annals.2016.184.1.1"
+  status_evidence:
+    - source_id: src_hill_hopkins_ravenel_2016_evidence
+      kind: paper
+      title: "On the nonexistence of elements of Kervaire invariant one"
+      authors:
+        - "Michael A. Hill"
+        - "Michael J. Hopkins"
+        - "Douglas C. Ravenel"
+      year: 2016
+      url: "https://doi.org/10.4007/annals.2016.184.1.1"
+
+partial_results:
+  - summary: "Browder showed that the Kervaire invariant can be one only in dimensions of the form 2^{j+1} - 2."
+    year: 1969
+  - summary: "The Kervaire invariant one elements were shown to exist in dimensions 2, 6, 14, 30, and 62."
+    year: 1984
+  - summary: "Hill, Hopkins, and Ravenel proved nonexistence in dimensions ≥ 254, leaving only dimension 126 open."
+    year: 2009
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.25
+  formality: 0.90
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - sage
+
+machine_generated:
+  summary: >
+    The remaining Kervaire invariant problem asks whether a framed manifold
+    of dimension 126 with Kervaire invariant one exists. All other dimensions
+    are resolved by Hill-Hopkins-Ravenel (2016).
+  decomposition:
+    - "Equivariant stable homotopy methods and slice spectral sequences"
+    - "Computational approaches to the 126-dimensional case"
+    - "Connections to exotic smooth structures on spheres"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

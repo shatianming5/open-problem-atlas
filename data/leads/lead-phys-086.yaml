@@ -1,0 +1,11 @@
+title: "Gauge-Gravity Duality Beyond AdS/CFT"
+statement: "Does a precise gauge-gravity duality exist for non-conformal, non-supersymmetric, or de Sitter quantum field theories?"
+source_id: "src_polchinski_2010"
+source_url: "https://arxiv.org/abs/1010.6134"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

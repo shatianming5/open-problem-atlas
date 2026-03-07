@@ -1,0 +1,11 @@
+title: "Critical Phenomena in Gravitational Collapse"
+statement: "What determines universality and scaling in critical gravitational collapse, and does it extend to the full Einstein equations without symmetry assumptions?"
+source_id: "src_choptuik_1993"
+source_url: "https://doi.org/10.1103/PhysRevLett.70.9"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

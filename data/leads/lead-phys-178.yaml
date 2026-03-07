@@ -1,0 +1,11 @@
+title: "Weak Gravity Conjecture Proof"
+statement: "Can the weak gravity conjecture, requiring the existence of particles with charge-to-mass ratio exceeding that of extremal black holes, be proven from general principles?"
+source_id: "src_arkani-hamed_2007"
+source_url: "https://arxiv.org/abs/hep-th/0601001"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

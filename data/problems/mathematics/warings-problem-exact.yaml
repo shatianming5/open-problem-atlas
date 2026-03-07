@@ -1,0 +1,121 @@
+id: opa.mathematics.number-theory.warings-problem-exact
+kind: problem
+title: "Waring's Problem (Exact Values of g(k))"
+aliases:
+  - "Waring's Problem for Higher Powers"
+  - "Ideal Waring's Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - analytic-number-theory
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let g(k) denote the smallest s such that every positive integer can be written as a sum
+    of at most s k-th powers of non-negative integers. It is conjectured that for all k >= 2,
+    g(k) = 2^k + floor((3/2)^k) - 2, provided that the fractional part {(3/2)^k} satisfies
+    {(3/2)^k} <= 1 - (3/4)^k + floor((3/4)^k) * 2^{-k}. Prove this formula for all k, or
+    determine g(k) exactly for all k >= 2.
+  informal: >
+    Waring's problem asks: for each power k, what is the maximum number of k-th powers needed
+    to represent any positive integer as their sum? A conjectured formula gives the answer for
+    all k, but proving it requires showing a certain inequality about powers of 3/2 holds for
+    all k.
+
+why_it_matters: >
+  Waring's problem is one of the most classical problems in additive number theory. While
+  Hilbert proved g(k) is finite for all k, the exact determination for all k remains open
+  and connects to deep questions about the distribution of powers of 3/2 modulo 1.
+
+prerequisites:
+  - analytic number theory
+  - Hardy-Littlewood circle method
+  - Diophantine approximation
+
+dates:
+  first_stated: 1770
+
+sources:
+  canonical:
+    - source_id: src_waring_1770
+      kind: textbook
+      title: "Meditationes Algebraicae"
+      authors:
+        - "Edward Waring"
+      year: 1770
+    - source_id: src_hilbert_1909
+      kind: paper
+      title: "Beweis für die Darstellbarkeit der ganzen Zahlen durch eine feste Anzahl n-ter Potenzen"
+      authors:
+        - "David Hilbert"
+      url: "https://doi.org/10.1007/BF01564081"
+      year: 1909
+  status_evidence:
+    - source_id: src_vaughan_wooley_2002
+      kind: survey
+      title: "Waring's problem: a survey"
+      url: "https://doi.org/10.1017/CBO9780511542893.013"
+      year: 2002
+
+partial_results:
+  - summary: "g(2) = 4 (Lagrange's four-square theorem, 1770), g(3) = 9 (proved in stages, completed by Dickson and Pillai by 1940)."
+    year: 1940
+  - summary: "The conjectured formula is verified for all k <= 471,600,000 (Kubina and Wunderlich, 1990, extended by others)."
+    year: 1990
+  - summary: "Mahler (1957) proved the key inequality {(3/2)^k} <= 1 - 2^{-k} holds for all sufficiently large k, but the result is ineffective."
+    year: 1957
+  - summary: "The formula g(k) = 2^k + floor((3/2)^k) - 2 has been proven for specific ranges, contingent on bounds for {(3/2)^k}."
+    year: 2002
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.30
+  toolability: 0.50
+  formality: 0.90
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    Waring's problem seeks the exact value of g(k), the minimum number of k-th powers
+    needed to represent any positive integer, with a conjectured formula depending on
+    the distribution of {(3/2)^k}.
+  decomposition:
+    - "Making Mahler's ineffective bound on {(3/2)^k} effective for all k"
+    - "Extending computational verification of the conjectured formula"
+    - "Improving the Hardy-Littlewood circle method for the minor arc estimates"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

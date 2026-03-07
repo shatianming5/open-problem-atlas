@@ -1,0 +1,122 @@
+id: opa.mathematics.algebra.andrews-curtis-conjecture
+kind: problem
+title: "Andrews–Curtis Conjecture"
+aliases:
+  - "Andrews-Curtis Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebra
+  - topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every balanced presentation of the trivial group can be transformed
+    into the trivial presentation by a sequence of Andrews–Curtis moves:
+    (1) replace a relator r_i by r_i · r_j (i ≠ j), (2) replace r_i by
+    r_i^{-1}, (3) replace r_i by a conjugate w · r_i · w^{-1}, and
+    (4) apply automorphisms to the free group on generators.
+  informal: >
+    If you have a way of presenting the trivial group with the same number
+    of generators and relations, can you always simplify it to the obvious
+    trivial presentation using a specific set of allowed moves?
+
+why_it_matters: >
+  The Andrews–Curtis conjecture is a major open problem at the intersection
+  of combinatorial group theory and low-dimensional topology. It is connected
+  to questions about simple homotopy theory and the smooth 4-dimensional
+  Poincaré conjecture. Most experts believe the conjecture is false, and
+  many potential counterexamples have been proposed, but none have been
+  proven to be genuine counterexamples.
+
+prerequisites:
+  - combinatorial group theory
+  - low-dimensional topology
+  - simple homotopy theory
+  - CW-complexes
+
+dates:
+  first_stated: 1965
+
+sources:
+  canonical:
+    - source_id: src_andrews_curtis_1965
+      kind: paper
+      title: "Free groups and handlebodies"
+      authors:
+        - "James J. Andrews"
+        - "Morton L. Curtis"
+      year: 1965
+      url: "https://doi.org/10.1090/S0002-9939-1965-0175938-9"
+  status_evidence:
+    - source_id: src_borovik_lubotzky_myasnikov_2005
+      kind: paper
+      title: "The Andrews-Curtis conjecture and black box groups"
+      authors:
+        - "Alexandre Borovik"
+        - "Alexander Lubotzky"
+        - "Alexei Myasnikov"
+      year: 2005
+      url: "https://doi.org/10.1142/S0218196705002645"
+
+partial_results:
+  - summary: "Many potential counterexamples have been proposed (e.g., by Akbulut-Kirby, Miller-Schupp) but none proven."
+    year: 1985
+  - summary: "Computational searches have verified the conjecture for presentations of small total length."
+    year: 2003
+  - summary: "Bridson and others have connected the conjecture to questions in geometric group theory."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.45
+  toolability: 0.50
+  formality: 0.80
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - gap
+    - sage
+
+machine_generated:
+  summary: >
+    The Andrews–Curtis conjecture asks whether every balanced presentation
+    of the trivial group can be reduced to the trivial presentation via
+    Andrews–Curtis moves. Most experts believe it is false but no
+    counterexample has been proven.
+  decomposition:
+    - "Computational enumeration of Andrews–Curtis moves"
+    - "Connections to 4-manifold topology and handle decompositions"
+    - "Potential counterexamples and lower bound techniques"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

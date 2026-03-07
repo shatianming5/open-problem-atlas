@@ -1,0 +1,116 @@
+id: opa.mathematics.number-theory.scholz-conjecture
+kind: problem
+title: "Scholz Conjecture"
+aliases:
+  - "Scholz-Brauer Conjecture"
+  - "Scholz's Conjecture on Addition Chains"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let l(n) denote the length of the shortest addition chain for the positive integer n
+    (the minimum number of additions needed to reach n starting from 1, where each step adds
+    two previously computed values). Then l(2^n - 1) <= l(n) + n - 1 for all positive
+    integers n.
+  informal: >
+    An addition chain for n is a sequence starting at 1 where each term is the sum of two
+    earlier terms, ending at n. The conjecture says that computing 2^n - 1 (a Mersenne number)
+    never requires more than n - 1 extra steps beyond what is needed to compute n itself.
+
+why_it_matters: >
+  The Scholz conjecture connects the combinatorial theory of addition chains to the structure
+  of Mersenne numbers. Addition chains are fundamental in efficient exponentiation algorithms
+  used in cryptography and computer algebra.
+
+prerequisites:
+  - combinatorics
+  - elementary number theory
+  - computational complexity
+
+dates:
+  first_stated: 1937
+
+sources:
+  canonical:
+    - source_id: src_scholz_1937
+      kind: paper
+      title: "Aufgabe 253"
+      authors:
+        - "Arnold Scholz"
+      url: "https://doi.org/10.1365/s13291-937-0253-8"
+      year: 1937
+    - source_id: src_brauer_1939
+      kind: paper
+      title: "On addition chains"
+      authors:
+        - "Alfred Brauer"
+      url: "https://doi.org/10.1090/S0002-9904-1939-07068-7"
+      year: 1939
+  status_evidence:
+    - source_id: src_knuth_1997
+      kind: textbook
+      title: "The Art of Computer Programming, Vol. 2: Seminumerical Algorithms (3rd ed.)"
+      url: "https://www-cs-faculty.stanford.edu/~knuth/taocp.html"
+      year: 1997
+
+partial_results:
+  - summary: "Brauer proved the conjecture for the case when the shortest addition chain for n is a Brauer chain (star chain)."
+    year: 1939
+  - summary: "Verified computationally for all n up to several thousand."
+    year: 2009
+  - summary: "Thurber proved the conjecture for n <= 128 by exhaustive computation of all shortest addition chains."
+    year: 1973
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.60
+  toolability: 0.70
+  formality: 0.80
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The Scholz conjecture bounds the shortest addition chain length for Mersenne numbers
+    2^n - 1 in terms of the shortest addition chain for n.
+  decomposition:
+    - "Extending computational verification of addition chain lengths"
+    - "Analyzing the structure of optimal addition chains and their composition properties"
+    - "Connecting to the theory of vectorial addition chains and multi-exponentiation"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

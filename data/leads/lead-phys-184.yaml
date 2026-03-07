@@ -1,0 +1,11 @@
+title: "Double Copy and Gravity Amplitudes"
+statement: "Does the BCJ double copy relation between gauge theory and gravity amplitudes hold at all loop orders and for all gravitational theories?"
+source_id: "src_bern_2010"
+source_url: "https://arxiv.org/abs/1004.0476"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,115 @@
+id: opa.tcs.computational-geometry.minimum-enclosing-ball
+kind: problem
+title: "Minimum Enclosing Ball Algorithms in High Dimensions"
+aliases:
+  - "Smallest enclosing sphere"
+  - "1-center problem optimal"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - computational-geometry
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    Given n points in d-dimensional space, find the smallest ball enclosing all points.
+    In fixed dimension, linear-time algorithms exist (Welzl 1991). For high dimensions
+    (d growing with n), what is the optimal time complexity? Can we compute or
+    (1+epsilon)-approximate the minimum enclosing ball in time polynomial in both n
+    and d with optimal dependence on epsilon?
+  informal: >
+    How fast can we find the smallest sphere containing a set of points, especially
+    when the number of dimensions is large? This is easy in low dimensions but
+    becomes challenging in high dimensions.
+
+why_it_matters: >
+  The minimum enclosing ball is fundamental to clustering, classification, and
+  computational geometry. In machine learning applications, high-dimensional data
+  is common, making efficient high-dimensional algorithms essential.
+
+prerequisites:
+  - computational geometry
+  - convex optimization
+  - randomized algorithms
+  - high-dimensional geometry
+
+dates:
+  first_stated: 1991
+
+sources:
+  canonical:
+    - source_id: src_welzl_1991
+      kind: paper
+      title: "Smallest Enclosing Disks (Balls and Ellipsoids)"
+      authors:
+        - "Emo Welzl"
+      url: "https://doi.org/10.1007/BFb0038202"
+      year: 1991
+  status_evidence:
+    - source_id: src_badoiu_clarkson_2003
+      kind: paper
+      title: "Optimal Core-Sets for Balls"
+      authors:
+        - "Mihai Bădoiu"
+        - "Kenneth L. Clarkson"
+      url: "https://doi.org/10.1016/j.comgeo.2007.04.002"
+      year: 2003
+
+partial_results:
+  - summary: "Welzl (1991) gave a randomized linear-time algorithm in fixed dimension d."
+    year: 1991
+  - summary: "Bădoiu and Clarkson (2003) showed that (1+epsilon)-approximation can be achieved using O(1/epsilon) points (a core-set)."
+    year: 2003
+  - summary: "For exact computation in high dimensions, the complexity grows exponentially in d using known methods."
+    year: 2003
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.algorithms.nearest-neighbor-high-dim"
+    - "opa.tcs.computational-geometry.range-searching-lower-bounds"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.40
+  toolability: 0.55
+  formality: 0.80
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The optimal complexity of minimum enclosing ball computation in high dimensions
+    is open, with a gap between low-dimensional linear-time results and high-dimensional
+    exponential-time methods.
+  decomposition:
+    - "Determine optimal dependence on epsilon for (1+epsilon)-approximation in high dimensions"
+    - "Develop algorithms with polynomial dependence on d for exact computation"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

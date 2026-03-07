@@ -1,0 +1,11 @@
+title: "SYK Model and Quantum Chaos Bound"
+statement: "Does the Sachdev-Ye-Kitaev model saturate the Maldacena-Shenker-Stanford bound on chaos for all values of the coupling, and what is the precise large-q expansion?"
+source_id: "src_maldacena_2016"
+source_url: "https://arxiv.org/abs/1503.01409"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-chaos"
+confidence: 0.62
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

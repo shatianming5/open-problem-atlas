@@ -1,0 +1,11 @@
+title: "Hardness of Tensor Decomposition"
+statement: "Is computing the rank of a 3-dimensional tensor over finite fields NP-hard in the worst case, and what are the average-case implications?"
+source_id: "src_hillar_2022"
+source_url: "https://arxiv.org/abs/2204.01637"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algebraic-complexity"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

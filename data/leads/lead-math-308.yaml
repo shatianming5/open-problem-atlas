@@ -1,0 +1,11 @@
+title: "Fournier's Conjecture on Binary Matroids"
+statement: "Every binary matroid without a Fano minor is graphic or cographic."
+source_id: "src_fournier_1981"
+source_url: "https://en.wikipedia.org/wiki/Binary_matroid"
+domain_hint: "mathematics"
+subdomain_hint: "matroid-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

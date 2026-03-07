@@ -1,0 +1,118 @@
+id: opa.tcs.complexity-theory.dense-model-theorem
+kind: problem
+title: "Dense Model Theorem Extensions"
+aliases:
+  - "Green-Tao-Ziegler dense model generalizations"
+  - "Computational dense model theorem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: existential
+verification_mode: proof
+
+statement:
+  canonical: >
+    The dense model theorem (used by Green, Tao, and Ziegler) states that if a set S
+    is dense in a pseudorandom set R, then S has a dense model in the full universe
+    that is indistinguishable from S by bounded-complexity tests. Can this theorem be
+    extended to stronger computational models, tighter parameters, or broader settings
+    while maintaining efficiency?
+  informal: >
+    Can we find efficient dense approximations to sparse structured sets in more
+    general computational settings? This has connections to both additive combinatorics
+    and complexity theory.
+
+why_it_matters: >
+  The dense model theorem bridges additive combinatorics and computational complexity.
+  Extensions could yield new derandomization results, improve our understanding of
+  pseudorandomness, and lead to breakthroughs in both areas.
+
+prerequisites:
+  - pseudorandomness
+  - additive combinatorics
+  - regularity lemma
+  - computational indistinguishability
+
+dates:
+  first_stated: 2008
+
+sources:
+  canonical:
+    - source_id: src_reingold_trevisan_tulsiani_vadhan_2008
+      kind: paper
+      title: "Dense Subsets of Pseudorandom Sets"
+      authors:
+        - "Omer Reingold"
+        - "Luca Trevisan"
+        - "Madhur Tulsiani"
+        - "Salil Vadhan"
+      url: "https://doi.org/10.1109/FOCS.2008.38"
+      year: 2008
+  status_evidence:
+    - source_id: src_gowers_2010
+      kind: paper
+      title: "Decompositions, Approximate Structure, Transference, and the Hahn-Banach Theorem"
+      authors:
+        - "Timothy Gowers"
+      url: "https://doi.org/10.1112/blms/bdq005"
+      year: 2010
+
+partial_results:
+  - summary: "Reingold, Trevisan, Tulsiani, and Vadhan (2008) gave a computational proof of the dense model theorem with applications to derandomization."
+    year: 2008
+  - summary: "Gowers (2010) gave a simplified proof using the Hahn-Banach theorem, opening new connections to functional analysis."
+    year: 2010
+  - summary: "Zhang (2011) used dense model ideas to extend Green-Tao-type results; optimal computational parameters remain unknown."
+    year: 2011
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.derandomization-p-bpp"
+    - "opa.tcs.complexity-theory.hardness-vs-randomness"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.50
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The dense model theorem extensions problem asks for broader and more efficient
+    versions of the dense model theorem with applications to derandomization and
+    additive combinatorics.
+  decomposition:
+    - "Optimize parameters in the computational dense model theorem"
+    - "Extend to stronger computational models and richer combinatorial settings"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,122 @@
+id: opa.mathematics.graph-theory.gyarfas-sumner-conjecture
+kind: problem
+title: "Gyarfas-Sumner Conjecture"
+aliases:
+  - "Chi-Bounded Conjecture for Trees"
+  - "Gyarfas Tree Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - extremal-combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every tree T, there exists a function f_T such that every graph G with no induced
+    copy of T satisfies chi(G) <= f_T(omega(G)), where chi(G) is the chromatic number and
+    omega(G) is the clique number. In other words, every tree is chi-binding: forbidding it
+    as an induced subgraph bounds the chromatic number in terms of the clique number.
+  informal: >
+    If you forbid a specific tree as an induced subgraph, then graphs cannot have a huge
+    chromatic number unless they also have a large clique. Trees are "well-behaved" as
+    forbidden induced subgraphs in this sense.
+
+why_it_matters: >
+  The Gyarfas-Sumner conjecture, independently posed by Gyarfas (1975) and Sumner (1981),
+  is a central open problem in structural graph theory. It is one of the most natural
+  questions about chi-boundedness and connects Ramsey theory, perfect graphs, and chromatic
+  number theory. It is known that not all graphs are chi-bounded (e.g., cycles of odd
+  length), making the role of trees special.
+
+prerequisites:
+  - graph theory
+  - chi-boundedness
+  - Ramsey theory
+  - perfect graph theory
+
+dates:
+  first_stated: 1975
+
+sources:
+  canonical:
+    - source_id: src_gyarfas_1975
+      kind: paper
+      title: "On Ramsey covering-numbers"
+      authors:
+        - "Andras Gyarfas"
+      year: 1975
+    - source_id: src_sumner_1981
+      kind: paper
+      title: "Subtrees of a graph and the chromatic number"
+      authors:
+        - "David P. Sumner"
+      year: 1981
+  status_evidence:
+    - source_id: src_scott_seymour_2020
+      kind: survey
+      title: "A survey of chi-boundedness"
+      authors:
+        - "Alex Scott"
+        - "Paul Seymour"
+      url: "https://doi.org/10.1016/j.jctb.2019.07.004"
+      year: 2020
+
+partial_results:
+  - summary: "The conjecture holds when T is a path (Gyarfas, 1987)."
+    year: 1987
+  - summary: "The conjecture holds when T is a star (trivially, since K_{1,t}-free graphs have bounded degree if omega is bounded)."
+    year: 1975
+  - summary: "Scott and Seymour proved the conjecture for all trees with radius at most 2."
+    year: 2019
+  - summary: "Kierstead and Penrice proved the conjecture for trees obtained from a star by subdividing each edge."
+    year: 1994
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.erdos-hajnal-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Gyarfas-Sumner conjecture states that for every tree T, the class of T-free graphs
+    is chi-bounded. It is proved for paths, stars, and trees of small radius, but remains
+    open for general trees.
+  decomposition:
+    - "Proving the conjecture for trees of larger radius or diameter"
+    - "Finding optimal chi-binding functions for specific trees"
+    - "Connections to the Erdos-Hajnal conjecture and polynomial chi-boundedness"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

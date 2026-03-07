@@ -1,0 +1,11 @@
+title: "Cryptographic Hardness of Learning Parity with Noise"
+statement: "What is the exact hardness of the Learning Parity with Noise (LPN) problem? Is it exponentially hard for constant noise rates?"
+source_id: "src_blum_kalai_wasserman_2003"
+source_url: "https://doi.org/10.1145/780542.780603"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

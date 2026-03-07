@@ -1,0 +1,11 @@
+title: "Rigorous Construction of Phi^4_4 Theory"
+statement: "Can one rigorously construct the interacting phi^4 quantum field theory in 4 spacetime dimensions, or prove its triviality?"
+source_id: "src_aizenman_2021"
+source_url: "https://arxiv.org/abs/1912.07973"
+domain_hint: "mathematical-physics"
+subdomain_hint: "constructive-qft"
+confidence: 0.40
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

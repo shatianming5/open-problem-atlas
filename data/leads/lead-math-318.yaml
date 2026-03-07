@@ -1,0 +1,11 @@
+title: "Mahler's Conjecture"
+statement: "The Mahler volume of a centrally symmetric convex body in R^n is minimized by the hypercube."
+source_id: "src_mahler_1939"
+source_url: "https://en.wikipedia.org/wiki/Mahler_volume"
+domain_hint: "mathematics"
+subdomain_hint: "discrete-geometry"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

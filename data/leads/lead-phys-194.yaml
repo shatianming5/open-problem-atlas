@@ -1,0 +1,11 @@
+title: "Renormalization and the Riemann-Hilbert Problem"
+statement: "Can the Connes-Kreimer algebraic approach to renormalization be extended to provide a complete non-perturbative framework for QFT via the Riemann-Hilbert correspondence?"
+source_id: "src_connes_2001"
+source_url: "https://arxiv.org/abs/hep-th/9912092"
+domain_hint: "mathematical-physics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

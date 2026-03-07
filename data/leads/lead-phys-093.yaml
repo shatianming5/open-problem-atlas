@@ -1,0 +1,11 @@
+title: "Self-Organized Criticality Foundation"
+statement: "Can self-organized criticality be rigorously established for the Bak-Tang-Wiesenfeld sandpile model and related systems?"
+source_id: "src_dhar_2006"
+source_url: "https://arxiv.org/abs/cond-mat/9909009"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

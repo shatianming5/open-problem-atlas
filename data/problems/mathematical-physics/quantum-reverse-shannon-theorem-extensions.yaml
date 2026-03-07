@@ -1,0 +1,109 @@
+id: opa.phys.quantum-information.quantum-reverse-shannon-theorem-extensions
+kind: problem
+title: "Quantum Reverse Shannon Theorem Extensions"
+aliases:
+  - "Generalized Quantum Reverse Shannon Theorem"
+  - "Quantum Channel Simulation Capacity"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Extend the quantum reverse Shannon theorem to determine the exact entanglement
+    and communication costs of simulating arbitrary quantum channels (including
+    channels with memory, feedback, or adaptive encodings) using shared entanglement
+    and classical communication. Determine the exact trade-off between entanglement
+    consumption rate and classical communication rate for channel simulation in the
+    most general network settings.
+  informal: >
+    The quantum reverse Shannon theorem says that any quantum channel can be simulated
+    using shared entanglement and classical communication at a rate given by the
+    channel's entanglement-assisted capacity. The open problem is to extend this to
+    more general settings involving channels with memory, networks, and feedback.
+
+why_it_matters: >
+  This problem is central to understanding the fundamental resource trade-offs in
+  quantum communication theory. Its resolution would complete our understanding of
+  quantum channel simulation and has implications for quantum network design.
+
+prerequisites:
+  - quantum information theory
+  - quantum Shannon theory
+  - operator algebras
+  - information theory
+
+dates:
+  first_stated: 2009
+
+sources:
+  canonical:
+    - source_id: src_bennett_2014
+      kind: paper
+      title: "Quantum Reverse Shannon Theorem"
+      url: "https://doi.org/10.1109/TIT.2014.2309968"
+      year: 2014
+      locator: "IEEE Transactions on Information Theory 60(5), 2926-2959"
+  status_evidence:
+    - source_id: src_berta_2011
+      kind: paper
+      title: "Quantum Reverse Shannon Theorem Based on One-Shot Information Theory"
+      url: "https://doi.org/10.1007/s00220-011-1309-7"
+      year: 2011
+
+partial_results:
+  - summary: "Bennett, Devetak, Harrow, Shor, and Winter proved the quantum reverse Shannon theorem for memoryless channels."
+    year: 2014
+  - summary: "One-shot versions have been established using smooth entropy framework by Berta, Christandl, and Renner."
+    year: 2011
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-shannon-capacity-regions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.55
+  toolability: 0.40
+  formality: 0.70
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Extending the quantum reverse Shannon theorem to general channel simulation settings with memory and feedback.
+  decomposition:
+    - "Characterize simulation costs for channels with memory"
+    - "Determine optimal entanglement-communication trade-offs in network settings"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Entropy Power Inequality Generalizations"
+statement: "Can the entropy power inequality be generalized to Renyi entropies or discrete distributions with matching tightness?"
+source_id: "src_bobkov_chistyakov_2015"
+source_url: "https://doi.org/10.1109/TIT.2015.2396672"
+domain_hint: "theoretical-cs"
+subdomain_hint: "information-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

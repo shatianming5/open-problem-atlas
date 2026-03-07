@@ -1,0 +1,113 @@
+id: opa.phys.statistical-mechanics.universality-critical-exponents-proof
+kind: problem
+title: "Universality of Critical Exponents Proof"
+aliases:
+  - "Universality Conjecture"
+  - "Critical Exponents Universality"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove that critical exponents at continuous phase transitions depend only on the
+    spatial dimensionality d, the number of components n of the order parameter, and
+    the range of interactions, but not on microscopic details of the Hamiltonian
+    (universality). Specifically, prove that the Ising model (n=1), XY model (n=2),
+    and Heisenberg model (n=3) on any regular lattice in d=3 dimensions have the same
+    critical exponents regardless of the lattice structure. The exponents should match
+    those predicted by the renormalization group at the Wilson-Fisher fixed point.
+  informal: >
+    Why do completely different physical systems behave identically near a phase
+    transition? This remarkable phenomenon, called universality, has been observed
+    experimentally and computed numerically, but never proven mathematically.
+
+why_it_matters: >
+  Universality is one of the most profound concepts in physics, explaining why
+  statistical mechanics can make predictions without knowing microscopic details.
+  A proof would be a major achievement in mathematical physics and probability theory.
+
+prerequisites:
+  - statistical mechanics
+  - renormalization group
+  - probability theory
+  - functional analysis
+  - lattice models
+
+dates:
+  first_stated: 1971
+
+sources:
+  canonical:
+    - source_id: src_wilson_1971_rg
+      kind: paper
+      title: "Renormalization Group and Critical Phenomena. I. Renormalization Group and the Kadanoff Scaling Picture"
+      url: "https://doi.org/10.1103/PhysRevB.4.3174"
+      year: 1971
+      locator: "Physical Review B 4, 3174"
+  status_evidence:
+    - source_id: src_pelissetto_2002
+      kind: survey
+      title: "Critical Phenomena and Renormalization Group Theory"
+      url: "https://doi.org/10.1016/S0370-1573(02)00219-3"
+      year: 2002
+
+partial_results:
+  - summary: "Universality has been proven in d=2 for the Ising model across different lattices by Smirnov and others."
+    year: 2010
+  - summary: "Conformal bootstrap methods have produced the most precise critical exponent values, consistent with universality."
+    year: 2016
+  - summary: "Rigorous universality proofs in d=3 remain completely open."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.conformal-invariance-criticality-general"
+    - "opa.phys.quantum-field-theory.renormalization-group-rigorous"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.92
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.55
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving that critical exponents at continuous phase transitions are universal, depending only on dimension and symmetry.
+  decomposition:
+    - "Extend 2D universality proofs to 3D"
+    - "Rigorously establish the Wilson-Fisher fixed point in d=3"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

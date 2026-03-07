@@ -1,0 +1,11 @@
+title: "Goldbach's Conjecture"
+statement: "Every even integer greater than 2 can be expressed as the sum of two primes."
+source_id: "src_goldbach_1742"
+source_url: "https://en.wikipedia.org/wiki/Goldbach%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

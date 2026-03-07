@@ -1,0 +1,11 @@
+title: "Majorana Zero Modes in Solid State"
+statement: "Has a topological Majorana zero mode been unambiguously observed in a solid-state system, distinguishing it from trivial Andreev bound states?"
+source_id: "src_lutchyn_2018"
+source_url: "https://arxiv.org/abs/1707.04899"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

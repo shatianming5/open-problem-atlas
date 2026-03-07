@@ -1,0 +1,115 @@
+id: opa.mathematics.non-commutative-algebra.langlands-functoriality-conjecture
+kind: problem
+title: "Langlands Functoriality Conjecture"
+aliases:
+  - "Langlands Principle of Functoriality"
+  - "Langlands Program (Functoriality)"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - non-commutative-algebra
+  - number-theory
+  - category-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For reductive groups G and H over a number field F, every homomorphism of L-groups
+    r: ^L H -> ^L G should induce a transfer of automorphic representations from H to G.
+    More precisely, if pi is an automorphic representation of H(A_F) with L-parameter phi_pi,
+    then there exists an automorphic representation Pi of G(A_F) with L-parameter r ∘ phi_pi.
+  informal: >
+    There should be a systematic way to transfer automorphic forms between different algebraic
+    groups, governed by homomorphisms between their dual groups. This "functoriality principle"
+    is the central organizing conjecture of the Langlands program.
+
+why_it_matters: >
+  The Langlands functoriality conjecture, proposed by Robert Langlands in 1970, is one of the
+  most ambitious conjectures in mathematics. It unifies number theory, representation theory,
+  and algebraic geometry. Specific instances include the Artin conjecture, the Ramanujan-Petersson
+  conjecture, and Serre's modularity conjecture. It subsumes much of modern number theory.
+
+prerequisites:
+  - representation theory of reductive groups
+  - automorphic forms
+  - algebraic number theory
+  - L-functions
+
+dates:
+  first_stated: 1970
+
+sources:
+  canonical:
+    - source_id: src_langlands_1970
+      kind: paper
+      title: "Problems in the theory of automorphic forms"
+      authors:
+        - "Robert P. Langlands"
+      year: 1970
+  status_evidence:
+    - source_id: src_arthur_2014
+      kind: textbook
+      title: "The Endoscopic Classification of Representations"
+      authors:
+        - "James Arthur"
+      url: "https://doi.org/10.1090/coll/061"
+      year: 2014
+
+partial_results:
+  - summary: "Base change for GL(n) proved by Arthur and Clozel."
+    year: 1989
+  - summary: "Symmetric square and cube lifts for GL(2) proved by Gelbart-Jacquet and Kim-Shahidi."
+    year: 2002
+  - summary: "Arthur's endoscopic classification for classical groups established many functoriality cases."
+    year: 2013
+  - summary: "The general conjecture remains wide open beyond these cases."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.98
+  underexplored: 0.30
+  toolability: 0.15
+  formality: 0.85
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Langlands functoriality predicts transfer of automorphic representations between reductive
+    groups. Proved in many special cases; the general conjecture is wide open.
+  decomposition:
+    - "Trace formula and endoscopic methods"
+    - "Geometric Langlands and sheaf-theoretic approaches"
+    - "Beyond endoscopy (Langlands' proposal)"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

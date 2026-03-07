@@ -1,0 +1,11 @@
+title: "Maximum Flow in Nearly Linear Time"
+statement: "Can maximum flow in directed graphs be computed in nearly linear time for all capacities?"
+source_id: "src_chen_et_al_2022"
+source_url: "https://doi.org/10.1109/FOCS54457.2022.00064"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

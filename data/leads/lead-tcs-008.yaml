@@ -1,0 +1,11 @@
+title: "Natural Proofs Barrier"
+statement: "Can circuit lower bounds be proved by methods that are not natural in the Razborov-Rudich sense, circumventing the natural proofs barrier?"
+source_id: "src_razborov_rudich_1997"
+source_url: "https://doi.org/10.1006/jcss.1997.1494"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

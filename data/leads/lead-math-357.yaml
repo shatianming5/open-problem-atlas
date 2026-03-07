@@ -1,0 +1,11 @@
+title: "Trefethen's Conjecture on Polynomial Approximation"
+statement: "The rate of convergence of polynomial approximations on general regions is determined by the Green's function."
+source_id: "src_trefethen_2019"
+source_url: "https://en.wikipedia.org/wiki/Numerical_analysis"
+domain_hint: "mathematics"
+subdomain_hint: "numerical-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

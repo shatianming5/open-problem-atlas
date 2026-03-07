@@ -1,0 +1,11 @@
+title: "Koszul Duality for Operads Conjecture"
+statement: "Koszul duality provides a derived equivalence between categories of algebras over a Koszul operad and its dual."
+source_id: "src_ginzburgkapranov_1994"
+source_url: "https://en.wikipedia.org/wiki/Koszul_duality"
+domain_hint: "mathematics"
+subdomain_hint: "homological-algebra"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

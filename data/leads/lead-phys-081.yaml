@@ -1,0 +1,11 @@
+title: "Exact Results in N=2 Gauge Theories"
+statement: "Can the Seiberg-Witten exact results be extended to N=1 and non-supersymmetric gauge theories systematically?"
+source_id: "src_seiberg_1994"
+source_url: "https://arxiv.org/abs/hep-th/9407087"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

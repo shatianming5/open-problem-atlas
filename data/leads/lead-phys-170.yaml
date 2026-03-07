@@ -1,0 +1,11 @@
+title: "Electron Hydrodynamics"
+statement: "Under what conditions does electronic transport in solids become genuinely hydrodynamic, and what are the universal signatures?"
+source_id: "src_lucas_2018"
+source_url: "https://arxiv.org/abs/1710.08425"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

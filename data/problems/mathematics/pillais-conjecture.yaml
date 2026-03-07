@@ -1,0 +1,115 @@
+id: opa.mathematics.number-theory.pillais-conjecture
+kind: problem
+title: "Pillai's Conjecture"
+aliases:
+  - "Generalized Catalan Conjecture"
+  - "Pillai's Problem on Perfect Powers"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every positive integer k, there are only finitely many pairs of perfect powers
+    (a^m, b^n) with a, b, m, n >= 2 and |a^m - b^n| = k. Equivalently, the gaps between
+    consecutive perfect powers tend to infinity.
+  informal: >
+    Perfect powers are numbers like 4, 8, 9, 16, 25, 27, ... (squares, cubes, etc.). Pillai's
+    conjecture says that as you go further out, consecutive perfect powers get increasingly
+    far apart, so any fixed gap k occurs only finitely many times.
+
+why_it_matters: >
+  Pillai's conjecture generalizes Catalan's conjecture (now Mihailescu's theorem) and is a
+  central open problem in the theory of exponential Diophantine equations. It is implied by
+  the abc conjecture and connects to deep questions about integral points on curves.
+
+prerequisites:
+  - Diophantine equations
+  - algebraic number theory
+  - transcendental number theory
+
+dates:
+  first_stated: 1936
+
+sources:
+  canonical:
+    - source_id: src_pillai_1936
+      kind: paper
+      title: "On the equation 2^x - 3^y = 2^X + 3^Y"
+      authors:
+        - "Subbayya Sivasankaranarayana Pillai"
+      year: 1936
+    - source_id: src_pillai_1945
+      kind: paper
+      title: "On A^x - B^y = C"
+      authors:
+        - "S. S. Pillai"
+      year: 1945
+  status_evidence:
+    - source_id: src_waldschmidt_2013
+      kind: survey
+      title: "Perfect powers: Pillai's works and their developments"
+      url: "https://arxiv.org/abs/0908.4031"
+      year: 2013
+
+partial_results:
+  - summary: "Mihailescu proved Catalan's conjecture: the only solution to x^p - y^q = 1 with x, y, p, q >= 2 is 3^2 - 2^3 = 1."
+    year: 2002
+  - summary: "The abc conjecture implies Pillai's conjecture (Tijdeman, 1976 and later work)."
+    year: 1976
+  - summary: "Specific cases like |2^m - 3^n| = k have been resolved for many small values of k."
+    year: 2004
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.abc-conjecture-effective
+    - opa.mathematics.number-theory.halls-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    Pillai's conjecture generalizes Catalan's conjecture, asserting that the gaps between
+    consecutive perfect powers tend to infinity.
+  decomposition:
+    - "Deriving effective bounds from Baker's theory of linear forms in logarithms"
+    - "Reducing to the abc conjecture and analyzing implications"
+    - "Computational enumeration of solutions for specific bases and exponents"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

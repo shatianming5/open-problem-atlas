@@ -1,0 +1,11 @@
+title: "Proton Spin Puzzle"
+statement: "What fraction of the proton spin comes from gluon angular momentum? Resolving the proton spin decomposition remains an open problem."
+source_id: "src_ji_2020b"
+source_url: "https://arxiv.org/abs/2009.01291"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

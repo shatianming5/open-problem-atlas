@@ -1,0 +1,11 @@
+title: "Fluctuation Theorems for Far-From-Equilibrium Systems"
+statement: "Can fluctuation theorems be extended to provide exact universal relations for systems arbitrarily far from equilibrium with memory effects?"
+source_id: "src_seifert_2012"
+source_url: "https://arxiv.org/abs/1205.4176"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

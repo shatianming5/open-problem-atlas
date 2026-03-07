@@ -1,0 +1,11 @@
+title: "Palis Conjecture on Finiteness of Attractors"
+statement: "A generic C^r diffeomorphism of a compact manifold has finitely many attractors whose basins of attraction cover a full-measure set."
+source_id: "src_palis_2000"
+source_url: "https://doi.org/10.1007/PL00005542"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

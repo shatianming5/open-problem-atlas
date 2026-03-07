@@ -1,0 +1,11 @@
+title: "Resurgence and Non-Perturbative Physics"
+statement: "Can the resurgence program reconstruct the full non-perturbative content of quantum field theories from their asymptotic perturbative expansions?"
+source_id: "src_dunne_2016"
+source_url: "https://arxiv.org/abs/1511.05977"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

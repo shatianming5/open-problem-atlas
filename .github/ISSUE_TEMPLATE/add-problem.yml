@@ -1,0 +1,119 @@
+name: Add Verified Problem
+description: Submit a new verified open problem to the Atlas
+title: "[Problem] "
+labels: ["type:problem", "needs-review"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Problem Title
+      description: Canonical name of the problem
+      placeholder: "e.g., Twin Prime Conjecture"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - Mathematics
+        - Theoretical CS
+        - Mathematical Physics
+    validations:
+      required: true
+
+  - type: input
+    id: subdomains
+    attributes:
+      label: Subdomains
+      description: Comma-separated list
+      placeholder: "e.g., number-theory, analytic-number-theory"
+    validations:
+      required: true
+
+  - type: textarea
+    id: canonical_statement
+    attributes:
+      label: Canonical Statement
+      description: Precise, unambiguous mathematical statement
+      placeholder: "For every integer n > 1, there exist primes p and q such that..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: informal_statement
+    attributes:
+      label: Informal Statement
+      description: Accessible version for non-specialists
+    validations:
+      required: false
+
+  - type: dropdown
+    id: status
+    attributes:
+      label: Current Status
+      options:
+        - open
+        - partially_solved
+        - solved
+        - disproved
+        - conditional
+        - independent
+        - ambiguous
+    validations:
+      required: true
+
+  - type: textarea
+    id: canonical_source
+    attributes:
+      label: Canonical Source
+      description: "Primary reference (Tier 1): paper, problem list, survey, or textbook. Include title, authors, year, URL/DOI, and locator."
+      placeholder: |
+        Title: ...
+        Authors: ...
+        Year: ...
+        URL/DOI: ...
+        Locator: Problem 3.2
+    validations:
+      required: true
+
+  - type: textarea
+    id: status_evidence
+    attributes:
+      label: Status Evidence
+      description: Reference supporting the current status
+      placeholder: |
+        Title: ...
+        Year: ...
+        URL/DOI: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: partial_results
+    attributes:
+      label: Known Partial Results
+      description: Any known progress on this problem
+    validations:
+      required: false
+
+  - type: textarea
+    id: why_it_matters
+    attributes:
+      label: Why It Matters
+      description: Brief explanation of the problem's significance
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: Tags (select all that apply)
+      options:
+        - label: "formalizable"
+        - label: "formalization-wanted"
+        - label: "solver-ready"
+        - label: "computational-search-possible"
+        - label: "counterexample-friendly"
+        - label: "good-first-entry"

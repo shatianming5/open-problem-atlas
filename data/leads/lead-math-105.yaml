@@ -1,0 +1,11 @@
+title: "Hot Spots Conjecture"
+statement: "For a convex planar domain, the second Neumann eigenfunction of the Laplacian attains its maximum and minimum on the boundary."
+source_id: "src_rauch_1974"
+source_url: "https://en.wikipedia.org/wiki/Hot_spots_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

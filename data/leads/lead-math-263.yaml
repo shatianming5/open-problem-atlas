@@ -1,0 +1,11 @@
+title: "Naimark's Problem"
+statement: "Is every C*-algebra with exactly one irreducible representation up to unitary equivalence isomorphic to the compact operators?"
+source_id: "src_naimark_1951"
+source_url: "https://en.wikipedia.org/wiki/Naimark%27s_problem"
+domain_hint: "mathematics"
+subdomain_hint: "functional-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

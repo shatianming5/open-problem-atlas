@@ -1,0 +1,11 @@
+title: "Jacobian Conjecture"
+statement: "If a polynomial map F: C^n -> C^n has a Jacobian determinant that is a nonzero constant, then F has a polynomial inverse."
+source_id: "src_keller_1939"
+source_url: "https://en.wikipedia.org/wiki/Jacobian_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

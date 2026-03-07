@@ -1,0 +1,11 @@
+title: "Bernstein's Lethargy Theorem Extensions"
+statement: "Characterize the rates of best approximation in arbitrary Banach spaces for general compact operators."
+source_id: "src_bernstein_1938"
+source_url: "https://en.wikipedia.org/wiki/Bernstein%27s_lethargy_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "approximation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

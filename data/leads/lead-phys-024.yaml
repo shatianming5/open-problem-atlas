@@ -1,0 +1,11 @@
+title: "Quantum Money from Knots"
+statement: "Can quantum money schemes based on knot invariants be made secure against computationally unbounded adversaries? The security of Aaronson-Christiano scheme remains unproven."
+source_id: "src_aaronson_2012"
+source_url: "https://arxiv.org/abs/1203.4740"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

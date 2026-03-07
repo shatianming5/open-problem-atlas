@@ -1,0 +1,115 @@
+id: opa.mathematics.mathematical-optimization.linear-programming-strongly-polynomial
+kind: problem
+title: "Strongly Polynomial Linear Programming"
+aliases:
+  - "Smale's 9th Problem"
+  - "Strongly Polynomial Simplex or Interior Point Method"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - mathematical-optimization
+  - computational-complexity
+
+problem_type: open_question
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Does there exist a strongly polynomial-time algorithm for linear programming? That is,
+    an algorithm whose running time is bounded by a polynomial in the number of variables n
+    and number of constraints m only, independent of the bit-size of the coefficients. Current
+    polynomial-time algorithms (ellipsoid method, interior point methods) are weakly polynomial
+    — their complexity depends on log of the input numbers.
+  informal: >
+    Can linear programs be solved in a number of steps that depends only on the number of
+    variables and constraints, not on the size of the numbers involved?
+
+why_it_matters: >
+  This is Smale's 9th problem for the 21st century and one of the most important open questions
+  in mathematical optimization. Linear programming is ubiquitous in operations research,
+  economics, and engineering. A strongly polynomial algorithm would be a fundamental advance
+  in the theory of computation and optimization, resolving one of the deepest questions about
+  the complexity of a problem we solve billions of times daily.
+
+prerequisites:
+  - linear programming
+  - computational complexity
+  - convex optimization
+  - combinatorial optimization
+
+dates:
+  first_stated: 1998
+
+sources:
+  canonical:
+    - source_id: src_smale_1998c
+      kind: paper
+      title: "Mathematical Problems for the Next Century"
+      authors:
+        - "Steve Smale"
+      year: 1998
+      url: "https://doi.org/10.1007/BF03025291"
+  status_evidence:
+    - source_id: src_tardos_1986
+      kind: paper
+      title: "A strongly polynomial algorithm to solve combinatorial linear programs"
+      authors:
+        - "Eva Tardos"
+      url: "https://doi.org/10.1287/opre.34.2.250"
+      year: 1986
+
+partial_results:
+  - summary: "Tardos showed strongly polynomial algorithms exist for combinatorial LP (fixed constraint matrix)."
+    year: 1986
+  - summary: "Interior point methods are weakly polynomial; simplex method is not polynomial at all in the worst case."
+    year: 1984
+  - summary: "No strongly polynomial algorithm is known even for minimum-cost flow (a special case)."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.unique-games-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The strongly polynomial linear programming problem asks whether LP can be solved in time
+    polynomial in n and m alone. One of Smale's problems for the 21st century.
+  decomposition:
+    - "Circuit-based pivoting and combinatorial geometry"
+    - "Interior point methods with combinatorial structure"
+    - "Strongly polynomial algorithms for special LP classes"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

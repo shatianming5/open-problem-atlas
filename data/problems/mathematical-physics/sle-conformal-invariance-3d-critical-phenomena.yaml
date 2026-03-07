@@ -1,0 +1,128 @@
+id: opa.phys.statistical-mechanics.sle-conformal-invariance-3d-critical-phenomena
+kind: problem
+title: "SLE and Conformal Invariance for 3D Critical Phenomena"
+aliases:
+  - "Three-Dimensional Conformal Invariance at Criticality"
+  - "Extension of SLE to Three Dimensions"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    In two dimensions, Schramm-Loewner Evolution (SLE_kappa) provides a rigorous
+    mathematical framework for conformally invariant random curves arising as scaling
+    limits of interfaces in critical lattice models (e.g., SLE_3 for the Ising model,
+    SLE_6 for critical percolation, SLE_8/3 for self-avoiding walks). The fundamental
+    open problem is to develop an analogous rigorous theory of conformal invariance for
+    three-dimensional critical phenomena: (1) Prove that scaling limits of interfaces in
+    3D critical lattice models (such as critical percolation on Z^3 or the 3D Ising model)
+    exist and exhibit conformal invariance; (2) Develop a mathematical framework (a 3D
+    analog of SLE) to describe conformally invariant random surfaces or interfaces in
+    three dimensions; (3) Rigorously establish the connection between 3D conformal field
+    theory and the scaling limits of 3D lattice models.
+  informal: >
+    In two dimensions, mathematicians developed a beautiful theory (SLE) for random curves
+    that appear at phase transitions, proving they have a special symmetry called conformal
+    invariance. Can we extend this to three dimensions? Can we prove that the random surfaces
+    appearing at 3D phase transitions also have conformal symmetry, and can we describe them
+    mathematically?
+
+why_it_matters: >
+  The development of SLE in two dimensions was one of the greatest achievements of
+  mathematical physics in the early 21st century, leading to Fields Medals for Werner (2006)
+  and Smirnov (2010). Extending this theory to three dimensions would revolutionize our
+  understanding of critical phenomena, connect to the conformal bootstrap program, and provide
+  rigorous foundations for predictions of 3D conformal field theory. It represents one of the
+  most important frontiers in probability theory and mathematical physics.
+
+prerequisites:
+  - probability theory
+  - conformal field theory
+  - Schramm-Loewner Evolution (SLE)
+  - statistical mechanics
+  - geometric measure theory
+
+dates:
+  first_stated: 2000
+
+sources:
+  canonical:
+    - source_id: src_schramm_2000
+      kind: paper
+      title: "Scaling limits of loop-erased random walks and uniform spanning trees"
+      url: "https://arxiv.org/abs/math/9904022"
+      year: 2000
+      locator: "Israel J. Math. 118, 221-288"
+    - source_id: src_smirnov_2001
+      kind: paper
+      title: "Critical percolation in the plane: conformal invariance, Cardy's formula, scaling limits"
+      url: "https://doi.org/10.1016/S0764-4442(01)01991-7"
+      year: 2001
+      locator: "C. R. Acad. Sci. Paris Ser. I Math. 333(3), 239-244"
+  status_evidence:
+    - source_id: src_werner_2004
+      kind: survey
+      title: "Random planar curves and Schramm-Loewner evolutions"
+      url: "https://arxiv.org/abs/math/0303354"
+      year: 2004
+
+partial_results:
+  - summary: "Smirnov proved conformal invariance of 2D critical percolation on the triangular lattice."
+    year: 2001
+  - summary: "Chelkak and Smirnov proved conformal invariance of the 2D Ising model at criticality on isoradial graphs."
+    year: 2012
+  - summary: "Lawler, Schramm, and Werner proved the conjecture that the scaling limit of loop-erased random walk is SLE_2 and of the uniform spanning tree boundary is SLE_8."
+    year: 2004
+  - summary: "Numerical evidence strongly supports conformal invariance for 3D critical percolation, but no rigorous results exist."
+    year: 2013
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.92
+  underexplored: 0.70
+  toolability: 0.40
+  formality: 0.55
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    This problem seeks to extend the theory of Schramm-Loewner Evolution and conformal invariance from two dimensions to three dimensions for critical lattice models.
+  decomposition:
+    - "Develop a mathematical framework for conformally invariant random surfaces in 3D analogous to SLE curves in 2D"
+    - "Prove existence and conformal invariance of scaling limits for specific 3D critical models such as percolation"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

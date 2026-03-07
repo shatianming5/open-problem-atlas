@@ -1,0 +1,112 @@
+id: opa.mathematics.graph-theory.caccetta-haggkvist-conjecture
+kind: problem
+title: "Caccetta-Haggkvist Conjecture"
+aliases:
+  - "Caccetta-Haggkvist Directed Cycle Conjecture"
+  - "Minimum Out-Degree Directed Cycle Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - extremal-combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every simple directed graph on n vertices in which every vertex has out-degree at least
+    n/k contains a directed cycle of length at most k. The special case k = 3 asserts that
+    every digraph on n vertices with minimum out-degree at least n/3 contains a directed
+    triangle.
+  informal: >
+    If every vertex in a directed graph points to at least n/k other vertices, then the
+    graph must contain a short directed cycle of length at most k. Even the case of
+    directed triangles (k = 3) remains unproved.
+
+why_it_matters: >
+  The Caccetta-Haggkvist conjecture, posed in 1978, is one of the most important open
+  problems in directed graph theory. Even the triangle case (k = 3) has resisted all
+  approaches for over 40 years. It connects to extremal combinatorics, additive number
+  theory, and has been linked to problems in number theory through Cayley digraphs.
+
+prerequisites:
+  - directed graph theory
+  - extremal graph theory
+  - additive combinatorics
+
+dates:
+  first_stated: 1978
+
+sources:
+  canonical:
+    - source_id: src_caccetta_haggkvist_1978
+      kind: paper
+      title: "On minimal digraphs with given girth"
+      authors:
+        - "Louis Caccetta"
+        - "Roland Haggkvist"
+      year: 1978
+  status_evidence:
+    - source_id: src_hladky_etal_2017
+      kind: paper
+      title: "On the Caccetta-Haggkvist conjecture with a forbidden transversal"
+      url: "https://doi.org/10.1016/j.jctb.2016.07.001"
+      year: 2017
+
+partial_results:
+  - summary: "The k = 2 case is straightforward. The k = 3 case remains the most important open instance."
+    year: 1978
+  - summary: "Shen proved the triangle case holds for out-degree at least 0.3546n, improving previous bounds."
+    year: 1998
+  - summary: "Hamburger, Haxell, and Kostochka improved the bound to 0.3532n."
+    year: 2008
+  - summary: "The conjecture holds for Cayley digraphs and several structured classes of digraphs."
+    year: 2007
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.seymours-second-neighborhood-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Caccetta-Haggkvist conjecture states that digraphs with minimum out-degree n/k
+    contain directed cycles of length at most k. Even the k=3 case is open, with the best
+    known bound being out-degree ~0.3532n.
+  decomposition:
+    - "Resolving the triangle case (k = 3) by improving the out-degree threshold to n/3"
+    - "New spectral or algebraic approaches to short directed cycles"
+    - "Connections to additive combinatorics and sum-product phenomena"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

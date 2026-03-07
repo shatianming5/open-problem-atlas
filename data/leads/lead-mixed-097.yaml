@@ -1,0 +1,11 @@
+title: "Optimal Mixing Time of Glauber Dynamics"
+statement: "For which spin systems does Glauber dynamics achieve O(n log n) mixing time up to the tree-uniqueness threshold, generalizing recent results on the hardcore model?"
+source_id: "src_anari_2021"
+source_url: "https://arxiv.org/abs/2106.04105"
+domain_hint: "theoretical-cs"
+subdomain_hint: "sampling-algorithms"
+confidence: 0.65
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

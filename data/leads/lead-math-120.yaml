@@ -1,0 +1,11 @@
+title: "Montgomery's Pair Correlation Conjecture"
+statement: "The pair correlation function of the nontrivial zeros of the Riemann zeta function matches the pair correlation of eigenvalues of random GUE matrices."
+source_id: "src_montgomery_1973"
+source_url: "https://en.wikipedia.org/wiki/Montgomery%27s_pair_correlation_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Form Factor Bootstrap"
+statement: "Can form factors of local operators in massive integrable QFTs be determined exactly using the form factor bootstrap and extended to non-integrable deformations?"
+source_id: "src_smirnov_1992"
+source_url: "https://doi.org/10.1142/1115"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

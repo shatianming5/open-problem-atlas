@@ -1,0 +1,120 @@
+id: opa.mathematics.dynamical-systems.lehmer-conjecture
+kind: problem
+title: "Lehmer's Conjecture (Mahler Measure)"
+aliases:
+  - "Lehmer's Mahler Measure Problem"
+  - "Lehmer's Question on Minimal Mahler Measure"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - dynamical-systems
+  - harmonic-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There exists an absolute constant c > 0 such that for every monic
+    irreducible polynomial P(x) in Z[x] that is not a cyclotomic polynomial,
+    the Mahler measure M(P) = prod_{i} max(1, |alpha_i|), where the alpha_i are
+    the roots of P, satisfies M(P) >= 1 + c. Equivalently, the infimum of
+    Mahler measures of non-cyclotomic integer polynomials is strictly greater
+    than 1, and is conjectured to be Lehmer's number,
+    M(x^10 + x^9 - x^7 - x^6 - x^5 - x^4 - x^3 + x + 1) ~ 1.17628.
+  informal: >
+    The Mahler measure of a polynomial is a way to measure its "size" using its
+    roots. For cyclotomic polynomials (whose roots are roots of unity), this
+    measure equals 1. Lehmer asked whether there is a gap -- is there a minimum
+    amount by which the Mahler measure of any other integer polynomial must
+    exceed 1?
+
+why_it_matters: >
+  Lehmer's conjecture, posed in 1933, connects number theory, algebraic
+  dynamics, and harmonic analysis. The Mahler measure appears in heights of
+  algebraic numbers, entropy of algebraic dynamical systems, volumes of
+  hyperbolic 3-manifolds, and values of L-functions. A resolution would have
+  implications across these diverse areas.
+
+prerequisites:
+  - algebraic number theory
+  - Mahler measure and heights
+  - harmonic analysis
+  - dynamical systems
+
+dates:
+  first_stated: 1933
+
+sources:
+  canonical:
+    - source_id: src_lehmer_1933
+      kind: paper
+      title: "Factorization of certain cyclotomic functions"
+      authors:
+        - "Derrick H. Lehmer"
+      year: 1933
+      locator: "Annals of Mathematics, vol. 34, no. 3, pp. 461-479"
+  status_evidence:
+    - source_id: src_smyth_2008
+      kind: survey
+      title: "The Mahler measure of algebraic numbers: a survey"
+      authors:
+        - "Chris Smyth"
+      year: 2008
+      locator: "Number Theory and Polynomials, LMS Lecture Notes, vol. 352, pp. 322-349"
+
+partial_results:
+  - summary: "Smyth proved the conjecture for non-reciprocal polynomials with the sharp bound M(P) >= M(x^3 - x - 1) ~ 1.3247."
+    year: 1971
+  - summary: "Dobrowolski proved M(P) >= 1 + c (log log d / log d)^3 for degree d polynomials."
+    year: 1979
+  - summary: "Extensive computer searches verified the conjecture for polynomials of degree up to 44."
+    year: 2010
+  - summary: "Dimitrov proved the Schinzel-Zassenhaus conjecture, a weaker form involving the house of an algebraic integer."
+    year: 2019
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Lehmer's conjecture asserts that there is a positive gap between 1 and the
+    infimum of Mahler measures of non-cyclotomic integer polynomials, with the
+    minimum conjectured to be Lehmer's number approximately 1.17628.
+  decomposition:
+    - "Lower bounds for Mahler measure via potential theory"
+    - "Auxiliary polynomial and interpolation determinant methods"
+    - "Connections to dynamical heights and entropy"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

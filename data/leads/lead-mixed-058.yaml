@@ -1,0 +1,11 @@
+title: "Many-Body Localization Rigorous Treatment"
+statement: "Does many-body localization exist as a stable dynamical phase in interacting quantum systems in dimensions d >= 1, or does it eventually thermalize?"
+source_id: "src_imbrie_2020"
+source_url: "https://arxiv.org/abs/1403.7837"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Exponential Time Hypothesis"
+statement: "Does 3-SAT require exponential time, i.e., does there exist a constant delta > 0 such that no algorithm solves 3-SAT in time 2^(delta*n)?"
+source_id: "src_impagliazzo_paturi_2001"
+source_url: "https://doi.org/10.1006/jcss.2000.1727"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

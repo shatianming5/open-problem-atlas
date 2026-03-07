@@ -1,0 +1,11 @@
+title: "Disordered Topological Insulators"
+statement: "What is the complete phase diagram of topological insulators in the presence of strong disorder, and does topology persist beyond the Anderson localization transition?"
+source_id: "src_li_2009"
+source_url: "https://arxiv.org/abs/0811.3045"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Von Neumann's Measure Problem"
+statement: "Classify all groups that are amenable, relating to the existence of finitely additive invariant measures."
+source_id: "src_vonneumann_1929"
+source_url: "https://en.wikipedia.org/wiki/Von_Neumann_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "measure-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

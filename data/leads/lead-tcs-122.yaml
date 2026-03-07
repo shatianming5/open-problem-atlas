@@ -1,0 +1,11 @@
+title: "Quantum Communication Complexity Advantages"
+statement: "For which total Boolean functions does quantum communication offer an exponential advantage over classical randomized protocols?"
+source_id: "src_buhrman_cleve_wigderson_1998"
+source_url: "https://doi.org/10.1145/276698.276713"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,111 @@
+id: opa.phys.quantum-information.quantum-hamiltonian-complexity-qma
+kind: problem
+title: "Quantum Hamiltonian Complexity and QMA-completeness"
+aliases:
+  - "Quantum PCP Conjecture"
+  - "QMA-completeness of Local Hamiltonian"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove or disprove the quantum PCP conjecture: for the k-local Hamiltonian problem
+    with k = O(1), there exists a constant epsilon > 0 such that it is QMA-hard to
+    determine whether the ground state energy of a k-local Hamiltonian is at most a
+    or at least a + epsilon * n, where n is the number of qubits. This is the quantum
+    analogue of the PCP theorem in classical complexity theory. Additionally, determine
+    the exact complexity of computing ground state properties of local Hamiltonians on
+    physically motivated lattice geometries.
+  informal: >
+    Is approximating the ground state energy of quantum systems hard even when we only
+    need a rough estimate? The quantum PCP conjecture says yes, which would have
+    profound implications for quantum computing and physics.
+
+why_it_matters: >
+  The quantum PCP conjecture is one of the most important open problems at the
+  intersection of quantum information and computational complexity. It would imply
+  that quantum entanglement in ground states is fundamentally different from what
+  can be verified efficiently, with deep implications for condensed matter physics.
+
+prerequisites:
+  - quantum computation
+  - computational complexity theory
+  - quantum many-body theory
+  - approximation algorithms
+  - PCP theorem
+
+dates:
+  first_stated: 2003
+
+sources:
+  canonical:
+    - source_id: src_aharonov_2013
+      kind: paper
+      title: "Guest Column: The Quantum PCP Conjecture"
+      url: "https://doi.org/10.1145/2491533.2491549"
+      year: 2013
+      locator: "ACM SIGACT News 44(2), 47-79"
+  status_evidence:
+    - source_id: src_gharibian_2015
+      kind: survey
+      title: "Quantum Hamiltonian Complexity"
+      url: "https://doi.org/10.1561/0400000066"
+      year: 2015
+
+partial_results:
+  - summary: "Kitaev proved that the local Hamiltonian problem is QMA-complete with inverse-polynomial promise gap."
+    year: 1999
+  - summary: "The NLTS (No Low-energy Trivial States) conjecture was proved by Anshu, Breuckmann, and Nirkhe."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.entanglement-entropy-area-law-general"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.45
+  toolability: 0.35
+  formality: 0.75
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    The quantum PCP conjecture asks whether approximating ground state energies of local Hamiltonians remains QMA-hard even with constant relative precision.
+  decomposition:
+    - "Prove or disprove the quantum PCP conjecture"
+    - "Extend the NLTS result toward a full quantum PCP theorem"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

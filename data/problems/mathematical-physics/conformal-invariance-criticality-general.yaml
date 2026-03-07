@@ -1,0 +1,113 @@
+id: opa.phys.statistical-mechanics.conformal-invariance-criticality-general
+kind: problem
+title: "Conformal Invariance at Criticality (General)"
+aliases:
+  - "Conformal Invariance Conjecture"
+  - "Conformal Symmetry at Critical Points"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove that critical lattice models in d=2 are conformally invariant in the scaling
+    limit, for a general class of models beyond the Ising model. Specifically, prove
+    conformal invariance for the critical q-state Potts model for general q (including
+    non-integer q via the Fortuin-Kasteleyn representation), the O(n) loop model for
+    general n, and the self-avoiding walk (n=0 case). In d >= 3, determine whether
+    critical systems possess conformal invariance and characterize the conformal field
+    theories that describe them.
+  informal: >
+    At a phase transition, lattice systems become scale-invariant. A stronger property,
+    conformal invariance, is widely assumed but proven only for the 2D Ising model and
+    a few other cases. Proving it in general is a major challenge.
+
+why_it_matters: >
+  Conformal invariance at criticality is the foundational assumption of conformal field
+  theory, which has been spectacularly successful in both physics and mathematics.
+  Proving it rigorously would justify this entire edifice from first principles.
+
+prerequisites:
+  - statistical mechanics
+  - conformal field theory
+  - probability theory
+  - complex analysis
+  - representation theory
+
+dates:
+  first_stated: 1970
+
+sources:
+  canonical:
+    - source_id: src_polyakov_1970
+      kind: paper
+      title: "Conformal symmetry of critical fluctuations"
+      url: "https://doi.org/10.1134/1.1993223"
+      year: 1970
+      locator: "JETP Letters 12, 381"
+  status_evidence:
+    - source_id: src_smirnov_2010
+      kind: paper
+      title: "Conformal invariance in random cluster models"
+      url: "https://doi.org/10.4007/annals.2010.172.1435"
+      year: 2010
+
+partial_results:
+  - summary: "Smirnov proved conformal invariance of critical site percolation on the triangular lattice (Fields Medal 2010)."
+    year: 2001
+  - summary: "Chelkak, Hongler, and Izyurov proved conformal invariance of the 2D critical Ising model correlations."
+    year: 2015
+  - summary: "Conformal invariance for the q-state Potts model with q != 2 remains open even in d=2."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.universality-critical-exponents-proof"
+    - "opa.phys.statistical-mechanics.self-avoiding-walk-connective-constant"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.92
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.60
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving conformal invariance at criticality for general lattice models in 2D and determining its role in d >= 3.
+  decomposition:
+    - "Prove conformal invariance for the q-state Potts model at criticality"
+    - "Determine whether conformal invariance holds at 3D critical points"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

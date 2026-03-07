@@ -1,0 +1,11 @@
+title: "Entropy Production in Biological Systems"
+statement: "Can minimum entropy production principles or thermodynamic bounds constrain the efficiency and design of biological molecular machines?"
+source_id: "src_seifert_2019"
+source_url: "https://arxiv.org/abs/1901.00953"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

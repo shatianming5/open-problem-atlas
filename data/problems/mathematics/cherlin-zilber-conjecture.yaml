@@ -1,0 +1,119 @@
+id: opa.mathematics.model-theory.cherlin-zilber-conjecture
+kind: problem
+title: "Cherlin-Zilber Conjecture"
+aliases:
+  - "Algebraicity Conjecture"
+  - "Cherlin-Zilber Algebraicity Conjecture for Simple Groups"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - model-theory
+  - representation-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every infinite simple group of finite Morley rank is isomorphic (as a group)
+    to an algebraic group over an algebraically closed field. Equivalently,
+    there are no "bad groups" -- infinite simple groups of finite Morley rank
+    that are not algebraic groups.
+  informal: >
+    Morley rank is a model-theoretic measure of complexity. Groups of finite
+    Morley rank generalize algebraic groups. The conjecture predicts that among
+    these, the simple ones (those without nontrivial normal subgroups) are
+    always classical algebraic groups -- no exotic examples exist.
+
+why_it_matters: >
+  The Cherlin-Zilber conjecture, formulated independently around 1979, is the
+  central open problem in the model theory of groups. It would establish that
+  the model-theoretic notion of finite Morley rank precisely captures algebraic
+  groups among simple groups, giving a powerful bridge between model theory and
+  algebraic geometry. The program to prove it has generated a rich body of work
+  paralleling the classification of finite simple groups.
+
+prerequisites:
+  - model theory
+  - group theory
+  - algebraic groups
+  - finite Morley rank
+
+dates:
+  first_stated: 1979
+
+sources:
+  canonical:
+    - source_id: src_cherlin_1979
+      kind: paper
+      title: "Groups of small Morley rank"
+      authors:
+        - "Gregory Cherlin"
+      year: 1979
+      locator: "Annals of Mathematical Logic, vol. 17, pp. 1-28"
+  status_evidence:
+    - source_id: src_borovik_2008
+      kind: textbook
+      title: "Simple Groups of Finite Morley Rank"
+      authors:
+        - "Alexandre Borovik"
+        - "Ali Nesin"
+      year: 2008
+      locator: "American Mathematical Society, Mathematical Surveys and Monographs"
+
+partial_results:
+  - summary: "Cherlin proved the conjecture for groups of Morley rank at most 2."
+    year: 1979
+  - summary: "Altinel, Borovik, and Cherlin proved the conjecture for groups of even type (containing involutions with finite centralizer components)."
+    year: 2008
+  - summary: "The odd type case was reduced to specific configurations, but remains open."
+    year: 2008
+  - summary: "Frécon showed that minimal connected simple groups of finite Morley rank have involutions, settling a key case."
+    year: 2018
+
+relations:
+  related:
+    - opa.mathematics.model-theory.shelah-categoricity-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.80
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - isabelle
+
+machine_generated:
+  summary: >
+    The Cherlin-Zilber conjecture asserts that every infinite simple group of
+    finite Morley rank is an algebraic group over an algebraically closed field.
+    The even type case is resolved, but odd type and degenerate type remain open.
+  decomposition:
+    - "Odd type groups: signalizer functor theory in finite Morley rank"
+    - "Degenerate type: groups without involutions"
+    - "Identification with specific algebraic groups"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

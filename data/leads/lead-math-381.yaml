@@ -1,0 +1,11 @@
+title: "Sendov's Conjecture (Complex Analysis Form)"
+statement: "For a polynomial with all zeros in the closed unit disk, every zero has a critical point within distance 1."
+source_id: "src_sendov_1967b"
+source_url: "https://en.wikipedia.org/wiki/Sendov%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "complex-analysis"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,125 @@
+id: opa.mathematics.probability.density-hales-jewett-polynomial
+kind: problem
+title: "Polynomial Density Hales–Jewett Conjecture"
+aliases:
+  - "Polynomial DHJ"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - probability
+  - algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let k ≥ 2 be a positive integer. For any δ > 0, there exists N such
+    that every subset A ⊆ [k]^N with |A| ≥ δ · k^N contains a combinatorial
+    polynomial subspace of dimension 1. More precisely, A contains a
+    "polynomial combinatorial line," generalizing the notion of combinatorial
+    lines in the density Hales-Jewett theorem to polynomial patterns.
+  informal: >
+    The density Hales–Jewett theorem (proved by the Polymath project) says
+    that dense subsets of high-dimensional grids contain combinatorial lines.
+    The polynomial version asks whether the same holds for polynomial patterns,
+    which would vastly generalize Bergelson–Leibman type results.
+
+why_it_matters: >
+  The polynomial density Hales–Jewett conjecture would be a far-reaching
+  extension of the density Hales–Jewett theorem and the polynomial
+  Szemerédi theorem. It would provide a unified combinatorial framework
+  for polynomial recurrence results in ergodic theory and has connections
+  to theoretical computer science and additive combinatorics.
+
+prerequisites:
+  - additive combinatorics
+  - ergodic theory
+  - Ramsey theory
+  - probability theory
+
+dates:
+  first_stated: 2009
+
+sources:
+  canonical:
+    - source_id: src_polymath_2012
+      kind: paper
+      title: "A new proof of the density Hales-Jewett theorem"
+      authors:
+        - "D. H. J. Polymath"
+      year: 2012
+      url: "https://doi.org/10.4007/annals.2012.175.3.6"
+    - source_id: src_bergelson_leibman_1996
+      kind: paper
+      title: "Polynomial extensions of van der Waerden's and Szemerédi's theorems"
+      authors:
+        - "Vitaly Bergelson"
+        - "Alexander Leibman"
+      year: 1996
+      url: "https://doi.org/10.1090/S0894-0347-96-00194-4"
+  status_evidence:
+    - source_id: src_polymath_2010_blog
+      kind: paper
+      title: "A new proof of the density Hales-Jewett theorem"
+      authors:
+        - "D. H. J. Polymath"
+      year: 2012
+      url: "https://doi.org/10.4007/annals.2012.175.3.6"
+
+partial_results:
+  - summary: "Bergelson and Leibman proved the polynomial Szemerédi theorem using ergodic-theoretic methods."
+    year: 1996
+  - summary: "The Polymath project proved the density Hales–Jewett theorem (the linear case)."
+    year: 2010
+  - summary: "The polynomial extension remains open even for the simplest polynomial patterns."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.50
+  toolability: 0.35
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The polynomial density Hales–Jewett conjecture extends the density
+    Hales-Jewett theorem to polynomial patterns. It would unify and
+    generalize polynomial Szemerédi-type results.
+  decomposition:
+    - "Extension of the Polymath density increment approach to polynomial patterns"
+    - "Ergodic-theoretic formulations and IP polynomial recurrence"
+    - "Quantitative bounds and finitary methods"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

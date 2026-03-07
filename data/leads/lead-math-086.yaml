@@ -1,0 +1,11 @@
+title: "Birch-Tate Conjecture"
+statement: "For a totally real number field F, the order of K_2(O_F) is related to the value of the Dedekind zeta function at s = -1 by an explicit formula."
+source_id: "src_birch_1969"
+source_url: "https://en.wikipedia.org/wiki/Birch%E2%80%93Tate_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

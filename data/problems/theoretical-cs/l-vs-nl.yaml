@@ -1,0 +1,113 @@
+id: opa.tcs.complexity-theory.l-vs-nl
+kind: problem
+title: "L vs NL Problem"
+aliases:
+  - "L = NL?"
+  - "Deterministic logspace vs nondeterministic logspace"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let L denote the class of languages decidable by a deterministic Turing machine
+    using O(log n) space, and NL denote the class decidable by a nondeterministic
+    Turing machine using O(log n) space. Does L = NL?
+  informal: >
+    Can every problem solvable with a small amount of nondeterministic memory also be
+    solved with the same amount of deterministic memory? The canonical NL-complete
+    problem is directed graph reachability (st-connectivity).
+
+why_it_matters: >
+  The L vs NL question is the space-bounded analogue of P vs NP. Resolving it would
+  clarify the power of nondeterminism in space-bounded computation. Savitch's theorem
+  shows NL is contained in L^2 (deterministic O(log^2 n) space), but closing the gap
+  to L remains open.
+
+prerequisites:
+  - space complexity
+  - nondeterministic computation
+  - graph reachability
+  - Savitch's theorem
+
+dates:
+  first_stated: 1970
+
+sources:
+  canonical:
+    - source_id: src_savitch_1970
+      kind: paper
+      title: "Relationships between nondeterministic and deterministic tape complexities"
+      authors:
+        - "Walter Savitch"
+      url: "https://doi.org/10.1016/S0022-0000(70)80006-X"
+      year: 1970
+  status_evidence:
+    - source_id: src_reingold_2008
+      kind: paper
+      title: "Undirected connectivity in log-space"
+      authors:
+        - "Omer Reingold"
+      url: "https://doi.org/10.1145/1391289.1391291"
+      year: 2008
+
+partial_results:
+  - summary: "Savitch (1970) proved NL is contained in DSPACE(log^2 n), giving a quadratic blowup from nondeterministic to deterministic space."
+    year: 1970
+  - summary: "Immerman and Szelepcsényi independently proved NL = coNL (1988), showing nondeterministic logspace is closed under complement."
+    year: 1988
+  - summary: "Reingold (2008) proved undirected st-connectivity is in L, solving a major special case."
+    year: 2008
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.l-vs-p"
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.90
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The L vs NL problem asks whether deterministic logspace equals nondeterministic
+    logspace, the space-bounded analogue of the P vs NP question.
+  decomposition:
+    - "Improve Savitch's theorem to show NL is in DSPACE(o(log^2 n))"
+    - "Prove directed st-connectivity requires superlogarithmic deterministic space"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

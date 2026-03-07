@@ -1,0 +1,11 @@
+title: "Illumination Conjecture"
+statement: "Every convex body in R^n (n >= 3) can be illuminated by at most 2^n light sources."
+source_id: "src_boltyanski_1960"
+source_url: "https://en.wikipedia.org/wiki/Illumination_problem"
+domain_hint: "mathematics"
+subdomain_hint: "discrete-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

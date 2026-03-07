@@ -1,0 +1,11 @@
+title: "Quantum Nonlocality Without Entanglement"
+statement: "Can the phenomenon of quantum nonlocality without entanglement be fully characterized, and what is its role in multipartite quantum information processing?"
+source_id: "src_bennett_1999"
+source_url: "https://arxiv.org/abs/quant-ph/9804053"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

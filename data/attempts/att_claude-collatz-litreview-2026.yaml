@@ -1,0 +1,53 @@
+attempt_id: "att_claude-collatz-litreview-2026"
+problem_id: "opa.mathematics.number-theory.collatz-conjecture"
+actor: "Claude (Anthropic)"
+actor_type: "ai"
+model:
+  name: "Claude"
+  version: "3.5-sonnet"
+  provider: "Anthropic"
+date: "2026-02-15"
+method_summary: >
+  Conducted a comprehensive literature review of the Collatz conjecture using
+  Claude 3.5 Sonnet. The model was prompted to survey all major proof strategies
+  attempted since 1937, identify the most promising approaches, and assess which
+  techniques from Tao's 2019 almost-all result might be extended. The review
+  covered ergodic theory methods, function iteration analysis, p-adic approaches,
+  automata-theoretic formulations, and stochastic heuristic models.
+prompt: >
+  You are a research mathematician. Conduct a thorough literature review of the
+  Collatz conjecture (3x+1 problem). For each major proof approach attempted,
+  summarize the technique, key results, limitations, and potential for extension.
+  Focus especially on: (1) Terrence Tao's 2019 logarithmic density result,
+  (2) ergodic theory approaches, (3) p-adic and algebraic approaches,
+  (4) computational verification methods and their limits. Assess which
+  approaches are most promising for future progress.
+tools:
+  - "Claude 3.5 Sonnet API"
+environment:
+  hardware: "Anthropic cloud infrastructure"
+  runtime: "Claude API"
+  dependencies:
+    - "anthropic-sdk"
+outcome:
+  summary: >
+    Produced a structured survey identifying 7 major proof strategy families
+    with 23 key papers. Highlighted that Tao's measure-theoretic approach via
+    Syracuse random variables is currently the most promising direction but
+    noted the fundamental barrier of moving from almost-all to all integers.
+    Identified potential connections between automata-theoretic formulations
+    (Kupferschmid-Shelah) and ergodic methods that appear underexplored in
+    the literature.
+  result_type: "literature_review"
+  artifacts:
+    - type: "text"
+      path: "artifacts/collatz-litreview-claude-2026.md"
+verification_status: "unverified"
+labels:
+  - "machine-generated"
+  - "unverified"
+limitations: >
+  The review is bounded by the model's training data cutoff and may miss very
+  recent preprints. Some mathematical details in the assessment of proof
+  barriers may contain inaccuracies. The identified "underexplored connection"
+  between automata and ergodic methods has not been validated by a domain expert.

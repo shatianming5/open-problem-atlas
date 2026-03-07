@@ -1,0 +1,116 @@
+id: opa.phys.quantum-information.quantum-gravity-information-connections
+kind: problem
+title: "Quantum Gravity and Quantum Information Connections"
+aliases:
+  - "ER=EPR Conjecture"
+  - "Quantum Information in Quantum Gravity"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Rigorously establish the connections between quantum information theory and quantum
+    gravity. Specifically: (1) Prove or disprove the ER=EPR conjecture of Maldacena
+    and Susskind, that quantum entanglement between two systems is equivalent to a
+    non-traversable Einstein-Rosen bridge connecting them. (2) Determine whether quantum
+    computational complexity has a geometric dual in AdS/CFT, as conjectured by
+    Susskind's "complexity=volume" and "complexity=action" proposals. (3) Establish
+    whether quantum error correcting codes underlie the structure of spacetime in
+    holographic theories.
+  informal: >
+    Are entanglement and wormholes the same thing? Is the geometry of spacetime built
+    from quantum information? These deep conjectures connecting quantum information to
+    gravity remain unproven.
+
+why_it_matters: >
+  These conjectures represent a paradigm shift in our understanding of quantum gravity,
+  suggesting that spacetime itself emerges from quantum information. Resolving them
+  would fundamentally change our understanding of both quantum mechanics and general
+  relativity.
+
+prerequisites:
+  - quantum information theory
+  - general relativity
+  - string theory
+  - conformal field theory
+  - quantum error correction
+
+dates:
+  first_stated: 2013
+
+sources:
+  canonical:
+    - source_id: src_maldacena_2013
+      kind: paper
+      title: "Cool horizons for entangled black holes"
+      url: "https://doi.org/10.1002/prop.201300020"
+      year: 2013
+      locator: "Fortschritte der Physik 61, 781-811"
+  status_evidence:
+    - source_id: src_susskind_2016
+      kind: paper
+      title: "Computational Complexity and Black Hole Horizons"
+      url: "https://doi.org/10.1002/prop.201500092"
+      year: 2016
+
+partial_results:
+  - summary: "The Ryu-Takayanagi formula established a concrete link between entanglement entropy and minimal surfaces in AdS/CFT."
+    year: 2006
+  - summary: "Almheiri, Dong, and Harlow showed holographic quantum error correction structure in AdS/CFT."
+    year: 2015
+  - summary: "The quantum extremal surface formula resolved aspects of the black hole information paradox."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.holographic-entanglement-entropy-conjectures"
+    - "opa.phys.quantum-field-theory.consistent-theory-of-quantum-gravity"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.50
+  toolability: 0.20
+  formality: 0.40
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Establishing the deep connections between quantum information theory and quantum gravity, including ER=EPR and complexity-geometry dualities.
+  decomposition:
+    - "Prove or disprove the ER=EPR conjecture"
+    - "Establish the complexity=volume or complexity=action conjecture"
+    - "Prove that quantum error correction underlies holographic spacetime"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

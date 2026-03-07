@@ -1,0 +1,11 @@
+title: "Brennan Conjecture"
+statement: "If f is a conformal map from the unit disk to a simply connected domain, then the integral of |f'|^p over the unit disk is finite for -1 < p < 3."
+source_id: "src_brennan_1978"
+source_url: "https://doi.org/10.1112/jlms/s2-18.2.248"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

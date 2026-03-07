@@ -1,0 +1,11 @@
+title: "Linear Programming in Strongly Polynomial Time"
+statement: "Can linear programming be solved in strongly polynomial time? This is one of Smale's 18 problems for the 21st century."
+source_id: "src_smale_1998"
+source_url: "https://doi.org/10.1007/s002080050058"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

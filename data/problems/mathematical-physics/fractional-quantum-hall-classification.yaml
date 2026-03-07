@@ -1,0 +1,111 @@
+id: opa.phys.condensed-matter-theory.fractional-quantum-hall-classification
+kind: problem
+title: "Classification of Fractional Quantum Hall States"
+aliases:
+  - "FQHE Classification"
+  - "Topological Classification of FQH States"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - condensed-matter-theory
+
+problem_type: conjecture
+answer_type: constructive
+verification_mode: proof
+
+statement:
+  canonical: >
+    Provide a complete mathematical classification of all possible fractional quantum
+    Hall (FQH) states at a given filling fraction. Determine the full topological data
+    (topological order, ground state degeneracy on a torus, edge state structure, braiding
+    statistics of quasiparticles) for each filling fraction, and prove which topological
+    orders are physically realizable in two-dimensional electron systems. In particular,
+    determine whether non-abelian FQH states (such as the Moore-Read Pfaffian at
+    nu = 5/2) are realized and classify all possible non-abelian anyonic excitations.
+  informal: >
+    The fractional quantum Hall effect produces exotic states of matter with
+    fractionally charged excitations. Classifying all possible such states and their
+    exotic braiding statistics is a major open problem in condensed matter theory.
+
+why_it_matters: >
+  FQH states are the prototypical examples of topological order and host anyonic
+  quasiparticles that could be used for topological quantum computing. A complete
+  classification would advance both fundamental physics and quantum computing.
+
+prerequisites:
+  - condensed matter theory
+  - topological quantum field theory
+  - quantum field theory
+  - representation theory
+  - mathematical physics
+
+dates:
+  first_stated: 1983
+
+sources:
+  canonical:
+    - source_id: src_laughlin_1983
+      kind: paper
+      title: "Anomalous Quantum Hall Effect: An Incompressible Quantum Fluid with Fractionally Charged Excitations"
+      url: "https://doi.org/10.1103/PhysRevLett.50.1395"
+      year: 1983
+      locator: "Physical Review Letters 50, 1395"
+  status_evidence:
+    - source_id: src_wen_2017
+      kind: textbook
+      title: "Quantum Field Theory of Many-body Systems"
+      year: 2004
+
+partial_results:
+  - summary: "Laughlin constructed wave functions for filling fractions 1/m, explaining the principal series."
+    year: 1983
+  - summary: "The Moore-Read Pfaffian state proposes a non-abelian FQH state at nu = 5/2."
+    year: 1991
+  - summary: "Experimental evidence for non-abelian anyons at nu = 5/2 remains inconclusive."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.condensed-matter-theory.topological-order-classification-general"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.40
+  toolability: 0.35
+  formality: 0.50
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Providing a complete mathematical classification of fractional quantum Hall states and their topological orders.
+  decomposition:
+    - "Classify all topological orders realizable at each filling fraction"
+    - "Determine whether non-abelian anyons are realized at nu = 5/2"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

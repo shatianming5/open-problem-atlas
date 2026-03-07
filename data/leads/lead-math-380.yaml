@@ -1,0 +1,11 @@
+title: "Ratner's Theorem Extensions"
+statement: "Extend Ratner's orbit closure theorem to actions of groups beyond unipotent ones, such as diagonalizable groups."
+source_id: "src_ratner_1991"
+source_url: "https://en.wikipedia.org/wiki/Ratner%27s_theorems"
+domain_hint: "mathematics"
+subdomain_hint: "ergodic-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Optimal Quantum Cloning Bounds"
+statement: "What are the optimal fidelity bounds for asymmetric quantum cloning of arbitrary mixed states? Exact bounds are known only for pure states and limited classes of mixed states."
+source_id: "src_scarani_2005"
+source_url: "https://arxiv.org/abs/quant-ph/0511088"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

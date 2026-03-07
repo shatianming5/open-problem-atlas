@@ -1,0 +1,121 @@
+id: opa.mathematics.extremal-combinatorics.frankl-conjecture-specific-bounds
+kind: problem
+title: "Frankl's Conjecture: Optimal Abundance Bound"
+aliases:
+  - "Union-Closed Conjecture Optimal Constant"
+  - "Frankl's Union-Closed Sets Conjecture Sharp Bound"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - extremal-combinatorics
+  - combinatorics
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a union-closed family F of sets (closed under pairwise union) with F not equal to
+    {empty set}, determine the best constant c such that there always exists an element
+    contained in at least c * |F| sets of F. The union-closed conjecture of Frankl asserts
+    c = 1/2. Gilmer (2022) proved c >= 0.01, and subsequent work improved this to
+    c >= (3 - sqrt(5))/2 ~ 0.382. Closing the gap to 1/2 remains open.
+  informal: >
+    In a family of sets closed under union, there should be some element appearing in at
+    least half the sets. The best proven constant is about 38.2% instead of 50%. What is
+    the true threshold?
+
+why_it_matters: >
+  Frankl's union-closed conjecture is one of the most famous open problems in combinatorics.
+  While the qualitative conjecture (c = 1/2) remains open, the quantitative question of
+  determining the sharp constant has attracted intense recent interest. Gilmer's 2022
+  breakthrough using entropy methods opened a new line of attack, but the gap between
+  0.382 and 0.5 persists.
+
+prerequisites:
+  - combinatorics
+  - extremal set theory
+  - information theory
+  - entropy methods
+
+dates:
+  first_stated: 1979
+
+sources:
+  canonical:
+    - source_id: src_frankl_1979_uc
+      kind: paper
+      title: "The union-closed conjecture (problem communicated)"
+      authors:
+        - "Peter Frankl"
+      year: 1979
+    - source_id: src_gilmer_2022
+      kind: paper
+      title: "A constant lower bound for the union-closed sets conjecture"
+      authors:
+        - "Justin Gilmer"
+      url: "https://arxiv.org/abs/2211.09055"
+      year: 2022
+  status_evidence:
+    - source_id: src_chase_lovett_2022
+      kind: paper
+      title: "Approximate union closed conjecture"
+      url: "https://arxiv.org/abs/2211.11731"
+      year: 2022
+
+partial_results:
+  - summary: "Gilmer proved that some element appears in at least 1% of the sets, the first constant fraction bound."
+    year: 2022
+  - summary: "Chase and Lovett, Alweiss-Huang-Sellke, and Pebody independently improved the constant to (3-sqrt(5))/2 ~ 0.382."
+    year: 2022
+  - summary: "The constant (3-sqrt(5))/2 is the natural barrier of the entropy approach and new ideas are needed to go further."
+    year: 2023
+  - summary: "Knill showed that lattice-theoretic approaches give the full conjecture for large subclasses."
+    year: 2023
+
+relations:
+  related:
+    - opa.mathematics.combinatorics.union-closed-sets-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.25
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The problem of determining the optimal constant in Frankl's union-closed conjecture.
+    The entropy method gives c >= 0.382, but the conjectured c = 1/2 remains unproven.
+    Breaking the entropy barrier is the key challenge.
+  decomposition:
+    - "Breaking the entropy barrier of (3-sqrt(5))/2"
+    - "New structural or algebraic approaches beyond information-theoretic methods"
+    - "Connections to lattice theory and poset-based reformulations"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

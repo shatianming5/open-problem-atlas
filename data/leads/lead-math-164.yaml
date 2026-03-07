@@ -1,0 +1,11 @@
+title: "Critical Exponents for 3D Percolation"
+statement: "Rigorously compute the critical exponents (e.g., beta, gamma, nu) for Bernoulli percolation on Z^3."
+source_id: "src_grimmett_1999"
+source_url: "https://en.wikipedia.org/wiki/Percolation_critical_exponents"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

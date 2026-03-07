@@ -1,0 +1,11 @@
+title: "Langlands Program for Function Fields over C"
+statement: "Can the geometric Langlands correspondence be fully established for all reductive groups over the function field of a complex curve, completing Gaitsgory's program?"
+source_id: "src_gaitsgory_2024"
+source_url: "https://arxiv.org/abs/2405.03599"
+domain_hint: "mathematics"
+subdomain_hint: "algebraic-geometry"
+confidence: 0.72
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

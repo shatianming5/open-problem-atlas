@@ -1,0 +1,11 @@
+title: "Hadamard Conjecture"
+statement: "A Hadamard matrix of order 4k exists for every positive integer k."
+source_id: "src_hadamard_1893"
+source_url: "https://en.wikipedia.org/wiki/Hadamard_matrix"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

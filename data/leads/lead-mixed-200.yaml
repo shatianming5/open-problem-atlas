@@ -1,0 +1,11 @@
+title: "Supersymmetry Breaking and Mathematical Structure"
+statement: "Can spontaneous supersymmetry breaking be rigorously established in any 4D supersymmetric quantum field theory using constructive field theory methods?"
+source_id: "src_witten_2022"
+source_url: "https://arxiv.org/abs/2209.07454"
+domain_hint: "mathematical-physics"
+subdomain_hint: "supersymmetry"
+confidence: 0.42
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

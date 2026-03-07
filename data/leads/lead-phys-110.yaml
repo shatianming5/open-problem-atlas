@@ -1,0 +1,11 @@
+title: "Critical Casimir Effect Universality"
+statement: "Are the universal scaling functions for critical Casimir forces fully determined for all boundary condition combinations and geometries?"
+source_id: "src_gambassi_2009"
+source_url: "https://arxiv.org/abs/0812.0935"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

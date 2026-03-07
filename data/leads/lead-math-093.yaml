@@ -1,0 +1,11 @@
+title: "Generalized Burnside Problem for Bounded Exponent"
+statement: "Are there infinite finitely generated groups of bounded exponent for exponents not yet resolved? The problem remains open for many odd exponents."
+source_id: "src_adian_1979"
+source_url: "https://en.wikipedia.org/wiki/Burnside_problem"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

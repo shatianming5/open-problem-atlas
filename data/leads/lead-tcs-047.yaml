@@ -1,0 +1,11 @@
+title: "Toda's Theorem Improvements"
+statement: "Can Toda's theorem PH ⊆ P^#P be improved to show PH ⊆ BP·#P or a similar strengthening?"
+source_id: "src_toda_1991"
+source_url: "https://doi.org/10.1137/0220066"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

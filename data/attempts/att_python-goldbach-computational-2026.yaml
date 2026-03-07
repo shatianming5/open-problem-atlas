@@ -1,0 +1,54 @@
+attempt_id: "att_python-goldbach-computational-2026"
+problem_id: "opa.mathematics.number-theory.goldbach-conjecture"
+actor: "automated-script"
+actor_type: "ai"
+model:
+  name: "Python script"
+  version: "3.12"
+  provider: "custom"
+date: "2026-02-20"
+method_summary: >
+  Performed computational verification of Goldbach's conjecture for all even
+  integers in the range [4, 10^8] using an optimized Python script with a
+  segmented Sieve of Eratosthenes. For each even number n, the script checks
+  whether there exist primes p and q such that p + q = n. Additionally
+  collected statistics on the number of Goldbach representations r(n) and the
+  minimum prime in each decomposition (the Goldbach comet).
+prompt: >
+  Write a Python program that verifies Goldbach's conjecture for all even
+  integers up to 10^8. Use a segmented sieve for memory efficiency. For each
+  even n, record: (1) whether a decomposition exists, (2) the count of
+  decompositions, (3) the smallest prime p such that n-p is also prime.
+  Output summary statistics and flag any counterexamples.
+tools:
+  - "Python 3.12"
+  - "NumPy 1.26"
+environment:
+  hardware: "AMD Ryzen 9 7950X, 64GB RAM"
+  runtime: "CPython 3.12.1"
+  dependencies:
+    - "numpy>=1.26"
+outcome:
+  summary: >
+    Successfully verified Goldbach's conjecture for all 49,999,999 even
+    integers in [4, 10^8]. No counterexamples found. Collected complete
+    statistics on representation counts: mean r(n) grows approximately as
+    n / (log n)^2, consistent with Hardy-Littlewood predictions. The
+    minimum Goldbach prime for each n never exceeded 9551 in this range.
+    Total runtime was approximately 47 minutes.
+  result_type: "computational_evidence"
+  artifacts:
+    - type: "code"
+      path: "artifacts/goldbach-verify.py"
+    - type: "data"
+      path: "artifacts/goldbach-stats-1e8.csv"
+verification_status: "unverified"
+labels:
+  - "machine-generated"
+  - "unverified"
+limitations: >
+  The verification range (up to 10^8) is far below the current state of the
+  art (4 x 10^18 as of 2014). This run serves as a reproducibility template
+  rather than pushing the boundary. The NumPy-based sieve is not competitive
+  with C/C++ implementations for large-scale verification. Results have not
+  been independently cross-checked.

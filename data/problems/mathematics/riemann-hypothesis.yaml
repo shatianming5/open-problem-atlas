@@ -1,0 +1,125 @@
+id: opa.mathematics.number-theory.riemann-hypothesis
+kind: problem
+title: "Riemann Hypothesis"
+aliases:
+  - "RH"
+  - "Riemann Zeta Hypothesis"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - analytic-number-theory
+  - complex-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    All non-trivial zeros of the Riemann zeta function zeta(s) = sum_{n=1}^{infinity} n^{-s}
+    have real part equal to 1/2. That is, if zeta(s) = 0 and s is not a negative even integer,
+    then Re(s) = 1/2.
+  informal: >
+    The Riemann zeta function encodes deep information about the distribution of prime numbers.
+    The hypothesis states that all its "interesting" zeros lie on a single vertical line in the
+    complex plane (the critical line Re(s) = 1/2).
+
+why_it_matters: >
+  The Riemann hypothesis is widely regarded as the most important unsolved problem in pure
+  mathematics. It is one of the seven Millennium Prize Problems. Its truth would imply the
+  best possible error bound in the Prime Number Theorem and would have profound consequences
+  across number theory, random matrix theory, quantum physics, and cryptography.
+
+prerequisites:
+  - complex analysis
+  - analytic number theory
+  - spectral theory
+  - random matrix theory
+
+dates:
+  first_stated: 1859
+
+sources:
+  canonical:
+    - source_id: src_riemann_1859
+      kind: paper
+      title: "Ueber die Anzahl der Primzahlen unter einer gegebenen Groesse"
+      authors:
+        - "Bernhard Riemann"
+      year: 1859
+    - source_id: src_bombieri_2000
+      kind: problem_list
+      title: "The Riemann Hypothesis (Millennium Prize Problem description)"
+      authors:
+        - "Enrico Bombieri"
+      url: "https://www.claymath.org/millennium/riemann-hypothesis/"
+      year: 2000
+  status_evidence:
+    - source_id: src_conrey_2003
+      kind: survey
+      title: "The Riemann Hypothesis"
+      url: "https://www.ams.org/notices/200303/fea-conrey-web.pdf"
+      year: 2003
+
+partial_results:
+  - summary: "Hardy proved infinitely many zeros lie on the critical line."
+    year: 1914
+  - summary: "Selberg proved a positive proportion of zeros lie on the critical line."
+    year: 1942
+  - summary: "Conrey proved at least 40% of non-trivial zeros lie on the critical line."
+    year: 1989
+  - summary: "Over 10^13 non-trivial zeros have been verified computationally to lie on the critical line."
+    year: 2004
+
+relations:
+  related:
+    - opa.mathematics.number-theory.birch-swinnerton-dyer-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 1.00
+  underexplored: 0.10
+  toolability: 0.45
+  formality: 0.95
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Riemann hypothesis states that all non-trivial zeros of the Riemann zeta function
+    have real part 1/2. It is the most important open problem in pure mathematics, with
+    far-reaching implications for prime number distribution.
+  decomposition:
+    - "Spectral and operator-theoretic approaches linking zeros to eigenvalues"
+    - "Random matrix theory connections and statistical distribution of zeros"
+    - "Function-theoretic and de Branges space methods for zero-free regions"
+  disclaimer: unverified
+
+prize:
+  amount: "1000000"
+  currency: "USD"
+  offered_by: "Clay Mathematics Institute"
+  url: "https://www.claymath.org/millennium/riemann-hypothesis/"
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

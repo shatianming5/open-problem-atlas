@@ -1,0 +1,107 @@
+id: opa.mathematics.number-theory.grimms-conjecture
+kind: problem
+title: "Grimm's Conjecture"
+aliases:
+  - "Grimm's Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every positive integer n, if n+1, n+2, ..., n+k are all composite numbers, then
+    there exist distinct primes p_1, p_2, ..., p_k such that p_i divides n+i for each
+    i = 1, 2, ..., k.
+  informal: >
+    Given any run of consecutive composite (non-prime) numbers, one can assign to each
+    composite number in the run a distinct prime factor. No two composites in the run need
+    share the same assigned prime.
+
+why_it_matters: >
+  Grimm's conjecture connects the combinatorial structure of prime factorizations with
+  the distribution of primes. It implies Legendre's conjecture and would yield new insights
+  into prime gaps and the matching structure of divisibility.
+
+prerequisites:
+  - elementary number theory
+  - combinatorics
+  - prime gap theory
+
+dates:
+  first_stated: 1969
+
+sources:
+  canonical:
+    - source_id: src_grimm_1969
+      kind: paper
+      title: "A conjecture on consecutive composite numbers"
+      authors:
+        - "Carl Albert Grimm"
+      url: "https://doi.org/10.2307/2316924"
+      year: 1969
+  status_evidence:
+    - source_id: src_erdos_pomerance_1978
+      kind: paper
+      title: "Matching the natural numbers up to n with distinct multiples in another interval"
+      url: "https://doi.org/10.1016/S0019-3577(09)80003-X"
+      year: 1978
+
+partial_results:
+  - summary: "Erdős and Pomerance proved Grimm's conjecture holds if the prime gap satisfies p_{n+1} - p_n < p_n^{1/2 - epsilon} for some epsilon > 0."
+    year: 1978
+  - summary: "Verified computationally for all composite gaps beginning below 10^9."
+    year: 2004
+  - summary: "Ramachandra, Shorey, and Tijdeman showed the conjecture holds for all sufficiently large n under the assumption of a strong form of the prime number theorem."
+    year: 1975
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.legendres-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.55
+  toolability: 0.60
+  formality: 0.80
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Grimm's conjecture states that in any run of consecutive composite numbers, one can assign
+    a distinct prime divisor to each composite in the run.
+  decomposition:
+    - "Applying Hall's marriage theorem to the bipartite graph of composites and their prime factors"
+    - "Connecting prime gap estimates to the existence of the required matching"
+    - "Extending computational verification to larger ranges"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

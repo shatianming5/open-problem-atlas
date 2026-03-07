@@ -1,0 +1,11 @@
+title: "Griffiths Conjecture on Positive Vector Bundles"
+statement: "An ample vector bundle on a compact complex manifold is Griffiths positive."
+source_id: "src_griffiths_1969"
+source_url: "https://en.wikipedia.org/wiki/Griffiths_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebraic-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

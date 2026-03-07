@@ -1,0 +1,11 @@
+title: "PCF Conjecture"
+statement: "For every progressive set A of regular cardinals, the cardinality of pcf(A) is at most |A|."
+source_id: "src_shelah_1978"
+source_url: "https://en.wikipedia.org/wiki/PCF_theory"
+domain_hint: "mathematics"
+subdomain_hint: "set-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

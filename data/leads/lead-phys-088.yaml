@@ -1,0 +1,11 @@
+title: "Fate of the Electroweak Vacuum"
+statement: "Is the electroweak vacuum absolutely stable, metastable, or unstable? What are the precise tunneling rates given current measurements of the top quark and Higgs masses?"
+source_id: "src_degrassi_2012"
+source_url: "https://arxiv.org/abs/1205.6497"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

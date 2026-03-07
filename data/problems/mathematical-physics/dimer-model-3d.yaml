@@ -1,0 +1,112 @@
+id: opa.phys.statistical-mechanics.dimer-model-3d
+kind: problem
+title: "Dimer Model Exact Solutions in 3D"
+aliases:
+  - "3D Dimer Problem"
+  - "Perfect Matching Enumeration in 3D"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the free energy per site (entropy constant) of the dimer model on the
+    simple cubic lattice in three dimensions. In 2D, Kasteleyn and Temperley-Fisher
+    solved the dimer model exactly using Pfaffians, giving the free energy per site on
+    the square lattice as (G/pi) where G is Catalan's constant. Determine whether an
+    analogous exact solution exists in 3D, or prove that the 3D dimer model is not
+    exactly solvable (in the sense of being expressible in closed form). The numerical
+    value of the 3D entropy constant is approximately 0.4466.
+  informal: >
+    How many ways can you perfectly tile a 3D box with dominoes? In 2D, there is a
+    beautiful exact formula. In 3D, no exact solution is known, and it is unclear
+    whether one exists.
+
+why_it_matters: >
+  The dimer model is a fundamental exactly solvable model in 2D statistical mechanics.
+  Understanding whether exact solvability extends to 3D would clarify the boundaries
+  of exact solvability and has implications for combinatorics, algebra, and physics.
+
+prerequisites:
+  - statistical mechanics
+  - combinatorics
+  - algebraic geometry
+  - graph theory
+  - mathematical physics
+
+dates:
+  first_stated: 1961
+
+sources:
+  canonical:
+    - source_id: src_kasteleyn_1961
+      kind: paper
+      title: "The statistics of dimers on a lattice"
+      url: "https://doi.org/10.1016/0031-8914(61)90063-5"
+      year: 1961
+      locator: "Physica 27, 1209-1225"
+  status_evidence:
+    - source_id: src_kenyon_2009
+      kind: survey
+      title: "Lectures on Dimers"
+      url: "https://arxiv.org/abs/0910.3129"
+      year: 2009
+
+partial_results:
+  - summary: "Kasteleyn and Temperley-Fisher independently solved the 2D dimer model using Pfaffians."
+    year: 1961
+  - summary: "Hammersley showed that the 3D dimer entropy constant exists and provided bounds."
+    year: 1966
+  - summary: "High-precision Monte Carlo estimates give the 3D entropy constant as approximately 0.4466."
+    year: 2003
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.percolation-threshold-exact-values"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.60
+  toolability: 0.40
+  formality: 0.70
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Determining the exact free energy of the dimer model on the simple cubic lattice in three dimensions.
+  decomposition:
+    - "Determine whether an exact Pfaffian-type solution extends to 3D"
+    - "Prove or disprove exact solvability of the 3D dimer model"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

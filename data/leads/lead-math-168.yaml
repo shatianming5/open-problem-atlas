@@ -1,0 +1,11 @@
+title: "Speed of Random Walk on Supercritical Percolation Cluster"
+statement: "Determine the exact speed of simple random walk on the infinite cluster of supercritical Bernoulli percolation on Z^d."
+source_id: "src_berger_2007"
+source_url: "https://arxiv.org/abs/math/0610243"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

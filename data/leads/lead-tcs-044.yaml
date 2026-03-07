@@ -1,0 +1,11 @@
+title: "Online Algorithms: k-Server Conjecture"
+statement: "Does the k-server problem have an O(k)-competitive online algorithm in general metric spaces?"
+source_id: "src_manasse_mcgeoch_sleator_1990"
+source_url: "https://doi.org/10.1007/BF01759073"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

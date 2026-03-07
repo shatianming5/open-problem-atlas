@@ -1,0 +1,11 @@
+title: "Kerr/CFT Correspondence"
+statement: "Does a precise Kerr/CFT correspondence exist, providing a holographic dual description for generic (non-extremal) rotating black holes?"
+source_id: "src_guica_2009"
+source_url: "https://arxiv.org/abs/0809.4266"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

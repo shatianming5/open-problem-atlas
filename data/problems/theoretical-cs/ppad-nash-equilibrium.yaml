@@ -1,0 +1,117 @@
+id: opa.tcs.complexity-theory.ppad-nash-equilibrium
+kind: problem
+title: "PPAD-Completeness of Nash Equilibrium Variants"
+aliases:
+  - "Nash equilibrium computation complexity"
+  - "PPAD completeness variants"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: classification_list
+verification_mode: proof
+
+statement:
+  canonical: >
+    While computing a Nash equilibrium in general games is PPAD-complete, many natural
+    variants remain unresolved. What is the complexity of computing Nash equilibria in
+    succinctly represented games, polymatrix games, or games with special structure?
+    Is finding an approximate Nash equilibrium with inverse polynomial precision in
+    PPAD-hard for all game representations?
+  informal: >
+    We know computing exact Nash equilibria is hard (PPAD-complete), but for many
+    structured or approximate versions the complexity is still unknown. What is the
+    precise boundary of hardness for equilibrium computation?
+
+why_it_matters: >
+  Nash equilibrium is the central solution concept in game theory. Understanding the
+  precise complexity of computing equilibria in various settings has implications for
+  economics, mechanism design, and multi-agent systems.
+
+prerequisites:
+  - PPAD complexity class
+  - Nash equilibrium
+  - game theory
+  - fixed-point computation
+
+dates:
+  first_stated: 2006
+
+sources:
+  canonical:
+    - source_id: src_daskalakis_goldberg_papadimitriou_2009
+      kind: paper
+      title: "The Complexity of Computing a Nash Equilibrium"
+      authors:
+        - "Constantinos Daskalakis"
+        - "Paul W. Goldberg"
+        - "Christos H. Papadimitriou"
+      url: "https://doi.org/10.1145/1461928.1461951"
+      year: 2009
+  status_evidence:
+    - source_id: src_rubinstein_2018
+      kind: paper
+      title: "Inapproximability of Nash Equilibrium"
+      authors:
+        - "Aviad Rubinstein"
+      url: "https://doi.org/10.1145/3055399.3055407"
+      year: 2017
+
+partial_results:
+  - summary: "Daskalakis, Goldberg, and Papadimitriou (2009) proved computing Nash equilibrium in 3-player games is PPAD-complete."
+    year: 2009
+  - summary: "Chen, Deng, and Teng (2009) extended PPAD-completeness to 2-player games."
+    year: 2009
+  - summary: "Rubinstein (2017) proved that computing an epsilon-approximate Nash equilibrium is PPAD-hard for epsilon = 1/poly(n) under ETH for PPAD."
+    year: 2017
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.tfnp-structure"
+    - "opa.tcs.complexity-theory.eth-vs-seth"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.35
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The complexity of computing Nash equilibria in structured games and approximate
+    settings remains open, with many variants beyond the base PPAD-completeness result
+    unresolved.
+  decomposition:
+    - "Determine complexity of approximate Nash equilibrium in polymatrix and succinct games"
+    - "Establish tight connections between PPAD hardness and ETH-type assumptions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

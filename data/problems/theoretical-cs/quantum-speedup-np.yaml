@@ -1,0 +1,117 @@
+id: opa.tcs.quantum-computing.quantum-speedup-np
+kind: problem
+title: "Quantum Speedup for NP-Complete Problems"
+aliases:
+  - "Quantum algorithms for NP-hard problems"
+  - "Grover vs NP"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can quantum computers achieve more than a quadratic speedup (beyond Grover's
+    algorithm) for NP-complete problems? Specifically, can any NP-complete problem
+    be solved in time 2^(o(n)) on a quantum computer, or does the quadratic speedup
+    from Grover's algorithm represent the best possible quantum advantage?
+  informal: >
+    Grover's search gives a quadratic speedup (from 2^n to 2^(n/2)) for brute-force
+    search. Can quantum computers do even better for NP-complete problems, or is
+    quadratic the limit?
+
+why_it_matters: >
+  This question determines the ultimate limits of quantum computing for the most
+  important class of hard problems. If quantum computers cannot do better than
+  quadratic speedup for NP, it would rule out "quantum solving" of NP-complete
+  problems and clarify the relationship between BQP and NP.
+
+prerequisites:
+  - quantum algorithms
+  - Grover's algorithm
+  - NP-completeness
+  - quantum lower bounds
+
+dates:
+  first_stated: 1997
+
+sources:
+  canonical:
+    - source_id: src_grover_1996
+      kind: paper
+      title: "A Fast Quantum Mechanical Algorithm for Database Search"
+      authors:
+        - "Lov K. Grover"
+      url: "https://doi.org/10.1145/237814.237866"
+      year: 1996
+  status_evidence:
+    - source_id: src_bennett_bernstein_brassard_vazirani_1997
+      kind: paper
+      title: "Strengths and Weaknesses of Quantum Computing"
+      authors:
+        - "Charles H. Bennett"
+        - "Ethan Bernstein"
+        - "Gilles Brassard"
+        - "Umesh Vazirani"
+      url: "https://doi.org/10.1137/S0097539796300933"
+      year: 1997
+
+partial_results:
+  - summary: "Bennett et al. (1997) proved that relative to a random oracle, quantum computers cannot solve NP problems in polynomial time."
+    year: 1997
+  - summary: "Grover's algorithm achieves a quadratic speedup, and Zalka (1999) proved this is optimal for unstructured search."
+    year: 1999
+  - summary: "Quantum walks and adiabatic quantum computation have not yielded super-quadratic speedups for NP-complete problems."
+    year: 2008
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.25
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - qiskit
+
+machine_generated:
+  summary: >
+    Whether quantum computers can achieve more than a quadratic speedup over classical
+    computers for NP-complete problems is a fundamental question at the intersection
+    of quantum computing and complexity theory.
+  decomposition:
+    - "Prove unconditional quantum lower bounds for NP-complete problems"
+    - "Develop new quantum algorithmic paradigms for combinatorial optimization"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

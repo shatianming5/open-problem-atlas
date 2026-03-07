@@ -1,0 +1,11 @@
+title: "Optimal External Memory Sorting"
+statement: "Is the O(N/B log_{M/B}(N/B)) I/O bound for external memory sorting optimal for all parameter ranges?"
+source_id: "src_aggarwal_vitter_1988"
+source_url: "https://doi.org/10.1145/48529.48535"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

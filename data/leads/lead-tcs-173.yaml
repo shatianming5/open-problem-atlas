@@ -1,0 +1,11 @@
+title: "Erdos Unit Distance Problem"
+statement: "What is the maximum number of unit distances among n points in the plane? The conjectured bound is O(n^{1+epsilon}) for all epsilon > 0."
+source_id: "src_spencer_szemeredi_trotter_1984"
+source_url: "https://doi.org/10.1007/978-1-4613-8200-3_9"
+domain_hint: "theoretical-cs"
+subdomain_hint: "computational-geometry"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

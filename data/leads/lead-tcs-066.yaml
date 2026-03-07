@@ -1,0 +1,11 @@
+title: "Deterministic Primality Testing Improvements"
+statement: "Can the AKS primality test be improved to run in O(log^3 n) or faster unconditionally?"
+source_id: "src_agrawal_kayal_saxena_2004"
+source_url: "https://doi.org/10.4007/annals.2004.160.781"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

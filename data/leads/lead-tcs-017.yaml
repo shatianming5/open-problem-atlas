@@ -1,0 +1,11 @@
+title: "NP-Intermediate Problems Existence"
+statement: "If P != NP, are there problems in NP that are neither in P nor NP-complete? Ladner's theorem is non-constructive; finding natural candidates remains open."
+source_id: "src_ladner_1975"
+source_url: "https://doi.org/10.1145/321864.321877"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

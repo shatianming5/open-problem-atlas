@@ -1,0 +1,11 @@
+title: "Triangle Counting in Sublinear Time"
+statement: "What is the optimal query complexity for counting triangles in a graph given adjacency list and matrix access?"
+source_id: "src_eden_et_al_2017"
+source_url: "https://doi.org/10.1137/1.9781611974782.37"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

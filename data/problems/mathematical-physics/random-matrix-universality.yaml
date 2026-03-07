@@ -1,0 +1,112 @@
+id: opa.phys.statistical-mechanics.random-matrix-universality
+kind: problem
+title: "Random Matrix Theory Universality"
+aliases:
+  - "Wigner-Dyson-Mehta Universality Conjecture"
+  - "Local Eigenvalue Statistics Universality"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove universality of local eigenvalue statistics for general classes of random
+    matrices beyond the Wigner ensemble. Specifically: (1) Prove that the local
+    eigenvalue correlation functions of band matrices with band width W >> n^{1/2}
+    converge to the Gaussian ensembles in the limit n -> infinity. (2) Prove
+    universality for random matrices with general (non-Gaussian) i.i.d. entries with
+    finite moments. (3) Establish universality at the spectral edge (Tracy-Widom
+    statistics) for sparse random matrices and adjacency matrices of random graphs.
+  informal: >
+    Random matrix theory predicts that the statistical properties of eigenvalue spacings
+    are universal -- the same for a huge variety of random matrix ensembles. While this
+    has been proven for certain classes, extending it to all physically relevant classes
+    remains open.
+
+why_it_matters: >
+  Random matrix universality has applications across physics (quantum chaos, nuclear
+  physics, quantum gravity), mathematics (number theory, combinatorics), and data
+  science. A complete universality theory would unify these connections.
+
+prerequisites:
+  - random matrix theory
+  - probability theory
+  - functional analysis
+  - mathematical physics
+  - spectral theory
+
+dates:
+  first_stated: 1962
+
+sources:
+  canonical:
+    - source_id: src_mehta_2004
+      kind: textbook
+      title: "Random Matrices (3rd edition)"
+      year: 2004
+      locator: "Academic Press"
+  status_evidence:
+    - source_id: src_erdos_yau_2017
+      kind: textbook
+      title: "A Dynamical Approach to Random Matrix Theory"
+      url: "https://doi.org/10.1090/cln/028"
+      year: 2017
+
+partial_results:
+  - summary: "Erdos, Schlein, and Yau proved bulk universality for Wigner matrices with general entry distributions."
+    year: 2010
+  - summary: "Tao and Vu independently proved universality using the four moment theorem."
+    year: 2011
+  - summary: "Band matrix universality for W >> n^{3/4} has been established, but the conjectured threshold W >> n^{1/2} remains open."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.kpz-universality-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.40
+  toolability: 0.40
+  formality: 0.75
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving universality of local eigenvalue statistics for general classes of random matrices including band matrices and sparse matrices.
+  decomposition:
+    - "Prove universality for band matrices with optimal band width threshold"
+    - "Establish edge universality for sparse random matrices"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

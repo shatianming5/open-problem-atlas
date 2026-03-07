@@ -1,0 +1,11 @@
+title: "Proof Complexity of Frege Systems"
+statement: "Is there a family of tautologies requiring super-polynomial size Frege proofs? This is a major open question in proof complexity."
+source_id: "src_cook_reckhow_1979"
+source_url: "https://doi.org/10.2307/2273702"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

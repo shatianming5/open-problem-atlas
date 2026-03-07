@@ -1,0 +1,11 @@
+title: "Proof Complexity of PHP for Cutting Planes"
+statement: "Does the pigeonhole principle require superpolynomial-size cutting planes proofs? This is a major open problem in proof complexity."
+source_id: "src_hrubes_2022"
+source_url: "https://arxiv.org/abs/2212.01013"
+domain_hint: "theoretical-cs"
+subdomain_hint: "proof-complexity"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

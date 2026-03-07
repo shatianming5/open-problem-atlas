@@ -1,0 +1,11 @@
+title: "IMO 2025 Algebraic Geometry Connections"
+statement: "Can recent IMO geometry problems be systematically resolved using algebraic geometry and computational algebraic methods?"
+source_id: "src_evan_chen_2025"
+source_url: "https://web.evanchen.cc/problems.html"
+domain_hint: "mathematics"
+subdomain_hint: "competition-geometry"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

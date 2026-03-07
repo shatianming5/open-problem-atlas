@@ -1,0 +1,11 @@
+title: "Asymptotic Safety of Gravity"
+statement: "Does quantum gravity possess a non-trivial UV fixed point making it asymptotically safe and nonperturbatively renormalizable?"
+source_id: "src_reuter_1998"
+source_url: "https://arxiv.org/abs/hep-th/9605030"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

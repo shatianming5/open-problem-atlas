@@ -1,0 +1,11 @@
+title: "Ramanujan Graph Constructions for All Degrees"
+statement: "Do bipartite Ramanujan graphs exist for every degree d >= 3? The Marcus-Spielman-Srivastava result covers bipartite cases; the non-bipartite case remains open."
+source_id: "src_marcus_2015"
+source_url: "https://arxiv.org/abs/1304.4132"
+domain_hint: "mathematics"
+subdomain_hint: "spectral-graph-theory"
+confidence: 0.65
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

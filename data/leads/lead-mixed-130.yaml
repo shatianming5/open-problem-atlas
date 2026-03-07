@@ -1,0 +1,11 @@
+title: "Inverse Galois Problem"
+statement: "Does every finite group occur as a Galois group of some extension of the rational numbers?"
+source_id: "src_malle_2020"
+source_url: "https://mathoverflow.net/questions/7006"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.42
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

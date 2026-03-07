@@ -1,0 +1,117 @@
+id: opa.mathematics.category-theory.deninger-program
+kind: problem
+title: "Deninger's Program"
+aliases:
+  - "Deninger's Approach to the Riemann Hypothesis"
+  - "Arithmetic Cohomology Program"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - category-theory
+  - number-theory
+  - functional-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Deninger conjectures the existence of an "arithmetic site" or infinite-dimensional
+    foliated dynamical system whose regularized determinant of a suitable foliation Laplacian
+    recovers the Riemann zeta function (and more generally L-functions). The zeros of the
+    zeta function should correspond to eigenvalues of a self-adjoint operator, and the
+    Riemann Hypothesis would follow from a positivity property of this operator.
+  informal: >
+    There should exist a geometric/dynamical object whose spectral properties encode the
+    zeros of the Riemann zeta function. Finding and rigorously constructing this object
+    would prove the Riemann Hypothesis.
+
+why_it_matters: >
+  Deninger's program (initiated in the early 1990s) provides one of the most compelling
+  conceptual frameworks for approaching the Riemann Hypothesis. It draws on analogies with
+  the Weil conjectures (proved by Deligne using etale cohomology) and proposes an "arithmetic
+  cohomology" that would play the same role for number fields. Connes' noncommutative geometry
+  program has overlapping goals.
+
+prerequisites:
+  - algebraic geometry
+  - foliation theory
+  - operator algebras
+  - analytic number theory
+
+dates:
+  first_stated: 1992
+
+sources:
+  canonical:
+    - source_id: src_deninger_1992
+      kind: paper
+      title: "On the Gamma-factors attached to motives"
+      authors:
+        - "Christopher Deninger"
+      year: 1992
+      url: "https://doi.org/10.1007/BF01231286"
+  status_evidence:
+    - source_id: src_deninger_2002
+      kind: paper
+      title: "A note on arithmetic topology and dynamical systems"
+      authors:
+        - "Christopher Deninger"
+      url: "https://doi.org/10.1090/conm/300/05142"
+      year: 2002
+
+partial_results:
+  - summary: "Deninger showed the formalism produces correct Gamma-factors and functional equations."
+    year: 1992
+  - summary: "Connes provided a spectral interpretation using noncommutative geometry (partial realization)."
+    year: 1999
+  - summary: "The actual construction of the arithmetic site/cohomology remains elusive."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.number-theory.riemann-hypothesis"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.50
+  toolability: 0.15
+  formality: 0.70
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Deninger's program seeks to construct an arithmetic cohomology whose spectral properties
+    encode zeta function zeros. A conceptual framework toward the Riemann Hypothesis.
+  decomposition:
+    - "Construction of the arithmetic site or foliated space"
+    - "Regularized determinants and spectral interpretation"
+    - "Connections to Connes' noncommutative geometry approach"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

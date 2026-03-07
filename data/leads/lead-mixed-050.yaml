@@ -1,0 +1,11 @@
+title: "BQP vs PH Oracle Separation Strengthening"
+statement: "Can the Raz-Tal oracle separation of BQP from PH be derandomized or strengthened to give unconditional evidence that BQP is not in PH?"
+source_id: "src_raz_2022"
+source_url: "https://arxiv.org/abs/1804.00082"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-complexity"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

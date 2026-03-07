@@ -1,0 +1,115 @@
+id: opa.tcs.cryptography.homomorphic-encryption-efficiency
+kind: problem
+title: "Fully Homomorphic Encryption Efficiency"
+aliases:
+  - "FHE overhead"
+  - "Practical fully homomorphic encryption"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - cryptography
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    Fully homomorphic encryption (FHE) allows computation on encrypted data without
+    decryption. Current FHE schemes incur significant overhead: ciphertext expansion
+    is at least polylogarithmic and computation is orders of magnitude slower than
+    plaintext computation. What is the minimum possible overhead for FHE? Can we
+    achieve FHE with O(1) ciphertext expansion and computation overhead polynomial
+    in the security parameter but independent of the computation depth?
+  informal: >
+    Can we perform computations on encrypted data with only a small (ideally constant)
+    overhead compared to computing on unencrypted data?
+
+why_it_matters: >
+  FHE enables secure computation outsourcing, private database queries, and secure
+  machine learning. Reducing the overhead from current impractical levels to near-optimal
+  would make these applications practical.
+
+prerequisites:
+  - fully homomorphic encryption
+  - lattice-based cryptography
+  - bootstrapping
+  - noise management
+
+dates:
+  first_stated: 2009
+
+sources:
+  canonical:
+    - source_id: src_gentry_2009
+      kind: paper
+      title: "Fully Homomorphic Encryption Using Ideal Lattices"
+      authors:
+        - "Craig Gentry"
+      url: "https://doi.org/10.1145/1536414.1536440"
+      year: 2009
+  status_evidence:
+    - source_id: src_brakerski_vaikuntanathan_2014
+      kind: paper
+      title: "Efficient Fully Homomorphic Encryption from (Standard) LWE"
+      authors:
+        - "Zvika Brakerski"
+        - "Vinod Vaikuntanathan"
+      url: "https://doi.org/10.1137/120868669"
+      year: 2014
+
+partial_results:
+  - summary: "Gentry (2009) gave the first FHE construction, solving a 30-year-old open problem."
+    year: 2009
+  - summary: "Brakerski and Vaikuntanathan (2014) constructed FHE from standard LWE assumption."
+    year: 2014
+  - summary: "Current practical FHE schemes have overhead of 10,000x-1,000,000x for general computations."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.cryptography.lwe-hardness-parameters"
+    - "opa.tcs.cryptography.mpc-optimal-rounds"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.45
+  formality: 0.80
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Reducing the computational overhead of fully homomorphic encryption to make it
+    practical is one of the most important open problems at the intersection of
+    cryptography and systems.
+  decomposition:
+    - "Prove lower bounds on FHE overhead"
+    - "Develop FHE schemes with rate-1 ciphertext expansion and minimal computation overhead"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

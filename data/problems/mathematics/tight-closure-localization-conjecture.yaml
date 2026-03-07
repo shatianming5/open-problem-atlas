@@ -1,0 +1,120 @@
+id: opa.mathematics.algebraic-geometry.tight-closure-localization-conjecture
+kind: problem
+title: "Tight Closure Localization Conjecture"
+aliases:
+  - "Tight Closure Localization Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebraic-geometry
+  - algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let R be a Noetherian ring of prime characteristic p > 0, I an ideal of R,
+    and S a multiplicative set. If an element z belongs to the tight closure
+    I^* of I in R, then the image of z in S^{-1}R belongs to the tight
+    closure (S^{-1}I)^* of S^{-1}I in the localization S^{-1}R. That is,
+    tight closure commutes with localization: (I^*)S^{-1}R = (IS^{-1}R)^*.
+  informal: >
+    Tight closure is an important operation on ideals in commutative algebra
+    defined using the Frobenius endomorphism in characteristic p. The
+    conjecture says that this operation behaves well under localization —
+    restricting to a smaller piece of the ring preserves the tight closure.
+
+why_it_matters: >
+  Tight closure, introduced by Hochster and Huneke in 1990, is one of the
+  most powerful tools in commutative algebra and algebraic geometry over
+  fields of positive characteristic. The localization problem is the most
+  fundamental open question about tight closure and affects many applications
+  including the understanding of singularities and the homological conjectures.
+
+prerequisites:
+  - commutative algebra
+  - algebraic geometry
+  - characteristic p methods
+  - Frobenius homomorphism
+
+dates:
+  first_stated: 1990
+
+sources:
+  canonical:
+    - source_id: src_hochster_huneke_1990
+      kind: paper
+      title: "Tight closure, invariant theory, and the Briançon-Skoda theorem"
+      authors:
+        - "Melvin Hochster"
+        - "Craig Huneke"
+      year: 1990
+      url: "https://doi.org/10.1090/S0894-0347-1990-1017784-6"
+  status_evidence:
+    - source_id: src_hochster_2007
+      kind: paper
+      title: "Tight closure theory and characteristic p methods"
+      authors:
+        - "Melvin Hochster"
+      year: 2007
+
+partial_results:
+  - summary: "Tight closure is known to commute with localization for Gorenstein rings."
+    year: 1994
+  - summary: "Aberbach and Leuschke proved localization for rings of dimension at most 3."
+    year: 2003
+  - summary: "Brenner and Monsky gave a counterexample showing tight closure does not commute with localization in general for non-standard operations, but the original conjecture for the standard tight closure remains open."
+    year: 2010
+  - summary: "The conjecture remains open for general Noetherian rings of characteristic p."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.40
+  toolability: 0.35
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - sage
+    - macaulay2
+
+machine_generated:
+  summary: >
+    The tight closure localization conjecture asks whether tight closure
+    commutes with localization in Noetherian rings of characteristic p.
+    It is the most fundamental open question about Hochster-Huneke's
+    tight closure theory.
+  decomposition:
+    - "Special cases via Gorenstein and F-rational techniques"
+    - "Connections to big Cohen-Macaulay algebras"
+    - "Relationship to the existence of test elements"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

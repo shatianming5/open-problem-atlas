@@ -1,0 +1,114 @@
+id: opa.tcs.algorithms.sorting-networks-depth
+kind: problem
+title: "Optimal Depth of Sorting Networks"
+aliases:
+  - "AKS sorting network optimality"
+  - "Sorting network depth"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    A sorting network is an oblivious comparison-based sorting algorithm with a fixed
+    comparison pattern. The AKS network (Ajtai, Komlós, Szemerédi, 1983) achieves
+    O(log n) depth, which is asymptotically optimal. However, the constant factor is
+    enormous. What is the minimum depth sorting network for practical values of n? Can
+    the constant in O(log n) be made practical?
+  informal: >
+    We know sorting networks of depth O(log n) exist, but the known constructions have
+    huge hidden constants. Can we build sorting networks with both optimal depth and
+    practical constants?
+
+why_it_matters: >
+  Sorting networks are important for parallel sorting and hardware implementations.
+  The gap between the theoretical O(log n) optimum and practical constructions (like
+  bitonic sort with O(log^2 n) depth but small constants) remains significant.
+
+prerequisites:
+  - sorting networks
+  - comparison-based sorting
+  - parallel algorithms
+  - expander graphs
+
+dates:
+  first_stated: 1983
+
+sources:
+  canonical:
+    - source_id: src_aks_1983
+      kind: paper
+      title: "An O(n log n) Sorting Network"
+      authors:
+        - "Miklós Ajtai"
+        - "János Komlós"
+        - "Endre Szemerédi"
+      url: "https://doi.org/10.1145/800061.808726"
+      year: 1983
+  status_evidence:
+    - source_id: src_goodrich_2014
+      kind: paper
+      title: "Zig-Zag Sort: A Simple Deterministic Data-Oblivious Sorting Algorithm Running in O(n log n) Time"
+      authors:
+        - "Michael T. Goodrich"
+      url: "https://doi.org/10.1145/2561829"
+      year: 2014
+
+partial_results:
+  - summary: "AKS (1983) proved the existence of O(log n) depth sorting networks, but the constant factor exceeds 6000."
+    year: 1983
+  - summary: "Paterson (1990) reduced the constant significantly but it remains impractical."
+    year: 1990
+  - summary: "For specific small values of n, optimal depth networks have been found by exhaustive search."
+    year: 2014
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.algorithms.union-find-optimal"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Finding sorting networks with optimal O(log n) depth and practical constant factors
+    remains open, with a large gap between theory and practice.
+  decomposition:
+    - "Reduce the constant factor in O(log n) depth sorting networks"
+    - "Determine exact minimum depth for small practical values of n"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

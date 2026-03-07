@@ -1,0 +1,11 @@
+title: "F-Theory and Exceptional Groups"
+statement: "Can F-theory compactifications provide a systematic construction of grand unified theories with exceptional gauge groups and realistic Yukawa couplings?"
+source_id: "src_heckman_2010"
+source_url: "https://arxiv.org/abs/0906.0581"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

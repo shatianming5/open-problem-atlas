@@ -1,0 +1,11 @@
+title: "Hydrodynamic Long-Time Tails"
+statement: "Can long-time tails in hydrodynamic correlation functions be rigorously derived from microscopic dynamics for interacting particle systems?"
+source_id: "src_alder_1970"
+source_url: "https://doi.org/10.1103/PhysRevA.1.18"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

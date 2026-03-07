@@ -1,0 +1,11 @@
+title: "Harborth's Conjecture"
+statement: "Every planar graph has a straight-line drawing in which all edge lengths are integers."
+source_id: "src_harborth_1975"
+source_url: "https://en.wikipedia.org/wiki/Harborth%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

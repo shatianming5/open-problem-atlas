@@ -1,0 +1,11 @@
+title: "Existence of Odd Perfect Numbers"
+statement: "Do odd perfect numbers exist? Despite searches up to 10^{2200} and many necessary conditions, existence remains unresolved."
+source_id: "src_ochem_2023"
+source_url: "https://mathoverflow.net/questions/15491"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.35
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

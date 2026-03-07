@@ -1,0 +1,116 @@
+id: opa.mathematics.combinatorics.hadamard-conjecture
+kind: problem
+title: "Hadamard Conjecture"
+aliases:
+  - "Hadamard Matrix Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - combinatorics
+  - linear-algebra
+
+problem_type: existence
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    A Hadamard matrix of order n is an n x n matrix H with entries in {-1, +1} satisfying
+    H H^T = n I_n. Hadamard's conjecture asserts that a Hadamard matrix of order n exists
+    for every positive integer n that is divisible by 4 (and also for n = 1 and n = 2).
+  informal: >
+    A Hadamard matrix is a square matrix whose entries are all +1 or -1, and whose rows are
+    mutually orthogonal. Such matrices can only exist in sizes 1, 2, or multiples of 4.
+    The conjecture is that they exist for every multiple of 4.
+
+why_it_matters: >
+  Hadamard matrices have wide applications in signal processing, coding theory, combinatorial
+  designs, and quantum computing. They achieve the maximum possible determinant for matrices
+  with bounded entries (Hadamard's maximum determinant problem). Their existence for all
+  multiples of 4 would resolve a fundamental question in combinatorial design theory.
+
+prerequisites:
+  - linear algebra
+  - combinatorial design theory
+  - coding theory
+
+dates:
+  first_stated: 1893
+
+sources:
+  canonical:
+    - source_id: src_hadamard_1893
+      kind: paper
+      title: "Resolution d'une question relative aux determinants"
+      authors:
+        - "Jacques Hadamard"
+      year: 1893
+    - source_id: src_horadam_2007
+      kind: textbook
+      title: "Hadamard Matrices and Their Applications"
+      authors:
+        - "K. J. Horadam"
+      year: 2007
+  status_evidence:
+    - source_id: src_djokovic_2008
+      kind: survey
+      title: "Hadamard matrices of small order"
+      year: 2008
+
+partial_results:
+  - summary: "Hadamard matrices have been constructed for all orders n = 4k with k <= 167 (i.e., n <= 668), as of the most recent surveys."
+    year: 2020
+  - summary: "The Paley construction gives Hadamard matrices of order q+1 whenever q is a prime power congruent to 3 mod 4."
+    year: 1933
+  - summary: "The smallest order for which existence is unknown is 668."
+    year: 2020
+  - summary: "Seberry's asymptotic result: Hadamard matrices of order 2^t m exist for all odd m, for t sufficiently large depending on m."
+    year: 1976
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.45
+  toolability: 0.75
+  formality: 0.80
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Hadamard conjecture states that a Hadamard matrix of order n exists for every n
+    divisible by 4. These matrices have applications in coding theory, signal processing,
+    and quantum computing.
+  decomposition:
+    - "Constructive algebraic approaches (Paley, Williamson, and generalized constructions)"
+    - "Computer search and optimization methods for small unsolved orders"
+    - "Asymptotic existence results via probabilistic and algebraic methods"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

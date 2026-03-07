@@ -1,0 +1,117 @@
+id: opa.mathematics.convex-geometry.bourgain-slicing-conjecture
+kind: problem
+title: "Bourgain's Slicing Conjecture"
+aliases:
+  - "Slicing Problem"
+  - "Hyperplane Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - convex-geometry
+  - functional-analysis
+  - probability
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There exists a universal constant c > 0 such that every convex body K in R^n of volume 1
+    has a hyperplane section of (n-1)-dimensional volume at least c. Equivalently, the isotropic
+    constant L_K of any convex body K in isotropic position satisfies L_K <= C for a universal
+    constant C independent of dimension.
+  informal: >
+    Every high-dimensional convex body of unit volume can be sliced by a hyperplane to produce
+    a cross-section whose area is bounded below by a universal constant, regardless of the
+    dimension or shape of the body.
+
+why_it_matters: >
+  The slicing conjecture, raised by Bourgain (1986) and Milman, is one of the central open
+  problems in asymptotic convex geometry and high-dimensional probability. It is equivalent to
+  a uniform bound on isotropic constants and is implied by the KLS conjecture. Progress on it
+  drives understanding of concentration of measure in high dimensions.
+
+prerequisites:
+  - convex geometry
+  - probability theory
+  - functional analysis
+  - high-dimensional geometry
+
+dates:
+  first_stated: 1986
+
+sources:
+  canonical:
+    - source_id: src_bourgain_1986
+      kind: paper
+      title: "On high-dimensional maximal functions associated to convex bodies"
+      authors:
+        - "Jean Bourgain"
+      year: 1986
+  status_evidence:
+    - source_id: src_klartag_2006
+      kind: paper
+      title: "On convex perturbations with a bounded isotropic constant"
+      authors:
+        - "Bo'az Klartag"
+      url: "https://doi.org/10.1007/s00039-006-0588-1"
+      year: 2006
+
+partial_results:
+  - summary: "Bourgain proved the bound L_K <= c * n^{1/4} * log(n)."
+    year: 1991
+  - summary: "Klartag improved to L_K <= c * n^{1/4}."
+    year: 2006
+  - summary: "Chen proved L_K <= c * n^{1/4} / (log n)^{1/2} using stochastic localization."
+    year: 2021
+  - summary: "Proved for unconditional bodies, zonoids, and various special classes."
+    year: 2006
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.probability.kls-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Bourgain's slicing conjecture asks whether every unit-volume convex body in R^n has a hyperplane
+    section of volume bounded below by a universal constant. Best known bound is n^{1/4}/sqrt(log n).
+  decomposition:
+    - "Stochastic localization techniques"
+    - "Thin shell and concentration of measure methods"
+    - "Connection to KLS conjecture and log-concave distributions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

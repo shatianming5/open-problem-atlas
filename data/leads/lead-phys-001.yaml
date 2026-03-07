@@ -1,0 +1,11 @@
+title: "Additivity of Minimum Output Entropy"
+statement: "Is the minimum output entropy of a quantum channel additive under tensor products? The Hastings counterexample disproved additivity in general, but the structure of violations remains poorly understood."
+source_id: "src_hastings_2009"
+source_url: "https://arxiv.org/abs/0809.3972"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

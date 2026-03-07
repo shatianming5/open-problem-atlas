@@ -1,0 +1,117 @@
+id: opa.mathematics.complex-analysis.sendov-conjecture
+kind: problem
+title: "Sendov's Conjecture"
+aliases:
+  - "Sendov Conjecture on Zeros and Critical Points"
+  - "Ilieff-Sendov Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - complex-analysis
+  - harmonic-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let p(z) be a polynomial of degree n >= 2 with all zeros contained in the
+    closed unit disk |z| <= 1. Then for each zero a of p, there exists a
+    critical point w (zero of p') with |a - w| <= 1. That is, every zero of p
+    has a critical point of p within distance 1 from it.
+  informal: >
+    Consider a polynomial whose roots all lie within the unit circle in the
+    complex plane. Sendov conjectured that near each root, there is always a
+    critical point (a place where the derivative vanishes) within distance 1.
+    Despite its elementary statement, this conjecture has been open since 1958.
+
+why_it_matters: >
+  Sendov's conjecture, posed in 1958, is one of the most famous open problems
+  in the geometry of polynomials and complex analysis. It connects the zero
+  distribution of a polynomial with the zeros of its derivative, a
+  relationship going back to Gauss-Lucas theorem. Despite extensive partial
+  results (verified for degree up to 9, for zeros on the unit circle, etc.),
+  the general case remains open. Tao proved it for sufficiently high degree
+  polynomials in 2022, but small degrees remain unresolved.
+
+prerequisites:
+  - complex analysis
+  - polynomial theory
+  - geometry of zeros
+
+dates:
+  first_stated: 1958
+
+sources:
+  canonical:
+    - source_id: src_sendov_1958
+      kind: paper
+      title: "Hausdorff geometry of polynomials (problem attributed)"
+      authors:
+        - "Blagovest Sendov"
+      year: 1958
+      locator: "Originally posed at a seminar, first published in Hayman's Research Problems in Function Theory, 1967"
+  status_evidence:
+    - source_id: src_tao_2022
+      kind: paper
+      title: "Sendov's conjecture for sufficiently-high-degree polynomials"
+      authors:
+        - "Terence Tao"
+      year: 2022
+      locator: "Acta Mathematica, vol. 229, no. 2, pp. 347-392"
+
+partial_results:
+  - summary: "The conjecture was verified for polynomials of degree up to 8 by various authors."
+    year: 1999
+  - summary: "Brown and Xiang proved the conjecture for zeros on the unit circle."
+    year: 2015
+  - summary: "Degot proved the conjecture for polynomials of degree up to 9."
+    year: 2019
+  - summary: "Tao proved Sendov's conjecture for all polynomials of sufficiently large degree."
+    year: 2022
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.30
+  toolability: 0.50
+  formality: 0.90
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Sendov's conjecture asserts that for any polynomial with zeros in the unit
+    disk, each zero has a critical point within distance 1. Proved for
+    sufficiently large degree by Tao (2022), the finite-degree cases remain open.
+  decomposition:
+    - "Small degree verification (degrees 10 and above, finite range)"
+    - "Extremal polynomial configurations"
+    - "Connection to the Gauss-Lucas theorem and its refinements"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

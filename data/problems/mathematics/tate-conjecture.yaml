@@ -1,0 +1,113 @@
+id: opa.mathematics.commutative-algebra.tate-conjecture
+kind: problem
+title: "Tate Conjecture"
+aliases:
+  - "Tate Conjecture on Algebraic Cycles"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - commutative-algebra
+  - algebraic-topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let X be a smooth projective variety over a finitely generated field k, and let l be a
+    prime different from the characteristic of k. The cycle class map from algebraic cycles
+    modulo homological equivalence tensored with Q_l to the l-adic cohomology group
+    H^{2i}(X_{\bar{k}}, Q_l(i))^{Gal(\bar{k}/k)} is surjective. Equivalently, every
+    Galois-invariant cohomology class in the appropriate degree comes from an algebraic cycle.
+  informal: >
+    For varieties over finite fields or number fields, every cohomology class that is fixed
+    by the Galois symmetry group actually comes from a geometric object (an algebraic cycle).
+
+why_it_matters: >
+  The Tate conjecture (1965) is one of the central conjectures in arithmetic geometry, parallel
+  to the Hodge conjecture in complex geometry. It has profound implications for the theory of
+  motives, for the Birch-Swinnerton-Dyer conjecture, and for the Langlands program. It remains
+  open in general, though proved in many important special cases.
+
+prerequisites:
+  - algebraic geometry
+  - l-adic cohomology
+  - Galois theory
+  - theory of motives
+
+dates:
+  first_stated: 1965
+
+sources:
+  canonical:
+    - source_id: src_tate_1965
+      kind: paper
+      title: "Algebraic cycles and poles of zeta functions"
+      authors:
+        - "John Tate"
+      year: 1965
+  status_evidence:
+    - source_id: src_totaro_2017
+      kind: paper
+      title: "Recent progress on the Tate conjecture"
+      authors:
+        - "Burt Totaro"
+      url: "https://doi.org/10.1090/bull/1588"
+      year: 2017
+
+partial_results:
+  - summary: "Tate proved the conjecture for abelian varieties over finite fields (divisors)."
+    year: 1966
+  - summary: "Faltings proved it for abelian varieties over number fields (divisors)."
+    year: 1983
+  - summary: "Proved for K3 surfaces over various fields by Madapusi Pera, Charles, and others."
+    year: 2015
+  - summary: "Open in general for higher codimension cycles."
+    year: 2017
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Tate conjecture predicts that Galois-invariant l-adic cohomology classes are algebraic.
+    Proved for divisors on abelian varieties; open in higher codimension.
+  decomposition:
+    - "l-adic methods and Galois representations"
+    - "Motivic approaches and standard conjectures"
+    - "Special cases via period maps and Shimura varieties"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

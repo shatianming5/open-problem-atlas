@@ -1,0 +1,113 @@
+id: opa.phys.statistical-mechanics.spin-glass-parisi-ultrametricity
+kind: problem
+title: "Spin Glass Theory and Parisi Ultrametricity"
+aliases:
+  - "Parisi Ultrametricity Conjecture"
+  - "Replica Symmetry Breaking Proof"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove or disprove the Parisi ultrametricity conjecture for the Sherrington-Kirkpatrick
+    (SK) spin glass model: in the low-temperature phase, the overlap distribution of pure
+    states has an ultrametric structure. Specifically, for three replicas sigma^1, sigma^2,
+    sigma^3 drawn independently from the Gibbs measure, the overlaps q_{12}, q_{13}, q_{23}
+    satisfy the ultrametric inequality: the two smallest of the three overlaps are equal
+    with probability 1 in the thermodynamic limit. Extend these results to finite-dimensional
+    Edwards-Anderson spin glass models in d >= 3.
+  informal: >
+    In spin glasses, the landscape of states has a remarkable tree-like (ultrametric)
+    structure predicted by Parisi's replica symmetry breaking theory. While the free
+    energy was proven correct by Talagrand, the ultrametric structure itself remains
+    unproven.
+
+why_it_matters: >
+  Spin glass theory has applications far beyond physics, including optimization,
+  neural networks, machine learning, and ecology. Proving ultrametricity would validate
+  the Parisi framework and its wide-ranging applications.
+
+prerequisites:
+  - statistical mechanics
+  - probability theory
+  - spin glass theory
+  - functional analysis
+  - optimization theory
+
+dates:
+  first_stated: 1979
+
+sources:
+  canonical:
+    - source_id: src_parisi_1979
+      kind: paper
+      title: "Infinite Number of Order Parameters for Spin-Glasses"
+      url: "https://doi.org/10.1103/PhysRevLett.43.1754"
+      year: 1979
+      locator: "Physical Review Letters 43, 1754"
+  status_evidence:
+    - source_id: src_panchenko_2013
+      kind: textbook
+      title: "The Sherrington-Kirkpatrick Model"
+      url: "https://doi.org/10.1007/978-1-4614-6289-7"
+      year: 2013
+
+partial_results:
+  - summary: "Talagrand proved the Parisi formula for the free energy of the SK model (Fields Medal related work of Guerra and Talagrand)."
+    year: 2006
+  - summary: "Panchenko proved the Parisi ultrametricity conjecture under certain technical assumptions."
+    year: 2013
+  - summary: "The structure of spin glass phases in finite dimensions (Edwards-Anderson model) remains hotly debated."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.universality-critical-exponents-proof"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.40
+  toolability: 0.35
+  formality: 0.70
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the Parisi ultrametricity conjecture for the SK spin glass model and extending to finite-dimensional models.
+  decomposition:
+    - "Remove technical assumptions from Panchenko's proof of ultrametricity"
+    - "Determine the nature of spin glass phases in finite-dimensional models"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

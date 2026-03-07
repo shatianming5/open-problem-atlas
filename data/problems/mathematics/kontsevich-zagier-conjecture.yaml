@@ -1,0 +1,116 @@
+id: opa.mathematics.category-theory.kontsevich-zagier-conjecture
+kind: problem
+title: "Kontsevich-Zagier Conjecture"
+aliases:
+  - "Periods Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - category-theory
+  - commutative-algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    If two periods (numbers expressible as integrals of algebraic functions over
+    semi-algebraic domains defined over Q) are equal, then there exists a finite sequence
+    of elementary operations — additivity of integrals, change of variables with algebraic
+    Jacobians, and Stokes' theorem — that transforms one integral representation into the
+    other.
+  informal: >
+    All relations between periods (a class of numbers including pi, log(2), and values of
+    the zeta function at integers) should follow from three basic rules of calculus: linearity,
+    substitution, and Stokes' theorem.
+
+why_it_matters: >
+  The Kontsevich-Zagier conjecture (2001) proposes a complete set of "axioms" for equality among
+  periods, a vast class of numbers arising throughout mathematics. It would imply the
+  transcendence of many specific numbers and connects to the Grothendieck period conjecture,
+  motives, and mixed Hodge structures. It provides a vision for a "calculus of periods."
+
+prerequisites:
+  - algebraic geometry
+  - transcendental number theory
+  - category theory (motives)
+  - differential forms
+
+dates:
+  first_stated: 2001
+
+sources:
+  canonical:
+    - source_id: src_kontsevich_zagier_2001
+      kind: paper
+      title: "Periods"
+      authors:
+        - "Maxim Kontsevich"
+        - "Don Zagier"
+      year: 2001
+      url: "https://doi.org/10.1007/978-3-540-30308-4_27"
+  status_evidence:
+    - source_id: src_huber_muller_stach_2017
+      kind: textbook
+      title: "Periods and Nori Motives"
+      authors:
+        - "Annette Huber"
+        - "Stefan Muller-Stach"
+      url: "https://doi.org/10.1007/978-3-319-50926-6"
+      year: 2017
+
+partial_results:
+  - summary: "Known for 1-dimensional periods (classical results in transcendence theory)."
+    year: 2001
+  - summary: "Verified in specific cases related to multiple zeta values and polylogarithms."
+    year: 2010
+  - summary: "The conjecture remains wide open in general, even for simple multi-dimensional integrals."
+    year: 2017
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.category-theory.grothendieck-standard-conjectures"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.50
+  toolability: 0.30
+  formality: 0.75
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Kontsevich-Zagier conjecture asserts that all identities among periods follow from
+    three elementary integral operations. It remains open in general.
+  decomposition:
+    - "Motivic Galois group and Tannakian categories"
+    - "Explicit period computations and polylogarithm relations"
+    - "Algorithmic approaches to period equivalence"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

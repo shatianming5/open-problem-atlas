@@ -1,0 +1,11 @@
+title: "Topological Quantum Computing with Non-Abelian Anyons"
+statement: "Can non-Abelian anyons be braided to perform universal quantum computation in a topologically protected manner in realistic physical systems?"
+source_id: "src_nayak_2008"
+source_url: "https://arxiv.org/abs/0707.1889"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

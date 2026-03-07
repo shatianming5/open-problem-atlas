@@ -1,0 +1,11 @@
+title: "Particle-Vortex Duality in 3D"
+statement: "Can particle-vortex duality and the web of 3D dualities be rigorously established beyond specific solvable examples?"
+source_id: "src_seiberg_2016"
+source_url: "https://arxiv.org/abs/1606.01893"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

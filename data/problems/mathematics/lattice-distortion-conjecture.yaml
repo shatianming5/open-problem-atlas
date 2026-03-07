@@ -1,0 +1,116 @@
+id: opa.mathematics.lattice-theory.lattice-distortion-conjecture
+kind: problem
+title: "Lattice Distortion Problem"
+aliases:
+  - "Lattice Embedding Distortion"
+  - "Metric Distortion of Lattices"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - lattice-theory
+  - discrete-geometry
+  - mathematical-optimization
+
+problem_type: open_question
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    For finite lattices L of size n (as partially ordered sets), what is the minimum distortion
+    required to embed the lattice metric (shortest path distance in the Hasse diagram) into
+    L^1 (Manhattan distance) space? Specifically, determine the worst-case distortion
+    c_1(L_n) = inf_f sup_{x,y} d_{L^1}(f(x),f(y)) / d_L(x,y) * sup_{x,y} d_L(x,y) /
+    d_{L^1}(f(x),f(y)) over all lattices of size n and all embeddings f.
+  informal: >
+    How well can the metric structure of lattices be preserved when embedded into familiar
+    geometric spaces? The worst-case distortion for embedding lattice metrics into L^1 is
+    poorly understood.
+
+why_it_matters: >
+  The metric embedding theory of lattices connects order theory, discrete geometry, and
+  theoretical computer science. Low-distortion embeddings have applications to algorithm
+  design (approximation algorithms), data structures, and the geometry of Banach spaces.
+  The distortion of general lattice metrics is a challenging open question.
+
+prerequisites:
+  - lattice theory
+  - metric geometry
+  - combinatorial optimization
+
+dates:
+  first_stated: 1995
+
+sources:
+  canonical:
+    - source_id: src_linial_london_rabinovich_1995
+      kind: paper
+      title: "The geometry of graphs and some of its algorithmic applications"
+      authors:
+        - "Nathan Linial"
+        - "Eran London"
+        - "Yuri Rabinovich"
+      year: 1995
+      url: "https://doi.org/10.1007/BF01215345"
+  status_evidence:
+    - source_id: src_matousek_2002
+      kind: textbook
+      title: "Lectures on Discrete Geometry"
+      authors:
+        - "Jiri Matousek"
+      url: "https://doi.org/10.1007/978-1-4613-0039-7"
+      year: 2002
+
+partial_results:
+  - summary: "Bourgain showed every n-point metric embeds into L^1 with distortion O(log n)."
+    year: 1985
+  - summary: "Specific lattice families (Boolean, partition) have known distortion bounds."
+    year: 2002
+  - summary: "The exact worst-case distortion for general lattices remains open."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.55
+  toolability: 0.60
+  formality: 0.75
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The lattice distortion problem asks for the worst-case metric distortion when embedding
+    lattice Hasse diagrams into L^1 spaces.
+  decomposition:
+    - "Metric embedding theory and Bourgain-type bounds"
+    - "Structural analysis of lattice families"
+    - "Semidefinite programming relaxations for distortion"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Kondo Lattice Problem"
+statement: "Can the ground state of the Kondo lattice model be determined in two and three dimensions, and does it explain heavy fermion quantum criticality?"
+source_id: "src_coleman_2007"
+source_url: "https://arxiv.org/abs/0709.0163"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Closed Geodesic Conjecture"
+statement: "Does every closed Riemannian manifold have infinitely many geometrically distinct closed geodesics?"
+source_id: "src_klingenberg_1978"
+source_url: "https://en.wikipedia.org/wiki/Closed_geodesic"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

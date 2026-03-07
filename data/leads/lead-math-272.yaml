@@ -1,0 +1,11 @@
+title: "Kadison's Similarity Problem"
+statement: "Is every bounded homomorphism from a C*-algebra into B(H) similar to a *-homomorphism?"
+source_id: "src_kadison_1955"
+source_url: "https://en.wikipedia.org/wiki/Similarity_problem"
+domain_hint: "mathematics"
+subdomain_hint: "operator-algebras"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

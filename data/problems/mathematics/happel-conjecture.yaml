@@ -1,0 +1,118 @@
+id: opa.mathematics.algebra.happel-conjecture
+kind: problem
+title: "Happel's Conjecture"
+aliases:
+  - "Happel Conjecture on Derived Categories"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let A be a finite-dimensional algebra over an algebraically closed
+    field k. If the derived category D^b(mod-A) of bounded complexes of
+    finitely generated A-modules has no loops in its Auslander-Reiten
+    quiver and has a tilting object, then A is derived equivalent to a
+    hereditary algebra.
+  informal: >
+    If the derived category of a finite-dimensional algebra is well-behaved
+    (has no self-extensions of a certain type and possesses a tilting object),
+    then the algebra should be essentially as simple as a hereditary algebra
+    (one with no higher extension groups).
+
+why_it_matters: >
+  Happel's conjecture connects the structure of derived categories with
+  the representation-theoretic classification of algebras. It is a central
+  open question in the representation theory of finite-dimensional algebras
+  and homological algebra. The conjecture would provide a powerful criterion
+  for recognizing derived-hereditary algebras.
+
+prerequisites:
+  - representation theory
+  - homological algebra
+  - derived categories
+  - tilting theory
+
+dates:
+  first_stated: 1991
+
+sources:
+  canonical:
+    - source_id: src_happel_1991
+      kind: paper
+      title: "On the derived category of a finite-dimensional algebra"
+      authors:
+        - "Dieter Happel"
+      year: 1991
+      url: "https://doi.org/10.1007/BF02568364"
+  status_evidence:
+    - source_id: src_happel_2001
+      kind: paper
+      title: "A characterization of hereditary categories with tilting object"
+      authors:
+        - "Dieter Happel"
+      year: 2001
+      url: "https://doi.org/10.1007/s002220100166"
+
+partial_results:
+  - summary: "Happel proved the conjecture for piecewise hereditary algebras of Dynkin and extended Dynkin type."
+    year: 1991
+  - summary: "Happel (2001) proved that abelian hereditary categories with a tilting object are derived equivalent to mod-H for H hereditary."
+    year: 2001
+  - summary: "The conjecture has been verified for many special classes of algebras including gentle and string algebras."
+    year: 2010
+  - summary: "The general case remains open."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.50
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - gap
+    - sage
+
+machine_generated:
+  summary: >
+    Happel's conjecture states that a finite-dimensional algebra whose
+    derived category has no loops in its AR-quiver and possesses a tilting
+    object must be derived equivalent to a hereditary algebra.
+  decomposition:
+    - "Verification for specific families of algebras"
+    - "Tilting theory and derived equivalence classification"
+    - "AR-quiver structure and homological conditions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

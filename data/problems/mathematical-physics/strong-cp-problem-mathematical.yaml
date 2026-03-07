@@ -1,0 +1,116 @@
+id: opa.phys.quantum-field-theory.strong-cp-problem-mathematical
+kind: problem
+title: "Strong CP Problem Mathematical Formulation"
+aliases:
+  - "Strong CP Problem"
+  - "Theta Vacuum Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Provide a rigorous mathematical explanation for why the QCD vacuum angle theta
+    is experimentally consistent with zero (|theta| < 10^{-10}), despite the fact that
+    theta is a free parameter in the QCD Lagrangian and there is no known symmetry
+    reason for it to vanish. Rigorously formulate and analyze the theta-vacuum structure
+    of non-abelian gauge theory, and either prove that a dynamical mechanism (such as
+    the Peccei-Quinn mechanism) necessarily drives theta to zero, or show that the
+    problem has a topological or mathematical resolution.
+  informal: >
+    QCD has a parameter theta that could violate CP symmetry (the symmetry between
+    matter and antimatter). Experiments show theta is essentially zero, but there's
+    no known reason why. Why is theta so small? This is the strong CP problem.
+
+why_it_matters: >
+  The strong CP problem is one of the most important naturalness problems in
+  fundamental physics. Its resolution may require new particles (axions) that could
+  constitute dark matter, making it a problem at the interface of particle physics,
+  cosmology, and mathematics.
+
+prerequisites:
+  - quantum field theory
+  - gauge theory
+  - topology
+  - differential geometry
+  - non-perturbative QFT
+
+dates:
+  first_stated: 1976
+
+sources:
+  canonical:
+    - source_id: src_thooft_1976
+      kind: paper
+      title: "Symmetry Breaking through Bell-Jackiw Anomalies"
+      url: "https://doi.org/10.1103/PhysRevLett.37.8"
+      year: 1976
+      locator: "Physical Review Letters 37, 8"
+    - source_id: src_peccei_quinn_1977
+      kind: paper
+      title: "CP Conservation in the Presence of Pseudoparticles"
+      url: "https://doi.org/10.1103/PhysRevLett.38.1440"
+      year: 1977
+      locator: "Physical Review Letters 38, 1440"
+  status_evidence:
+    - source_id: src_hook_2019
+      kind: survey
+      title: "TASI Lectures on the Strong CP Problem and Axions"
+      url: "https://arxiv.org/abs/1812.02669"
+      year: 2019
+
+partial_results:
+  - summary: "Peccei and Quinn proposed a dynamical solution involving a new U(1) symmetry, predicting the axion particle."
+    year: 1977
+  - summary: "The Nelson-Barr mechanism provides an alternative resolution using spontaneous CP violation."
+    year: 1984
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.confinement-in-qcd"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.45
+  toolability: 0.25
+  formality: 0.50
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Providing a rigorous mathematical explanation for why the QCD theta parameter is essentially zero.
+  decomposition:
+    - "Rigorously formulate the theta-vacuum structure of non-abelian gauge theories"
+    - "Prove that a dynamical mechanism drives theta to zero or find a topological resolution"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

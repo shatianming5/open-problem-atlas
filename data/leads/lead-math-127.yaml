@@ -1,0 +1,11 @@
+title: "Opaque Forest Problem"
+statement: "Find the shortest set of line segments (barrier) in the unit square that blocks every line of sight through the square."
+source_id: "src_mazurkiewicz_1916"
+source_url: "https://en.wikipedia.org/wiki/Opaque_set"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

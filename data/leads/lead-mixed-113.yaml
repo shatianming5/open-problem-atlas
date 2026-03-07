@@ -1,0 +1,11 @@
+title: "Supersymmetric Gauge Theory and Integrable Systems"
+statement: "Can the Bethe/gauge correspondence be fully proved, establishing an equivalence between N=2 gauge theories and quantum integrable systems?"
+source_id: "src_nekrasov_2022"
+source_url: "https://arxiv.org/abs/2211.15573"
+domain_hint: "mathematical-physics"
+subdomain_hint: "gauge-theory"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

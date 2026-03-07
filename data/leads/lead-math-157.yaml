@@ -1,0 +1,11 @@
+title: "Chromatic Splitting Conjecture"
+statement: "In chromatic homotopy theory, the chromatic splitting conjecture of Hopkins describes how the chromatic layers of the sphere spectrum reassemble."
+source_id: "src_hopkins_1994"
+source_url: "https://doi.org/10.1090/conm/181/02034"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

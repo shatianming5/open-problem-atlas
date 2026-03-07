@@ -1,0 +1,11 @@
+title: "Quantum Speedup for NP-Complete Problems"
+statement: "Can quantum computers solve NP-complete problems with more than Grover's quadratic speedup? Is there a super-polynomial quantum speedup for SAT?"
+source_id: "src_bennett_bernstein_brassard_vazirani_1997"
+source_url: "https://doi.org/10.1137/S0097539796300933"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

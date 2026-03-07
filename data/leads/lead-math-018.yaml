@@ -1,0 +1,11 @@
+title: "Grimm's Conjecture"
+statement: "For each composite number n in a run of consecutive composites, one can assign a distinct prime factor such that the prime divides the corresponding composite."
+source_id: "src_grimm_1969"
+source_url: "https://en.wikipedia.org/wiki/Grimm%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

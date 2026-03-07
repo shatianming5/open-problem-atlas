@@ -1,0 +1,11 @@
+title: "Erdos-Straus Conjecture"
+statement: "For every integer n >= 2, the fraction 4/n can be written as the sum of three unit fractions: 4/n = 1/x + 1/y + 1/z where x, y, z are positive integers."
+source_id: "src_erdos_straus_1948"
+source_url: "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Straus_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.6
+extraction_method: "manual_seed"
+discovered_by: "seed"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

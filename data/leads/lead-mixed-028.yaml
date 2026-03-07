@@ -1,0 +1,11 @@
+title: "Navier-Stokes Global Regularity"
+statement: "Do smooth solutions to the 3D incompressible Navier-Stokes equations with finite energy initial data remain smooth for all time, or can singularities form?"
+source_id: "src_tao_2016"
+source_url: "https://arxiv.org/abs/1402.0290"
+domain_hint: "mathematics"
+subdomain_hint: "partial-differential-equations"
+confidence: 0.32
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

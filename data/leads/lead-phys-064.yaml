@@ -1,0 +1,11 @@
+title: "Infrared Structure of Gauge Theories"
+statement: "What is the complete infrared structure of non-Abelian gauge theories, including the role of asymptotic symmetries and soft theorems at all orders?"
+source_id: "src_strominger_2017"
+source_url: "https://arxiv.org/abs/1703.05448"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

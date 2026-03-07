@@ -1,0 +1,118 @@
+id: opa.tcs.algorithms.dynamic-graph-lower-bounds
+kind: problem
+title: "Dynamic Graph Algorithms Lower Bounds"
+aliases:
+  - "Dynamic problems polynomial lower bounds"
+  - "Cell probe lower bounds for dynamic graphs"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can we prove polynomial (omega(polylog n)) unconditional lower bounds for dynamic
+    graph problems in the cell probe model? For problems like dynamic reachability,
+    dynamic shortest paths, or dynamic maximum matching, the best known unconditional
+    lower bounds are only logarithmic despite polynomial conditional lower bounds
+    from SETH/OMv.
+  informal: >
+    When a graph changes over time (edges are inserted and deleted), we want to
+    efficiently answer queries about it. Can we prove that some natural dynamic graph
+    problems truly require significant update or query time?
+
+why_it_matters: >
+  Dynamic graph algorithms are central to network analysis, databases, and optimization.
+  The gap between conditional lower bounds (polynomial, from SETH) and unconditional
+  lower bounds (logarithmic) is enormous. Closing this gap is a major challenge in
+  data structure lower bounds.
+
+prerequisites:
+  - dynamic data structures
+  - cell probe model
+  - fine-grained complexity
+  - graph algorithms
+
+dates:
+  first_stated: 2004
+
+sources:
+  canonical:
+    - source_id: src_patrascu_demaine_2004
+      kind: paper
+      title: "Logarithmic Lower Bounds in the Cell-Probe Model"
+      authors:
+        - "Mihai Pătraşcu"
+        - "Erik D. Demaine"
+      url: "https://doi.org/10.1137/S0097539705447256"
+      year: 2004
+  status_evidence:
+    - source_id: src_henzinger_krinninger_nanongkai_2015
+      kind: paper
+      title: "Conditional Lower Bounds for Dynamic Problems"
+      authors:
+        - "Monika Henzinger"
+        - "Sebastian Krinninger"
+        - "Danupon Nanongkai"
+      url: "https://doi.org/10.1007/978-3-662-47672-7_49"
+      year: 2015
+
+partial_results:
+  - summary: "Pǎtraşcu and Demaine (2004) proved Omega(log n) cell probe lower bounds for several dynamic problems."
+    year: 2004
+  - summary: "Henzinger, Krinninger, and Nanongkai (2015) proved polynomial conditional lower bounds from OMv conjecture."
+    year: 2015
+  - summary: "Larsen (2012) proved the first data structure lower bound with polynomial gap between updates and queries."
+    year: 2012
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.eth-vs-seth"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Proving unconditional polynomial lower bounds for dynamic graph problems is a
+    central challenge in data structures, with a large gap between conditional and
+    unconditional results.
+  decomposition:
+    - "Develop new techniques for cell probe lower bounds beyond logarithmic"
+    - "Bridge conditional lower bounds (from OMv/SETH) to unconditional results"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

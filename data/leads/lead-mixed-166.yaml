@@ -1,0 +1,11 @@
+title: "Gauge-Gravity Duality Beyond AdS/CFT"
+statement: "Can gauge-gravity duality be rigorously extended to de Sitter space or flat space, providing a non-perturbative definition of quantum gravity in cosmological settings?"
+source_id: "src_anninos_2023"
+source_url: "https://arxiv.org/abs/2305.19322"
+domain_hint: "mathematical-physics"
+subdomain_hint: "holography"
+confidence: 0.42
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

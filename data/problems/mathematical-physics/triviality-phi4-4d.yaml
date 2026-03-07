@@ -1,0 +1,120 @@
+id: opa.phys.quantum-field-theory.triviality-phi4-4d
+kind: problem
+title: "Triviality of phi^4 Theory in 4D"
+aliases:
+  - "Triviality Problem"
+  - "Landau Pole and Triviality"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove or disprove the triviality conjecture for phi^4 theory in four spacetime
+    dimensions: in the continuum limit (removing the lattice cutoff while holding
+    renormalized quantities fixed), the renormalized coupling constant goes to zero,
+    making the theory a free (Gaussian) field theory. Equivalently, prove that the only
+    continuum limit of lattice phi^4_4 satisfying the Osterwalder-Schrader axioms is
+    the free field, or construct a non-trivial continuum limit.
+  informal: >
+    The simplest interacting quantum field theory, phi^4 in 4D, is widely believed
+    to become a free (non-interacting) theory when you try to remove the lattice
+    approximation. Proving this rigorously would have profound implications for the
+    Higgs mechanism and the Standard Model.
+
+why_it_matters: >
+  If phi^4_4 is trivial, then the Higgs sector of the Standard Model is not a
+  fundamental theory but must be embedded in a larger framework. This problem is
+  intimately connected to the hierarchy problem and the search for physics beyond
+  the Standard Model.
+
+prerequisites:
+  - quantum field theory
+  - constructive field theory
+  - renormalization group
+  - lattice field theory
+  - probability theory
+
+dates:
+  first_stated: 1960
+
+sources:
+  canonical:
+    - source_id: src_aizenman_1981
+      kind: paper
+      title: "Proof of the Triviality of phi^4_d Field Theory and Some Mean-Field Features of Ising Models for d>4"
+      url: "https://doi.org/10.1103/PhysRevLett.47.886"
+      year: 1981
+      locator: "Physical Review Letters 47, 886"
+    - source_id: src_froehlich_1982
+      kind: paper
+      title: "On the Triviality of Lambda phi^4_d Theories and the Approach to the Critical Point in d >= 4 Dimensions"
+      url: "https://doi.org/10.1016/0550-3213(82)90088-8"
+      year: 1982
+      locator: "Nuclear Physics B 200, 281-296"
+  status_evidence:
+    - source_id: src_aizenman_2021
+      kind: paper
+      title: "Marginal triviality of the scaling limits of critical 4D Ising and phi^4_4 models"
+      url: "https://doi.org/10.4007/annals.2021.194.1.3"
+      year: 2021
+
+partial_results:
+  - summary: "Aizenman and Froehlich independently proved triviality for d > 4."
+    year: 1982
+  - summary: "The borderline case d=4 remains rigorously unresolved, though numerical and RG evidence strongly supports triviality."
+    year: 2000
+  - summary: "Aizenman and Duminil-Copin proved marginal triviality of scaling limits in critical 4D Ising and phi^4_4."
+    year: 2021
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.constructive-qft-4d"
+    - "opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.70
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving or disproving that phi^4 quantum field theory in four dimensions is trivial (becomes free in the continuum limit).
+  decomposition:
+    - "Complete the proof of triviality in the borderline d=4 case"
+    - "Determine the implications for the Higgs sector of the Standard Model"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

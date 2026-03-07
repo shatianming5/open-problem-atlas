@@ -1,0 +1,11 @@
+title: "Circuit Complexity of Constant-Depth Threshold Circuits"
+statement: "Can one prove superpolynomial lower bounds for TC^0 circuits computing an explicit function, separating TC^0 from NC^1?"
+source_id: "src_chen_2023"
+source_url: "https://arxiv.org/abs/2304.02617"
+domain_hint: "theoretical-cs"
+subdomain_hint: "circuit-complexity"
+confidence: 0.45
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

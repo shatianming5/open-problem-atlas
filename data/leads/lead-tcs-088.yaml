@@ -1,0 +1,11 @@
+title: "Subquadratic Algorithms for All-Pairs LCA"
+statement: "Can all-pairs lowest common ancestors in a tree be computed in truly sub-quadratic time when the output size is quadratic?"
+source_id: "src_bender_farach_colton_2000"
+source_url: "https://doi.org/10.1007/10719839_9"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

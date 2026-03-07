@@ -1,0 +1,11 @@
+title: "Functional Encryption for General Functions"
+statement: "Can functional encryption for general circuits be constructed from standard assumptions without indistinguishability obfuscation?"
+source_id: "src_boneh_sahai_waters_2011"
+source_url: "https://doi.org/10.1007/978-3-642-19571-6_16"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Baum-Connes Conjecture"
+statement: "For every discrete group G, the assembly map from the equivariant K-homology to the K-theory of the reduced group C*-algebra is an isomorphism."
+source_id: "src_baumconnes_1982"
+source_url: "https://en.wikipedia.org/wiki/Baum%E2%80%93Connes_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "operator-algebras"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

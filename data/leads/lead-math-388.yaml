@@ -1,0 +1,11 @@
+title: "Baker's Conjecture on Wandering Domains"
+statement: "Characterize which transcendental entire functions have wandering domains and determine their properties."
+source_id: "src_baker_1976"
+source_url: "https://en.wikipedia.org/wiki/Classification_of_Fatou_components"
+domain_hint: "mathematics"
+subdomain_hint: "complex-analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

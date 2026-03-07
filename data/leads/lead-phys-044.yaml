@@ -1,0 +1,11 @@
+title: "Measurement-Based Quantum Computation Resources"
+statement: "What is the minimal entanglement required in a resource state for universal measurement-based quantum computation?"
+source_id: "src_raussendorf_2001"
+source_url: "https://arxiv.org/abs/quant-ph/0010033"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

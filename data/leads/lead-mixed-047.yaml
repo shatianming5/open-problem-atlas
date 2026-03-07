@@ -1,0 +1,11 @@
+title: "Optimal Locally Decodable Codes"
+statement: "What is the optimal length of a q-query locally decodable code encoding n bits? The exponential gap between 2 and 3 queries remains unexplained."
+source_id: "src_dvir_2023"
+source_url: "https://arxiv.org/abs/2311.00558"
+domain_hint: "theoretical-cs"
+subdomain_hint: "coding-theory"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

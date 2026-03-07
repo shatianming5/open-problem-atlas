@@ -1,0 +1,111 @@
+id: opa.phys.general-relativity.stability-of-kerr-solution
+kind: problem
+title: "Stability of the Kerr Solution"
+aliases:
+  - "Kerr Black Hole Stability Conjecture"
+  - "Nonlinear Stability of Kerr"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - general-relativity
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove the nonlinear stability of the Kerr family of black hole solutions to the
+    Einstein vacuum equations: for initial data sufficiently close (in a suitable Sobolev
+    norm) to a Kerr solution with parameters (M, a) with |a| < M (sub-extremal), the
+    maximal Cauchy development is geodesically complete outside the black hole region
+    and the metric approaches a (possibly different) Kerr solution as t -> infinity.
+    The Schwarzschild case (a=0) should be established as a special case.
+  informal: >
+    If you slightly perturb a rotating black hole, does it settle down to another
+    rotating black hole, or does something catastrophic happen? This is one of the
+    most important open problems in mathematical general relativity.
+
+why_it_matters: >
+  Kerr stability is essential for the physical relevance of the Kerr solution: if
+  Kerr black holes were unstable, they would not be observed in nature. This is
+  arguably the most important open problem in mathematical general relativity.
+
+prerequisites:
+  - general relativity
+  - PDE theory
+  - microlocal analysis
+  - geometric analysis
+  - spectral theory
+
+dates:
+  first_stated: 1963
+
+sources:
+  canonical:
+    - source_id: src_kerr_1963
+      kind: paper
+      title: "Gravitational Field of a Spinning Mass as an Example of Algebraically Special Metrics"
+      url: "https://doi.org/10.1103/PhysRevLett.11.237"
+      year: 1963
+      locator: "Physical Review Letters 11, 237"
+  status_evidence:
+    - source_id: src_dafermos_2021
+      kind: paper
+      title: "The nonlinear stability of the Schwarzschild family of black holes"
+      url: "https://arxiv.org/abs/2104.08222"
+      year: 2021
+
+partial_results:
+  - summary: "Linear stability of Schwarzschild was proved by Dafermos, Holzegel, and Rodnianski."
+    year: 2019
+  - summary: "Klainerman and Szeftel announced a proof of nonlinear stability of slowly rotating Kerr (|a| << M)."
+    year: 2022
+  - summary: "Dafermos, Holzegel, Rodnianski, and Taylor announced a proof for the full subextremal range."
+    year: 2021
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.general-relativity.no-hair-theorem-rigorous"
+    - "opa.phys.general-relativity.cosmic-censorship-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.30
+  toolability: 0.25
+  formality: 0.70
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the nonlinear stability of Kerr black holes under small perturbations of initial data.
+  decomposition:
+    - "Complete the proof for the full subextremal range |a| < M"
+    - "Establish precise decay rates for perturbations"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

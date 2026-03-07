@@ -1,0 +1,11 @@
+title: "Amplituhedron and Positive Geometry"
+statement: "Can the amplituhedron framework be extended to compute full non-planar scattering amplitudes in N=4 SYM, and does it generalize to realistic gauge theories?"
+source_id: "src_arkani_hamed_2021"
+source_url: "https://arxiv.org/abs/1312.2007"
+domain_hint: "mathematical-physics"
+subdomain_hint: "scattering-amplitudes"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

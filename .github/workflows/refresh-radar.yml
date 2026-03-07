@@ -1,0 +1,49 @@
+name: Refresh Radar
+
+on:
+  schedule:
+    - cron: '0 6 * * 1'  # Every Monday at 6 AM UTC
+  workflow_dispatch:
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -e ".[ingestion]"
+
+      - name: Run radar refresh
+        env:
+          OPENALEX_EMAIL: ${{ secrets.OPENALEX_EMAIL }}
+        run: python -m ingestion.jobs.refresh_radar
+
+      - name: Check for new leads
+        run: |
+          if git diff --quiet data/leads/; then
+            echo "No new leads found"
+          else
+            echo "New leads found:"
+            git diff --stat data/leads/
+          fi
+
+      - name: Create PR if changes exist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          if ! git diff --quiet data/leads/; then
+            BRANCH="radar/$(date +%Y%m%d)"
+            git checkout -b "$BRANCH"
+            git add data/leads/
+            git commit -m "radar: add new leads $(date +%Y-%m-%d)"
+            git push origin "$BRANCH"
+            gh pr create \
+              --title "Radar: new leads $(date +%Y-%m-%d)" \
+              --body "Automated radar refresh. Please review new leads." \
+              --label "type:lead,needs-review"
+          fi

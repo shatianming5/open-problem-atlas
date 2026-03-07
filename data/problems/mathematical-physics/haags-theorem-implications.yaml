@@ -1,0 +1,111 @@
+id: opa.phys.quantum-field-theory.haags-theorem-implications
+kind: problem
+title: "Haag's Theorem and Interaction Picture in QFT"
+aliases:
+  - "Haag's Theorem"
+  - "Interaction Picture Problem in QFT"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Resolve the implications of Haag's theorem for interacting quantum field theories.
+    Haag's theorem states that the interaction picture does not exist in relativistic
+    quantum field theory: the free and interacting fields cannot both satisfy the
+    canonical commutation relations in the same Hilbert space if they are related by
+    a unitary transformation. Determine a mathematically rigorous framework that either
+    (a) circumvents Haag's theorem while preserving the physical content of perturbative
+    QFT, or (b) provides a non-perturbative definition of interacting QFT in 4 dimensions
+    that does not rely on the interaction picture.
+  informal: >
+    Haag's theorem says that the standard textbook approach to interacting quantum
+    field theory (the interaction picture) is mathematically inconsistent. How do we
+    reconcile this with the spectacular empirical success of perturbative QFT?
+
+why_it_matters: >
+  Haag's theorem exposes a fundamental mathematical inconsistency in the foundations
+  of quantum field theory as commonly practiced. Resolving it would place perturbative
+  QFT on solid mathematical foundations or point to the correct non-perturbative
+  framework.
+
+prerequisites:
+  - quantum field theory
+  - functional analysis
+  - operator algebras
+  - representation theory
+  - axiomatic QFT
+
+dates:
+  first_stated: 1955
+
+sources:
+  canonical:
+    - source_id: src_haag_1955
+      kind: paper
+      title: "On quantum field theories"
+      url: "https://doi.org/10.1007/BF02733927"
+      year: 1955
+      locator: "Matematisk-fysiske Meddelelser 29(12)"
+  status_evidence:
+    - source_id: src_earman_2006
+      kind: paper
+      title: "Haag's theorem and its implications for the foundations of quantum field theory"
+      url: "https://doi.org/10.1007/s10670-005-5814-y"
+      year: 2006
+
+partial_results:
+  - summary: "Constructive QFT has produced rigorous interacting theories in d=2 and d=3 that avoid Haag's theorem by not using the interaction picture."
+    year: 1974
+  - summary: "Causal perturbation theory (Epstein-Glaser) provides a framework that avoids the direct conflict with Haag's theorem."
+    year: 1973
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.constructive-qft-4d"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.55
+  toolability: 0.20
+  formality: 0.70
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Resolving the implications of Haag's theorem for the mathematical foundations of interacting quantum field theory.
+  decomposition:
+    - "Develop a rigorous non-perturbative framework for interacting QFT avoiding the interaction picture"
+    - "Establish the mathematical consistency of perturbative methods despite Haag's theorem"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

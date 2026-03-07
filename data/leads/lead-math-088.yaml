@@ -1,0 +1,11 @@
+title: "Macdonald Positivity for General Lie Types"
+statement: "Extend the proof of Macdonald positivity (proven for type A by Haiman) to all Lie types."
+source_id: "src_haiman_2001"
+source_url: "https://doi.org/10.1090/S0894-0347-01-00373-3"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

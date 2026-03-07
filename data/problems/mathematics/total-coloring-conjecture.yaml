@@ -1,0 +1,119 @@
+id: opa.mathematics.graph-theory.total-coloring-conjecture
+kind: problem
+title: "Total Coloring Conjecture"
+aliases:
+  - "Behzad-Vizing Conjecture"
+  - "Total Chromatic Number Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every simple graph G with maximum degree Delta(G), the total chromatic number
+    chi''(G) satisfies chi''(G) <= Delta(G) + 2. The total chromatic number is the minimum
+    number of colors needed to color both the vertices and edges of G so that no two adjacent
+    or incident elements share the same color.
+  informal: >
+    If you want to color both the vertices and edges of a graph so that no two neighboring
+    elements share a color, you never need more than Delta + 2 colors, where Delta is the
+    maximum degree.
+
+why_it_matters: >
+  The Total Coloring Conjecture, independently posed by Behzad (1965) and Vizing (1968),
+  is one of the most famous open problems in graph coloring. The trivial lower bound is
+  Delta + 1, and the conjecture asserts that at most one extra color suffices. It has been
+  verified for many graph classes but remains open in general.
+
+prerequisites:
+  - graph theory
+  - graph coloring
+  - edge coloring
+  - Vizing's theorem
+
+dates:
+  first_stated: 1965
+
+sources:
+  canonical:
+    - source_id: src_behzad_1965
+      kind: paper
+      title: "Graphs and their chromatic numbers"
+      authors:
+        - "Mehdi Behzad"
+      year: 1965
+    - source_id: src_vizing_1968_total
+      kind: paper
+      title: "On an estimate of the chromatic class of a p-graph"
+      authors:
+        - "Vadim G. Vizing"
+      year: 1968
+  status_evidence:
+    - source_id: src_molloy_reed_1998
+      kind: paper
+      title: "A bound on the total chromatic number"
+      authors:
+        - "Michael Molloy"
+        - "Bruce Reed"
+      url: "https://doi.org/10.1007/s004930050052"
+      year: 1998
+
+partial_results:
+  - summary: "Molloy and Reed proved chi''(G) <= Delta(G) + 10^{26} for sufficiently large Delta."
+    year: 1998
+  - summary: "The conjecture holds for complete graphs, bipartite graphs, and planar graphs with Delta >= 7."
+    year: 1997
+  - summary: "Kostochka proved the conjecture for graphs with Delta(G) <= 5."
+    year: 1996
+  - summary: "The conjecture is verified for graphs with large enough maximum degree via the probabilistic method."
+    year: 1998
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.82
+  underexplored: 0.30
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Total Coloring Conjecture states that the total chromatic number of any graph is at
+    most Delta + 2. Despite being proved for many special cases and asymptotically by Molloy
+    and Reed, it remains open in full generality.
+  decomposition:
+    - "Reducing the Molloy-Reed constant from 10^26 towards 2"
+    - "Proving the conjecture for all planar graphs"
+    - "Structural characterization of graphs with total chromatic number Delta + 2"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Conformal Invariance of 3D Ising Model"
+statement: "Prove that the scaling limit of the 3D Ising model at criticality is conformally invariant."
+source_id: "src_polyakov_1970"
+source_url: "https://en.wikipedia.org/wiki/Ising_model"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

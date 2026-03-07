@@ -1,0 +1,11 @@
+title: "Crossing Number of Complete Graphs"
+statement: "What is the exact crossing number of the complete graph K_n? The conjectured formula cr(K_n) = Z(n) remains unproven."
+source_id: "src_aichholzer_et_al_2007"
+source_url: "https://doi.org/10.1016/j.comgeo.2005.09.005"
+domain_hint: "theoretical-cs"
+subdomain_hint: "computational-geometry"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

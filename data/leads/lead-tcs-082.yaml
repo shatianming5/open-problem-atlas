@@ -1,0 +1,11 @@
+title: "Optimal Cache-Oblivious B-Trees"
+statement: "Can cache-oblivious B-trees match the performance of cache-aware B-trees for all operations with optimal space?"
+source_id: "src_bender_demaine_farach_colton_2000"
+source_url: "https://doi.org/10.1109/SFCS.2000.892128"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

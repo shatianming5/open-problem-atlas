@@ -1,0 +1,11 @@
+title: "Triviality of Scalar Field Theory in 4D"
+statement: "Is phi^4 theory in four dimensions trivial in the continuum limit? Lattice studies suggest triviality but a rigorous proof is lacking."
+source_id: "src_luscher_1988"
+source_url: "https://doi.org/10.1016/0550-3213(88)90147-4"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

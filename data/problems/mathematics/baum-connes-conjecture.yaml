@@ -1,0 +1,131 @@
+id: opa.mathematics.topology.baum-connes-conjecture
+kind: problem
+title: "Baum–Connes Conjecture"
+aliases:
+  - "Baum-Connes Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - topology
+  - algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every second-countable locally compact group G, the assembly map
+    μ: K^G_*(EG) → K_*(C*_r(G)) from the equivariant K-homology of the
+    classifying space for proper G-actions to the K-theory of the reduced
+    group C*-algebra is an isomorphism.
+  informal: >
+    There is a natural map from the topology of a group (its classifying
+    space) to the algebra of the group (its C*-algebra). The Baum–Connes
+    conjecture says this map is always a perfect correspondence — it is
+    an isomorphism in K-theory.
+
+why_it_matters: >
+  The Baum–Connes conjecture unifies index theory, representation theory,
+  and topology. It implies the Novikov conjecture on higher signatures
+  and the Kadison–Kaplansky idempotent conjecture. The conjecture with
+  coefficients was disproved by counterexamples from Higson, Lafforgue,
+  and Skandalis (2002), but the original conjecture without coefficients
+  remains open.
+
+prerequisites:
+  - operator algebras
+  - K-theory
+  - algebraic topology
+  - representation theory
+
+dates:
+  first_stated: 1982
+
+sources:
+  canonical:
+    - source_id: src_baum_connes_1982
+      kind: paper
+      title: "Geometric K-theory for Lie groups and foliations"
+      authors:
+        - "Paul Baum"
+        - "Alain Connes"
+      year: 1982
+    - source_id: src_baum_connes_higson_1994
+      kind: paper
+      title: "Classifying space for proper actions and K-theory of group C*-algebras"
+      authors:
+        - "Paul Baum"
+        - "Alain Connes"
+        - "Nigel Higson"
+      year: 1994
+      url: "https://doi.org/10.1090/conm/167/01634"
+  status_evidence:
+    - source_id: src_higson_lafforgue_skandalis_2002
+      kind: paper
+      title: "Counterexamples to the Baum-Connes conjecture"
+      authors:
+        - "Nigel Higson"
+        - "Vincent Lafforgue"
+        - "Georges Skandalis"
+      year: 2002
+      url: "https://doi.org/10.1007/s00039-002-8249-5"
+
+partial_results:
+  - summary: "Higson and Kasparov proved the conjecture for a-T-menable groups (groups with the Haagerup property)."
+    year: 2001
+  - summary: "Lafforgue proved it for hyperbolic groups and cocompact lattices in Sp(n,1) and SL(3,R)."
+    year: 2002
+  - summary: "The conjecture with coefficients was disproved by Higson, Lafforgue, and Skandalis."
+    year: 2002
+  - summary: "The conjecture without coefficients remains open for general groups."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - sage
+
+machine_generated:
+  summary: >
+    The Baum–Connes conjecture asserts that the assembly map from equivariant
+    K-homology to the K-theory of the reduced group C*-algebra is an
+    isomorphism. It implies the Novikov conjecture and remains open
+    without coefficients.
+  decomposition:
+    - "Assembly map techniques and descent methods"
+    - "Extensions to groupoids and coarse geometry"
+    - "Connections to the Kadison-Kaplansky conjecture"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

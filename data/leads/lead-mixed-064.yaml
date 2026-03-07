@@ -1,0 +1,11 @@
+title: "ABC Conjecture Status"
+statement: "Is Mochizuki's claimed proof of the ABC conjecture via Inter-Universal Teichmuller Theory correct, or is a new approach needed?"
+source_id: "src_scholze_2021"
+source_url: "https://arxiv.org/abs/2012.14434"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.40
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

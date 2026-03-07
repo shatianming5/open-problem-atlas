@@ -1,0 +1,11 @@
+title: "Alperin's Weight Conjecture"
+statement: "The number of irreducible Brauer characters of a finite group equals the number of conjugacy classes of weight subgroups."
+source_id: "src_alperin_1987"
+source_url: "https://en.wikipedia.org/wiki/Alperin%27s_weight_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "representation-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

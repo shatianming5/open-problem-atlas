@@ -1,0 +1,11 @@
+title: "Quantum Simulation Complexity"
+statement: "What is the precise quantum circuit complexity of simulating local Hamiltonian dynamics for time t, and can product formula methods achieve optimal scaling?"
+source_id: "src_childs_2021"
+source_url: "https://arxiv.org/abs/1912.08854"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

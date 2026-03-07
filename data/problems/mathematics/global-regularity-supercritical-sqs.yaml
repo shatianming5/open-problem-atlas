@@ -1,0 +1,122 @@
+id: opa.mathematics.partial-differential-equations.global-regularity-supercritical-sqs
+kind: problem
+title: "Global Regularity for Supercritical Surface Quasi-Geostrophic Equation"
+aliases:
+  - "SQG Global Regularity"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - partial-differential-equations
+  - analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Consider the inviscid surface quasi-geostrophic (SQG) equation on R^2:
+    ∂_t θ + u·∇θ = 0, where u = ∇^⊥(-Δ)^{-1/2}θ. Given smooth initial
+    data θ_0, does the solution remain smooth for all time, or can finite-time
+    singularities develop?
+  informal: >
+    The surface quasi-geostrophic equation is a 2D model from geophysics
+    that shares many structural features with the 3D Euler equations.
+    The question is whether smooth solutions can develop singularities
+    in finite time.
+
+why_it_matters: >
+  The inviscid SQG equation is a key model in fluid dynamics and serves
+  as a testing ground for understanding potential singularity formation in
+  the 3D Euler equations, to which it bears a strong structural analogy.
+  While the critical dissipative SQG equation was resolved by Caffarelli
+  and Vasseur (2010) and Kiselev, Nazarov, and Volberg (2007), the inviscid
+  case remains open and is considered one of the most important problems
+  in mathematical fluid dynamics.
+
+prerequisites:
+  - partial differential equations
+  - harmonic analysis
+  - fluid dynamics
+  - functional analysis
+
+dates:
+  first_stated: 1994
+
+sources:
+  canonical:
+    - source_id: src_constantine_majda_tabak_1994
+      kind: paper
+      title: "Formation of strong fronts in the 2-D quasigeostrophic thermal active scalar"
+      authors:
+        - "Peter Constantin"
+        - "Andrew J. Majda"
+        - "Esteban Tabak"
+      year: 1994
+      url: "https://doi.org/10.1088/0951-7715/7/6/001"
+  status_evidence:
+    - source_id: src_kiselev_2010
+      kind: paper
+      title: "Nonlocal maximum principles for active scalars"
+      authors:
+        - "Alexander Kiselev"
+      year: 2010
+      url: "https://doi.org/10.1016/j.aim.2010.03.020"
+
+partial_results:
+  - summary: "Constantin, Majda, and Tabak identified the SQG equation as a 2D analogue of 3D Euler and studied front formation."
+    year: 1994
+  - summary: "Kiselev, Nazarov, and Volberg proved global regularity for the critical dissipative SQG equation."
+    year: 2007
+  - summary: "Caffarelli and Vasseur gave an independent proof of critical SQG regularity using De Giorgi methods."
+    year: 2010
+  - summary: "The inviscid case remains open; numerical simulations suggest possible singularity formation."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    The global regularity question for the inviscid surface quasi-geostrophic
+    equation asks whether smooth solutions develop finite-time singularities.
+    The dissipative critical case is resolved, but the inviscid case is open.
+  decomposition:
+    - "Singularity scenarios and front formation analysis"
+    - "Comparison with 3D Euler singularity models"
+    - "Numerical simulation and adaptive mesh refinement studies"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

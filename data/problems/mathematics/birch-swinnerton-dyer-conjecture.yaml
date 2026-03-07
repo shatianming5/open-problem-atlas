@@ -1,0 +1,131 @@
+id: opa.mathematics.number-theory.birch-swinnerton-dyer-conjecture
+kind: problem
+title: "Birch and Swinnerton-Dyer Conjecture"
+aliases:
+  - "BSD Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - algebraic-geometry
+  - arithmetic-geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let E be an elliptic curve over the rationals Q, and let L(E, s) be its Hasse-Weil
+    L-function. The Birch and Swinnerton-Dyer conjecture asserts that:
+    (1) The analytic rank of E (the order of vanishing of L(E, s) at s = 1) equals the
+    algebraic rank of E(Q) (the rank of the Mordell-Weil group).
+    (2) The leading coefficient of the Taylor expansion of L(E, s) at s = 1 is given by a
+    precise formula involving the order of the Tate-Shafarevich group, the real period,
+    the regulator, and the Tamagawa numbers.
+  informal: >
+    For an elliptic curve (a certain type of cubic equation) defined over the rational numbers,
+    there is a deep connection between the number of rational solutions and the behavior of an
+    associated analytic function (the L-function) at a specific point. The conjecture gives an
+    exact recipe relating these algebraic and analytic quantities.
+
+why_it_matters: >
+  The BSD conjecture is one of the seven Millennium Prize Problems. It provides a bridge
+  between the arithmetic of elliptic curves and their analytic properties, unifying algebraic
+  geometry, number theory, and analysis. Elliptic curves are fundamental objects in modern
+  number theory, playing a key role in the proof of Fermat's Last Theorem and in cryptography.
+
+prerequisites:
+  - algebraic geometry
+  - elliptic curves
+  - algebraic number theory
+  - L-functions
+  - Galois representations
+
+dates:
+  first_stated: 1965
+
+sources:
+  canonical:
+    - source_id: src_bsd_1965
+      kind: paper
+      title: "Notes on elliptic curves. II"
+      authors:
+        - "Bryan Birch"
+        - "H. P. F. Swinnerton-Dyer"
+      year: 1965
+    - source_id: src_wiles_2000
+      kind: problem_list
+      title: "The Birch and Swinnerton-Dyer Conjecture (Millennium Prize Problem description)"
+      authors:
+        - "Andrew Wiles"
+      url: "https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/"
+      year: 2006
+  status_evidence:
+    - source_id: src_coates_2005
+      kind: survey
+      title: "The conjecture of Birch and Swinnerton-Dyer"
+      year: 2005
+
+partial_results:
+  - summary: "Gross-Zagier formula relates the height of Heegner points to the derivative of the L-function."
+    year: 1986
+  - summary: "Kolyvagin proved BSD for analytic rank 0 and 1 (using Euler systems), conditional on modularity."
+    year: 1990
+  - summary: "The modularity theorem (Wiles et al.) made Kolyvagin's results unconditional for elliptic curves over Q."
+    year: 2001
+  - summary: "Bhargava and Shankar showed that a positive proportion of elliptic curves have rank 0 and satisfy BSD."
+    year: 2015
+
+relations:
+  related:
+    - opa.mathematics.number-theory.riemann-hypothesis
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.98
+  underexplored: 0.20
+  toolability: 0.40
+  formality: 0.90
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+    - sage
+
+machine_generated:
+  summary: >
+    The BSD conjecture relates the analytic rank of an elliptic curve's L-function at s=1
+    to its algebraic rank. It is a Millennium Prize Problem connecting arithmetic geometry
+    and analytic number theory.
+  decomposition:
+    - "Extending Kolyvagin-style Euler system arguments beyond rank 1"
+    - "p-adic L-functions and Iwasawa-theoretic approaches to the main conjecture"
+    - "Computational methods for Tate-Shafarevich groups and Selmer groups"
+  disclaimer: unverified
+
+prize:
+  amount: "1000000"
+  currency: "USD"
+  offered_by: "Clay Mathematics Institute"
+  url: "https://www.claymath.org/millennium/birch-and-swinnerton-dyer-conjecture/"
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

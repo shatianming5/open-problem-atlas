@@ -1,0 +1,11 @@
+title: "Time-Lock Puzzles Without Repeated Squaring"
+statement: "Can time-lock puzzles be constructed without relying on the repeated squaring assumption or similar sequential computation?"
+source_id: "src_rivest_shamir_wagner_1996"
+source_url: "https://people.csail.mit.edu/rivest/pubs/RSW96.pdf"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

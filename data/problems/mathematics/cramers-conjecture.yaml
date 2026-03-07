@@ -1,0 +1,116 @@
+id: opa.mathematics.number-theory.cramers-conjecture
+kind: problem
+title: "Cramer's Conjecture"
+aliases:
+  - "Cramer's Prime Gap Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - analytic-number-theory
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let p_n denote the n-th prime number and g_n = p_{n+1} - p_n the n-th prime gap. Cramer's
+    conjecture states that g_n = O((log p_n)^2), and more precisely, that
+    lim sup_{n -> infinity} g_n / (log p_n)^2 = 1.
+  informal: >
+    The gaps between consecutive prime numbers grow, but Cramer's conjecture predicts exactly
+    how fast: the largest gaps near a prime p should be roughly (log p)^2. For example, near
+    a prime around 1 million (log is about 14), the largest gap should be around 196.
+
+why_it_matters: >
+  Cramer's conjecture gives the strongest plausible prediction for the size of prime gaps,
+  based on probabilistic models of the primes. It implies Legendre's conjecture and many
+  other results about the distribution of primes. It refines our understanding of how
+  primes are distributed among the integers.
+
+prerequisites:
+  - analytic number theory
+  - probabilistic number theory
+  - prime gap theory
+
+dates:
+  first_stated: 1936
+
+sources:
+  canonical:
+    - source_id: src_cramer_1936
+      kind: paper
+      title: "On the order of magnitude of the difference between consecutive prime numbers"
+      authors:
+        - "Harald Cramer"
+      year: 1936
+    - source_id: src_granville_1995
+      kind: paper
+      title: "Harald Cramer and the distribution of prime numbers"
+      authors:
+        - "Andrew Granville"
+      url: "https://www.jstor.org/stable/27641834"
+      year: 1995
+  status_evidence:
+    - source_id: src_pintz_2007
+      kind: survey
+      title: "Cramer vs. Cramer: On Cramer's probabilistic model for primes"
+      authors:
+        - "Janos Pintz"
+      year: 2007
+
+partial_results:
+  - summary: "Under the Riemann Hypothesis, the best known bound is g_n = O(p_n^{1/2} log p_n) (due to Cramer, 1920)."
+    year: 1920
+  - summary: "Unconditionally, Baker-Harman-Pintz proved primes in [x, x + x^{0.525}] for large x."
+    year: 2001
+  - summary: "Granville suggested the constant in the lim sup may be 2e^{-gamma} approx 1.1229 rather than 1, based on Maier's matrix method."
+    year: 1995
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Cramer's conjecture predicts that the largest prime gaps near p are of order (log p)^2.
+    It is based on a probabilistic model of the primes and implies Legendre's conjecture.
+  decomposition:
+    - "Refining probabilistic prime models to account for Maier's phenomena"
+    - "Unconditional improvements to prime gap upper bounds"
+    - "Connections between RH-conditional bounds and the full Cramer prediction"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

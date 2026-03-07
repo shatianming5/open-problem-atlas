@@ -1,0 +1,11 @@
+title: "Hot Spots Conjecture"
+statement: "The hottest point of a homogeneous insulated convex body moves to the boundary as time increases."
+source_id: "src_rauch_1974"
+source_url: "https://en.wikipedia.org/wiki/Hot_spots_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "numerical-analysis"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

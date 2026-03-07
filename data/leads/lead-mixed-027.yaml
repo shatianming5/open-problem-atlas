@@ -1,0 +1,11 @@
+title: "ETH-Hardness of Approximate Counting"
+statement: "Under the Exponential Time Hypothesis, what is the fine-grained complexity of approximately counting the number of satisfying assignments of a k-CNF formula?"
+source_id: "src_dell_2022"
+source_url: "https://arxiv.org/abs/2007.04777"
+domain_hint: "theoretical-cs"
+subdomain_hint: "counting-complexity"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Blackadar's Non-Commutative Dimension Conjecture"
+statement: "The nuclear dimension of a simple separable nuclear C*-algebra is finite if and only if the algebra is Z-stable."
+source_id: "src_blackadar_1988"
+source_url: "https://en.wikipedia.org/wiki/Nuclear_C*-algebra"
+domain_hint: "mathematics"
+subdomain_hint: "operator-algebras"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

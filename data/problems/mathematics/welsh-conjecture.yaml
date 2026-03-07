@@ -1,0 +1,112 @@
+id: opa.mathematics.matroid-theory.welsh-conjecture
+kind: problem
+title: "Welsh's Conjecture"
+aliases:
+  - "Welsh Matroid Conjecture"
+  - "Dominic Welsh's Conjecture on Matroid Growth"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - matroid-theory
+  - enumerative-combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let m_n denote the number of matroids on an n-element ground set. Welsh conjectured that
+    the sequence log(m_n)/n^2 converges, and more generally asked for the asymptotic growth
+    rate of the number of matroids. It is known that log(m_n)/n^2 is bounded between positive
+    constants. The conjecture is that the limit exists and equals a specific constant.
+  informal: >
+    How many matroids are there on n elements? The number grows super-exponentially, roughly
+    as 2^{cn^2}. Welsh conjectured that the growth rate (in a logarithmic sense) converges
+    to a precise constant.
+
+why_it_matters: >
+  Understanding the number of matroids is a fundamental question in matroid theory and
+  enumerative combinatorics. The explosive growth means most matroids are "wild" and not
+  representable over any field. Welsh's conjecture guides research on the structure of
+  typical matroids and has connections to entropy methods in combinatorics.
+
+prerequisites:
+  - matroid theory
+  - enumerative combinatorics
+  - entropy methods
+
+dates:
+  first_stated: 1976
+
+sources:
+  canonical:
+    - source_id: src_welsh_1976
+      kind: textbook
+      title: "Matroid Theory"
+      authors:
+        - "Dominic J.A. Welsh"
+      year: 1976
+  status_evidence:
+    - source_id: src_knuth_1974
+      kind: paper
+      title: "The asymptotic number of geometries"
+      authors:
+        - "Donald E. Knuth"
+      url: "https://doi.org/10.1016/0097-3165(74)90063-6"
+      year: 1974
+
+partial_results:
+  - summary: "Knuth showed the number of matroids on n elements is at least 2^{n^{3/2}/(log n)^{3/2}}."
+    year: 1974
+  - summary: "Bansal, Pendavingh, and van der Pol proved log(m_n)/n^2 <= 1 - epsilon for some epsilon."
+    year: 2015
+  - summary: "Nelson established improved lower bounds using sparse paving matroids."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.matroid-theory.dowling-wilson-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.55
+  toolability: 0.55
+  formality: 0.75
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Welsh's conjecture asks for the precise asymptotic growth rate of the number of matroids
+    on n elements. The growth is roughly 2^{cn^2} but the exact constant is unknown.
+  decomposition:
+    - "Entropy and probabilistic methods for matroid counting"
+    - "Sparse paving matroid dominance"
+    - "Algebraic and structural approaches"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

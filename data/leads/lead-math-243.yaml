@@ -1,0 +1,11 @@
+title: "Simpson's Conjecture on Strict n-Categories"
+statement: "Every weak n-category is equivalent to a strict one in a suitable sense, for certain model structures."
+source_id: "src_simpson_1998"
+source_url: "https://en.wikipedia.org/wiki/Strict_n-category"
+domain_hint: "mathematics"
+subdomain_hint: "category-theory"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

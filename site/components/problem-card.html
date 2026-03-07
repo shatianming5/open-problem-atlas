@@ -1,0 +1,32 @@
+{# Reusable problem card component.
+   Usage: {% include "components/problem-card.html" with context %}
+   Requires: p (problem dict)
+#}
+<div class="problem-card"
+     data-title="{{ p.title }}"
+     data-domain="{{ p.domain }}"
+     data-status="{{ p.status.label }}"
+     data-type="{{ p.problem_type | default('') }}"
+     data-statement="{{ p.statement.canonical[:200] | default('') }}"
+     data-score-underexplored="{{ p.scores.underexplored | default(0) }}"
+     data-score-impact="{{ p.scores.impact | default(0) }}"
+     data-formalization-wanted="{{ p.formalization.wanted | default(false) }}"
+     data-formalization-available="{{ p.formalization.available | default(false) }}"
+     data-solver-ready="{{ p.ai.solver_ready | default(false) if p.ai else false }}">
+  <div class="title">{{ p.title }}</div>
+  <div class="meta">
+    <span class="tag {% if p.status.label == 'open' %}tag-open{% elif p.status.label == 'solved' %}tag-solved{% endif %}">
+      {{ p.status.label }}
+    </span>
+    <span class="tag tag-domain">{{ p.domain | replace('-', ' ') }}</span>
+    {% if p.problem_type %}
+    <span class="tag tag-type">{{ p.problem_type | replace('_', ' ') }}</span>
+    {% endif %}
+    {% for sd in p.subdomains[:2] %}
+    <span>{{ sd | replace('-', ' ') }}</span>
+    {% endfor %}
+  </div>
+  {% if p.statement.informal %}
+  <div class="statement">{{ p.statement.informal[:200] }}{% if p.statement.informal | length > 200 %}...{% endif %}</div>
+  {% endif %}
+</div>

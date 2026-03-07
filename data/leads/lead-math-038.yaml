@@ -1,0 +1,11 @@
+title: "Zaremba's Conjecture"
+statement: "For every positive integer d, there exists a coprime integer a such that the continued fraction expansion of a/d has all partial quotients bounded by an absolute constant (conjectured to be 5)."
+source_id: "src_zaremba_1972"
+source_url: "https://en.wikipedia.org/wiki/Zaremba%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

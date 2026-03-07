@@ -1,0 +1,11 @@
+title: "Quantum Space Complexity"
+statement: "What is the power of quantum computation with restricted space? Is quantum logspace more powerful than classical logspace?"
+source_id: "src_watrous_1999"
+source_url: "https://doi.org/10.1006/jcss.1999.1655"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

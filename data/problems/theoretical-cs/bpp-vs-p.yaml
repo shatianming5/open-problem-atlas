@@ -1,0 +1,141 @@
+id: opa.tcs.complexity-theory.bpp-vs-p
+kind: problem
+title: "BPP vs P Problem"
+aliases:
+  - "BPP = P?"
+  - "Does randomness help in polynomial-time computation?"
+  - "Derandomization conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let BPP (Bounded-error Probabilistic Polynomial time) denote the class of
+    languages decidable by a probabilistic Turing machine in polynomial time with
+    error probability at most 1/3 on every input. Let P denote the class of
+    languages decidable by a deterministic Turing machine in polynomial time.
+    It is known that P is contained in BPP. Does P = BPP? That is, can every
+    efficient randomized algorithm be derandomized into an efficient
+    deterministic algorithm?
+  informal: >
+    Does access to random coin flips give computers any extra power for solving
+    problems efficiently? Or can every problem that can be solved quickly with
+    randomness also be solved quickly without it? Most experts believe randomness
+    does not help — that P = BPP — but proving this remains open.
+
+why_it_matters: >
+  The BPP vs P question is central to understanding the power of randomness in
+  computation. Many practical algorithms (primality testing, polynomial identity
+  testing, randomized rounding) use randomness for efficiency. If P = BPP, then
+  randomness is merely a convenience, not a fundamental computational resource.
+  The question connects to pseudorandom generators, circuit complexity lower
+  bounds, and the hardness-randomness tradeoff paradigm of Nisan-Wigderson and
+  Impagliazzo-Wigderson.
+
+prerequisites:
+  - computational complexity theory
+  - probabilistic computation
+  - pseudorandom generators
+  - circuit complexity
+  - derandomization
+
+dates:
+  first_stated: 1975
+
+sources:
+  canonical:
+    - source_id: src_impagliazzo_wigderson_1997
+      kind: paper
+      title: "P = BPP if E Requires Exponential Circuits: Derandomizing the XOR Lemma"
+      authors:
+        - "Russell Impagliazzo"
+        - "Avi Wigderson"
+      url: "https://doi.org/10.1145/258533.258590"
+      year: 1997
+      locator: "Proceedings of STOC 1997, pp. 220-229"
+    - source_id: src_nisan_wigderson_1994
+      kind: paper
+      title: "Hardness vs Randomness"
+      authors:
+        - "Noam Nisan"
+        - "Avi Wigderson"
+      url: "https://doi.org/10.1016/S0022-0000(05)80043-1"
+      year: 1994
+      locator: "Journal of Computer and System Sciences, 49(2), pp. 149-167"
+  status_evidence:
+    - source_id: src_kabanets_2002
+      kind: survey
+      title: "Derandomization: A Brief Overview"
+      authors:
+        - "Valentine Kabanets"
+      url: "https://doi.org/10.1007/3-540-45841-7_37"
+      year: 2002
+    - source_id: src_shaltiel_2004
+      kind: survey
+      title: "Recent Developments in Explicit Constructions of Extractors"
+      authors:
+        - "Ronen Shaltiel"
+      url: "https://doi.org/10.1007/s00037-004-0186-4"
+      year: 2004
+
+partial_results:
+  - summary: "Impagliazzo and Wigderson showed that if any problem in E = DTIME(2^{O(n)}) requires exponential-size circuits, then P = BPP."
+    year: 1997
+  - summary: "Sipser showed BPP is contained in the polynomial hierarchy (specifically in Sigma_2^P intersect Pi_2^P)."
+    year: 1983
+  - summary: "AKS primality test derandomized the Miller-Rabin primality test, showing PRIMES is in P, providing a concrete example of successful derandomization."
+    year: 2002
+  - summary: "It is known that BPP is contained in P/poly (BPP has polynomial-size circuit families), due to Adleman's theorem."
+    year: 1978
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.p-vs-np"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.30
+  toolability: 0.35
+  formality: 0.90
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The BPP vs P problem asks whether randomness provides any additional power for polynomial-time computation, with most experts conjecturing that P = BPP through derandomization.
+  decomposition:
+    - "Prove strong enough circuit lower bounds to enable the Nisan-Wigderson derandomization framework"
+    - "Construct explicit pseudorandom generators with seed length O(log n) for general polynomial-time computations"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

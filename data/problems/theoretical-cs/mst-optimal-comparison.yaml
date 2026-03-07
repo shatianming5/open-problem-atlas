@@ -1,0 +1,113 @@
+id: opa.tcs.graph-algorithms.mst-optimal-comparison
+kind: problem
+title: "Minimum Spanning Tree Optimal Comparison Complexity"
+aliases:
+  - "MST comparison complexity"
+  - "Optimal MST algorithm"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - graph-algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    What is the optimal number of comparisons needed to find the minimum spanning tree
+    of a weighted graph? Chazelle (2000) gave a nearly-linear time algorithm running
+    in O(m * alpha(m,n)) time. Pettie and Ramachandran (2002) gave an optimal algorithm
+    in the comparison model, but its complexity is unknown -- it runs in O(T*(m,n))
+    time where T* is the optimal decision tree complexity for MST, which is not known
+    to be linear. Is the optimal MST comparison complexity O(m)?
+  informal: >
+    What is the minimum number of comparisons needed to find a minimum spanning tree?
+    We know the answer is close to linear, but whether it is exactly linear is unknown.
+
+why_it_matters: >
+  MST is one of the oldest problems in combinatorial optimization. Despite decades of
+  research, whether a linear-time comparison-based MST algorithm exists remains one of
+  the most tantalizing open questions in algorithm design.
+
+prerequisites:
+  - minimum spanning trees
+  - comparison-based algorithms
+  - inverse Ackermann function
+  - decision tree complexity
+
+dates:
+  first_stated: 1975
+
+sources:
+  canonical:
+    - source_id: src_pettie_ramachandran_2002
+      kind: paper
+      title: "An Optimal Minimum Spanning Tree Algorithm"
+      authors:
+        - "Seth Pettie"
+        - "Vijaya Ramachandran"
+      url: "https://doi.org/10.1145/505241.505243"
+      year: 2002
+  status_evidence:
+    - source_id: src_chazelle_2000
+      kind: paper
+      title: "A Minimum Spanning Tree Algorithm with Inverse-Ackermann Type Complexity"
+      authors:
+        - "Bernard Chazelle"
+      url: "https://doi.org/10.1145/355541.355562"
+      year: 2000
+
+partial_results:
+  - summary: "Chazelle (2000) achieved O(m*alpha(m,n)) time, where alpha is the inverse Ackermann function."
+    year: 2000
+  - summary: "Pettie and Ramachandran (2002) gave an algorithm that is optimal among comparison-based algorithms but its complexity is unknown."
+    year: 2002
+  - summary: "For integer weights, Fredman and Willard (1994) achieved linear expected time using non-comparison operations."
+    year: 1994
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.graph-algorithms.max-flow-linear"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.90
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Whether minimum spanning tree can be computed in linear time using comparisons
+    is a classic open problem, with the best known algorithms nearly but not quite linear.
+  decomposition:
+    - "Determine the decision tree complexity T*(m,n) for MST"
+    - "Either achieve linear-time MST or prove a super-linear comparison lower bound"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "K-Theory Classification of Topological Insulators"
+statement: "Does the ten-fold way classification of topological insulators via K-theory extend rigorously to strongly interacting systems?"
+source_id: "src_freed_2021"
+source_url: "https://arxiv.org/abs/2106.09670"
+domain_hint: "mathematical-physics"
+subdomain_hint: "topological-phases"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

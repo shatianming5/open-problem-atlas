@@ -1,0 +1,11 @@
+title: "Entropic Uncertainty Relations and Quantum Gravity"
+statement: "Can strong entropic uncertainty relations be derived for complementary observables in quantum gravity settings, connecting holography and quantum information?"
+source_id: "src_coles_2021"
+source_url: "https://arxiv.org/abs/1511.04857"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

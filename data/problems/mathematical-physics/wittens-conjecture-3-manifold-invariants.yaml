@@ -1,0 +1,112 @@
+id: opa.phys.quantum-field-theory.wittens-conjecture-3-manifold-invariants
+kind: problem
+title: "Witten's Conjecture on 3-Manifold Invariants"
+aliases:
+  - "Witten-Reshetikhin-Turaev Invariants"
+  - "Chern-Simons Theory and 3-Manifold Invariants"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Rigorously establish Witten's conjecture that the Chern-Simons path integral for a
+    compact gauge group G on a 3-manifold M defines topological invariants equivalent
+    to the Reshetikhin-Turaev invariants constructed from the representation theory of
+    quantum groups. Specifically, give a rigorous mathematical definition of the
+    Chern-Simons path integral Z_k(M, G) = integral DA exp(i k S_CS(A)) and prove
+    that it computes the RT invariants for all compact simple Lie groups G, all levels k,
+    and all closed oriented 3-manifolds M.
+  informal: >
+    Witten showed that quantum field theory (Chern-Simons theory) naturally produces
+    invariants of 3-dimensional manifolds and knots. While mathematicians have
+    constructed these invariants by other means, proving that the physics approach
+    is rigorous and equivalent remains open.
+
+why_it_matters: >
+  This conjecture is at the heart of the interaction between quantum field theory and
+  low-dimensional topology. It exemplifies how physics can generate profound
+  mathematical results that mathematicians then strive to prove rigorously.
+
+prerequisites:
+  - quantum field theory
+  - differential geometry
+  - knot theory
+  - quantum groups
+  - topological quantum field theory
+
+dates:
+  first_stated: 1989
+
+sources:
+  canonical:
+    - source_id: src_witten_1989
+      kind: paper
+      title: "Quantum Field Theory and the Jones Polynomial"
+      url: "https://doi.org/10.1007/BF01217730"
+      year: 1989
+      locator: "Communications in Mathematical Physics 121, 351-399"
+  status_evidence:
+    - source_id: src_freed_2009
+      kind: survey
+      title: "Remarks on Chern-Simons Theory"
+      url: "https://doi.org/10.1090/bull/2009-46-02"
+      year: 2009
+
+partial_results:
+  - summary: "Reshetikhin and Turaev gave a rigorous mathematical construction of the invariants using quantum groups."
+    year: 1991
+  - summary: "Axelrod and Singer gave a rigorous perturbative definition of the Chern-Simons path integral."
+    year: 1994
+  - summary: "The non-perturbative equivalence between the path integral and RT invariants remains unproven."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.constructive-qft-4d"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.45
+  toolability: 0.25
+  formality: 0.65
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Rigorously proving that the Chern-Simons path integral defines topological invariants equivalent to Reshetikhin-Turaev invariants.
+  decomposition:
+    - "Give a rigorous non-perturbative definition of the Chern-Simons path integral"
+    - "Prove equivalence with Reshetikhin-Turaev invariants for all gauge groups and 3-manifolds"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Seymour's Second Neighborhood Conjecture"
+statement: "In every oriented graph, does some vertex v have at least as many second neighbors as first neighbors?"
+source_id: "src_chen_2022"
+source_url: "https://mathoverflow.net/questions/234723"
+domain_hint: "mathematics"
+subdomain_hint: "graph-theory"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

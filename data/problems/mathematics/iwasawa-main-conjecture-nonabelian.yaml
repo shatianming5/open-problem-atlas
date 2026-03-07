@@ -1,0 +1,125 @@
+id: opa.mathematics.representation-theory.iwasawa-main-conjecture-nonabelian
+kind: problem
+title: "Non-abelian Iwasawa Main Conjecture"
+aliases:
+  - "Noncommutative Iwasawa Main Conjecture"
+  - "Iwasawa Theory for Non-abelian Extensions"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - representation-theory
+  - homological-algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let F_infty / F be a p-adic Lie extension of a number field F with Galois
+    group G = Gal(F_infty / F), a compact p-adic Lie group (not necessarily
+    abelian). The non-abelian Iwasawa main conjecture asserts that the
+    characteristic element of the dual Selmer group (as a module over the
+    Iwasawa algebra Lambda(G)) equals, up to a unit, a p-adic L-function
+    element in an appropriate K_1 group of the Iwasawa algebra. This
+    generalizes the classical abelian Iwasawa main conjecture (proved by
+    Mazur-Wiles and Wiles) to non-commutative Galois extensions.
+  informal: >
+    Iwasawa theory connects algebraic objects (ideal class groups in towers of
+    number fields) with analytic objects (p-adic L-functions). The classical
+    theory works for commutative (abelian) towers. The non-abelian conjecture
+    extends this to non-commutative towers, requiring fundamentally new
+    algebraic machinery involving noncommutative rings.
+
+why_it_matters: >
+  The non-abelian Iwasawa main conjecture is a central goal of modern algebraic
+  number theory. It would provide a deep unification of arithmetic invariants
+  with L-values in the most general setting. Coates, Fukaya, Kato, Sujatha,
+  and others have formulated precise versions, and partial results by Kakde and
+  Ritter-Weiss have been achieved, but the general case remains wide open.
+
+prerequisites:
+  - Iwasawa theory
+  - p-adic L-functions
+  - algebraic K-theory
+  - Galois representations
+
+dates:
+  first_stated: 2005
+
+sources:
+  canonical:
+    - source_id: src_coates_fukaya_kato_sujatha_2005
+      kind: paper
+      title: "The GL_2 main conjecture for elliptic curves without complex multiplication"
+      authors:
+        - "John Coates"
+        - "Takako Fukaya"
+        - "Kazuya Kato"
+        - "Ramdorai Sujatha"
+        - "Otmar Venjakob"
+      year: 2005
+      locator: "Publications Mathematiques de l'IHES, vol. 101, pp. 163-208"
+  status_evidence:
+    - source_id: src_kakde_2013
+      kind: paper
+      title: "The main conjecture of Iwasawa theory for totally real fields"
+      authors:
+        - "Mahesh Kakde"
+      year: 2013
+      locator: "Inventiones Mathematicae, vol. 193, pp. 539-626"
+
+partial_results:
+  - summary: "Mazur and Wiles proved the classical (abelian) Iwasawa main conjecture."
+    year: 1984
+  - summary: "Coates-Fukaya-Kato-Sujatha-Venjakob formulated the non-abelian main conjecture precisely."
+    year: 2005
+  - summary: "Kakde proved the non-abelian main conjecture for totally real number fields."
+    year: 2013
+  - summary: "Ritter and Weiss independently proved results for one-dimensional p-adic Lie extensions."
+    year: 2011
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - magma
+
+machine_generated:
+  summary: >
+    The non-abelian Iwasawa main conjecture extends the classical Iwasawa main
+    conjecture to non-commutative p-adic Lie extensions of number fields.
+    Proved for totally real fields by Kakde, the general case remains open.
+  decomposition:
+    - "Formulation for CM fields and imaginary quadratic fields"
+    - "Elliptic curves without complex multiplication"
+    - "K-theoretic localization sequences for noncommutative Iwasawa algebras"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

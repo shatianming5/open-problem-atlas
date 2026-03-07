@@ -1,0 +1,11 @@
+title: "Scholz Conjecture on Addition Chains"
+statement: "The length of the shortest addition chain for 2^n - 1 is at most n - 1 plus the length of the shortest addition chain for n."
+source_id: "src_scholz_1937"
+source_url: "https://en.wikipedia.org/wiki/Scholz_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

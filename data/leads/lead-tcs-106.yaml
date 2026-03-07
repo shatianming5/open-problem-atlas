@@ -1,0 +1,11 @@
+title: "Succinct Non-Interactive Arguments of Knowledge"
+statement: "Can SNARKs be constructed with transparent setup and post-quantum security from standard assumptions?"
+source_id: "src_bitansky_et_al_2012"
+source_url: "https://doi.org/10.1145/2090236.2090263"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

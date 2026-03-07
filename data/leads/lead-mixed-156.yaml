@@ -1,0 +1,11 @@
+title: "Bootstrap Bounds on EFT Coefficients"
+statement: "Can dispersive sum rules and positivity bounds from the S-matrix bootstrap determine exact constraints on Wilson coefficients in effective field theories?"
+source_id: "src_caron_huot_2023"
+source_url: "https://arxiv.org/abs/2307.04739"
+domain_hint: "mathematical-physics"
+subdomain_hint: "eft"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

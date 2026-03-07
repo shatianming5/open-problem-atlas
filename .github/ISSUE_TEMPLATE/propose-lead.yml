@@ -1,0 +1,62 @@
+name: Propose Radar Lead
+description: Suggest a candidate open problem for the Radar layer
+title: "[Lead] "
+labels: ["type:lead", "needs-review"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Problem Title (approximate)
+      placeholder: "e.g., Some open question about..."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Domain
+      options:
+        - Mathematics
+        - Theoretical CS
+        - Mathematical Physics
+        - Unsure
+    validations:
+      required: true
+
+  - type: textarea
+    id: statement
+    attributes:
+      label: Problem Statement
+      description: As precise as you can make it. Rough is OK for leads.
+    validations:
+      required: true
+
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: Where did you find this? (paper, blog, discussion, etc.)
+      placeholder: |
+        URL: ...
+        Context: Found in the "Open Problems" section of...
+    validations:
+      required: true
+
+  - type: dropdown
+    id: confidence
+    attributes:
+      label: How confident are you this is a real open problem?
+      options:
+        - High — clearly stated as open in a reliable source
+        - Medium — seems open but I'm not 100% sure
+        - Low — might be solved or might not be well-defined
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any context that might help reviewers
+    validations:
+      required: false

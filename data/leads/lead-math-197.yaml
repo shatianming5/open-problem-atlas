@@ -1,0 +1,11 @@
+title: "NP vs co-NP"
+statement: "Is NP equal to co-NP? Equivalently, does every tautology have a short proof?"
+source_id: "src_cook_1979"
+source_url: "https://en.wikipedia.org/wiki/Co-NP"
+domain_hint: "mathematics"
+subdomain_hint: "logic"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Kirillov Orbit Method Conjecture"
+statement: "There is a natural bijection between coadjoint orbits and irreducible unitary representations for general Lie groups."
+source_id: "src_kirillov_1962"
+source_url: "https://en.wikipedia.org/wiki/Orbit_method"
+domain_hint: "mathematics"
+subdomain_hint: "representation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

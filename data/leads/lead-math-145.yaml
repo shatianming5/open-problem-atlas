@@ -1,0 +1,11 @@
+title: "Baum-Connes Conjecture"
+statement: "The assembly map from the equivariant K-homology of the classifying space for proper actions to the K-theory of the reduced group C*-algebra is an isomorphism."
+source_id: "src_baum_1982"
+source_url: "https://en.wikipedia.org/wiki/Baum%E2%80%93Connes_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Quantum Communication Complexity of Set Disjointness"
+statement: "Is the quantum communication complexity of set disjointness exactly Theta(sqrt(n)) for all approximate protocols, or can the constant be improved?"
+source_id: "src_braverman_2021"
+source_url: "https://arxiv.org/abs/2103.08394"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-communication"
+confidence: 0.60
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

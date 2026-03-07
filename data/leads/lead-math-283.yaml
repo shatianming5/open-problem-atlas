@@ -1,0 +1,11 @@
+title: "Singular Cardinal Hypothesis"
+statement: "If kappa is a singular strong limit cardinal then 2^kappa = kappa^+."
+source_id: "src_easton_1970"
+source_url: "https://en.wikipedia.org/wiki/Singular_cardinal_hypothesis"
+domain_hint: "mathematics"
+subdomain_hint: "set-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

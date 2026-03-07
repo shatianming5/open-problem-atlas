@@ -1,0 +1,11 @@
+title: "Erdos-Turan Conjecture on Additive Bases"
+statement: "If A is an additive basis of order 2 (i.e., every sufficiently large integer can be written as a sum of two elements of A), then the number of representations r(n) = |{(a,b) in A x A : a+b = n}| is unbounded."
+source_id: "src_erdos_turan_1941"
+source_url: "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Tur%C3%A1n_conjecture_on_additive_bases"
+domain_hint: "mathematics"
+subdomain_hint: "additive-combinatorics"
+confidence: 0.6
+extraction_method: "manual_seed"
+discovered_by: "seed"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

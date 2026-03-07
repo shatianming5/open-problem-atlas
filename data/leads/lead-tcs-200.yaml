@@ -1,0 +1,11 @@
+title: "Polar Codes for General Channels"
+statement: "Can polar codes be made to achieve capacity universally for all discrete memoryless channels with efficient decoding?"
+source_id: "src_arikan_2009"
+source_url: "https://doi.org/10.1109/TIT.2009.2021379"
+domain_hint: "theoretical-cs"
+subdomain_hint: "information-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "IMO Problem 6 (2023) Generalizations"
+statement: "Can the IMO 2023 Problem 6 result on sequences with a_n dividing a_{a_n} be generalized to characterize all such divisibility recurrences?"
+source_id: "src_imo_2023"
+source_url: "https://artofproblemsolving.com/wiki/index.php/2023_IMO_Problems/Problem_6"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.60
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

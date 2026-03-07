@@ -1,0 +1,11 @@
+title: "Littlewood Conjecture on Simultaneous Diophantine Approximation"
+statement: "For all real alpha, beta: lim inf_{n->infty} n * ||n*alpha|| * ||n*beta|| = 0, where ||.|| denotes the distance to the nearest integer."
+source_id: "src_littlewood_1930"
+source_url: "https://en.wikipedia.org/wiki/Littlewood_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

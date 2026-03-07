@@ -1,0 +1,110 @@
+id: opa.mathematics.number-theory.lander-parkin-selfridge-conjecture
+kind: problem
+title: "Lander-Parkin-Selfridge Conjecture"
+aliases:
+  - "LPS Conjecture"
+  - "Equal Sums of Like Powers Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    If the sum a_1^k + a_2^k + ... + a_s^k = b_1^k + b_2^k + ... + b_t^k holds with all
+    a_i, b_j positive integers and k >= 2, then s + t >= k. Equivalently, the Diophantine
+    equation x_1^k + x_2^k + ... + x_m^k = 0 in nonzero integers requires m >= k + 1 terms.
+  informal: >
+    When expressing an equation of equal sums of k-th powers on both sides, the total number
+    of terms on both sides combined must be at least k. You cannot write an identity with
+    too few k-th power terms.
+
+why_it_matters: >
+  The Lander-Parkin-Selfridge conjecture generalizes Fermat's Last Theorem and Euler's
+  conjecture on sums of powers, providing a unified framework for understanding the minimal
+  complexity of power sum identities.
+
+prerequisites:
+  - elementary number theory
+  - Diophantine equations
+  - algebraic number theory
+
+dates:
+  first_stated: 1967
+
+sources:
+  canonical:
+    - source_id: src_lander_parkin_selfridge_1967
+      kind: paper
+      title: "A survey of equal sums of like powers"
+      authors:
+        - "L. J. Lander"
+        - "T. R. Parkin"
+        - "J. L. Selfridge"
+      url: "https://doi.org/10.1090/S0025-5718-1967-0222008-0"
+      year: 1967
+  status_evidence:
+    - source_id: src_guy_2004_b
+      kind: textbook
+      title: "Unsolved Problems in Number Theory (3rd edition)"
+      url: "https://doi.org/10.1007/978-0-387-26677-0"
+      year: 2004
+
+partial_results:
+  - summary: "Euler's conjecture (that a_1^k + ... + a_{k-1}^k = b^k has no solutions) was disproved for k=4 and k=5, but these counterexamples are consistent with LPS."
+    year: 1988
+  - summary: "Fermat's Last Theorem (the case s=2, t=1, k>=3) was proven by Andrew Wiles."
+    year: 1995
+  - summary: "Extensive computational searches have found no counterexamples to the LPS conjecture for k <= 20."
+    year: 2009
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.50
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Lander-Parkin-Selfridge conjecture generalizes Fermat's Last Theorem by asserting
+    that any identity of equal sums of k-th powers requires at least k total terms.
+  decomposition:
+    - "Computational search for counterexamples at higher powers"
+    - "Algebraic geometry approaches to bounding rational points on high-degree varieties"
+    - "Connections to the theory of Waring's problem and the Hardy-Littlewood circle method"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

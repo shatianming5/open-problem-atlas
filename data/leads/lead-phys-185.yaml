@@ -1,0 +1,11 @@
+title: "Celestial Holography"
+statement: "Does celestial holography provide a complete holographic dual for gravitational scattering in asymptotically flat spacetimes?"
+source_id: "src_pasterski_2017"
+source_url: "https://arxiv.org/abs/1705.01027"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

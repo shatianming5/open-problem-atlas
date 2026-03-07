@@ -1,0 +1,122 @@
+id: opa.mathematics.extremal-combinatorics.erdos-ko-rado-generalization
+kind: problem
+title: "Erdos-Ko-Rado for Permutations"
+aliases:
+  - "Deza-Frankl Conjecture"
+  - "Intersecting Families of Permutations"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - extremal-combinatorics
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the maximum size of a t-intersecting family of permutations of {1, 2, ..., n},
+    where a family F of permutations is t-intersecting if every pair sigma, tau in F agrees
+    on at least t points (i.e., |{i : sigma(i) = tau(i)}| >= t). For t = 1, the Deza-Frankl
+    conjecture (proved by Ellis, Friedgut, and Pilpel for large n) states the maximum is
+    (n-1)!. For general t, the conjectured maximum is (n-t)! and the extremal families are
+    cosets of the stabilizer of t points.
+  informal: >
+    Among all collections of permutations where every two permutations agree in at least t
+    positions, how large can the collection be? The conjecture says it is (n-t)!, achieved
+    by fixing t specific positions.
+
+why_it_matters: >
+  The Erdos-Ko-Rado theorem for sets is a cornerstone of extremal combinatorics. Its
+  extension to permutations connects to representation theory of the symmetric group,
+  coding theory (permutation codes), and algebraic combinatorics. The problem for general
+  t remains open and requires new techniques beyond the spectral methods used for t = 1.
+
+prerequisites:
+  - extremal combinatorics
+  - representation theory of symmetric groups
+  - algebraic combinatorics
+
+dates:
+  first_stated: 1977
+
+sources:
+  canonical:
+    - source_id: src_deza_frankl_1977
+      kind: paper
+      title: "On the maximum number of permutations with given maximal or minimal distance"
+      authors:
+        - "Michel Deza"
+        - "Peter Frankl"
+      year: 1977
+    - source_id: src_ellis_friedgut_pilpel_2011
+      kind: paper
+      title: "Intersecting families of permutations"
+      authors:
+        - "David Ellis"
+        - "Ehud Friedgut"
+        - "Haran Pilpel"
+      url: "https://doi.org/10.1090/S0894-0347-2011-00690-5"
+      year: 2011
+  status_evidence:
+    - source_id: src_ellis_2012
+      kind: paper
+      title: "Setwise intersecting families of permutations"
+      url: "https://doi.org/10.1016/j.jcta.2011.12.003"
+      year: 2012
+
+partial_results:
+  - summary: "Deza and Frankl conjectured the answer for t = 1 in 1977. Cameron and Ku proved it for n sufficiently large."
+    year: 2003
+  - summary: "Ellis, Friedgut, and Pilpel proved the t = 1 case for sufficiently large n using spectral methods."
+    year: 2011
+  - summary: "The t >= 2 case remains open, with partial results for specific families and large n."
+    year: 2012
+  - summary: "The problem is closely related to the study of association schemes on the symmetric group."
+    year: 2011
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.78
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The problem generalizes the Erdos-Ko-Rado theorem to permutations: determine the
+    maximum t-intersecting family of permutations. The t=1 case was resolved, but
+    general t remains open.
+  decomposition:
+    - "Proving the t >= 2 conjecture via representation theory or spread methods"
+    - "Connections to permutation codes and group association schemes"
+    - "Developing new algebraic techniques for the symmetric group"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,115 @@
+id: opa.tcs.cryptography.mpc-optimal-rounds
+kind: problem
+title: "Multi-Party Computation Optimal Round Complexity"
+aliases:
+  - "MPC round complexity"
+  - "Optimal rounds for secure computation"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - cryptography
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    What is the minimum number of rounds required for secure multi-party computation
+    (MPC) of general functions in various settings (honest majority, dishonest majority,
+    computational vs information-theoretic security)? Can all functions be securely
+    computed in a constant number of rounds with optimal communication complexity?
+  informal: >
+    When multiple parties want to jointly compute a function of their private inputs
+    without revealing anything else, how many rounds of communication are needed?
+    What is the minimum possible?
+
+why_it_matters: >
+  MPC is fundamental to privacy-preserving computation, secure voting, auctions,
+  and machine learning on private data. Round complexity directly impacts latency
+  in practical protocols.
+
+prerequisites:
+  - secure multi-party computation
+  - oblivious transfer
+  - garbled circuits
+  - round complexity
+
+dates:
+  first_stated: 1987
+
+sources:
+  canonical:
+    - source_id: src_goldreich_micali_wigderson_1987
+      kind: paper
+      title: "How to Play Any Mental Game"
+      authors:
+        - "Oded Goldreich"
+        - "Silvio Micali"
+        - "Avi Wigderson"
+      url: "https://doi.org/10.1145/28395.28420"
+      year: 1987
+  status_evidence:
+    - source_id: src_garg_srinivasan_2018
+      kind: paper
+      title: "Two-Round Multiparty Secure Computation from Minimal Assumptions"
+      authors:
+        - "Sanjam Garg"
+        - "Akshayaram Srinivasan"
+      url: "https://doi.org/10.1007/978-3-319-78375-8_17"
+      year: 2018
+
+partial_results:
+  - summary: "Yao (1986) showed two-party computation is possible in constant rounds using garbled circuits."
+    year: 1986
+  - summary: "BMR (1990) extended constant-round MPC to multiple parties in the computational setting."
+    year: 1990
+  - summary: "Two-round MPC has been constructed from LWE but optimal communication complexity in constant rounds remains open."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.cryptography.homomorphic-encryption-efficiency"
+    - "opa.tcs.cryptography.indistinguishability-obfuscation"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.30
+  toolability: 0.35
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Determining the optimal round and communication complexity for secure multi-party
+    computation under various security models is a central open problem in cryptography.
+  decomposition:
+    - "Achieve two-round MPC from standard assumptions with optimal communication"
+    - "Prove round lower bounds for MPC under specific assumptions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

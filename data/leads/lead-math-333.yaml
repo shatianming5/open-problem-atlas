@@ -1,0 +1,11 @@
+title: "Restriction Conjecture"
+statement: "The Fourier restriction operator to the sphere in R^n is bounded from L^p to L^2 for p < 2n/(n+1)."
+source_id: "src_stein_1967"
+source_url: "https://en.wikipedia.org/wiki/Restriction_(mathematics)"
+domain_hint: "mathematics"
+subdomain_hint: "harmonic-analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

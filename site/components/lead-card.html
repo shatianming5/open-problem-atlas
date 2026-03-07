@@ -1,0 +1,36 @@
+{# Reusable lead card component.
+   Usage: {% include "components/lead-card.html" with context %}
+   Requires: lead (lead dict)
+#}
+<div class="problem-card lead-card"
+     data-title="{{ lead.title | default('') }}"
+     data-statement="{{ lead.statement | default('') }}"
+     data-source="{{ lead.source | default('') }}"
+     data-confidence="{{ lead.confidence | default('') }}"
+     data-domain="{{ lead.domain_hint | default('') }}">
+  <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+    <div class="title">{{ lead.title }}</div>
+    <span class="tag" style="background: rgba(248, 81, 73, 0.15); color: var(--red); white-space: nowrap; margin-left: 12px;">needs review</span>
+  </div>
+  <div class="meta" style="margin-top: 8px;">
+    {% if lead.confidence %}
+    <span class="tag {% if lead.confidence == 'high' %}tag-open{% elif lead.confidence == 'medium' %}tag-type{% else %}tag-domain{% endif %}">
+      {{ lead.confidence }} confidence
+    </span>
+    {% endif %}
+    {% if lead.domain_hint %}
+    <span class="tag tag-domain">{{ lead.domain_hint | replace('-', ' ') }}</span>
+    {% endif %}
+    {% if lead.discovered_at %}
+    <span>{{ lead.discovered_at }}</span>
+    {% endif %}
+  </div>
+  {% if lead.statement %}
+  <div class="statement" style="margin-top: 8px;">{{ lead.statement[:300] }}{% if lead.statement | length > 300 %}...{% endif %}</div>
+  {% endif %}
+  {% if lead.source %}
+  <div style="margin-top: 8px; font-size: 13px; color: var(--text-muted);">
+    Source: {{ lead.source }}
+  </div>
+  {% endif %}
+</div>

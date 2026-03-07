@@ -1,0 +1,11 @@
+title: "Polymath5: Erdos Discrepancy Problem Extensions"
+statement: "Following the solution of the Erdos discrepancy problem by Tao, can the methods be extended to give tight bounds for discrepancy of higher-dimensional sequences?"
+source_id: "src_polymath5_2020"
+source_url: "https://arxiv.org/abs/1509.05363"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.62
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

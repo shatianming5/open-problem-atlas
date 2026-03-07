@@ -1,0 +1,11 @@
+title: "Rigorous Statistical Mechanics of Coulomb Systems"
+statement: "Can the free energy and correlation functions of the three-dimensional Coulomb gas be computed rigorously in the thermodynamic limit at all temperatures?"
+source_id: "src_lieb_1999"
+source_url: "https://doi.org/10.1007/978-3-662-10018-9"
+domain_hint: "mathematical-physics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

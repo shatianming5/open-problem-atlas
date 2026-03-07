@@ -1,0 +1,11 @@
+title: "Muckenhoupt Conjecture for Maximal Operators"
+statement: "Sharp weighted norm inequalities for the Hardy-Littlewood maximal operator with matrix weights."
+source_id: "src_muckenhoupt_1972"
+source_url: "https://en.wikipedia.org/wiki/Muckenhoupt_weights"
+domain_hint: "mathematics"
+subdomain_hint: "harmonic-analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

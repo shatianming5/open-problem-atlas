@@ -1,0 +1,56 @@
+collection_id: col_graph-theory-classics
+title: Classic Open Problems in Graph Theory
+description: 'A curated collection of the most important and well-known open problems in graph theory, ranging from structural
+  graph theory to graph coloring and decomposition. These problems have driven decades of research and remain central to the
+  field.
+
+  '
+curator: OpenProblemAtlas
+created_at: '2026-03-07'
+updated_at: '2026-03-07'
+tags:
+- graph-theory
+- combinatorics
+- structural
+featured: true
+problems:
+- problem_id: opa.mathematics.graph-theory.hadwiger-conjecture
+  note: Deep connection between graph coloring and graph minors
+- problem_id: opa.mathematics.graph-theory.erdos-hajnal-conjecture
+  note: Graph theory problem in graph-theory, extremal-combinatorics
+- problem_id: opa.mathematics.extremal-combinatorics.zarankiewicz-problem
+  note: Graph theory problem in extremal-combinatorics, graph-theory
+- problem_id: opa.mathematics.graph-theory.caccetta-haggkvist-conjecture
+  note: Graph theory problem in graph-theory, extremal-combinatorics
+- problem_id: opa.mathematics.combinatorics.hadwiger-nelson-problem
+  note: Graph theory problem in combinatorics, graph-theory
+- problem_id: opa.mathematics.extremal-combinatorics.erdos-sos-conjecture
+  note: Graph theory problem in extremal-combinatorics, graph-theory
+- problem_id: opa.mathematics.graph-theory.list-coloring-conjecture
+  note: Graph theory problem in graph-theory, combinatorics
+- problem_id: opa.mathematics.graph-theory.total-coloring-conjecture
+  note: Graph theory problem in graph-theory
+- problem_id: opa.mathematics.graph-theory.gyarfas-sumner-conjecture
+  note: Graph theory problem in graph-theory, extremal-combinatorics
+- problem_id: opa.mathematics.combinatorics.ramsey-number-r55
+  note: Graph theory problem in combinatorics, graph-theory
+- problem_id: opa.mathematics.graph-theory.reconstruction-conjecture
+  note: Can a graph be reconstructed from its vertex-deleted subgraphs?
+- problem_id: opa.mathematics.graph-theory.turan-brick-factory-problem
+  note: Graph theory problem in graph-theory, combinatorics
+- problem_id: opa.mathematics.graph-theory.vizings-conjecture
+  note: Graph theory problem in graph-theory
+- problem_id: opa.mathematics.graph-theory.cycle-double-cover-conjecture
+  note: Every bridgeless graph has a cycle double cover
+- problem_id: opa.mathematics.graph-theory.overfull-conjecture
+  note: Graph theory problem in graph-theory
+- problem_id: opa.mathematics.graph-theory.seymours-second-neighborhood-conjecture
+  note: Graph theory problem in graph-theory
+- problem_id: opa.mathematics.graph-theory.albertson-conjecture
+  note: Graph theory problem in graph-theory
+- problem_id: opa.mathematics.graph-theory.erdos-faber-lovasz-conjecture
+  note: Solved in 2021 by Kang et al. — included for historical interest
+- problem_id: opa.mathematics.graph-theory.erdos-gyarfas-conjecture
+  note: Graph theory problem in graph-theory, combinatorics
+- problem_id: opa.mathematics.graph-theory.graceful-tree-conjecture
+  note: Every tree has a graceful labeling

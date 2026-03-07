@@ -1,0 +1,11 @@
+title: "Quantum PCP Conjecture"
+statement: "Is it QMA-hard to approximate the ground state energy of a local Hamiltonian to within a constant factor of the total number of terms?"
+source_id: "src_aharonov_2013"
+source_url: "https://arxiv.org/abs/1309.7495"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-complexity"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

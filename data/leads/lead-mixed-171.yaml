@@ -1,0 +1,11 @@
+title: "Lean Formalization of Perfectoid Spaces"
+statement: "Can the theory of perfectoid spaces be fully formalized in Lean, extending Buzzard-Commelin-Massot's work and enabling computer-verified arithmetic geometry?"
+source_id: "src_buzzard_2022"
+source_url: "https://arxiv.org/abs/2203.11598"
+domain_hint: "mathematics"
+subdomain_hint: "formalization"
+confidence: 0.62
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

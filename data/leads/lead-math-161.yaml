@@ -1,0 +1,11 @@
+title: "Schramm's Conjecture on Noise Sensitivity"
+statement: "Is the first-passage percolation geodesic noise-sensitive? More generally, characterize noise sensitivity of random geometric structures."
+source_id: "src_schramm_2007"
+source_url: "https://arxiv.org/abs/0710.1723"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

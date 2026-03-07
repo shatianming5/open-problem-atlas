@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "OpenProblemAtlas: A Living Atlas of Open Problems"
+message: "If you use this dataset, please cite it using the metadata from this file."
+type: dataset
+authors:
+  - name: "OpenProblemAtlas Contributors"
+repository-code: "https://github.com/OpenProblemAtlas/open-problem-atlas"
+url: "https://github.com/OpenProblemAtlas/open-problem-atlas"
+license: CC-BY-SA-4.0
+version: "0.1.0"
+date-released: "2026-03-07"
+keywords:
+  - open problems
+  - mathematics
+  - theoretical computer science
+  - mathematical physics
+  - AI reasoning
+  - theorem proving
+  - benchmark

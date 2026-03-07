@@ -1,0 +1,11 @@
+title: "Smooth 4-Dimensional Poincare Conjecture"
+statement: "Is every smooth homotopy 4-sphere diffeomorphic to the standard 4-sphere? This is the last remaining case of the generalized Poincare conjecture."
+source_id: "src_freedman_2020"
+source_url: "https://mathoverflow.net/questions/127006"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.38
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

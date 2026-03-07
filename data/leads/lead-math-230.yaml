@@ -1,0 +1,11 @@
+title: "Dade's Conjecture"
+statement: "A refinement of Alperin's weight conjecture counting the number of characters of given defect in various p-local subgroups."
+source_id: "src_dade_1992"
+source_url: "https://en.wikipedia.org/wiki/Dade%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "representation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

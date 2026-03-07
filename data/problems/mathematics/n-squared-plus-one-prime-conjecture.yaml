@@ -1,0 +1,111 @@
+id: opa.mathematics.number-theory.n-squared-plus-one-prime-conjecture
+kind: problem
+title: "n^2 + 1 Prime Conjecture"
+aliases:
+  - "Landau's Fourth Problem"
+  - "Primes of the Form n^2 + 1"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - analytic-number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There are infinitely many primes of the form n^2 + 1 where n is a positive integer.
+    Equivalently, the polynomial f(x) = x^2 + 1 takes prime values for infinitely many
+    positive integers x.
+  informal: >
+    If you take perfect squares 1, 4, 9, 16, 25, ... and add 1, you get 2, 5, 10, 17, 26, ...
+    Some of these are prime (2, 5, 17, ...). The conjecture says there are infinitely many
+    primes in this sequence.
+
+why_it_matters: >
+  This is one of Landau's four problems presented at the 1912 International Congress of
+  Mathematicians. It is the simplest open case of the Bunyakovsky conjecture for a
+  specific quadratic polynomial and represents a fundamental barrier in our understanding
+  of prime values of polynomials.
+
+prerequisites:
+  - analytic number theory
+  - sieve methods
+  - algebraic number theory
+
+dates:
+  first_stated: 1912
+
+sources:
+  canonical:
+    - source_id: src_landau_1912
+      kind: paper
+      title: "Gelöste und ungelöste Probleme aus der Theorie der Primzahlverteilung und der Riemannschen Zetafunktion"
+      authors:
+        - "Edmund Landau"
+      year: 1912
+  status_evidence:
+    - source_id: src_iwaniec_1978
+      kind: paper
+      title: "Almost-primes represented by quadratic polynomials"
+      url: "https://doi.org/10.1007/BF01390254"
+      year: 1978
+
+partial_results:
+  - summary: "Iwaniec proved that n^2 + 1 is a product of at most two primes (P2) for infinitely many n."
+    year: 1978
+  - summary: "Friedlander and Iwaniec proved that x^2 + y^4 represents infinitely many primes, a related result for binary forms."
+    year: 1998
+  - summary: "The Bateman-Horn conjecture predicts the asymptotic density: approximately C * x / log(x) primes of the form n^2+1 up to x^2+1, with C ≈ 1.3728."
+    year: 1962
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.bunyakovsky-conjecture
+    - opa.mathematics.number-theory.bateman-horn-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.30
+  toolability: 0.45
+  formality: 0.90
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The n^2+1 prime conjecture, one of Landau's four problems from 1912, asks whether
+    the polynomial x^2+1 produces infinitely many primes.
+  decomposition:
+    - "Extending Iwaniec's almost-prime sieve from P2 to P1 (actual primes)"
+    - "Connecting to the Friedlander-Iwaniec theorem on primes of the form x^2 + y^4"
+    - "Developing new bilinear sum estimates for Type I/II information in sieve theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

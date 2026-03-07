@@ -1,0 +1,11 @@
+title: "Veech Dichotomy Extensions"
+statement: "Extend Veech's dichotomy for translation surfaces to characterize ergodic properties of general polygon billiards."
+source_id: "src_veech_1989"
+source_url: "https://en.wikipedia.org/wiki/Veech_surface"
+domain_hint: "mathematics"
+subdomain_hint: "ergodic-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

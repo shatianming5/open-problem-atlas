@@ -1,0 +1,11 @@
+title: "Homological Mirror Symmetry Conjecture"
+statement: "For a pair of mirror Calabi-Yau manifolds, the derived category of coherent sheaves on one is equivalent to the Fukaya category of the other."
+source_id: "src_kontsevich_1994"
+source_url: "https://en.wikipedia.org/wiki/Homological_mirror_symmetry"
+domain_hint: "mathematics"
+subdomain_hint: "homological-algebra"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

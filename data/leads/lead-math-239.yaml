@@ -1,0 +1,11 @@
+title: "Buchweitz-Greenlees-Stevenson Conjecture"
+statement: "The singularity category of a Gorenstein ring is equivalent to the stable module category and related to complete cohomology."
+source_id: "src_buchweitz_1986"
+source_url: "https://en.wikipedia.org/wiki/Triangulated_category"
+domain_hint: "mathematics"
+subdomain_hint: "homological-algebra"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,165 @@
+{% extends "base.html" %}
+{% set page = 'radar' %}
+{% block title %}Radar — OpenProblemAtlas{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 32px;">
+  <h1 style="font-size: 28px; margin-bottom: 8px;">Radar</h1>
+  <p style="color: var(--text-muted); margin-bottom: 24px;">
+    <span id="lead-count">{{ leads | length }} lead{{ 's' if leads | length != 1 else '' }}</span> discovered from the literature
+  </p>
+
+  <div class="search-bar">
+    <input type="text" id="radar-search" placeholder="Search leads by title, statement, or source...">
+  </div>
+
+  <div class="filters">
+    <span style="color: var(--text-muted); font-size: 13px; margin-right: 8px;">Confidence:</span>
+    <button class="filter-btn radar-filter" data-filter-key="confidence" data-filter-value="high">High</button>
+    <button class="filter-btn radar-filter" data-filter-key="confidence" data-filter-value="medium">Medium</button>
+    <button class="filter-btn radar-filter" data-filter-key="confidence" data-filter-value="low">Low</button>
+  </div>
+
+  <div class="filters">
+    <span style="color: var(--text-muted); font-size: 13px; margin-right: 8px;">Domain:</span>
+    <button class="filter-btn radar-filter" data-filter-key="domain" data-filter-value="mathematics">Mathematics</button>
+    <button class="filter-btn radar-filter" data-filter-key="domain" data-filter-value="theoretical-cs">Theoretical CS</button>
+    <button class="filter-btn radar-filter" data-filter-key="domain" data-filter-value="mathematical-physics">Math Physics</button>
+  </div>
+
+  {% if hot_sources %}
+  <div style="margin-bottom: 32px; padding: 16px; background: var(--bg-secondary); border-radius: var(--radius);">
+    <h3 style="font-size: 16px; margin-bottom: 12px;">Hot Sources</h3>
+    <p style="font-size: 13px; color: var(--text-muted); margin-bottom: 8px;">Sources producing the most leads recently</p>
+    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+      {% for src in hot_sources[:5] %}
+      <span class="tag tag-domain" style="font-size: 13px;">{{ src.name }} ({{ src.count }})</span>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  {% if recently_promoted %}
+  <div style="margin-bottom: 32px; padding: 16px; background: var(--bg-secondary); border-radius: var(--radius);">
+    <h3 style="font-size: 16px; margin-bottom: 12px;">Recently Promoted to Verified</h3>
+    <div class="problem-list">
+      {% for p in recently_promoted[:3] %}
+      <a href="/problem/{{ p.id | replace('.', '-') }}.html" style="text-decoration: none; color: inherit;">
+        <div class="problem-card" style="margin-bottom: 8px;">
+          <div class="title">{{ p.title }}</div>
+          <div class="meta">
+            <span class="tag tag-open">{{ p.status.label }}</span>
+            <span class="tag tag-domain">{{ p.domain | replace('-', ' ') }}</span>
+          </div>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+  {% endif %}
+
+  <div class="problem-list" id="leads-list">
+    {% for lead in leads %}
+    <div class="problem-card lead-card"
+         data-title="{{ lead.title | default('') }}"
+         data-statement="{{ lead.statement | default('') }}"
+         data-source="{{ lead.source | default('') }}"
+         data-confidence="{{ lead.confidence | default('') }}"
+         data-domain="{{ lead.domain_hint | default('') }}">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+        <div class="title">{{ lead.title }}</div>
+        <span class="tag" style="background: rgba(248, 81, 73, 0.15); color: var(--red); white-space: nowrap; margin-left: 12px;">needs review</span>
+      </div>
+      <div class="meta" style="margin-top: 8px;">
+        {% if lead.confidence %}
+        <span class="tag {% if lead.confidence == 'high' %}tag-open{% elif lead.confidence == 'medium' %}tag-type{% else %}tag-domain{% endif %}">
+          {{ lead.confidence }} confidence
+        </span>
+        {% endif %}
+        {% if lead.domain_hint %}
+        <span class="tag tag-domain">{{ lead.domain_hint | replace('-', ' ') }}</span>
+        {% endif %}
+        {% if lead.discovered_at %}
+        <span>{{ lead.discovered_at }}</span>
+        {% endif %}
+      </div>
+      {% if lead.statement %}
+      <div class="statement" style="margin-top: 8px;">{{ lead.statement[:300] }}{% if lead.statement | length > 300 %}...{% endif %}</div>
+      {% endif %}
+      {% if lead.source %}
+      <div style="margin-top: 8px; font-size: 13px; color: var(--text-muted);">
+        Source: {{ lead.source }}
+      </div>
+      {% endif %}
+    </div>
+    {% endfor %}
+
+    {% if leads | length == 0 %}
+    <div style="text-align: center; padding: 64px 0; color: var(--text-muted);">
+      <p style="font-size: 18px; margin-bottom: 8px;">No leads yet</p>
+      <p style="font-size: 14px;">Leads are automatically mined from the literature and appear here for review.</p>
+    </div>
+    {% endif %}
+  </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const searchInput = document.getElementById('radar-search');
+  const filterBtns = document.querySelectorAll('.radar-filter');
+  const leadCards = document.querySelectorAll('.lead-card');
+  const countEl = document.getElementById('lead-count');
+
+  let activeFilters = { confidence: null, domain: null };
+
+  if (searchInput) {
+    searchInput.addEventListener('input', () => applyRadarFilters());
+  }
+
+  filterBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      const key = btn.dataset.filterKey;
+      const val = btn.dataset.filterValue;
+      if (activeFilters[key] === val) {
+        activeFilters[key] = null;
+        btn.classList.remove('active');
+      } else {
+        filterBtns.forEach(b => {
+          if (b.dataset.filterKey === key) b.classList.remove('active');
+        });
+        activeFilters[key] = val;
+        btn.classList.add('active');
+      }
+      applyRadarFilters();
+    });
+  });
+
+  function applyRadarFilters() {
+    const query = (searchInput ? searchInput.value : '').toLowerCase().trim();
+    let visible = 0;
+    leadCards.forEach(card => {
+      const title = (card.dataset.title || '').toLowerCase();
+      const statement = (card.dataset.statement || '').toLowerCase();
+      const source = (card.dataset.source || '').toLowerCase();
+      const confidence = card.dataset.confidence || '';
+      const domain = card.dataset.domain || '';
+
+      let show = true;
+      if (query && !title.includes(query) && !statement.includes(query) && !source.includes(query)) {
+        show = false;
+      }
+      if (activeFilters.confidence && confidence !== activeFilters.confidence) show = false;
+      if (activeFilters.domain && domain !== activeFilters.domain) show = false;
+
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    if (countEl) {
+      countEl.textContent = `${visible} lead${visible !== 1 ? 's' : ''}`;
+    }
+  }
+});
+</script>
+{% endblock %}

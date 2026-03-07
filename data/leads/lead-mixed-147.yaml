@@ -1,0 +1,11 @@
+title: "Montgomery's Pair Correlation Conjecture"
+statement: "Is the pair correlation of zeros of the Riemann zeta function asymptotically given by the GUE distribution from random matrix theory?"
+source_id: "src_montgomery_2020"
+source_url: "https://mathoverflow.net/questions/94032"
+domain_hint: "mathematics"
+subdomain_hint: "analytic-number-theory"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

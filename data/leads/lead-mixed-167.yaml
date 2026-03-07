@@ -1,0 +1,11 @@
+title: "Waring's Problem Optimal Bounds"
+statement: "What is the exact value of the function G(k), the smallest s such that every sufficiently large integer is a sum of at most s k-th powers, for k >= 4?"
+source_id: "src_wooley_2022"
+source_url: "https://arxiv.org/abs/2203.14012"
+domain_hint: "mathematics"
+subdomain_hint: "analytic-number-theory"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Quantum Error Correction Threshold"
+statement: "What is the exact fault-tolerance threshold for quantum computation with realistic noise models?"
+source_id: "src_aharonov_ben_or_2008"
+source_url: "https://doi.org/10.1137/S0097539799359385"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

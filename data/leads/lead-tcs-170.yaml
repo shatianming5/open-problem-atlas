@@ -1,0 +1,11 @@
+title: "Geometric Transversal Conjectures"
+statement: "For convex sets in R^d, when does a common transversal exist? Extending Helly-type theorems to transversal settings remains largely open."
+source_id: "src_goodman_pollack_wenger_1993"
+source_url: "https://doi.org/10.1007/978-1-4613-8431-1_5"
+domain_hint: "theoretical-cs"
+subdomain_hint: "computational-geometry"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Birch and Swinnerton-Dyer Conjecture for Higher Rank"
+statement: "Can the Birch and Swinnerton-Dyer conjecture be proved for elliptic curves of analytic rank greater than 1?"
+source_id: "src_skinner_2020"
+source_url: "https://arxiv.org/abs/2005.04799"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.35
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

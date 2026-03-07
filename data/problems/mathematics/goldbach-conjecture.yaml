@@ -1,0 +1,114 @@
+id: opa.mathematics.number-theory.goldbach-conjecture
+kind: problem
+title: "Goldbach's Conjecture"
+aliases:
+  - "Goldbach's Strong Conjecture"
+  - "Binary Goldbach Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - additive-number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every even integer greater than 2 can be expressed as the sum of two prime numbers.
+    That is, for every even integer n > 2, there exist primes p and q such that n = p + q.
+  informal: >
+    Every even number bigger than 2 can be written as the sum of two primes. For example,
+    4 = 2+2, 6 = 3+3, 8 = 3+5, 10 = 5+5 = 3+7. The conjecture says this pattern never stops.
+
+why_it_matters: >
+  Goldbach's conjecture, proposed in 1742, is one of the oldest unsolved problems in number
+  theory and all of mathematics. It sits at the heart of additive number theory and is connected
+  to deep questions about the distribution of primes and the structure of the integers.
+
+prerequisites:
+  - analytic number theory
+  - additive number theory
+  - sieve methods
+  - circle method
+
+dates:
+  first_stated: 1742
+
+sources:
+  canonical:
+    - source_id: src_goldbach_1742
+      kind: paper
+      title: "Letter from Goldbach to Euler, June 7, 1742"
+      authors:
+        - "Christian Goldbach"
+      year: 1742
+    - source_id: src_guy_2004
+      kind: textbook
+      title: "Unsolved Problems in Number Theory"
+      authors:
+        - "Richard K. Guy"
+      year: 2004
+      locator: "Problem C1"
+  status_evidence:
+    - source_id: src_helfgott_2013
+      kind: paper
+      title: "The ternary Goldbach conjecture is true"
+      url: "https://arxiv.org/abs/1312.7748"
+      year: 2013
+
+partial_results:
+  - summary: "Helfgott proved the weak (ternary) Goldbach conjecture: every odd integer greater than 5 is the sum of three primes."
+    year: 2013
+  - summary: "Chen Jingrun proved that every sufficiently large even integer is the sum of a prime and a product of at most two primes (Chen's theorem)."
+    year: 1973
+  - summary: "Verified computationally for all even integers up to 4 x 10^18."
+    year: 2014
+  - summary: "Vinogradov proved that all sufficiently large odd integers are the sum of three primes."
+    year: 1937
+
+relations:
+  related:
+    - opa.mathematics.number-theory.twin-prime-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.20
+  toolability: 0.55
+  formality: 0.90
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Goldbach's conjecture asserts every even integer greater than 2 is the sum of two primes.
+    The weak (ternary) version was proved by Helfgott in 2013, but the binary case remains open.
+  decomposition:
+    - "Strengthening circle method estimates for binary additive prime problems"
+    - "Improving sieve bounds to bridge the gap between Chen's theorem and the full conjecture"
+    - "Computational verification strategies and probabilistic models for exceptional sets"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

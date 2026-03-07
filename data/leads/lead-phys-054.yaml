@@ -1,0 +1,11 @@
+title: "Hierarchy Problem"
+statement: "Why is the Higgs boson mass so much lighter than the Planck scale? What mechanism stabilizes the electroweak scale against radiative corrections?"
+source_id: "src_giudice_2008"
+source_url: "https://arxiv.org/abs/0801.2562"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Yau's Conjecture on First Eigenvalue"
+statement: "The first eigenvalue of the Laplacian on a closed minimal hypersurface in the unit sphere S^{n+1} equals n."
+source_id: "src_yau_1982"
+source_url: "https://en.wikipedia.org/wiki/Yau%27s_conjecture_on_the_first_eigenvalue"
+domain_hint: "mathematics"
+subdomain_hint: "differential-geometry"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

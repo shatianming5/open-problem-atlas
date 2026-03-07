@@ -1,0 +1,11 @@
+title: "Witness Encryption Without Multilinear Maps"
+statement: "Can witness encryption be constructed from simpler assumptions such as LWE without relying on multilinear maps or iO?"
+source_id: "src_garg_gentry_sahai_waters_2013"
+source_url: "https://doi.org/10.1145/2488608.2488667"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

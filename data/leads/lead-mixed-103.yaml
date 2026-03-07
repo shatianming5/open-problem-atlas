@@ -1,0 +1,11 @@
+title: "Chromatic Number of the Plane"
+statement: "What is the chromatic number of the plane (Hadwiger-Nelson problem)? de Grey's 2018 breakthrough showed it is at least 5; the upper bound remains 7."
+source_id: "src_degrey_2020"
+source_url: "https://arxiv.org/abs/1804.02385"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorial-geometry"
+confidence: 0.62
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

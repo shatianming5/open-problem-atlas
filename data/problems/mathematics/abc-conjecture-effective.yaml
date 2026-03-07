@@ -1,0 +1,122 @@
+id: opa.mathematics.number-theory.abc-conjecture-effective
+kind: problem
+title: "Effective abc Conjecture"
+aliases:
+  - "abc Conjecture (Effective Version)"
+  - "Explicit abc Conjecture"
+  - "Oesterle-Masser Conjecture (Effective Form)"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every epsilon > 0, there exists an effectively computable constant K(epsilon) such
+    that for all coprime positive integers a, b, c with a + b = c, we have
+    c < K(epsilon) * rad(abc)^{1+epsilon}, where rad(n) denotes the product of the distinct
+    prime factors of n. The problem is to establish this with explicit, computable K(epsilon),
+    or prove the stronger Baker-type form c < C * rad(abc)^{1+omega(abc)^{-1/3}} for an
+    absolute constant C.
+  informal: >
+    The abc conjecture says that when three coprime positive integers satisfy a + b = c,
+    the number c cannot be too large compared to the product of the distinct prime factors
+    of abc. The effective version demands explicit, computable bounds.
+
+why_it_matters: >
+  The effective abc conjecture would have sweeping consequences across number theory,
+  including effective solutions to Fermat-type equations, the Mordell conjecture,
+  Roth's theorem, and many Diophantine problems. While Mochizuki claims a proof of abc,
+  the mathematical community has not reached consensus on its validity.
+
+prerequisites:
+  - algebraic number theory
+  - Diophantine equations
+  - analytic number theory
+
+dates:
+  first_stated: 1985
+
+sources:
+  canonical:
+    - source_id: src_oesterle_1988
+      kind: paper
+      title: "Nouvelles approches du 'théorème' de Fermat"
+      authors:
+        - "Joseph Oesterlé"
+      year: 1988
+    - source_id: src_masser_1985
+      kind: paper
+      title: "Open problems"
+      authors:
+        - "David Masser"
+      year: 1985
+  status_evidence:
+    - source_id: src_granville_tucker_2002
+      kind: survey
+      title: "It's As Easy As abc"
+      url: "https://www.ams.org/notices/200210/fea-granville.pdf"
+      year: 2002
+
+partial_results:
+  - summary: "Stewart and Yu proved c < exp(K * rad(abc)^{1/3} * (log rad(abc))^3), the best unconditional result."
+    year: 2001
+  - summary: "Mochizuki claims a proof via inter-universal Teichmuller theory (IUT), but the proof remains disputed in the mathematical community."
+    year: 2012
+  - summary: "The polynomial abc conjecture is proven over function fields (Mason-Stothers theorem)."
+    year: 1981
+  - summary: "Baker proposed the explicit form c < (6/5) * rad(abc)^{1.75} which fits all known data."
+    year: 2004
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.halls-conjecture
+    - opa.mathematics.number-theory.pillais-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.98
+  underexplored: 0.25
+  toolability: 0.35
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - sage
+
+machine_generated:
+  summary: >
+    The effective abc conjecture seeks explicit computable bounds for how large c can be
+    relative to the radical of abc, with profound implications across number theory.
+  decomposition:
+    - "Evaluating and extending Mochizuki's inter-universal Teichmuller theory approach"
+    - "Developing alternative approaches via arithmetic geometry and height theory"
+    - "Improving the Stewart-Yu exponential bound toward polynomial bounds"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

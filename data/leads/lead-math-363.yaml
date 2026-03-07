@@ -1,0 +1,11 @@
+title: "Quantum Unique Ergodicity Conjecture"
+statement: "For negatively curved manifolds, eigenfunctions of the Laplacian become equidistributed in the semiclassical limit."
+source_id: "src_rudnicksarnak_1994"
+source_url: "https://en.wikipedia.org/wiki/Quantum_unique_ergodicity_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

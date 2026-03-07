@@ -1,0 +1,115 @@
+id: opa.mathematics.homological-algebra.artins-conjecture-primitive-roots
+kind: problem
+title: "Artin's Conjecture on Primitive Roots"
+aliases:
+  - "Artin's Primitive Root Conjecture"
+  - "Artin Conjecture on Generators of Multiplicative Groups"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - homological-algebra
+  - representation-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For any integer a that is not -1 and not a perfect square, there are
+    infinitely many primes p for which a is a primitive root modulo p, i.e.,
+    a generates the multiplicative group (Z/pZ)*. Moreover, the set of such
+    primes has a positive natural density that can be computed explicitly in
+    terms of an Artin constant.
+  informal: >
+    A primitive root modulo a prime p is a number whose successive powers give
+    all nonzero remainders when divided by p. Artin conjectured that any
+    "generic" integer (not -1 or a perfect square) serves as a primitive root
+    for infinitely many primes, and this happens with a predictable frequency.
+
+why_it_matters: >
+  Artin's conjecture, posed in 1927, is a major open problem in algebraic
+  number theory. It concerns the structure of multiplicative groups of finite
+  fields and connects to deep questions in algebraic K-theory and the
+  distribution of primes. Hooley proved it conditionally on the Generalized
+  Riemann Hypothesis, but an unconditional proof remains elusive.
+
+prerequisites:
+  - number theory
+  - algebraic number theory
+  - multiplicative group theory
+  - analytic number theory
+
+dates:
+  first_stated: 1927
+
+sources:
+  canonical:
+    - source_id: src_artin_1927
+      kind: paper
+      title: "Uber eine neue Art von L-Reihen (Collected Papers)"
+      authors:
+        - "Emil Artin"
+      year: 1927
+      locator: "Collected Papers, Springer, 1965"
+  status_evidence:
+    - source_id: src_hooley_1967
+      kind: paper
+      title: "On Artin's conjecture"
+      authors:
+        - "Christopher Hooley"
+      year: 1967
+      locator: "Journal fur die reine und angewandte Mathematik, vol. 225, pp. 209-220"
+
+partial_results:
+  - summary: "Hooley proved Artin's conjecture conditionally on the Generalized Riemann Hypothesis."
+    year: 1967
+  - summary: "Gupta and Murty proved unconditionally that Artin's conjecture holds for infinitely many a, but could not specify which ones."
+    year: 1984
+  - summary: "Heath-Brown proved that among any three specific integers {2, 3, 5}, at least one satisfies Artin's conjecture."
+    year: 1986
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.30
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Artin's conjecture predicts that any integer that is not -1 or a perfect
+    square is a primitive root modulo infinitely many primes. Known conditionally
+    on GRH, the unconditional case remains open.
+  decomposition:
+    - "Unconditional density results for primitive roots"
+    - "Sieve methods and character sum estimates"
+    - "Connection to GRH and zero-free regions of L-functions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

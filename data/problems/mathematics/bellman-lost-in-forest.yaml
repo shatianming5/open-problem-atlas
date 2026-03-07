@@ -1,0 +1,119 @@
+id: opa.mathematics.geometry.bellman-lost-in-forest
+kind: problem
+title: "Bellman's Lost-in-a-Forest Problem"
+aliases:
+  - "Bellman Lost in a Forest"
+  - "Optimal Search Path Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - geometry
+  - analysis
+
+problem_type: computation
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    A hiker is lost in a forest whose shape is known to be a convex region D in the plane.
+    The hiker knows the shape and size of D but not their position or orientation within it.
+    What is the shortest path the hiker can follow to guarantee reaching the boundary of D?
+    The problem asks for the infimum over all curves gamma of the maximum over all positions
+    and orientations of the distance traveled along gamma before exiting D.
+  informal: >
+    You are lost in a forest of known shape but unknown position and direction. What is the
+    shortest path you can walk to guarantee escaping the forest, no matter where you started
+    and which way you are facing?
+
+why_it_matters: >
+  Bellman's lost-in-a-forest problem, posed by Richard Bellman in 1956, is a fundamental
+  unsolved problem in geometric optimization and search theory. Even for simple forest
+  shapes (such as a strip of known width, a disk, or a half-plane), optimal solutions are
+  not known in general. The problem has connections to computational geometry, optimal
+  control theory, and the theory of pursuit-evasion games.
+
+prerequisites:
+  - differential geometry
+  - calculus of variations
+  - optimal control theory
+  - computational geometry
+
+dates:
+  first_stated: 1956
+
+sources:
+  canonical:
+    - source_id: src_bellman_1956
+      kind: paper
+      title: "Minimization Problem"
+      authors:
+        - "Richard Bellman"
+      year: 1956
+      url: "https://doi.org/10.1090/S0002-9904-1956-10021-9"
+  status_evidence:
+    - source_id: src_finch_wetzel_2004
+      kind: paper
+      title: "Lost in a Forest"
+      authors:
+        - "Steven R. Finch"
+        - "John E. Wetzel"
+      year: 2004
+      url: "https://doi.org/10.2307/4145073"
+
+partial_results:
+  - summary: "For an infinite strip of width 1, the optimal path has length at most sqrt(2) + pi/6 * sqrt(3) ≈ 2.3229, achieved by a zigzag-and-turn strategy."
+    year: 1961
+  - summary: "Finch and Wetzel established bounds for several specific forest shapes."
+    year: 2004
+  - summary: "Ward improved bounds for the half-plane case, showing the optimal escape path length is between 6.3972 and 13.8119."
+    year: 2008
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.geometry.moving-sofa-problem"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.55
+  toolability: 0.55
+  formality: 0.70
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Bellman's lost-in-a-forest problem asks for the shortest path guaranteeing escape from
+    a known convex forest region regardless of starting position and orientation. Optimal
+    solutions are unknown even for simple shapes.
+  decomposition:
+    - "Optimal control formulation and necessary conditions for extremal paths"
+    - "Computational search for candidate optimal paths in specific domains"
+    - "Lower bound techniques from geometric measure theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

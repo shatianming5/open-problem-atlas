@@ -1,0 +1,11 @@
+title: "Haagerup's Approximation Property Conjecture"
+statement: "Characterize groups whose reduced C*-algebra or group von Neumann algebra has the Haagerup property."
+source_id: "src_haagerup_1979"
+source_url: "https://en.wikipedia.org/wiki/Haagerup_property"
+domain_hint: "mathematics"
+subdomain_hint: "operator-algebras"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Mason's Log-Concavity Conjecture"
+statement: "The sequence of numbers of independent sets of each size in a matroid is log-concave."
+source_id: "src_mason_1972"
+source_url: "https://en.wikipedia.org/wiki/Mason%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "matroid-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

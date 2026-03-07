@@ -1,0 +1,11 @@
+title: "Vacuum Energy and the Casimir Effect"
+statement: "Is the Casimir effect direct evidence for vacuum energy, or can it be explained purely in terms of source interactions without reference to zero-point energy?"
+source_id: "src_jaffe_2005"
+source_url: "https://arxiv.org/abs/hep-th/0503158"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Graph Isomorphism Complexity"
+statement: "Is Graph Isomorphism in P? Babai showed it is in quasipolynomial time, but polynomial time remains open."
+source_id: "src_babai_2016"
+source_url: "https://doi.org/10.1145/2897518.2897542"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

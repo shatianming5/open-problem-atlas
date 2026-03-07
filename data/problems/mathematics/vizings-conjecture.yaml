@@ -1,0 +1,116 @@
+id: opa.mathematics.graph-theory.vizings-conjecture
+kind: problem
+title: "Vizing's Conjecture"
+aliases:
+  - "Vizing Conjecture"
+  - "Domination in Cartesian Products Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For any two graphs G and H, the domination number of the Cartesian product satisfies
+    gamma(G square H) >= gamma(G) * gamma(H), where gamma denotes the domination number
+    and G square H is the Cartesian product of graphs G and H.
+  informal: >
+    The minimum number of vertices needed to dominate the Cartesian product of two graphs
+    is at least the product of the domination numbers of the individual graphs. In other
+    words, domination does not become easier in the product.
+
+why_it_matters: >
+  Vizing's conjecture, posed in 1968, is one of the most famous open problems in domination
+  theory and graph products. It has been called the most important unsolved problem in the
+  theory of graph domination. Understanding domination in product graphs has applications
+  in network design, coding theory, and distributed computing.
+
+prerequisites:
+  - graph theory
+  - domination theory
+  - graph products
+
+dates:
+  first_stated: 1968
+
+sources:
+  canonical:
+    - source_id: src_vizing_1968
+      kind: paper
+      title: "Some unsolved problems in graph theory"
+      authors:
+        - "Vadim G. Vizing"
+      year: 1968
+  status_evidence:
+    - source_id: src_bresar_2012
+      kind: survey
+      title: "Vizing's conjecture: a survey and recent results"
+      authors:
+        - "Bostjan Bresar"
+        - "Paul Dorbec"
+        - "Wayne Goddard"
+        - "Bert L. Hartnell"
+        - "Michael A. Henning"
+        - "Sandi Klavzar"
+        - "Douglas F. Rall"
+      url: "https://doi.org/10.1002/jgt.20565"
+      year: 2012
+
+partial_results:
+  - summary: "Clark and Suen proved gamma(G square H) >= (1/2) * gamma(G) * gamma(H)."
+    year: 2000
+  - summary: "The conjecture is proved for graphs where one factor has domination number at most 3."
+    year: 2005
+  - summary: "Suen and Tarr improved the bound for specific graph classes including chordal graphs."
+    year: 2012
+  - summary: "Bresar proved the conjecture when one factor is a tree."
+    year: 2015
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Vizing's conjecture asserts that the domination number of the Cartesian product of two
+    graphs is at least the product of their individual domination numbers. The best general
+    bound is half of the conjectured value.
+  decomposition:
+    - "Improving the Clark-Suen factor from 1/2 towards 1"
+    - "Proving the conjecture for broader graph classes"
+    - "Algebraic or topological approaches to domination in products"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

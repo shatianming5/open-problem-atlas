@@ -1,0 +1,11 @@
+title: "Deformation Quantization in Poisson Geometry"
+statement: "Can Kontsevich's deformation quantization formula be extended to give a full star product for arbitrary infinite-dimensional Poisson manifolds?"
+source_id: "src_cattaneo_2022"
+source_url: "https://arxiv.org/abs/2205.02768"
+domain_hint: "mathematical-physics"
+subdomain_hint: "poisson-geometry"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

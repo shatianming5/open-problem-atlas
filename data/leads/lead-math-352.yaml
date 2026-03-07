@@ -1,0 +1,11 @@
+title: "Condition Number Thesis"
+statement: "The difficulty of numerical computation is proportional to the condition number of the input."
+source_id: "src_demmel_1987"
+source_url: "https://en.wikipedia.org/wiki/Condition_number"
+domain_hint: "mathematics"
+subdomain_hint: "numerical-analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

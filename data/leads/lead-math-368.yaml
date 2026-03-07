@@ -1,0 +1,11 @@
+title: "Seiberg-Witten Invariants and Smooth 4-Manifolds"
+statement: "Do Seiberg-Witten invariants completely classify smooth structures on simply connected 4-manifolds?"
+source_id: "src_seibergwitten_1994"
+source_url: "https://en.wikipedia.org/wiki/Seiberg%E2%80%93Witten_invariants"
+domain_hint: "mathematics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

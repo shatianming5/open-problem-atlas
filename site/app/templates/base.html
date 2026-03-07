@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% block title %}OpenProblemAtlas{% endblock %}</title>
+  <meta name="description" content="A living, machine-readable atlas of open problems for researchers, AI agents, and theorem provers.">
+  <link rel="stylesheet" href="/static/css/style.css">
+  {% block head %}{% endblock %}
+</head>
+<body>
+  <header>
+    <div class="container">
+      <a href="/" class="logo">OpenProblemAtlas</a>
+      <nav>
+        <a href="/problems.html" {% if page == 'problems' %}class="active"{% endif %}>Problems</a>
+        <a href="/collections.html" {% if page == 'collections' %}class="active"{% endif %}>Collections</a>
+        <a href="/radar.html" {% if page == 'radar' %}class="active"{% endif %}>Radar</a>
+        <a href="/attempts.html" {% if page == 'attempts' %}class="active"{% endif %}>Attempts</a>
+        <a href="/graph.html" {% if page == 'graph' %}class="active"{% endif %}>Graph</a>
+        <a href="https://github.com/OpenProblemAtlas/open-problem-atlas" target="_blank">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>OpenProblemAtlas &mdash; Data: CC BY-SA 4.0 | Code: MIT</p>
+      <p>A community project. <a href="https://github.com/OpenProblemAtlas/open-problem-atlas/blob/main/CONTRIBUTING.md">Contribute</a></p>
+    </div>
+  </footer>
+
+  {% block scripts %}{% endblock %}
+</body>
+</html>

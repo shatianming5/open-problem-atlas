@@ -1,0 +1,113 @@
+id: opa.phys.condensed-matter-theory.topological-order-classification-general
+kind: problem
+title: "Topological Order Classification (General)"
+aliases:
+  - "Classification of Topological Phases"
+  - "General Topological Order"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - condensed-matter-theory
+
+problem_type: conjecture
+answer_type: constructive
+verification_mode: proof
+
+statement:
+  canonical: >
+    Provide a complete mathematical classification of topological phases of matter in
+    arbitrary spatial dimensions, including both symmetry-protected topological (SPT)
+    phases and intrinsic topological orders. For SPT phases, prove the completeness
+    of the classification by group cohomology / cobordism (for bosonic systems) and
+    K-theory / free-fermion classification (for fermionic systems). For intrinsic
+    topological orders, establish a complete classification framework using modular
+    tensor categories (in 2D) and higher-category theory (in 3D and above), and prove
+    that every consistent mathematical structure is physically realizable.
+  informal: >
+    Quantum matter can exist in exotic phases characterized by topological properties
+    rather than conventional symmetry breaking. Completely classifying all possible
+    such phases of matter is a grand challenge at the interface of physics and mathematics.
+
+why_it_matters: >
+  Topological phases are a new paradigm in condensed matter physics with applications
+  to quantum computing, quantum error correction, and fundamental physics. A complete
+  classification would be a major achievement in both physics and mathematics.
+
+prerequisites:
+  - condensed matter theory
+  - topological quantum field theory
+  - category theory
+  - algebraic topology
+  - quantum many-body theory
+
+dates:
+  first_stated: 1989
+
+sources:
+  canonical:
+    - source_id: src_wen_1989
+      kind: paper
+      title: "Vacuum degeneracy of chiral spin states in compactified space"
+      url: "https://doi.org/10.1103/PhysRevB.40.7387"
+      year: 1989
+      locator: "Physical Review B 40, 7387"
+  status_evidence:
+    - source_id: src_wen_2017_review
+      kind: survey
+      title: "Colloquium: Zoo of quantum-topological phases of matter"
+      url: "https://doi.org/10.1103/RevModPhys.89.041004"
+      year: 2017
+
+partial_results:
+  - summary: "The ten-fold way classification of free-fermion SPT phases was established by Kitaev and Ryu et al."
+    year: 2009
+  - summary: "Chen, Gu, Liu, and Wen proposed group cohomology classification of bosonic SPT phases."
+    year: 2013
+  - summary: "Classification of 2D topological orders by modular tensor categories is well-developed but completeness in 3D remains open."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.condensed-matter-theory.fractional-quantum-hall-classification"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.92
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.55
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Providing a complete mathematical classification of topological phases of matter in arbitrary dimensions.
+  decomposition:
+    - "Complete the classification of SPT phases beyond group cohomology"
+    - "Classify intrinsic topological orders in 3D using higher-category theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Erdos Similarity Problem"
+statement: "Does there exist an infinite set S such that every measurable set of positive measure contains an affine copy of S?"
+source_id: "src_erdos_1975"
+source_url: "https://en.wikipedia.org/wiki/Erd%C5%91s_similarity_problem"
+domain_hint: "mathematics"
+subdomain_hint: "measure-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

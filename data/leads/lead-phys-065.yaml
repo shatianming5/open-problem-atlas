@@ -1,0 +1,11 @@
+title: "Anomalous Dimensions at Strong Coupling"
+statement: "Can anomalous dimensions of operators in strongly coupled gauge theories be computed exactly beyond the integrable (planar N=4 SYM) limit?"
+source_id: "src_beisert_2012"
+source_url: "https://arxiv.org/abs/1012.3982"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Matrix Multiplication Exponent omega=2 Conjecture"
+statement: "Is the exponent of matrix multiplication exactly 2? Recent advances by Duan, Wu, and Zhou brought it below 2.372, but the true value remains open."
+source_id: "src_duan_2023"
+source_url: "https://arxiv.org/abs/2307.07970"
+domain_hint: "mathematics"
+subdomain_hint: "algebraic-complexity"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

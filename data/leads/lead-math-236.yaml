@@ -1,0 +1,11 @@
+title: "Wakamatsu Tilting Conjecture"
+statement: "Every Wakamatsu tilting module is a tilting module (i.e., has finite projective dimension)."
+source_id: "src_wakamatsu_1988"
+source_url: "https://en.wikipedia.org/wiki/Tilting_theory"
+domain_hint: "mathematics"
+subdomain_hint: "homological-algebra"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

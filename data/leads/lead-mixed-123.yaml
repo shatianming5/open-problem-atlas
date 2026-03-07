@@ -1,0 +1,11 @@
+title: "Chern-Simons Theory and Volume Conjecture"
+statement: "Can the Volume Conjecture be proved: that the colored Jones polynomial of a hyperbolic knot determines the hyperbolic volume of its complement?"
+source_id: "src_murakami_2021"
+source_url: "https://arxiv.org/abs/2103.06663"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-topology"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

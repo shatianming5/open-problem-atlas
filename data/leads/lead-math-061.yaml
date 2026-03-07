@@ -1,0 +1,11 @@
+title: "Negami's Planar Cover Conjecture"
+statement: "A connected graph has a finite planar cover if and only if it is projective-planar."
+source_id: "src_negami_1988"
+source_url: "https://en.wikipedia.org/wiki/Negami%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,114 @@
+id: opa.phys.quantum-field-theory.seiberg-witten-theory-completeness
+kind: problem
+title: "Seiberg-Witten Theory Completeness"
+aliases:
+  - "Seiberg-Witten Solution Rigorous Proof"
+  - "N=2 Supersymmetric Yang-Mills Exact Solution"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Rigorously prove the Seiberg-Witten solution of N=2 supersymmetric Yang-Mills
+    theory. Specifically, prove that: (1) the low-energy effective action of N=2 SYM
+    with gauge group SU(N) is exactly determined by a family of algebraic curves
+    (Seiberg-Witten curves) and a meromorphic differential; (2) the exact prepotential
+    F(a) is computed by period integrals on these curves; (3) the theory exhibits
+    electric-magnetic duality (S-duality) at the quantum level; (4) these results hold
+    non-perturbatively, not just as formal power series.
+  informal: >
+    Seiberg and Witten found an "exact solution" to a supersymmetric gauge theory,
+    computing its low-energy physics precisely. But this solution relies on physical
+    assumptions (holomorphy, duality) rather than mathematical proof. Can we make it
+    rigorous?
+
+why_it_matters: >
+  The Seiberg-Witten solution is one of the greatest achievements of theoretical
+  physics, providing exact non-perturbative results in quantum field theory. Making
+  it rigorous would be a landmark in mathematical physics and validate the physical
+  reasoning used to derive it.
+
+prerequisites:
+  - quantum field theory
+  - supersymmetry
+  - algebraic geometry
+  - complex analysis
+  - gauge theory
+
+dates:
+  first_stated: 1994
+
+sources:
+  canonical:
+    - source_id: src_seiberg_witten_1994
+      kind: paper
+      title: "Electric-Magnetic Duality, Monopole Condensation, and Confinement in N=2 Supersymmetric Yang-Mills Theory"
+      url: "https://doi.org/10.1016/0550-3213(94)90124-4"
+      year: 1994
+      locator: "Nuclear Physics B 426, 19-52"
+  status_evidence:
+    - source_id: src_tachikawa_2014
+      kind: textbook
+      title: "N=2 supersymmetric dynamics for pedestrians"
+      url: "https://doi.org/10.1007/978-3-319-08822-8"
+      year: 2014
+
+partial_results:
+  - summary: "Nekrasov computed the instanton partition function, providing strong evidence for the Seiberg-Witten prepotential."
+    year: 2002
+  - summary: "Nekrasov and Okounkov proved that Nekrasov's partition function reproduces the Seiberg-Witten prepotential in the limit."
+    year: 2006
+  - summary: "Rigorous construction of the underlying N=2 SYM theory in 4D remains open."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.constructive-qft-4d"
+    - "opa.phys.mathematical-physics.agt-correspondence-proof"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.45
+  toolability: 0.30
+  formality: 0.55
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Rigorously proving the Seiberg-Witten exact solution of N=2 supersymmetric Yang-Mills theory.
+  decomposition:
+    - "Rigorously construct N=2 SYM as a quantum field theory"
+    - "Prove the prepotential is exactly given by periods of the Seiberg-Witten curve"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

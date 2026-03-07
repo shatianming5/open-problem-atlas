@@ -1,0 +1,11 @@
+title: "Optimal Quantum Algorithms for Search with Structure"
+statement: "Can quantum computers exploit structure in search problems beyond quadratic Grover speedup, such as for backtracking or branch-and-bound?"
+source_id: "src_montanaro_2018"
+source_url: "https://doi.org/10.1145/3313276.3316310"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

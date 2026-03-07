@@ -1,0 +1,119 @@
+id: opa.mathematics.graph-theory.cycle-double-cover-conjecture
+kind: problem
+title: "Cycle Double Cover Conjecture"
+aliases:
+  - "CDC Conjecture"
+  - "Double Cover Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - topological-graph-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every bridgeless graph has a cycle double cover: a collection of cycles such that every
+    edge of the graph appears in exactly two of the cycles. Equivalently, every 2-edge-connected
+    graph can be embedded on some orientable surface such that each face boundary is a cycle.
+  informal: >
+    In any connected graph where removing a single edge never disconnects the graph, it is
+    possible to find a collection of cycles that together cover every edge exactly twice.
+    This is equivalent to saying the graph can be drawn on some surface (like a sphere or torus)
+    so that every face is bounded by a cycle.
+
+why_it_matters: >
+  The cycle double cover conjecture, independently posed by Szekeres (1973) and Seymour (1979),
+  is one of the most important open problems in graph theory. It connects structural graph
+  theory with topological graph theory and surface embeddings. It is related to the Petersen
+  graph and to nowhere-zero flow conjectures.
+
+prerequisites:
+  - graph theory
+  - topological graph theory
+  - matroid theory
+
+dates:
+  first_stated: 1973
+
+sources:
+  canonical:
+    - source_id: src_seymour_1979_cdc
+      kind: paper
+      title: "Sums of circuits"
+      authors:
+        - "Paul Seymour"
+      year: 1979
+    - source_id: src_szekeres_1973
+      kind: paper
+      title: "Polyhedral decompositions of cubic graphs"
+      authors:
+        - "George Szekeres"
+      year: 1973
+      locator: "Bulletin of the Australian Mathematical Society, vol. 8, pp. 367-387"
+  status_evidence:
+    - source_id: src_jaeger_1985
+      kind: survey
+      title: "A survey of the cycle double cover conjecture"
+      authors:
+        - "Francois Jaeger"
+      year: 1985
+
+partial_results:
+  - summary: "The conjecture is known to hold for planar graphs (by the Jordan curve theorem and duality)."
+    year: 1973
+  - summary: "It suffices to prove the conjecture for snarks (cubic graphs with chromatic index 4)."
+    year: 1979
+  - summary: "Huck and Kochol proved the conjecture for graphs embeddable on the torus and projective plane."
+    year: 1995
+  - summary: "The conjecture holds for 4-edge-connected graphs (Jaeger, 1979)."
+    year: 1979
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.72
+  underexplored: 0.40
+  toolability: 0.55
+  formality: 0.80
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The cycle double cover conjecture states that every bridgeless graph has a collection of
+    cycles covering each edge exactly twice. It connects structural graph theory with
+    topological surface embeddings.
+  decomposition:
+    - "Reduction to snarks and cubic graph structure theory"
+    - "Nowhere-zero flow approaches and Tutte's flow conjectures"
+    - "Surface embedding techniques and topological methods"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

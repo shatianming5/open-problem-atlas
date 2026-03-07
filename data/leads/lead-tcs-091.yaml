@@ -1,0 +1,11 @@
+title: "Indistinguishability Obfuscation from Standard Assumptions"
+statement: "Can indistinguishability obfuscation be based on standard, well-studied cryptographic assumptions?"
+source_id: "src_jain_lin_sahai_2021"
+source_url: "https://doi.org/10.1145/3406325.3451093"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

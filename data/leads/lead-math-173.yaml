@@ -1,0 +1,11 @@
+title: "Mixing Time of Glauber Dynamics for Ising Model"
+statement: "Determine the exact mixing time of Glauber dynamics for the Ising model on Z^d at all temperatures, especially near criticality."
+source_id: "src_lubetzky_2012"
+source_url: "https://arxiv.org/abs/1205.0542"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

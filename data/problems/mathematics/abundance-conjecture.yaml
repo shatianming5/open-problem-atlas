@@ -1,0 +1,120 @@
+id: opa.mathematics.differential-geometry.abundance-conjecture
+kind: problem
+title: "Abundance Conjecture"
+aliases:
+  - "Log Abundance Conjecture"
+  - "Abundance Conjecture in Birational Geometry"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - differential-geometry
+  - complex-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let X be a smooth projective variety (or more generally a projective
+    variety with at most terminal singularities) over an algebraically closed
+    field. If the canonical divisor K_X is nef (non-negatively intersecting
+    every curve), then K_X is semi-ample, meaning some positive multiple mK_X
+    is base-point free and defines a morphism. In particular, the Kodaira
+    dimension equals the numerical Kodaira dimension: kappa(X) = nu(X).
+  informal: >
+    In algebraic geometry, the canonical divisor of a variety measures its
+    intrinsic curvature. The abundance conjecture says that if this curvature
+    is "non-negative in a weak sense" (nef), then it is actually "effective
+    enough" to define a meaningful geometric map -- the variety fibers nicely
+    over a lower-dimensional space determined by its curvature.
+
+why_it_matters: >
+  The abundance conjecture is one of the most important open problems in
+  birational geometry and the minimal model program (MMP). The MMP reduces the
+  study of algebraic varieties to minimal models, but the usefulness of minimal
+  models depends on abundance. Without it, the MMP remains incomplete. The
+  conjecture is known in dimensions up to 3 (Miyaoka, Kawamata) but open in
+  dimension 4 and above.
+
+prerequisites:
+  - algebraic geometry
+  - birational geometry
+  - minimal model program
+  - sheaf cohomology
+
+dates:
+  first_stated: 1980
+
+sources:
+  canonical:
+    - source_id: src_kawamata_1985
+      kind: paper
+      title: "Pluricanonical systems on minimal algebraic varieties"
+      authors:
+        - "Yujiro Kawamata"
+      year: 1985
+      locator: "Inventiones Mathematicae, vol. 79, pp. 567-588"
+  status_evidence:
+    - source_id: src_lazarsfeld_2004
+      kind: textbook
+      title: "Positivity in Algebraic Geometry"
+      authors:
+        - "Robert Lazarsfeld"
+      year: 2004
+      locator: "Springer, Ergebnisse der Mathematik, vol. 48-49"
+
+partial_results:
+  - summary: "Miyaoka proved abundance for surfaces (dimension 2)."
+    year: 1988
+  - summary: "Kawamata, Miyaoka, and Mori proved abundance for threefolds (dimension 3)."
+    year: 1994
+  - summary: "Birkar, Cascini, Hacon, and McKernan proved the existence of minimal models for varieties of general type in all dimensions."
+    year: 2010
+  - summary: "Abundance in dimension 4 remains open; partial results exist for special classes (e.g., Kodaira dimension 0)."
+    year: 2020
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - macaulay2
+
+machine_generated:
+  summary: >
+    The abundance conjecture predicts that nef canonical divisors on minimal
+    varieties are semi-ample. Known in dimensions up to 3, it is a critical
+    missing piece of the minimal model program in higher dimensions.
+  decomposition:
+    - "Numerical to Kodaira dimension equality (nu = kappa)"
+    - "Non-vanishing conjecture as a prerequisite"
+    - "Reduction to specific Kodaira dimension cases"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

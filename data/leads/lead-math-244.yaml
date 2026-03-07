@@ -1,0 +1,11 @@
+title: "Grothendieck's Derivator Conjecture"
+statement: "Derivators provide a sufficient framework for homotopical algebra, and every combinatorial model category gives rise to a derivator."
+source_id: "src_grothendieck_1991"
+source_url: "https://en.wikipedia.org/wiki/Derivator"
+domain_hint: "mathematics"
+subdomain_hint: "category-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Willmore Conjecture"
+statement: "The Willmore energy of any torus immersed in R^3 is at least 2*pi^2, achieved by the Clifford torus."
+source_id: "src_willmore_1965"
+source_url: "https://en.wikipedia.org/wiki/Willmore_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "differential-geometry"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Documentation
+    url: https://github.com/OpenProblemAtlas/open-problem-atlas/tree/main/docs
+    about: Read the project documentation before submitting
+  - name: Discussions
+    url: https://github.com/OpenProblemAtlas/open-problem-atlas/discussions
+    about: Ask questions and discuss ideas

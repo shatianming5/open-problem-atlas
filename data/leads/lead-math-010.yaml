@@ -1,0 +1,11 @@
+title: "Collatz Conjecture"
+statement: "For every positive integer n, the sequence defined by iterating n -> n/2 (if even) or n -> 3n+1 (if odd) eventually reaches 1."
+source_id: "src_collatz_1937"
+source_url: "https://en.wikipedia.org/wiki/Collatz_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

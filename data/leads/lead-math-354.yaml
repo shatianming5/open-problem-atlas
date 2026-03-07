@@ -1,0 +1,11 @@
+title: "Optimal Transport Map Regularity"
+statement: "Under what conditions on the cost function and domains is the optimal transport map smooth?"
+source_id: "src_brenier_1991"
+source_url: "https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)"
+domain_hint: "mathematics"
+subdomain_hint: "numerical-analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

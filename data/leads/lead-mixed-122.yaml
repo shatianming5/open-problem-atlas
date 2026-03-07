@@ -1,0 +1,11 @@
+title: "Khot-Minzer-Safra 2-to-2 Games Theorem Extensions"
+statement: "Can the Khot-Minzer-Safra 2-to-2 games theorem be strengthened to fully resolve the Unique Games Conjecture?"
+source_id: "src_khot_2023"
+source_url: "https://arxiv.org/abs/2306.09111"
+domain_hint: "theoretical-cs"
+subdomain_hint: "hardness-of-approximation"
+confidence: 0.60
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,114 @@
+id: opa.tcs.quantum-computing.qma-vs-qcma
+kind: problem
+title: "QMA vs QCMA"
+aliases:
+  - "Quantum proofs vs classical proofs for quantum verifiers"
+  - "QMA = QCMA?"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    QMA is the class of problems verifiable by a quantum computer given a quantum proof
+    (witness), while QCMA is the same but restricted to classical proofs. Does QMA
+    equal QCMA? That is, does allowing quantum proofs give strictly more verification
+    power than classical proofs, when the verifier is quantum?
+  informal: >
+    Do quantum proofs (witnesses) provide extra power compared to classical proofs
+    when verified by a quantum computer? Can every quantum proof be replaced by a
+    classical one?
+
+why_it_matters: >
+  The QMA vs QCMA question probes whether quantum information provides inherent
+  advantages for proof verification. It is analogous to fundamental questions about
+  the nature of quantum information and has implications for quantum computation
+  and quantum verification protocols.
+
+prerequisites:
+  - quantum complexity theory
+  - QMA and QCMA
+  - quantum verification
+  - local Hamiltonians
+
+dates:
+  first_stated: 2003
+
+sources:
+  canonical:
+    - source_id: src_aharonov_naveh_2002
+      kind: paper
+      title: "Quantum NP - A Survey"
+      authors:
+        - "Dorit Aharonov"
+        - "Tomer Naveh"
+      url: "https://arxiv.org/abs/quant-ph/0210077"
+      year: 2002
+  status_evidence:
+    - source_id: src_aaronson_kuperberg_2007
+      kind: paper
+      title: "Quantum versus Classical Proofs and Advice"
+      authors:
+        - "Scott Aaronson"
+        - "Greg Kuperberg"
+      url: "https://doi.org/10.4086/toc.2007.v003a007"
+      year: 2007
+
+partial_results:
+  - summary: "Aaronson and Kuperberg (2007) constructed an oracle separating QMA from QCMA."
+    year: 2007
+  - summary: "No unconditional separation or equality result is known between QMA and QCMA."
+    year: 2007
+  - summary: "Natarajan and Nirkhe (2023) showed oracle separation using ideas from quantum error correction."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.25
+  formality: 0.90
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    QMA vs QCMA asks whether quantum proofs are more powerful than classical proofs
+    for quantum verifiers, probing the nature of quantum information.
+  decomposition:
+    - "Prove an unconditional separation or equivalence between QMA and QCMA"
+    - "Identify natural QMA problems that are not known to be in QCMA"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

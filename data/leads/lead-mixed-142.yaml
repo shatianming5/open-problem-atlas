@@ -1,0 +1,11 @@
+title: "Obfuscation from Standard Assumptions"
+statement: "Can indistinguishability obfuscation be based on standard polynomial hardness assumptions, following the Jain-Lin-Sahai construction from well-studied problems?"
+source_id: "src_jain_2021"
+source_url: "https://arxiv.org/abs/2108.06824"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.62
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

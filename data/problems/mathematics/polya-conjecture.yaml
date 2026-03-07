@@ -1,0 +1,112 @@
+id: opa.mathematics.number-theory.polya-conjecture
+kind: problem
+title: "Polya Conjecture on Dirichlet Characters"
+aliases:
+  - "Polya-Vinogradov Improvement Conjecture"
+  - "Character Sum Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - probability
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a non-principal Dirichlet character chi modulo q, the maximum of |sum_{n<=x} chi(n)|
+    over all x should be bounded by O(sqrt(q) * log log q). The classical Polya-Vinogradov
+    inequality gives the bound O(sqrt(q) * log q). The conjecture asserts that the log q factor
+    can be replaced by log log q, at least for primitive characters.
+  informal: >
+    Sums of Dirichlet characters (which generalize the Legendre symbol) should be much smaller
+    than what the classical Polya-Vinogradov inequality proves. The conjecture sharpens the
+    best known general bound.
+
+why_it_matters: >
+  Improving the Polya-Vinogradov inequality is a central goal in analytic number theory.
+  Better character sum bounds would improve results on the least quadratic residue, the
+  distribution of primes in arithmetic progressions, and many sieve-theoretic applications.
+  Montgomery and Vaughan proved the conjectured bound assuming GRH.
+
+prerequisites:
+  - analytic number theory
+  - character sums
+  - L-functions
+
+dates:
+  first_stated: 1918
+
+sources:
+  canonical:
+    - source_id: src_polya_1918
+      kind: paper
+      title: "Uber die Verteilung der quadratischen Reste und Nichtreste"
+      authors:
+        - "George Polya"
+      year: 1918
+  status_evidence:
+    - source_id: src_granville_soundararajan_2007
+      kind: paper
+      title: "Large character sums: pretentious characters and the Polya-Vinogradov theorem"
+      authors:
+        - "Andrew Granville"
+        - "Kannan Soundararajan"
+      url: "https://doi.org/10.1090/S0894-0347-06-00536-4"
+      year: 2007
+
+partial_results:
+  - summary: "Montgomery and Vaughan proved the O(sqrt(q) log log q) bound assuming GRH."
+    year: 1977
+  - summary: "Granville and Soundararajan improved the unconditional bound for characters of odd order."
+    year: 2007
+  - summary: "Goldmakher proved the conjectured bound for characters of fixed order."
+    year: 2012
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.45
+  toolability: 0.35
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The conjecture sharpens the Polya-Vinogradov inequality for character sums from
+    O(sqrt(q) log q) to O(sqrt(q) log log q). Proved under GRH and for fixed-order characters.
+  decomposition:
+    - "Pretentious number theory and multiplicative functions"
+    - "GRH-conditional and unconditional approaches"
+    - "Connections to least quadratic residue bounds"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

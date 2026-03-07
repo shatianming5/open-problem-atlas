@@ -1,0 +1,119 @@
+id: opa.mathematics.operator-algebras.dixmier-problem
+kind: problem
+title: "Dixmier Problem"
+aliases:
+  - "Dixmier's Unitarizability Problem"
+  - "Are Unitarizable Groups Amenable?"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - operator-algebras
+  - representation-theory
+
+problem_type: open_question
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Is every countable discrete group G whose bounded representations on Hilbert
+    space are all unitarizable (i.e., similar to unitary representations)
+    necessarily amenable? Equivalently, if every uniformly bounded representation
+    pi: G -> B(H) is similar to a unitary representation, must G be amenable?
+    The converse (amenable implies unitarizable) was established by Day and
+    Dixmier.
+  informal: >
+    A group is "unitarizable" if every way of representing it as bounded
+    operators on a Hilbert space can be conjugated to act by unitary (distance-
+    preserving) operators. Amenable groups are always unitarizable. The Dixmier
+    problem asks the converse: is amenability the only reason a group could be
+    unitarizable?
+
+why_it_matters: >
+  The Dixmier problem, posed in 1950, is a fundamental question connecting
+  geometric group theory, operator algebras, and representation theory. It
+  probes the deep relationship between the algebraic/geometric property of
+  amenability and the analytic property of unitarizability. It is related to
+  several other important problems about bounded cohomology and derivations.
+
+prerequisites:
+  - functional analysis
+  - operator algebras
+  - representation theory
+  - geometric group theory
+
+dates:
+  first_stated: 1950
+
+sources:
+  canonical:
+    - source_id: src_dixmier_1950
+      kind: paper
+      title: "Les moyennes invariantes dans les semi-groupes et leurs applications"
+      authors:
+        - "Jacques Dixmier"
+      year: 1950
+      locator: "Acta Scientiarum Mathematicarum (Szeged), vol. 12, pp. 213-227"
+  status_evidence:
+    - source_id: src_pisier_2005
+      kind: survey
+      title: "Are unitarizable groups amenable?"
+      authors:
+        - "Gilles Pisier"
+      year: 2005
+      locator: "Infinite Groups: Geometric, Combinatorial and Dynamical Aspects, Progress in Math., vol. 248, pp. 323-362"
+
+partial_results:
+  - summary: "Day and Dixmier proved that amenable groups are unitarizable."
+    year: 1950
+  - summary: "Ehrenpreis and Mautner showed non-amenable groups can have non-unitarizable representations."
+    year: 1955
+  - summary: "Pisier showed that the answer is affirmative if the similarity degree is at most 2."
+    year: 2001
+  - summary: "Monod and Ozawa proved the conjecture for groups acting on CAT(0) cube complexes under certain conditions."
+    year: 2010
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.45
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    The Dixmier problem asks whether unitarizable discrete groups are
+    necessarily amenable. The converse is known, but the forward direction
+    remains open since 1950.
+  decomposition:
+    - "Bounded cohomology and derivation problems for group C*-algebras"
+    - "Similarity degree and Kadison's similarity problem"
+    - "Geometric group theory approaches to non-amenable groups"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

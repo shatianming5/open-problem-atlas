@@ -1,0 +1,11 @@
+title: "Polynomial Method in Incidence Geometry"
+statement: "Can the polynomial partitioning method of Guth and Katz be extended to resolve the unit distance problem in the plane?"
+source_id: "src_guth_2022"
+source_url: "https://arxiv.org/abs/2203.01523"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorial-geometry"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

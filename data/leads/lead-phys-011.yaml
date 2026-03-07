@@ -1,0 +1,11 @@
+title: "Quantum Error Correction Threshold for Surface Code"
+statement: "What is the exact error threshold for the surface code under realistic noise models including correlated and non-Pauli errors?"
+source_id: "src_fowler_2012"
+source_url: "https://arxiv.org/abs/1208.0928"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

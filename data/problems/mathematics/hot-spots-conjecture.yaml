@@ -1,0 +1,112 @@
+id: opa.mathematics.differential-equations.hot-spots-conjecture
+kind: problem
+title: "Hot Spots Conjecture"
+aliases:
+  - "Rauch's Hot Spots Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - differential-equations
+  - functional-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a bounded, connected planar domain D with smooth boundary, the second Neumann eigenfunction
+    of the Laplacian attains its maximum and minimum on the boundary of D. Equivalently, if
+    heat diffuses in D with insulating boundary conditions, the hottest and coldest points
+    eventually migrate to the boundary for generic initial conditions.
+  informal: >
+    If you heat a flat, insulated metal plate, the hottest and coldest spots will eventually
+    end up on the boundary, not in the interior. This is conjectured to hold for all convex
+    domains, but the general case for simply connected domains is open.
+
+why_it_matters: >
+  The hot spots conjecture, posed by J. Rauch (1974), lies at the intersection of PDE theory,
+  spectral geometry, and probability. It has stimulated research on nodal domains, probabilistic
+  coupling methods, and spectral properties of the Laplacian. It remains open even for general
+  simply connected planar domains.
+
+prerequisites:
+  - partial differential equations
+  - spectral theory
+  - Riemannian geometry
+  - probability (reflected Brownian motion)
+
+dates:
+  first_stated: 1974
+
+sources:
+  canonical:
+    - source_id: src_rauch_1974
+      kind: paper
+      title: "Five problems: an introduction to the qualitative theory of partial differential equations"
+      authors:
+        - "Jeffrey Rauch"
+      year: 1974
+  status_evidence:
+    - source_id: src_steinerberger_2021
+      kind: paper
+      title: "Hot Spots in Convex Domains are in the Tips of the Boundary"
+      authors:
+        - "Stefan Steinerberger"
+      url: "https://doi.org/10.1007/s00220-020-03868-2"
+      year: 2021
+
+partial_results:
+  - summary: "Proved for convex domains by Judge and Mondal (2020), building on earlier work of Jerison-Nadirashvili and Atar-Burdzy."
+    year: 2020
+  - summary: "Proved for lip domains, thin domains, and domains with one axis of symmetry."
+    year: 2005
+  - summary: "Burdzy and Werner found a counterexample for domains with holes (not simply connected)."
+    year: 1999
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.45
+  toolability: 0.60
+  formality: 0.80
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The hot spots conjecture predicts extrema of the second Neumann eigenfunction lie on the boundary.
+    Proved for convex domains; open for general simply connected planar domains.
+  decomposition:
+    - "Spectral theory and nodal domain analysis"
+    - "Probabilistic coupling of reflected Brownian motions"
+    - "Geometric and analytic approaches for non-convex domains"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

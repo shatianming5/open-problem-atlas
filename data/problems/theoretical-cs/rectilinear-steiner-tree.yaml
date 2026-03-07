@@ -1,0 +1,114 @@
+id: opa.tcs.computational-geometry.rectilinear-steiner-tree
+kind: problem
+title: "Rectilinear Steiner Tree Problem"
+aliases:
+  - "Rectilinear Steiner minimum tree"
+  - "VLSI routing Steiner tree"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - computational-geometry
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    The rectilinear Steiner tree problem asks for the shortest tree connecting a given
+    set of points in the plane using only horizontal and vertical line segments, where
+    additional Steiner points may be introduced. What is the best polynomial-time
+    approximation ratio achievable? The current best is a PTAS by Arora (1998), but
+    can the exact problem be solved faster in practice, and what are tight bounds for
+    specific approximation schemes?
+  informal: >
+    What is the shortest way to connect a set of points using only horizontal and
+    vertical lines, when we are allowed to add extra junction points? This problem
+    arises in VLSI chip design.
+
+why_it_matters: >
+  The rectilinear Steiner tree problem is NP-hard and has direct applications in
+  VLSI circuit design and network routing. Understanding its approximability and
+  practical solvability is important for chip design optimization.
+
+prerequisites:
+  - Steiner tree problems
+  - rectilinear geometry
+  - NP-hardness
+  - approximation algorithms
+
+dates:
+  first_stated: 1977
+
+sources:
+  canonical:
+    - source_id: src_garey_johnson_1977
+      kind: paper
+      title: "The Rectilinear Steiner Tree Problem is NP-Complete"
+      authors:
+        - "Michael R. Garey"
+        - "David S. Johnson"
+      url: "https://doi.org/10.1137/0132071"
+      year: 1977
+  status_evidence:
+    - source_id: src_arora_1998
+      kind: paper
+      title: "Polynomial Time Approximation Schemes for Euclidean Traveling Salesman and Other Geometric Problems"
+      authors:
+        - "Sanjeev Arora"
+      url: "https://doi.org/10.1145/290179.290180"
+      year: 1998
+
+partial_results:
+  - summary: "Garey and Johnson (1977) proved the problem is NP-complete."
+    year: 1977
+  - summary: "Arora (1998) gave a PTAS for the Euclidean and rectilinear Steiner tree in fixed dimensions."
+    year: 1998
+  - summary: "The Steiner ratio conjecture (ratio of Steiner tree to MST is at least 2/3 for rectilinear) was proved by Hwang (1976)."
+    year: 1976
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.computational-geometry.art-gallery-complexity"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The rectilinear Steiner tree problem is NP-hard with a PTAS known, but practical
+    exact algorithms and tighter approximation bounds remain active areas of research.
+  decomposition:
+    - "Develop faster PTAS implementations for practical VLSI routing"
+    - "Determine the best achievable running time for (1+epsilon)-approximation"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

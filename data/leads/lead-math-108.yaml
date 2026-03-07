@@ -1,0 +1,11 @@
+title: "Corona Problem in Several Variables"
+statement: "Does the corona theorem hold for H^infinity of the polydisk or the ball in C^n for n >= 2?"
+source_id: "src_carleson_1962"
+source_url: "https://en.wikipedia.org/wiki/Corona_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

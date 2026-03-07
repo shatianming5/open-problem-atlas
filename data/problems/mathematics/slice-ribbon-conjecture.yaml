@@ -1,0 +1,123 @@
+id: opa.mathematics.geometric-topology.slice-ribbon-conjecture
+kind: problem
+title: "Slice-Ribbon Conjecture"
+aliases:
+  - "Fox's Slice-Ribbon Conjecture"
+  - "Slice-Ribbon Problem for Knots"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - geometric-topology
+  - differential-geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every slice knot is a ribbon knot. A knot K in S^3 is slice if it
+    bounds a smoothly embedded disk D^2 in the 4-ball B^4. It is ribbon
+    if it bounds an immersed disk in S^3 whose only singularities are
+    "ribbon singularities" (the disk passes through itself in arcs, with
+    no "clasp" singularities). The conjecture asserts that these two
+    conditions are equivalent.
+  informal: >
+    A knot is "slice" if it can bound a smooth disk in 4-dimensional space.
+    A knot is "ribbon" if it can bound a disk that crosses itself only in
+    a simple way (ribbon crossings). The conjecture says these two notions
+    are the same: any knot that bounds a disk in 4D can do so without
+    complicated self-intersections.
+
+why_it_matters: >
+  The slice-ribbon conjecture, posed by Ralph Fox in 1962, is one of the
+  most important open problems in 4-dimensional topology and knot theory.
+  It connects 3-dimensional knot invariants (ribbon structure) to
+  4-dimensional smooth topology (slice condition). Its resolution would
+  clarify the relationship between topological and smooth categories in
+  dimension 4, and it relates to handle decompositions of 4-manifolds.
+
+prerequisites:
+  - knot theory
+  - 4-manifold topology
+  - smooth topology
+  - algebraic topology
+
+dates:
+  first_stated: 1962
+
+sources:
+  canonical:
+    - source_id: src_fox_1962
+      kind: paper
+      title: "Some problems in knot theory"
+      authors:
+        - "Ralph Fox"
+      year: 1962
+      locator: "Topology of 3-Manifolds and Related Topics, Prentice-Hall, pp. 168-176"
+  status_evidence:
+    - source_id: src_gompf_scharlemann_2010
+      kind: survey
+      title: "Fibered knots and potential counterexamples to the Property 2R and Slice-Ribbon Conjectures"
+      authors:
+        - "Robert Gompf"
+        - "Martin Scharlemann"
+        - "Abigail Thompson"
+      year: 2010
+      locator: "Geometry & Topology, vol. 14, pp. 2305-2347"
+
+partial_results:
+  - summary: "Casson and Gordon developed obstructions showing many knots are not slice, aiding in the study of the conjecture."
+    year: 1986
+  - summary: "Lisca verified the conjecture for 2-bridge knots."
+    year: 2007
+  - summary: "Greene and Jabuka verified the conjecture for 3-strand pretzel knots."
+    year: 2011
+  - summary: "Agol and Piccirillo's work on the Conway knot and slice-ribbon connections generated renewed interest."
+    year: 2020
+
+relations:
+  related:
+    - opa.mathematics.topology.smooth-4d-poincare-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The slice-ribbon conjecture asserts that every slice knot (bounding a
+    smooth disk in B^4) is ribbon (bounding a disk with only ribbon
+    singularities). It is a central problem in 4-dimensional topology.
+  decomposition:
+    - "Knot invariant obstructions to sliceness vs. ribbonness"
+    - "Handle decompositions and 4-manifold techniques"
+    - "Verification for specific families of knots"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "NC vs P Problem"
+statement: "Is P = NC? Can every polynomial-time solvable problem be solved efficiently in parallel with a polylogarithmic number of rounds?"
+source_id: "src_greenlaw_2020"
+source_url: "https://cstheory.stackexchange.com/questions/36899"
+domain_hint: "theoretical-cs"
+subdomain_hint: "parallel-complexity"
+confidence: 0.42
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

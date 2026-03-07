@@ -1,0 +1,11 @@
+title: "Lower Bounds for Dynamic Graph Problems"
+statement: "Can we prove unconditional polynomial lower bounds for dynamic graph problems such as dynamic shortest paths?"
+source_id: "src_patrascu_demaine_2006"
+source_url: "https://doi.org/10.1137/1.9781611973075.75"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

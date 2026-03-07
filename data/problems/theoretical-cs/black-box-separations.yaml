@@ -1,0 +1,116 @@
+id: opa.tcs.cryptography.black-box-separations
+kind: problem
+title: "Black-Box Separations of Cryptographic Primitives"
+aliases:
+  - "Crypto primitive separations"
+  - "Black-box impossibility in cryptography"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - cryptography
+
+problem_type: conjecture
+answer_type: classification_list
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can the known black-box separations between cryptographic primitives be
+    strengthened or circumvented? Specifically, which implications between primitives
+    (e.g., OWF -> PKE, OWF -> OT, CRH -> OWF) can be established via non-black-box
+    techniques, and which represent genuine impossibilities?
+  informal: >
+    We know many cryptographic tools cannot be built from simpler ones using standard
+    "black-box" techniques. But are these limitations fundamental, or can clever
+    non-standard techniques overcome them?
+
+why_it_matters: >
+  Black-box separations map out the landscape of cryptographic assumptions. Understanding
+  which separations are genuine impossibilities versus artifacts of proof techniques
+  would fundamentally reshape our understanding of the minimal assumptions needed
+  for various cryptographic tasks.
+
+prerequisites:
+  - black-box reductions
+  - oracle separations
+  - cryptographic primitives hierarchy
+  - non-black-box techniques
+
+dates:
+  first_stated: 1989
+
+sources:
+  canonical:
+    - source_id: src_reingold_trevisan_vadhan_2004
+      kind: paper
+      title: "Notions of Reducibility between Cryptographic Primitives"
+      authors:
+        - "Omer Reingold"
+        - "Luca Trevisan"
+        - "Salil Vadhan"
+      url: "https://doi.org/10.1007/978-3-540-24638-1_1"
+      year: 2004
+  status_evidence:
+    - source_id: src_barak_2001
+      kind: paper
+      title: "How to Go Beyond the Black-Box Simulation Barrier"
+      authors:
+        - "Boaz Barak"
+      url: "https://doi.org/10.1109/SFCS.2001.959908"
+      year: 2001
+
+partial_results:
+  - summary: "Impagliazzo and Rudich (1989) initiated the study of black-box separations, showing OWF does not imply key exchange in a black-box way."
+    year: 1989
+  - summary: "Barak (2001) gave the first non-black-box zero-knowledge proof, showing non-black-box techniques can overcome some barriers."
+    year: 2001
+  - summary: "Simon (1998) proved that CRH cannot be black-box constructed from OWF."
+    year: 1998
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.cryptography.public-key-from-owf"
+    - "opa.tcs.cryptography.existence-of-one-way-functions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.20
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Determining which black-box separations between cryptographic primitives represent
+    genuine impossibilities and which can be overcome by non-black-box techniques is
+    a central question in theoretical cryptography.
+  decomposition:
+    - "Develop non-black-box constructions that bypass known separations"
+    - "Prove stronger separation results that apply to non-black-box techniques"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

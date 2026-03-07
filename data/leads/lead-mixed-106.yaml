@@ -1,0 +1,11 @@
+title: "Cycle Double Cover Conjecture"
+statement: "Does every bridgeless graph have a family of cycles covering every edge exactly twice?"
+source_id: "src_jaeger_2020"
+source_url: "https://mathoverflow.net/questions/174350"
+domain_hint: "mathematics"
+subdomain_hint: "graph-theory"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

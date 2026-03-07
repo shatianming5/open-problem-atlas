@@ -1,0 +1,11 @@
+title: "Higher-Dimensional Black Hole Stability"
+statement: "Are higher-dimensional black objects (black strings, black rings) stable under gravitational perturbations, and what is the endpoint of the Gregory-Laflamme instability?"
+source_id: "src_emparan_2008"
+source_url: "https://arxiv.org/abs/0801.3471"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

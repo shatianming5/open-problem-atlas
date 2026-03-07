@@ -1,0 +1,122 @@
+id: opa.mathematics.topology.smooth-4d-poincare-conjecture
+kind: problem
+title: "Smooth 4-Dimensional Poincare Conjecture"
+aliases:
+  - "Smooth Poincare Conjecture in Dimension 4"
+  - "SPC4"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - topology
+  - differential-topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every closed smooth 4-manifold that is homeomorphic to the 4-sphere S^4 is also
+    diffeomorphic to S^4. Equivalently, there are no exotic smooth structures on S^4.
+  informal: >
+    The standard 4-dimensional sphere has a natural "smooth structure" that lets us do calculus
+    on it. The conjecture asks: is this the only way to make the 4-sphere smooth? Unlike other
+    dimensions (where the answer is known), the 4-dimensional case remains wide open.
+
+why_it_matters: >
+  The smooth 4-dimensional Poincare conjecture is the last remaining case of the generalized
+  Poincare conjecture in the smooth category. Dimension 4 is uniquely difficult in topology:
+  it is the only dimension where the smooth and topological categories diverge dramatically
+  (as shown by the existence of exotic R^4s). Its resolution would be a landmark in
+  4-manifold topology.
+
+prerequisites:
+  - differential topology
+  - 4-manifold theory
+  - handle decomposition
+  - gauge theory
+  - Kirby calculus
+
+dates:
+  first_stated: 1982
+
+sources:
+  canonical:
+    - source_id: src_freedman_1982
+      kind: paper
+      title: "The topology of four-dimensional manifolds"
+      authors:
+        - "Michael Freedman"
+      year: 1982
+      locator: "Journal of Differential Geometry, vol. 17, pp. 357-453"
+    - source_id: src_kirby_1997
+      kind: problem_list
+      title: "Problems in low-dimensional topology"
+      authors:
+        - "Rob Kirby"
+      year: 1997
+      locator: "Problem 4.18"
+  status_evidence:
+    - source_id: src_scorpan_2005
+      kind: textbook
+      title: "The Wild World of 4-Manifolds"
+      authors:
+        - "Alexandru Scorpan"
+      year: 2005
+
+partial_results:
+  - summary: "Freedman proved the topological Poincare conjecture in dimension 4: every closed topological 4-manifold homotopy equivalent to S^4 is homeomorphic to S^4."
+    year: 1982
+  - summary: "Smale proved the smooth Poincare conjecture in dimensions >= 5."
+    year: 1961
+  - summary: "The existence of exotic smooth structures on R^4 (Donaldson, Freedman) shows dimension 4 is special."
+    year: 1983
+  - summary: "Gluck twists of certain 2-knots in S^4 provide potential counterexamples, but none have been verified."
+    year: 1962
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.40
+  toolability: 0.25
+  formality: 0.80
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The smooth 4D Poincare conjecture asks whether every smooth 4-manifold homeomorphic to
+    S^4 is also diffeomorphic to it. It is the last unsettled case of the generalized smooth
+    Poincare conjecture, uniquely difficult due to exotic phenomena in dimension 4.
+  decomposition:
+    - "Gauge-theoretic invariants (Donaldson, Seiberg-Witten) for detecting exotic structures"
+    - "Handle decomposition and Kirby calculus approaches"
+    - "Connections to exotic R^4 constructions and Gluck twists"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Regge Limit of QCD"
+statement: "What is the exact behavior of scattering amplitudes in QCD at high energies in the Regge limit, including pomeron and odderon contributions?"
+source_id: "src_lipatov_1997"
+source_url: "https://arxiv.org/abs/hep-ph/9706312"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

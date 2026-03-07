@@ -1,0 +1,115 @@
+name: Release Monthly Snapshot
+
+on:
+  schedule:
+    - cron: '0 0 1 * *'  # First day of each month
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  snapshot:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema
+
+      - name: Validate data before release
+        run: python -m review.validators.validate_all
+
+      - name: Generate snapshot
+        run: |
+          python -c "
+          import yaml, json, pathlib, datetime
+
+          snapshot_date = datetime.date.today().isoformat()
+          snapshot_dir = pathlib.Path('data/snapshots') / snapshot_date
+          snapshot_dir.mkdir(parents=True, exist_ok=True)
+
+          # Collect all problems
+          problems = []
+          for f in sorted(pathlib.Path('data/problems').rglob('*.yaml')):
+              data = yaml.safe_load(f.read_text())
+              if data:
+                  problems.append(data)
+
+          # Write JSON snapshot
+          with open(snapshot_dir / 'problems.json', 'w') as f:
+              json.dump({'snapshot_date': snapshot_date, 'count': len(problems), 'problems': problems}, f, indent=2, ensure_ascii=False)
+
+          print(f'Snapshot created: {len(problems)} problems')
+          "
+
+      - name: Generate diff changelog
+        run: |
+          python -c "
+          import json, pathlib, glob
+
+          today = __import__('datetime').date.today().isoformat()
+          snapshot_dir = pathlib.Path('data/snapshots')
+          current = snapshot_dir / today / 'problems.json'
+
+          # Find previous snapshot
+          dirs = sorted([d.name for d in snapshot_dir.iterdir() if d.is_dir() and d.name != today])
+          if not dirs or not current.exists():
+              pathlib.Path('CHANGELOG_DIFF.md').write_text('First snapshot — no previous data to compare.\n')
+              exit(0)
+
+          prev = snapshot_dir / dirs[-1] / 'problems.json'
+          if not prev.exists():
+              pathlib.Path('CHANGELOG_DIFF.md').write_text('Previous snapshot missing — full refresh.\n')
+              exit(0)
+
+          old_data = json.loads(prev.read_text())
+          new_data = json.loads(current.read_text())
+
+          old_ids = {p['id'] for p in old_data.get('problems', [])}
+          new_ids = {p['id'] for p in new_data.get('problems', [])}
+          old_status = {p['id']: p.get('status',{}).get('label','') for p in old_data.get('problems',[])}
+          new_status = {p['id']: p.get('status',{}).get('label','') for p in new_data.get('problems',[])}
+
+          added = new_ids - old_ids
+          removed = old_ids - new_ids
+          changed = [pid for pid in (old_ids & new_ids) if old_status.get(pid) != new_status.get(pid)]
+
+          lines = [f'## Changes since {dirs[-1]}\n']
+          lines.append(f'- Problems: {len(old_ids)} -> {len(new_ids)}')
+          if added:
+              lines.append(f'\n### Added ({len(added)})')
+              for pid in sorted(added):
+                  lines.append(f'- \`{pid}\`')
+          if removed:
+              lines.append(f'\n### Removed ({len(removed)})')
+              for pid in sorted(removed):
+                  lines.append(f'- \`{pid}\`')
+          if changed:
+              lines.append(f'\n### Status Changed ({len(changed)})')
+              for pid in sorted(changed):
+                  lines.append(f'- \`{pid}\`: {old_status[pid]} -> {new_status[pid]}')
+          if not added and not removed and not changed:
+              lines.append('\nNo changes detected.')
+
+          pathlib.Path('CHANGELOG_DIFF.md').write_text('\n'.join(lines) + '\n')
+          print('\n'.join(lines))
+          "
+
+      - name: Create release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          DATE=$(date +%Y-%m-%d)
+          PROBLEM_COUNT=$(find data/problems -name '*.yaml' | wc -l | tr -d ' ')
+          NOTES=$(cat CHANGELOG_DIFF.md)
+          gh release create "snapshot-${DATE}" \
+            --title "Monthly Snapshot ${DATE}" \
+            --notes "Monthly data snapshot with ${PROBLEM_COUNT} verified problems.
+
+          ${NOTES}" \
+            data/snapshots/${DATE}/problems.json

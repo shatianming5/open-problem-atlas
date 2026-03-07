@@ -1,0 +1,11 @@
+title: "Superconvergence Conjecture for FEM"
+statement: "Finite element solutions exhibit superconvergence at specific points for general unstructured meshes."
+source_id: "src_schatz_1998"
+source_url: "https://en.wikipedia.org/wiki/Superconvergence"
+domain_hint: "mathematics"
+subdomain_hint: "numerical-analysis"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

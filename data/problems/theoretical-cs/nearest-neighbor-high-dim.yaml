@@ -1,0 +1,114 @@
+id: opa.tcs.algorithms.nearest-neighbor-high-dim
+kind: problem
+title: "Nearest Neighbor Search in High Dimensions"
+aliases:
+  - "Exact nearest neighbor problem"
+  - "Curse of dimensionality for NN search"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    Given n points in d-dimensional space (with d potentially large), preprocess them
+    into a data structure that answers exact nearest neighbor queries efficiently.
+    Is there a data structure with polynomial space and query time polynomial in d
+    and polylogarithmic in n for exact nearest neighbor search? Or does the curse of
+    dimensionality make this fundamentally impossible?
+  informal: >
+    Can we build efficient data structures for finding the closest point in a dataset
+    when the data lives in a high-dimensional space? Current methods either use
+    exponential space or have query time exponential in the dimension.
+
+why_it_matters: >
+  Nearest neighbor search is fundamental to machine learning, databases, computer vision,
+  and information retrieval. The curse of dimensionality is a major practical barrier,
+  and understanding its theoretical limits would guide algorithm design.
+
+prerequisites:
+  - computational geometry
+  - data structures
+  - locality-sensitive hashing
+  - dimension reduction
+
+dates:
+  first_stated: 1997
+
+sources:
+  canonical:
+    - source_id: src_indyk_motwani_1998
+      kind: paper
+      title: "Approximate Nearest Neighbors: Towards Removing the Curse of Dimensionality"
+      authors:
+        - "Piotr Indyk"
+        - "Rajeev Motwani"
+      url: "https://doi.org/10.1145/276698.276876"
+      year: 1998
+  status_evidence:
+    - source_id: src_andoni_indyk_2008
+      kind: paper
+      title: "Near-Optimal Hashing Algorithms for Approximate Nearest Neighbor in High Dimensions"
+      authors:
+        - "Alexandr Andoni"
+        - "Piotr Indyk"
+      url: "https://doi.org/10.1145/1327452.1327494"
+      year: 2008
+
+partial_results:
+  - summary: "Indyk and Motwani (1998) introduced locality-sensitive hashing for approximate NN with sublinear query time."
+    year: 1998
+  - summary: "For exact NN, all known methods suffer from exponential dependence on dimension in either space or time."
+    year: 2008
+  - summary: "Andoni and Indyk (2008) achieved optimal LSH for approximate NN under l2 distance with c-approximation in n^(1/c^2 + o(1)) time."
+    year: 2008
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases:
+    - "opa.tcs.algorithms.approximate-nn-lower-bounds"
+  related: []
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.50
+  formality: 0.80
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Determining whether efficient exact nearest neighbor search is possible in high
+    dimensions, or whether the curse of dimensionality is unavoidable, remains a
+    fundamental open problem.
+  decomposition:
+    - "Prove lower bounds for exact NN in the cell probe model with polynomial space"
+    - "Develop dimension-independent algorithms for structured point sets"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

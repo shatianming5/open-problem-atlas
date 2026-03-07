@@ -1,0 +1,11 @@
+title: "Hadwiger's Covering Conjecture"
+statement: "Every convex body in R^n can be covered by 2^n translates of its interior."
+source_id: "src_hadwiger_1957"
+source_url: "https://en.wikipedia.org/wiki/Hadwiger_conjecture_(combinatorial_geometry)"
+domain_hint: "mathematics"
+subdomain_hint: "discrete-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

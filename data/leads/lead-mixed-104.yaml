@@ -1,0 +1,11 @@
+title: "Pseudorandom Generators from One-Way Functions"
+statement: "Can Hastad-Impagliazzo-Levin-Luby's PRG construction from any OWF be made with linear seed length or optimal stretch?"
+source_id: "src_haitner_2023"
+source_url: "https://arxiv.org/abs/2305.09898"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

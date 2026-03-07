@@ -1,0 +1,11 @@
+title: "Local Smoothing Conjecture"
+statement: "Solutions to the wave equation gain 1/2 - epsilon derivatives locally in L^p for p > 2."
+source_id: "src_sogge_1991"
+source_url: "https://en.wikipedia.org/wiki/Local_smoothing_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "harmonic-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

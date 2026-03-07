@@ -1,0 +1,11 @@
+title: "Lonely Runner Conjecture"
+statement: "If k runners with pairwise distinct constant speeds run on a circular track, each runner is at some time at distance at least 1/(k+1) from all other runners."
+source_id: "src_wills_1967"
+source_url: "https://en.wikipedia.org/wiki/Lonely_runner_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

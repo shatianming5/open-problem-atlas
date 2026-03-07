@@ -1,0 +1,113 @@
+id: opa.phys.mathematical-physics.agt-correspondence-proof
+kind: problem
+title: "AGT Correspondence Proof"
+aliases:
+  - "Alday-Gaiotto-Tachikawa Correspondence"
+  - "AGT Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - mathematical-physics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove the AGT (Alday-Gaiotto-Tachikawa) correspondence: the Nekrasov instanton
+    partition function of a 4D N=2 superconformal gauge theory of class S (obtained by
+    compactifying the 6D (2,0) theory on a punctured Riemann surface C) equals the
+    conformal block of 2D Toda conformal field theory on C. Specifically, prove that
+    for SU(2) gauge theories, the Nekrasov partition function equals the Virasoro
+    conformal block, and for SU(N) gauge theories, it equals the W_N algebra conformal
+    block. Establish this at the mathematical level of rigor for all genera and numbers
+    of punctures.
+  informal: >
+    The AGT correspondence is a surprising duality between 4D gauge theory partition
+    functions and 2D conformal field theory correlation functions. Despite overwhelming
+    evidence, a mathematical proof is missing.
+
+why_it_matters: >
+  The AGT correspondence is one of the most profound dualities in mathematical physics,
+  connecting gauge theory, conformal field theory, integrable systems, and geometric
+  representation theory. A proof would illuminate deep structures in all these areas.
+
+prerequisites:
+  - quantum field theory
+  - conformal field theory
+  - representation theory
+  - algebraic geometry
+  - integrable systems
+
+dates:
+  first_stated: 2009
+
+sources:
+  canonical:
+    - source_id: src_agt_2010
+      kind: paper
+      title: "Liouville Correlation Functions from Four-dimensional Gauge Theories"
+      url: "https://doi.org/10.1007/s11005-010-0369-5"
+      year: 2010
+      locator: "Letters in Mathematical Physics 91, 167-197"
+  status_evidence:
+    - source_id: src_tachikawa_2015
+      kind: survey
+      title: "A brief review of the 2d/4d correspondences"
+      url: "https://doi.org/10.1088/1742-6596/462/1/012023"
+      year: 2013
+
+partial_results:
+  - summary: "The AGT correspondence has been verified in many cases using combinatorial identities and representation theory."
+    year: 2010
+  - summary: "Schiffmann and Vasserot proved a mathematical version for the pure gauge theory case using geometric methods."
+    year: 2013
+  - summary: "Maulik and Okounkov developed a mathematical framework using stable envelopes connecting to AGT."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.seiberg-witten-theory-completeness"
+    - "opa.phys.mathematical-physics.geometric-langlands-physics"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.60
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the AGT correspondence between 4D gauge theory partition functions and 2D conformal blocks.
+  decomposition:
+    - "Prove the correspondence for all class S theories"
+    - "Establish the mathematical framework connecting instanton moduli spaces and conformal blocks"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

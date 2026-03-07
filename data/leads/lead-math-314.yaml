@@ -1,0 +1,11 @@
+title: "McMullen's g-Conjecture for Simplicial Spheres"
+statement: "Characterize the f-vectors of simplicial spheres using the g-theorem conditions."
+source_id: "src_mcmullen_1971"
+source_url: "https://en.wikipedia.org/wiki/Upper_bound_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "discrete-geometry"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,113 @@
+id: opa.tcs.learning-theory.proper-pac-learning-hardness
+kind: problem
+title: "Proper PAC Learning Hardness"
+aliases:
+  - "Proper vs improper learning gap"
+  - "Representation-dependent learning hardness"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - learning-theory
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    In proper PAC learning, the hypothesis must come from the same concept class as
+    the target. For which concept classes is proper learning strictly harder than
+    improper learning? Specifically, are there concept classes that are improperly
+    learnable in polynomial time but for which proper learning requires superpolynomial
+    time (under standard complexity assumptions)?
+  informal: >
+    When learning, does it matter if the hypothesis we output has the same form as
+    the target function? Is it sometimes fundamentally easier to learn using a
+    different representation?
+
+why_it_matters: >
+  Understanding the gap between proper and improper learning illuminates the role
+  of representation in learning. It connects to practical questions about model
+  selection and the power of different hypothesis classes.
+
+prerequisites:
+  - PAC learning
+  - proper vs improper learning
+  - computational learning theory
+  - NP-hardness
+
+dates:
+  first_stated: 1994
+
+sources:
+  canonical:
+    - source_id: src_pitt_valiant_1988
+      kind: paper
+      title: "Computational Limitations on Learning from Examples"
+      authors:
+        - "Leonard Pitt"
+        - "Leslie G. Valiant"
+      url: "https://doi.org/10.1145/2422.322425"
+      year: 1988
+  status_evidence:
+    - source_id: src_feldman_2012
+      kind: paper
+      title: "A Complete Characterization of Statistical Query Learning with Applications to Evolvability"
+      authors:
+        - "Vitaly Feldman"
+      url: "https://doi.org/10.1016/j.jcss.2011.12.024"
+      year: 2012
+
+partial_results:
+  - summary: "Pitt and Valiant (1988) showed proper learning of some classes is NP-hard while improper learning is easy."
+    year: 1988
+  - summary: "For intersection of halfspaces, proper learning is NP-hard but improper learning is open."
+    year: 2006
+  - summary: "The exact characterization of the proper-improper gap remains incomplete."
+    year: 2012
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.learning-theory.pac-learning-dnf"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.40
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Understanding when proper PAC learning is strictly harder than improper learning
+    is a fundamental question about the role of representation in learning.
+  decomposition:
+    - "Characterize concept classes with strict proper-improper learning gaps"
+    - "Prove tight hardness results for proper learning of natural concept classes"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

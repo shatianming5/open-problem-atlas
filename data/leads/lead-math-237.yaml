@@ -1,0 +1,11 @@
+title: "Nunke's Conjecture on Whitehead Problem"
+statement: "Characterize the abelian groups A for which Ext^1(A, Z) = 0, beyond the free abelian groups."
+source_id: "src_nunke_1962"
+source_url: "https://en.wikipedia.org/wiki/Whitehead_problem"
+domain_hint: "mathematics"
+subdomain_hint: "homological-algebra"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

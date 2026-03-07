@@ -1,0 +1,11 @@
+title: "Optimal Complexity of Matrix Multiplication"
+statement: "Determine the exponent omega of matrix multiplication: is it exactly 2?"
+source_id: "src_strassenwilliams_1969"
+source_url: "https://en.wikipedia.org/wiki/Matrix_multiplication_algorithm"
+domain_hint: "mathematics"
+subdomain_hint: "numerical-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

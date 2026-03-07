@@ -1,0 +1,123 @@
+id: opa.mathematics.non-commutative-algebra.connes-embedding-problem
+kind: problem
+title: "Connes Embedding Problem (Consequences)"
+aliases:
+  - "Connes' Embedding Conjecture Aftermath"
+  - "MIP* = RE Consequences"
+
+status:
+  label: disproved
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - non-commutative-algebra
+  - functional-analysis
+  - mathematical-optimization
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Connes embedding problem (1976) asks whether every separable type II_1 von Neumann
+    factor embeds into an ultrapower of the hyperfinite type II_1 factor R. This was disproved
+    by Ji, Natarajan, Vidick, Wright, and Yuen (2020) via the result MIP* = RE, showing that
+    the complexity class of multiprover interactive proofs with entanglement equals the class
+    of recursively enumerable languages. The remaining open problems concern understanding
+    which factors embed, characterizing the gap, and the implications for quantum information.
+  informal: >
+    Not every von Neumann algebra can be approximated by matrix algebras in the appropriate
+    sense. This was disproved in 2020 with deep consequences for quantum computing. The
+    remaining questions concern characterizing which algebras embed and the quantum
+    information-theoretic implications.
+
+why_it_matters: >
+  The resolution of the Connes embedding problem via MIP* = RE is one of the most remarkable
+  results connecting operator algebras, quantum information, and computational complexity.
+  It disproved a 44-year-old conjecture and showed Tsirelson's problem has a negative answer.
+  Understanding the full implications and characterizing embeddable factors remain major open
+  directions.
+
+prerequisites:
+  - von Neumann algebras
+  - operator algebras
+  - quantum information theory
+  - computational complexity
+
+dates:
+  first_stated: 1976
+
+sources:
+  canonical:
+    - source_id: src_connes_1976
+      kind: paper
+      title: "Classification of injective factors"
+      authors:
+        - "Alain Connes"
+      year: 1976
+      url: "https://doi.org/10.2307/1971057"
+  status_evidence:
+    - source_id: src_jnvwy_2021
+      kind: paper
+      title: "MIP* = RE"
+      authors:
+        - "Zhengfeng Ji"
+        - "Anand Natarajan"
+        - "Thomas Vidick"
+        - "John Wright"
+        - "Henry Yuen"
+      url: "https://doi.org/10.1145/3485628"
+      year: 2021
+
+partial_results:
+  - summary: "Ji, Natarajan, Vidick, Wright, and Yuen disproved the Connes embedding conjecture via MIP* = RE."
+    year: 2020
+  - summary: "Characterizing which II_1 factors are embeddable remains open."
+    year: 2022
+  - summary: "Understanding the computability-theoretic implications for quantum correlations is active research."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.functional-analysis.kadison-kaplansky-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.40
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The Connes embedding problem was disproved via MIP* = RE. Open questions remain about
+    characterizing embeddable factors and quantum information implications.
+  decomposition:
+    - "Characterization of Connes-embeddable factors"
+    - "Quantum correlation sets and Tsirelson's problem"
+    - "Computability aspects of quantum entanglement"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

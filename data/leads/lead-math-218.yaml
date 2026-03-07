@@ -1,0 +1,11 @@
+title: "Besse Conjecture on Einstein Manifolds"
+statement: "A closed Riemannian manifold of dimension n >= 3 satisfying the critical point equation for the total scalar curvature is Einstein."
+source_id: "src_besse_1987"
+source_url: "https://en.wikipedia.org/wiki/Einstein_manifold"
+domain_hint: "mathematics"
+subdomain_hint: "differential-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

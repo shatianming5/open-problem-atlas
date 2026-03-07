@@ -1,0 +1,11 @@
+title: "Carleson's Pointwise Convergence for Schrodinger"
+statement: "The solution to the free Schrodinger equation with L^2 initial data converges pointwise almost everywhere to the initial data."
+source_id: "src_carleson_1980"
+source_url: "https://en.wikipedia.org/wiki/Carleson%27s_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "harmonic-analysis"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

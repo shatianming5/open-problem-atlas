@@ -1,0 +1,11 @@
+title: "Memory-Hard Functions Optimal Parameters"
+statement: "What are the optimal time-memory tradeoffs for memory-hard functions used in password hashing?"
+source_id: "src_alwen_blocki_2016"
+source_url: "https://doi.org/10.1007/978-3-662-49896-5_27"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

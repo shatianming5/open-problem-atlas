@@ -1,0 +1,112 @@
+id: opa.mathematics.approximation-theory.approximation-jackson-bernstein-sharp
+kind: problem
+title: "Sharp Jackson-Bernstein Constants Problem"
+aliases:
+  - "Optimal Constants in Approximation Theory"
+  - "Sharp Direct and Inverse Theorems"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - approximation-theory
+  - functional-analysis
+
+problem_type: open_question
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the sharp constants in the Jackson-type inequality for trigonometric polynomial
+    approximation: for the best approximation E_n(f)_p of a function f in L^p[0, 2pi] by
+    trigonometric polynomials of degree at most n, establish the optimal constant C(r, p) in
+    E_n(f)_p <= C(r, p) * omega_r(f, 1/n)_p / n^r for all r >= 1, 1 <= p <= infinity, where
+    omega_r is the r-th modulus of smoothness. The sharp constants are known only in special
+    cases (r=1, p=infinity by Favard-Akhiezer-Krein).
+  informal: >
+    How well can smooth functions be approximated by trigonometric polynomials? The best possible
+    constant relating approximation error to smoothness is known only in a few cases.
+
+why_it_matters: >
+  The Jackson and Bernstein theorems are cornerstones of approximation theory, establishing
+  the relationship between smoothness of functions and speed of approximation. Determining
+  sharp constants has been pursued since the early 20th century and connects to extremal
+  problems in analysis, spline theory, and numerical methods.
+
+prerequisites:
+  - approximation theory
+  - Fourier analysis
+  - functional analysis
+
+dates:
+  first_stated: 1911
+
+sources:
+  canonical:
+    - source_id: src_jackson_1911
+      kind: paper
+      title: "Uber die Genauigkeit der Annaherung stetiger Funktionen"
+      authors:
+        - "Dunham Jackson"
+      year: 1911
+  status_evidence:
+    - source_id: src_tikhomirov_1960
+      kind: paper
+      title: "Widths of sets in function spaces and the theory of best approximations"
+      authors:
+        - "Vladimir M. Tikhomirov"
+      year: 1960
+
+partial_results:
+  - summary: "Favard, Akhiezer, and Krein determined the sharp constant for r=1, p=infinity."
+    year: 1936
+  - summary: "Korneichuk established sharp constants for several specific smoothness classes."
+    year: 1991
+  - summary: "The general problem for all r and p remains open."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.50
+  toolability: 0.60
+  formality: 0.85
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The problem of determining sharp constants in Jackson-Bernstein approximation theorems is
+    open for most smoothness parameters and L^p spaces.
+  decomposition:
+    - "Extremal polynomial and spline problems"
+    - "Kolmogorov n-widths and optimal recovery"
+    - "Connections to Chebyshev and Favard-type extremal problems"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

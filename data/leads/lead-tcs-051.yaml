@@ -1,0 +1,11 @@
+title: "Optimal Sorting Network Size"
+statement: "What is the minimum number of comparators needed in a sorting network for n elements? The gap between the AKS upper bound and known lower bounds is large."
+source_id: "src_ajtai_komlos_szemeredi_1983"
+source_url: "https://doi.org/10.1145/800061.808726"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

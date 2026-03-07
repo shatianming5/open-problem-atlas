@@ -1,0 +1,11 @@
+title: "Optimal String Matching Preprocessing"
+statement: "What is the optimal preprocessing time for exact string matching in the comparison model? Gaps remain between known algorithms."
+source_id: "src_knuth_morris_pratt_1977"
+source_url: "https://doi.org/10.1137/0206024"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

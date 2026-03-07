@@ -1,0 +1,11 @@
+title: "Are There Infinitely Many Fermat Primes?"
+statement: "Is the set of primes of the form 2^(2^n) + 1 finite or infinite? Only five are known."
+source_id: "src_fermat_1640"
+source_url: "https://en.wikipedia.org/wiki/Fermat_number"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

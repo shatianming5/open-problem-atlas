@@ -1,0 +1,126 @@
+id: opa.mathematics.logic-and-foundations.vaughts-conjecture
+kind: problem
+title: "Vaught's Conjecture"
+aliases:
+  - "Vaught's Conjecture on Countable Models"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - logic-and-foundations
+  - model-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let T be a complete countable first-order theory in a countable language. Then the number
+    of countable models of T up to isomorphism (denoted I(T, aleph_0)) is either countable
+    (i.e., finite or equal to aleph_0) or exactly 2^{aleph_0} (the cardinality of the
+    continuum). In other words, no complete countable first-order theory has exactly aleph_1
+    many countable models (assuming the continuum hypothesis fails).
+  informal: >
+    When studying a mathematical theory (a consistent set of axioms in first-order logic), one
+    can ask: how many essentially different countable structures satisfy these axioms? Vaught
+    conjectured that the answer is either small (countably many) or as large as possible
+    (continuum many) -- there is no intermediate case.
+
+why_it_matters: >
+  Vaught's conjecture, posed in 1961, is the most important open problem in model theory
+  and one of the central questions in mathematical logic. It sits at the intersection of
+  model theory, descriptive set theory, and set theory. Its resolution would deepen our
+  understanding of the classification of mathematical structures and the nature of
+  definability.
+
+prerequisites:
+  - model theory
+  - descriptive set theory
+  - set theory
+  - first-order logic
+
+dates:
+  first_stated: 1961
+
+sources:
+  canonical:
+    - source_id: src_vaught_1961
+      kind: paper
+      title: "Denumerable models of complete theories"
+      authors:
+        - "Robert L. Vaught"
+      year: 1961
+      locator: "Infinitistic Methods (Proc. Symp. Found. Math., Warsaw, 1959), pp. 303-321"
+    - source_id: src_marker_2002
+      kind: textbook
+      title: "Model Theory: An Introduction"
+      authors:
+        - "David Marker"
+      year: 2002
+      locator: "Chapter 4"
+  status_evidence:
+    - source_id: src_steel_vaught
+      kind: survey
+      title: "On Vaught's conjecture"
+      authors:
+        - "John Steel"
+      year: 2005
+
+partial_results:
+  - summary: "Morley proved that the number of countable models is at most aleph_1 or exactly 2^{aleph_0}."
+    year: 1970
+  - summary: "Steel proved the conjecture for theories in the language of linear orders."
+    year: 1978
+  - summary: "Shelah and Harrington-Makkai proved the conjecture for omega-stable theories."
+    year: 1981
+  - summary: "Buechler proved the conjecture for superstable theories of finite rank."
+    year: 2008
+  - summary: "Vaught's conjecture is known to hold for theories with fewer than aleph_1 many types."
+    year: 1985
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.90
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Vaught's conjecture states that a complete countable first-order theory has either countably
+    many or continuum-many countable models, with no intermediate cardinality. It is the most
+    important open problem in model theory.
+  decomposition:
+    - "Extending superstable and omega-stable techniques to broader theory classes"
+    - "Descriptive set theory methods and topological dynamics of type spaces"
+    - "Connections to set-theoretic independence and consistency results"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

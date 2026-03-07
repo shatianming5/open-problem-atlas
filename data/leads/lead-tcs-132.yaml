@@ -1,0 +1,11 @@
+title: "Quantum Algorithms for Linear Systems"
+statement: "Can the HHL quantum algorithm for linear systems be made practical with provable end-to-end speedup over classical methods?"
+source_id: "src_harrow_hassidim_lloyd_2009"
+source_url: "https://doi.org/10.1103/PhysRevLett.103.150502"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

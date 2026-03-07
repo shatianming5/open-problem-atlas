@@ -1,0 +1,112 @@
+id: opa.mathematics.approximation-theory.littlewood-conjecture
+kind: problem
+title: "Littlewood Conjecture"
+aliases:
+  - "Littlewood's Conjecture on Simultaneous Diophantine Approximation"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - approximation-theory
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every pair of real numbers alpha, beta, the limit inferior
+    lim inf_{n -> infinity} n * ||n*alpha|| * ||n*beta|| = 0, where ||x|| denotes the
+    distance from x to the nearest integer.
+  informal: >
+    For any two irrational numbers alpha and beta, one can find integers n making n, n*alpha,
+    and n*beta all simultaneously close to integers, in the sense that the product of the
+    three distances tends to zero.
+
+why_it_matters: >
+  Littlewood's conjecture (circa 1930) is a central problem in Diophantine approximation and
+  dynamics on homogeneous spaces. Einsiedler, Katok, and Lindenstrauss (2006) showed that the
+  set of counterexamples has Hausdorff dimension zero using measure rigidity on SL(3,R)/SL(3,Z),
+  work contributing to Lindenstrauss's Fields Medal. The conjecture remains open.
+
+prerequisites:
+  - Diophantine approximation
+  - ergodic theory
+  - homogeneous dynamics
+  - number theory
+
+dates:
+  first_stated: 1930
+
+sources:
+  canonical:
+    - source_id: src_littlewood_1930
+      kind: paper
+      title: "Some problems in real and complex analysis"
+      authors:
+        - "John E. Littlewood"
+      year: 1930
+  status_evidence:
+    - source_id: src_ekl_2006
+      kind: paper
+      title: "Invariant measures and the set of exceptions to Littlewood's conjecture"
+      authors:
+        - "Manfred Einsiedler"
+        - "Anatole Katok"
+        - "Elon Lindenstrauss"
+      url: "https://doi.org/10.4007/annals.2006.164.513"
+      year: 2006
+
+partial_results:
+  - summary: "Einsiedler, Katok, and Lindenstrauss proved the set of counterexamples has Hausdorff dimension zero."
+    year: 2006
+  - summary: "Proved for algebraic pairs (alpha, beta) by various authors."
+    year: 2006
+  - summary: "Cassels and Swinnerton-Dyer reduced it to a statement about orbits on SL(3,R)/SL(3,Z)."
+    year: 1955
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Littlewood's conjecture asserts that lim inf n*||n*alpha||*||n*beta|| = 0 for all real alpha, beta.
+    The exceptional set has Hausdorff dimension zero but the conjecture is open.
+  decomposition:
+    - "Measure rigidity on homogeneous spaces"
+    - "Diophantine approximation and continued fractions"
+    - "Dynamics of diagonal flows on SL(3,R)/SL(3,Z)"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

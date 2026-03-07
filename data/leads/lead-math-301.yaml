@@ -1,0 +1,11 @@
+title: "Rota's Conjecture on Matroid Minors"
+statement: "For any finite field GF(q), the set of excluded minors for GF(q)-representability is finite."
+source_id: "src_rota_1971"
+source_url: "https://en.wikipedia.org/wiki/Rota%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "matroid-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

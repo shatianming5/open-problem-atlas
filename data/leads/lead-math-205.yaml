@@ -1,0 +1,11 @@
+title: "Grothendieck's Section Conjecture"
+statement: "For a smooth projective curve of genus at least 2 over a number field, rational points correspond to conjugacy classes of sections of the fundamental exact sequence."
+source_id: "src_grothendieck_1983"
+source_url: "https://en.wikipedia.org/wiki/Section_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebraic-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

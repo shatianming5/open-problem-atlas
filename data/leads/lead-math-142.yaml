@@ -1,0 +1,11 @@
+title: "Slice-Ribbon Conjecture"
+statement: "Every slice knot is a ribbon knot. That is, every knot bounding a smoothly embedded disk in B^4 bounds an immersed disk in S^3 with only ribbon singularities."
+source_id: "src_fox_1962"
+source_url: "https://en.wikipedia.org/wiki/Slice-ribbon_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

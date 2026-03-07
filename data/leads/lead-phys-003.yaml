@@ -1,0 +1,11 @@
+title: "Existence of Bound Entangled States with Negative Partial Transpose"
+statement: "Do there exist bound entangled states with a negative partial transpose (NPT)? This is one of the longest-standing open problems in quantum entanglement theory."
+source_id: "src_horodecki_1998"
+source_url: "https://arxiv.org/abs/quant-ph/9801069"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

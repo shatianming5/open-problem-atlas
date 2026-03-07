@@ -1,0 +1,119 @@
+id: opa.mathematics.homological-algebra.generating-hypothesis
+kind: problem
+title: "Freyd's Generating Hypothesis"
+aliases:
+  - "Generating Hypothesis in Stable Homotopy Theory"
+  - "Freyd's Conjecture on Stable Homotopy Groups"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - homological-algebra
+  - geometric-topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    If f: X -> Y is a map between finite spectra (finite CW-complexes
+    stably) such that the induced map pi_*(f): pi_*(X) -> pi_*(Y) on
+    stable homotopy groups is the zero map, then f is stably null-homotopic
+    (i.e., f = 0 in the stable homotopy category). Equivalently, the
+    functor pi_* from the stable homotopy category of finite spectra to
+    graded abelian groups is faithful.
+  informal: >
+    In stable homotopy theory, we study spaces "up to suspension." The
+    generating hypothesis says that stable homotopy groups detect everything:
+    if a map between finite spaces induces the zero map on all stable
+    homotopy groups, then the map itself must be zero (stably).
+
+why_it_matters: >
+  Freyd's generating hypothesis, posed in 1966, is one of the oldest open
+  problems in stable homotopy theory and homological algebra. If true, it
+  would dramatically simplify the structure of the stable homotopy category
+  of finite spectra. It has deep consequences for the Picard group of the
+  stable homotopy category and for understanding the structure of thick
+  subcategories via the Hopkins-Smith theorem.
+
+prerequisites:
+  - stable homotopy theory
+  - homological algebra
+  - spectra and CW-complexes
+  - category theory
+
+dates:
+  first_stated: 1966
+
+sources:
+  canonical:
+    - source_id: src_freyd_1966
+      kind: paper
+      title: "Stable homotopy"
+      authors:
+        - "Peter Freyd"
+      year: 1966
+      locator: "Proceedings of the Conference on Categorical Algebra, La Jolla, Springer, pp. 121-172"
+  status_evidence:
+    - source_id: src_devinatz_1990
+      kind: paper
+      title: "The generating hypothesis revisited"
+      authors:
+        - "Ethan Devinatz"
+      year: 1990
+      locator: "Stable and Unstable Homotopy, Fields Institute Communications, pp. 73-92"
+
+partial_results:
+  - summary: "Freyd proved that the generating hypothesis implies the stable homotopy groups of spheres form a principal ideal domain module over pi_*(S^0)."
+    year: 1966
+  - summary: "Devinatz showed the hypothesis is equivalent to several other important structural statements about the stable homotopy category."
+    year: 1990
+  - summary: "Hovey and Palmieri studied the generating hypothesis in the context of axiomatic stable homotopy categories."
+    year: 1999
+  - summary: "Lockridge established that the generating hypothesis holds in various algebraic stable homotopy categories derived from ring spectra."
+    year: 2007
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.45
+  toolability: 0.20
+  formality: 0.85
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    Freyd's generating hypothesis asserts that stable homotopy groups detect
+    all maps between finite spectra. It remains one of the oldest open
+    problems in stable homotopy theory.
+  decomposition:
+    - "Thick subcategory and chromatic methods"
+    - "Algebraic stable homotopy category analogues"
+    - "Computational approaches via Adams spectral sequence"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

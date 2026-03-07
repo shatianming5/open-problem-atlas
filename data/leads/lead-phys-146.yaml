@@ -1,0 +1,11 @@
+title: "Mechanism of High-Temperature Superconductivity"
+statement: "What is the pairing mechanism in cuprate high-temperature superconductors? Despite decades of research, no consensus theory exists."
+source_id: "src_keimer_2015"
+source_url: "https://arxiv.org/abs/1409.4673"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

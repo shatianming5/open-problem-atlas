@@ -1,0 +1,11 @@
+title: "Polymath15: Upper Tail Large Deviations"
+statement: "Can the Polymath15 results on upper tails of subgraph counts in random graphs be made tight for all graphs H?"
+source_id: "src_polymath15_2021"
+source_url: "https://arxiv.org/abs/2103.09424"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

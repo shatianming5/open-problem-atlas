@@ -1,0 +1,11 @@
+title: "Lander, Parkin, and Selfridge Conjecture"
+statement: "If the sum of k-th powers of m positive integers equals the sum of k-th powers of n positive integers, then m+n >= k."
+source_id: "src_lander_1966"
+source_url: "https://en.wikipedia.org/wiki/Lander,_Parkin,_and_Selfridge_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

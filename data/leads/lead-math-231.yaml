@@ -1,0 +1,11 @@
+title: "Finitistic Dimension Conjecture"
+statement: "The finitistic dimension of a finite-dimensional algebra is finite."
+source_id: "src_bass_1960"
+source_url: "https://en.wikipedia.org/wiki/Finitistic_dimension_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "homological-algebra"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

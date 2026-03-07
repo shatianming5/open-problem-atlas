@@ -1,0 +1,11 @@
+title: "Brownian Motion and Liouville Quantum Gravity"
+statement: "Can one rigorously construct Brownian motion on Liouville quantum gravity surfaces and prove the KPZ relation for random planar maps?"
+source_id: "src_gwynne_2021"
+source_url: "https://arxiv.org/abs/1908.05573"
+domain_hint: "mathematical-physics"
+subdomain_hint: "random-geometry"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

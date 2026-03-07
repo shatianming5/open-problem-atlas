@@ -1,0 +1,114 @@
+id: opa.mathematics.numerical-analysis.smale-17th-problem
+kind: problem
+title: "Smale's 17th Problem"
+aliases:
+  - "Solving Polynomial Equations in Polynomial Time"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - numerical-analysis
+  - mathematical-optimization
+  - computational-complexity
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can a zero of a system of n polynomial equations in n complex unknowns be found
+    approximately in time polynomial in the size of the input (the number of coefficients)?
+    More precisely, is there a uniform algorithm that, given a system f = (f_1, ..., f_n)
+    of polynomials, produces an approximate zero in expected time polynomial in N = sum of
+    the number of monomials, with the expectation over a suitable probability distribution?
+  informal: >
+    Is there an efficient algorithm to find approximate solutions to systems of polynomial
+    equations? Smale asks whether this can be done in polynomial time on average.
+
+why_it_matters: >
+  Smale's 17th problem (from his 1998 list for the 21st century) connects numerical analysis,
+  algebraic geometry, and complexity theory. It asks about the fundamental computational
+  complexity of solving polynomial systems, bridging continuous and discrete mathematics.
+  Progress relates to homotopy methods, condition numbers, and alpha-theory.
+
+prerequisites:
+  - numerical analysis
+  - algebraic geometry
+  - computational complexity
+  - homotopy continuation
+
+dates:
+  first_stated: 1998
+
+sources:
+  canonical:
+    - source_id: src_smale_1998
+      kind: paper
+      title: "Mathematical Problems for the Next Century"
+      authors:
+        - "Steve Smale"
+      year: 1998
+      url: "https://doi.org/10.1007/BF03025291"
+  status_evidence:
+    - source_id: src_beltrán_pardo_2011
+      kind: paper
+      title: "Fast linear homotopy to find approximate zeros of polynomial systems"
+      authors:
+        - "Carlos Beltran"
+        - "Luis Miguel Pardo"
+      url: "https://doi.org/10.1007/s10208-011-9095-5"
+      year: 2011
+
+partial_results:
+  - summary: "Beltran and Pardo gave a randomized algorithm with complexity N^{O(log log N)} on average."
+    year: 2011
+  - summary: "Burgisser and Cucker developed a smoothed analysis framework for the problem."
+    year: 2013
+  - summary: "Lairez gave a deterministic algorithm with similar subexponential bounds."
+    year: 2017
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.45
+  toolability: 0.55
+  formality: 0.80
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Smale's 17th problem asks whether polynomial systems can be solved in polynomial average time.
+    Best known algorithms achieve N^{O(log log N)} complexity.
+  decomposition:
+    - "Homotopy continuation and path-following algorithms"
+    - "Condition number analysis and smoothed complexity"
+    - "Algebraic-geometric structure of polynomial systems"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,115 @@
+id: opa.mathematics.graph-theory.turan-brick-factory-problem
+kind: problem
+title: "Turan's Brick Factory Problem"
+aliases:
+  - "Crossing Number of Complete Bipartite Graphs"
+  - "Zarankiewicz Crossing Number Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - combinatorics
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the crossing number cr(K_{m,n}) of the complete bipartite graph K_{m,n}.
+    The conjecture states that cr(K_{m,n}) = floor(m/2) * floor((m-1)/2) * floor(n/2) * floor((n-1)/2),
+    which is the number of crossings in the natural drawing of K_{m,n}.
+  informal: >
+    What is the minimum number of edge crossings when drawing the complete bipartite graph
+    K_{m,n} in the plane? Turan conjectured that the obvious symmetric drawing is optimal.
+
+why_it_matters: >
+  Turan's brick factory problem, originating from his work in a forced labor camp during
+  World War II, is one of the oldest and most fundamental open problems in topological
+  graph theory. It led to the development of crossing number theory, which has applications
+  in VLSI design, network visualization, and computational geometry.
+
+prerequisites:
+  - graph theory
+  - topological graph theory
+  - crossing numbers
+
+dates:
+  first_stated: 1944
+
+sources:
+  canonical:
+    - source_id: src_turan_1977
+      kind: paper
+      title: "A note of welcome"
+      authors:
+        - "Paul Turan"
+      year: 1977
+    - source_id: src_zarankiewicz_1954
+      kind: paper
+      title: "On a problem of P. Turan concerning graphs"
+      authors:
+        - "Kazimierz Zarankiewicz"
+      year: 1954
+  status_evidence:
+    - source_id: src_devos_2019
+      kind: survey
+      title: "Crossing numbers of graphs"
+      url: "https://doi.org/10.1201/9781315119601"
+      year: 2019
+
+partial_results:
+  - summary: "The conjecture is verified for min(m,n) <= 6."
+    year: 1970
+  - summary: "Kleitman proved the conjecture for K_{5,n} and K_{6,n}."
+    year: 1970
+  - summary: "The conjectured formula gives an upper bound for all m,n; the challenge is the lower bound."
+    year: 1954
+  - summary: "Christian, Richter, and Salazar verified the conjecture for K_{7,n} and K_{8,n} for small n values."
+    year: 2009
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.80
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    Turan's brick factory problem asks for the exact crossing number of the complete
+    bipartite graph K_{m,n}. The conjectured formula has been verified only for small
+    values of m and n, and remains open in general.
+  decomposition:
+    - "Improving lower bounds on crossing numbers via algebraic or probabilistic methods"
+    - "Extending computer verification to larger values of m and n"
+    - "Connecting to semidefinite programming relaxations"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

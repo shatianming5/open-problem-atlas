@@ -1,0 +1,11 @@
+title: "Anomalous Transport in Low-Dimensional Systems"
+statement: "What determines whether heat transport in one-dimensional systems is anomalous (divergent thermal conductivity) or normal, and what is the universal exponent?"
+source_id: "src_lepri_2003"
+source_url: "https://arxiv.org/abs/cond-mat/0306142"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

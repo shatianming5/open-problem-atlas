@@ -1,0 +1,11 @@
+title: "Confinement in QCD"
+statement: "Provide a rigorous proof or physical mechanism for quark confinement in quantum chromodynamics, explaining why free quarks are never observed."
+source_id: "src_greensite_2011"
+source_url: "https://arxiv.org/abs/1108.6159"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

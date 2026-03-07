@@ -1,0 +1,11 @@
+title: "Matroid Intersection Conjecture"
+statement: "For any two matroids on the same ground set, the maximum size of a common independent set equals the minimum of a certain covering expression."
+source_id: "src_edmonds_1970"
+source_url: "https://en.wikipedia.org/wiki/Matroid_intersection"
+domain_hint: "mathematics"
+subdomain_hint: "matroid-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Erdos Conjecture on Arithmetic Progressions"
+statement: "Does every set of natural numbers whose reciprocals form a divergent series contain arbitrarily long arithmetic progressions?"
+source_id: "src_erdos_1976"
+source_url: "https://mathoverflow.net/questions/13892"
+domain_hint: "mathematics"
+subdomain_hint: "additive-combinatorics"
+confidence: 0.40
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

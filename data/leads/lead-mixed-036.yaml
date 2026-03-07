@@ -1,0 +1,11 @@
+title: "Swampland Distance Conjecture"
+statement: "Is the Swampland Distance Conjecture true for all consistent quantum gravity theories: does an infinite tower of states become exponentially light at infinite distance in moduli space?"
+source_id: "src_vafa_2021"
+source_url: "https://arxiv.org/abs/2103.01135"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

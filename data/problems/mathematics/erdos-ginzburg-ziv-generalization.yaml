@@ -1,0 +1,119 @@
+id: opa.mathematics.combinatorics.erdos-ginzburg-ziv-generalization
+kind: problem
+title: "Erdos-Ginzburg-Ziv Constant for General Groups"
+aliases:
+  - "Davenport Constant Problem"
+  - "EGZ Generalization"
+  - "Zero-Sum Theory Constants"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - combinatorics
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the Davenport constant D(G) for general finite abelian groups G. For a finite
+    abelian group G = Z_{n_1} x Z_{n_2} x ... x Z_{n_r} with n_1 | n_2 | ... | n_r, it is
+    conjectured that D(G) = 1 + sum_{i=1}^{r} (n_i - 1). The Davenport constant D(G) is the
+    smallest integer d such that every sequence of d elements from G contains a nonempty
+    subsequence summing to the identity.
+  informal: >
+    Given a finite abelian group, how long does a sequence of elements need to be before it
+    must contain some nonempty subset that sums to zero? The conjectured answer is determined
+    by the group's invariant factor decomposition, but this remains unproven in general.
+
+why_it_matters: >
+  The Erdos-Ginzburg-Ziv theorem (1961) proved D(Z_n) = 2n - 1, establishing the foundation
+  of zero-sum theory. Determining the Davenport constant for general groups is a central
+  problem in additive combinatorics with connections to factorization theory in algebraic
+  number theory, coding theory, and the structure of abelian groups.
+
+prerequisites:
+  - additive combinatorics
+  - abelian group theory
+  - zero-sum theory
+
+dates:
+  first_stated: 1966
+
+sources:
+  canonical:
+    - source_id: src_erdos_ginzburg_ziv_1961
+      kind: paper
+      title: "A theorem in additive number theory"
+      authors:
+        - "Paul Erdos"
+        - "Abraham Ginzburg"
+        - "Abraham Ziv"
+      year: 1961
+    - source_id: src_davenport_1966
+      kind: paper
+      title: "On the addition of residue classes"
+      authors:
+        - "Harold Davenport"
+      year: 1966
+  status_evidence:
+    - source_id: src_geroldinger_2009
+      kind: survey
+      title: "Combinatorial Number Theory and Additive Group Theory"
+      url: "https://doi.org/10.1007/978-3-7643-8962-8"
+      year: 2009
+
+partial_results:
+  - summary: "The conjecture D(G) = 1 + sum(n_i - 1) holds for all p-groups and for groups of rank at most 2."
+    year: 1969
+  - summary: "Olson proved D(Z_p x Z_p) = 2p - 1 for primes p."
+    year: 1969
+  - summary: "The conjecture is known for groups of the form Z_n x Z_n when n has certain factorization properties."
+    year: 2003
+  - summary: "Counterexamples to the conjecture are not known for any group; the lower bound D(G) >= 1 + sum(n_i - 1) always holds."
+    year: 2009
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.78
+  underexplored: 0.40
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The problem asks to determine the Davenport constant D(G) for general finite abelian
+    groups, generalizing the classical Erdos-Ginzburg-Ziv theorem. The conjectured formula
+    is confirmed for p-groups and rank-2 groups but remains open in general.
+  decomposition:
+    - "Proving the conjecture for groups of rank 3 and higher"
+    - "New structural results on zero-sum sequences in abelian groups"
+    - "Connections to factorization theory and algebraic number theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

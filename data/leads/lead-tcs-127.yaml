@@ -1,0 +1,11 @@
+title: "Hamiltonian Simulation Optimality"
+statement: "What is the optimal gate complexity for simulating a general sparse Hamiltonian on a quantum computer?"
+source_id: "src_berry_childs_kothari_2015"
+source_url: "https://doi.org/10.1109/FOCS.2015.54"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

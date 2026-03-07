@@ -1,0 +1,11 @@
+title: "Maharam's Problem"
+statement: "Is every continuous submeasure on a Boolean algebra equivalent to a measure?"
+source_id: "src_maharam_1947"
+source_url: "https://en.wikipedia.org/wiki/Maharam%27s_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "measure-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

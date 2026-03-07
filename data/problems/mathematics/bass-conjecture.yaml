@@ -1,0 +1,119 @@
+id: opa.mathematics.algebra.bass-conjecture
+kind: problem
+title: "Bass Conjecture"
+aliases:
+  - "Bass Trace Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebra
+  - topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let G be a discrete group and let P be a finitely generated projective
+    module over the integral group ring Z[G]. Then the Hattori-Stallings
+    rank of P, viewed as a class function on G, takes the value r_P(1) = rank(P)
+    at the identity and r_P(g) = 0 for every element g ≠ 1 of infinite order
+    in G.
+  informal: >
+    For any finitely generated projective module over the group ring of a
+    discrete group, a certain trace-like invariant (the Hattori-Stallings rank)
+    should be concentrated at the identity element and vanish on elements of
+    infinite order.
+
+why_it_matters: >
+  The Bass conjecture is a fundamental problem in algebraic K-theory and
+  group theory. It implies the Kadison-Kaplansky idempotent conjecture
+  for torsion-free groups, which states that the reduced group C*-algebra
+  of a torsion-free group has no nontrivial idempotents. The conjecture
+  connects algebraic topology, homological algebra, and operator algebras.
+
+prerequisites:
+  - algebraic K-theory
+  - group cohomology
+  - homological algebra
+  - noncommutative algebra
+
+dates:
+  first_stated: 1976
+
+sources:
+  canonical:
+    - source_id: src_bass_1976
+      kind: paper
+      title: "Euler characteristics and characters of discrete groups"
+      authors:
+        - "Hyman Bass"
+      year: 1976
+      url: "https://doi.org/10.1007/BF01390002"
+  status_evidence:
+    - source_id: src_eckmann_2001
+      kind: paper
+      title: "Idempotents in a complex group algebra, projective modules, and the von Neumann algebra"
+      authors:
+        - "Beno Eckmann"
+      year: 2001
+      url: "https://doi.org/10.1007/PL00012456"
+
+partial_results:
+  - summary: "The conjecture has been proved for linear groups by Eckmann."
+    year: 1986
+  - summary: "Berrick, Chatterji, and Mislin proved the conjecture for groups acting on trees and CAT(0) cube complexes."
+    year: 2004
+  - summary: "The conjecture is known to follow from the Baum-Connes conjecture."
+    year: 2004
+  - summary: "The conjecture remains open for general discrete groups."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - gap
+
+machine_generated:
+  summary: >
+    The Bass conjecture asserts that the Hattori-Stallings rank of finitely
+    generated projective modules over integral group rings vanishes on elements
+    of infinite order. It implies the Kadison-Kaplansky idempotent conjecture.
+  decomposition:
+    - "Connections to the Baum-Connes assembly map"
+    - "Homological approaches for specific classes of groups"
+    - "Trace methods in algebraic K-theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

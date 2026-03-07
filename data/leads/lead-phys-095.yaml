@@ -1,0 +1,11 @@
+title: "Spin Glass Phase in Finite Dimensions"
+statement: "What is the nature of the spin glass phase in three dimensions: does the Parisi replica symmetry breaking picture or the droplet model apply?"
+source_id: "src_parisi_1979"
+source_url: "https://doi.org/10.1103/PhysRevLett.43.1754"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

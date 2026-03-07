@@ -1,0 +1,11 @@
+title: "Reconstruction Conjecture for Graphs"
+statement: "Every graph on three or more vertices is uniquely determined (up to isomorphism) by its multiset of vertex-deleted subgraphs."
+source_id: "src_kelly_1957"
+source_url: "https://en.wikipedia.org/wiki/Reconstruction_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

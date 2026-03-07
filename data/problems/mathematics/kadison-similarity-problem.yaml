@@ -1,0 +1,119 @@
+id: opa.mathematics.operator-algebras.kadison-similarity-problem
+kind: problem
+title: "Kadison's Similarity Problem"
+aliases:
+  - "Kadison Similarity Conjecture"
+  - "Kadison's Problem on C*-algebra Homomorphisms"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - operator-algebras
+  - harmonic-analysis
+
+problem_type: open_question
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let A be a C*-algebra and let pi: A -> B(H) be a bounded unital
+    homomorphism into the bounded operators on a Hilbert space H. Is pi
+    necessarily similar to a *-homomorphism? That is, does there exist an
+    invertible operator S in B(H) such that rho(a) = S^{-1} pi(a) S is a
+    *-homomorphism for all a in A?
+  informal: >
+    When you represent a C*-algebra (a special algebra of operators) as
+    operators on a Hilbert space, a well-behaved representation preserves the
+    adjoint operation. Kadison asked whether every bounded (but not necessarily
+    adjoint-preserving) representation can be "corrected" by a change of basis
+    to become adjoint-preserving.
+
+why_it_matters: >
+  Kadison's similarity problem, posed in 1955, is one of the most prominent
+  unsolved problems in operator algebra theory. It is equivalent to several
+  other important problems: every derivation from a C*-algebra into B(H) is
+  inner, and it is related to the Dixmier problem for groups. Haagerup's work
+  showed it holds for cyclic representations and for nuclear C*-algebras.
+
+prerequisites:
+  - C*-algebras and operator algebras
+  - functional analysis
+  - representation theory
+  - completely bounded maps
+
+dates:
+  first_stated: 1955
+
+sources:
+  canonical:
+    - source_id: src_kadison_1955
+      kind: paper
+      title: "On the orthogonalization of operator representations"
+      authors:
+        - "Richard V. Kadison"
+      year: 1955
+      locator: "American Journal of Mathematics, vol. 77, pp. 600-620"
+  status_evidence:
+    - source_id: src_pisier_2001
+      kind: textbook
+      title: "Similarity Problems and Completely Bounded Maps"
+      authors:
+        - "Gilles Pisier"
+      year: 2001
+      locator: "Lecture Notes in Mathematics, vol. 1618, Springer (second expanded edition)"
+
+partial_results:
+  - summary: "Haagerup proved the similarity property for cyclic representations of arbitrary C*-algebras."
+    year: 1983
+  - summary: "Haagerup proved the problem affirmatively for nuclear C*-algebras."
+    year: 1985
+  - summary: "Christensen proved it for C*-algebras with sufficiently small cb-distance to a *-homomorphism."
+    year: 1982
+  - summary: "Pisier introduced the similarity degree and showed equivalence with bounded derivation problems."
+    year: 1997
+
+relations:
+  related:
+    - opa.mathematics.operator-algebras.dixmier-problem
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    Kadison's similarity problem asks whether every bounded homomorphism from a
+    C*-algebra into B(H) is similar to a *-homomorphism. Proved for nuclear
+    C*-algebras, it remains open in general.
+  decomposition:
+    - "Completely bounded map characterization"
+    - "Derivation problems and cohomology of operator algebras"
+    - "Relationship to length and similarity degree"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

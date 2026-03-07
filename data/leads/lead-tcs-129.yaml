@@ -1,0 +1,11 @@
+title: "Quantum Supremacy for Useful Problems"
+statement: "Can quantum supremacy be demonstrated for a practically useful computational problem rather than sampling tasks?"
+source_id: "src_arute_et_al_2019"
+source_url: "https://doi.org/10.1038/s41586-019-1666-5"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

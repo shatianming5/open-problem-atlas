@@ -1,0 +1,11 @@
+title: "Rosicky's Conjecture on Accessible Categories"
+statement: "Every accessible category with directed colimits is locally presentable."
+source_id: "src_rosicky_1994"
+source_url: "https://en.wikipedia.org/wiki/Accessible_category"
+domain_hint: "mathematics"
+subdomain_hint: "category-theory"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

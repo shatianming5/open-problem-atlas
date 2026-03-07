@@ -1,0 +1,112 @@
+id: opa.phys.general-relativity.cosmic-no-hair-conjecture
+kind: problem
+title: "Cosmic No-Hair Conjecture"
+aliases:
+  - "de Sitter Cosmic No-Hair"
+  - "Asymptotic de Sitter Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - general-relativity
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove the cosmic no-hair conjecture: all initially expanding cosmological solutions
+    of the Einstein equations with a positive cosmological constant Lambda > 0 and
+    satisfying the strong and dominant energy conditions asymptotically approach the
+    de Sitter solution as t -> infinity. More precisely, prove that for generic initial
+    data on a Cauchy surface, the future development is future geodesically complete and
+    the spacetime metric approaches the de Sitter metric exponentially fast, with rate
+    determined by Lambda.
+  informal: >
+    Does every expanding universe with a positive cosmological constant eventually
+    look like de Sitter space (exponentially expanding, empty space)? This conjecture
+    suggests that the cosmological constant dominates all other forms of matter and
+    energy at late times.
+
+why_it_matters: >
+  With the discovery of the accelerating expansion of the universe (Nobel Prize 2011),
+  the cosmic no-hair conjecture has become directly relevant to the far future of our
+  actual universe. Proving it would establish the ultimate fate of the cosmos.
+
+prerequisites:
+  - general relativity
+  - PDE theory
+  - geometric analysis
+  - cosmology
+  - Lorentzian geometry
+
+dates:
+  first_stated: 1983
+
+sources:
+  canonical:
+    - source_id: src_gibbons_hawking_1977
+      kind: paper
+      title: "Cosmological event horizons, thermodynamics, and particle creation"
+      url: "https://doi.org/10.1103/PhysRevD.15.2738"
+      year: 1977
+      locator: "Physical Review D 15, 2738"
+  status_evidence:
+    - source_id: src_ringström_2009
+      kind: textbook
+      title: "The Cauchy Problem in General Relativity"
+      url: "https://doi.org/10.4171/053"
+      year: 2009
+
+partial_results:
+  - summary: "Wald proved the conjecture for spatially homogeneous (Bianchi) cosmologies."
+    year: 1983
+  - summary: "Friedrich proved future stability of de Sitter space (the linearized version of cosmic no-hair)."
+    year: 1986
+  - summary: "Ringstrom proved cosmic no-hair for certain matter models and symmetry classes."
+    year: 2008
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.general-relativity.cosmic-censorship-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.82
+  underexplored: 0.45
+  toolability: 0.30
+  formality: 0.65
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving that all expanding cosmologies with positive cosmological constant asymptotically approach de Sitter space.
+  decomposition:
+    - "Extend Wald's proof beyond homogeneous cosmologies"
+    - "Prove cosmic no-hair for generic inhomogeneous initial data"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

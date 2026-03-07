@@ -1,0 +1,113 @@
+id: opa.phys.quantum-field-theory.confinement-in-qcd
+kind: problem
+title: "Confinement in Quantum Chromodynamics"
+aliases:
+  - "Quark Confinement"
+  - "Color Confinement Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove that quantum chromodynamics (QCD), the SU(3) Yang-Mills gauge theory coupled
+    to quarks, exhibits confinement: isolated quarks and gluons cannot exist as
+    asymptotic particle states, and all physical states are color singlets (hadrons).
+    Rigorously, prove that the Wilson loop expectation value satisfies an area law
+    <W(C)> ~ exp(-sigma * Area(C)) for large loops C, where sigma > 0 is the string
+    tension, or establish confinement through an equivalent criterion such as the
+    existence of a linear quark-antiquark potential at large distances.
+  informal: >
+    Why can't we ever see a single quark? QCD predicts that the force between quarks
+    grows with distance, permanently confining them inside protons and neutrons. But
+    no one has proven this mathematically from the fundamental theory.
+
+why_it_matters: >
+  Confinement is one of the most important phenomena in fundamental physics. It
+  explains why matter is made of hadrons rather than free quarks. A proof would be
+  a major breakthrough in both mathematical physics and our understanding of the
+  strong nuclear force.
+
+prerequisites:
+  - quantum field theory
+  - gauge theory
+  - lattice gauge theory
+  - non-perturbative methods
+  - representation theory of Lie groups
+
+dates:
+  first_stated: 1973
+
+sources:
+  canonical:
+    - source_id: src_wilson_1974
+      kind: paper
+      title: "Confinement of quarks"
+      url: "https://doi.org/10.1103/PhysRevD.10.2445"
+      year: 1974
+      locator: "Physical Review D 10, 2445"
+  status_evidence:
+    - source_id: src_greensite_2011
+      kind: textbook
+      title: "An Introduction to the Confinement Problem"
+      url: "https://doi.org/10.1007/978-3-642-14382-3"
+      year: 2011
+
+partial_results:
+  - summary: "Wilson formulated the lattice gauge theory framework and the area law criterion for confinement."
+    year: 1974
+  - summary: "Lattice QCD simulations provide overwhelming numerical evidence for confinement with string tension consistent with experiments."
+    year: 2000
+  - summary: "'t Hooft and Mandelstam proposed the dual superconductor mechanism for confinement."
+    year: 1976
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.50
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving that QCD exhibits confinement, meaning isolated quarks and gluons cannot exist as free particles.
+  decomposition:
+    - "Prove the area law for Wilson loops in SU(3) Yang-Mills theory"
+    - "Establish the dual superconductor mechanism or an alternative confinement mechanism rigorously"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

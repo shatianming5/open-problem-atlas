@@ -1,0 +1,11 @@
+title: "L vs NL"
+statement: "Is deterministic log-space strictly weaker than nondeterministic log-space?"
+source_id: "src_sipser_1997"
+source_url: "https://complexityzoo.net/Complexity_Zoo:L#l"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Complexity of Nash Equilibrium Computation in Succinct Games"
+statement: "Is computing a Nash equilibrium in succinctly represented games PPAD-complete, or can it be solved in polynomial time for specific graph-structured representations?"
+source_id: "src_rubinstein_2020"
+source_url: "https://arxiv.org/abs/1612.09462"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithmic-game-theory"
+confidence: 0.72
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

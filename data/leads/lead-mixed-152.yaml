@@ -1,0 +1,11 @@
+title: "Low-Degree Polynomial Hardness Paradigm"
+statement: "Can the low-degree polynomial framework be formally shown to capture the exact computational threshold for all natural average-case problems?"
+source_id: "src_hopkins_2022"
+source_url: "https://arxiv.org/abs/2205.01058"
+domain_hint: "theoretical-cs"
+subdomain_hint: "average-case-complexity"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Planar Graph Separator Optimal Construction"
+statement: "Can planar graph separators of optimal size O(sqrt(n)) be constructed in linear time with best constants?"
+source_id: "src_lipton_tarjan_1979"
+source_url: "https://doi.org/10.1137/0136016"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

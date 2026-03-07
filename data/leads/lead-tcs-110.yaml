@@ -1,0 +1,11 @@
+title: "Multi-Party Non-Interactive Key Exchange"
+statement: "Can non-interactive key exchange be achieved for three or more parties without trusted setup or multilinear maps?"
+source_id: "src_boneh_zhandry_2014"
+source_url: "https://doi.org/10.1007/978-3-662-44371-2_30"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

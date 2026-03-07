@@ -1,0 +1,112 @@
+id: opa.tcs.learning-theory.active-learning-query-complexity
+kind: problem
+title: "Active Learning Query Complexity"
+aliases:
+  - "Optimal active learning"
+  - "Label complexity of active learning"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - learning-theory
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    In active learning, the learner can adaptively choose which examples to request
+    labels for. What is the optimal label complexity (number of label queries) as a
+    function of the VC dimension, error parameter, and distribution? For which
+    concept classes does active learning provably improve over passive learning, and
+    by how much?
+  informal: >
+    If a learning algorithm can choose which data points to get labels for (rather
+    than receiving random labeled data), how many labels does it need? When does
+    this adaptive querying help significantly?
+
+why_it_matters: >
+  Active learning is crucial in practice because labeled data is expensive. Understanding
+  the fundamental limits of label efficiency guides the design of active learning
+  systems in applications like medical diagnosis and NLP.
+
+prerequisites:
+  - active learning
+  - query learning
+  - VC dimension
+  - disagreement coefficient
+
+dates:
+  first_stated: 2006
+
+sources:
+  canonical:
+    - source_id: src_hanneke_2007
+      kind: paper
+      title: "A Bound on the Label Complexity of Disagreement-Based Active Learning"
+      authors:
+        - "Steve Hanneke"
+      url: "https://doi.org/10.1145/1273496.1273541"
+      year: 2007
+  status_evidence:
+    - source_id: src_dasgupta_2011
+      kind: survey
+      title: "Two Faces of Active Learning"
+      authors:
+        - "Sanjoy Dasgupta"
+      url: "https://doi.org/10.1016/j.tcs.2011.01.023"
+      year: 2011
+
+partial_results:
+  - summary: "Hanneke (2007) showed that the disagreement coefficient characterizes the label complexity of active learning."
+    year: 2007
+  - summary: "For linear classifiers under log-concave distributions, exponential savings over passive learning are possible."
+    year: 2009
+  - summary: "General characterization of when active learning helps and by exactly how much remains open."
+    year: 2011
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.learning-theory.pac-learning-dnf"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.45
+  formality: 0.80
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Determining the exact label complexity of active learning and characterizing when
+    it provably improves over passive learning are fundamental open problems.
+  decomposition:
+    - "Provide tight characterization of label complexity for natural concept classes"
+    - "Determine the exact benefit of active learning for specific distributions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

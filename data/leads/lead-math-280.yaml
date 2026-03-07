@@ -1,0 +1,11 @@
+title: "Dixmier's Unitarizability Problem"
+statement: "Is every countable group whose representations are all unitarizable necessarily amenable?"
+source_id: "src_dixmier_1950"
+source_url: "https://en.wikipedia.org/wiki/Unitarizable_representation"
+domain_hint: "mathematics"
+subdomain_hint: "operator-algebras"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

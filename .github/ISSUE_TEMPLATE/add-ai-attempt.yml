@@ -1,0 +1,104 @@
+name: Add AI/Human Attempt
+description: Record an AI or human attempt on a verified open problem
+title: "[Attempt] "
+labels: ["type:attempt", "needs-review"]
+body:
+  - type: input
+    id: problem_id
+    attributes:
+      label: Problem ID
+      description: The ID of the problem this attempt targets
+      placeholder: "e.g., opa.math.number-theory.collatz"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: actor_type
+    attributes:
+      label: Actor Type
+      options:
+        - AI
+        - Human
+        - Hybrid
+    validations:
+      required: true
+
+  - type: input
+    id: actor
+    attributes:
+      label: Actor / Model
+      description: "Name and version of the model or person"
+      placeholder: "e.g., Claude 3.5 Sonnet, GPT-4o, Jane Doe"
+    validations:
+      required: true
+
+  - type: textarea
+    id: method
+    attributes:
+      label: Method Summary
+      description: Describe the approach used
+    validations:
+      required: true
+
+  - type: textarea
+    id: tools
+    attributes:
+      label: Tools & Environment
+      description: "Software, libraries, hardware used"
+      placeholder: |
+        - Python 3.11
+        - Z3 solver
+        - Lean 4
+    validations:
+      required: true
+
+  - type: textarea
+    id: outcome
+    attributes:
+      label: Outcome
+      description: What was the result?
+    validations:
+      required: true
+
+  - type: dropdown
+    id: result_type
+    attributes:
+      label: Result Type
+      options:
+        - no_progress
+        - partial_insight
+        - decomposition
+        - counterexample_candidate
+        - proof_sketch
+        - formalization
+        - literature_review
+        - computational_evidence
+        - negative_result
+    validations:
+      required: true
+
+  - type: dropdown
+    id: verification
+    attributes:
+      label: Verification Status
+      options:
+        - unverified
+        - verified
+    validations:
+      required: true
+
+  - type: textarea
+    id: limitations
+    attributes:
+      label: Limitations
+      description: Known limitations of this attempt
+    validations:
+      required: true
+
+  - type: input
+    id: notebook
+    attributes:
+      label: Notebook / Reproduction Link
+      description: "Link to reproducible notebook or code"
+    validations:
+      required: false

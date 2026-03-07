@@ -1,0 +1,11 @@
+title: "Hyperplane Problem"
+statement: "Does every infinite-dimensional Banach space have a hyperplane (closed subspace of codimension 1) that is isomorphic to the whole space?"
+source_id: "src_banach_1932"
+source_url: "https://en.wikipedia.org/wiki/Banach_space"
+domain_hint: "mathematics"
+subdomain_hint: "functional-analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

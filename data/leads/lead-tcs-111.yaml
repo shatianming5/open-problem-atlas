@@ -1,0 +1,11 @@
+title: "Program Obfuscation Impossibility Circumvention"
+statement: "What meaningful notions of program obfuscation are achievable given Barak et al.'s impossibility result for virtual black-box obfuscation?"
+source_id: "src_barak_et_al_2001"
+source_url: "https://doi.org/10.1007/3-540-44647-8_1"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

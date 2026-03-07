@@ -1,0 +1,11 @@
+title: "Vitali's Problem for Finitely Additive Measures"
+statement: "Does there exist a finitely additive, translation-invariant measure on all subsets of R^n that extends Lebesgue measure for n >= 3?"
+source_id: "src_vitali_1905"
+source_url: "https://en.wikipedia.org/wiki/Non-measurable_set"
+domain_hint: "mathematics"
+subdomain_hint: "measure-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Quantum Gravity Phenomenology"
+statement: "Are there detectable quantum gravity effects in astrophysical observations such as gamma-ray burst time delays, modified dispersion relations, or gravitational decoherence?"
+source_id: "src_amelino-camelia_2013"
+source_url: "https://arxiv.org/abs/0806.0339"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

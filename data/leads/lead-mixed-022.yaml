@@ -1,0 +1,11 @@
+title: "Quantum Advantage for Optimization"
+statement: "Is there a provable superpolynomial quantum speedup for any combinatorial optimization problem, beyond the structured cases like Grover search?"
+source_id: "src_abbas_2023"
+source_url: "https://arxiv.org/abs/2312.09491"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

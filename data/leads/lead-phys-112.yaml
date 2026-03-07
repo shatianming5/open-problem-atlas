@@ -1,0 +1,11 @@
+title: "Quantum Chaos and Random Matrix Theory"
+statement: "Can the Bohigas-Giannoni-Schmit conjecture relating quantum chaos to random matrix statistics be proven rigorously?"
+source_id: "src_bohigas_1984"
+source_url: "https://doi.org/10.1103/PhysRevLett.52.1"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

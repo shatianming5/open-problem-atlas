@@ -1,0 +1,11 @@
+title: "Berry's Conjecture on Eigenfunction Statistics"
+statement: "High-energy eigenfunctions of classically chaotic systems behave like random waves."
+source_id: "src_berry_1977"
+source_url: "https://en.wikipedia.org/wiki/Berry%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

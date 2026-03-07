@@ -1,0 +1,113 @@
+id: opa.tcs.computational-geometry.polygon-triangulation-optimal
+kind: problem
+title: "Optimal Polygon Triangulation"
+aliases:
+  - "Linear-time simple polygon triangulation"
+  - "Chazelle triangulation simplification"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - computational-geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Chazelle (1991) gave a linear-time algorithm for triangulating a simple polygon,
+    but the algorithm is extremely complex and has never been implemented. Is there a
+    simple, practical linear-time algorithm for simple polygon triangulation? Can the
+    linear-time result be extended to polygons with holes efficiently?
+  informal: >
+    We know how to divide a simple polygon into triangles in optimal linear time, but
+    the known algorithm is so complicated that nobody has ever implemented it. Can we
+    find a simpler algorithm that is equally fast?
+
+why_it_matters: >
+  Polygon triangulation is a fundamental primitive in computational geometry, computer
+  graphics, and mesh generation. A practical linear-time algorithm would be both
+  theoretically satisfying and practically useful.
+
+prerequisites:
+  - polygon triangulation
+  - computational geometry
+  - monotone decomposition
+  - sweep algorithms
+
+dates:
+  first_stated: 1991
+
+sources:
+  canonical:
+    - source_id: src_chazelle_1991
+      kind: paper
+      title: "Triangulating a Simple Polygon in Linear Time"
+      authors:
+        - "Bernard Chazelle"
+      url: "https://doi.org/10.1007/BF02187846"
+      year: 1991
+  status_evidence:
+    - source_id: src_amato_goodrich_ramos_2000
+      kind: paper
+      title: "A Randomized Algorithm for Triangulating a Simple Polygon in Linear Time"
+      authors:
+        - "Nancy M. Amato"
+        - "Michael T. Goodrich"
+        - "Edgar A. Ramos"
+      url: "https://doi.org/10.1007/PL00009443"
+      year: 2000
+
+partial_results:
+  - summary: "Chazelle (1991) proved simple polygon triangulation can be done in O(n) time, but the algorithm uses sophisticated data structures."
+    year: 1991
+  - summary: "Amato, Goodrich, and Ramos (2000) gave a simpler randomized linear-time algorithm."
+    year: 2000
+  - summary: "A simple deterministic linear-time algorithm remains elusive."
+    year: 2000
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.computational-geometry.art-gallery-complexity"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.40
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Finding a simple, practical linear-time algorithm for polygon triangulation
+    remains open despite Chazelle's theoretical linear-time result.
+  decomposition:
+    - "Develop a simple deterministic linear-time triangulation algorithm"
+    - "Extend linear-time triangulation to polygons with holes"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

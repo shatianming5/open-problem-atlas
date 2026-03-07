@@ -1,0 +1,129 @@
+id: opa.mathematics.partial-differential-equations.strong-cosmic-censorship-conjecture
+kind: problem
+title: "Strong Cosmic Censorship Conjecture (Mathematical Formulation)"
+aliases:
+  - "Penrose Strong Cosmic Censorship"
+  - "Christodoulou's Formulation of Strong Cosmic Censorship"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - partial-differential-equations
+  - geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The maximal globally hyperbolic development of generic compact or
+    asymptotically flat initial data for the Einstein vacuum equations
+    R_{μν} = 0 is inextendible as a suitably regular Lorentzian manifold.
+    In Christodoulou's C^0 formulation: the maximal Cauchy development is
+    C^0-inextendible for generic initial data.
+  informal: >
+    The laws of general relativity, given generic initial conditions,
+    should determine the spacetime uniquely — there should be no way to
+    extend the solution beyond a certain boundary (the Cauchy horizon)
+    in a physically meaningful way. This is the mathematical version of
+    the statement that "physics is deterministic in general relativity."
+
+why_it_matters: >
+  The strong cosmic censorship conjecture is one of the most important open
+  problems at the intersection of mathematical physics and PDE theory. It
+  addresses the fundamental question of determinism in general relativity.
+  Recent work by Dafermos and Luk (2017) on the interior of black holes
+  has shown that the C^0 formulation is true for the Kerr solution, but
+  the full conjecture remains wide open.
+
+prerequisites:
+  - Lorentzian geometry
+  - partial differential equations
+  - general relativity
+  - global analysis
+
+dates:
+  first_stated: 1979
+
+sources:
+  canonical:
+    - source_id: src_penrose_1979
+      kind: paper
+      title: "Singularities and time-asymmetry"
+      authors:
+        - "Roger Penrose"
+      year: 1979
+    - source_id: src_christodoulou_1999
+      kind: paper
+      title: "The instability of naked singularities in the gravitational collapse of a scalar field"
+      authors:
+        - "Demetrios Christodoulou"
+      year: 1999
+      url: "https://doi.org/10.4007/annals.1999.149.183"
+  status_evidence:
+    - source_id: src_dafermos_luk_2017
+      kind: paper
+      title: "The interior of dynamical vacuum black holes I: The C^0-stability of the Kerr Cauchy horizon"
+      authors:
+        - "Mihalis Dafermos"
+        - "Jonathan Luk"
+      year: 2017
+      url: "https://arxiv.org/abs/1710.01722"
+
+partial_results:
+  - summary: "Christodoulou proved strong cosmic censorship for the spherically symmetric Einstein-scalar field system."
+    year: 1999
+  - summary: "Dafermos proved C^0 inextendibility for spherically symmetric spacetimes."
+    year: 2005
+  - summary: "Dafermos and Luk proved C^0 stability of the Kerr Cauchy horizon, verifying a key step."
+    year: 2017
+  - summary: "The full conjecture for vacuum spacetimes without symmetry remains open."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.35
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The strong cosmic censorship conjecture asserts that the maximal Cauchy
+    development of generic initial data for the Einstein equations is
+    inextendible, ensuring determinism in general relativity.
+  decomposition:
+    - "Linear and nonlinear stability of Cauchy horizons"
+    - "Decay estimates in black hole interiors"
+    - "Extension from spherical symmetry to the general case"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

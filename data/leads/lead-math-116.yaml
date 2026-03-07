@@ -1,0 +1,11 @@
+title: "Lindelof Hypothesis"
+statement: "The Riemann zeta function satisfies zeta(1/2 + it) = O(t^epsilon) for every epsilon > 0. This is weaker than the Riemann Hypothesis but still open."
+source_id: "src_lindelof_1908"
+source_url: "https://en.wikipedia.org/wiki/Lindel%C3%B6f_hypothesis"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

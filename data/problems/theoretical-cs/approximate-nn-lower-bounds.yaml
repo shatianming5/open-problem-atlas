@@ -1,0 +1,114 @@
+id: opa.tcs.algorithms.approximate-nn-lower-bounds
+kind: problem
+title: "Approximate Nearest Neighbor Lower Bounds"
+aliases:
+  - "ANN hardness"
+  - "Optimal approximate nearest neighbor"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    For the c-approximate nearest neighbor problem in d-dimensional Euclidean space,
+    what is the optimal tradeoff between space, query time, and approximation factor c?
+    Specifically, is the n^(1/c^2) query time achieved by locality-sensitive hashing
+    optimal for polynomial space data structures? Can we prove matching lower bounds?
+  informal: >
+    What is the best possible tradeoff for approximate nearest neighbor search? We
+    have good algorithms (like LSH) but do not know if they are optimal.
+
+why_it_matters: >
+  Approximate nearest neighbor is used throughout machine learning, recommendation
+  systems, and search engines. Establishing tight lower bounds would show whether
+  existing algorithms like LSH are essentially optimal or can be improved.
+
+prerequisites:
+  - locality-sensitive hashing
+  - cell probe model
+  - high-dimensional geometry
+  - data structure lower bounds
+
+dates:
+  first_stated: 2004
+
+sources:
+  canonical:
+    - source_id: src_andoni_indyk_nguyen_razenshteyn_2014
+      kind: paper
+      title: "Beyond Locality-Sensitive Hashing"
+      authors:
+        - "Alexandr Andoni"
+        - "Piotr Indyk"
+        - "Huy L. Nguyen"
+        - "Ilya Razenshteyn"
+      url: "https://doi.org/10.1137/1.9781611973402.17"
+      year: 2014
+  status_evidence:
+    - source_id: src_andoni_razenshteyn_2015
+      kind: paper
+      title: "Optimal Data-Dependent Hashing for Approximate Near Neighbors"
+      authors:
+        - "Alexandr Andoni"
+        - "Ilya Razenshteyn"
+      url: "https://doi.org/10.1145/2746539.2746553"
+      year: 2015
+
+partial_results:
+  - summary: "Andoni and Razenshteyn (2015) achieved optimal data-dependent LSH with query time n^(1/c^2 + o(1)) for l2 distance."
+    year: 2015
+  - summary: "Motwani, Naor, and Panigrahy (2007) proved lower bounds for LSH-based approaches."
+    year: 2007
+  - summary: "Unconditional cell probe lower bounds for ANN remain logarithmic, far from the polynomial upper bounds."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.algorithms.nearest-neighbor-high-dim"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.45
+  formality: 0.80
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Proving tight lower bounds for approximate nearest neighbor search to match the
+    best known upper bounds from LSH-based approaches remains open.
+  decomposition:
+    - "Prove cell probe lower bounds matching the n^(1/c^2) upper bound"
+    - "Determine whether data-dependent hashing can beat data-independent approaches"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

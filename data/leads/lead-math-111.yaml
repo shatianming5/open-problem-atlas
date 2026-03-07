@@ -1,0 +1,11 @@
+title: "Smale's 14th Problem"
+statement: "Is the concept of a polynomial-time computable map on the reals equivalent to polynomial-time Turing machine computability for discrete problems?"
+source_id: "src_smale_1998"
+source_url: "https://en.wikipedia.org/wiki/Smale%27s_problems"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

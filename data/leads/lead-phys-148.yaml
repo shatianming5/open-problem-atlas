@@ -1,0 +1,11 @@
+title: "Quantum Spin Liquids"
+statement: "Do quantum spin liquids with long-range entanglement and fractionalized excitations exist as stable ground states of realistic Hamiltonians in two or three dimensions?"
+source_id: "src_savary_2017"
+source_url: "https://arxiv.org/abs/1601.03742"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

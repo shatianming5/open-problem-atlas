@@ -1,0 +1,11 @@
+title: "Existence of Minimal Surfaces of Arbitrary Genus"
+statement: "In a generic Riemannian 3-manifold, does there exist a closed embedded minimal surface of every genus?"
+source_id: "src_yau_1982b"
+source_url: "https://arxiv.org/abs/1711.10752"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

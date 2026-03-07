@@ -1,0 +1,11 @@
+title: "Multi-Commodity Flow Gap"
+statement: "What is the worst-case integrality gap of the multi-commodity flow relaxation for general graphs? Is it O(log n)?"
+source_id: "src_leighton_rao_1999"
+source_url: "https://doi.org/10.1090/S0894-0347-99-00284-8"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

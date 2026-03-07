@@ -1,0 +1,129 @@
+id: opa.phys.statistical-mechanics.3d-ising-model-phase-transition
+kind: problem
+title: "Rigorous Analysis of the 3D Ising Model Phase Transition"
+aliases:
+  - "3D Ising Model Critical Behavior"
+  - "Three-Dimensional Ising Model Exact Solution"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The three-dimensional Ising model on the cubic lattice Z^3 with nearest-neighbor
+    ferromagnetic coupling J > 0 and Hamiltonian H = -J sum_{<i,j>} sigma_i sigma_j
+    (where sigma_i in {-1, +1}) is known to exhibit a phase transition at some critical
+    inverse temperature beta_c in (0, infinity). While the existence of a phase transition
+    (spontaneous magnetization for beta > beta_c) has been rigorously established, the
+    following fundamental problems remain open: (1) prove that the critical exponents exist
+    and take the values predicted by the renormalization group and conformal bootstrap
+    (e.g., beta ~ 0.3265, gamma ~ 1.2372, nu ~ 0.6301); (2) prove conformal invariance
+    of the scaling limit at criticality; (3) determine whether an exact closed-form
+    solution exists analogous to Onsager's 2D solution.
+  informal: >
+    The Ising model describes magnetic spins on a lattice that prefer to align with their
+    neighbors. In two dimensions, Onsager found an exact solution in 1944. In three
+    dimensions, we know a phase transition occurs (the material becomes magnetic below a
+    critical temperature), but we cannot prove the precise mathematical nature of this
+    transition. Can we rigorously compute the critical exponents, prove the scaling limit
+    is conformally invariant, or find an exact solution?
+
+why_it_matters: >
+  The 3D Ising model is the paradigmatic model of phase transitions and critical phenomena.
+  Its critical exponents are among the most precisely measured quantities in physics (via
+  Monte Carlo and conformal bootstrap), yet rigorous mathematical proofs remain elusive.
+  A solution would represent a major breakthrough in mathematical physics and probability
+  theory, with implications for understanding universality and renormalization group theory.
+
+prerequisites:
+  - statistical mechanics
+  - probability theory
+  - renormalization group
+  - conformal field theory
+  - lattice models
+
+dates:
+  first_stated: 1925
+
+sources:
+  canonical:
+    - source_id: src_onsager_1944
+      kind: paper
+      title: "Crystal Statistics. I. A Two-Dimensional Model with an Order-Disorder Transition"
+      url: "https://doi.org/10.1103/PhysRev.65.117"
+      year: 1944
+      locator: "Physical Review 65(3-4), 117-149"
+    - source_id: src_el_showk_et_al_2014
+      kind: paper
+      title: "Solving the 3d Ising Model with the Conformal Bootstrap II. c-Minimization and Precise Critical Exponents"
+      url: "https://arxiv.org/abs/1403.4545"
+      year: 2014
+      locator: "J. Stat. Phys. 157, 869-914"
+  status_evidence:
+    - source_id: src_duminil_copin_2020
+      kind: survey
+      title: "100 years of the (critical) Ising model on the hypercubic lattice"
+      url: "https://arxiv.org/abs/2208.00864"
+      year: 2022
+
+partial_results:
+  - summary: "Onsager (1944) exactly solved the 2D Ising model, computing the free energy and proving a phase transition."
+    year: 1944
+  - summary: "Peierls (1936) proved the existence of a phase transition in the Ising model in dimensions d >= 2."
+    year: 1936
+  - summary: "Aizenman and Fernandez rigorously proved that the critical exponents of the Ising model in d >= 5 take their mean-field values."
+    year: 1986
+  - summary: "The conformal bootstrap program numerically determined 3D Ising critical exponents to extraordinary precision: Delta_sigma = 0.5181489(10), Delta_epsilon = 1.412625(10)."
+    year: 2016
+  - summary: "Chelkak, Hongler, and Izyurov proved conformal invariance of the 2D Ising model at criticality."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.35
+  toolability: 0.60
+  formality: 0.70
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    This problem asks for a rigorous mathematical proof of the critical exponents and conformal invariance of the 3D Ising model phase transition, extending Onsager's celebrated 2D solution to three dimensions.
+  decomposition:
+    - "Rigorously establish the renormalization group fixed point and compute critical exponents in 3D"
+    - "Prove conformal invariance of the scaling limit using conformal bootstrap or probabilistic methods"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

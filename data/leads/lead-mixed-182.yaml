@@ -1,0 +1,11 @@
+title: "Subexponential LWE Algorithms"
+statement: "Can lattice sieving or enumeration algorithms for Learning with Errors achieve subexponential time complexity, or are 2^{Omega(n)} lower bounds provable?"
+source_id: "src_ducas_2023"
+source_url: "https://arxiv.org/abs/2305.09528"
+domain_hint: "theoretical-cs"
+subdomain_hint: "lattice-algorithms"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,114 @@
+id: opa.tcs.quantum-computing.quantum-money-standard
+kind: problem
+title: "Quantum Money from Standard Assumptions"
+aliases:
+  - "Public-key quantum money"
+  - "Unforgeable quantum tokens"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: existential
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can we construct a public-key quantum money scheme -- quantum states that can be
+    publicly verified but not copied -- from standard cryptographic assumptions (e.g.,
+    LWE)? Wiesner's original private-key scheme is information-theoretically secure,
+    but public-key quantum money from standard assumptions remains elusive.
+  informal: >
+    Can we create digital money that is physically impossible to counterfeit, where
+    anyone can verify a bill but no one can copy it, based on well-understood
+    mathematical problems?
+
+why_it_matters: >
+  Quantum money would be the ultimate uncounterfeitable currency, leveraging the
+  no-cloning theorem. A public-key scheme from standard assumptions would be a
+  breakthrough at the intersection of quantum computing and cryptography.
+
+prerequisites:
+  - quantum information
+  - no-cloning theorem
+  - public-key cryptography
+  - quantum state verification
+
+dates:
+  first_stated: 1983
+
+sources:
+  canonical:
+    - source_id: src_wiesner_1983
+      kind: paper
+      title: "Conjugate Coding"
+      authors:
+        - "Stephen Wiesner"
+      url: "https://doi.org/10.1145/1008908.1008920"
+      year: 1983
+  status_evidence:
+    - source_id: src_aaronson_christiano_2012
+      kind: paper
+      title: "Quantum Money from Hidden Subspaces"
+      authors:
+        - "Scott Aaronson"
+        - "Paul Christiano"
+      url: "https://doi.org/10.1145/2213977.2213983"
+      year: 2012
+
+partial_results:
+  - summary: "Wiesner (1983) proposed the first quantum money scheme, secure in the private-key setting."
+    year: 1983
+  - summary: "Aaronson and Christiano (2012) proposed public-key quantum money from hidden subspaces, but the security relies on new assumptions."
+    year: 2012
+  - summary: "Zhandry (2021) made progress on quantum lightning (a stronger primitive) but from non-standard assumptions."
+    year: 2021
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.quantum-computing.qma-vs-qcma"
+    - "opa.tcs.cryptography.post-quantum-hash-functions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.80
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - qiskit
+
+machine_generated:
+  summary: >
+    Constructing public-key quantum money from standard cryptographic assumptions
+    remains a major open problem in quantum cryptography.
+  decomposition:
+    - "Build public-key quantum money from LWE or other standard assumptions"
+    - "Prove impossibility results for public-key quantum money in certain models"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

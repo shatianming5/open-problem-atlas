@@ -1,0 +1,11 @@
+title: "Standard Conjectures on Algebraic Cycles"
+statement: "A set of conjectures about algebraic cycles proposed by Grothendieck, including the Lefschetz standard conjecture and the Hodge standard conjecture."
+source_id: "src_grothendieck_1969"
+source_url: "https://en.wikipedia.org/wiki/Standard_conjectures_on_algebraic_cycles"
+domain_hint: "mathematics"
+subdomain_hint: "algebraic-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

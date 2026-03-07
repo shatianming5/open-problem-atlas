@@ -1,0 +1,11 @@
+title: "Quantum Algorithm for Lattice Problems"
+statement: "Can quantum computers solve worst-case lattice problems like the Shortest Vector Problem significantly faster than classical algorithms?"
+source_id: "src_regev_2004"
+source_url: "https://arxiv.org/abs/2401.03703"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

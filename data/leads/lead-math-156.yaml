@@ -1,0 +1,11 @@
+title: "Berge Conjecture on Knots and Dehn Surgery"
+statement: "If Dehn surgery on a knot K in S^3 yields a lens space, then K is a Berge knot."
+source_id: "src_berge_1991"
+source_url: "https://en.wikipedia.org/wiki/Berge_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

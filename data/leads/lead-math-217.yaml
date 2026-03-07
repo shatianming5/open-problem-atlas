@@ -1,0 +1,11 @@
+title: "Min-Oo Conjecture"
+statement: "A Riemannian metric on the hemisphere that agrees with the standard metric at the boundary and has scalar curvature at least n(n-1) is isometric to the standard hemisphere."
+source_id: "src_minoo_1998"
+source_url: "https://en.wikipedia.org/wiki/Min-Oo%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "differential-geometry"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

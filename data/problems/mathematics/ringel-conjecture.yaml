@@ -1,0 +1,112 @@
+id: opa.mathematics.enumerative-combinatorics.ringel-conjecture
+kind: problem
+title: "Ringel's Conjecture"
+aliases:
+  - "Ringel Tree Decomposition Conjecture"
+
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - enumerative-combinatorics
+  - discrete-geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every tree T with n edges, the complete graph K_{2n+1} can be decomposed into 2n+1
+    edge-disjoint copies of T. Equivalently, every tree with n edges packs 2n+1 times into
+    the complete graph K_{2n+1}.
+  informal: >
+    Any tree with n edges can tile the complete graph on 2n+1 vertices perfectly -- the edges
+    of the complete graph can be partitioned into 2n+1 copies of the tree with no overlaps.
+
+why_it_matters: >
+  Ringel's conjecture (1963) is a foundational problem in graph theory and combinatorial design.
+  It generalizes the well-known fact that K_{2n+1} can be decomposed into Hamiltonian cycles.
+  Montgomery, Pokrovskiy, and Sudakov proved it for sufficiently large n (2021), but the conjecture
+  remains open for small and moderate values of n for all trees.
+
+prerequisites:
+  - graph theory
+  - combinatorial design
+  - probabilistic methods
+
+dates:
+  first_stated: 1963
+
+sources:
+  canonical:
+    - source_id: src_ringel_1963
+      kind: paper
+      title: "Problem 25"
+      authors:
+        - "Gerhard Ringel"
+      year: 1963
+  status_evidence:
+    - source_id: src_mps_2021
+      kind: paper
+      title: "A proof of Ringel's Conjecture"
+      authors:
+        - "Richard Montgomery"
+        - "Alexey Pokrovskiy"
+        - "Benny Sudakov"
+      url: "https://doi.org/10.1007/s00039-021-00576-2"
+      year: 2021
+
+partial_results:
+  - summary: "Montgomery, Pokrovskiy, and Sudakov proved the conjecture for all sufficiently large n."
+    year: 2021
+  - summary: "Previously known for paths, stars, caterpillars, and various special tree families."
+    year: 2004
+  - summary: "The related graceful tree conjecture (Kotzig-Ringel) remains open and would imply this conjecture."
+    year: 1967
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.graph-theory.graceful-tree-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.40
+  toolability: 0.65
+  formality: 0.85
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Ringel's conjecture states that K_{2n+1} decomposes into copies of any n-edge tree.
+    Proved for large n; open for explicit small cases and for all trees uniformly.
+  decomposition:
+    - "Absorption method and randomized algebraic constructions"
+    - "Explicit constructions for specific tree families"
+    - "Connections to graceful labeling"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Rokhlin's Conjecture on Mixing"
+statement: "Is mixing of all orders equivalent to mixing of order 2 for measure-preserving transformations?"
+source_id: "src_rokhlin_1949"
+source_url: "https://en.wikipedia.org/wiki/Mixing_(mathematics)"
+domain_hint: "mathematics"
+subdomain_hint: "ergodic-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

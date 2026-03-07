@@ -1,0 +1,11 @@
+title: "Optimal Data Structures for Predecessor Search"
+statement: "What is the optimal time for predecessor search over n w-bit integers? Van Emde Boas trees achieve O(log w) but optimality is unknown."
+source_id: "src_patrascu_thorup_2006"
+source_url: "https://doi.org/10.1145/1132516.1132551"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

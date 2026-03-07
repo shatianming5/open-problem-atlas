@@ -1,0 +1,11 @@
+title: "Carleson's Theorem Generalization to Higher Dimensions"
+statement: "Does the Fourier series of an L^2 function on R^n converge pointwise almost everywhere for n >= 2? Carleson proved this for n=1."
+source_id: "src_carleson_1966"
+source_url: "https://en.wikipedia.org/wiki/Carleson%27s_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "analysis"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

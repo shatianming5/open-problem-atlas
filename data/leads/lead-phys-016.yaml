@@ -1,0 +1,11 @@
+title: "Quantum Advantage for Optimization Problems"
+statement: "Can quantum computers provide a provable super-polynomial speedup for combinatorial optimization problems? No unconditional separation is known."
+source_id: "src_farhi_2014"
+source_url: "https://arxiv.org/abs/1411.4028"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

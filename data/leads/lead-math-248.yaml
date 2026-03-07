@@ -1,0 +1,11 @@
+title: "Lack's Conjecture on 2-Categories"
+statement: "A coherence result for tricategories stating that every tricategory is triequivalent to a Gray-category."
+source_id: "src_lack_2007"
+source_url: "https://en.wikipedia.org/wiki/Tricategory"
+domain_hint: "mathematics"
+subdomain_hint: "category-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

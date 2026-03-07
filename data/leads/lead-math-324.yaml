@@ -1,0 +1,11 @@
+title: "Log-Brunn-Minkowski Conjecture"
+statement: "A conjectured strengthening of the Brunn-Minkowski inequality using logarithmic means for symmetric convex bodies."
+source_id: "src_boroczkylutwakyanzhang_2012"
+source_url: "https://en.wikipedia.org/wiki/Brunn%E2%80%93Minkowski_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "convex-geometry"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

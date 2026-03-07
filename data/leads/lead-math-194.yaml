@@ -1,0 +1,11 @@
+title: "Ultimate-L Conjecture"
+statement: "Woodin's Ultimate-L conjecture: is there a canonical inner model that is close to V (the universe of sets) and satisfies the Generalized Continuum Hypothesis?"
+source_id: "src_woodin_2010"
+source_url: "https://en.wikipedia.org/wiki/Ultimate_L"
+domain_hint: "mathematics"
+subdomain_hint: "logic"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

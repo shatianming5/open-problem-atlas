@@ -1,0 +1,11 @@
+title: "QMA vs QCMA"
+statement: "Is QMA (quantum proofs) strictly more powerful than QCMA (classical proofs verified by quantum machines)?"
+source_id: "src_aaronson_kuperberg_2007"
+source_url: "https://doi.org/10.4086/toc.2007.v003a007"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

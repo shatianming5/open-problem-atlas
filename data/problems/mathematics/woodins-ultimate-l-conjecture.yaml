@@ -1,0 +1,122 @@
+id: opa.mathematics.set-theory.woodins-ultimate-l-conjecture
+kind: problem
+title: "Woodin's Ultimate L Conjecture"
+aliases:
+  - "Ultimate L Conjecture"
+  - "V = Ultimate L"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - set-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There exists a canonical inner model (called "Ultimate L") that is
+    compatible with all large cardinal axioms and satisfies V = Ultimate L.
+    More precisely, assuming the existence of an extendible cardinal, there
+    is a definable inner model L_Omega that is close to V (satisfies a
+    strong form of the Weak Covering Lemma), is compatible with all large
+    cardinals, and in which the Continuum Hypothesis and other combinatorial
+    principles hold. The conjecture asserts that such a model exists and
+    that V = L_Omega is consistent with all known large cardinal axioms.
+  informal: >
+    The Ultimate L Conjecture proposes that there is a "best" canonical
+    model of set theory that looks like Godel's constructible universe L
+    but is large enough to accommodate all known large cardinal axioms.
+    This would resolve the Continuum Hypothesis (it would be true in this
+    model) and provide a definitive answer to "what sets exist."
+
+why_it_matters: >
+  Woodin's Ultimate L program represents one of the most ambitious attempts
+  to resolve the fundamental independence phenomena in set theory, including
+  the Continuum Hypothesis. If successful, it would provide a canonical
+  model of set theory compatible with all large cardinals, resolving
+  questions left open since Cohen's independence proof of 1963. It
+  represents a competing approach to the forcing axiom/Martin's Maximum
+  program.
+
+prerequisites:
+  - set theory
+  - large cardinal axioms
+  - inner model theory
+  - determinacy
+
+dates:
+  first_stated: 2010
+
+sources:
+  canonical:
+    - source_id: src_woodin_2010
+      kind: paper
+      title: "Suitable extender models I"
+      authors:
+        - "W. Hugh Woodin"
+      year: 2010
+      locator: "Journal of Mathematical Logic, vol. 10, pp. 101-339"
+  status_evidence:
+    - source_id: src_woodin_2017
+      kind: paper
+      title: "In search of Ultimate-L: the 19th Midrasha Mathematicae Lectures"
+      authors:
+        - "W. Hugh Woodin"
+      year: 2017
+      locator: "Bulletin of Symbolic Logic, vol. 23, no. 1, pp. 1-109"
+
+partial_results:
+  - summary: "Woodin proved that if the Ultimate L Conjecture holds, then the Continuum Hypothesis is true in Ultimate L."
+    year: 2010
+  - summary: "Woodin established key results connecting the conjecture to the HOD Dichotomy Theorem."
+    year: 2010
+  - summary: "Sargsyan and others developed the theory of hod mice to approach the construction of Ultimate L."
+    year: 2015
+  - summary: "Woodin announced significant progress on constructing suitable extender models up to a supercompact cardinal."
+    year: 2019
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.35
+  toolability: 0.15
+  formality: 0.85
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    Woodin's Ultimate L Conjecture proposes the existence of a canonical
+    inner model compatible with all large cardinals that would settle the
+    Continuum Hypothesis and other independent statements.
+  decomposition:
+    - "Construction of suitable extender models at the level of supercompact cardinals"
+    - "HOD Dichotomy and its consequences for inner model theory"
+    - "Reconciliation with forcing axiom approaches"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

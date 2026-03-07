@@ -1,0 +1,11 @@
+title: "Entanglement Entropy Area Law in Higher Dimensions"
+statement: "Does the entanglement entropy of ground states of gapped local Hamiltonians always satisfy an area law in dimensions greater than one?"
+source_id: "src_eisert_2010"
+source_url: "https://arxiv.org/abs/0808.3773"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

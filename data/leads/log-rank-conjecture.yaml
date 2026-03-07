@@ -1,0 +1,11 @@
+title: "Log-Rank Conjecture"
+statement: "The deterministic communication complexity of a Boolean function f: {0,1}^n x {0,1}^n -> {0,1} is polynomially related to the logarithm of the rank (over the reals) of its communication matrix M_f."
+source_id: "src_lovasz_saks_1988"
+source_url: "https://en.wikipedia.org/wiki/Log-rank_conjecture"
+domain_hint: "theoretical-cs"
+subdomain_hint: "communication-complexity"
+confidence: 0.6
+extraction_method: "manual_seed"
+discovered_by: "seed"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

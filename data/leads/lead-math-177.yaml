@@ -1,0 +1,11 @@
+title: "Smale's Problem on the Number of Equilibria"
+statement: "Is the number of isolated equilibria of a polynomial vector field on R^n bounded by a function of the degree and dimension?"
+source_id: "src_smale_1998b"
+source_url: "https://en.wikipedia.org/wiki/Smale%27s_problems"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Quantum Advantage for Optimization"
+statement: "Can quantum approximate optimization algorithms (QAOA) provably outperform classical algorithms for combinatorial optimization?"
+source_id: "src_farhi_goldstone_gutmann_2014"
+source_url: "https://arxiv.org/abs/1411.4028"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

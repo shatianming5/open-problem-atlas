@@ -1,0 +1,11 @@
+title: "Welsh's Conjecture on Matroid Enumeration"
+statement: "Asymptotically, almost all matroids are non-representable over any field."
+source_id: "src_welsh_1976"
+source_url: "https://en.wikipedia.org/wiki/Matroid"
+domain_hint: "mathematics"
+subdomain_hint: "matroid-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,123 @@
+id: opa.mathematics.geometry.kakeya-conjecture
+kind: problem
+title: "Kakeya Conjecture"
+aliases:
+  - "Kakeya Set Conjecture"
+  - "Kakeya Maximal Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - geometry
+  - harmonic-analysis
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    A Besicovitch set (Kakeya set) in R^n is a compact set that contains a unit line segment
+    in every direction. The Kakeya conjecture states that every Besicovitch set in R^n has
+    Hausdorff dimension n (and equivalently, Minkowski dimension n).
+  informal: >
+    A Kakeya set is a set in n-dimensional space that contains a unit-length needle pointing
+    in every possible direction. In 2D, Besicovitch showed such sets can have zero area, but
+    the conjecture says in higher dimensions they must be "full-dimensional" in a precise sense.
+
+why_it_matters: >
+  The Kakeya conjecture is a central problem in geometric measure theory and harmonic analysis.
+  It has deep connections to restriction estimates for the Fourier transform, Bochner-Riesz
+  summability, local smoothing conjectures, and additive combinatorics. Progress on the Kakeya
+  conjecture has driven advances across multiple areas of analysis.
+
+prerequisites:
+  - geometric measure theory
+  - harmonic analysis
+  - additive combinatorics
+  - Hausdorff dimension
+
+dates:
+  first_stated: 1917
+
+sources:
+  canonical:
+    - source_id: src_besicovitch_1919
+      kind: paper
+      title: "Sur deux questions d'integrabilite des fonctions"
+      authors:
+        - "Abram Besicovitch"
+      year: 1919
+    - source_id: src_wolff_1999
+      kind: survey
+      title: "Recent work connected with the Kakeya problem"
+      authors:
+        - "Thomas Wolff"
+      url: "https://www.math.utexas.edu/~tvj/wolff.pdf"
+      year: 1999
+  status_evidence:
+    - source_id: src_katz_tao_2002
+      kind: paper
+      title: "New bounds for Kakeya problems"
+      authors:
+        - "Nets Katz"
+        - "Terence Tao"
+      year: 2002
+
+partial_results:
+  - summary: "The conjecture is fully resolved in dimension 2 (Davies, 1971)."
+    year: 1971
+  - summary: "In 3 dimensions, the Kakeya conjecture was proved by Hong Wang and Joshua Zahl."
+    year: 2025
+  - summary: "Katz, Laba, and Tao improved the dimension lower bound to (2n+2)/(2+2) in n dimensions using additive combinatorics."
+    year: 2000
+  - summary: "The finite field analogue of the Kakeya conjecture was proved by Dvir using the polynomial method."
+    year: 2009
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.25
+  toolability: 0.50
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Kakeya conjecture states that every Besicovitch set in R^n (containing a unit segment
+    in every direction) must have Hausdorff dimension n. The 3D case was recently resolved
+    by Wang and Zahl (2025), but higher dimensions remain open.
+  decomposition:
+    - "Polynomial method and algebraic approaches extending finite field results"
+    - "Additive combinatorics and sum-product estimates for dimension bounds"
+    - "Connections to restriction estimates and Bochner-Riesz summability"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

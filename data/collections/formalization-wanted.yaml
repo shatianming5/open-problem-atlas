@@ -1,0 +1,67 @@
+collection_id: col_formalization-wanted
+title: Formalization Wanted
+description: 'Open problems whose statements could be formalized in a proof assistant (Lean, Coq, Isabelle, etc.) but no such
+  formalization currently exists. This collection is aimed at the theorem proving community looking for meaningful formalization
+  targets.
+
+  '
+curator: OpenProblemAtlas
+created_at: '2026-03-07'
+updated_at: '2026-03-07'
+tags:
+- formalization-wanted
+- lean
+- theorem-proving
+- formal-methods
+featured: true
+problems:
+- problem_id: opa.mathematics.logic-and-foundations.large-cardinal-hierarchy
+  note: High formality score (0.95); formalization wanted
+- problem_id: opa.mathematics.number-theory.riemann-hypothesis
+  note: High formality score (0.95); formalization wanted
+- problem_id: opa.tcs.complexity-theory.np-vs-conp
+  note: High formality score (0.95); formalization wanted
+- problem_id: opa.tcs.complexity-theory.p-vs-np
+  note: Central question; formalizing the statement and known barriers would be impactful
+- problem_id: opa.tcs.complexity-theory.p-vs-pspace
+  note: High formality score (0.95); formalization wanted
+- problem_id: opa.tcs.complexity-theory.polynomial-hierarchy-infinite
+  note: High formality score (0.95); formalization wanted
+- problem_id: opa.tcs.complexity-theory.vp-vs-vnp
+  note: High formality score (0.95); formalization wanted
+- problem_id: opa.mathematics.number-theory.agoh-giuga-conjecture
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.number-theory.bateman-horn-conjecture
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.number-theory.birch-swinnerton-dyer-conjecture
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.set-theory.borels-conjecture
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.commutative-algebra.casas-alvero-conjecture
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.number-theory.catalan-dickson-conjecture
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.number-theory.collatz-conjecture
+  note: Statement is elementary but formalization of the iteration is straightforward
+- problem_id: opa.mathematics.number-theory.goldbach-conjecture
+  note: Elementary statement, amenable to formalization
+- problem_id: opa.mathematics.number-theory.hardy-littlewood-k-tuple-conjecture
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.analysis.invariant-subspace-problem
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.topology.kervaire-invariant-problem
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.number-theory.legendres-conjecture
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.number-theory.lehmers-totient-problem
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.number-theory.n-squared-plus-one-prime-conjecture
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.analysis.navier-stokes-existence-and-smoothness
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.combinatorics.ramsey-number-r55
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.algebraic-geometry.resolution-of-singularities-positive-characteristic
+  note: High formality score (0.9); formalization wanted
+- problem_id: opa.mathematics.number-theory.schanuel-conjecture
+  note: High formality score (0.9); formalization wanted

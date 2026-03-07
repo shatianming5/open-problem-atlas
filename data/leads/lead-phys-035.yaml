@@ -1,0 +1,11 @@
+title: "Holevo Capacity Additivity Violations"
+statement: "What is the maximal violation of additivity of Holevo capacity and how does it scale with channel dimension?"
+source_id: "src_hastings_2009b"
+source_url: "https://arxiv.org/abs/0809.3972"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

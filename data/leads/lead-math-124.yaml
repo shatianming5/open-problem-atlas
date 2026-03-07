@@ -1,0 +1,11 @@
+title: "Moving Sofa Problem"
+statement: "What is the largest area of a rigid shape that can be moved around an L-shaped right-angled corner in a hallway of unit width?"
+source_id: "src_gerver_1992"
+source_url: "https://en.wikipedia.org/wiki/Moving_sofa_problem"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

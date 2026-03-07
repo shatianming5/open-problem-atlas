@@ -1,0 +1,11 @@
+title: "Existence of SRB Measures for Henon Maps"
+statement: "For a positive Lebesgue measure set of parameters, does every Henon map have an SRB (Sinai-Ruelle-Bowen) measure?"
+source_id: "src_benedicks_1991"
+source_url: "https://doi.org/10.2307/2946621"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

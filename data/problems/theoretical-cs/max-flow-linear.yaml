@@ -1,0 +1,117 @@
+id: opa.tcs.graph-algorithms.max-flow-linear
+kind: problem
+title: "Maximum Flow in Linear Time"
+aliases:
+  - "O(m) maximum flow"
+  - "Linear-time max flow"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - graph-algorithms
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can the maximum flow in a network with m edges and n vertices be computed in O(m)
+    time (linear in the number of edges)? Chen et al. (2022) achieved an almost-linear
+    time algorithm running in m^(1+o(1)) time. Can the o(1) term in the exponent be
+    eliminated entirely?
+  informal: >
+    Can we compute the maximum flow through a network in time proportional to just
+    reading the input? Recent breakthroughs got very close, but truly linear time
+    remains elusive.
+
+why_it_matters: >
+  Maximum flow is a fundamental optimization problem with applications in transportation,
+  network design, bipartite matching, and image segmentation. Achieving truly linear
+  time would be optimal and would represent the culmination of 70 years of research.
+
+prerequisites:
+  - network flow algorithms
+  - augmenting paths
+  - interior point methods
+  - graph sparsification
+
+dates:
+  first_stated: 1956
+
+sources:
+  canonical:
+    - source_id: src_chen_kyng_liu_peng_gutenberg_sachdeva_2022
+      kind: paper
+      title: "Maximum Flow and Minimum-Cost Flow in Almost-Linear Time"
+      authors:
+        - "Li Chen"
+        - "Rasmus Kyng"
+        - "Yang P. Liu"
+        - "Richard Peng"
+        - "Maximilian Probst Gutenberg"
+        - "Sushant Sachdeva"
+      url: "https://doi.org/10.1109/FOCS54457.2022.00064"
+      year: 2022
+  status_evidence:
+    - source_id: src_goldberg_rao_1998
+      kind: paper
+      title: "Beyond the Flow Decomposition Barrier"
+      authors:
+        - "Andrew V. Goldberg"
+        - "Satish Rao"
+      url: "https://doi.org/10.1145/290179.290181"
+      year: 1998
+
+partial_results:
+  - summary: "Ford and Fulkerson (1956) introduced the max-flow min-cut theorem and augmenting path algorithms."
+    year: 1956
+  - summary: "Chen et al. (2022) achieved m^(1+o(1)) time for max flow and min-cost flow, a major breakthrough."
+    year: 2022
+  - summary: "Truly linear O(m) time remains open even for unit-capacity graphs."
+    year: 2022
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.graph-algorithms.apsp-truly-subcubic"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.25
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Whether maximum flow can be computed in truly linear O(m) time is open, with
+    the best known algorithm achieving m^(1+o(1)) time.
+  decomposition:
+    - "Eliminate the o(1) term from the almost-linear time max flow algorithm"
+    - "Develop new data structures for dynamic shortest paths in residual graphs"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

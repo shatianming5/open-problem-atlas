@@ -1,0 +1,11 @@
+title: "Quantum Entropy Power Inequality"
+statement: "Does a full quantum analogue of the entropy power inequality hold for bosonic quantum systems? Partial results exist but the general conjecture is open."
+source_id: "src_konig_2014"
+source_url: "https://arxiv.org/abs/1205.3409"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

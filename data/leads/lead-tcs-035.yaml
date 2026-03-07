@@ -1,0 +1,11 @@
+title: "EXP vs NEXP"
+statement: "Is EXP equal to NEXP? Separating these classes would imply circuit lower bounds and has deep consequences."
+source_id: "src_arora_barak_2009"
+source_url: "https://theory.cs.princeton.edu/complexity/"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

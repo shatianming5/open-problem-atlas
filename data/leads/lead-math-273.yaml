@@ -1,0 +1,11 @@
+title: "Elliott's Classification Program"
+statement: "Classify all simple separable nuclear C*-algebras by K-theoretic invariants."
+source_id: "src_elliott_1993"
+source_url: "https://en.wikipedia.org/wiki/Classification_of_C*-algebras"
+domain_hint: "mathematics"
+subdomain_hint: "operator-algebras"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

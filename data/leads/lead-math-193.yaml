@@ -1,0 +1,11 @@
+title: "Consistency of the Singular Cardinal Hypothesis"
+statement: "Is it consistent with ZFC that the Singular Cardinal Hypothesis fails at every singular cardinal of countable cofinality?"
+source_id: "src_silver_1975"
+source_url: "https://en.wikipedia.org/wiki/Singular_cardinals_hypothesis"
+domain_hint: "mathematics"
+subdomain_hint: "logic"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

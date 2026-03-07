@@ -1,0 +1,111 @@
+id: opa.mathematics.number-theory.catalan-dickson-conjecture
+kind: problem
+title: "Catalan-Dickson Conjecture on Perfect Numbers"
+aliases:
+  - "Odd Perfect Number Problem"
+  - "Existence of Odd Perfect Numbers"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There is no odd perfect number. Equivalently, every perfect number (a positive integer n
+    satisfying sigma(n) = 2n, where sigma is the sum-of-divisors function) is even, and hence
+    of the form 2^{p-1}(2^p - 1) where 2^p - 1 is a Mersenne prime.
+  informal: >
+    A perfect number is one that equals the sum of its proper divisors (e.g., 6 = 1+2+3 and
+    28 = 1+2+4+7+14). All known perfect numbers are even. The conjecture states that no odd
+    perfect number exists.
+
+why_it_matters: >
+  The question of whether odd perfect numbers exist is one of the oldest open problems in
+  mathematics, dating back to the ancient Greeks. Its resolution would complete our understanding
+  of the structure of perfect numbers and has deep connections to the multiplicative theory
+  of arithmetic functions.
+
+prerequisites:
+  - elementary number theory
+  - multiplicative number theory
+  - algebraic number theory
+
+dates:
+  first_stated: 1888
+
+sources:
+  canonical:
+    - source_id: src_dickson_1913
+      kind: paper
+      title: "Finiteness of the odd perfect and primitive abundant numbers with n distinct prime factors"
+      authors:
+        - "Leonard Eugene Dickson"
+      url: "https://doi.org/10.2307/2370405"
+      year: 1913
+  status_evidence:
+    - source_id: src_nielsen_2015
+      kind: paper
+      title: "Odd perfect numbers, Diophantine equations, and upper bounds"
+      url: "https://doi.org/10.1090/mcom/3002"
+      year: 2015
+
+partial_results:
+  - summary: "Euler proved that any odd perfect number must have the form p^a * m^2 where p is prime and p ≡ a ≡ 1 (mod 4)."
+    year: 1849
+  - summary: "Ochem and Rao proved that any odd perfect number must exceed 10^1500."
+    year: 2012
+  - summary: "Nielsen proved that any odd perfect number must have at least 10 distinct prime factors."
+    year: 2015
+  - summary: "Any odd perfect number must have its largest prime factor exceed 10^8 (Goto and Ohno)."
+    year: 2008
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.30
+  toolability: 0.60
+  formality: 0.90
+  ai_fit: 0.45
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Catalan-Dickson conjecture asserts that no odd perfect number exists, a question
+    dating back to antiquity with extensive partial results constraining any potential counterexample.
+  decomposition:
+    - "Strengthening lower bounds on the size and number of prime factors of any hypothetical odd perfect number"
+    - "Exploiting the Euler factorization form p^a * m^2 and divisibility constraints"
+    - "Computational search and elimination of candidate factorization patterns"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

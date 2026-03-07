@@ -1,0 +1,11 @@
+title: "Konig-Egervary Conjecture Generalization"
+statement: "Can the Konig-Egervary theorem be extended to hypergraphs? Characterize hypergraphs where the minimum vertex cover equals the maximum matching."
+source_id: "src_aharoni_2000"
+source_url: "https://doi.org/10.1007/s004930070009"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

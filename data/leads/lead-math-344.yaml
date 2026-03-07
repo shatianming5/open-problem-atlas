@@ -1,0 +1,11 @@
+title: "Mergelyan Conjecture Generalizations"
+statement: "Extend Mergelyan's theorem on polynomial approximation to functions on more general compact sets in C^n."
+source_id: "src_mergelyan_1951"
+source_url: "https://en.wikipedia.org/wiki/Mergelyan%27s_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "approximation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

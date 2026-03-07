@@ -1,0 +1,11 @@
+title: "Zone Theorem Generalization"
+statement: "Can the zone theorem for hyperplane arrangements be tightly generalized to curved surfaces and higher-order objects?"
+source_id: "src_agarwal_sharir_2000"
+source_url: "https://doi.org/10.1007/s004540010002"
+domain_hint: "theoretical-cs"
+subdomain_hint: "computational-geometry"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

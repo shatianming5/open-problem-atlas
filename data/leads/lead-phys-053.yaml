@@ -1,0 +1,11 @@
+title: "Strong CP Problem"
+statement: "Why is the QCD vacuum angle theta approximately zero? Is the axion mechanism the correct resolution?"
+source_id: "src_peccei_1977"
+source_url: "https://doi.org/10.1103/PhysRevLett.38.1440"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

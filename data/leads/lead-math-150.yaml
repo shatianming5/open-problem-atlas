@@ -1,0 +1,11 @@
+title: "Existence of Exotic R^4"
+statement: "Classify all exotic smooth structures on R^4. Uncountably many exist, but a complete classification is lacking."
+source_id: "src_donaldson_1983"
+source_url: "https://en.wikipedia.org/wiki/Exotic_R4"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

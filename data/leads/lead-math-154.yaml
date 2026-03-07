@@ -1,0 +1,11 @@
+title: "Triangulation Conjecture (Higher Dimensions)"
+statement: "Can every topological manifold of dimension >= 5 be triangulated as a simplicial complex? This was recently shown to be false, but many specific cases remain open."
+source_id: "src_manolescu_2016"
+source_url: "https://arxiv.org/abs/1303.2354"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

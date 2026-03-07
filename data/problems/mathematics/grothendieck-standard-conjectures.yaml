@@ -1,0 +1,118 @@
+id: opa.mathematics.category-theory.grothendieck-standard-conjectures
+kind: problem
+title: "Grothendieck's Standard Conjectures"
+aliases:
+  - "Standard Conjectures on Algebraic Cycles"
+  - "Conjectures of Lefschetz Type"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - category-theory
+  - commutative-algebra
+  - algebraic-topology
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Grothendieck's standard conjectures consist of four related conjectures for smooth projective
+    varieties: (A) the Lefschetz standard conjecture - the inverse of the hard Lefschetz
+    isomorphism in cohomology is induced by an algebraic correspondence; (B) the conjecture
+    of Hodge type - a certain quadratic form on algebraic cycles defined via intersection
+    pairing is positive definite on primitive classes; (C) the Kunneth standard conjecture -
+    the Kunneth components of the diagonal are algebraic; (D) numerical and homological
+    equivalence coincide for algebraic cycles.
+  informal: >
+    These conjectures assert that deep topological structures on the cohomology of algebraic
+    varieties (like the Lefschetz decomposition) have purely algebraic origins, bridging topology
+    and algebra in a canonical way.
+
+why_it_matters: >
+  Grothendieck proposed these conjectures in 1968 as the foundation for his theory of motives.
+  They would establish the algebraicity of many cohomological constructions and would imply the
+  Weil conjectures (now proved by other means), the Hodge conjecture in certain cases, and provide
+  the basis for a universal cohomology theory. They remain among the deepest open problems in
+  algebraic geometry.
+
+prerequisites:
+  - algebraic geometry
+  - cohomology theory
+  - category theory (motives)
+  - Hodge theory
+
+dates:
+  first_stated: 1968
+
+sources:
+  canonical:
+    - source_id: src_grothendieck_1969
+      kind: paper
+      title: "Standard conjectures on algebraic cycles"
+      authors:
+        - "Alexander Grothendieck"
+      year: 1969
+  status_evidence:
+    - source_id: src_kleiman_1994
+      kind: paper
+      title: "The standard conjectures"
+      authors:
+        - "Steven Kleiman"
+      url: "https://doi.org/10.1090/pspum/055.1/1265519"
+      year: 1994
+
+partial_results:
+  - summary: "Conjecture D is known to imply Conjecture C. Conjecture A implies all others."
+    year: 1968
+  - summary: "All conjectures are proved for abelian varieties in characteristic zero (Lieberman-Kleiman)."
+    year: 1968
+  - summary: "Proved for varieties of dimension <= 2 and for certain special varieties."
+    year: 1994
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.commutative-algebra.tate-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.35
+  toolability: 0.20
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Grothendieck's standard conjectures assert the algebraicity of key cohomological structures
+    on smooth projective varieties, foundational for the theory of motives.
+  decomposition:
+    - "Hodge-theoretic and motivic approaches"
+    - "Characteristic p methods and crystalline cohomology"
+    - "Special cases via moduli spaces and Shimura varieties"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

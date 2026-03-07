@@ -1,0 +1,11 @@
+title: "Quantum Communication Complexity Gaps"
+statement: "Are there total Boolean functions with exponential quantum-classical communication complexity separations?"
+source_id: "src_buhrman_2010"
+source_url: "https://arxiv.org/abs/0907.3584"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

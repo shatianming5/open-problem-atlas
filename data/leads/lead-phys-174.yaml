@@ -1,0 +1,11 @@
+title: "String Theory and the Standard Model"
+statement: "Can string theory produce a unique or highly constrained vacuum reproducing the Standard Model gauge group, matter content, and coupling constants?"
+source_id: "src_cvetic_2011"
+source_url: "https://arxiv.org/abs/1108.2057"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

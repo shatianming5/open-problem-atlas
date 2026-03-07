@@ -1,0 +1,11 @@
+title: "De Sitter Space in String Theory"
+statement: "Does string theory admit stable or metastable de Sitter vacua, or does the de Sitter swampland conjecture forbid them?"
+source_id: "src_obied_2018"
+source_url: "https://arxiv.org/abs/1806.08362"
+domain_hint: "mathematical-physics"
+subdomain_hint: "string-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

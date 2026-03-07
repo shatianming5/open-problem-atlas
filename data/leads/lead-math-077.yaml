@@ -1,0 +1,11 @@
+title: "Koethe Nil Ideal Problem"
+statement: "Is the upper nil radical of a ring always equal to the sum of all nil ideals?"
+source_id: "src_krempa_1972"
+source_url: "https://doi.org/10.1007/BF02570727"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Polignac's Conjecture"
+statement: "For every positive even integer 2k, there are infinitely many consecutive prime pairs with difference 2k."
+source_id: "src_polignac_1849"
+source_url: "https://en.wikipedia.org/wiki/Polignac%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

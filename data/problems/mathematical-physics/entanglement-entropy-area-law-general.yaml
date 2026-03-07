@@ -1,0 +1,119 @@
+id: opa.phys.quantum-information.entanglement-entropy-area-law-general
+kind: problem
+title: "Entanglement Entropy Area Law in General"
+aliases:
+  - "Area Law for Entanglement Entropy"
+  - "Area Law Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove that the entanglement entropy S(rho_A) = -Tr(rho_A log rho_A) of the ground
+    state of a local, gapped Hamiltonian in d spatial dimensions satisfies an area law:
+    S(rho_A) <= C * |partial A|, where rho_A is the reduced density matrix of a region A,
+    |partial A| is the area of the boundary of A, and C is a constant depending on the
+    Hamiltonian but not on the size of A. This has been proved in d=1 by Hastings (2007)
+    but remains open for d >= 2.
+  informal: >
+    For quantum systems with a gap above the ground state, the entanglement between a
+    region and its complement should be proportional to the boundary area, not the volume.
+    This "area law" has been proven in one dimension but remains unproven in higher
+    dimensions.
+
+why_it_matters: >
+  The area law is fundamental to our understanding of quantum many-body physics. It
+  explains why tensor network methods (DMRG, PEPS) work efficiently, connects to
+  holographic entanglement entropy in quantum gravity, and is essential for classifying
+  quantum phases of matter.
+
+prerequisites:
+  - quantum information theory
+  - quantum many-body theory
+  - operator algebras
+  - spectral theory
+  - condensed matter theory
+
+dates:
+  first_stated: 1993
+
+sources:
+  canonical:
+    - source_id: src_bombelli_1986
+      kind: paper
+      title: "Quantum source of entropy for black holes"
+      url: "https://doi.org/10.1103/PhysRevD.34.373"
+      year: 1986
+      locator: "Physical Review D 34, 373"
+    - source_id: src_hastings_2007
+      kind: paper
+      title: "An Area Law for One Dimensional Quantum Systems"
+      url: "https://doi.org/10.1088/1742-5468/2007/08/P08024"
+      year: 2007
+      locator: "J. Stat. Mech. P08024"
+  status_evidence:
+    - source_id: src_eisert_2010
+      kind: survey
+      title: "Area laws for the entanglement entropy"
+      url: "https://doi.org/10.1103/RevModPhys.82.277"
+      year: 2010
+
+partial_results:
+  - summary: "Hastings proved the area law for 1D gapped systems using Lieb-Robinson bounds."
+    year: 2007
+  - summary: "Arad, Kitaev, Landau, and Vazirani gave an improved proof in 1D with better constants."
+    year: 2013
+  - summary: "For specific models in d >= 2, area laws have been verified, but no general proof exists."
+    year: 2015
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-hamiltonian-complexity-qma"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.92
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.65
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving the area law for entanglement entropy of ground states of gapped local Hamiltonians in dimensions d >= 2.
+  decomposition:
+    - "Extend Hastings' 1D proof techniques to higher dimensions"
+    - "Develop new Lieb-Robinson bound methods for higher-dimensional systems"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

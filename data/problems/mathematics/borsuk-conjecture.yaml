@@ -1,0 +1,115 @@
+id: opa.mathematics.discrete-geometry.borsuk-conjecture
+kind: problem
+title: "Borsuk's Conjecture"
+aliases:
+  - "Borsuk Partition Problem"
+
+status:
+  label: partially_solved
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - discrete-geometry
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Borsuk (1933) conjectured that every bounded set in R^n can be partitioned into at most
+    n+1 parts, each of smaller diameter than the original set. The conjecture is false in
+    general (disproved for n >= 298 by Kahn and Kalai in 1993, later improved to n >= 64).
+    The problem remains open for dimensions 4 through 63: determine the exact dimensions
+    for which f(n) > n+1, where f(n) is the minimum number of pieces needed.
+  informal: >
+    Can every bounded set in n-dimensional space be divided into n+1 pieces each smaller
+    in diameter than the original? This is true in dimensions 1, 2, 3, but fails for high
+    dimensions. The precise threshold dimension is unknown.
+
+why_it_matters: >
+  Borsuk's conjecture drove decades of research in combinatorial and discrete geometry.
+  Its surprising disproof in high dimensions by Kahn and Kalai using combinatorial methods
+  revealed deep connections between geometry and combinatorics. The remaining gap between
+  dimensions 4 and 63 is a major open question in discrete geometry.
+
+prerequisites:
+  - discrete geometry
+  - combinatorics
+  - convex geometry
+
+dates:
+  first_stated: 1933
+
+sources:
+  canonical:
+    - source_id: src_borsuk_1933
+      kind: paper
+      title: "Drei Satze uber die n-dimensionale euklidische Sphare"
+      authors:
+        - "Karol Borsuk"
+      year: 1933
+  status_evidence:
+    - source_id: src_kahn_kalai_1993
+      kind: paper
+      title: "A counterexample to Borsuk's conjecture"
+      authors:
+        - "Jeff Kahn"
+        - "Gil Kalai"
+      url: "https://doi.org/10.1090/S0273-0979-1993-00398-7"
+      year: 1993
+
+partial_results:
+  - summary: "Kahn and Kalai disproved the conjecture for n >= 1325 (later reduced to n >= 298)."
+    year: 1993
+  - summary: "Bondarenko reduced the counterexample dimension to n >= 64."
+    year: 2014
+  - summary: "The conjecture holds for smooth convex bodies in all dimensions (Hadwiger, 1946)."
+    year: 1946
+  - summary: "Confirmed for n = 3 by Eggleston (1955) and Grunbaum (1957)."
+    year: 1957
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.50
+  toolability: 0.65
+  formality: 0.80
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Borsuk's conjecture is disproved for dimensions >= 64 but confirmed for dimensions <= 3.
+    The status for dimensions 4 through 63 remains open.
+  decomposition:
+    - "Algebraic and combinatorial constructions for counterexamples"
+    - "Computational approaches for intermediate dimensions"
+    - "Topological and convexity-based positive results"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

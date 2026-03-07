@@ -1,0 +1,11 @@
+title: "Moser's Worm Problem"
+statement: "Find the convex set of smallest area that can cover every planar curve of unit length."
+source_id: "src_moser_1966"
+source_url: "https://en.wikipedia.org/wiki/Moser%27s_worm_problem"
+domain_hint: "mathematics"
+subdomain_hint: "discrete-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "MLC Conjecture (Local Connectivity of the Mandelbrot Set)"
+statement: "Is the Mandelbrot set locally connected?"
+source_id: "src_douady_1984"
+source_url: "https://en.wikipedia.org/wiki/Mandelbrot_set#Conjectures"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

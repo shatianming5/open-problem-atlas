@@ -1,0 +1,11 @@
+title: "Chebyshev's Problem on Best Approximation"
+statement: "For multivariate polynomial approximation, characterize the best approximation from an arbitrary set in L^p norms."
+source_id: "src_chebyshev_1853"
+source_url: "https://en.wikipedia.org/wiki/Chebyshev%27s_theorem_(approximation)"
+domain_hint: "mathematics"
+subdomain_hint: "approximation-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

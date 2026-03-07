@@ -1,0 +1,11 @@
+title: "Borsuk's Conjecture"
+statement: "Can every bounded set in R^n be partitioned into n+1 sets of smaller diameter?"
+source_id: "src_borsuk_1933"
+source_url: "https://en.wikipedia.org/wiki/Borsuk%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "discrete-geometry"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

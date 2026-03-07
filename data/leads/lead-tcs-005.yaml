@@ -1,0 +1,11 @@
+title: "L vs P"
+statement: "Is logarithmic space strictly weaker than polynomial time? Can every problem solvable in polynomial time be solved in logarithmic space?"
+source_id: "src_arora_barak_2009"
+source_url: "https://theory.cs.princeton.edu/complexity/"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

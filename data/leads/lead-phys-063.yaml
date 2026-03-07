@@ -1,0 +1,11 @@
+title: "Conformal Bootstrap in d > 2"
+statement: "Can the conformal bootstrap determine all critical exponents of the 3D Ising model to arbitrary precision? More generally, can it classify all CFTs in d > 2?"
+source_id: "src_poland_2019"
+source_url: "https://arxiv.org/abs/1805.04405"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Formation of Naked Singularities"
+statement: "Under what physical conditions can naked singularities form from regular initial data in gravitational collapse, violating cosmic censorship?"
+source_id: "src_joshi_2007"
+source_url: "https://arxiv.org/abs/gr-qc/0610082"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

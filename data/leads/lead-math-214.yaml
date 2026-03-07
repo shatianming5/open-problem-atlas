@@ -1,0 +1,11 @@
+title: "Chern Conjecture for Affinely Flat Manifolds"
+statement: "A closed affinely flat manifold has zero Euler characteristic."
+source_id: "src_chern_1955"
+source_url: "https://en.wikipedia.org/wiki/Chern%27s_conjecture_(affine_geometry)"
+domain_hint: "mathematics"
+subdomain_hint: "differential-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

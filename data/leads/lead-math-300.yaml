@@ -1,0 +1,11 @@
+title: "Ramsey Property for All Fraisse Classes"
+statement: "Determine which Fraisse classes have the Ramsey property and establish a general classification."
+source_id: "src_nesetril_1977"
+source_url: "https://en.wikipedia.org/wiki/Structural_Ramsey_theory"
+domain_hint: "mathematics"
+subdomain_hint: "model-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

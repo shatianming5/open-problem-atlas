@@ -1,0 +1,11 @@
+title: "Kakeya Conjecture in Finite Fields"
+statement: "Following Dvir's proof of the finite field Kakeya conjecture, can analogous tight bounds be obtained for the Kakeya maximal function in Euclidean space R^n?"
+source_id: "src_dvir_2020"
+source_url: "https://arxiv.org/abs/0803.2336"
+domain_hint: "mathematics"
+subdomain_hint: "harmonic-analysis"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

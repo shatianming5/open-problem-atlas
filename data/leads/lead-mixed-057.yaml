@@ -1,0 +1,11 @@
+title: "Graph Isomorphism in Polynomial Time"
+statement: "Can Babai's quasipolynomial algorithm for graph isomorphism be improved to polynomial time, or is there an exp(sqrt(n)) lower bound?"
+source_id: "src_babai_2016"
+source_url: "https://arxiv.org/abs/1512.03547"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.50
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Barriers in Communication Complexity"
+statement: "Can new techniques beyond discrepancy and corruption break through current communication complexity lower bound barriers for natural problems?"
+source_id: "src_goos_2023"
+source_url: "https://arxiv.org/abs/2309.12949"
+domain_hint: "theoretical-cs"
+subdomain_hint: "communication-complexity"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

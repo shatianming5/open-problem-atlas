@@ -1,0 +1,11 @@
+title: "Leakage-Resilient Cryptography Limits"
+statement: "What is the maximum amount of key leakage that can be tolerated by public-key encryption schemes while maintaining security?"
+source_id: "src_akavia_goldwasser_vaikuntanathan_2009"
+source_url: "https://doi.org/10.1007/978-3-642-00457-5_32"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

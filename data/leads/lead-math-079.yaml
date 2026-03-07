@@ -1,0 +1,11 @@
+title: "Quillen-Suslin for Noncommutative Rings"
+statement: "Extend the Quillen-Suslin theorem (every finitely generated projective module over a polynomial ring is free) to broader classes of noncommutative rings."
+source_id: "src_stafford_2003"
+source_url: "https://mathoverflow.net/questions/19006"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

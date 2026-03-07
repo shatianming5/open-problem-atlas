@@ -1,0 +1,11 @@
+title: "Optimal Rate-Distortion for Lossy Compression"
+statement: "Can the rate-distortion function be achieved with polynomial-time encoding and decoding for general sources?"
+source_id: "src_gupta_verdu_weissman_2010"
+source_url: "https://doi.org/10.1109/TIT.2010.2054510"
+domain_hint: "theoretical-cs"
+subdomain_hint: "information-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

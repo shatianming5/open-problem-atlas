@@ -1,0 +1,11 @@
+title: "Suslin Hypothesis"
+statement: "Is every dense complete linearly ordered set without endpoints and satisfying the countable chain condition isomorphic to the real line?"
+source_id: "src_suslin_1920"
+source_url: "https://en.wikipedia.org/wiki/Suslin%27s_problem"
+domain_hint: "mathematics"
+subdomain_hint: "set-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

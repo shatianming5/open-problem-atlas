@@ -1,0 +1,11 @@
+title: "Hardness of Improper Learning Intersection of Halfspaces"
+statement: "Is improperly learning the intersection of two halfspaces computationally hard? The problem has resisted classification."
+source_id: "src_klivans_sherstov_2009"
+source_url: "https://doi.org/10.1137/070684914"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

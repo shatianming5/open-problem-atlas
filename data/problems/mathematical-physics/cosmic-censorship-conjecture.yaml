@@ -1,0 +1,134 @@
+id: opa.phys.general-relativity.cosmic-censorship-conjecture
+kind: problem
+title: "Cosmic Censorship Conjecture"
+aliases:
+  - "Penrose Cosmic Censorship"
+  - "Strong Cosmic Censorship Conjecture"
+  - "Weak Cosmic Censorship Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - general-relativity
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The cosmic censorship conjecture, proposed by Roger Penrose in 1969, comes in two
+    forms. The Weak Cosmic Censorship Conjecture (WCCC) states that for generic
+    asymptotically flat initial data for the Einstein equations satisfying appropriate
+    energy conditions, the maximal Cauchy development possesses a complete future null
+    infinity (scri+); equivalently, singularities forming from gravitational collapse
+    of generic initial data are hidden behind event horizons and cannot be seen by
+    distant observers. The Strong Cosmic Censorship Conjecture (SCCC) states that for
+    generic compact or asymptotically flat initial data, the maximal globally hyperbolic
+    development is inextendible as a suitably regular Lorentzian manifold; equivalently,
+    the solution to Einstein's equations is uniquely determined by initial data, and
+    Cauchy horizons (beyond which determinism breaks down) are non-generic. Formally,
+    for the vacuum Einstein equations Ric(g) = 0 with generic initial data (Sigma, h, K)
+    satisfying the constraint equations, the maximal globally hyperbolic development
+    (M, g) is inextendible as a C^0 Lorentzian manifold (Christodoulou's formulation).
+  informal: >
+    When a massive star collapses under its own gravity, general relativity predicts that
+    a singularity (a point of infinite density) forms. The cosmic censorship conjecture
+    says that such singularities are always hidden inside black holes and can never be
+    "naked" (visible to distant observers). The strong version additionally claims that
+    the laws of physics remain deterministic everywhere outside singularities: the future
+    is uniquely determined by initial conditions.
+
+why_it_matters: >
+  Cosmic censorship is one of the most important open problems in general relativity
+  and gravitational physics. If weak cosmic censorship fails, naked singularities would
+  exist where the predictive power of general relativity breaks down observably. If strong
+  cosmic censorship fails, determinism in general relativity would be violated. The
+  conjecture is essential for the mathematical well-posedness of general relativity and
+  for understanding the endpoint of gravitational collapse and black hole physics.
+
+prerequisites:
+  - general relativity
+  - Lorentzian geometry
+  - partial differential equations
+  - Penrose-Hawking singularity theorems
+  - black hole physics
+
+dates:
+  first_stated: 1969
+
+sources:
+  canonical:
+    - source_id: src_penrose_1969
+      kind: paper
+      title: "Gravitational collapse: the role of general relativity"
+      url: "https://doi.org/10.1007/BF02649209"
+      year: 1969
+      locator: "Rivista del Nuovo Cimento 1, 252-276"
+    - source_id: src_christodoulou_1999
+      kind: paper
+      title: "On the global initial value problem and the issue of singularities"
+      url: "https://doi.org/10.1088/0264-9381/16/12A/302"
+      year: 1999
+      locator: "Class. Quantum Grav. 16, A23-A35"
+  status_evidence:
+    - source_id: src_dafermos_2012
+      kind: survey
+      title: "The mathematical analysis of black holes in general relativity"
+      url: "https://arxiv.org/abs/1205.6855"
+      year: 2012
+
+partial_results:
+  - summary: "Christodoulou proved weak cosmic censorship for the spherically symmetric Einstein-scalar field system."
+    year: 1999
+  - summary: "Dafermos and Luk proved that the Cauchy horizon of the Kerr black hole is C^0-extendible for the vacuum Einstein equations, showing that strong cosmic censorship in C^0 is false for Kerr, prompting reformulation in terms of Christoffel symbol regularity."
+    year: 2017
+  - summary: "Dafermos proved strong cosmic censorship (C^0 inextendibility) for the spherically symmetric Einstein-Maxwell-scalar field system."
+    year: 2005
+  - summary: "Kehle and Unger constructed a counterexample to weak cosmic censorship for the Einstein-Maxwell equations (charged black holes) without symmetry assumptions."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.general-relativity.final-state-conjecture-general-relativity"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.40
+  toolability: 0.35
+  formality: 0.65
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    The cosmic censorship conjecture asserts that singularities formed by gravitational collapse are generically hidden behind event horizons, preserving the predictive power of general relativity.
+  decomposition:
+    - "Prove weak cosmic censorship for the vacuum Einstein equations with generic asymptotically flat initial data"
+    - "Resolve the formulation of strong cosmic censorship in terms of appropriate regularity classes for Kerr-like spacetimes"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

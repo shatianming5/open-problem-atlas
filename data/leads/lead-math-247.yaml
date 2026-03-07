@@ -1,0 +1,11 @@
+title: "Voevodsky's Univalence Axiom Consistency"
+statement: "The univalence axiom is consistent with all standard type-theoretic constructions and models in simplicial sets."
+source_id: "src_voevodsky_2006"
+source_url: "https://en.wikipedia.org/wiki/Univalent_foundations"
+domain_hint: "mathematics"
+subdomain_hint: "category-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

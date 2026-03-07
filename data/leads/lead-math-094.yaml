@@ -1,0 +1,11 @@
+title: "Hilbert-Smith Conjecture"
+statement: "If a locally compact group G acts faithfully on a connected manifold, then G is a Lie group. Equivalently, the p-adic integers cannot act effectively on any manifold."
+source_id: "src_yang_1960"
+source_url: "https://en.wikipedia.org/wiki/Hilbert%E2%80%93Smith_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

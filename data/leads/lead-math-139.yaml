@@ -1,0 +1,11 @@
+title: "Existence of Self-Similar Shrinking Solitons"
+statement: "Classify all complete self-similar shrinking solitons for the mean curvature flow in R^n."
+source_id: "src_colding_2012"
+source_url: "https://arxiv.org/abs/1205.6326"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

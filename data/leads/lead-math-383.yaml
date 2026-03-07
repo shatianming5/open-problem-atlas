@@ -1,0 +1,11 @@
+title: "Bloch's Constant Determination"
+statement: "Determine the exact value of Bloch's constant for holomorphic functions on the unit disk."
+source_id: "src_bloch_1925"
+source_url: "https://en.wikipedia.org/wiki/Bloch%27s_theorem_(complex_analysis)"
+domain_hint: "mathematics"
+subdomain_hint: "complex-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

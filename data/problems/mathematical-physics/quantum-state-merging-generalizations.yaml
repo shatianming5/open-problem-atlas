@@ -1,0 +1,108 @@
+id: opa.phys.quantum-information.quantum-state-merging-generalizations
+kind: problem
+title: "Quantum State Merging Generalizations"
+aliases:
+  - "Multiparty Quantum State Merging"
+  - "Quantum State Redistribution Extensions"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: constructive
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the optimal entanglement and communication costs for quantum state
+    merging and state redistribution in multiparty settings. Specifically, for n parties
+    sharing a quantum state rho on H_1 tensor ... tensor H_n, find the achievable
+    rate region for redistributing parts of the state among the parties using LOCC,
+    and determine whether the conditional quantum mutual information provides the
+    exact answer in all multiparty scenarios.
+  informal: >
+    Quantum state merging allows one party to transfer their share of an entangled
+    state to another using entanglement and communication. Extending this to many
+    parties and understanding the exact resource costs remains an open problem.
+
+why_it_matters: >
+  Quantum state merging is a foundational protocol in quantum information theory that
+  unifies many quantum communication tasks. Multiparty generalizations are essential
+  for quantum network theory and distributed quantum computing.
+
+prerequisites:
+  - quantum information theory
+  - quantum Shannon theory
+  - multipartite entanglement
+  - information theory
+
+dates:
+  first_stated: 2006
+
+sources:
+  canonical:
+    - source_id: src_horodecki_2007
+      kind: paper
+      title: "Quantum State Merging and Negative Information"
+      url: "https://doi.org/10.1007/s00220-006-0118-x"
+      year: 2007
+      locator: "Communications in Mathematical Physics 269, 107-136"
+  status_evidence:
+    - source_id: src_devetak_yard_2008
+      kind: paper
+      title: "Exact Cost of Redistributing Multipartite Quantum States"
+      url: "https://doi.org/10.1103/PhysRevLett.100.230501"
+      year: 2008
+
+partial_results:
+  - summary: "Horodecki, Oppenheim, and Winter established quantum state merging for bipartite states with conditional entropy as the cost."
+    year: 2007
+  - summary: "Devetak and Yard determined the exact cost of quantum state redistribution in the bipartite case."
+    year: 2008
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-shannon-capacity-regions"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.60
+  toolability: 0.35
+  formality: 0.70
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Determining the optimal resource costs for quantum state merging and redistribution in multiparty settings.
+  decomposition:
+    - "Establish achievable rate regions for multiparty state redistribution"
+    - "Determine the role of conditional quantum mutual information in multiparty settings"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

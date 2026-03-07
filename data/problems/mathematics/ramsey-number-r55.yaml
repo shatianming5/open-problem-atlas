@@ -1,0 +1,121 @@
+id: opa.mathematics.combinatorics.ramsey-number-r55
+kind: problem
+title: "Ramsey Number R(5,5)"
+aliases:
+  - "Diagonal Ramsey Number R(5,5)"
+  - "Fifth Diagonal Ramsey Number"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - combinatorics
+  - graph-theory
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the exact value of the Ramsey number R(5,5), the smallest integer n such
+    that every 2-coloring of the edges of the complete graph K_n contains a monochromatic
+    K_5. It is currently known that 43 <= R(5,5) <= 48.
+  informal: >
+    What is the smallest number of people you need to invite to a party to guarantee that
+    either 5 of them all know each other, or 5 of them are all mutual strangers? The answer
+    is known to be between 43 and 48.
+
+why_it_matters: >
+  Determining exact Ramsey numbers is notoriously difficult. Only R(1,k), R(2,k), R(3,k)
+  for small k, and R(4,4)=18 are known exactly. Finding R(5,5) has been called one of the
+  hardest open problems in combinatorics. Paul Erdos famously said that if aliens demanded
+  we compute R(5,5) or face destruction, we should mobilize all our computers; but if they
+  asked for R(6,6), we should prepare to fight.
+
+prerequisites:
+  - Ramsey theory
+  - combinatorics
+  - graph theory
+  - computational methods
+
+dates:
+  first_stated: 1935
+
+sources:
+  canonical:
+    - source_id: src_ramsey_1930
+      kind: paper
+      title: "On a problem of formal logic"
+      authors:
+        - "Frank P. Ramsey"
+      year: 1930
+    - source_id: src_radziszowski_2021
+      kind: survey
+      title: "Small Ramsey numbers"
+      authors:
+        - "Stanislaw Radziszowski"
+      url: "https://doi.org/10.37236/21"
+      year: 2021
+  status_evidence:
+    - source_id: src_angeltveit_mckay_2017
+      kind: paper
+      title: "R(5,5) <= 48"
+      authors:
+        - "Vigleik Angeltveit"
+        - "Brendan D. McKay"
+      url: "https://doi.org/10.1002/jgt.22218"
+      year: 2017
+
+partial_results:
+  - summary: "Erdos and Szekeres proved R(s,t) <= C(s+t-2, s-1), giving R(5,5) <= 70."
+    year: 1935
+  - summary: "McKay and Radziszowski showed R(5,5) >= 43 using computational methods."
+    year: 1995
+  - summary: "Angeltveit and McKay improved the upper bound to R(5,5) <= 48."
+    year: 2017
+  - summary: "Vigleik Angeltveit improved certain flag algebra bounds related to the upper bound."
+    year: 2024
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.65
+  formality: 0.90
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sat-solvers
+
+machine_generated:
+  summary: >
+    The Ramsey number R(5,5) is the smallest n such that every 2-coloring of K_n contains
+    a monochromatic K_5. Currently known bounds: 43 <= R(5,5) <= 48. Determining its exact
+    value is one of the most prominent open problems in Ramsey theory.
+  decomposition:
+    - "Improving upper bounds via flag algebras or semidefinite programming"
+    - "Large-scale computational enumeration of Ramsey graphs"
+    - "New probabilistic or algebraic lower bound constructions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Banach-Mazur Distance Conjecture"
+statement: "The Banach-Mazur distance between any two n-dimensional symmetric convex bodies is at most n."
+source_id: "src_gluskin_1981"
+source_url: "https://en.wikipedia.org/wiki/Banach%E2%80%93Mazur_compactum"
+domain_hint: "mathematics"
+subdomain_hint: "convex-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Farrell-Jones Conjecture"
+statement: "The assembly map in algebraic K-theory and L-theory for a group G with coefficients in any additive category is an isomorphism."
+source_id: "src_farrell_1993"
+source_url: "https://en.wikipedia.org/wiki/Farrell%E2%80%93Jones_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "topology"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

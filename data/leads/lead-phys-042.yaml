@@ -1,0 +1,11 @@
+title: "Device-Independent Quantum Key Distribution Security"
+statement: "Can device-independent QKD be made practical with realistic photon detection efficiencies and finite key lengths?"
+source_id: "src_vazirani_2014"
+source_url: "https://arxiv.org/abs/1210.1810"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Resurgence in Quantum Field Theory"
+statement: "Can resurgent trans-series in asymptotic expansions of QFT path integrals be rigorously proved to recover exact non-perturbative information?"
+source_id: "src_dunne_2022"
+source_url: "https://arxiv.org/abs/2210.07855"
+domain_hint: "mathematical-physics"
+subdomain_hint: "perturbative-qft"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

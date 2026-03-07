@@ -1,0 +1,11 @@
+title: "Erdos-Ko-Rado for Permutations"
+statement: "What is the largest family of permutations of [n] with the property that any two permutations in the family agree on at least t positions?"
+source_id: "src_ellis_2022"
+source_url: "https://arxiv.org/abs/2203.12458"
+domain_hint: "mathematics"
+subdomain_hint: "extremal-combinatorics"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

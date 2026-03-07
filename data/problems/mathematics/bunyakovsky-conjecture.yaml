@@ -1,0 +1,110 @@
+id: opa.mathematics.number-theory.bunyakovsky-conjecture
+kind: problem
+title: "Bunyakovsky Conjecture"
+aliases:
+  - "Bouniakowsky Conjecture"
+  - "Bunyakovsky's Hypothesis on Polynomial Primes"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let f(x) be an irreducible polynomial of degree at least 1 with integer coefficients and
+    positive leading coefficient. If the set of values {f(1), f(2), f(3), ...} has no common
+    factor greater than 1 (i.e., gcd(f(1), f(2), f(3), ...) = 1), then f(n) is prime for
+    infinitely many positive integers n.
+  informal: >
+    If you have a polynomial with integer coefficients that cannot be factored further, and
+    there is no single number greater than 1 that divides all of its positive-integer outputs,
+    then the polynomial must produce infinitely many prime values.
+
+why_it_matters: >
+  The Bunyakovsky conjecture is a fundamental generalization of Dirichlet's theorem on primes
+  in arithmetic progressions to polynomials of arbitrary degree. Its resolution would unify
+  many known and conjectured results about prime-generating polynomials.
+
+prerequisites:
+  - algebraic number theory
+  - analytic number theory
+  - sieve methods
+
+dates:
+  first_stated: 1857
+
+sources:
+  canonical:
+    - source_id: src_bunyakovsky_1857
+      kind: paper
+      title: "Sur les diviseurs numériques invariables des fonctions rationnelles entières"
+      authors:
+        - "Viktor Bunyakovsky"
+      year: 1857
+  status_evidence:
+    - source_id: src_crandall_pomerance_2005
+      kind: textbook
+      title: "Prime Numbers: A Computational Perspective"
+      url: "https://doi.org/10.1007/0-387-28979-8"
+      year: 2005
+
+partial_results:
+  - summary: "The conjecture is proven for degree 1 (Dirichlet's theorem on primes in arithmetic progressions)."
+    year: 1837
+  - summary: "The Bateman-Horn conjecture provides a precise quantitative prediction for the density of prime values, consistent with extensive numerical evidence."
+    year: 1962
+  - summary: "Friedlander and Iwaniec proved that x^2 + y^4 represents infinitely many primes, a result consistent with Bunyakovsky-type predictions for related forms."
+    year: 1998
+
+relations:
+  equivalent_to: []
+  generalizes:
+    - opa.mathematics.number-theory.twin-prime-conjecture
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.bateman-horn-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The Bunyakovsky conjecture asserts that any irreducible polynomial with integer coefficients
+    and no fixed prime divisor takes on infinitely many prime values at positive integers.
+  decomposition:
+    - "Extending sieve methods to handle polynomial sequences of degree >= 2"
+    - "Connecting to the Bateman-Horn quantitative predictions and testing against numerical data"
+    - "Analyzing algebraic obstructions and local-to-global principles for polynomial prime values"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

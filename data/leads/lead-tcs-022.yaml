@@ -1,0 +1,11 @@
+title: "Polynomial Hierarchy Collapse"
+statement: "Does the polynomial hierarchy collapse to any finite level, or is it infinite? Proving PH is infinite would separate P from NP."
+source_id: "src_arora_barak_2009"
+source_url: "https://theory.cs.princeton.edu/complexity/"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Gravitational Wave Memory Effect"
+statement: "Can the gravitational wave memory effect be detected, and what is its relationship to asymptotic symmetries and soft graviton theorems?"
+source_id: "src_strominger_2014"
+source_url: "https://arxiv.org/abs/1411.5745"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

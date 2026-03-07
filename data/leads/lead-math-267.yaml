@@ -1,0 +1,11 @@
+title: "Approximation Property Conjecture"
+statement: "Characterize which Banach spaces have the approximation property and determine if it is equivalent to the bounded approximation property."
+source_id: "src_grothendieck_1955"
+source_url: "https://en.wikipedia.org/wiki/Approximation_property"
+domain_hint: "mathematics"
+subdomain_hint: "functional-analysis"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

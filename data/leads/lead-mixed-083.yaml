@@ -1,0 +1,11 @@
+title: "Quantum Gravity and Computational Complexity"
+statement: "Is the AdS/CFT dictionary computationally efficient, or are there states whose bulk reconstruction requires exponential quantum computation?"
+source_id: "src_bouland_2022"
+source_url: "https://arxiv.org/abs/2111.12700"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-gravity-complexity"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Undecidability of Spectral Gap in 2D"
+statement: "Is the spectral gap problem undecidable for two-dimensional lattice Hamiltonians, extending the known undecidability result for 1D systems?"
+source_id: "src_cubitt_2015"
+source_url: "https://arxiv.org/abs/1502.04573"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

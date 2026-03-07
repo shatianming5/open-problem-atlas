@@ -1,0 +1,121 @@
+id: opa.mathematics.graph-theory.list-coloring-conjecture
+kind: problem
+title: "List Coloring Conjecture"
+aliases:
+  - "Edge List Coloring Conjecture"
+  - "List Chromatic Index Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every multigraph G, the list chromatic index equals the chromatic index:
+    chi'_l(G) = chi'(G). Equivalently, if the edges of a graph can be properly colored
+    with k colors, then they can be properly colored even if each edge has its own
+    list of k available colors.
+  informal: >
+    Edge coloring with lists is no harder than ordinary edge coloring. If k colors
+    suffice for a proper edge coloring, then you can still color properly even when
+    each edge is restricted to its own palette of k colors.
+
+why_it_matters: >
+  The List Coloring Conjecture, independently posed by several researchers in the 1970s
+  and 1980s, is a major open problem connecting list coloring with ordinary coloring.
+  If true, it would unify many results about edge-coloring. It implies that Vizing's
+  theorem extends to list edge-coloring: the list chromatic index of a simple graph is
+  at most Delta + 1.
+
+prerequisites:
+  - graph theory
+  - list coloring
+  - edge coloring
+  - chromatic index
+
+dates:
+  first_stated: 1979
+
+sources:
+  canonical:
+    - source_id: src_bollabas_harris_1985
+      kind: paper
+      title: "List-colourings of graphs"
+      authors:
+        - "Bela Bollobas"
+        - "Andrew J. Harris"
+      year: 1985
+    - source_id: src_galvin_1995
+      kind: paper
+      title: "The list chromatic index of a bipartite multigraph"
+      authors:
+        - "Fred Galvin"
+      url: "https://doi.org/10.1006/jctb.1995.1026"
+      year: 1995
+  status_evidence:
+    - source_id: src_kahn_2000
+      kind: paper
+      title: "Asymptotics of the list chromatic index for multigraphs"
+      url: "https://doi.org/10.1002/(SICI)1098-2418(200003)16:2<108::AID-RSA2>3.0.CO;2-X"
+      year: 2000
+
+partial_results:
+  - summary: "Galvin proved the conjecture for bipartite multigraphs."
+    year: 1995
+  - summary: "Kahn proved that chi'_l(G) ~ chi'(G) asymptotically for multigraphs."
+    year: 2000
+  - summary: "The conjecture holds for complete graphs of odd order by Haggkvist and Janssen."
+    year: 1997
+  - summary: "The conjecture holds for planar graphs with maximum degree at least 12."
+    year: 2006
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.82
+  underexplored: 0.30
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The List Coloring Conjecture asserts that the list chromatic index equals the chromatic
+    index for every multigraph. Proved for bipartite graphs and asymptotically, it remains
+    open in general.
+  decomposition:
+    - "Extending Galvin's kernel method beyond bipartite graphs"
+    - "Proving the conjecture for complete graphs and regular graphs"
+    - "Connections to Kahn's entropy method and fractional relaxations"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

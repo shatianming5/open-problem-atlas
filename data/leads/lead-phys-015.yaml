@@ -1,0 +1,11 @@
+title: "Quantum Speed Limits for Open Systems"
+statement: "What are the tightest achievable quantum speed limits for open quantum systems undergoing non-Markovian evolution?"
+source_id: "src_deffner_2017"
+source_url: "https://arxiv.org/abs/1705.08023"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

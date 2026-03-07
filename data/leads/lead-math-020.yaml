@@ -1,0 +1,11 @@
+title: "Bouniakowsky Conjecture for Specific Polynomials"
+statement: "Does the polynomial n^2 + n + 41 take infinitely many prime values? This is a specific case of the Bunyakovsky conjecture."
+source_id: "src_mollin_1997"
+source_url: "https://mathoverflow.net/questions/42512"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Parallel Repetition for Entangled Games"
+statement: "Does the value of an entangled game decrease exponentially under parallel repetition, analogous to Raz's theorem for classical games?"
+source_id: "src_yuen_2023"
+source_url: "https://arxiv.org/abs/2305.15209"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-complexity"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

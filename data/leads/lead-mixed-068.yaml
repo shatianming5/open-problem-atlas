@@ -1,0 +1,11 @@
+title: "NLTS Conjecture and Quantum Codes"
+statement: "Following Anshu, Breuckmann, and Nirkhe's proof of the NLTS conjecture, can it be used to prove the quantum PCP conjecture?"
+source_id: "src_anshu_2023"
+source_url: "https://arxiv.org/abs/2206.13228"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-complexity"
+confidence: 0.65
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

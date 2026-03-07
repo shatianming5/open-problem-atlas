@@ -1,0 +1,115 @@
+id: opa.mathematics.measure-theory.uhl-conjecture-measures
+kind: problem
+title: "Uhl's Conjecture on Vector Measures"
+aliases:
+  - "Radon-Nikodym Property Conjecture"
+  - "Uhl Radon-Nikodym Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - measure-theory
+  - functional-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    A Banach space X has the Radon-Nikodym property (RNP) if and only if every X-valued
+    measure of bounded variation that is absolutely continuous with respect to a scalar
+    measure has a Radon-Nikodym derivative (density). Uhl's conjecture characterizes which
+    Banach spaces have the RNP in terms of geometric properties: X has RNP if and only if
+    every closed bounded convex subset of X is the closed convex hull of its strongly
+    exposed points.
+  informal: >
+    Which Banach spaces have the property that vector-valued measures always have densities?
+    The conjecture connects this analytic property to the geometry of convex sets in the space.
+
+why_it_matters: >
+  The Radon-Nikodym property is one of the most important properties in the interaction
+  between measure theory and Banach space geometry. Understanding which spaces have RNP
+  connects to probability (martingale convergence), optimization (dentability of convex sets),
+  and harmonic analysis (vector-valued singular integrals).
+
+prerequisites:
+  - measure theory
+  - Banach space geometry
+  - functional analysis
+  - convex geometry
+
+dates:
+  first_stated: 1977
+
+sources:
+  canonical:
+    - source_id: src_diestel_uhl_1977
+      kind: textbook
+      title: "Vector Measures"
+      authors:
+        - "Joseph Diestel"
+        - "J. Jerry Uhl Jr."
+      year: 1977
+      url: "https://doi.org/10.1090/surv/015"
+  status_evidence:
+    - source_id: src_bourgin_1983
+      kind: textbook
+      title: "Geometric Aspects of Convex Sets with the Radon-Nikodym Property"
+      authors:
+        - "Richard D. Bourgin"
+      url: "https://doi.org/10.1007/BFb0069321"
+      year: 1983
+
+partial_results:
+  - summary: "Stegall showed spaces with RNP have the extreme point property."
+    year: 1981
+  - summary: "Huff and Morris proved every RNP space has dentable convex sets."
+    year: 1976
+  - summary: "Complete characterization of RNP in terms of trees and martingale convergence by many authors."
+    year: 1983
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.55
+  toolability: 0.35
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Uhl's conjecture characterizes the Radon-Nikodym property for Banach spaces via geometric
+    properties of convex sets. Multiple partial characterizations exist.
+  decomposition:
+    - "Dentability and exposed point geometry"
+    - "Martingale convergence and probability methods"
+    - "Connections to operator ideals and tensor products"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Optimal Algorithms for 3SUM"
+statement: "Can the 3SUM problem be solved in truly sub-quadratic time O(n^{2-epsilon})? Or is the quadratic bound tight?"
+source_id: "src_gronlund_pettie_2014"
+source_url: "https://doi.org/10.1109/FOCS.2014.53"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Hawking Radiation and Unitarity"
+statement: "Can the unitarity of black hole evaporation be proved within a consistent theory of quantum gravity, resolving the information paradox?"
+source_id: "src_almheiri_2021"
+source_url: "https://arxiv.org/abs/2006.06872"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-gravity"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

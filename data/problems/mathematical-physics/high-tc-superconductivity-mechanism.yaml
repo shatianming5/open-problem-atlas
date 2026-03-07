@@ -1,0 +1,118 @@
+id: opa.phys.condensed-matter-theory.high-tc-superconductivity-mechanism
+kind: problem
+title: "Mechanism of High-Temperature Superconductivity"
+aliases:
+  - "High-Tc Superconductivity"
+  - "Cuprate Superconductivity Mechanism"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - condensed-matter-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the mechanism of high-temperature superconductivity in cuprate materials.
+    Specifically, determine whether the two-dimensional Hubbard model (or the t-J model)
+    on a square lattice has a d-wave superconducting ground state at physically relevant
+    parameters (doping levels x ~ 0.1-0.2, U/t ~ 8). Prove or disprove that the
+    repulsive Hubbard model supports superconductivity, and if so, determine the
+    maximum critical temperature T_c and the nature of the pairing mechanism.
+  informal: >
+    High-temperature superconductors conduct electricity with zero resistance at
+    temperatures far above what conventional theory predicts. Despite decades of
+    research, we still don't have a proven theory for how this works.
+
+why_it_matters: >
+  High-temperature superconductivity is one of the most important unsolved problems
+  in condensed matter physics. Understanding it could lead to room-temperature
+  superconductors, which would revolutionize technology from energy transmission to
+  transportation.
+
+prerequisites:
+  - condensed matter theory
+  - quantum many-body theory
+  - statistical mechanics
+  - quantum field theory
+  - computational physics
+
+dates:
+  first_stated: 1986
+
+sources:
+  canonical:
+    - source_id: src_bednorz_1986
+      kind: paper
+      title: "Possible High Tc Superconductivity in the Ba-La-Cu-O System"
+      url: "https://doi.org/10.1007/BF01303701"
+      year: 1986
+      locator: "Zeitschrift fur Physik B 64, 189-193"
+    - source_id: src_anderson_1987
+      kind: paper
+      title: "The Resonating Valence Bond State in La2CuO4 and Superconductivity"
+      url: "https://doi.org/10.1126/science.235.4793.1196"
+      year: 1987
+      locator: "Science 235, 1196-1198"
+  status_evidence:
+    - source_id: src_keimer_2015
+      kind: survey
+      title: "From quantum matter to high-temperature superconductivity in copper oxides"
+      url: "https://doi.org/10.1038/nature14165"
+      year: 2015
+
+partial_results:
+  - summary: "Numerical studies (DMRG, DQMC) provide evidence for d-wave pairing in the 2D Hubbard model but results are not conclusive."
+    year: 2015
+  - summary: "The pseudogap phase has been extensively characterized experimentally but its theoretical origin remains debated."
+    year: 2020
+  - summary: "Infinite-layer nickelate superconductors provide a new platform for understanding high-Tc mechanisms."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.condensed-matter-theory.many-body-localization"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.40
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Determining the mechanism of high-temperature superconductivity in cuprates and whether the Hubbard model supports it.
+  decomposition:
+    - "Prove or disprove d-wave superconductivity in the 2D Hubbard model"
+    - "Determine the pairing mechanism and maximum T_c"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

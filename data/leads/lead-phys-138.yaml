@@ -1,0 +1,11 @@
+title: "Binary Black Hole Merger Analytical Models"
+statement: "Can analytical models accurately describe the merger phase of binary black hole coalescence, bridging the gap between post-Newtonian and perturbation theory?"
+source_id: "src_buonanno_1999"
+source_url: "https://arxiv.org/abs/gr-qc/9811091"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

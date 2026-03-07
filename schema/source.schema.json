@@ -1,0 +1,72 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openproblem-atlas.org/schema/source.schema.json",
+  "title": "OpenProblemAtlas Source",
+  "description": "Schema for a source reference",
+  "type": "object",
+  "required": ["source_id", "kind", "title", "tier"],
+  "properties": {
+    "source_id": {
+      "type": "string",
+      "pattern": "^src_[0-9]+$",
+      "description": "Unique source identifier"
+    },
+    "kind": {
+      "type": "string",
+      "enum": ["paper", "survey", "textbook", "problem_list", "database", "website", "discussion", "preprint", "proceedings"],
+      "description": "Type of source"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 3
+    },
+    "authors": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "year": {
+      "type": "integer",
+      "minimum": 1600,
+      "maximum": 2030
+    },
+    "url": {
+      "type": "string",
+      "format": "uri"
+    },
+    "doi": {
+      "type": "string"
+    },
+    "arxiv_id": {
+      "type": "string"
+    },
+    "isbn": {
+      "type": "string"
+    },
+    "publisher": {
+      "type": "string"
+    },
+    "journal": {
+      "type": "string"
+    },
+    "volume": {
+      "type": "string"
+    },
+    "pages": {
+      "type": "string"
+    },
+    "tier": {
+      "type": "integer",
+      "enum": [1, 2, 3],
+      "description": "Source tier: 1=canonical, 2=supporting, 3=lead-only"
+    },
+    "locator": {
+      "type": "string",
+      "description": "Section, page, problem number within the source"
+    },
+    "notes": {
+      "type": "string",
+      "description": "Additional notes about this source"
+    }
+  },
+  "additionalProperties": false
+}

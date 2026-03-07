@@ -1,0 +1,11 @@
+title: "Sachdev-Ye-Kitaev Model and Strange Metals"
+statement: "Does the SYK model provide a universal low-energy description of strange metals, and can its predictions be quantitatively tested?"
+source_id: "src_sachdev_2015"
+source_url: "https://arxiv.org/abs/1506.05111"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

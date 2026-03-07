@@ -1,0 +1,11 @@
+title: "Quantum Capacity of the Depolarizing Channel"
+statement: "Determine the exact quantum capacity of the depolarizing channel. Despite decades of study, the quantum capacity is known only in limited parameter regimes."
+source_id: "src_smith_2008"
+source_url: "https://arxiv.org/abs/0807.4935"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

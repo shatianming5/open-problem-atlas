@@ -1,0 +1,11 @@
+title: "Stable Field Conjecture"
+statement: "Every infinite stable field is separably closed. Equivalently, no infinite field with a proper stable theory expansion exists beyond the known examples."
+source_id: "src_macintyre_1971"
+source_url: "https://doi.org/10.1016/0003-4843(71)90009-0"
+domain_hint: "mathematics"
+subdomain_hint: "logic"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Separating NP from coNP/poly"
+statement: "Can one prove that NP does not have polynomial-size non-uniform circuits for co-NP, i.e., NP is not in coNP/poly?"
+source_id: "src_oliveira_2023"
+source_url: "https://arxiv.org/abs/2302.14822"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.45
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

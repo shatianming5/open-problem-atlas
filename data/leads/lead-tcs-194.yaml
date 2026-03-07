@@ -1,0 +1,11 @@
+title: "Broadcast Channel Capacity Region"
+statement: "What is the capacity region of the general broadcast channel? Marton's inner bound is conjectured to be tight but this is unproven."
+source_id: "src_marton_1979"
+source_url: "https://doi.org/10.1109/TIT.1979.1056071"
+domain_hint: "theoretical-cs"
+subdomain_hint: "information-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

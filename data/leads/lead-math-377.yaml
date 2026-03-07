@@ -1,0 +1,11 @@
+title: "Kontsevich-Zorich Conjecture"
+statement: "The Lyapunov exponents of the Kontsevich-Zorich cocycle are all distinct for connected components of strata."
+source_id: "src_kontsevichzorich_1997"
+source_url: "https://en.wikipedia.org/wiki/Kontsevich%E2%80%93Zorich_cocycle"
+domain_hint: "mathematics"
+subdomain_hint: "ergodic-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

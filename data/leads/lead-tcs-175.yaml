@@ -1,0 +1,11 @@
+title: "Distinct Distances in Higher Dimensions"
+statement: "What is the minimum number of distinct distances determined by n points in R^d for d >= 3? The planar case was settled by Guth and Katz."
+source_id: "src_guth_katz_2015"
+source_url: "https://doi.org/10.4007/annals.2015.181.1.2"
+domain_hint: "theoretical-cs"
+subdomain_hint: "computational-geometry"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

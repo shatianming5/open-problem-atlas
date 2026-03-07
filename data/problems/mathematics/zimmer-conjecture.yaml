@@ -1,0 +1,123 @@
+id: opa.mathematics.dynamical-systems.zimmer-conjecture
+kind: problem
+title: "Zimmer's Conjecture"
+aliases:
+  - "Zimmer's Program"
+  - "Zimmer Conjecture on Lattice Actions"
+
+status:
+  label: partially_solved
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - dynamical-systems
+  - differential-geometry
+  - representation-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let Gamma be a lattice in a simple Lie group G of real rank r >= 2. If Gamma
+    acts faithfully on a compact manifold M by C^2 diffeomorphisms, then
+    dim(M) >= dim(G/P) where P is a maximal parabolic subgroup of G. In
+    particular, for SL(n, Z) acting on a compact manifold M, one needs
+    dim(M) >= n - 1.
+  informal: >
+    Higher-rank lattices (such as SL(n,Z) for n >= 3) are very rigid algebraic
+    objects. Zimmer's conjecture predicts that they cannot act nontrivially on
+    manifolds that are "too small" in dimension -- there is a minimum dimension
+    for the manifold that depends on the rank of the lattice.
+
+why_it_matters: >
+  Zimmer's conjecture, formulated in the 1980s, is a centerpiece of Zimmer's
+  program aiming to extend Margulis superrigidity from the linear setting to
+  smooth actions on manifolds. It connects Lie theory, ergodic theory, and
+  smooth dynamics. The breakthrough by Brown, Fisher, and Hurtado (2017-2022)
+  resolved the conjecture for cocompact lattices, but extensions to
+  non-cocompact lattices and other aspects remain open.
+
+prerequisites:
+  - Lie groups and Lie algebras
+  - lattices in semisimple groups
+  - smooth dynamical systems
+  - ergodic theory
+
+dates:
+  first_stated: 1983
+
+sources:
+  canonical:
+    - source_id: src_zimmer_1984
+      kind: textbook
+      title: "Ergodic Theory and Semisimple Groups"
+      authors:
+        - "Robert J. Zimmer"
+      year: 1984
+      locator: "Birkhauser, Monographs in Mathematics, vol. 81"
+  status_evidence:
+    - source_id: src_brown_fisher_hurtado_2022
+      kind: paper
+      title: "Zimmer's conjecture for actions of SL(m,Z)"
+      authors:
+        - "Aaron Brown"
+        - "David Fisher"
+        - "Sebastian Hurtado"
+      year: 2022
+      locator: "Inventiones Mathematicae, vol. 229, pp. 1001-1060"
+
+partial_results:
+  - summary: "Zimmer proved cocycle superrigidity for lattice actions, providing the foundational framework."
+    year: 1984
+  - summary: "Polterovich showed SL(n,Z) cannot act faithfully by area-preserving diffeomorphisms on surfaces for n >= 3."
+    year: 2002
+  - summary: "Brown, Fisher, and Hurtado proved Zimmer's conjecture for cocompact lattices in SL(n,R) for n >= 3."
+    year: 2017
+  - summary: "Brown, Fisher, and Hurtado extended the result to all lattices in SL(n,R), confirming the conjecture for SL(n,Z)."
+    year: 2022
+
+relations:
+  related:
+    - opa.mathematics.dynamical-systems.furstenberg-x2-x3-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.40
+  toolability: 0.25
+  formality: 0.80
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    Zimmer's conjecture predicts a sharp lower bound on the dimension of compact
+    manifolds admitting faithful smooth actions of higher-rank lattices. It has
+    been proved for cocompact lattices by Brown-Fisher-Hurtado, but extensions
+    to broader classes of lattices and other Lie groups remain open.
+  decomposition:
+    - "Non-cocompact lattice actions and the role of unipotent elements"
+    - "Analytic and regularity assumptions: C^1 vs C^2 actions"
+    - "Extension to exceptional Lie groups and non-split forms"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

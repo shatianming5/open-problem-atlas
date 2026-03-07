@@ -1,0 +1,11 @@
+title: "Frankl's Conjecture on r-Covers"
+statement: "Determine the maximum number of edges in a k-uniform hypergraph on n vertices with no r-cover of size less than t."
+source_id: "src_frankl_1995"
+source_url: "https://doi.org/10.1016/0097-3165(95)90097-7"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

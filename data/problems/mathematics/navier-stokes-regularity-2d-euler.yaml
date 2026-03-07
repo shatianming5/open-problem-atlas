@@ -1,0 +1,129 @@
+id: opa.mathematics.partial-differential-equations.navier-stokes-regularity-2d-euler
+kind: problem
+title: "Global Regularity of 3D Euler Equations"
+aliases:
+  - "Euler Equations Blow-Up Problem"
+  - "3D Euler Singularity Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - partial-differential-equations
+  - analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Do there exist smooth initial data for the three-dimensional incompressible Euler equations
+    (partial_t u + (u . nabla)u + nabla p = 0, div u = 0) on R^3 or T^3 such that the solution
+    develops a singularity (blow-up of the vorticity) in finite time?
+  informal: >
+    The 3D Euler equations describe the motion of an ideal (inviscid, incompressible) fluid.
+    Starting from smooth initial conditions, does the fluid flow always remain smooth, or can
+    it develop infinite vorticity in finite time? This is one of the fundamental open problems
+    in mathematical fluid dynamics.
+
+why_it_matters: >
+  The blow-up problem for the 3D Euler equations is one of the most important open problems in
+  mathematical physics and PDE theory. It is closely related to the Navier-Stokes regularity
+  problem (one of the Millennium Prize Problems). Understanding Euler blow-up would shed light
+  on turbulence, energy cascades, and the physical limits of classical fluid mechanics.
+  Recent work by Elgindi (2021) established blow-up for certain classes of initial data with
+  limited regularity, and Chen-Hou (2023) provided computer-assisted proofs of blow-up for
+  C^{1,alpha} data.
+
+prerequisites:
+  - partial differential equations
+  - fluid dynamics
+  - harmonic analysis
+  - functional analysis
+
+dates:
+  first_stated: 1757
+
+sources:
+  canonical:
+    - source_id: src_euler_1757
+      kind: paper
+      title: "Principes généraux du mouvement des fluides"
+      authors:
+        - "Leonhard Euler"
+      year: 1757
+    - source_id: src_beale_kato_majda_1984
+      kind: paper
+      title: "Remarks on the breakdown of smooth solutions for the 3-D Euler equations"
+      authors:
+        - "J. Thomas Beale"
+        - "Tosio Kato"
+        - "Andrew Majda"
+      year: 1984
+      url: "https://doi.org/10.1007/BF01212349"
+  status_evidence:
+    - source_id: src_elgindi_2021
+      kind: paper
+      title: "Finite-time singularity formation for C^{1,alpha} solutions to the incompressible Euler equations on R^3"
+      authors:
+        - "Tarek M. Elgindi"
+      year: 2021
+      url: "https://doi.org/10.4007/annals.2021.194.3.2"
+
+partial_results:
+  - summary: "Beale-Kato-Majda proved that blow-up occurs if and only if the time integral of the supremum of vorticity diverges."
+    year: 1984
+  - summary: "Elgindi proved finite-time singularity formation for the 3D Euler equations with C^{1,alpha} initial data (not smooth)."
+    year: 2021
+  - summary: "Chen and Hou gave computer-assisted proofs of self-similar blow-up for the 3D Euler equations with C^{1,alpha} data."
+    year: 2023
+  - summary: "The question for smooth (C^infinity) initial data remains completely open."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.analysis.navier-stokes-existence-and-smoothness"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.30
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - julia
+
+machine_generated:
+  summary: >
+    The 3D Euler blow-up problem asks whether smooth solutions to the incompressible Euler
+    equations can develop singularities in finite time. Blow-up is known for less regular
+    initial data, but the smooth case remains open.
+  decomposition:
+    - "Self-similar blow-up analysis and computer-assisted proofs"
+    - "Extension of Elgindi's and Chen-Hou's methods to smooth data"
+    - "Vortex stretching mechanisms and geometric depletion of nonlinearity"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

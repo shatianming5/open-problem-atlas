@@ -1,0 +1,11 @@
+title: "Bloch-Kato Conjecture on L-functions"
+statement: "Special values of L-functions of motives are related to orders of Shafarevich-Tate groups and regulators."
+source_id: "src_blochkato_1990"
+source_url: "https://en.wikipedia.org/wiki/Bloch%E2%80%93Kato_conjecture_(number_theory)"
+domain_hint: "mathematics"
+subdomain_hint: "arithmetic-geometry"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

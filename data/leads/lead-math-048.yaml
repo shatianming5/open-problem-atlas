@@ -1,0 +1,11 @@
+title: "Graceful Tree Conjecture (Ringel-Kotzig)"
+statement: "Every tree with n edges can be gracefully labeled, i.e., its vertices can be labeled with distinct integers from 0 to n such that the edge labels (absolute differences) are 1 through n."
+source_id: "src_ringel_1964"
+source_url: "https://en.wikipedia.org/wiki/Graceful_labeling"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

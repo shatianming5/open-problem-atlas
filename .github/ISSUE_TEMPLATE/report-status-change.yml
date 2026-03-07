@@ -1,0 +1,67 @@
+name: Report Status Change
+description: Report that an open problem has been solved, disproved, or its status has changed
+title: "[Status Change] "
+labels: ["status-change", "needs-review"]
+body:
+  - type: input
+    id: problem_id
+    attributes:
+      label: Problem ID
+      description: The ID of the problem whose status changed
+      placeholder: "e.g., opa.math.number-theory.twin-prime"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: old_status
+    attributes:
+      label: Previous Status
+      options:
+        - open
+        - partially_solved
+        - conditional
+        - ambiguous
+    validations:
+      required: true
+
+  - type: dropdown
+    id: new_status
+    attributes:
+      label: New Status
+      options:
+        - solved
+        - disproved
+        - partially_solved
+        - conditional
+        - independent
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Primary Evidence
+      description: "Paper, preprint, or proof reference. Include DOI/URL."
+      placeholder: |
+        Title: ...
+        Authors: ...
+        Year: ...
+        DOI/URL: ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: Brief description of the result
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: "Caveats, related developments, or context"
+    validations:
+      required: false

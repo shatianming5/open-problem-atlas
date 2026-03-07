@@ -1,0 +1,111 @@
+id: opa.phys.statistical-mechanics.lee-yang-zeros-phase-transitions
+kind: problem
+title: "Lee-Yang Zeros and Phase Transitions"
+aliases:
+  - "Lee-Yang Circle Theorem Extensions"
+  - "Distribution of Partition Function Zeros"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - statistical-mechanics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Extend the Lee-Yang theorem to characterize the distribution of zeros of the
+    partition function in the complex fugacity (or magnetic field) plane for general
+    lattice models beyond the ferromagnetic Ising model. Specifically, determine for
+    which classes of Hamiltonians (multi-component spins, frustrated systems, quantum
+    spin systems) the partition function zeros are confined to specific curves or regions,
+    and prove that the density of zeros near the real axis determines the nature and
+    order of the phase transition in the thermodynamic limit.
+  informal: >
+    Lee and Yang showed that the zeros of the partition function (as a polynomial in
+    the fugacity) lie on the unit circle for ferromagnetic Ising models. Extending this
+    beautiful result to general models and connecting zeros to phase transitions remains open.
+
+why_it_matters: >
+  Lee-Yang zeros provide a rigorous mathematical framework for understanding phase
+  transitions. Extending this theory would give powerful tools for classifying phase
+  transitions and could lead to new insights in quantum phase transitions and
+  non-equilibrium statistical mechanics.
+
+prerequisites:
+  - statistical mechanics
+  - complex analysis
+  - probability theory
+  - lattice models
+  - mathematical physics
+
+dates:
+  first_stated: 1952
+
+sources:
+  canonical:
+    - source_id: src_lee_yang_1952
+      kind: paper
+      title: "Statistical Theory of Equations of State and Phase Transitions"
+      url: "https://doi.org/10.1103/PhysRev.87.404"
+      year: 1952
+      locator: "Physical Review 87, 404-410"
+  status_evidence:
+    - source_id: src_bena_2005
+      kind: survey
+      title: "Statistical mechanics of equilibrium and nonequilibrium phase transitions: the Yang-Lee formalism"
+      url: "https://doi.org/10.1142/S0217979205032759"
+      year: 2005
+
+partial_results:
+  - summary: "The Lee-Yang circle theorem has been extended to certain multi-component and quantum models."
+    year: 1971
+  - summary: "Connections between Lee-Yang zeros and conformal field theory have been established in 2D."
+    year: 1989
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.statistical-mechanics.universality-critical-exponents-proof"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.78
+  underexplored: 0.55
+  toolability: 0.40
+  formality: 0.70
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Extending the Lee-Yang theorem on partition function zeros to general lattice models and connecting zeros to phase transitions.
+  decomposition:
+    - "Classify Hamiltonians for which Lee-Yang type theorems hold"
+    - "Prove that zero density near the real axis determines phase transition properties"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

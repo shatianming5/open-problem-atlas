@@ -1,0 +1,11 @@
+title: "Jaeger's Conjecture on 4-Flows"
+statement: "Every 4-edge-connected graph admits a nowhere-zero 4-flow."
+source_id: "src_jaeger_1979"
+source_url: "https://en.wikipedia.org/wiki/Nowhere-zero_flow"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

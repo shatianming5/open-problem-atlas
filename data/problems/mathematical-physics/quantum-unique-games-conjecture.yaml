@@ -1,0 +1,123 @@
+id: opa.phys.quantum-information.quantum-unique-games-conjecture
+kind: problem
+title: "Quantum Unique Games Conjecture"
+aliases:
+  - "Quantum UGC"
+  - "Unique Games Conjecture for Entangled Provers"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The classical Unique Games Conjecture (Khot, 2002) asserts that for every epsilon > 0,
+    there exists a sufficiently large alphabet size k such that it is NP-hard to determine
+    whether a unique game over alphabet [k] has value at least 1 - epsilon or at most epsilon.
+    The quantum unique games conjecture asks whether an analogous hardness result holds when
+    the provers are allowed to share quantum entanglement: specifically, is it the case that
+    for entangled-prover unique games, distinguishing near-perfect completeness from low
+    soundness remains computationally hard (under appropriate complexity-theoretic assumptions),
+    or does entanglement fundamentally change the approximability landscape of constraint
+    satisfaction problems?
+  informal: >
+    The classical Unique Games Conjecture is a central assumption in computational complexity
+    that implies tight hardness-of-approximation results. The quantum version asks: if two
+    provers in a unique game are allowed to share quantum entanglement, does the problem remain
+    hard, or can entanglement help them cheat in ways that change the computational difficulty
+    of the problem?
+
+why_it_matters: >
+  The Unique Games Conjecture is arguably the most important open conjecture in the theory of
+  approximation algorithms and hardness of approximation. Its quantum variant connects quantum
+  entanglement to computational complexity and has implications for quantum PCP theorems,
+  nonlocal games, and the power of quantum proof systems. Understanding the quantum version
+  illuminates the relationship between entanglement and computational hardness.
+
+prerequisites:
+  - computational complexity theory
+  - quantum entanglement
+  - approximation algorithms
+  - nonlocal games
+  - operator algebras
+
+dates:
+  first_stated: 2008
+
+sources:
+  canonical:
+    - source_id: src_khot_2002
+      kind: paper
+      title: "On the power of unique 2-prover 1-round games"
+      url: "https://doi.org/10.1145/509907.510017"
+      year: 2002
+      locator: "STOC 2002, pp. 767-775"
+    - source_id: src_kempe_regev_toner_2010
+      kind: paper
+      title: "Unique Games with Entangled Provers are Easy"
+      url: "https://arxiv.org/abs/0710.0655"
+      year: 2010
+      locator: "SIAM J. Comput. 39(7), 3207-3229"
+  status_evidence:
+    - source_id: src_barak_et_al_2012
+      kind: paper
+      title: "Hypercontractivity, sum-of-squares proofs, and their applications"
+      url: "https://arxiv.org/abs/1205.4484"
+      year: 2012
+
+partial_results:
+  - summary: "Kempe, Regev, and Toner showed that unique games with entangled provers can be solved efficiently when the alphabet size is constant, contrasting the classical hardness."
+    year: 2010
+  - summary: "Ji, Natarajan, Vidick, Wright, and Yuen proved MIP* = RE (2020), which resolved Connes' embedding conjecture and showed the power of entangled provers, but the quantum UGC remains open in general."
+    year: 2020
+  - summary: "Khot, Minzer, and Safra proved the 2-to-2 Games Conjecture, a variant of the classical UGC, but the quantum analog remains unresolved."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.unique-games-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.60
+  toolability: 0.45
+  formality: 0.75
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The quantum unique games conjecture asks whether the hardness of approximately solving unique games persists when provers share quantum entanglement, connecting entanglement to computational hardness.
+  decomposition:
+    - "Determine whether entanglement systematically makes unique games easier or preserves classical hardness"
+    - "Develop rounding techniques for quantum SDP relaxations of entangled-prover games"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

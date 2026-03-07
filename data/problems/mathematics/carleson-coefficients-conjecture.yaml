@@ -1,0 +1,121 @@
+id: opa.mathematics.harmonic-analysis.carleson-coefficients-conjecture
+kind: problem
+title: "Dimension-Free Estimates in Harmonic Analysis"
+aliases:
+  - "Dimension-Free Bounds for Maximal Functions"
+  - "Stein's Conjecture on Spherical Maximal Averages"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - harmonic-analysis
+  - operator-algebras
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let M_d denote the Hardy-Littlewood maximal operator on R^d. The conjecture
+    asserts that for p > 1, the operator norm ||M_d||_{L^p -> L^p} is bounded
+    by a constant C(p) independent of the dimension d. More broadly, various
+    fundamental operators in harmonic analysis (Riesz transforms, maximal
+    functions associated to convex bodies, etc.) are conjectured to have bounds
+    that do not depend on the ambient dimension.
+  informal: >
+    The Hardy-Littlewood maximal function is one of the most basic tools in
+    analysis, computing the maximal average of a function over balls. In high
+    dimensions, one expects it to remain well-behaved. The conjecture says its
+    operator norm on L^p spaces does not blow up as the dimension increases --
+    the bound depends only on p, not on the dimension of the space.
+
+why_it_matters: >
+  Dimension-free estimates are a central theme in modern harmonic analysis,
+  probability, and geometric functional analysis. They are crucial for extending
+  results to infinite-dimensional settings (such as Gaussian measure spaces)
+  and have applications to geometric inequalities, PDEs, and mathematical
+  physics. Stein initiated this program and proved partial results, but the
+  full conjecture remains open.
+
+prerequisites:
+  - harmonic analysis
+  - real analysis
+  - functional analysis
+  - probability theory
+
+dates:
+  first_stated: 1982
+
+sources:
+  canonical:
+    - source_id: src_stein_wainger_1978
+      kind: paper
+      title: "Problems in harmonic analysis related to curvature"
+      authors:
+        - "Elias M. Stein"
+        - "Stephen Wainger"
+      year: 1978
+      locator: "Bulletin of the AMS, vol. 84, pp. 1239-1295"
+  status_evidence:
+    - source_id: src_bourgain_2014
+      kind: paper
+      title: "On the Hardy-Littlewood maximal function for the cube"
+      authors:
+        - "Jean Bourgain"
+      year: 2014
+      locator: "Israel Journal of Mathematics, vol. 203, pp. 275-293"
+
+partial_results:
+  - summary: "Stein and Stromberg proved dimension-free bounds for the centered maximal function for p >= 2 using heat kernel methods."
+    year: 1983
+  - summary: "Bourgain proved dimension-free bounds for the centered Hardy-Littlewood maximal function for p > 3/2."
+    year: 1986
+  - summary: "Muller proved dimension-free bounds for the uncentered maximal function."
+    year: 1990
+  - summary: "Deleaval and Kriegler obtained dimension-free bounds for maximal functions associated to specific convex bodies."
+    year: 2019
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The conjecture asserts that the L^p operator norm of the Hardy-Littlewood
+    maximal function on R^d is bounded independently of the dimension d for
+    all p > 1. Known for p > 3/2 by Bourgain, the full range remains open.
+  decomposition:
+    - "Improvement of Bourgain's L^p range for the centered maximal function"
+    - "Geometric approaches using convexity and symmetrization"
+    - "Connections to the Gaussian setting and log-Sobolev inequalities"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

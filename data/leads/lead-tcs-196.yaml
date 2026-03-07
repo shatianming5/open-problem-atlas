@@ -1,0 +1,11 @@
+title: "Information-Theoretic Security of Wiretap Channels"
+statement: "What is the secrecy capacity of the general wiretap channel with noisy feedback?"
+source_id: "src_wyner_1975"
+source_url: "https://doi.org/10.1002/j.1538-7305.1975.tb02040.x"
+domain_hint: "theoretical-cs"
+subdomain_hint: "information-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

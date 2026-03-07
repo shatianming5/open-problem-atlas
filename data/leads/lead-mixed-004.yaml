@@ -1,0 +1,11 @@
+title: "Unique Games Conjecture and Optimal Inapproximability"
+statement: "Does the Unique Games Conjecture hold, implying optimal hardness of approximation for constraint satisfaction problems including Max-Cut and Vertex Cover?"
+source_id: "src_khot_2021"
+source_url: "https://arxiv.org/abs/2106.15698"
+domain_hint: "theoretical-cs"
+subdomain_hint: "hardness-of-approximation"
+confidence: 0.60
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

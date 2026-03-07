@@ -1,0 +1,11 @@
+title: "Brennan's Conjecture"
+statement: "For a conformal map f on the unit disk, the integral of |f'|^p is finite for -1 < p < 3."
+source_id: "src_brennan_1978"
+source_url: "https://en.wikipedia.org/wiki/Brennan_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "complex-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

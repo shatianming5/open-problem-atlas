@@ -1,0 +1,11 @@
+title: "Universality of Eigenvalue Statistics"
+statement: "Does the universality of random matrix eigenvalue statistics extend to all Wigner-type matrices with arbitrary entry distributions?"
+source_id: "src_erdos_2012"
+source_url: "https://arxiv.org/abs/1202.0068"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

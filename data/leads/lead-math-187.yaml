@@ -1,0 +1,11 @@
+title: "Zimmer Conjecture (Remaining Cases)"
+statement: "Higher-rank lattice actions on low-dimensional manifolds factor through finite group actions. Proven in many cases by Brown-Fisher-Hurtado but some remain open."
+source_id: "src_zimmer_1987"
+source_url: "https://arxiv.org/abs/1710.02735"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

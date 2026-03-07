@@ -1,0 +1,123 @@
+id: opa.mathematics.harmonic-analysis.sarnak-conjecture
+kind: problem
+title: "Sarnak's Mobius Disjointness Conjecture"
+aliases:
+  - "Sarnak Conjecture"
+  - "Mobius Orthogonality Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - harmonic-analysis
+  - dynamical-systems
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every continuous function f on a compact metric space X and every
+    homeomorphism T: X -> X with zero topological entropy, and for every
+    point x in X, the sum (1/N) sum_{n=1}^{N} mu(n) f(T^n x) converges
+    to 0 as N -> infinity, where mu is the Mobius function. Equivalently,
+    every zero-entropy dynamical system is disjoint from the Mobius function.
+  informal: >
+    The Mobius function, which encodes information about prime factorizations,
+    should be "unrelated" to any dynamical system with low complexity
+    (zero topological entropy). Their correlation should vanish as you
+    average over more and more terms.
+
+why_it_matters: >
+  Sarnak's conjecture, posed in 2010, bridges analytic number theory and
+  ergodic theory. It generalizes the prime number theorem (which corresponds
+  to the case where T is the identity) and implies the Chowla conjecture
+  on correlations of the Mobius function. It has stimulated extensive work
+  connecting dynamics, combinatorics, and multiplicative number theory.
+
+prerequisites:
+  - analytic number theory
+  - topological dynamics
+  - ergodic theory
+  - topological entropy
+
+dates:
+  first_stated: 2010
+
+sources:
+  canonical:
+    - source_id: src_sarnak_2010
+      kind: paper
+      title: "Three lectures on the Mobius function, randomness, and dynamics"
+      authors:
+        - "Peter Sarnak"
+      year: 2010
+      locator: "Lecture notes, Institute for Advanced Study"
+  status_evidence:
+    - source_id: src_ferenczi_kulaga_2018
+      kind: survey
+      title: "Sarnak's conjecture: what's new"
+      authors:
+        - "Sebastien Ferenczi"
+        - "Joanna Kulaga-Przymus"
+        - "Mariusz Lemanczyk"
+      year: 2018
+      locator: "Ergodic Theory and Dynamical Systems in their Interactions with Arithmetics and Combinatorics, Springer, pp. 163-235"
+
+partial_results:
+  - summary: "Davenport proved the conjecture for linear sequences (periodic systems), building on the prime number theorem."
+    year: 1937
+  - summary: "Green and Tao proved the conjecture for nilsystems."
+    year: 2012
+  - summary: "Bourgain, Sarnak, and Ziegler proved it for a large class of zero-entropy systems including horocycle flows."
+    year: 2013
+  - summary: "Matomaki, Radziwill, and Tao established the conjecture for averaged versions and short interval Mobius correlations."
+    year: 2015
+  - summary: "Kanigowski, Lemanczyk, and Radziwill proved the conjecture for all smooth flows on surfaces."
+    year: 2020
+
+relations:
+  related:
+    - opa.mathematics.dynamical-systems.furstenberg-x2-x3-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Sarnak's conjecture asserts that the Mobius function is disjoint from
+    every zero-entropy dynamical system. It has been verified for many
+    classes of systems but remains open in full generality.
+  decomposition:
+    - "Verification for specific classes of zero-entropy systems"
+    - "Connections to Chowla conjecture and multiplicative functions"
+    - "Entropy and complexity methods in dynamical systems"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

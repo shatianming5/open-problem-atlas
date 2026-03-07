@@ -1,0 +1,11 @@
+title: "Liggett's Conjecture on Contact Process"
+statement: "For the contact process on Z^d, determine whether the critical values for local and global survival coincide in all dimensions."
+source_id: "src_liggett_1999"
+source_url: "https://en.wikipedia.org/wiki/Contact_process_(mathematics)"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

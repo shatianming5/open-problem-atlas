@@ -1,0 +1,11 @@
+title: "Wigner-Dyson Statistics for Random Band Matrices"
+statement: "Do random band matrices exhibit a sharp transition from Poisson to Wigner-Dyson eigenvalue statistics at bandwidth W ~ sqrt(n)?"
+source_id: "src_bourgade_2022"
+source_url: "https://arxiv.org/abs/2206.13556"
+domain_hint: "mathematical-physics"
+subdomain_hint: "random-matrix-theory"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

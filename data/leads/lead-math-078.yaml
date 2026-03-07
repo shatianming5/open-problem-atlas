@@ -1,0 +1,11 @@
+title: "Casas-Alvero Conjecture"
+statement: "A polynomial f(x) of degree d over a field of characteristic zero that shares a root with each of its derivatives f'(x), f''(x), ..., f^{(d-1)}(x) must be a power of a linear polynomial."
+source_id: "src_casas_2001"
+source_url: "https://en.wikipedia.org/wiki/Casas-Alvero_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebra"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

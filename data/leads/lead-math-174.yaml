@@ -1,0 +1,11 @@
+title: "Uniqueness of Infinite Cluster in Poisson-Boolean Model"
+statement: "In the supercritical Poisson-Boolean percolation model in R^d, prove that there is a.s. a unique infinite cluster."
+source_id: "src_meester_1996b"
+source_url: "https://doi.org/10.1017/CBO9780511750540"
+domain_hint: "mathematics"
+subdomain_hint: "probability"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

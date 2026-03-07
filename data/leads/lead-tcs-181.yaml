@@ -1,0 +1,11 @@
+title: "Proper Learning vs Improper Learning Gap"
+statement: "How large can the gap between proper and improper learning be? Are there concept classes where improper learning is exponentially easier?"
+source_id: "src_feldman_et_al_2012"
+source_url: "https://doi.org/10.1137/1.9781611973099.14"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Joyal's Conjecture on Quasi-Categories"
+statement: "The model category of quasi-categories is Quillen equivalent to all other models of (infinity,1)-categories."
+source_id: "src_joyal_2002"
+source_url: "https://en.wikipedia.org/wiki/Quasi-category"
+domain_hint: "mathematics"
+subdomain_hint: "category-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

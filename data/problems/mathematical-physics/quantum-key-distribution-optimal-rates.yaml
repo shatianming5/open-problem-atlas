@@ -1,0 +1,109 @@
+id: opa.phys.quantum-information.quantum-key-distribution-optimal-rates
+kind: problem
+title: "Optimal Key Rates in Quantum Key Distribution"
+aliases:
+  - "QKD Capacity"
+  - "Secret Key Rate Optimization"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the secret key capacity K(N) of a general quantum channel N, defined as
+    the maximum asymptotic rate at which a secret key can be established between two
+    parties connected by the channel, with unlimited public classical communication.
+    In particular, determine whether the squashed entanglement or the relative entropy
+    of entanglement provides the exact key rate, and find computable formulas or tight
+    bounds for key rates of practical quantum channels (depolarizing, amplitude damping,
+    bosonic channels).
+  informal: >
+    What is the maximum rate at which two parties can generate a shared secret key using
+    a quantum channel, even against the most powerful eavesdropper allowed by quantum
+    mechanics? Finding exact answers for realistic channels is still open.
+
+why_it_matters: >
+  Quantum key distribution is the most mature application of quantum information
+  science. Determining exact key rates is essential for understanding the fundamental
+  security limits of quantum cryptography and designing practical QKD systems.
+
+prerequisites:
+  - quantum information theory
+  - quantum cryptography
+  - convex optimization
+  - information theory
+
+dates:
+  first_stated: 2004
+
+sources:
+  canonical:
+    - source_id: src_pirandola_2017
+      kind: paper
+      title: "Fundamental limits of repeaterless quantum communications"
+      url: "https://doi.org/10.1038/ncomms15043"
+      year: 2017
+      locator: "Nature Communications 8, 15043"
+  status_evidence:
+    - source_id: src_wilde_2016
+      kind: paper
+      title: "Squashed entanglement and approximate private states"
+      url: "https://doi.org/10.1007/s11128-016-1432-7"
+      year: 2016
+
+partial_results:
+  - summary: "Pirandola, Laurenza, Ottaviani, and Banchi established the PLOB bound, giving the exact key capacity for pure-loss bosonic channels."
+    year: 2017
+  - summary: "The squashed entanglement provides an upper bound on key rates, but computing it is generally intractable."
+    year: 2004
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-error-correction-fundamental-limits"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.82
+  underexplored: 0.45
+  toolability: 0.45
+  formality: 0.65
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - matlab
+
+machine_generated:
+  summary: >
+    Determining the optimal secret key rates for quantum key distribution over general quantum channels.
+  decomposition:
+    - "Compute exact key capacities for depolarizing and amplitude damping channels"
+    - "Determine whether squashed entanglement equals the key capacity"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

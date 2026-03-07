@@ -1,0 +1,11 @@
+title: "Matroid Packing Conjecture"
+statement: "Any two matroids on the same ground set can be packed if and only if they satisfy a natural density condition."
+source_id: "src_bowlercarmesin_2015"
+source_url: "https://en.wikipedia.org/wiki/Matroid_packing"
+domain_hint: "mathematics"
+subdomain_hint: "matroid-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

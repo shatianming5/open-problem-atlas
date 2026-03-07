@@ -1,0 +1,118 @@
+id: opa.mathematics.graph-theory.hadwiger-conjecture
+kind: problem
+title: "Hadwiger Conjecture"
+aliases:
+  - "Hadwiger's Graph Coloring Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For every integer t >= 1, every graph with no K_t minor is (t-1)-colorable. Equivalently,
+    if a graph G requires at least t colors for a proper vertex coloring (i.e., chi(G) >= t),
+    then G contains K_t as a minor.
+  informal: >
+    If a graph needs at least t colors to color its vertices (so that no two adjacent vertices
+    share a color), then it must contain a "squished" version of the complete graph on t vertices
+    as a substructure.
+
+why_it_matters: >
+  Hadwiger's conjecture, posed in 1943, is considered one of the deepest open problems in
+  graph theory. It generalizes the Four Color Theorem (the case t = 5) and strengthens it
+  dramatically. Paul Seymour has called it "one of the most important open problems in
+  graph theory, if not all of combinatorics."
+
+prerequisites:
+  - graph theory
+  - graph minor theory
+  - chromatic number theory
+  - topological graph theory
+
+dates:
+  first_stated: 1943
+
+sources:
+  canonical:
+    - source_id: src_hadwiger_1943
+      kind: paper
+      title: "Uber eine Klassifikation der Streckenkomplexe"
+      authors:
+        - "Hugo Hadwiger"
+      year: 1943
+    - source_id: src_seymour_2016
+      kind: survey
+      title: "Hadwiger's conjecture"
+      authors:
+        - "Paul Seymour"
+      url: "https://web.math.princeton.edu/~pds/papers/hadwiger/paper.pdf"
+      year: 2016
+  status_evidence:
+    - source_id: src_norin_song_2019
+      kind: paper
+      title: "Breaking the degeneracy barrier for coloring graphs with no K_t minor"
+      year: 2019
+
+partial_results:
+  - summary: "The cases t <= 4 were proved by Hadwiger (1943) and Dirac (1952)."
+    year: 1952
+  - summary: "The case t = 5 is equivalent to the Four Color Theorem, proved by Appel and Haken."
+    year: 1977
+  - summary: "The case t = 6 was proved by Robertson, Seymour, and Thomas (assuming the Four Color Theorem)."
+    year: 1993
+  - summary: "Norin, Song, and Postle broke the sqrt(log n) barrier: every graph with no K_t minor is O(t (log t)^beta)-colorable for some beta < 1."
+    year: 2019
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.reconstruction-conjecture
+    - opa.mathematics.graph-theory.cycle-double-cover-conjecture
+    - opa.mathematics.graph-theory.graceful-tree-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.92
+  underexplored: 0.25
+  toolability: 0.55
+  formality: 0.85
+  ai_fit: 0.40
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Hadwiger's conjecture states that every graph with chromatic number at least t contains
+    K_t as a minor. It generalizes the Four Color Theorem and is considered one of the
+    deepest open problems in graph theory.
+  decomposition:
+    - "Extending Robertson-Seymour-Thomas techniques beyond t=6"
+    - "Improving coloring bounds for K_t-minor-free graphs"
+    - "Structural graph theory and extremal approaches to minor containment"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

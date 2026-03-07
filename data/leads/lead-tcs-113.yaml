@@ -1,0 +1,11 @@
+title: "Random Oracle Model vs Standard Model"
+statement: "Which schemes proven secure in the random oracle model can be instantiated securely in the standard model?"
+source_id: "src_canetti_goldreich_halevi_1998"
+source_url: "https://doi.org/10.1145/1008731.1008734"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

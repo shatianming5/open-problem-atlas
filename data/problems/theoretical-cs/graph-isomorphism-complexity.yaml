@@ -1,0 +1,132 @@
+id: opa.tcs.complexity-theory.graph-isomorphism-complexity
+kind: problem
+title: "Graph Isomorphism Problem Complexity"
+aliases:
+  - "Is graph isomorphism NP-complete?"
+  - "Is GI in P?"
+  - "Graph isomorphism problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - complexity-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The graph isomorphism problem (GI) asks, given two finite graphs G and H,
+    whether there exists a bijection between their vertex sets that preserves
+    adjacency. GI is known to be in NP but is neither known to be in P nor known
+    to be NP-complete. What is the precise computational complexity of graph
+    isomorphism? Specifically, is GI in P, or is it NP-complete, or does it
+    have intermediate complexity?
+  informal: >
+    Given two networks (graphs), is there a way to relabel the nodes of one
+    so that it becomes identical to the other? We know this can be checked
+    quickly once a relabeling is proposed, but we do not know whether the
+    relabeling can always be found quickly. Is this problem fundamentally
+    hard (NP-complete), efficiently solvable (in P), or something in between?
+
+why_it_matters: >
+  Graph isomorphism is one of the few natural problems in NP that is neither
+  known to be in P nor known to be NP-complete, making it a prime candidate
+  for an NP-intermediate problem (which must exist if P != NP by Ladner's
+  theorem). Its complexity status has implications for group theory,
+  combinatorics, database theory, and chemistry (molecule comparison).
+  Babai's 2015 quasipolynomial-time algorithm was a major breakthrough,
+  but the gap between quasipolynomial and polynomial time remains.
+
+prerequisites:
+  - computational complexity theory
+  - graph theory
+  - group theory
+  - NP-completeness
+  - Weisfeiler-Leman algorithm
+
+dates:
+  first_stated: 1971
+
+sources:
+  canonical:
+    - source_id: src_babai_2016
+      kind: paper
+      title: "Graph Isomorphism in Quasipolynomial Time"
+      authors:
+        - "Laszlo Babai"
+      url: "https://doi.org/10.1145/2897518.2897542"
+      year: 2016
+      locator: "Proceedings of STOC 2016, pp. 684-697"
+    - source_id: src_kobler_schoning_toran_1993
+      kind: textbook
+      title: "The Graph Isomorphism Problem: Its Structural Complexity"
+      authors:
+        - "Johannes Kobler"
+        - "Uwe Schoning"
+        - "Jacobo Toran"
+      url: "https://doi.org/10.1007/978-1-4612-0333-9"
+      year: 1993
+  status_evidence:
+    - source_id: src_babai_2018
+      kind: paper
+      title: "Group, Graphs, Algorithms: The Graph Isomorphism Problem"
+      authors:
+        - "Laszlo Babai"
+      url: "https://people.cs.uchicago.edu/~laci/17graphs/ica16.pdf"
+      year: 2018
+
+partial_results:
+  - summary: "Babai achieved a quasipolynomial-time algorithm running in exp(polylog(n)) time, dramatically improving the previous best bound of exp(sqrt(n log n)) by Luks."
+    year: 2015
+  - summary: "GI is known to be solvable in polynomial time for many restricted graph classes: planar graphs, bounded-degree graphs, bounded-genus graphs, and graphs of bounded treewidth."
+    year: 2000
+  - summary: "Schoning showed that if GI is NP-complete, then the polynomial hierarchy collapses to Sigma_2^P, providing evidence against GI being NP-complete."
+    year: 1988
+  - summary: "GI is in the complexity class SPP (a subclass of PP), shown by Arvind and Kurur."
+    year: 2006
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.82
+  underexplored: 0.35
+  toolability: 0.50
+  formality: 0.90
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The graph isomorphism complexity problem asks whether determining if two graphs are structurally identical can be done in polynomial time, or has intermediate complexity between P and NP-complete.
+  decomposition:
+    - "Improve Babai's quasipolynomial-time algorithm to achieve polynomial time"
+    - "Develop group-theoretic and combinatorial tools to close the gap between quasipolynomial and polynomial complexity"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

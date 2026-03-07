@@ -1,0 +1,11 @@
+title: "Unitarity Bounds on EFT Coefficients"
+statement: "What are the complete positivity/unitarity bounds on Wilson coefficients in the Standard Model Effective Field Theory at all mass dimensions?"
+source_id: "src_adams_2006"
+source_url: "https://arxiv.org/abs/hep-th/0602178"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

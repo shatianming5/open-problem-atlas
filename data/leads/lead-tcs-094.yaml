@@ -1,0 +1,11 @@
+title: "Fully Homomorphic Encryption Efficiency"
+statement: "Can fully homomorphic encryption achieve computation overhead polynomial in the security parameter without bootstrapping?"
+source_id: "src_gentry_2009"
+source_url: "https://doi.org/10.1145/1536414.1536440"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

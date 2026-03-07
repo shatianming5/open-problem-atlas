@@ -1,0 +1,11 @@
+title: "Hausdorff Dimension of Feigenbaum Attractor"
+statement: "Compute the exact Hausdorff dimension of the Feigenbaum attractor at the accumulation of period-doubling bifurcations."
+source_id: "src_feigenbaum_1978"
+source_url: "https://en.wikipedia.org/wiki/Feigenbaum_constants"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

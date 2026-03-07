@@ -1,0 +1,113 @@
+id: opa.phys.condensed-matter-theory.many-body-localization
+kind: problem
+title: "Many-Body Localization"
+aliases:
+  - "MBL Problem"
+  - "Many-Body Localization Transition"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - condensed-matter-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove or disprove the existence of many-body localization (MBL) in interacting
+    quantum systems with disorder. Specifically, for the disordered Heisenberg chain
+    H = sum_i [J(S_i . S_{i+1}) + h_i S_i^z] with random fields h_i drawn from a
+    distribution of width W, prove that for sufficiently large W, all eigenstates
+    at all energies are localized (area-law entanglement entropy, no thermalization,
+    emergent integrability). Determine whether a sharp MBL transition exists or whether
+    MBL is unstable to rare thermal regions (avalanche instability) in the thermodynamic
+    limit.
+  informal: >
+    In most quantum systems, interactions cause thermalization. Many-body localization
+    claims that strong enough disorder can prevent thermalization even with interactions.
+    Whether true MBL exists in the thermodynamic limit is hotly debated.
+
+why_it_matters: >
+  MBL would represent a fundamentally new phase of matter that violates the eigenstate
+  thermalization hypothesis. It has implications for quantum information storage,
+  quantum computing, and our understanding of thermalization in quantum systems.
+
+prerequisites:
+  - quantum many-body theory
+  - statistical mechanics
+  - random Schrodinger operators
+  - quantum information theory
+  - condensed matter theory
+
+dates:
+  first_stated: 2005
+
+sources:
+  canonical:
+    - source_id: src_basko_2006
+      kind: paper
+      title: "Metal-insulator transition in a weakly interacting many-electron system with localized single-particle states"
+      url: "https://doi.org/10.1016/j.aop.2005.11.014"
+      year: 2006
+      locator: "Annals of Physics 321, 1126-1205"
+  status_evidence:
+    - source_id: src_nandkishore_2015
+      kind: survey
+      title: "Many-Body Localization and Thermalization in Quantum Statistical Mechanics"
+      url: "https://doi.org/10.1146/annurev-conmatphys-031214-014726"
+      year: 2015
+
+partial_results:
+  - summary: "Imbrie gave a rigorous proof of MBL for a specific 1D spin chain with strong disorder."
+    year: 2016
+  - summary: "Numerical studies suggest MBL in 1D but the transition may shift or disappear for large systems."
+    year: 2020
+  - summary: "Arguments for avalanche instability suggest MBL may be unstable in d >= 2."
+    year: 2022
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.condensed-matter-theory.anderson-metal-insulator-transition"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.45
+  toolability: 0.40
+  formality: 0.55
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving or disproving the existence of many-body localization in interacting disordered quantum systems.
+  decomposition:
+    - "Determine whether MBL survives in the thermodynamic limit"
+    - "Resolve the avalanche instability question"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

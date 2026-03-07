@@ -1,0 +1,11 @@
+title: "Lebesgue's Universal Covering Problem"
+statement: "What is the convex region of smallest area that can cover every planar set of unit diameter?"
+source_id: "src_lebesgue_1914"
+source_url: "https://en.wikipedia.org/wiki/Lebesgue%27s_universal_covering_problem"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,125 @@
+id: opa.phys.quantum-information.mip-star-equals-re
+kind: problem
+title: "MIP* = RE"
+aliases:
+  - "Complexity of Entangled-Prover Interactive Proofs"
+  - "Tsirelson's Problem Resolution"
+  - "Connes Embedding Problem Resolution"
+
+status:
+  label: solved
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The complexity class MIP* consists of all languages decidable by a polynomial-time
+    verifier interacting with two (or more) provers who may share arbitrary quantum
+    entanglement but cannot communicate during the protocol. The class RE (recursively
+    enumerable) consists of all languages for which membership can be verified by a Turing
+    machine that halts on positive instances. The MIP* = RE theorem states that these two
+    classes are equal: MIP* = RE. Equivalently, the halting problem can be verified by a
+    classical polynomial-time verifier interacting with two quantum provers sharing
+    entanglement. This result implies a negative answer to Tsirelson's problem (the set
+    of quantum correlations is strictly larger than the set of correlations achievable
+    with tensor product strategies) and refutes the Connes embedding conjecture.
+  informal: >
+    If two provers who share unlimited quantum entanglement try to convince a classical
+    verifier of a statement, they can convince the verifier of any statement that is true
+    (recursively enumerable), even undecidable ones like the halting problem. This was
+    proven by Ji, Natarajan, Vidick, Wright, and Yuen in 2020, and it also disproved
+    a famous conjecture in operator algebras by Connes.
+
+why_it_matters: >
+  MIP* = RE is one of the most profound results in quantum complexity theory. It connects
+  three seemingly unrelated areas: the theory of interactive proofs in computational
+  complexity, the study of quantum correlations in quantum information (Tsirelson's problem),
+  and the Connes embedding conjecture in operator algebras. The result shows that quantum
+  entanglement gives interactive proof systems extraordinary power, far beyond what was
+  previously imagined.
+
+prerequisites:
+  - computational complexity theory
+  - quantum entanglement and nonlocal games
+  - operator algebras
+  - C*-algebras and von Neumann algebras
+  - interactive proof systems
+
+dates:
+  first_stated: 2001
+
+sources:
+  canonical:
+    - source_id: src_ji_et_al_2020
+      kind: paper
+      title: "MIP* = RE"
+      url: "https://arxiv.org/abs/2001.04383"
+      year: 2020
+      locator: "arXiv:2001.04383; published in Comm. ACM 64(11), 131-138 (2021)"
+    - source_id: src_ji_et_al_2022
+      kind: paper
+      title: "MIP* = RE"
+      url: "https://doi.org/10.1145/3485628"
+      year: 2022
+      locator: "Communications of the ACM 64(11), 131-138"
+  status_evidence:
+    - source_id: src_vidick_2020_notices
+      kind: survey
+      title: "From Operator Algebras to Complexity Theory and Back"
+      url: "https://www.ams.org/journals/notices/202401/rnoti-p6.pdf"
+      year: 2024
+
+partial_results:
+  - summary: "Ito and Vidick showed MIP* contains NEXP, greatly expanding the known power of entangled provers beyond the classical MIP = NEXP result."
+    year: 2012
+  - summary: "Natarajan and Wright showed NEEXP is contained in MIP*, establishing super-exponential power for entangled-prover interactive proofs."
+    year: 2019
+  - summary: "Ji, Natarajan, Vidick, Wright, and Yuen proved MIP* = RE, completely characterizing the class and refuting the Connes embedding conjecture."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.98
+  underexplored: 0.10
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    MIP* = RE was proven in 2020, showing that interactive proofs with entangled provers can verify all recursively enumerable languages, refuting the Connes embedding conjecture.
+  decomposition:
+    - "Formalize and simplify the proof for broader mathematical verification"
+    - "Investigate implications for quantum correlations and operator algebra theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,112 @@
+id: opa.tcs.computational-geometry.art-gallery-complexity
+kind: problem
+title: "Art Gallery Problem Computational Complexity"
+aliases:
+  - "Art gallery guard placement"
+  - "Minimum guards for polygon coverage"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - computational-geometry
+
+problem_type: conjecture
+answer_type: classification_list
+verification_mode: proof
+
+statement:
+  canonical: >
+    The art gallery problem asks for the minimum number of guards needed to see every
+    point of a simple polygon. While Chvátal's theorem gives an upper bound of
+    floor(n/3) guards for an n-vertex polygon, the computational problem of finding
+    the minimum number of guards is known to be NP-hard. What is the exact complexity?
+    Is the problem in NP? Is it in the existential theory of the reals (ETR-complete)?
+  informal: >
+    How hard is it to compute the minimum number of guards needed to watch every point
+    in an art gallery (polygon)? We know it is NP-hard, but is it even in NP?
+
+why_it_matters: >
+  The art gallery problem is a classic problem in computational geometry with
+  applications in surveillance, sensor placement, and robotics. Its exact
+  computational complexity is surprisingly subtle and connects to the existential
+  theory of the reals.
+
+prerequisites:
+  - computational geometry
+  - NP-hardness
+  - visibility
+  - existential theory of the reals
+
+dates:
+  first_stated: 1975
+
+sources:
+  canonical:
+    - source_id: src_chvatal_1975
+      kind: paper
+      title: "A Combinatorial Theorem in Plane Geometry"
+      authors:
+        - "Václav Chvátal"
+      url: "https://doi.org/10.1016/0095-8956(75)90056-1"
+      year: 1975
+  status_evidence:
+    - source_id: src_abrahamsen_adamaszek_miltzow_2018
+      kind: paper
+      title: "The Art Gallery Problem is ∃R-complete"
+      authors:
+        - "Mikkel Abrahamsen"
+        - "Anna Adamaszek"
+        - "Tillmann Miltzow"
+      url: "https://doi.org/10.1145/3188745.3188868"
+      year: 2018
+
+partial_results:
+  - summary: "Lee and Lin (1986) proved the art gallery problem is NP-hard."
+    year: 1986
+  - summary: "Abrahamsen, Adamaszek, and Miltzow (2018) proved the problem is ETR-complete, placing it between NP and PSPACE."
+    year: 2018
+  - summary: "For special cases (orthogonal polygons, simple polygons with holes), various complexity results are known."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.35
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The art gallery problem was recently shown to be ETR-complete, but many variants
+    and approximation questions remain open.
+  decomposition:
+    - "Determine the approximability of the art gallery problem"
+    - "Classify complexity of art gallery variants (vertex guards, edge guards)"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

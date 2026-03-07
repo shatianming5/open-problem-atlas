@@ -1,0 +1,11 @@
+title: "Brocard's Problem"
+statement: "Are the only solutions to n! + 1 = m^2 given by n = 4, 5, and 7?"
+source_id: "src_brocard_1876"
+source_url: "https://en.wikipedia.org/wiki/Brocard%27s_problem"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "P vs PSPACE"
+statement: "Is P strictly contained in PSPACE? Can polynomial-space computation solve strictly more problems than polynomial-time computation?"
+source_id: "src_arora_barak_2009"
+source_url: "https://theory.cs.princeton.edu/complexity/"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

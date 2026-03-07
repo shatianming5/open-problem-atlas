@@ -1,0 +1,113 @@
+id: opa.mathematics.number-theory.selfridges-conjecture
+kind: problem
+title: "Selfridge's Conjecture on Primality"
+aliases:
+  - "Selfridge's Conjecture"
+  - "PSW Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There is no composite number n that is simultaneously a base-2 Fermat pseudoprime
+    (2^{n-1} ≡ 1 mod n) and a Lucas pseudoprime with respect to some Lucas sequence
+    with Jacobi symbol parameters chosen appropriately. Equivalently, there is no
+    PSW pseudoprime: no composite passes both a strong base-2 probable prime test and a
+    strong Lucas probable prime test with the standard parameter selection.
+  informal: >
+    The Pomerance-Selfridge-Wagstaff (PSW) conjecture says that no composite number can
+    fool both a Fermat primality test with base 2 and a Lucas primality test at the same
+    time. If true, the combination would be a deterministic primality test.
+
+why_it_matters: >
+  The PSW conjecture, if true, would provide an extremely efficient deterministic primality
+  test. The Baillie-PSW test based on this conjecture is widely used in practice (e.g., in
+  Mathematica and Maple) and has never been found to fail, despite extensive search.
+
+prerequisites:
+  - elementary number theory
+  - computational number theory
+  - Lucas sequences
+
+dates:
+  first_stated: 1980
+
+sources:
+  canonical:
+    - source_id: src_pomerance_selfridge_wagstaff_1980
+      kind: paper
+      title: "The pseudoprimes to 25 * 10^9"
+      authors:
+        - "Carl Pomerance"
+        - "John L. Selfridge"
+        - "Samuel S. Wagstaff Jr."
+      url: "https://doi.org/10.1090/S0025-5718-1980-0572872-7"
+      year: 1980
+  status_evidence:
+    - source_id: src_baillie_wagstaff_1980
+      kind: paper
+      title: "Lucas pseudoprimes"
+      url: "https://doi.org/10.1090/S0025-5718-1980-0583518-6"
+      year: 1980
+
+partial_results:
+  - summary: "No PSW pseudoprime has been found below 2^64, nor in any systematic search conducted to date."
+    year: 2020
+  - summary: "Pomerance showed heuristically that PSW pseudoprimes, if they exist, must be extraordinarily rare."
+    year: 1984
+  - summary: "The Baillie-PSW test has been verified against all composites below 2^64 with no counterexample (Feitsma and Galway)."
+    year: 2010
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.40
+  toolability: 0.80
+  formality: 0.85
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Selfridge/PSW conjecture asserts that no composite number simultaneously passes
+    both a Fermat base-2 and a Lucas probable prime test, providing a conjectural
+    deterministic primality test.
+  decomposition:
+    - "Extending computational searches for PSW pseudoprimes beyond 2^64"
+    - "Analyzing the algebraic structure of numbers passing both tests simultaneously"
+    - "Developing theoretical frameworks connecting Fermat and Lucas pseudoprimality"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

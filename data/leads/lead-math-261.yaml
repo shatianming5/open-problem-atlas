@@ -1,0 +1,11 @@
+title: "Invariant Subspace Problem"
+statement: "Does every bounded linear operator on an infinite-dimensional separable Hilbert space have a nontrivial closed invariant subspace?"
+source_id: "src_vonneumann_1935"
+source_url: "https://en.wikipedia.org/wiki/Invariant_subspace_problem"
+domain_hint: "mathematics"
+subdomain_hint: "functional-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

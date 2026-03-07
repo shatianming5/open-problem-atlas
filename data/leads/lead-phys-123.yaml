@@ -1,0 +1,11 @@
+title: "Black Hole Information Paradox"
+statement: "How is unitarity preserved during black hole evaporation? The island formula provides partial progress, but a complete resolution remains open."
+source_id: "src_hawking_1976"
+source_url: "https://doi.org/10.1103/PhysRevD.14.2460"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

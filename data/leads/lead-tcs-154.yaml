@@ -1,0 +1,11 @@
+title: "Optimal Spectral Sparsification"
+statement: "Can spectral sparsifiers with O(n/epsilon^2) edges be constructed in nearly linear time?"
+source_id: "src_batson_spielman_srivastava_2012"
+source_url: "https://doi.org/10.1137/090772873"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

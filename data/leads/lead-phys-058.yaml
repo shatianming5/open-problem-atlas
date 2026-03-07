@@ -1,0 +1,11 @@
+title: "Naturalness of the Cosmological Constant"
+statement: "Why is the observed cosmological constant 120 orders of magnitude smaller than naive quantum field theory predictions?"
+source_id: "src_weinberg_1989"
+source_url: "https://doi.org/10.1103/RevModPhys.61.1"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.9
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

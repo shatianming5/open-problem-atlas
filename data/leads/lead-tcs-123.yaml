@@ -1,0 +1,11 @@
+title: "NLTS Conjecture and Beyond"
+statement: "The No Low-Energy Trivial States conjecture was recently proved; can it be strengthened to resolve the quantum PCP conjecture?"
+source_id: "src_anshu_breuckmann_nirkhe_2023"
+source_url: "https://doi.org/10.1145/3564246.3585114"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

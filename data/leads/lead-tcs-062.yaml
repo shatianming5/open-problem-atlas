@@ -1,0 +1,11 @@
+title: "Union-Find Lower Bound Tightness"
+statement: "Is the inverse Ackermann alpha(n) bound for union-find operations tight in the cell probe model?"
+source_id: "src_tarjan_1975"
+source_url: "https://doi.org/10.1145/321879.321884"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

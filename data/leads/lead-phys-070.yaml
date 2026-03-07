@@ -1,0 +1,11 @@
+title: "Theta Vacua and Topology in Gauge Theory"
+statement: "Can the topological structure of the QCD vacuum and theta dependence be computed non-perturbatively without lattice discretization artifacts?"
+source_id: "src_vicari_2009"
+source_url: "https://arxiv.org/abs/0803.1593"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

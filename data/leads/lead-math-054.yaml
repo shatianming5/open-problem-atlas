@@ -1,0 +1,11 @@
+title: "Sidorenko's Conjecture"
+statement: "For every bipartite graph H, the number of homomorphisms from H to a graph G is at least the expected number if G were replaced by a random graph with the same edge density."
+source_id: "src_sidorenko_1993"
+source_url: "https://arxiv.org/abs/0806.0004"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

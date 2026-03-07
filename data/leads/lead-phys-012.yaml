@@ -1,0 +1,11 @@
+title: "Existence of Symmetric Informationally Complete POVMs in All Dimensions"
+statement: "Do SIC-POVMs exist in every finite dimension? Numerical evidence supports their existence but analytic constructions are known only in finitely many dimensions."
+source_id: "src_zauner_1999"
+source_url: "https://arxiv.org/abs/quant-ph/0310075"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

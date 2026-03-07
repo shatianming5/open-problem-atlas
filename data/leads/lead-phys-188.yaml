@@ -1,0 +1,11 @@
+title: "Mathematical Foundations of Path Integrals"
+statement: "Can the Feynman path integral be placed on a rigorous mathematical foundation for gauge theories in four spacetime dimensions?"
+source_id: "src_albeverio_2008"
+source_url: "https://doi.org/10.1007/978-3-540-76956-9"
+domain_hint: "mathematical-physics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Matrix Multiplication Exponent"
+statement: "What is the true exponent omega of matrix multiplication? Is omega = 2 achievable?"
+source_id: "src_alman_williams_2021"
+source_url: "https://doi.org/10.1137/1.9781611976465.32"
+domain_hint: "theoretical-cs"
+subdomain_hint: "complexity-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Existence of Steiner Systems S(2,6,91) and Others"
+statement: "Do there exist Steiner systems S(2,6,91)? Many parameter sets for Steiner systems are unresolved."
+source_id: "src_colbourn_2007"
+source_url: "https://en.wikipedia.org/wiki/Steiner_system"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

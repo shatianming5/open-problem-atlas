@@ -1,0 +1,11 @@
+title: "4-Coloring Planar Graphs in Linear Time"
+statement: "Can every planar graph be 4-colored in provably linear time? Current algorithms have large hidden constants."
+source_id: "src_robertson_sanders_seymour_thomas_1997"
+source_url: "https://doi.org/10.1006/jctb.1997.1750"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

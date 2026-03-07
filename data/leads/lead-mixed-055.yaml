@@ -1,0 +1,11 @@
+title: "Eigenstate Thermalization Hypothesis Proof"
+statement: "Can the Eigenstate Thermalization Hypothesis be rigorously proved for specific many-body quantum systems, establishing when quantum thermalization occurs?"
+source_id: "src_dalessio_2021"
+source_url: "https://arxiv.org/abs/1509.06411"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-statistical-mechanics"
+confidence: 0.48
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

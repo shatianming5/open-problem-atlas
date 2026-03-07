@@ -1,0 +1,11 @@
+title: "Nagata's Conjecture on Curves"
+statement: "For r >= 10 general points in the projective plane, a curve passing through each point with multiplicity at least m has degree >= m*sqrt(r)."
+source_id: "src_nagata_1959"
+source_url: "https://en.wikipedia.org/wiki/Nagata%27s_conjecture_on_curves"
+domain_hint: "mathematics"
+subdomain_hint: "geometry"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

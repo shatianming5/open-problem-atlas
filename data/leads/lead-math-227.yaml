@@ -1,0 +1,11 @@
+title: "Broue's Abelian Defect Group Conjecture"
+statement: "A block of a finite group with abelian defect group is derived equivalent to its Brauer correspondent."
+source_id: "src_broue_1990"
+source_url: "https://en.wikipedia.org/wiki/Brou%C3%A9%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "representation-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

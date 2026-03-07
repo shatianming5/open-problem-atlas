@@ -1,0 +1,122 @@
+id: opa.tcs.quantum-computing.quantum-interactive-proofs
+kind: problem
+title: "Quantum Interactive Proofs Structure"
+aliases:
+  - "QIP structure"
+  - "Quantum multi-prover interactive proofs"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: classification_list
+verification_mode: proof
+
+statement:
+  canonical: >
+    While QIP = PSPACE is known (Jain, Ji, Upadhyay, Watrous, 2011), the structure
+    of quantum multi-prover interactive proofs remains open. What is the complexity
+    of MIP* (multi-prover interactive proofs with entangled provers)? Following the
+    resolution MIP* = RE (Ji et al., 2020), what are the implications for
+    intermediate models, and what is the structure of QIP(k) for small k?
+  informal: >
+    When provers share quantum entanglement, interactive proof systems become
+    incredibly powerful (equivalent to all computably enumerable languages). What
+    happens for restricted variants of quantum interactive proofs?
+
+why_it_matters: >
+  The MIP* = RE result (resolving Connes' embedding conjecture) was one of the most
+  surprising results in theoretical computer science. Understanding the fine structure
+  of quantum interactive proofs continues to reveal deep connections between quantum
+  information, operator algebras, and computability.
+
+prerequisites:
+  - interactive proofs
+  - quantum entanglement
+  - MIP and MIP*
+  - operator algebras
+
+dates:
+  first_stated: 2004
+
+sources:
+  canonical:
+    - source_id: src_ji_natarajan_vidick_wright_yuen_2020
+      kind: paper
+      title: "MIP* = RE"
+      authors:
+        - "Zhengfeng Ji"
+        - "Anand Natarajan"
+        - "Thomas Vidick"
+        - "John Wright"
+        - "Henry Yuen"
+      url: "https://doi.org/10.1145/3485628"
+      year: 2022
+  status_evidence:
+    - source_id: src_jain_ji_upadhyay_watrous_2011
+      kind: paper
+      title: "QIP = PSPACE"
+      authors:
+        - "Rahul Jain"
+        - "Zhengfeng Ji"
+        - "Sarvagya Upadhyay"
+        - "John Watrous"
+      url: "https://doi.org/10.1145/2049697.2049704"
+      year: 2011
+
+partial_results:
+  - summary: "Jain, Ji, Upadhyay, and Watrous (2011) proved QIP = PSPACE, completely characterizing single-prover quantum interactive proofs."
+    year: 2011
+  - summary: "Ji et al. (2020/2022) proved MIP* = RE, showing entangled provers make interactive proofs as powerful as computability allows."
+    year: 2022
+  - summary: "The structure of intermediate models (limited entanglement, limited rounds) remains open."
+    year: 2022
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.quantum-computing.qma-vs-qcma"
+    - "opa.tcs.quantum-computing.bqp-vs-ph"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Following MIP* = RE and QIP = PSPACE, understanding the fine structure of quantum
+    interactive proof systems with varying resources remains a rich open area.
+  decomposition:
+    - "Characterize quantum interactive proofs with limited entanglement"
+    - "Understand the landscape between single-prover QIP and multi-prover MIP*"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

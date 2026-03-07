@@ -1,0 +1,11 @@
+title: "Linear Arboricity Conjecture"
+statement: "Is the linear arboricity of every d-regular graph equal to ceil((d+1)/2), as conjectured by Akiyama, Exoo, and Harary?"
+source_id: "src_ferber_2022"
+source_url: "https://arxiv.org/abs/2205.01588"
+domain_hint: "mathematics"
+subdomain_hint: "graph-theory"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

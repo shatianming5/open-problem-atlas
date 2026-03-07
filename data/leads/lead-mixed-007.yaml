@@ -1,0 +1,11 @@
+title: "Log-Rank Conjecture in Communication Complexity"
+statement: "Is the deterministic communication complexity of a Boolean function polynomially related to the logarithm of the rank of its communication matrix?"
+source_id: "src_lovett_2016"
+source_url: "https://arxiv.org/abs/1412.0394"
+domain_hint: "theoretical-cs"
+subdomain_hint: "communication-complexity"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

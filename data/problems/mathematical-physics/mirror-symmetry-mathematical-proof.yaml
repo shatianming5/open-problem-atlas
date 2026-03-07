@@ -1,0 +1,121 @@
+id: opa.phys.mathematical-physics.mirror-symmetry-mathematical-proof
+kind: problem
+title: "Mirror Symmetry Mathematical Proof"
+aliases:
+  - "Homological Mirror Symmetry"
+  - "SYZ Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - mathematical-physics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Prove mirror symmetry in full generality. Specifically: (1) Prove the Homological
+    Mirror Symmetry (HMS) conjecture of Kontsevich: for a mirror pair (X, X^check) of
+    Calabi-Yau manifolds, there is an equivalence of triangulated categories between
+    D^b(Coh(X)) (derived category of coherent sheaves on X) and D^b(Fuk(X^check))
+    (derived Fukaya category of X^check). (2) Prove the SYZ (Strominger-Yau-Zaslow)
+    conjecture: mirror Calabi-Yau manifolds admit dual special Lagrangian torus
+    fibrations. (3) Establish these results for compact Calabi-Yau threefolds, not
+    just for special cases (tori, K3 surfaces, toric varieties).
+  informal: >
+    Mirror symmetry is a deep duality from string theory that relates pairs of
+    Calabi-Yau manifolds, exchanging their complex and symplectic geometry. Proving
+    this duality rigorously is one of the central challenges of modern mathematics.
+
+why_it_matters: >
+  Mirror symmetry has been enormously influential in both mathematics and physics,
+  generating deep connections between algebraic geometry, symplectic geometry, and
+  string theory. A complete proof would be a landmark achievement.
+
+prerequisites:
+  - algebraic geometry
+  - symplectic geometry
+  - homological algebra
+  - string theory
+  - differential geometry
+
+dates:
+  first_stated: 1994
+
+sources:
+  canonical:
+    - source_id: src_kontsevich_1994
+      kind: paper
+      title: "Homological Algebra of Mirror Symmetry"
+      url: "https://arxiv.org/abs/alg-geom/9411018"
+      year: 1994
+      locator: "Proceedings of ICM Zurich"
+    - source_id: src_syz_1996
+      kind: paper
+      title: "Mirror symmetry is T-duality"
+      url: "https://doi.org/10.1016/0550-3213(96)00434-8"
+      year: 1996
+      locator: "Nuclear Physics B 479, 243-259"
+  status_evidence:
+    - source_id: src_sheridan_2015
+      kind: paper
+      title: "Homological mirror symmetry for Calabi-Yau hypersurfaces in projective space"
+      url: "https://doi.org/10.1007/s00222-014-0507-2"
+      year: 2015
+
+partial_results:
+  - summary: "Kontsevich proved HMS for elliptic curves."
+    year: 1998
+  - summary: "Seidel proved HMS for the quartic K3 surface."
+    year: 2003
+  - summary: "Sheridan proved HMS for Calabi-Yau hypersurfaces in projective space."
+    year: 2015
+  - summary: "The SYZ conjecture has been verified in special cases but the general case, especially with singular fibers, remains open."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.mathematical-physics.geometric-langlands-physics"
+    - "opa.phys.mathematical-physics.agt-correspondence-proof"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.93
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.65
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - mathematica
+
+machine_generated:
+  summary: >
+    Proving mirror symmetry (homological mirror symmetry and SYZ conjecture) for general Calabi-Yau manifolds.
+  decomposition:
+    - "Prove HMS for compact Calabi-Yau threefolds"
+    - "Prove the SYZ conjecture including singular fibers"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

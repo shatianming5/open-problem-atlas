@@ -1,0 +1,11 @@
+title: "Entropy Numbers Conjecture for Embeddings"
+statement: "Determine the exact asymptotic behavior of entropy numbers for Sobolev space embeddings in all regimes."
+source_id: "src_edmundstriebel_1996"
+source_url: "https://en.wikipedia.org/wiki/Entropy_(functional_analysis)"
+domain_hint: "mathematics"
+subdomain_hint: "approximation-theory"
+confidence: 0.3
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

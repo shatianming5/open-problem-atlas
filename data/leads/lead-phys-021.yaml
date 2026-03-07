@@ -1,0 +1,11 @@
+title: "Quantum State Tomography Optimal Scaling"
+statement: "What is the optimal sample complexity for quantum state tomography of an n-qubit state with respect to trace distance?"
+source_id: "src_haah_2017"
+source_url: "https://arxiv.org/abs/1508.01797"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-information"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

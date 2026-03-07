@@ -1,0 +1,43 @@
+collection_id: col_solver-ready
+title: Solver-Ready Problems
+description: 'Open problems that are particularly amenable to computational approaches: SAT/SMT solvers, brute-force search,
+  symbolic computation, or AI-assisted reasoning. These problems have well-defined answer shapes and can benefit from computational
+  evidence or counterexample search.
+
+  '
+curator: OpenProblemAtlas
+created_at: '2026-03-07'
+updated_at: '2026-03-07'
+tags:
+- solver-ready
+- computational
+- sat-smt
+- ai-ready
+featured: false
+problems:
+- problem_id: opa.mathematics.coding-theory.cerny-conjecture
+  note: High toolability score; amenable to computational approaches
+- problem_id: opa.mathematics.combinatorics.hadamard-conjecture
+  note: High toolability score; amenable to computational approaches
+- problem_id: opa.mathematics.combinatorics.lonely-runner-conjecture
+  note: High toolability score; amenable to computational approaches
+- problem_id: opa.mathematics.combinatorics.singmasters-conjecture
+  note: Computational exploration of Pascal's triangle
+- problem_id: opa.mathematics.combinatorics.union-closed-sets-conjecture
+  note: High toolability score; amenable to computational approaches
+- problem_id: opa.mathematics.commutative-algebra.casas-alvero-conjecture
+  note: High toolability score; amenable to computational approaches
+- problem_id: opa.mathematics.graph-theory.graceful-tree-conjecture
+  note: Verified for small trees; computational search continues
+- problem_id: opa.mathematics.number-theory.collatz-conjecture
+  note: Computational verification possible; counterexample search is active
+- problem_id: opa.mathematics.number-theory.erdos-straus-conjecture
+  note: High toolability score; amenable to computational approaches
+- problem_id: opa.mathematics.number-theory.gilbreaths-conjecture
+  note: High toolability score; amenable to computational approaches
+- problem_id: opa.mathematics.number-theory.scholz-conjecture
+  note: High toolability score; amenable to computational approaches
+- problem_id: opa.mathematics.number-theory.selfridges-conjecture
+  note: High toolability score; amenable to computational approaches
+- problem_id: opa.mathematics.number-theory.sierpinski-problem
+  note: High toolability score; amenable to computational approaches

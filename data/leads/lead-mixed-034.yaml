@@ -1,0 +1,11 @@
+title: "Randomness Extraction from Quantum Sources"
+statement: "Can one extract nearly uniform random bits from a single source of quantum min-entropy without a seed, beating classical impossibility results?"
+source_id: "src_arnon_2022"
+source_url: "https://arxiv.org/abs/2207.08697"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-information"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Kreiss Matrix Theorem Sharpening"
+statement: "Improve the constant in the Kreiss matrix theorem for non-normal matrices."
+source_id: "src_kreiss_1962"
+source_url: "https://en.wikipedia.org/wiki/Kreiss_matrix_theorem"
+domain_hint: "mathematics"
+subdomain_hint: "numerical-analysis"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

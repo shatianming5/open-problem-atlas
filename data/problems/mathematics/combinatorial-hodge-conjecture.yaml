@@ -1,0 +1,114 @@
+id: opa.mathematics.algebraic-topology.combinatorial-hodge-conjecture
+kind: problem
+title: "Combinatorial Hodge Conjecture"
+aliases:
+  - "Hodge Conjecture for Tropical Varieties"
+  - "Tropical Hodge Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebraic-topology
+  - enumerative-combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a smooth tropical variety X of dimension d, every (p,p)-class in the tropical
+    cohomology H^{p,p}(X) that lies in the image of the cycle class map from tropical cycles
+    generates the full space of (p,p)-classes. More precisely, the tropical cycle class map
+    from the Chow group of tropical cycles to tropical (p,p)-cohomology is surjective,
+    providing a combinatorial analogue of the classical Hodge conjecture.
+  informal: >
+    The tropical (combinatorial) analogue of the Hodge conjecture asks whether every
+    "Hodge-type" cohomology class on a tropical variety comes from a geometric tropical cycle.
+
+why_it_matters: >
+  The combinatorial Hodge conjecture connects tropical geometry, combinatorics, and algebraic
+  topology. Tropical geometry provides a "combinatorial shadow" of algebraic geometry, and
+  understanding which cohomology classes are algebraic in the tropical setting could shed light
+  on the classical Hodge conjecture (a Millennium Prize Problem).
+
+prerequisites:
+  - tropical geometry
+  - algebraic topology
+  - Hodge theory
+  - polyhedral combinatorics
+
+dates:
+  first_stated: 2014
+
+sources:
+  canonical:
+    - source_id: src_mikhalkin_2014
+      kind: paper
+      title: "Tropical Hodge conjecture"
+      authors:
+        - "Grigory Mikhalkin"
+      year: 2014
+  status_evidence:
+    - source_id: src_adiprasito_huh_katz_2018
+      kind: paper
+      title: "Hodge theory for combinatorial geometries"
+      authors:
+        - "Karim Adiprasito"
+        - "June Huh"
+        - "Eric Katz"
+      url: "https://doi.org/10.4007/annals.2018.188.2.1"
+      year: 2018
+
+partial_results:
+  - summary: "Proved for tropical curves and surfaces in special cases."
+    year: 2014
+  - summary: "Jell, Shaw, and Smacka established foundational results on tropical cohomology."
+    year: 2019
+  - summary: "Adiprasito, Huh, and Katz proved the Hodge-Riemann relations for matroids, a related result."
+    year: 2018
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.70
+  underexplored: 0.60
+  toolability: 0.35
+  formality: 0.75
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    The combinatorial Hodge conjecture asks whether tropical (p,p)-cohomology classes come from
+    tropical cycles, providing a combinatorial analogue of the classical Hodge conjecture.
+  decomposition:
+    - "Tropical cohomology and intersection theory"
+    - "Polyhedral subdivisions and fan structures"
+    - "Connections to classical Hodge theory via tropicalization"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

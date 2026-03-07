@@ -1,0 +1,11 @@
+title: "Cosmological Constant and Vacuum Energy"
+statement: "Can the enormous discrepancy between the observed cosmological constant and quantum field theory predictions be resolved through a rigorous mathematical framework?"
+source_id: "src_polchinski_2021"
+source_url: "https://arxiv.org/abs/hep-th/0603249"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-gravity"
+confidence: 0.35
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

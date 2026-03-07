@@ -1,0 +1,110 @@
+id: opa.tcs.learning-theory.pac-learning-dnf
+kind: problem
+title: "PAC Learning DNF Formulas"
+aliases:
+  - "Learning DNF in polynomial time"
+  - "DNF learnability"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - learning-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Can polynomial-size DNF formulas (disjunctive normal form) be PAC learned in
+    polynomial time under the uniform distribution? DNF formulas are a fundamental
+    Boolean function class, and their learnability has been open since Valiant
+    introduced the PAC model in 1984.
+  informal: >
+    Can we efficiently learn any Boolean function expressible as a short OR-of-ANDs
+    formula from random examples? This is one of the most basic open problems in
+    computational learning theory.
+
+why_it_matters: >
+  DNF learnability is the most prominent open problem in PAC learning theory. DNF
+  formulas represent a natural and important concept class, and their learnability
+  connects to fundamental questions about the power of learning algorithms.
+
+prerequisites:
+  - PAC learning model
+  - Boolean functions
+  - DNF formulas
+  - boosting
+
+dates:
+  first_stated: 1984
+
+sources:
+  canonical:
+    - source_id: src_valiant_1984
+      kind: paper
+      title: "A Theory of the Learnable"
+      authors:
+        - "Leslie G. Valiant"
+      url: "https://doi.org/10.1145/1968.1972"
+      year: 1984
+  status_evidence:
+    - source_id: src_klivans_servedio_2004
+      kind: paper
+      title: "Learning DNF in Time 2^(O(n^(1/3)))"
+      authors:
+        - "Adam R. Klivans"
+        - "Rocco A. Servedio"
+      url: "https://doi.org/10.1016/j.jcss.2003.12.002"
+      year: 2004
+
+partial_results:
+  - summary: "Jackson (1997) showed polynomial-size DNF are learnable under the uniform distribution using membership queries (Harmonic Sieve algorithm)."
+    year: 1997
+  - summary: "Klivans and Servedio (2004) gave a 2^(O(n^(1/3))) time algorithm for learning DNF from random examples only."
+    year: 2004
+  - summary: "PAC learning polynomial-size DNF from random examples in polynomial time remains open."
+    year: 2004
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    PAC learning DNF formulas from random examples in polynomial time is the
+    longest-standing open problem in computational learning theory.
+  decomposition:
+    - "Develop polynomial-time algorithms for learning DNF from random examples"
+    - "Prove hardness under appropriate cryptographic assumptions"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

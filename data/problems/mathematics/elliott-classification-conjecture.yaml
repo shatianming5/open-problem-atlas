@@ -1,0 +1,128 @@
+id: opa.mathematics.operator-algebras.elliott-classification-conjecture
+kind: problem
+title: "Elliott Classification Conjecture"
+aliases:
+  - "Elliott Conjecture for C*-algebras"
+  - "Classification of Simple Nuclear C*-algebras"
+
+status:
+  label: partially_solved
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - operator-algebras
+  - homological-algebra
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Simple separable nuclear C*-algebras satisfying the Universal Coefficient
+    Theorem (UCT) are classified by their Elliott invariant, which consists of
+    ordered K-theory (K_0, K_0^+, [1]_{K_0}), K_1-group, and the tracial
+    simplex together with the natural pairing between traces and K_0. In its
+    most general form, the conjecture asks whether all simple separable nuclear
+    C*-algebras satisfy the UCT, and whether the Elliott invariant suffices for
+    classification without the UCT assumption.
+  informal: >
+    C*-algebras are algebras of operators on Hilbert spaces, fundamental in
+    quantum mechanics and noncommutative geometry. Elliott conjectured that the
+    "well-behaved" (nuclear) ones that are also simple (have no ideals) can be
+    completely characterized by a small collection of algebraic and topological
+    invariants. This was proved for those satisfying a technical condition (UCT),
+    but whether all relevant C*-algebras satisfy UCT remains open.
+
+why_it_matters: >
+  The Elliott classification program has been one of the most successful
+  long-term research programs in operator algebras. The recent breakthrough by
+  Carrion, Gabe, Schafhauser, Tikuisis, and White (building on decades of work
+  by many mathematicians) essentially resolved the conjecture for UCT algebras.
+  However, the UCT problem -- whether all separable nuclear C*-algebras satisfy
+  the UCT -- remains one of the most important open problems in operator
+  algebras.
+
+prerequisites:
+  - C*-algebras
+  - K-theory
+  - operator algebras
+  - homological algebra
+
+dates:
+  first_stated: 1989
+
+sources:
+  canonical:
+    - source_id: src_elliott_1993
+      kind: paper
+      title: "On the classification of inductive limits of sequences of semisimple finite-dimensional algebras"
+      authors:
+        - "George A. Elliott"
+      year: 1993
+      locator: "Journal of Algebra, vol. 38, pp. 29-44"
+  status_evidence:
+    - source_id: src_tikuisis_white_winter_2017
+      kind: paper
+      title: "Quasidiagonality of nuclear C*-algebras"
+      authors:
+        - "Aaron Tikuisis"
+        - "Stuart White"
+        - "Wilhelm Winter"
+      year: 2017
+      locator: "Annals of Mathematics, vol. 185, no. 1, pp. 229-284"
+
+partial_results:
+  - summary: "Kirchberg and Phillips classified purely infinite simple nuclear C*-algebras satisfying UCT."
+    year: 2000
+  - summary: "Lin proved classification for simple nuclear C*-algebras of finite nuclear dimension satisfying UCT (stably finite case)."
+    year: 2011
+  - summary: "Tikuisis, White, and Winter proved quasidiagonality of faithful traces on nuclear C*-algebras."
+    year: 2017
+  - summary: "The classification theorem was completed for all simple separable unital nuclear C*-algebras satisfying UCT with finite nuclear dimension."
+    year: 2020
+  - summary: "The UCT problem (whether all separable nuclear C*-algebras satisfy UCT) remains open."
+    year: 2024
+
+relations:
+  related:
+    - opa.mathematics.operator-algebras.kadison-similarity-problem
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    The Elliott classification conjecture predicts that simple separable nuclear
+    C*-algebras are classified by their Elliott invariant. Largely proved under
+    the UCT assumption, the UCT problem itself remains open.
+  decomposition:
+    - "The UCT problem for nuclear C*-algebras"
+    - "Extension to non-simple and non-unital cases"
+    - "Connections to the Toms-Winter conjecture and regularity"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

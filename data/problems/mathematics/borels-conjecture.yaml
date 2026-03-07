@@ -1,0 +1,120 @@
+id: opa.mathematics.set-theory.borels-conjecture
+kind: problem
+title: "Borel's Conjecture"
+aliases:
+  - "Borel Conjecture on Strong Measure Zero Sets"
+  - "Borel's Conjecture in Set Theory"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - set-theory
+  - harmonic-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every strong measure zero subset of the real line is countable. A set
+    X subset R is strong measure zero if for every sequence (epsilon_n) of
+    positive reals, there exists a sequence of intervals (I_n) with
+    |I_n| < epsilon_n such that X is contained in the union of the I_n.
+    Borel's conjecture asserts that the only such sets are the countable ones.
+  informal: >
+    A set of real numbers is "strong measure zero" if it can be covered by
+    intervals of any prescribed shrinking sizes. Borel conjectured in 1919
+    that only countable sets can be this "thin." This turns out to be
+    independent of the usual axioms of set theory (ZFC).
+
+why_it_matters: >
+  Borel's conjecture is a fundamental statement in descriptive set theory
+  and the study of measure and category on the real line. Laver proved in
+  1976 that Borel's conjecture is consistent with ZFC (using a countable
+  support iteration of Laver forcing), and Sierpinski showed that the
+  Continuum Hypothesis implies its negation. The conjecture's independence
+  makes its study central to the investigation of set-theoretic axioms
+  beyond ZFC, and related questions about dual Borel conjecture and
+  simultaneous consistency remain open.
+
+prerequisites:
+  - set theory
+  - measure theory
+  - forcing and independence results
+  - descriptive set theory
+
+dates:
+  first_stated: 1919
+
+sources:
+  canonical:
+    - source_id: src_borel_1919
+      kind: paper
+      title: "Sur la classification des ensembles de mesure nulle"
+      authors:
+        - "Emile Borel"
+      year: 1919
+      locator: "Bulletin de la Societe Mathematique de France, vol. 47, pp. 97-125"
+  status_evidence:
+    - source_id: src_laver_1976
+      kind: paper
+      title: "On the consistency of Borel's conjecture"
+      authors:
+        - "Richard Laver"
+      year: 1976
+      locator: "Acta Mathematica, vol. 137, pp. 151-169"
+
+partial_results:
+  - summary: "Sierpinski showed that CH implies the existence of uncountable strong measure zero sets, refuting Borel's conjecture under CH."
+    year: 1928
+  - summary: "Laver proved the consistency of Borel's conjecture using iterated Laver forcing."
+    year: 1976
+  - summary: "Carlson proved the dual Borel conjecture (every strongly meager set is countable) is also consistent."
+    year: 1993
+  - summary: "Goldstern, Kellner, and Shelah proved the joint consistency of Borel's conjecture and the dual Borel conjecture."
+    year: 2019
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.35
+  toolability: 0.25
+  formality: 0.90
+  ai_fit: 0.10
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - python
+
+machine_generated:
+  summary: >
+    Borel's conjecture states that every strong measure zero set of reals is
+    countable. It is independent of ZFC. Remaining open questions concern
+    extensions to other settings and optimal forcing axioms.
+  decomposition:
+    - "Joint consistency results for Borel and dual Borel conjectures"
+    - "Strong measure zero in higher-dimensional and abstract settings"
+    - "Connections to cardinal characteristics of the continuum"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

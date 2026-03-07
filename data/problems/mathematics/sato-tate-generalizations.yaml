@@ -1,0 +1,121 @@
+id: opa.mathematics.number-theory.sato-tate-generalizations
+kind: problem
+title: "Generalized Sato-Tate Conjecture"
+aliases:
+  - "Sato-Tate Conjecture for Higher Genus"
+  - "Sato-Tate Distribution for Abelian Varieties"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+  - probability
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let A be an abelian variety of dimension g over a number field. The normalized Frobenius
+    angles (or normalized L-function coefficients) at primes of good reduction are
+    equidistributed with respect to the Haar measure on a specific compact group ST(A),
+    the Sato-Tate group of A. For elliptic curves without CM, this was proved to be SU(2)
+    (the classical Sato-Tate). For higher-dimensional abelian varieties, the identity of
+    ST(A) and the equidistribution remain conjectural in general.
+  informal: >
+    The classical Sato-Tate conjecture (now a theorem for elliptic curves over totally real
+    fields) predicts the distribution of point counts on elliptic curves mod p. The
+    generalization to higher-dimensional abelian varieties and more general motives remains
+    open.
+
+why_it_matters: >
+  The Sato-Tate conjecture connects arithmetic statistics, random matrix theory, and
+  automorphic forms. Its proof for elliptic curves (Taylor, Clozel, Harris, Shepherd-Barron,
+  2011) was a triumph of the Langlands program. The generalization to higher genus varieties
+  is a major open frontier, with deep connections to motives and L-functions.
+
+prerequisites:
+  - algebraic number theory
+  - automorphic forms
+  - algebraic geometry
+  - random matrix theory
+
+dates:
+  first_stated: 1963
+
+sources:
+  canonical:
+    - source_id: src_serre_2012
+      kind: textbook
+      title: "Lectures on N_X(p)"
+      authors:
+        - "Jean-Pierre Serre"
+      year: 2012
+      url: "https://doi.org/10.1201/b12903"
+  status_evidence:
+    - source_id: src_fite_kedlaya_2012
+      kind: paper
+      title: "Sato-Tate distributions and Galois endomorphism modules in genus 2"
+      authors:
+        - "Francesc Fite"
+        - "Kiran S. Kedlaya"
+        - "Victor Rotger"
+        - "Andrew V. Sutherland"
+      url: "https://doi.org/10.1112/S0010437X12000279"
+      year: 2012
+
+partial_results:
+  - summary: "Classical Sato-Tate proved for elliptic curves over totally real fields by Taylor et al."
+    year: 2011
+  - summary: "The Sato-Tate group classified for abelian surfaces by Fite, Kedlaya, Rotger, Sutherland."
+    year: 2012
+  - summary: "Equidistribution proved for some abelian surfaces over totally real fields."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.non-commutative-algebra.langlands-functoriality-conjecture"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The generalized Sato-Tate conjecture predicts equidistribution of Frobenius data for abelian
+    varieties with respect to the Haar measure on the Sato-Tate group. Open in higher genus.
+  decomposition:
+    - "Automorphic forms and potential modularity"
+    - "Classification of Sato-Tate groups"
+    - "Moment statistics and computational verification"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

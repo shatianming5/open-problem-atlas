@@ -1,0 +1,11 @@
+title: "Quantization of General Relativity"
+statement: "Can general relativity be quantized as a mathematically consistent quantum field theory, either perturbatively or non-perturbatively?"
+source_id: "src_kiefer_2007"
+source_url: "https://doi.org/10.1093/acprof:oso/9780199212521.001.0001"
+domain_hint: "mathematical-physics"
+subdomain_hint: "mathematical-physics"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

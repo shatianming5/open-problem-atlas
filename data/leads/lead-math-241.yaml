@@ -1,0 +1,11 @@
+title: "Homotopy Hypothesis"
+statement: "Weak n-groupoids are equivalent to homotopy n-types, and weak omega-groupoids model all homotopy types."
+source_id: "src_grothendieck_1983b"
+source_url: "https://en.wikipedia.org/wiki/Homotopy_hypothesis"
+domain_hint: "mathematics"
+subdomain_hint: "category-theory"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

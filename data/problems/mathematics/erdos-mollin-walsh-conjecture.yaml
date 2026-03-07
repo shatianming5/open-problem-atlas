@@ -1,0 +1,110 @@
+id: opa.mathematics.number-theory.erdos-mollin-walsh-conjecture
+kind: problem
+title: "Erdos-Mollin-Walsh Conjecture"
+aliases:
+  - "Erdős-Mollin-Walsh Conjecture"
+  - "Consecutive Powerful Numbers Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There do not exist three consecutive powerful numbers (a powerful number is a positive
+    integer n such that if a prime p divides n, then p^2 also divides n). Equivalently,
+    there is no positive integer n such that n, n+1, and n+2 are all powerful.
+  informal: >
+    A powerful number is one where every prime factor appears at least to the second power
+    (like 4, 8, 9, 25, 27, ...). The conjecture says you can never find three powerful
+    numbers in a row.
+
+why_it_matters: >
+  The Erdos-Mollin-Walsh conjecture addresses the distribution of powerful numbers, which
+  are closely related to square-free numbers and the structure of the integers. Its resolution
+  would illuminate the spacing properties of numbers with constrained factorizations.
+
+prerequisites:
+  - elementary number theory
+  - algebraic number theory
+  - Diophantine equations
+
+dates:
+  first_stated: 1986
+
+sources:
+  canonical:
+    - source_id: src_mollin_walsh_1986
+      kind: paper
+      title: "On powerful numbers"
+      authors:
+        - "Richard A. Mollin"
+        - "P. Gary Walsh"
+      url: "https://doi.org/10.1155/S0161171286000765"
+      year: 1986
+  status_evidence:
+    - source_id: src_guy_2004_c
+      kind: textbook
+      title: "Unsolved Problems in Number Theory (3rd edition), Problem B16"
+      url: "https://doi.org/10.1007/978-0-387-26677-0"
+      year: 2004
+
+partial_results:
+  - summary: "It is known that infinitely many pairs of consecutive powerful numbers exist (e.g., n=8, n+1=9)."
+    year: 1976
+  - summary: "Erdős conjectured the non-existence of triples, and this has been verified computationally for all n up to large bounds."
+    year: 2004
+  - summary: "The abc conjecture implies that there are only finitely many triples of consecutive powerful numbers."
+    year: 1996
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - opa.mathematics.number-theory.abc-conjecture-effective
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.55
+  underexplored: 0.55
+  toolability: 0.65
+  formality: 0.85
+  ai_fit: 0.50
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Erdos-Mollin-Walsh conjecture asserts that three consecutive powerful numbers
+    cannot exist, a problem connected to the abc conjecture.
+  decomposition:
+    - "Extending computational verification to larger ranges"
+    - "Reducing to Diophantine equations and Pell-type equations"
+    - "Connecting to the abc conjecture to obtain conditional finiteness"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

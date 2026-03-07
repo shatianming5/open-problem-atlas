@@ -1,0 +1,11 @@
+title: "Constructive QFT in 4D"
+statement: "Can any interacting quantum field theory be rigorously constructed in four spacetime dimensions satisfying the Wightman or Osterwalder-Schrader axioms?"
+source_id: "src_glimm_1987"
+source_url: "https://doi.org/10.1007/978-1-4612-4728-9"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.85
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

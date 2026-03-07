@@ -1,0 +1,11 @@
+title: "Optimal Private Information Retrieval"
+statement: "What is the optimal communication complexity of single-server private information retrieval? Can it be sublinear without computational assumptions?"
+source_id: "src_chor_goldreich_kushilevitz_sudan_1998"
+source_url: "https://doi.org/10.1145/293347.293350"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Gyarfas-Sumner Conjecture"
+statement: "Is it true that for every tree T, the class of graphs not containing T as an induced subgraph is chi-bounded?"
+source_id: "src_scott_2021"
+source_url: "https://arxiv.org/abs/2108.12225"
+domain_hint: "mathematics"
+subdomain_hint: "graph-theory"
+confidence: 0.52
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

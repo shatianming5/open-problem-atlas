@@ -1,0 +1,136 @@
+id: opa.tcs.algorithms.matrix-multiplication-exponent
+kind: problem
+title: "Matrix Multiplication Exponent"
+aliases:
+  - "What is omega?"
+  - "Fast matrix multiplication"
+  - "Strassen exponent"
+  - "omega = 2 conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Define the matrix multiplication exponent omega as the infimum over all
+    real numbers c such that two n x n matrices over a field can be multiplied
+    using O(n^c) arithmetic operations. It is known that 2 <= omega < 2.372.
+    What is the exact value of omega? In particular, does omega = 2?
+  informal: >
+    Multiplying two n-by-n matrices the standard way takes about n^3 operations.
+    Strassen showed in 1969 that it can be done faster. The fundamental question
+    is: what is the best possible exponent? Can we multiply matrices in
+    essentially n^2 operations (which is optimal since just reading the input
+    takes n^2 time), or is the true exponent strictly greater than 2?
+
+why_it_matters: >
+  Matrix multiplication is one of the most fundamental operations in computer
+  science and mathematics, underlying algorithms for linear algebra, graph
+  problems (transitive closure, shortest paths, matching), parsing, and
+  scientific computing. The value of omega directly determines the best
+  possible running time for all these applications. Determining whether omega = 2
+  is one of the most important open problems in algebraic complexity theory.
+  Each improvement in upper bounds has had widespread algorithmic consequences.
+
+prerequisites:
+  - linear algebra
+  - algebraic complexity theory
+  - tensor rank and decomposition
+  - group-theoretic approaches to algorithms
+  - arithmetic circuits
+
+dates:
+  first_stated: 1969
+
+sources:
+  canonical:
+    - source_id: src_strassen_1969
+      kind: paper
+      title: "Gaussian Elimination Is Not Optimal"
+      authors:
+        - "Volker Strassen"
+      url: "https://doi.org/10.1007/BF02165411"
+      year: 1969
+      locator: "Numerische Mathematik, 13(4), pp. 354-356"
+    - source_id: src_coppersmith_winograd_1990
+      kind: paper
+      title: "Matrix Multiplication via Arithmetic Progressions"
+      authors:
+        - "Don Coppersmith"
+        - "Shmuel Winograd"
+      url: "https://doi.org/10.1016/S0747-7171(08)80013-2"
+      year: 1990
+      locator: "Journal of Symbolic Computation, 9(3), pp. 251-280"
+  status_evidence:
+    - source_id: src_williams_2024
+      kind: paper
+      title: "New Bounds for Matrix Multiplication: from Alpha to Omega"
+      authors:
+        - "Virginia Vassilevska Williams"
+        - "Yinzhan Xu"
+        - "Zixuan Xu"
+        - "Renfei Zhou"
+      url: "https://arxiv.org/abs/2307.07970"
+      year: 2024
+
+partial_results:
+  - summary: "Strassen showed omega < 2.808 by giving an algorithm for 2x2 matrix multiplication using 7 multiplications instead of 8."
+    year: 1969
+  - summary: "Coppersmith and Winograd achieved omega < 2.376 using the laser method on the Coppersmith-Winograd tensor."
+    year: 1990
+  - summary: "Le Gall improved the bound to omega < 2.3729 using the powers of the Coppersmith-Winograd tensor."
+    year: 2014
+  - summary: "Alman and Vassilevska Williams improved the bound to omega < 2.3728596."
+    year: 2021
+  - summary: "Duan, Wu, and Zhou further improved the bound to omega < 2.371866."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.25
+  toolability: 0.55
+  formality: 0.90
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    This problem seeks to determine the optimal exponent omega for matrix multiplication, specifically whether two n-by-n matrices can be multiplied in essentially O(n^2) operations.
+  decomposition:
+    - "Discover new tensor decomposition techniques or algebraic identities to improve upper bounds toward omega = 2"
+    - "Prove lower bounds on the value of omega using barriers to current laser-method approaches"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

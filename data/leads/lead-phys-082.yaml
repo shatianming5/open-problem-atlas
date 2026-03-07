@@ -1,0 +1,11 @@
+title: "Lattice QCD at Physical Quark Masses"
+statement: "Can lattice QCD computations achieve sub-percent precision for all hadron masses and decay constants at physical quark masses and in the continuum limit?"
+source_id: "src_aoki_2020"
+source_url: "https://arxiv.org/abs/1902.08191"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

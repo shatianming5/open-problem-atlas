@@ -1,0 +1,11 @@
+title: "Large Deviation Theory for Interacting Systems"
+statement: "Can large deviation principles be rigorously established for the empirical measure of strongly interacting particle systems far from equilibrium?"
+source_id: "src_touchette_2009"
+source_url: "https://arxiv.org/abs/0804.0327"
+domain_hint: "mathematical-physics"
+subdomain_hint: "statistical-mechanics"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

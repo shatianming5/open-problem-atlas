@@ -1,0 +1,11 @@
+title: "Quantum Walk Algorithmic Applications"
+statement: "Can quantum walks provide polynomial speedups for graph problems beyond element distinctness and triangle finding?"
+source_id: "src_ambainis_2007"
+source_url: "https://doi.org/10.1137/060660928"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

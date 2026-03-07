@@ -1,0 +1,11 @@
+title: "Connes Embedding Problem Aftermath"
+statement: "What new separations in operator algebra theory follow from the negative resolution of the Connes embedding problem via MIP*=RE?"
+source_id: "src_ozawa_2022"
+source_url: "https://arxiv.org/abs/2209.11507"
+domain_hint: "mathematics"
+subdomain_hint: "operator-algebras"
+confidence: 0.68
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

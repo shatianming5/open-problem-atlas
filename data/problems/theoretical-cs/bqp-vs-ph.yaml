@@ -1,0 +1,114 @@
+id: opa.tcs.quantum-computing.bqp-vs-ph
+kind: problem
+title: "BQP vs the Polynomial Hierarchy"
+aliases:
+  - "BQP vs PH"
+  - "Quantum computing and the polynomial hierarchy"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - quantum-computing
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Is BQP contained in the polynomial hierarchy (PH)? It is known that BQP is
+    contained in PP (which is in PSPACE), and there is an oracle relative to which
+    BQP is not in PH. But in the unrelativized setting, is BQP inside or outside PH?
+  informal: >
+    Does quantum computing fit within the classical complexity hierarchy, or does it
+    transcend it? If BQP is outside PH, then quantum computers solve problems that
+    are fundamentally beyond what classical computation can approximate even with
+    alternating quantifiers.
+
+why_it_matters: >
+  Placing BQP relative to PH would clarify the computational power of quantum mechanics.
+  If BQP is outside PH, quantum computing represents a genuinely new kind of
+  computational power not captured by the classical hierarchy.
+
+prerequisites:
+  - BQP
+  - polynomial hierarchy
+  - quantum algorithms
+  - oracle separations
+
+dates:
+  first_stated: 1997
+
+sources:
+  canonical:
+    - source_id: src_aaronson_2010_bqp
+      kind: paper
+      title: "BQP and the Polynomial Hierarchy"
+      authors:
+        - "Scott Aaronson"
+      url: "https://doi.org/10.1145/1806689.1806711"
+      year: 2010
+  status_evidence:
+    - source_id: src_raz_tal_2019
+      kind: paper
+      title: "Oracle Separation of BQP and PH"
+      authors:
+        - "Ran Raz"
+        - "Avishay Tal"
+      url: "https://doi.org/10.1145/3313276.3316315"
+      year: 2019
+
+partial_results:
+  - summary: "Aaronson (2010) showed BQP is contained in PP and proved a 'quantum PH' analog."
+    year: 2010
+  - summary: "Raz and Tal (2019) proved an oracle separation of BQP from PH, a major breakthrough."
+    year: 2019
+  - summary: "The unrelativized question remains fully open."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.quantum-computing.quantum-supremacy-formal"
+    - "opa.tcs.complexity-theory.polynomial-hierarchy-infinite"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.20
+  formality: 0.90
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Whether BQP is contained in the polynomial hierarchy is a fundamental question
+    about where quantum computation fits in the classical complexity landscape.
+  decomposition:
+    - "Develop non-relativizing techniques to place BQP relative to PH"
+    - "Exploit the Raz-Tal oracle separation toward unrelativized results"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

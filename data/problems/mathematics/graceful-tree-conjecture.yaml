@@ -1,0 +1,117 @@
+id: opa.mathematics.graph-theory.graceful-tree-conjecture
+kind: problem
+title: "Graceful Tree Conjecture"
+aliases:
+  - "Ringel-Kotzig Conjecture"
+  - "Graceful Labeling Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - graph-theory
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Every tree with n edges admits a graceful labeling. That is, for every tree T with n edges,
+    there exists an injective function f: V(T) -> {0, 1, ..., n} such that the set of values
+    {|f(u) - f(v)| : uv in E(T)} equals {1, 2, ..., n}.
+  informal: >
+    Label the vertices of any tree using distinct numbers from 0 to n (where n is the number of
+    edges). The conjecture claims you can always choose the labels so that the differences along
+    the edges are exactly the numbers 1, 2, ..., n, each appearing exactly once.
+
+why_it_matters: >
+  The graceful tree conjecture, proposed by Ringel in 1963 and refined by Kotzig and Rosa,
+  is a central open problem in graph labeling theory. A proof would imply Ringel's conjecture
+  that the complete graph K_{2n+1} can be decomposed into 2n+1 copies of any given tree with
+  n edges. It has spawned a rich subfield of combinatorics.
+
+prerequisites:
+  - graph theory
+  - graph labeling
+  - combinatorics
+
+dates:
+  first_stated: 1967
+
+sources:
+  canonical:
+    - source_id: src_rosa_1967
+      kind: paper
+      title: "On certain valuations of the vertices of a graph"
+      authors:
+        - "Alexander Rosa"
+      year: 1967
+      locator: "Theory of Graphs (Proc. Internat. Sympos., Rome, 1966), pp. 349-355"
+    - source_id: src_gallian_2018
+      kind: survey
+      title: "A dynamic survey of graph labeling"
+      authors:
+        - "Joseph A. Gallian"
+      url: "https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS6"
+      year: 2018
+  status_evidence:
+    - source_id: src_gallian_survey_status
+      kind: survey
+      title: "A dynamic survey of graph labeling"
+      year: 2022
+
+partial_results:
+  - summary: "Caterpillars, paths, stars, and many special tree families have been shown to be graceful."
+    year: 1979
+  - summary: "Trees with at most 35 vertices have been verified computationally."
+    year: 2010
+  - summary: "Ringel's conjecture (decomposition of K_{2n+1} into copies of any tree) was proved for large n by Montgomery, Pokrovskiy, and Sudakov."
+    year: 2021
+  - summary: "Adamaszek (2010) showed that trees with a vertex adjacent to many leaves are graceful."
+    year: 2010
+
+relations:
+  related:
+    - opa.mathematics.graph-theory.hadwiger-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.65
+  underexplored: 0.40
+  toolability: 0.75
+  formality: 0.80
+  ai_fit: 0.55
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    The graceful tree conjecture asserts that every tree admits a graceful labeling, where
+    vertex labels produce all distinct edge differences from 1 to n. A proof would imply
+    Ringel's conjecture on decompositions of complete graphs.
+  decomposition:
+    - "Extending known graceful families via recursive and algebraic constructions"
+    - "Computational verification for larger tree sizes"
+    - "Connections to Ringel's conjecture and graph decomposition theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

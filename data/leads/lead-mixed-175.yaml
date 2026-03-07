@@ -1,0 +1,11 @@
+title: "Polymath8 Improvements on Prime Gaps"
+statement: "Can the Polymath8 methods further reduce the bound H_1 on the gap between consecutive primes below 246, or is a fundamentally new idea required?"
+source_id: "src_polymath8_2020"
+source_url: "https://arxiv.org/abs/1407.4897"
+domain_hint: "mathematics"
+subdomain_hint: "analytic-number-theory"
+confidence: 0.55
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

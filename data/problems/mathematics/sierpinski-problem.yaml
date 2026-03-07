@@ -1,0 +1,116 @@
+id: opa.mathematics.number-theory.sierpinski-problem
+kind: problem
+title: "Sierpinski Problem"
+aliases:
+  - "Sierpinski Number Problem"
+  - "Smallest Sierpinski Number Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - number-theory
+
+problem_type: conjecture
+answer_type: existential
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Sierpinski problem asks to determine the smallest odd positive integer k such that
+    k * 2^n + 1 is composite for all positive integers n. It is conjectured that the
+    smallest such Sierpinski number is k = 78557. This requires showing that for every
+    odd k < 78557 that is not already eliminated by covering set arguments, there exists
+    some n for which k * 2^n + 1 is prime.
+  informal: >
+    A Sierpinski number is an odd number k for which k * 2^n + 1 is never prime, no matter
+    what n you choose. It is known that 78557 is a Sierpinski number (it has a covering set).
+    The problem is to prove it is the smallest one, by finding a prime of the form k * 2^n + 1
+    for each remaining candidate k.
+
+why_it_matters: >
+  The Sierpinski problem connects covering systems, sieve theory, and computational searches
+  for large primes. Its resolution would complete our understanding of which multipliers k
+  can produce primes in the family k * 2^n + 1.
+
+prerequisites:
+  - elementary number theory
+  - covering systems
+  - computational number theory
+
+dates:
+  first_stated: 1960
+
+sources:
+  canonical:
+    - source_id: src_sierpinski_1960
+      kind: paper
+      title: "Sur un problème concernant les nombres k * 2^n + 1"
+      authors:
+        - "Wacław Sierpiński"
+      url: "https://doi.org/10.4064/ea-15-1-73-74"
+      year: 1960
+    - source_id: src_selfridge_1962
+      kind: paper
+      title: "Proposed problem (conjecture that 78557 is the smallest Sierpinski number)"
+      authors:
+        - "John L. Selfridge"
+      year: 1962
+  status_evidence:
+    - source_id: src_seventeenorbust_2002
+      kind: survey
+      title: "Seventeen or Bust: A Distributed Attack on the Sierpinski Problem"
+      url: "http://www.seventeenorbust.com/"
+      year: 2002
+
+partial_results:
+  - summary: "The 'Seventeen or Bust' project and PrimeGrid have eliminated all but 5 candidate values of k below 78557 (as of 2024)."
+    year: 2024
+  - summary: "Sierpinski proved the existence of infinitely many Sierpinski numbers using covering sets."
+    year: 1960
+  - summary: "The covering set for k=78557 was found by Selfridge: {3, 5, 7, 13, 17, 241}."
+    year: 1962
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.60
+  underexplored: 0.35
+  toolability: 0.85
+  formality: 0.80
+  ai_fit: 0.60
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    The Sierpinski problem asks whether 78557 is the smallest odd k for which k*2^n + 1
+    is always composite, with only a handful of candidates remaining to be eliminated.
+  decomposition:
+    - "Distributed primality search for the remaining candidate k values"
+    - "Developing faster primality tests for numbers of the form k * 2^n + 1"
+    - "Analyzing covering systems and their algebraic structure"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

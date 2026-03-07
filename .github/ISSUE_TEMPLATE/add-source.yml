@@ -1,0 +1,82 @@
+name: Add Source
+description: Suggest a new source (problem list, survey, database) to be ingested
+title: "[Source] "
+labels: ["type:source"]
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Source Title
+      placeholder: "e.g., Open Problems in Graph Theory (survey)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Source Type
+      options:
+        - problem_list
+        - survey
+        - paper
+        - textbook
+        - database
+        - website
+        - discussion
+    validations:
+      required: true
+
+  - type: dropdown
+    id: tier
+    attributes:
+      label: Source Tier
+      description: "See docs/source-policy.md for tier definitions"
+      options:
+        - "Tier 1 — Can be canonical source"
+        - "Tier 2 — Supporting source"
+        - "Tier 3 — Lead source only"
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      placeholder: "https://..."
+    validations:
+      required: true
+
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      placeholder: "Author 1, Author 2"
+    validations:
+      required: false
+
+  - type: input
+    id: year
+    attributes:
+      label: Year
+    validations:
+      required: false
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: "What makes this source valuable? Approximately how many open problems does it contain?"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Primary Domain
+      options:
+        - Mathematics
+        - Theoretical CS
+        - Mathematical Physics
+        - Multiple
+    validations:
+      required: true

@@ -1,0 +1,120 @@
+id: opa.mathematics.dynamical-systems.hilbert-16th-problem-second-part
+kind: problem
+title: "Hilbert's 16th Problem (Second Part)"
+aliases:
+  - "Hilbert's 16th Problem on Limit Cycles"
+  - "Maximum Number of Limit Cycles"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - dynamical-systems
+  - differential-geometry
+
+problem_type: open_question
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    For a polynomial vector field of degree n in the plane,
+    dx/dt = P_n(x,y), dy/dt = Q_n(x,y), where P_n and Q_n are polynomials of
+    degree at most n, determine a uniform upper bound H(n) on the number of
+    limit cycles (isolated periodic orbits), and investigate their possible
+    configurations. In particular, is H(n) finite for each n?
+  informal: >
+    Consider a system of two differential equations in the plane where the
+    right-hand sides are polynomials of degree n. The question asks: what is
+    the maximum number of closed loops (limit cycles) that the trajectories of
+    such a system can form? Even for quadratic systems (n=2), this remains
+    unsolved.
+
+why_it_matters: >
+  The second part of Hilbert's 16th problem, posed in 1900, is one of the most
+  enduring open problems in mathematics. It sits at the intersection of
+  dynamical systems, real algebraic geometry, and qualitative theory of ODEs.
+  Despite over a century of research, even the finiteness of the number of
+  limit cycles for polynomial systems of any fixed degree has not been fully
+  established in general.
+
+prerequisites:
+  - ordinary differential equations
+  - qualitative theory of dynamical systems
+  - real algebraic geometry
+  - bifurcation theory
+
+dates:
+  first_stated: 1900
+
+sources:
+  canonical:
+    - source_id: src_hilbert_1900
+      kind: paper
+      title: "Mathematische Probleme"
+      authors:
+        - "David Hilbert"
+      year: 1900
+      locator: "Nachrichten von der Gesellschaft der Wissenschaften zu Gottingen, pp. 253-297"
+  status_evidence:
+    - source_id: src_ilyashenko_2002
+      kind: survey
+      title: "Centennial history of Hilbert's 16th problem"
+      authors:
+        - "Yulij Ilyashenko"
+      year: 2002
+      locator: "Bulletin of the AMS, vol. 39, no. 3, pp. 301-354"
+
+partial_results:
+  - summary: "Dulac claimed finiteness for individual analytic vector fields in 1923, but the proof was incomplete."
+    year: 1923
+  - summary: "Ecalle and Ilyashenko independently proved finiteness for individual analytic planar vector fields."
+    year: 1991
+  - summary: "For quadratic systems, it is known that 4 limit cycles can occur, but the sharp upper bound remains unknown."
+    year: 1980
+  - summary: "The infinitesimal (weak) Hilbert 16th problem was solved by Binyamini, Novikov, and Yakovenko for Abelian integrals."
+    year: 2010
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.95
+  underexplored: 0.30
+  toolability: 0.40
+  formality: 0.75
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    The second part of Hilbert's 16th problem asks for a uniform upper bound on
+    the number of limit cycles for planar polynomial vector fields of degree n.
+    Even finiteness of a uniform bound is unknown for quadratic systems.
+  decomposition:
+    - "Finiteness conjecture for uniform bounds H(n)"
+    - "Quadratic systems: determine H(2)"
+    - "Cyclicity of polycycles and desingularization techniques"
+    - "Connection to the tangential (infinitesimal) Hilbert problem"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

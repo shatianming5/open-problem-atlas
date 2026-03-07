@@ -1,0 +1,11 @@
+title: "Integer Sorting in O(n sqrt(log log n)) Time"
+statement: "Can n integers be sorted in linear time in the word RAM model? The best known is O(n sqrt(log log n)) by Han and Thorup."
+source_id: "src_han_thorup_2002"
+source_url: "https://doi.org/10.1109/SFCS.2002.1181890"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Dynamic All-Pairs Shortest Paths"
+statement: "Can all-pairs shortest paths be maintained dynamically in amortized sub-linear time per edge update?"
+source_id: "src_demetrescu_italiano_2004"
+source_url: "https://doi.org/10.1145/1007352.1007396"
+domain_hint: "theoretical-cs"
+subdomain_hint: "graph-algorithms"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

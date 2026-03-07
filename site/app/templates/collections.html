@@ -1,0 +1,53 @@
+{% extends "base.html" %}
+{% set page = 'collections' %}
+{% block title %}Collections — OpenProblemAtlas{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 32px;">
+  <h1 style="font-size: 28px; margin-bottom: 8px;">Collections</h1>
+  <p style="color: var(--text-muted); margin-bottom: 32px;">
+    Curated sets of related open problems
+  </p>
+
+  {% for col in collections %}
+  <div class="collection-card">
+    <h3>{{ col.title }}</h3>
+    <p class="desc">{{ col.description }}</p>
+    <div class="meta" style="margin-bottom: 16px;">
+      <span>{{ col.problems | length }} problems</span>
+      {% if col.featured %}<span class="tag tag-open">Featured</span>{% endif %}
+      {% for tag in col.tags[:4] %}
+      <span class="tag tag-type">{{ tag }}</span>
+      {% endfor %}
+    </div>
+
+    <div class="problem-list">
+      {% for entry in col.problems %}
+      {% set p = problems_by_id.get(entry.problem_id) %}
+      {% if p %}
+      <a href="/problem/{{ p.id | replace('.', '-') }}.html" style="text-decoration: none; color: inherit;">
+        <div class="problem-card">
+          <div class="title">{{ p.title }}</div>
+          <div class="meta">
+            <span class="tag {% if p.status.label == 'open' %}tag-open{% elif p.status.label == 'solved' %}tag-solved{% endif %}">
+              {{ p.status.label }}
+            </span>
+            <span class="tag tag-domain">{{ p.domain | replace('-', ' ') }}</span>
+            {% if entry.note %}
+            <span style="color: var(--text-muted);">{{ entry.note }}</span>
+            {% endif %}
+          </div>
+        </div>
+      </a>
+      {% else %}
+      <div class="problem-card">
+        <div class="title" style="color: var(--text-muted);">{{ entry.problem_id }}</div>
+        {% if entry.note %}<div class="meta"><span>{{ entry.note }}</span></div>{% endif %}
+      </div>
+      {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
+{% endblock %}

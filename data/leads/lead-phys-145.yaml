@@ -1,0 +1,11 @@
+title: "Dark Energy and Modified Gravity"
+statement: "Can the observed cosmic acceleration be explained by modifications to general relativity rather than a cosmological constant, and how can these be distinguished observationally?"
+source_id: "src_clifton_2012"
+source_url: "https://arxiv.org/abs/1106.2476"
+domain_hint: "mathematical-physics"
+subdomain_hint: "general-relativity"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Schanuel's Conjecture"
+statement: "If z_1,...,z_n are Q-linearly independent complex numbers, is the transcendence degree of Q(z_1,...,z_n,e^{z_1},...,e^{z_n}) at least n?"
+source_id: "src_zilber_2020"
+source_url: "https://mathoverflow.net/questions/30210"
+domain_hint: "mathematics"
+subdomain_hint: "transcendental-number-theory"
+confidence: 0.35
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

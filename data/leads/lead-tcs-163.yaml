@@ -1,0 +1,11 @@
+title: "Hopcroft's Problem in the Algebraic Decision Tree Model"
+statement: "What is the optimal time to detect incidences between n points and n lines? The best known is O(n^{4/3}) and matching lower bounds are unknown."
+source_id: "src_erickson_1996"
+source_url: "https://doi.org/10.1145/237218.237412"
+domain_hint: "theoretical-cs"
+subdomain_hint: "computational-geometry"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

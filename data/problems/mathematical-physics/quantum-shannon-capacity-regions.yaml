@@ -1,0 +1,109 @@
+id: opa.phys.quantum-information.quantum-shannon-capacity-regions
+kind: problem
+title: "Quantum Shannon Theory Capacity Regions"
+aliases:
+  - "Quantum Network Capacity Region"
+  - "Multi-User Quantum Shannon Theory"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: constructive
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the full capacity region for quantum multi-user channels, including the
+    quantum multiple access channel (QMAC), quantum broadcast channel (QBC), and quantum
+    interference channel (QIC). Specifically, find single-letter characterizations of the
+    achievable rate regions for simultaneous transmission of classical and quantum
+    information through these multi-user quantum channels, or prove that no such
+    single-letter characterizations exist.
+  informal: >
+    When multiple senders and receivers share a quantum communication channel, what are
+    the maximum rates at which they can simultaneously communicate? This generalizes
+    Shannon's classical network information theory to the quantum realm, where
+    entanglement and superposition create fundamentally new phenomena.
+
+why_it_matters: >
+  Multi-user quantum Shannon theory is essential for designing future quantum networks
+  and quantum internet architectures. Resolving capacity regions would provide the
+  theoretical foundation for quantum network protocols.
+
+prerequisites:
+  - quantum information theory
+  - quantum Shannon theory
+  - network information theory
+  - operator algebras
+
+dates:
+  first_stated: 2001
+
+sources:
+  canonical:
+    - source_id: src_yard_2011
+      kind: paper
+      title: "Quantum communication with zero-capacity channels"
+      url: "https://doi.org/10.1109/TIT.2011.2159047"
+      year: 2011
+      locator: "IEEE Trans. Inf. Theory 57(11)"
+  status_evidence:
+    - source_id: src_wilde_2017
+      kind: textbook
+      title: "Quantum Information Theory (2nd edition)"
+      url: "https://doi.org/10.1017/9781316809976"
+      year: 2017
+
+partial_results:
+  - summary: "The quantum multiple access channel capacity region for classical communication has been characterized by Winter."
+    year: 2001
+  - summary: "Dupuis, Hayden, and Li established the quantum broadcast channel capacity for degraded channels."
+    year: 2010
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-error-correction-fundamental-limits"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.55
+  toolability: 0.35
+  formality: 0.65
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Determining the full capacity regions for multi-user quantum channels including broadcast and interference channels.
+  decomposition:
+    - "Characterize quantum broadcast channel capacity"
+    - "Determine quantum interference channel capacity region"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

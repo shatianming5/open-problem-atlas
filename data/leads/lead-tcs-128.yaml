@@ -1,0 +1,11 @@
+title: "Quantum State Tomography Lower Bounds"
+statement: "What is the minimum number of measurements needed to reconstruct an unknown quantum state to a given precision?"
+source_id: "src_haah_et_al_2017"
+source_url: "https://doi.org/10.1109/FOCS.2017.47"
+domain_hint: "theoretical-cs"
+subdomain_hint: "quantum-computing"
+confidence: 0.55
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

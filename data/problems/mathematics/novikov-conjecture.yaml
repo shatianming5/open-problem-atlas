@@ -1,0 +1,129 @@
+id: opa.mathematics.topology.novikov-conjecture
+kind: problem
+title: "Novikov Conjecture"
+aliases:
+  - "Novikov Higher Signature Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - topology
+  - geometry
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let M be a closed oriented smooth manifold with fundamental group π.
+    For any class x ∈ H^*(Bπ; Q) in the rational cohomology of the
+    classifying space, the higher signature ⟨L(M) ∪ f^*(x), [M]⟩ is an
+    oriented homotopy invariant, where L(M) is the Hirzebruch L-class and
+    f: M → Bπ classifies the universal cover.
+  informal: >
+    Certain numerical invariants of manifolds defined using their
+    fundamental group (called higher signatures) should be preserved when
+    one manifold is continuously deformed into another in a way that
+    preserves orientation.
+
+why_it_matters: >
+  The Novikov conjecture is one of the most important open problems in
+  topology. It implies that a large class of topological invariants are
+  actually homotopy invariants. The conjecture has been verified for many
+  classes of groups and has driven the development of major areas including
+  index theory, K-theory of group C*-algebras, and coarse geometry.
+
+prerequisites:
+  - algebraic topology
+  - differential geometry
+  - K-theory
+  - index theory
+
+dates:
+  first_stated: 1965
+
+sources:
+  canonical:
+    - source_id: src_novikov_1965
+      kind: paper
+      title: "Topological invariance of rational classes of Pontrjagin"
+      authors:
+        - "Sergei P. Novikov"
+      year: 1965
+    - source_id: src_ferry_ranicki_rosenberg_1995
+      kind: textbook
+      title: "Novikov Conjectures, Index Theorems and Rigidity"
+      authors:
+        - "Steven C. Ferry"
+        - "Andrew Ranicki"
+        - "Jonathan Rosenberg"
+      year: 1995
+      url: "https://doi.org/10.1017/CBO9780511662676"
+  status_evidence:
+    - source_id: src_kasparov_1988
+      kind: paper
+      title: "Equivariant KK-theory and the Novikov conjecture"
+      authors:
+        - "Gennadi Kasparov"
+      year: 1988
+      url: "https://doi.org/10.1007/BF01388809"
+
+partial_results:
+  - summary: "Lusztig verified the conjecture for free abelian groups using analytic methods."
+    year: 1972
+  - summary: "Kasparov proved the conjecture for discrete subgroups of Lie groups."
+    year: 1988
+  - summary: "Connes, Gromov, and Moscovici proved it for hyperbolic groups."
+    year: 1990
+  - summary: "Yu proved the conjecture for groups that admit a uniform embedding into Hilbert space."
+    year: 2000
+  - summary: "The full conjecture remains open for general groups."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.30
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+    - sage
+
+machine_generated:
+  summary: >
+    The Novikov conjecture asserts that higher signatures of closed oriented
+    manifolds are oriented homotopy invariants. Verified for many classes
+    of groups, the full conjecture remains open.
+  decomposition:
+    - "Analytic approaches via Kasparov's KK-theory"
+    - "Coarse geometric methods and uniform embeddings"
+    - "Assembly maps and the Baum-Connes conjecture"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

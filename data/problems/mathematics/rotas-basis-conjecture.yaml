@@ -1,0 +1,109 @@
+id: opa.mathematics.combinatorics.rotas-basis-conjecture
+kind: problem
+title: "Rota's Basis Conjecture"
+aliases:
+  - "Rota Basis Conjecture"
+  - "Huang-Rota Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - combinatorics
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Let B_1, B_2, ..., B_n be n bases of a rank-n matroid M. Then one can always find n
+    disjoint transversals of (B_1, ..., B_n), each of which is itself a basis of M.
+    Equivalently, if the elements of the n bases are arranged as rows of an n x n matrix,
+    one can permute within each row so that every column is also a basis.
+  informal: >
+    Given n bases of a matroid, each with n elements, arrange them in a grid. Can you always
+    rearrange each row so that every column also forms a basis? Rota conjectured yes.
+
+why_it_matters: >
+  Rota's basis conjecture, attributed to Gian-Carlo Rota in the 1980s, is a fundamental
+  open problem in matroid theory and combinatorics. It connects to Latin squares, scheduling
+  theory, and algebraic combinatorics. It has inspired significant work on partial results
+  and has been called one of the most beautiful conjectures in matroid theory.
+
+prerequisites:
+  - matroid theory
+  - linear algebra
+  - combinatorics
+
+dates:
+  first_stated: 1989
+
+sources:
+  canonical:
+    - source_id: src_huang_rota_1994
+      kind: paper
+      title: "On the relations of various conjectures on Latin squares and straightening coefficients"
+      authors:
+        - "Rosa Huang"
+        - "Gian-Carlo Rota"
+      year: 1994
+  status_evidence:
+    - source_id: src_geelen_webb_2007
+      kind: paper
+      title: "On Rota's basis conjecture"
+      url: "https://doi.org/10.1137/050647268"
+      year: 2007
+
+partial_results:
+  - summary: "The conjecture is known to hold for paving matroids and for strongly base-orderable matroids."
+    year: 1994
+  - summary: "Geelen and Humphries proved one can always find at least 2 disjoint common transversals that are bases."
+    year: 2006
+  - summary: "Wild proved the conjecture for matroids of rank at most 3."
+    year: 1994
+  - summary: "Bucic, Kwan, Pokrovskiy, and Sudakov proved that at least (1/2 - o(1))n disjoint transversal bases exist."
+    year: 2020
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.78
+  underexplored: 0.40
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    Rota's basis conjecture states that n bases of a rank-n matroid can be arranged in an
+    n x n matrix so that every column is also a basis. It remains open despite significant
+    partial results.
+  decomposition:
+    - "Proving the conjecture for graphic matroids or representable matroids"
+    - "Improving the fraction of disjoint transversal bases beyond 1/2"
+    - "Connections to the Alon-Tarsi conjecture and Latin squares"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

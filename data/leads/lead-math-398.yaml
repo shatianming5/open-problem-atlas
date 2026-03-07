@@ -1,0 +1,11 @@
+title: "Serre's Modularity Conjecture Extensions"
+statement: "Extend Serre's modularity conjecture to totally real fields and higher-dimensional Galois representations."
+source_id: "src_serre_1987"
+source_url: "https://en.wikipedia.org/wiki/Serre%27s_modularity_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "arithmetic-geometry"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

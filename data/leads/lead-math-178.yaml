@@ -1,0 +1,11 @@
+title: "Weinstein Conjecture (General Case)"
+statement: "Every Reeb flow on a closed contact manifold has at least one periodic orbit. Proven in dimension 3 by Taubes but open in higher dimensions."
+source_id: "src_weinstein_1979"
+source_url: "https://en.wikipedia.org/wiki/Weinstein_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "dynamical-systems"
+confidence: 0.75
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

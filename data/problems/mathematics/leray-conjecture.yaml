@@ -1,0 +1,118 @@
+id: opa.mathematics.differential-equations.leray-conjecture
+kind: problem
+title: "Leray's Conjecture on Self-Similar Blow-Up"
+aliases:
+  - "Leray Self-Similar Solutions"
+  - "Navier-Stokes Self-Similar Blow-Up"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - differential-equations
+  - functional-analysis
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    There are no non-trivial self-similar blow-up solutions to the three-dimensional
+    incompressible Navier-Stokes equations. Specifically, if u(x,t) = (T-t)^{-1/2} U(x /
+    (T-t)^{1/2}) is a solution to the Navier-Stokes equations that blows up at time T, then
+    U must be identically zero (no non-zero self-similar profile exists with finite energy).
+  informal: >
+    If the Navier-Stokes equations describing fluid flow were to develop a singularity
+    (blow-up), it cannot happen in a self-similar way -- the simplest type of singularity
+    is ruled out.
+
+why_it_matters: >
+  Leray's conjecture (1934) is intimately connected to the Navier-Stokes existence and
+  smoothness Millennium Problem. If non-trivial self-similar blow-up solutions were found,
+  it would settle the regularity question negatively. Ruling them out, as conjectured,
+  is a necessary step toward proving regularity. Necas, Ruzicka, Sverak proved it for
+  solutions in L^3, but the general case remains open.
+
+prerequisites:
+  - Navier-Stokes equations
+  - functional analysis
+  - partial differential equations
+  - fluid dynamics
+
+dates:
+  first_stated: 1934
+
+sources:
+  canonical:
+    - source_id: src_leray_1934
+      kind: paper
+      title: "Sur le mouvement d'un liquide visqueux emplissant l'espace"
+      authors:
+        - "Jean Leray"
+      year: 1934
+      url: "https://doi.org/10.1007/BF02547354"
+  status_evidence:
+    - source_id: src_nrs_1996
+      kind: paper
+      title: "On Leray's self-similar solutions of the Navier-Stokes equations"
+      authors:
+        - "Jindrich Necas"
+        - "Michael Ruzicka"
+        - "Vladimir Sverak"
+      url: "https://doi.org/10.1007/BF02498049"
+      year: 1996
+
+partial_results:
+  - summary: "Necas, Ruzicka, and Sverak proved no non-trivial self-similar solutions exist in L^3."
+    year: 1996
+  - summary: "Tsai extended the result to solutions with slightly weaker integrability conditions."
+    year: 1998
+  - summary: "The general case (allowing infinite energy self-similar profiles) remains open."
+    year: 2020
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.mathematics.analysis.navier-stokes-existence-and-smoothness"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.40
+  toolability: 0.35
+  formality: 0.85
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - lean
+
+machine_generated:
+  summary: >
+    Leray's conjecture asserts no non-trivial self-similar blow-up solutions exist for the
+    3D Navier-Stokes equations. Proved under L^3 integrability; open in general.
+  decomposition:
+    - "Liouville theorems for ancient solutions"
+    - "Scaling-invariant function spaces"
+    - "Connections to Navier-Stokes regularity theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

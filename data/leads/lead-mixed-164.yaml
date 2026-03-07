@@ -1,0 +1,11 @@
+title: "Reconstruction Conjecture for Graphs"
+statement: "Is every graph with at least three vertices uniquely determined (up to isomorphism) by the multiset of its vertex-deleted subgraphs?"
+source_id: "src_bondy_2020"
+source_url: "https://mathoverflow.net/questions/38959"
+domain_hint: "mathematics"
+subdomain_hint: "graph-theory"
+confidence: 0.42
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,119 @@
+id: opa.mathematics.extremal-combinatorics.zarankiewicz-problem
+kind: problem
+title: "Zarankiewicz Problem"
+aliases:
+  - "Zarankiewicz's Problem"
+  - "Kovari-Sos-Turan Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - extremal-combinatorics
+  - graph-theory
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the exact value of the Zarankiewicz number z(m,n;s,t), defined as the maximum
+    number of 1s in an m x n binary matrix that contains no s x t all-ones submatrix.
+    Equivalently, determine the Turan number ex(n; K_{s,t}), the maximum number of edges
+    in a bipartite graph on n+n vertices containing no K_{s,t} subgraph. In particular,
+    the exact asymptotics of ex(n; K_{s,t}) for general s,t remain unknown.
+  informal: >
+    How many edges can a bipartite graph have while avoiding a complete bipartite subgraph
+    K_{s,t}? The Kovari-Sos-Turan theorem gives an upper bound, but matching constructions
+    exist only for special cases.
+
+why_it_matters: >
+  The Zarankiewicz problem is a central question in extremal graph theory, connecting to
+  incidence geometry, algebraic combinatorics, and additive number theory. The gap between
+  upper and lower bounds for general parameters has persisted for decades and resolving it
+  would have major implications for Turan-type extremal problems.
+
+prerequisites:
+  - extremal graph theory
+  - combinatorics
+  - algebraic geometry (for constructions)
+
+dates:
+  first_stated: 1951
+
+sources:
+  canonical:
+    - source_id: src_zarankiewicz_1951
+      kind: paper
+      title: "Problem P 101"
+      authors:
+        - "Kazimierz Zarankiewicz"
+      year: 1951
+    - source_id: src_kovari_sos_turan_1954
+      kind: paper
+      title: "On a problem of K. Zarankiewicz"
+      authors:
+        - "Tamas Kovari"
+        - "Vera T. Sos"
+        - "Paul Turan"
+      year: 1954
+  status_evidence:
+    - source_id: src_conlon_2021
+      kind: survey
+      title: "Graphs with few paths of prescribed length between any two vertices"
+      url: "https://arxiv.org/abs/2010.13710"
+      year: 2021
+
+partial_results:
+  - summary: "The Kovari-Sos-Turan theorem gives ex(n; K_{s,t}) = O(n^{2-1/s}) for s <= t."
+    year: 1954
+  - summary: "Algebraic constructions match the upper bound for K_{2,2}, K_{3,3}, and K_{2,t} for all t, using finite geometry."
+    year: 1966
+  - summary: "Kollar, Ronyai, and Szabo gave matching lower bounds for ex(n; K_{s,t}) when t > (s-1)! using algebraic constructions."
+    year: 1996
+  - summary: "Bukh and Conlon improved upper bounds for K_{s,t} when t is moderately large relative to s using random algebraic methods."
+    year: 2021
+
+relations:
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.88
+  underexplored: 0.30
+  toolability: 0.45
+  formality: 0.85
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    The Zarankiewicz problem asks for the maximum number of edges in a bipartite graph
+    avoiding K_{s,t} as a subgraph. The exact answer is known only for special cases,
+    and the general problem remains one of the central challenges in extremal combinatorics.
+  decomposition:
+    - "Closing the gap between Kovari-Sos-Turan upper bounds and algebraic lower bounds"
+    - "New algebraic or probabilistic constructions for dense K_{s,t}-free graphs"
+    - "Connections to polynomial method and incidence geometry"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

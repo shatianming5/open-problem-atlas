@@ -1,0 +1,115 @@
+id: opa.phys.quantum-information.holographic-entanglement-entropy-conjectures
+kind: problem
+title: "Holographic Entanglement Entropy Conjectures"
+aliases:
+  - "Ryu-Takayanagi Conjecture Generalizations"
+  - "Quantum Extremal Surface Conjecture"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-information
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    Rigorously prove the quantum-corrected Ryu-Takayanagi (RT) formula and its
+    covariant generalization (the Hubeny-Rangamani-Takayanagi or HRT formula) for
+    computing entanglement entropy in holographic theories. Specifically, prove that
+    for a boundary region A in a holographic CFT, the entanglement entropy is given by
+    S(A) = min ext_gamma [Area(gamma)/(4 G_N) + S_bulk(Sigma_gamma)], where gamma is
+    a quantum extremal surface homologous to A, and S_bulk is the bulk entropy. Extend
+    this to prove the quantum maximin formula and establish the holographic entropy cone
+    for arbitrary numbers of parties.
+  informal: >
+    In the AdS/CFT correspondence, the entanglement entropy of a boundary region equals
+    the area of a minimal surface in the bulk spacetime, plus quantum corrections.
+    Proving this rigorously and characterizing all possible entanglement structures
+    in holographic theories is an open problem.
+
+why_it_matters: >
+  Holographic entanglement entropy is the most concrete quantitative tool connecting
+  quantum information to quantum gravity. Proving these conjectures would establish
+  the information-theoretic foundations of holography and constrain viable theories
+  of quantum gravity.
+
+prerequisites:
+  - quantum information theory
+  - general relativity
+  - conformal field theory
+  - differential geometry
+  - string theory
+
+dates:
+  first_stated: 2006
+
+sources:
+  canonical:
+    - source_id: src_ryu_2006
+      kind: paper
+      title: "Holographic Derivation of Entanglement Entropy from AdS/CFT"
+      url: "https://doi.org/10.1103/PhysRevLett.96.181602"
+      year: 2006
+      locator: "Physical Review Letters 96, 181602"
+  status_evidence:
+    - source_id: src_engelhardt_2015
+      kind: paper
+      title: "Quantum Extremal Surfaces: Holographic Entanglement Entropy beyond the Classical Regime"
+      url: "https://doi.org/10.1007/JHEP01(2015)073"
+      year: 2015
+
+partial_results:
+  - summary: "Lewkowycz and Maldacena gave a gravitational path integral derivation of the RT formula for static geometries."
+    year: 2013
+  - summary: "The holographic entropy cone has been characterized for up to 5 parties."
+    year: 2015
+  - summary: "Penington and Almheiri et al. used quantum extremal surfaces to resolve aspects of the information paradox."
+    year: 2019
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-information.quantum-gravity-information-connections"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.45
+  toolability: 0.25
+  formality: 0.50
+  ai_fit: 0.20
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Rigorously proving the Ryu-Takayanagi formula and its quantum corrections for holographic entanglement entropy.
+  decomposition:
+    - "Prove the quantum extremal surface formula from first principles"
+    - "Characterize the holographic entropy cone for arbitrary numbers of parties"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

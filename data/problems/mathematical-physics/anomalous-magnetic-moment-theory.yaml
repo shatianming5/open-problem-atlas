@@ -1,0 +1,113 @@
+id: opa.phys.quantum-field-theory.anomalous-magnetic-moment-theory
+kind: problem
+title: "Muon Anomalous Magnetic Moment Theory Prediction"
+aliases:
+  - "Muon g-2 Theory"
+  - "Hadronic Vacuum Polarization"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematical-physics
+subdomains:
+  - quantum-field-theory
+
+problem_type: conjecture
+answer_type: numeric
+verification_mode: proof
+
+statement:
+  canonical: >
+    Determine the precise Standard Model prediction for the muon anomalous magnetic
+    moment a_mu = (g-2)/2 to sufficient accuracy to compare with the experimental
+    measurement. The dominant theoretical uncertainty comes from the hadronic vacuum
+    polarization (HVP) contribution. Resolve the tension between the data-driven
+    dispersive approach (using e+e- -> hadrons cross-section data) and lattice QCD
+    calculations of the HVP contribution, and determine whether a_mu^{SM} agrees with
+    the experimental value measured by Fermilab and BNL.
+  informal: >
+    The muon's magnetic moment has been measured to exquisite precision and may disagree
+    with the Standard Model prediction, hinting at new physics. But the theory prediction
+    itself is uncertain because of difficulties computing the strong-force contributions.
+    Resolving this is one of the most pressing problems in particle physics.
+
+why_it_matters: >
+  The muon g-2 anomaly is one of the strongest hints of physics beyond the Standard
+  Model. Resolving the theoretical prediction is essential to determine whether this
+  discrepancy is real or an artifact of incomplete calculations.
+
+prerequisites:
+  - quantum field theory
+  - quantum electrodynamics
+  - lattice QCD
+  - hadronic physics
+  - precision computation
+
+dates:
+  first_stated: 2001
+
+sources:
+  canonical:
+    - source_id: src_muon_g2_2021
+      kind: paper
+      title: "Measurement of the Positive Muon Anomalous Magnetic Moment to 0.46 ppm"
+      url: "https://doi.org/10.1103/PhysRevLett.126.141801"
+      year: 2021
+      locator: "Physical Review Letters 126, 141801"
+  status_evidence:
+    - source_id: src_aoyama_2020
+      kind: paper
+      title: "The anomalous magnetic moment of the muon in the Standard Model"
+      url: "https://doi.org/10.1016/j.physrep.2020.07.006"
+      year: 2020
+
+partial_results:
+  - summary: "The Muon g-2 Theory Initiative published a consensus Standard Model prediction showing ~4.2 sigma tension with experiment."
+    year: 2020
+  - summary: "BMW lattice QCD collaboration computed HVP with a result closer to experiment, creating tension with data-driven methods."
+    year: 2021
+  - summary: "CMD-3 experiment published new e+e- -> pi+pi- data that shifted the data-driven prediction toward the lattice result."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.phys.quantum-field-theory.confinement-in-qcd"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.35
+  toolability: 0.55
+  formality: 0.60
+  ai_fit: 0.35
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    Resolving the theoretical prediction for the muon anomalous magnetic moment, particularly the hadronic vacuum polarization contribution.
+  decomposition:
+    - "Resolve the tension between dispersive and lattice QCD approaches to HVP"
+    - "Improve hadronic light-by-light scattering calculations"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

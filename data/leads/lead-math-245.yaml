@@ -1,0 +1,11 @@
+title: "Freyd's Generating Hypothesis"
+statement: "A map between finite spectra that induces the zero map on stable homotopy groups is null-homotopic."
+source_id: "src_freyd_1966"
+source_url: "https://en.wikipedia.org/wiki/Generating_hypothesis"
+domain_hint: "mathematics"
+subdomain_hint: "category-theory"
+confidence: 0.4
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

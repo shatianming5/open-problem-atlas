@@ -1,0 +1,121 @@
+id: opa.mathematics.complex-analysis.mlc-conjecture
+kind: problem
+title: "MLC Conjecture (Mandelbrot Set Locally Connected)"
+aliases:
+  - "Local Connectivity of the Mandelbrot Set"
+  - "MLC Problem"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - complex-analysis
+  - dynamical-systems
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Mandelbrot set M = {c in C : the orbit of 0 under f_c(z) = z^2 + c
+    is bounded} is locally connected. That is, for every point c in M and every
+    open set U containing c, there exists a connected open set V with
+    c in V subset U intersect M.
+  informal: >
+    The Mandelbrot set is the famous fractal that catalogs the behavior of
+    quadratic maps z -> z^2 + c. The MLC conjecture asserts that this set has
+    no "infinitely thin filaments" -- every point can be surrounded by an
+    arbitrarily small connected neighborhood within the set.
+
+why_it_matters: >
+  The MLC conjecture is perhaps the most important open problem in holomorphic
+  dynamics. If true, it would imply that the Mandelbrot set is topologically
+  completely described by Thurston's combinatorial model, that the Fatou
+  conjecture (density of hyperbolicity) holds for quadratic polynomials, and
+  that every quadratic polynomial is combinatorially rigid. It would provide a
+  complete topological classification of quadratic dynamics.
+
+prerequisites:
+  - complex analysis
+  - holomorphic dynamics
+  - topology
+  - fractal geometry
+
+dates:
+  first_stated: 1980
+
+sources:
+  canonical:
+    - source_id: src_douady_hubbard_1984
+      kind: paper
+      title: "Etude dynamique des polynomes complexes (Orsay notes)"
+      authors:
+        - "Adrien Douady"
+        - "John H. Hubbard"
+      year: 1984
+      locator: "Publications Mathematiques d'Orsay"
+  status_evidence:
+    - source_id: src_milnor_2000
+      kind: textbook
+      title: "Dynamics in One Complex Variable"
+      authors:
+        - "John Milnor"
+      year: 2000
+      locator: "Annals of Mathematics Studies, no. 160, Princeton University Press"
+
+partial_results:
+  - summary: "Douady and Hubbard proved external rays at rational angles land, establishing combinatorial structure of M."
+    year: 1984
+  - summary: "Yoccoz proved MLC at all finitely renormalizable parameters."
+    year: 1992
+  - summary: "Lyubich proved MLC at infinitely renormalizable parameters of bounded type."
+    year: 1999
+  - summary: "Kahn and Lyubich extended local connectivity results to a priori bounds for primitive renormalization."
+    year: 2009
+  - summary: "Cheraghi made progress on local connectivity near satellite renormalization parameters."
+    year: 2019
+
+relations:
+  related:
+    - opa.mathematics.complex-analysis.fatou-conjecture
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.90
+  underexplored: 0.30
+  toolability: 0.35
+  formality: 0.80
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - mathematica
+
+machine_generated:
+  summary: >
+    The MLC conjecture asserts that the Mandelbrot set is locally connected.
+    This would imply density of hyperbolicity for quadratic polynomials and give
+    a complete topological model of the Mandelbrot set.
+  decomposition:
+    - "A priori bounds for renormalization operators"
+    - "Combinatorial rigidity of quadratic polynomials"
+    - "Near-parabolic renormalization and satellite components"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

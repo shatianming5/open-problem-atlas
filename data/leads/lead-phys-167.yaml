@@ -1,0 +1,11 @@
+title: "Tensor Network Methods for 2D Systems"
+statement: "Can tensor network methods provide numerically exact results for strongly correlated two-dimensional quantum systems at finite temperature?"
+source_id: "src_orus_2014"
+source_url: "https://arxiv.org/abs/1306.2164"
+domain_hint: "mathematical-physics"
+subdomain_hint: "condensed-matter-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

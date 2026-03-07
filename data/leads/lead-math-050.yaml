@@ -1,0 +1,11 @@
+title: "Tutte's 5-Flow Conjecture"
+statement: "Every bridgeless graph admits a nowhere-zero 5-flow."
+source_id: "src_tutte_1954"
+source_url: "https://en.wikipedia.org/wiki/Tutte%27s_5-flow_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "combinatorics"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

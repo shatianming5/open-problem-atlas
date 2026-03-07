@@ -1,0 +1,118 @@
+id: opa.mathematics.algebraic-topology.telescope-conjecture
+kind: problem
+title: "Telescope Conjecture"
+aliases:
+  - "Ravenel's Telescope Conjecture"
+  - "Chromatic Splitting at Higher Heights"
+
+status:
+  label: partially_solved
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: mathematics
+subdomains:
+  - algebraic-topology
+  - category-theory
+
+problem_type: conjecture
+answer_type: boolean
+verification_mode: proof
+
+statement:
+  canonical: >
+    In stable homotopy theory, the telescope conjecture (Ravenel, 1984) asserts that the
+    v_n-periodic homotopy groups of a finite complex X, computed via the telescope (direct
+    limit of v_n self-maps), agree with the L_n-local homotopy groups (computed via Bousfield
+    localization at the Johnson-Wilson theory E(n)). Equivalently, the natural map from the
+    telescope to the L_n-localization is an equivalence.
+  informal: >
+    There are two ways to isolate periodic phenomena in stable homotopy theory: one concrete
+    (telescopes) and one abstract (Bousfield localization). The telescope conjecture predicted
+    they agree. This was recently disproved at height 2 and above.
+
+why_it_matters: >
+  The telescope conjecture was one of Ravenel's conjectures that organized chromatic homotopy
+  theory for 40 years. While five of Ravenel's seven conjectures were proved by Devinatz,
+  Hopkins, and Smith, the telescope conjecture was recently disproved by Burklund, Hahn,
+  Levy, and Schlank (2023) at heights >= 2. Understanding the precise failure and its
+  consequences for chromatic homotopy theory is a major open direction.
+
+prerequisites:
+  - stable homotopy theory
+  - chromatic homotopy theory
+  - category theory
+  - homological algebra
+
+dates:
+  first_stated: 1984
+
+sources:
+  canonical:
+    - source_id: src_ravenel_1984
+      kind: paper
+      title: "Localization with respect to certain periodic homology theories"
+      authors:
+        - "Douglas C. Ravenel"
+      year: 1984
+      url: "https://doi.org/10.2307/2374308"
+  status_evidence:
+    - source_id: src_bhls_2023
+      kind: paper
+      title: "On the telescope conjecture"
+      authors:
+        - "Robert Burklund"
+        - "Jeremy Hahn"
+        - "Ishan Levy"
+        - "Tomer Schlank"
+      url: "https://arxiv.org/abs/2310.17459"
+      year: 2023
+
+partial_results:
+  - summary: "The conjecture holds at height 1 (proved by Mahowald and Miller)."
+    year: 1981
+  - summary: "Burklund, Hahn, Levy, and Schlank disproved the conjecture at all heights >= 2."
+    year: 2023
+  - summary: "Understanding the precise nature and consequences of the failure is ongoing."
+    year: 2024
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related: []
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.80
+  underexplored: 0.45
+  toolability: 0.25
+  formality: 0.85
+  ai_fit: 0.15
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - lean
+
+machine_generated:
+  summary: >
+    Ravenel's telescope conjecture, disproved at heights >= 2 in 2023, leaves open the
+    characterization of the discrepancy between telescopes and Bousfield localizations.
+  decomposition:
+    - "Chromatic homotopy theory at higher heights"
+    - "Spectral algebraic geometry approaches"
+    - "Computational stable homotopy theory"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

@@ -1,0 +1,11 @@
+title: "Kazhdan-Lusztig Conjecture"
+statement: "The multiplicity of a simple module in a Verma module is given by values of Kazhdan-Lusztig polynomials at q=1."
+source_id: "src_kazhdanlusztig_1979"
+source_url: "https://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial"
+domain_hint: "mathematics"
+subdomain_hint: "representation-theory"
+confidence: 0.8
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

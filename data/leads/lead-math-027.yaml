@@ -1,0 +1,11 @@
+title: "Lehmer's Totient Problem"
+statement: "Is there a composite number n such that Euler's totient function phi(n) divides n-1?"
+source_id: "src_lehmer_1932"
+source_url: "https://en.wikipedia.org/wiki/Lehmer%27s_totient_problem"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

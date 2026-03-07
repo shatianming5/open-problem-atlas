@@ -1,0 +1,115 @@
+id: opa.tcs.algorithms.k-clique-detection
+kind: problem
+title: "Optimal k-Clique Detection Algorithm"
+aliases:
+  - "k-clique finding complexity"
+  - "Triangle detection generalization"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - algorithms
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    What is the optimal time complexity for detecting whether an n-vertex graph contains
+    a clique of size k? For k=3 (triangle detection), the best known algorithm runs
+    in O(n^omega) time where omega is the matrix multiplication exponent. For general
+    k, can we do significantly better than n^(omega*k/3) time? Is there an algorithm
+    running in n^(o(k)) time?
+  informal: >
+    How fast can we find a clique of size k in a graph? The naive approach takes
+    about n^k time. Can we do much better, especially for large k?
+
+why_it_matters: >
+  k-clique detection is a fundamental problem in graph algorithms. Its complexity is
+  tightly connected to matrix multiplication, fine-grained complexity, and database
+  query evaluation. Improvements would have broad algorithmic implications.
+
+prerequisites:
+  - graph algorithms
+  - matrix multiplication
+  - fine-grained complexity
+  - color-coding technique
+
+dates:
+  first_stated: 1985
+
+sources:
+  canonical:
+    - source_id: src_nesetril_poljak_1985
+      kind: paper
+      title: "On the Complexity of the Subgraph Problem"
+      authors:
+        - "Jaroslav Nešetřil"
+        - "Svatopluk Poljak"
+      url: "https://doi.org/10.1007/BF02579141"
+      year: 1985
+  status_evidence:
+    - source_id: src_abboud_williams_2014
+      kind: paper
+      title: "Popular Conjectures Imply Strong Lower Bounds for Dynamic Problems"
+      authors:
+        - "Amir Abboud"
+        - "Virginia Vassilevska Williams"
+      url: "https://doi.org/10.1109/FOCS.2014.53"
+      year: 2014
+
+partial_results:
+  - summary: "Nešetřil and Poljak (1985) showed k-clique can be detected in O(n^(omega*ceil(k/3))) time using matrix multiplication."
+    year: 1985
+  - summary: "Alon, Yuster, and Zwick (1995) developed color-coding giving randomized O(n^k) algorithms parameterized for small k."
+    year: 1995
+  - summary: "Under SETH, k-clique requires n^(Omega(k)) time, but unconditional lower bounds remain weak."
+    year: 2014
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.complexity-theory.eth-vs-seth"
+    - "opa.tcs.algorithms.matrix-multiplication-exponent"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.75
+  underexplored: 0.30
+  toolability: 0.40
+  formality: 0.85
+  ai_fit: 0.25
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+
+machine_generated:
+  summary: >
+    Determining the optimal time complexity for k-clique detection in graphs is a
+    central problem connecting graph algorithms, matrix multiplication, and
+    fine-grained complexity theory.
+  decomposition:
+    - "Improve k-clique algorithms beyond the matrix multiplication barrier"
+    - "Establish conditional or unconditional lower bounds for k-clique"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

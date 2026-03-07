@@ -1,0 +1,11 @@
+title: "Hartshorne's Conjecture on Complete Intersections"
+statement: "Every smooth closed subvariety of projective space of sufficiently small codimension is a complete intersection."
+source_id: "src_hartshorne_1974"
+source_url: "https://en.wikipedia.org/wiki/Hartshorne%27s_conjecture"
+domain_hint: "mathematics"
+subdomain_hint: "algebraic-geometry"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

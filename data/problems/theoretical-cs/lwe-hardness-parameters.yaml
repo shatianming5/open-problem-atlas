@@ -1,0 +1,115 @@
+id: opa.tcs.cryptography.lwe-hardness-parameters
+kind: problem
+title: "LWE Hardness Exact Parameters"
+aliases:
+  - "Learning with Errors optimal parameters"
+  - "LWE security estimation"
+
+status:
+  label: open
+  confidence: high
+  last_reviewed_at: "2026-03-01"
+  review_state: human_verified
+  reviewer: "OpenProblemAtlas"
+  stale_after: "2027-03-01"
+
+domain: theoretical-cs
+subdomains:
+  - cryptography
+
+problem_type: conjecture
+answer_type: bound
+verification_mode: proof
+
+statement:
+  canonical: >
+    The Learning with Errors (LWE) problem is to distinguish (A, As+e) from (A, u)
+    where A is random, s is a secret, e is a noise vector, and u is uniform. What are
+    the exact hardness parameters: for given dimension n and noise rate alpha, what is
+    the precise computational complexity of LWE? Do the best known algorithms (BKZ,
+    dual attacks) achieve optimal complexity?
+  informal: >
+    How hard is the LWE problem as a function of its parameters? The answer determines
+    the security levels of most lattice-based cryptographic schemes.
+
+why_it_matters: >
+  LWE is the foundation of most lattice-based cryptography, including NIST post-quantum
+  standards. Accurate hardness estimation is crucial for setting security parameters.
+  Overestimation wastes performance; underestimation compromises security.
+
+prerequisites:
+  - lattice-based cryptography
+  - learning with errors
+  - lattice reduction (BKZ)
+  - quantum algorithms for lattices
+
+dates:
+  first_stated: 2005
+
+sources:
+  canonical:
+    - source_id: src_regev_2005
+      kind: paper
+      title: "On Lattices, Learning with Errors, Random Linear Codes, and Cryptography"
+      authors:
+        - "Oded Regev"
+      url: "https://doi.org/10.1145/1060590.1060603"
+      year: 2005
+  status_evidence:
+    - source_id: src_albrecht_player_scott_2015
+      kind: paper
+      title: "On the Concrete Hardness of Learning with Errors"
+      authors:
+        - "Martin R. Albrecht"
+        - "Rachel Player"
+        - "Sam Scott"
+      url: "https://doi.org/10.1007/s00145-018-9280-y"
+      year: 2015
+
+partial_results:
+  - summary: "Regev (2005) proved worst-case to average-case reduction, showing LWE is as hard as standard lattice problems."
+    year: 2005
+  - summary: "The best known attacks run in roughly 2^(0.292n) time (using BKZ with sieving), but their exact complexity is debated."
+    year: 2015
+  - summary: "The 'gate count' vs 'classical operations' debate affects practical parameter choices."
+    year: 2023
+
+relations:
+  equivalent_to: []
+  generalizes: []
+  special_cases: []
+  related:
+    - "opa.tcs.cryptography.ideal-lattice-problems"
+    - "opa.tcs.cryptography.homomorphic-encryption-efficiency"
+
+formalization:
+  available: false
+  wanted: true
+  systems: []
+
+scores:
+  impact: 0.85
+  underexplored: 0.30
+  toolability: 0.45
+  formality: 0.80
+  ai_fit: 0.30
+
+ai:
+  solver_ready: false
+  recommended_tools:
+    - python
+    - sage
+
+machine_generated:
+  summary: >
+    Determining the exact computational hardness of LWE as a function of its parameters
+    is critical for setting secure parameters in lattice-based cryptographic standards.
+  decomposition:
+    - "Determine the exact asymptotic complexity of the best LWE attacks"
+    - "Resolve the practical gap between theoretical and implemented attack complexities"
+  disclaimer: unverified
+
+provenance:
+  created_from: manual_curation
+  parser_version: "0.3.1"
+  schema_version: "1.0.0"

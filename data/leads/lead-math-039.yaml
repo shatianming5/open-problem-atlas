@@ -1,0 +1,11 @@
+title: "Flint Hills Series Convergence"
+statement: "Does the series sum_{n=1}^{infty} 1/(n^3 sin(n)^2) converge? This depends on the irrationality measure of pi."
+source_id: "src_borwein_2008"
+source_url: "https://mathoverflow.net/questions/24579"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.45
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

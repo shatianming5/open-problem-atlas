@@ -1,0 +1,11 @@
+title: "Parallel Sorting Optimality"
+statement: "What is the optimal number of rounds for sorting n elements using n processors in the PRAM model with O(n log n) total work?"
+source_id: "src_cole_1988"
+source_url: "https://doi.org/10.1137/0217049"
+domain_hint: "theoretical-cs"
+subdomain_hint: "algorithms"
+confidence: 0.5
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

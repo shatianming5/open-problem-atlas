@@ -1,0 +1,11 @@
+title: "Black-Box Separations for Public-Key Cryptography"
+statement: "Can public-key encryption be built from one-way functions in a black-box way? Impagliazzo and Rudich showed barriers for key agreement."
+source_id: "src_impagliazzo_rudich_1989"
+source_url: "https://doi.org/10.1145/73007.73012"
+domain_hint: "theoretical-cs"
+subdomain_hint: "cryptography"
+confidence: 0.7
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

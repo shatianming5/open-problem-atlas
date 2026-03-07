@@ -1,0 +1,11 @@
+title: "Schwinger Pair Production at Strong Fields"
+statement: "Can the Schwinger mechanism for electron-positron pair creation from vacuum be directly observed, and what are the corrections beyond leading order?"
+source_id: "src_dunne_2009"
+source_url: "https://arxiv.org/abs/0812.3163"
+domain_hint: "mathematical-physics"
+subdomain_hint: "quantum-field-theory"
+confidence: 0.6
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

@@ -1,0 +1,11 @@
+title: "Dynamic Optimality Conjecture"
+statement: "Splay trees are dynamically optimal: for any sufficiently long access sequence, the cost of splay tree operations is within a constant factor of the cost of the best offline binary search tree algorithm for that sequence."
+source_id: "src_sleator_tarjan_1985"
+source_url: "https://en.wikipedia.org/wiki/Splay_tree#Dynamic_optimality_conjecture"
+domain_hint: "theoretical-cs"
+subdomain_hint: "data-structures"
+confidence: 0.6
+extraction_method: "manual_seed"
+discovered_by: "seed"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

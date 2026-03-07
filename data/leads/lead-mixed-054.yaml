@@ -1,0 +1,11 @@
+title: "Learning Parities with Noise"
+statement: "Is the Learning Parities with Noise problem solvable in time 2^{o(n)} or is the 2^{O(n/log n)} bound of Blum, Kalai, Wasserman essentially optimal?"
+source_id: "src_lyubashevsky_2020"
+source_url: "https://arxiv.org/abs/2007.12600"
+domain_hint: "theoretical-cs"
+subdomain_hint: "learning-theory"
+confidence: 0.58
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

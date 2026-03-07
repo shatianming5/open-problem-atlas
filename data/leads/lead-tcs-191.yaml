@@ -1,0 +1,11 @@
+title: "Network Coding Capacity"
+statement: "What is the capacity region of a general network coding problem? Characterizing capacity beyond single-source multicast remains open."
+source_id: "src_ahlswede_cai_li_yeung_2000"
+source_url: "https://doi.org/10.1109/18.850663"
+domain_hint: "theoretical-cs"
+subdomain_hint: "information-theory"
+confidence: 0.65
+extraction_method: "survey_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"

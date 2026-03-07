@@ -1,0 +1,11 @@
+title: "Rational Distance Problem"
+statement: "Does there exist a point in the plane at rational distance from all four vertices of the unit square?"
+source_id: "src_guy_2020"
+source_url: "https://mathoverflow.net/questions/150689"
+domain_hint: "mathematics"
+subdomain_hint: "number-theory"
+confidence: 0.45
+extraction_method: "arxiv_extraction"
+discovered_by: "radar_pipeline"
+discovered_at: "2026-03-07"
+status: "lead_unverified"
