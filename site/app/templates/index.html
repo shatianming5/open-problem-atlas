@@ -20,6 +20,7 @@
 
       <ul class="hero-proof">
         <li><strong>{{ stats.total_problems }}</strong><span>reviewed problems</span></li>
+        <li><strong>{{ stats.machine_verifiable | default(0) }}</strong><span>machine-verifiable</span></li>
         <li><strong>{{ stats.total_collections }}</strong><span>curated collections</span></li>
         <li><strong>{{ stats.total_attempts }}</strong><span>recorded attempts</span></li>
       </ul>
@@ -77,6 +78,24 @@
       <p>Track leads mined from the literature before they are promoted to verified problems.</p>
     </a>
   </div>
+
+  {% if stats.tiers %}
+  <h2 style="margin: 48px 0 16px; font-size: 24px;">By Verification Tier</h2>
+  <div class="stats-grid" style="grid-template-columns: repeat(3, 1fr);">
+    <div class="stat-card" style="border-left: 3px solid var(--green);">
+      <div class="number" style="color: var(--green);">{{ stats.tiers.tier_1 }}</div>
+      <div class="label">Tier 1 — Machine-Actionable</div>
+    </div>
+    <div class="stat-card" style="border-left: 3px solid var(--accent);">
+      <div class="number">{{ stats.tiers.tier_2 }}</div>
+      <div class="label">Tier 2 — Extended</div>
+    </div>
+    <div class="stat-card" style="border-left: 3px solid var(--text-muted);">
+      <div class="number" style="color: var(--text-muted);">{{ stats.tiers.tier_3 }}</div>
+      <div class="label">Tier 3 — Candidate</div>
+    </div>
+  </div>
+  {% endif %}
 
   <h2 style="margin: 48px 0 16px; font-size: 24px;">By Domain</h2>
   <div class="stats-grid">

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.singmasters-conjecture
+backend: python_checker
+task_type: counterexample_search
+checker:
+  file: verifiers/checkers/math/singmaster_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 1024
+success_criteria: "Search for entries in Pascal's triangle with unbounded multiplicity up to max_row"
+parameters:
+  max_row: 500

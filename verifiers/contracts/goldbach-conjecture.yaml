@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.goldbach-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/math/goldbach_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 600
+  memory_mb: 1024
+success_criteria: "Verify every even integer in [4, upper_bound] is the sum of two primes"
+parameters:
+  upper_bound: 1000000

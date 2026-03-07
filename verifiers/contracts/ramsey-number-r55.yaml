@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.ramsey-number-r55
+backend: python_checker
+task_type: bound_verification
+checker:
+  file: verifiers/checkers/math/ramsey_r55_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 600
+  memory_mb: 1024
+success_criteria: "Verify Paley graph construction provides R(5,5) lower bound via K5-free check"
+parameters:
+  paley_prime: 29

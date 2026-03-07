@@ -1,0 +1,45 @@
+name: Run Verifiers
+
+on:
+  push:
+    paths:
+      - 'verifiers/**'
+      - 'runner/**'
+      - 'schema/verifier-contract.schema.json'
+  pull_request:
+    paths:
+      - 'verifiers/**'
+      - 'runner/**'
+      - 'schema/verifier-contract.schema.json'
+  workflow_dispatch:
+
+jobs:
+  validate-contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema
+      - name: Validate contracts
+        run: python review/validators/validate_all.py
+
+  run-python-checkers:
+    runs-on: ubuntu-latest
+    needs: validate-contracts
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install dependencies
+        run: pip install pyyaml jsonschema
+      - name: List available contracts
+        run: python -m runner list
+      - name: Check backends
+        run: python -m runner check-backends
+      - name: Run all python_checker verifications
+        run: python -m runner batch --backend python_checker

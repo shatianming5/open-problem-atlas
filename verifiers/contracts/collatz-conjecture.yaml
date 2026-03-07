@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.collatz-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/math/collatz_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 600
+  memory_mb: 512
+success_criteria: "Verify that the Collatz sequence reaches 1 for all integers in [1, upper_bound]"
+parameters:
+  upper_bound: 1000000

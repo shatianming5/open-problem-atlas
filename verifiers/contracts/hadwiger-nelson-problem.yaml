@@ -1,0 +1,11 @@
+problem_id: opa.mathematics.combinatorics.hadwiger-nelson-problem
+backend: python_checker
+task_type: bound_verification
+checker:
+  file: verifiers/checkers/math/hadwiger_nelson_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 120
+  memory_mb: 512
+success_criteria: "Verify Moser spindle requires 4 colors, confirming chromatic number of the plane >= 4"
+parameters: {}

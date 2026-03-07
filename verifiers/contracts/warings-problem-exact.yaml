@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.warings-problem-exact
+backend: python_checker
+task_type: bound_verification
+checker:
+  file: verifiers/checkers/math/warings_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: "Verify g(k) formula for k=2..max_k and computationally check g(2)=4"
+parameters:
+  max_k: 10

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.extremal-combinatorics.frankl-conjecture-specific-bounds
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/math/frankl_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 600
+  memory_mb: 1024
+success_criteria: "Verify Frankl's conjecture for all union-closed families on small ground sets"
+parameters:
+  max_ground_set: 5

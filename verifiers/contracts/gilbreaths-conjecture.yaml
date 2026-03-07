@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.gilbreaths-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/math/gilbreath_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 1024
+success_criteria: "Verify that the first element of each difference row of primes is always 1"
+parameters:
+  num_primes: 5000

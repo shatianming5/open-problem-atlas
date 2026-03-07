@@ -12,6 +12,9 @@
       {% if problem.problem_type %}
       <span class="tag tag-type">{{ problem.problem_type | replace('_', ' ') }}</span>
       {% endif %}
+      {% if problem.tier %}
+      <span class="tag tag-tier tag-{{ problem.tier | replace('_', '-') }}">{{ problem.tier | replace('_', ' ') }}</span>
+      {% endif %}
     </div>
     <h1>{{ problem.title }}</h1>
     {% if problem.aliases %}
@@ -171,6 +174,57 @@
     {% if problem.formalization.systems %}
     <p>Systems: {{ problem.formalization.systems | join(', ') }}</p>
     {% endif %}
+  </div>
+  {% endif %}
+
+  {% if problem.verification_profile %}
+  <div class="detail-section">
+    <h2>Verification Profile</h2>
+    <div class="vp-grid">
+      <div class="vp-item">
+        <span class="vp-label">Statement Precision</span>
+        <span class="vp-value vp-{{ problem.verification_profile.statement_precision }}">{{ problem.verification_profile.statement_precision }}</span>
+      </div>
+      <div class="vp-item">
+        <span class="vp-label">Solution Checkability</span>
+        <span class="vp-value vp-{{ problem.verification_profile.solution_checkability }}">{{ problem.verification_profile.solution_checkability | replace('_', ' ') }}</span>
+      </div>
+      <div class="vp-item">
+        <span class="vp-label">Machine Actionability</span>
+        <span class="vp-value vp-{{ problem.verification_profile.machine_actionability }}">{{ problem.verification_profile.machine_actionability }}</span>
+      </div>
+    </div>
+    {% if problem.tier %}
+    <div style="margin-top: 12px;">
+      <span class="tag tag-tier tag-{{ problem.tier | replace('_', '-') }}" style="font-size: 14px; padding: 4px 14px;">
+        {{ problem.tier | replace('_', ' ') | upper }}
+      </span>
+      <span style="color: var(--text-muted); font-size: 13px; margin-left: 8px;">
+        {% if problem.tier == 'tier_1' %}Core machine-actionable
+        {% elif problem.tier == 'tier_2' %}Extended — precise but limited machine verification
+        {% else %}Candidate — needs further structuring{% endif %}
+      </span>
+    </div>
+    {% endif %}
+  </div>
+  {% endif %}
+
+  {% if problem._has_contract %}
+  <div class="detail-section">
+    <h2>Machine Verification</h2>
+    <div class="verifier-badge">
+      <span class="tag tag-verifiable">machine-verifiable</span>
+      <span style="margin-left: 8px; font-size: 14px;">
+        Backend: <code>{{ problem._contract.backend }}</code> |
+        Task: <code>{{ problem._contract.task_type | replace('_', ' ') }}</code>
+      </span>
+    </div>
+    <p style="margin-top: 8px; font-size: 14px; color: var(--text-muted);">
+      {{ problem._contract.success_criteria }}
+    </p>
+    <p style="margin-top: 6px; font-size: 13px; color: var(--text-muted);">
+      Run: <code>python -m runner verify {{ problem.id }}</code>
+    </p>
   </div>
   {% endif %}
 

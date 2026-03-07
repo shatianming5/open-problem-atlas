@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.hadamard-conjecture
+backend: python_checker
+task_type: witness_search
+checker:
+  file: verifiers/checkers/math/hadamard_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: "Construct Hadamard matrices for orders divisible by 4 up to max_order"
+parameters:
+  max_order: 100

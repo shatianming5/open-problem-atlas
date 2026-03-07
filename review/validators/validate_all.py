@@ -97,6 +97,22 @@ def validate_problems() -> list[str]:
                 if url and not URL_PATTERN.match(url):
                     errors.append(f"{rel}: invalid URL format in {src_list_key}: '{url}'")
 
+        # Verification profile consistency
+        vp = data.get("verification_profile")
+        tier = data.get("tier")
+        if vp:
+            sp = vp.get("statement_precision")
+            sc = vp.get("solution_checkability")
+            ma = vp.get("machine_actionability")
+            # tier_1 requires high precision + checkable + actionable
+            if tier == "tier_1":
+                if sp != "high":
+                    errors.append(f"{rel}: tier_1 but statement_precision is '{sp}' (expected 'high')")
+                if sc not in ("proof_assistant", "computational"):
+                    errors.append(f"{rel}: tier_1 but solution_checkability is '{sc}' (expected proof_assistant or computational)")
+                if ma not in ("high", "medium"):
+                    errors.append(f"{rel}: tier_1 but machine_actionability is '{ma}' (expected high or medium)")
+
     return errors
 
 
@@ -152,6 +168,75 @@ def validate_collections() -> list[str]:
         for err in validator.iter_errors(data):
             path_str = ".".join(str(p) for p in err.absolute_path)
             errors.append(f"{rel}: {path_str}: {err.message}")
+
+    return errors
+
+
+def validate_contracts() -> list[str]:
+    """Validate all verifier contracts and cross-reference with problems."""
+    errors = []
+
+    contracts_dir = ROOT / "verifiers" / "contracts"
+    if not contracts_dir.exists():
+        return []
+
+    schema_path = SCHEMA_DIR / "verifier-contract.schema.json"
+    if not schema_path.exists():
+        return ["verifier-contract.schema.json not found"]
+
+    with open(schema_path) as f:
+        schema = json.load(f)
+    validator = Draft202012Validator(schema)
+
+    # Load all problem IDs
+    problem_ids = set()
+    problems_dir = DATA_DIR / "problems"
+    if problems_dir.exists():
+        for yaml_file in problems_dir.rglob("*.yaml"):
+            try:
+                data = load_yaml(yaml_file)
+                if data and data.get("id"):
+                    problem_ids.add(data["id"])
+            except Exception:
+                pass
+
+    seen_problem_ids = set()
+
+    for yaml_file in sorted(contracts_dir.glob("*.yaml")):
+        rel = yaml_file.relative_to(ROOT)
+        try:
+            data = load_yaml(yaml_file)
+        except Exception as e:
+            errors.append(f"{rel}: YAML parse error: {e}")
+            continue
+
+        if data is None:
+            errors.append(f"{rel}: empty file")
+            continue
+
+        # Schema validation
+        for err in validator.iter_errors(data):
+            path_str = ".".join(str(p) for p in err.absolute_path)
+            errors.append(f"{rel}: {path_str}: {err.message}")
+
+        # Cross-reference: problem_id must exist
+        pid = data.get("problem_id")
+        if pid and pid not in problem_ids:
+            errors.append(f"{rel}: contract references unknown problem_id '{pid}'")
+
+        # Uniqueness: one contract per problem
+        if pid:
+            if pid in seen_problem_ids:
+                errors.append(f"{rel}: duplicate contract for problem_id '{pid}'")
+            seen_problem_ids.add(pid)
+
+        # Checker file must exist
+        checker = data.get("checker", {})
+        checker_file = checker.get("file")
+        if checker_file:
+            full_path = ROOT / checker_file
+            if not full_path.exists():
+                errors.append(f"{rel}: checker file not found: {checker_file}")
 
     return errors
 
@@ -229,33 +314,57 @@ def main():
 
     all_errors = []
 
-    print("\n[1/4] Validating problems...")
+    print("\n[1/5] Validating problems...")
     errs = validate_problems()
     all_errors.extend(errs)
     print(f"  {'PASS' if not errs else f'FAIL ({len(errs)} errors)'}")
     for e in errs:
         print(f"  - {e}")
 
-    print("\n[2/4] Validating attempts...")
+    print("\n[2/5] Validating attempts...")
     errs = validate_attempts()
     all_errors.extend(errs)
     print(f"  {'PASS' if not errs else f'FAIL ({len(errs)} errors)'}")
     for e in errs:
         print(f"  - {e}")
 
-    print("\n[3/4] Validating collections...")
+    print("\n[3/5] Validating collections...")
     errs = validate_collections()
     all_errors.extend(errs)
     print(f"  {'PASS' if not errs else f'FAIL ({len(errs)} errors)'}")
     for e in errs:
         print(f"  - {e}")
 
-    print("\n[4/4] Validating cross-references...")
+    print("\n[4/5] Validating verifier contracts...")
+    errs = validate_contracts()
+    all_errors.extend(errs)
+    print(f"  {'PASS' if not errs else f'FAIL ({len(errs)} errors)'}")
+    for e in errs:
+        print(f"  - {e}")
+
+    print("\n[5/5] Validating cross-references...")
     errs = validate_cross_references()
     all_errors.extend(errs)
     print(f"  {'PASS' if not errs else f'FAIL ({len(errs)} errors)'}")
     for e in errs:
         print(f"  - {e}")
+
+    # Tier distribution summary
+    from collections import Counter
+    tier_counts = Counter()
+    problems_dir = DATA_DIR / "problems"
+    if problems_dir.exists():
+        for yaml_file in problems_dir.rglob("*.yaml"):
+            try:
+                d = load_yaml(yaml_file)
+                if d and d.get("tier"):
+                    tier_counts[d["tier"]] += 1
+            except Exception:
+                pass
+    if tier_counts:
+        print("\n[info] Tier distribution:")
+        for t in ["tier_1", "tier_2", "tier_3"]:
+            print(f"  {t}: {tier_counts.get(t, 0)}")
 
     print("\n" + "=" * 60)
     if all_errors:

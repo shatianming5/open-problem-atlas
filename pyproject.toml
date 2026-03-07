@@ -32,6 +32,13 @@ site = [
 snapshot = [
     "pyarrow>=14.0",
 ]
+runner = [
+    "pyyaml>=6.0",
+    "jsonschema>=4.20",
+]
+runner-smt = [
+    "z3-solver>=4.12",
+]
 
 [tool.ruff]
 line-length = 100

@@ -1,0 +1,79 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://openproblem-atlas.org/schema/verifier-contract.schema.json",
+  "title": "OpenProblemAtlas Verifier Contract",
+  "description": "Schema for a machine-verifiable contract associated with an open problem",
+  "type": "object",
+  "required": [
+    "problem_id",
+    "backend",
+    "task_type",
+    "checker",
+    "success_criteria"
+  ],
+  "properties": {
+    "problem_id": {
+      "type": "string",
+      "pattern": "^opa\\.",
+      "description": "References a verified problem ID"
+    },
+    "backend": {
+      "type": "string",
+      "enum": ["python_checker", "sat_smt", "lean4"],
+      "description": "Which runner backend to use"
+    },
+    "task_type": {
+      "type": "string",
+      "enum": [
+        "counterexample_search",
+        "witness_search",
+        "bound_verification",
+        "conjecture_check_range",
+        "proof_check"
+      ],
+      "description": "The type of verification task"
+    },
+    "checker": {
+      "type": "object",
+      "required": ["file", "function"],
+      "properties": {
+        "file": {
+          "type": "string",
+          "description": "Path to checker script relative to project root"
+        },
+        "function": {
+          "type": "string",
+          "description": "Entry function name in checker script"
+        }
+      },
+      "additionalProperties": false
+    },
+    "resource_limits": {
+      "type": "object",
+      "properties": {
+        "timeout_seconds": {
+          "type": "integer",
+          "minimum": 1,
+          "default": 300
+        },
+        "memory_mb": {
+          "type": "integer",
+          "minimum": 64,
+          "default": 1024
+        }
+      },
+      "additionalProperties": false
+    },
+    "success_criteria": {
+      "type": "string",
+      "minLength": 10,
+      "description": "Human-readable description of what constitutes success"
+    },
+    "parameters": {
+      "type": "object",
+      "description": "Parameters passed to the checker function",
+      "additionalProperties": true
+    }
+  },
+  "additionalProperties": false
+}

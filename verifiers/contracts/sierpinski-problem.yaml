@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.sierpinski-problem
+backend: python_checker
+task_type: witness_search
+checker:
+  file: verifiers/checkers/math/sierpinski_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 600
+  memory_mb: 512
+success_criteria: "Search for primes k*2^n+1 for remaining Sierpinski candidates below 78557"
+parameters:
+  max_n: 500

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.selfridges-conjecture
+backend: python_checker
+task_type: counterexample_search
+checker:
+  file: verifiers/checkers/math/selfridge_psw_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 600
+  memory_mb: 512
+success_criteria: "Search for a PSW pseudoprime (strong base-2 + Lucas) among composites up to upper_bound"
+parameters:
+  upper_bound: 1000000

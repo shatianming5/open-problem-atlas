@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.scholz-conjecture
+backend: python_checker
+task_type: bound_verification
+checker:
+  file: verifiers/checkers/math/scholz_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: "Verify l(2^n - 1) <= n - 1 + l(n) for all n in [1, max_n]"
+parameters:
+  max_n: 64
