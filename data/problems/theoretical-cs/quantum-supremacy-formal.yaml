@@ -17,7 +17,7 @@ domain: theoretical-cs
 subdomains:
   - quantum-computing
 
-problem_type: conjecture
+problem_type: open_question
 answer_type: boolean
 verification_mode: proof
 

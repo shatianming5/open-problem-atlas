@@ -25,9 +25,9 @@ statement:
   canonical: >
     Let f be a conformal (univalent) map from a simply connected domain Omega (not equal to C)
     onto the unit disk. Then the integral of |f'|^p over Omega is finite for all
-    -1/3 < p - 2 < 1, i.e., for 4/3 < p < 3. Equivalently, for the inverse map g = f^{-1}
-    from the disk to Omega, the integral of |g'|^t over the disk is finite for all t < 3 + epsilon.
-    The critical exponent p = 3 (equivalently t = 3) is the conjectured boundary.
+    4/3 < p < 4. Equivalently, for the inverse map g = f^{-1}
+    from the disk to Omega, the integral of |g'|^t over the disk is finite for all t < 4.
+    The critical exponent p = 4 (equivalently t = 4) is the conjectured boundary.
   informal: >
     Derivatives of conformal maps should be integrable to certain powers. Brennan's conjecture
     pinpoints the exact range of powers for which this integrability holds.
@@ -101,7 +101,7 @@ ai:
 machine_generated:
   summary: >
     Brennan's conjecture predicts the exact range of L^p integrability for derivatives of
-    conformal maps. Best results give p < 3.421; the conjecture asserts p < 3.
+    conformal maps. Best results give p < 3.421; the conjecture asserts p < 4.
   decomposition:
     - "Weighted Bergman space methods"
     - "Universal integral means spectrum"

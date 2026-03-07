@@ -5,7 +5,7 @@ aliases:
   - "Borsuk Partition Problem"
 
 status:
-  label: partially_solved
+  label: disproved
   confidence: high
   last_reviewed_at: "2026-03-01"
   review_state: human_verified

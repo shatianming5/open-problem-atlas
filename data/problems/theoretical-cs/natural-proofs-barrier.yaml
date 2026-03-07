@@ -1,117 +1,105 @@
 id: opa.tcs.complexity-theory.natural-proofs-barrier
 kind: problem
-title: "Natural Proofs Barrier Circumvention"
+title: Natural Proofs Barrier Circumvention
 aliases:
-  - "Overcoming the natural proofs barrier"
-  - "Razborov-Rudich barrier"
-
+- Overcoming the natural proofs barrier
+- Razborov-Rudich barrier
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - complexity-theory
-
+- complexity-theory
 problem_type: conjecture
 answer_type: existential
 verification_mode: proof
-
 statement:
-  canonical: >
-    Razborov and Rudich (1997) showed that any proof of circuit lower bounds that is
-    both "constructive" (can recognize hard functions efficiently) and "large" (applies
-    to a large fraction of functions) cannot prove P != NP if one-way functions exist.
-    Can we develop proof techniques that circumvent the natural proofs barrier to prove
-    strong circuit lower bounds?
-  informal: >
-    Most known techniques for proving circuit lower bounds have a special structure
-    (they are "natural proofs") that provably cannot work to separate P from NP if
-    cryptographic assumptions hold. Can we find fundamentally different proof strategies?
+  canonical: 'Razborov and Rudich (1997) showed that any proof of circuit lower bounds that is both "constructive" (can recognize
+    hard functions efficiently) and "large" (applies to a large fraction of functions) cannot prove P != NP if one-way functions
+    exist. Can we develop proof techniques that circumvent the natural proofs barrier to prove strong circuit lower bounds?
 
-why_it_matters: >
-  The natural proofs barrier, together with relativization and algebrization, represents
-  a fundamental obstacle to resolving P vs NP. Understanding how to circumvent this
-  barrier is essential for making progress on the most important questions in complexity theory.
+    '
+  informal: 'Most known techniques for proving circuit lower bounds have a special structure (they are "natural proofs") that
+    provably cannot work to separate P from NP if cryptographic assumptions hold. Can we find fundamentally different proof
+    strategies?
 
+    '
+why_it_matters: 'The natural proofs barrier, together with relativization and algebrization, represents a fundamental obstacle
+  to resolving P vs NP. Understanding how to circumvent this barrier is essential for making progress on the most important
+  questions in complexity theory.
+
+  '
 prerequisites:
-  - circuit complexity
-  - one-way functions
-  - pseudorandom functions
-  - proof barriers
-
+- circuit complexity
+- one-way functions
+- pseudorandom functions
+- proof barriers
 dates:
   first_stated: 1997
-
 sources:
   canonical:
-    - source_id: src_razborov_rudich_1997
-      kind: paper
-      title: "Natural Proofs"
-      authors:
-        - "Alexander Razborov"
-        - "Steven Rudich"
-      url: "https://doi.org/10.1016/S0022-0000(97)91494-1"
-      year: 1997
+  - source_id: src_razborov_rudich_1997
+    kind: paper
+    title: Natural Proofs
+    authors:
+    - Alexander Razborov
+    - Steven Rudich
+    url: https://doi.org/10.1016/S0022-0000(97)91494-1
+    year: 1997
   status_evidence:
-    - source_id: src_williams_2013_natural
-      kind: paper
-      title: "Natural Proofs versus Derandomization"
-      authors:
-        - "Ryan Williams"
-      url: "https://doi.org/10.1145/2488608.2488678"
-      year: 2013
-
-partial_results:
-  - summary: "Williams (2013) showed that certain algorithmic approaches to circuit lower bounds can avoid the natural proofs barrier."
+  - source_id: src_williams_2013_natural
+    kind: paper
+    title: Natural Proofs versus Derandomization
+    authors:
+    - Ryan Williams
+    url: https://doi.org/10.1145/2488608.2488678
     year: 2013
-  - summary: "Williams' NEXP not in ACC^0 proof (2011) circumvents the natural proofs barrier by using a non-natural proof technique based on satisfiability algorithms."
-    year: 2011
-  - summary: "Carmosino, Impagliazzo, Kabanets, and Kolokolova showed connections between learning algorithms and natural proofs."
-    year: 2016
-
+partial_results:
+- summary: Williams (2013) showed that certain algorithmic approaches to circuit lower bounds can avoid the natural proofs
+    barrier.
+  year: 2013
+- summary: Williams' NEXP not in ACC^0 proof (2011) circumvents the natural proofs barrier by using a non-natural proof technique
+    based on satisfiability algorithms.
+  year: 2011
+- summary: Carmosino, Impagliazzo, Kabanets, and Kolokolova showed connections between learning algorithms and natural proofs.
+  year: 2016
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.complexity-theory.p-vs-np"
-    - "opa.tcs.complexity-theory.acc0-lower-bounds"
-    - "opa.tcs.complexity-theory.hardness-vs-randomness"
-    - "opa.tcs.cryptography.existence-of-one-way-functions"
-
+  - opa.tcs.complexity-theory.p-vs-np
+  - opa.tcs.complexity-theory.acc0-lower-bounds
+  - opa.tcs.complexity-theory.hardness-vs-randomness
+  - opa.tcs.cryptography.existence-of-one-way-functions
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
-  impact: 0.90
-  underexplored: 0.30
+  impact: 0.9
+  underexplored: 0.3
   toolability: 0.15
-  formality: 0.90
-  ai_fit: 0.10
-
+  formality: 0.7
+  ai_fit: 0.1
 ai:
   solver_ready: false
   recommended_tools:
-    - lean
-
+  - lean
 machine_generated:
-  summary: >
-    The natural proofs barrier circumvention problem asks for new proof techniques
-    that can establish strong circuit lower bounds without being "natural" in the
-    Razborov-Rudich sense.
-  decomposition:
-    - "Develop non-natural proof techniques for circuit lower bounds"
-    - "Explore algorithmic approaches that bypass the natural proofs barrier"
-  disclaimer: unverified
+  summary: 'The natural proofs barrier circumvention problem asks for new proof techniques that can establish strong circuit
+    lower bounds without being "natural" in the Razborov-Rudich sense.
 
+    '
+  decomposition:
+  - Develop non-natural proof techniques for circuit lower bounds
+  - Explore algorithmic approaches that bypass the natural proofs barrier
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,114 +1,98 @@
 id: opa.phys.mathematical-physics.geometric-langlands-physics
 kind: problem
-title: "Geometric Langlands Conjecture (Physics Approach)"
+title: Geometric Langlands Conjecture (Physics Approach)
 aliases:
-  - "Geometric Langlands and Gauge Theory"
-  - "Kapustin-Witten Approach to Geometric Langlands"
-
+- Geometric Langlands and Gauge Theory
+- Kapustin-Witten Approach to Geometric Langlands
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: mathematical-physics
 subdomains:
-  - mathematical-physics
-
+- mathematical-physics
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
 statement:
-  canonical: >
-    Rigorously establish the Kapustin-Witten approach to the geometric Langlands
-    correspondence via topologically twisted N=4 super Yang-Mills theory. Specifically,
-    prove that the S-duality of N=4 SYM, when twisted and compactified on a Riemann
-    surface Sigma, produces the geometric Langlands correspondence as a mirror symmetry
-    between the Hitchin moduli spaces M_H(G, Sigma) and M_H(G^L, Sigma) for a group G
-    and its Langlands dual G^L. Make the physics derivation mathematically rigorous,
-    establishing the equivalence of derived categories of coherent sheaves and D-modules
-    on these moduli spaces.
-  informal: >
-    Kapustin and Witten showed that the geometric Langlands correspondence, one of the
-    deepest conjectures in mathematics, can be understood as an electromagnetic duality
-    in physics. Making this physical argument into a proof is a grand challenge.
+  canonical: 'Rigorously establish the Kapustin-Witten approach to the geometric Langlands correspondence via topologically
+    twisted N=4 super Yang-Mills theory. Specifically, prove that the S-duality of N=4 SYM, when twisted and compactified
+    on a Riemann surface Sigma, produces the geometric Langlands correspondence as a mirror symmetry between the Hitchin moduli
+    spaces M_H(G, Sigma) and M_H(G^L, Sigma) for a group G and its Langlands dual G^L. Make the physics derivation mathematically
+    rigorous, establishing the equivalence of derived categories of coherent sheaves and D-modules on these moduli spaces.
 
-why_it_matters: >
-  The geometric Langlands program is one of the most important research directions in
-  modern mathematics. The physics approach provides deep structural insights and
-  suggests far-reaching generalizations. Making it rigorous would revolutionize our
-  understanding of the Langlands program.
+    '
+  informal: 'Kapustin and Witten showed that the geometric Langlands correspondence, one of the deepest conjectures in mathematics,
+    can be understood as an electromagnetic duality in physics. Making this physical argument into a proof is a grand challenge.
 
+    '
+why_it_matters: 'The geometric Langlands program is one of the most important research directions in modern mathematics. The
+  physics approach provides deep structural insights and suggests far-reaching generalizations. Making it rigorous would revolutionize
+  our understanding of the Langlands program.
+
+  '
 prerequisites:
-  - quantum field theory
-  - algebraic geometry
-  - representation theory
-  - differential geometry
-  - category theory
-
+- quantum field theory
+- algebraic geometry
+- representation theory
+- differential geometry
+- category theory
 dates:
   first_stated: 2006
-
 sources:
   canonical:
-    - source_id: src_kapustin_witten_2007
-      kind: paper
-      title: "Electric-Magnetic Duality And The Geometric Langlands Program"
-      url: "https://doi.org/10.4310/CNTP.2007.v1.n1.a1"
-      year: 2007
-      locator: "Communications in Number Theory and Physics 1, 1-236"
-  status_evidence:
-    - source_id: src_frenkel_2007
-      kind: survey
-      title: "Lectures on the Langlands program and conformal field theory"
-      url: "https://doi.org/10.1007/978-3-540-30308-4_11"
-      year: 2007
-
-partial_results:
-  - summary: "Kapustin and Witten showed how S-duality of N=4 SYM produces geometric Langlands for GL(n)."
+  - source_id: src_kapustin_witten_2007
+    kind: paper
+    title: Electric-Magnetic Duality And The Geometric Langlands Program
+    url: https://doi.org/10.4310/CNTP.2007.v1.n1.a1
     year: 2007
-  - summary: "Ben-Zvi, Sakellaridis, and Venkatesh developed mathematical frameworks connecting periods and L-functions to physics."
-    year: 2021
-  - summary: "Gaiotto and Witten extended the approach to boundary conditions and S-duality for surface operators."
-    year: 2009
-
+    locator: Communications in Number Theory and Physics 1, 1-236
+  status_evidence:
+  - source_id: src_frenkel_2007
+    kind: survey
+    title: Lectures on the Langlands program and conformal field theory
+    url: https://doi.org/10.1007/978-3-540-30308-4_11
+    year: 2007
+partial_results:
+- summary: Kapustin and Witten showed how S-duality of N=4 SYM produces geometric Langlands for GL(n).
+  year: 2007
+- summary: Ben-Zvi, Sakellaridis, and Venkatesh developed mathematical frameworks connecting periods and L-functions to physics.
+  year: 2021
+- summary: Gaiotto and Witten extended the approach to boundary conditions and S-duality for surface operators.
+  year: 2009
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.phys.mathematical-physics.agt-correspondence-proof"
-    - "opa.phys.mathematical-physics.mirror-symmetry-mathematical-proof"
-
+  - opa.phys.mathematical-physics.agt-correspondence-proof
+  - opa.phys.mathematical-physics.mirror-symmetry-mathematical-proof
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.92
-  underexplored: 0.45
-  toolability: 0.20
+  underexplored: 0.2
+  toolability: 0.2
   formality: 0.55
   ai_fit: 0.15
-
 ai:
   solver_ready: false
   recommended_tools:
-    - mathematica
-
+  - mathematica
 machine_generated:
-  summary: >
-    Rigorously establishing the Kapustin-Witten physics approach to the geometric Langlands correspondence.
-  decomposition:
-    - "Make the S-duality argument for geometric Langlands mathematically rigorous"
-    - "Prove the equivalence of derived categories via Hitchin moduli space mirror symmetry"
-  disclaimer: unverified
+  summary: 'Rigorously establishing the Kapustin-Witten physics approach to the geometric Langlands correspondence.
 
+    '
+  decomposition:
+  - Make the S-duality argument for geometric Langlands mathematically rigorous
+  - Prove the equivalence of derived categories via Hitchin moduli space mirror symmetry
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

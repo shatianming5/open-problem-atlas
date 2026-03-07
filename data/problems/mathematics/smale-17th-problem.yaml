@@ -5,12 +5,18 @@ aliases:
   - "Solving Polynomial Equations in Polynomial Time"
 
 status:
-  label: open
+  label: solved
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: "2026-03-08"
   review_state: human_verified
   reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
+  stale_after: "2027-03-08"
+  history:
+    - from: open
+      to: solved
+      date: "2026-03-08"
+      evidence: "Beltrán and Pardo (2009) gave an affirmative answer with a randomized polynomial-time algorithm."
+      reviewer: "OpenProblemAtlas"
 
 domain: mathematics
 subdomains:

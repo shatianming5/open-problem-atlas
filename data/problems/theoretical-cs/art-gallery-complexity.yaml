@@ -6,12 +6,18 @@ aliases:
   - "Minimum guards for polygon coverage"
 
 status:
-  label: open
+  label: solved
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: "2026-03-08"
   review_state: human_verified
   reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
+  stale_after: "2027-03-08"
+  history:
+    - from: open
+      to: solved
+      date: "2026-03-08"
+      evidence: "Abrahamsen, Adamaszek, and Miltzow (2018) proved the problem is ∃R-complete."
+      reviewer: "OpenProblemAtlas"
 
 domain: theoretical-cs
 subdomains:

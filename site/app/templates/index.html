@@ -1,35 +1,81 @@
 {% extends "base.html" %}
+{% set page = 'home' %}
 {% block title %}OpenProblemAtlas — A Living Atlas of Open Problems{% endblock %}
 
 {% block content %}
 <div class="container">
-  <div class="hero">
-    <h1>OpenProblemAtlas</h1>
-    <p class="subtitle">
-      A living, machine-readable atlas of open problems for researchers, AI agents, and theorem provers.
-    </p>
-    <p class="subtitle" style="font-size: 16px;">
-      Discover verified open problems, mine fresh leads from the literature, and track reproducible AI/human attempts &mdash; all in one open dataset.
-    </p>
-  </div>
+  <section class="home-hero">
+    <div class="hero-copy">
+      <p class="eyebrow">Open data for unsolved mathematics</p>
+      <h1>Browse open problems the way researchers browse literature.</h1>
+      <p class="hero-lede">
+        OpenProblemAtlas turns conjectures, relations, sources, formalization status,
+        and AI or human attempts into a navigable research surface.
+      </p>
 
-  <div class="stats-grid">
-    <div class="stat-card">
-      <div class="number">{{ stats.total_problems }}</div>
-      <div class="label">Verified Problems</div>
+      <div class="hero-actions">
+        <a href="/problems.html" class="button button--primary">Explore problems</a>
+        <a href="/collections.html" class="button button--ghost">View collections</a>
+      </div>
+
+      <ul class="hero-proof">
+        <li><strong>{{ stats.total_problems }}</strong><span>reviewed problems</span></li>
+        <li><strong>{{ stats.total_collections }}</strong><span>curated collections</span></li>
+        <li><strong>{{ stats.total_attempts }}</strong><span>recorded attempts</span></li>
+      </ul>
     </div>
-    <div class="stat-card">
-      <div class="number">{{ stats.open_problems }}</div>
-      <div class="label">Open</div>
+
+    <aside class="hero-panel">
+      {% set featured = recently_added[0] if recently_added else problems[0] %}
+      <p class="hero-panel__label">Featured problem</p>
+      <a class="feature-spotlight" href="/problem/{{ featured.id | replace('.', '-') }}.html">
+        <h2>{{ featured.title }}</h2>
+        <p>{{ featured.statement.informal[:220] if featured.statement.informal }}{% if featured.statement.informal and featured.statement.informal | length > 220 %}...{% endif %}</p>
+        <div class="meta">
+          <span class="tag {% if featured.status.label == 'open' %}tag-open{% elif featured.status.label == 'solved' %}tag-solved{% endif %}">
+            {{ featured.status.label }}
+          </span>
+          <span class="tag tag-domain">{{ featured.domain | replace('-', ' ') }}</span>
+        </div>
+      </a>
+    </aside>
+  </section>
+
+  <section class="trust-strip">
+    <div class="trust-item">
+      <span class="trust-label">Structured data</span>
+      <strong>Problems, sources, relations, attempts</strong>
     </div>
-    <div class="stat-card">
-      <div class="number">{{ stats.solved_problems }}</div>
-      <div class="label">Solved</div>
+    <div class="trust-item">
+      <span class="trust-label">Open source</span>
+      <strong>Community-editable on GitHub</strong>
     </div>
-    <div class="stat-card">
-      <div class="number">{{ stats.total_collections }}</div>
-      <div class="label">Collections</div>
+    <div class="trust-item">
+      <span class="trust-label">Research ready</span>
+      <strong>Designed for humans and agents</strong>
     </div>
+  </section>
+
+  <section class="section-heading">
+    <div>
+      <p class="eyebrow">Start here</p>
+      <h2>High-signal entry points</h2>
+    </div>
+  </section>
+
+  <div class="feature-grid">
+    <a class="feature-card" href="/problems.html">
+      <h3>Problem explorer</h3>
+      <p>Search by title, statement, domain, status, and solver-readiness.</p>
+    </a>
+    <a class="feature-card" href="/collections.html">
+      <h3>Curated collections</h3>
+      <p>Browse famous clusters like formalization targets or classic graph theory problems.</p>
+    </a>
+    <a class="feature-card" href="/radar.html">
+      <h3>Radar</h3>
+      <p>Track leads mined from the literature before they are promoted to verified problems.</p>
+    </a>
   </div>
 
   <h2 style="margin: 48px 0 16px; font-size: 24px;">By Domain</h2>
@@ -80,39 +126,11 @@
   </div>
   {% endif %}
 
-  {% if recently_solved %}
-  <h2 style="margin: 48px 0 16px; font-size: 24px;">Recently Solved</h2>
-  <div class="problem-list">
-    {% for p in recently_solved[:5] %}
-    <a href="/problem/{{ p.id | replace('.', '-') }}.html" style="text-decoration: none; color: inherit;">
-      <div class="problem-card">
-        <div class="title">{{ p.title }}</div>
-        <div class="meta">
-          <span class="tag tag-solved">solved</span>
-          <span class="tag tag-domain">{{ p.domain | replace('-', ' ') }}</span>
-          {% if p.status.last_reviewed_at %}
-          <span>{{ p.status.last_reviewed_at }}</span>
-          {% endif %}
-        </div>
-      </div>
-    </a>
-    {% endfor %}
-  </div>
-  {% endif %}
-
   <div style="text-align: center; margin: 48px 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 12px;">
-    <a href="/problems.html" style="padding: 12px 32px; background: var(--accent); color: #fff; border-radius: var(--radius); font-weight: 600; display: inline-block;">
-      Explore the Atlas
-    </a>
-    <a href="/radar.html" style="padding: 12px 32px; border: 1px solid var(--border); border-radius: var(--radius); font-weight: 600; display: inline-block;">
-      Browse Radar
-    </a>
-    <a href="https://github.com/OpenProblemAtlas/open-problem-atlas/issues/new?template=add-problem.yml" style="padding: 12px 32px; border: 1px solid var(--border); border-radius: var(--radius); font-weight: 600; display: inline-block;">
-      Contribute a Problem
-    </a>
-    <a href="/api/problems.json" style="padding: 12px 32px; border: 1px solid var(--border); border-radius: var(--radius); font-weight: 600; display: inline-block;">
-      Download Data
-    </a>
+    <a href="/problems.html" class="button button--primary">Explore the Atlas</a>
+    <a href="/radar.html" class="button button--ghost">Browse Radar</a>
+    <a href="https://github.com/OpenProblemAtlas/open-problem-atlas/issues/new?template=add-problem.yml" class="button button--ghost">Contribute a Problem</a>
+    <a href="/api/problems.json" class="button button--ghost">Download Data</a>
   </div>
 </div>
 {% endblock %}

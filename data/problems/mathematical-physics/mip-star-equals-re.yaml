@@ -18,7 +18,7 @@ domain: mathematical-physics
 subdomains:
   - quantum-information
 
-problem_type: conjecture
+problem_type: open_question
 answer_type: boolean
 verification_mode: proof
 

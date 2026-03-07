@@ -1,116 +1,103 @@
 id: opa.tcs.complexity-theory.hardness-vs-randomness
 kind: problem
-title: "Hardness vs Randomness Connections"
+title: Hardness vs Randomness Connections
 aliases:
-  - "Hardness-randomness tradeoffs"
-  - "Optimal derandomization from hardness"
-
+- Hardness-randomness tradeoffs
+- Optimal derandomization from hardness
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - complexity-theory
-
+- complexity-theory
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
 statement:
-  canonical: >
-    The hardness vs randomness paradigm establishes that circuit lower bounds imply
-    derandomization. Is the converse true? Specifically, does P = BPP imply circuit
-    lower bounds against E (or a related class)? More generally, are hardness
+  canonical: 'The hardness vs randomness paradigm establishes that circuit lower bounds imply derandomization. Is the converse
+    true? Specifically, does P = BPP imply circuit lower bounds against E (or a related class)? More generally, are hardness
     assumptions exactly equivalent to derandomization results?
-  informal: >
-    If randomness can be eliminated from efficient algorithms, does that necessarily
-    mean hard problems exist? Is there a tight bidirectional connection between
-    computational hardness and the uselessness of randomness?
 
-why_it_matters: >
-  Establishing a tight equivalence between hardness and derandomization would unify
-  two major themes in complexity theory. It would mean that understanding randomness
-  is exactly the same as understanding circuit lower bounds.
+    '
+  informal: 'If randomness can be eliminated from efficient algorithms, does that necessarily mean hard problems exist? Is
+    there a tight bidirectional connection between computational hardness and the uselessness of randomness?
 
+    '
+why_it_matters: 'Establishing a tight equivalence between hardness and derandomization would unify two major themes in complexity
+  theory. It would mean that understanding randomness is exactly the same as understanding circuit lower bounds.
+
+  '
 prerequisites:
-  - pseudorandom generators
-  - circuit complexity
-  - derandomization
-  - Nisan-Wigderson construction
-
+- pseudorandom generators
+- circuit complexity
+- derandomization
+- Nisan-Wigderson construction
 dates:
   first_stated: 1997
-
 sources:
   canonical:
-    - source_id: src_impagliazzo_kabanets_2004
-      kind: paper
-      title: "Derandomizing Polynomial Identity Tests Means Proving Circuit Lower Bounds"
-      authors:
-        - "Russell Impagliazzo"
-        - "Valentine Kabanets"
-      url: "https://doi.org/10.1007/s00037-004-0182-6"
-      year: 2004
+  - source_id: src_impagliazzo_kabanets_2004
+    kind: paper
+    title: Derandomizing Polynomial Identity Tests Means Proving Circuit Lower Bounds
+    authors:
+    - Russell Impagliazzo
+    - Valentine Kabanets
+    url: https://doi.org/10.1007/s00037-004-0182-6
+    year: 2004
   status_evidence:
-    - source_id: src_chen_tell_2021
-      kind: paper
-      title: "Hardness vs Randomness, Revised: Uniform, Non-Black-Box, and Instance-Wise"
-      authors:
-        - "Lijie Chen"
-        - "Roei Tell"
-      url: "https://doi.org/10.1109/FOCS52979.2021.00020"
-      year: 2021
-
-partial_results:
-  - summary: "Impagliazzo and Kabanets (2004) showed that derandomizing polynomial identity testing implies circuit lower bounds, establishing a partial converse."
-    year: 2004
-  - summary: "Chen and Tell (2021) made significant progress toward non-black-box hardness-randomness connections."
+  - source_id: src_chen_tell_2021
+    kind: paper
+    title: 'Hardness vs Randomness, Revised: Uniform, Non-Black-Box, and Instance-Wise'
+    authors:
+    - Lijie Chen
+    - Roei Tell
+    url: https://doi.org/10.1109/FOCS52979.2021.00020
     year: 2021
-  - summary: "Kabanets and Impagliazzo showed the equivalence holds in the algebraic setting for PIT."
-    year: 2004
-
+partial_results:
+- summary: Impagliazzo and Kabanets (2004) showed that derandomizing polynomial identity testing implies circuit lower bounds,
+    establishing a partial converse.
+  year: 2004
+- summary: Chen and Tell (2021) made significant progress toward non-black-box hardness-randomness connections.
+  year: 2021
+- summary: Kabanets and Impagliazzo showed the equivalence holds in the algebraic setting for PIT.
+  year: 2004
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.complexity-theory.derandomization-p-bpp"
-    - "opa.tcs.complexity-theory.nisan-wigderson-hypothesis"
-    - "opa.tcs.complexity-theory.circuit-complexity-explicit-functions"
-
+  - opa.tcs.complexity-theory.derandomization-p-bpp
+  - opa.tcs.complexity-theory.nisan-wigderson-hypothesis
+  - opa.tcs.complexity-theory.circuit-complexity-explicit-functions
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.85
-  underexplored: 0.30
-  toolability: 0.20
-  formality: 0.90
+  underexplored: 0.3
+  toolability: 0.2
+  formality: 0.8
   ai_fit: 0.15
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-    - lean
-
+  - python
+  - lean
 machine_generated:
-  summary: >
-    The hardness vs randomness problem asks whether derandomization is exactly
-    equivalent to circuit lower bounds, seeking a tight bidirectional connection.
-  decomposition:
-    - "Prove that P = BPP implies circuit lower bounds against E"
-    - "Develop non-black-box hardness vs randomness connections"
-  disclaimer: unverified
+  summary: 'The hardness vs randomness problem asks whether derandomization is exactly equivalent to circuit lower bounds,
+    seeking a tight bidirectional connection.
 
+    '
+  decomposition:
+  - Prove that P = BPP implies circuit lower bounds against E
+  - Develop non-black-box hardness vs randomness connections
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

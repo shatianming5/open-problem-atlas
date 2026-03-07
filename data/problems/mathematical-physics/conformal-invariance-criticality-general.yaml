@@ -25,9 +25,10 @@ statement:
   canonical: >
     Prove that critical lattice models in d=2 are conformally invariant in the scaling
     limit, for a general class of models beyond the Ising model. Specifically, prove
-    conformal invariance for the critical q-state Potts model for general q (including
-    non-integer q via the Fortuin-Kasteleyn representation), the O(n) loop model for
-    general n, and the self-avoiding walk (n=0 case). In d >= 3, determine whether
+    conformal invariance for the critical q-state Potts model for q <= 4 (the regime
+    where the phase transition is continuous; for q > 4 the transition is first-order
+    and conformal invariance does not apply), the O(n) loop model for
+    general n in [0, 2], and the self-avoiding walk (n=0 case). In d >= 3, determine whether
     critical systems possess conformal invariance and characterize the conformal field
     theories that describe them.
   informal: >

@@ -23,11 +23,12 @@ verification_mode: proof
 
 statement:
   canonical: >
-    Determine whether every entangled quantum state with a positive partial transpose
-    (PPT) is bound entangled, meaning no pure entanglement can be distilled from it
-    by local operations and classical communication (LOCC). Equivalently, prove or
-    disprove that there exist NPT (negative partial transpose) bound entangled states,
-    or that the PPT condition is both necessary and sufficient for undistillability.
+    Do there exist NPT (negative partial transpose) bound entangled states, i.e.,
+    entangled states whose partial transpose has at least one negative eigenvalue
+    but from which no pure entanglement can be distilled by LOCC? It is already known
+    that all PPT entangled states are bound entangled (Horodecki et al. 1998). The open
+    question is whether bound entanglement can also occur among NPT states, or equivalently,
+    whether every NPT state is distillable.
   informal: >
     Some quantum states are entangled but their entanglement cannot be "purified" or
     concentrated into a useful form. The PPT bound entanglement problem asks whether

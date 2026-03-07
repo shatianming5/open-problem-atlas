@@ -1,133 +1,121 @@
 id: opa.phys.quantum-field-theory.consistent-theory-of-quantum-gravity
 kind: problem
-title: "Existence of a Consistent Theory of Quantum Gravity"
+title: Existence of a Consistent Theory of Quantum Gravity
 aliases:
-  - "Quantum Gravity Problem"
-  - "Unification of General Relativity and Quantum Mechanics"
-  - "Theory of Everything (Gravity Sector)"
-
+- Quantum Gravity Problem
+- Unification of General Relativity and Quantum Mechanics
+- Theory of Everything (Gravity Sector)
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: mathematical-physics
 subdomains:
-  - quantum-field-theory
-
+- quantum-field-theory
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
 statement:
-  canonical: >
-    Does there exist a mathematically consistent, background-independent quantum theory
-    that reduces to general relativity in the classical limit and to quantum field theory
-    in the weak-gravity limit? More precisely, construct a quantum theory satisfying the
-    following: (1) the theory possesses a well-defined Hilbert space (or suitable
-    generalization) of states; (2) in the semiclassical limit (hbar -> 0 or G_N -> 0),
-    the theory reproduces Einstein's field equations R_{mu nu} - (1/2) R g_{mu nu} +
-    Lambda g_{mu nu} = (8 pi G_N / c^4) T_{mu nu}; (3) the theory is perturbatively
-    or non-perturbatively finite (free of unrenormalizable divergences that plague
-    naive quantization of general relativity); (4) the theory is unitary and consistent
-    with the principles of quantum mechanics; (5) the theory resolves or circumvents
-    the singularities of classical general relativity (black hole singularities, Big
-    Bang singularity); and (6) the theory provides a consistent resolution of the
-    black hole information paradox.
-  informal: >
-    General relativity describes gravity as the curvature of spacetime, and quantum
-    mechanics describes the behavior of particles at the smallest scales. Both theories
-    are extraordinarily successful, but they are fundamentally incompatible: attempts to
-    combine them using standard techniques produce nonsensical infinities. Does a
-    consistent mathematical theory exist that unifies gravity with quantum mechanics?
+  canonical: 'Does there exist a mathematically consistent, background-independent quantum theory that reduces to general
+    relativity in the classical limit and to quantum field theory in the weak-gravity limit? More precisely, construct a quantum
+    theory satisfying the following: (1) the theory possesses a well-defined Hilbert space (or suitable generalization) of
+    states; (2) in the semiclassical limit (hbar -> 0 or G_N -> 0), the theory reproduces Einstein''s field equations R_{mu
+    nu} - (1/2) R g_{mu nu} + Lambda g_{mu nu} = (8 pi G_N / c^4) T_{mu nu}; (3) the theory is perturbatively or non-perturbatively
+    finite (free of unrenormalizable divergences that plague naive quantization of general relativity); (4) the theory is
+    unitary and consistent with the principles of quantum mechanics; (5) the theory resolves or circumvents the singularities
+    of classical general relativity (black hole singularities, Big Bang singularity); and (6) the theory provides a consistent
+    resolution of the black hole information paradox.
 
-why_it_matters: >
-  The construction of a consistent theory of quantum gravity is widely regarded as the
-  most fundamental open problem in theoretical physics. It is essential for understanding
-  the very early universe (Big Bang), the interior of black holes, and the ultimate
-  structure of spacetime at the Planck scale (~10^{-35} meters). Candidate approaches
-  include string theory, loop quantum gravity, causal set theory, and asymptotic safety,
-  but none has achieved a complete, experimentally verified formulation.
+    '
+  informal: 'General relativity describes gravity as the curvature of spacetime, and quantum mechanics describes the behavior
+    of particles at the smallest scales. Both theories are extraordinarily successful, but they are fundamentally incompatible:
+    attempts to combine them using standard techniques produce nonsensical infinities. Does a consistent mathematical theory
+    exist that unifies gravity with quantum mechanics?
 
+    '
+why_it_matters: 'The construction of a consistent theory of quantum gravity is widely regarded as the most fundamental open
+  problem in theoretical physics. It is essential for understanding the very early universe (Big Bang), the interior of black
+  holes, and the ultimate structure of spacetime at the Planck scale (~10^{-35} meters). Candidate approaches include string
+  theory, loop quantum gravity, causal set theory, and asymptotic safety, but none has achieved a complete, experimentally
+  verified formulation.
+
+  '
 prerequisites:
-  - general relativity
-  - quantum field theory
-  - differential geometry
-  - string theory (background)
-  - loop quantum gravity (background)
-  - renormalization theory
-
+- general relativity
+- quantum field theory
+- differential geometry
+- string theory (background)
+- loop quantum gravity (background)
+- renormalization theory
 dates:
   first_stated: 1935
-
 sources:
   canonical:
-    - source_id: src_dewitt_1967
-      kind: paper
-      title: "Quantum Theory of Gravity. I. The Canonical Theory"
-      url: "https://doi.org/10.1103/PhysRev.160.1113"
-      year: 1967
-      locator: "Physical Review 160(5), 1113-1148"
-    - source_id: src_polchinski_1998
-      kind: textbook
-      title: "String Theory, Volume 1: An Introduction to the Bosonic String"
-      url: "https://doi.org/10.1017/CBO9780511816079"
-      year: 1998
-      locator: "Cambridge University Press"
+  - source_id: src_dewitt_1967
+    kind: paper
+    title: Quantum Theory of Gravity. I. The Canonical Theory
+    url: https://doi.org/10.1103/PhysRev.160.1113
+    year: 1967
+    locator: Physical Review 160(5), 1113-1148
+  - source_id: src_polchinski_1998
+    kind: textbook
+    title: 'String Theory, Volume 1: An Introduction to the Bosonic String'
+    url: https://doi.org/10.1017/CBO9780511816079
+    year: 1998
+    locator: Cambridge University Press
   status_evidence:
-    - source_id: src_carlip_2001
-      kind: survey
-      title: "Quantum Gravity: a Progress Report"
-      url: "https://arxiv.org/abs/gr-qc/0108040"
-      year: 2001
-
+  - source_id: src_carlip_2001
+    kind: survey
+    title: 'Quantum Gravity: a Progress Report'
+    url: https://arxiv.org/abs/gr-qc/0108040
+    year: 2001
 partial_results:
-  - summary: "String theory provides a perturbatively finite framework for quantum gravity in 10 dimensions, with five consistent superstring theories unified under M-theory, but a complete non-perturbative formulation remains elusive."
-    year: 1995
-  - summary: "The AdS/CFT correspondence (Maldacena, 1997) provides a non-perturbative definition of quantum gravity in anti-de Sitter space via a dual conformal field theory, but extension to de Sitter or flat space is not established."
-    year: 1997
-  - summary: "Loop quantum gravity provides a background-independent quantization of general relativity with discrete area and volume spectra, but its semiclassical limit and connection to low-energy physics remain unproven."
-    year: 2004
-  - summary: "Weinberg's asymptotic safety scenario suggests gravity may be non-perturbatively renormalizable at a UV fixed point; functional renormalization group studies provide evidence but no rigorous proof."
-    year: 2012
-
+- summary: String theory provides a perturbatively finite framework for quantum gravity in 10 dimensions, with five consistent
+    superstring theories unified under M-theory, but a complete non-perturbative formulation remains elusive.
+  year: 1995
+- summary: The AdS/CFT correspondence (Maldacena, 1997) provides a non-perturbative definition of quantum gravity in anti-de
+    Sitter space via a dual conformal field theory, but extension to de Sitter or flat space is not established.
+  year: 1997
+- summary: Loop quantum gravity provides a background-independent quantization of general relativity with discrete area and
+    volume spectra, but its semiclassical limit and connection to low-energy physics remain unproven.
+  year: 2004
+- summary: Weinberg's asymptotic safety scenario suggests gravity may be non-perturbatively renormalizable at a UV fixed point;
+    functional renormalization group studies provide evidence but no rigorous proof.
+  year: 2012
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap"
-
+  - opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.99
-  underexplored: 0.50
-  toolability: 0.20
-  formality: 0.40
+  underexplored: 0.2
+  toolability: 0.2
+  formality: 0.4
   ai_fit: 0.15
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-    - mathematica
-
+  - python
+  - mathematica
 machine_generated:
-  summary: >
-    This problem asks whether a mathematically consistent quantum theory of gravity exists that unifies general relativity and quantum mechanics while resolving singularities and the black hole information paradox.
-  decomposition:
-    - "Establish a complete non-perturbative formulation of string theory or an alternative framework"
-    - "Prove that a candidate theory reproduces general relativity in the classical limit and is free of divergences"
-  disclaimer: unverified
+  summary: 'This problem asks whether a mathematically consistent quantum theory of gravity exists that unifies general relativity
+    and quantum mechanics while resolving singularities and the black hole information paradox.
 
+    '
+  decomposition:
+  - Establish a complete non-perturbative formulation of string theory or an alternative framework
+  - Prove that a candidate theory reproduces general relativity in the classical limit and is free of divergences
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

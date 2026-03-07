@@ -1,136 +1,124 @@
 id: opa.phys.quantum-field-theory.yang-mills-existence-and-mass-gap
 kind: problem
-title: "Yang-Mills Existence and Mass Gap"
+title: Yang-Mills Existence and Mass Gap
 aliases:
-  - "Yang-Mills Millennium Problem"
-  - "Yang-Mills Mass Gap Problem"
-  - "Quantum Yang-Mills Theory"
-
+- Yang-Mills Millennium Problem
+- Yang-Mills Mass Gap Problem
+- Quantum Yang-Mills Theory
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: mathematical-physics
 subdomains:
-  - quantum-field-theory
-
+- quantum-field-theory
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
 statement:
-  canonical: >
-    For any compact simple gauge group G (e.g., G = SU(N) for N >= 2), prove that a
-    non-trivial quantum Yang-Mills theory exists on R^4 satisfying the Wightman axioms
-    (or the Osterwalder-Schrader axioms for the Euclidean formulation), and prove that
-    the mass gap Delta > 0 exists: the lowest point in the energy spectrum above the
-    vacuum state has strictly positive energy. More precisely, there must exist a Hilbert
-    space H, a unitary representation U(a, Lambda) of the Poincare group on H, a vacuum
-    state Omega invariant under U, and operator-valued distributions (field operators)
-    satisfying the Wightman axioms, such that the joint spectrum of the energy-momentum
-    operators (H, P) lies in the forward light cone {(E, p) : E >= 0, E^2 - |p|^2 >= 0}
-    with a gap: the spectrum in {E > 0} is contained in {E >= Delta} for some Delta > 0.
-  informal: >
-    Yang-Mills theory describes the fundamental forces (strong and weak nuclear forces)
-    in the Standard Model of particle physics. The problem asks: can we rigorously prove
-    that this theory makes mathematical sense (satisfies fundamental axioms of quantum
-    field theory) and that the lightest particle it predicts has a strictly positive mass?
-    This would mathematically explain why the strong force has a finite range and why
-    protons and neutrons are massive.
+  canonical: 'For any compact simple gauge group G (e.g., G = SU(N) for N >= 2), prove that a non-trivial quantum Yang-Mills
+    theory exists on R^4 satisfying the Wightman axioms (or the Osterwalder-Schrader axioms for the Euclidean formulation),
+    and prove that the mass gap Delta > 0 exists: the lowest point in the energy spectrum above the vacuum state has strictly
+    positive energy. More precisely, there must exist a Hilbert space H, a unitary representation U(a, Lambda) of the Poincare
+    group on H, a vacuum state Omega invariant under U, and operator-valued distributions (field operators) satisfying the
+    Wightman axioms, such that the joint spectrum of the energy-momentum operators (H, P) lies in the forward light cone {(E,
+    p) : E >= 0, E^2 - |p|^2 >= 0} with a gap: the spectrum in {E > 0} is contained in {E >= Delta} for some Delta > 0.
 
-why_it_matters: >
-  This is one of the seven Clay Millennium Prize Problems, carrying a $1,000,000 prize.
-  Yang-Mills theory is the mathematical foundation of the Standard Model of particle physics.
-  A rigorous proof of existence and mass gap would establish quantum field theory on firm
-  mathematical foundations, explain confinement in quantum chromodynamics (why quarks are
-  never observed in isolation), and bridge a fundamental gap between physics and mathematics
-  that has persisted since the 1950s.
+    '
+  informal: 'Yang-Mills theory describes the fundamental forces (strong and weak nuclear forces) in the Standard Model of
+    particle physics. The problem asks: can we rigorously prove that this theory makes mathematical sense (satisfies fundamental
+    axioms of quantum field theory) and that the lightest particle it predicts has a strictly positive mass? This would mathematically
+    explain why the strong force has a finite range and why protons and neutrons are massive.
 
+    '
+why_it_matters: 'This is one of the seven Clay Millennium Prize Problems, carrying a $1,000,000 prize. Yang-Mills theory is
+  the mathematical foundation of the Standard Model of particle physics. A rigorous proof of existence and mass gap would
+  establish quantum field theory on firm mathematical foundations, explain confinement in quantum chromodynamics (why quarks
+  are never observed in isolation), and bridge a fundamental gap between physics and mathematics that has persisted since
+  the 1950s.
+
+  '
 prerequisites:
-  - quantum field theory
-  - gauge theory
-  - functional analysis
-  - differential geometry
-  - constructive field theory
-  - representation theory of Lie groups
-
+- quantum field theory
+- gauge theory
+- functional analysis
+- differential geometry
+- constructive field theory
+- representation theory of Lie groups
 dates:
   first_stated: 1954
-
 sources:
   canonical:
-    - source_id: src_yang_mills_1954
-      kind: paper
-      title: "Conservation of Isotopic Spin and Isotopic Gauge Invariance"
-      url: "https://doi.org/10.1103/PhysRev.96.191"
-      year: 1954
-      locator: "Physical Review 96(1), 191-195"
-    - source_id: src_jaffe_witten_2000
-      kind: paper
-      title: "Quantum Yang-Mills Theory"
-      url: "https://www.claymath.org/sites/default/files/yangmills.pdf"
-      year: 2000
-      locator: "Clay Mathematics Institute Millennium Problem description"
+  - source_id: src_yang_mills_1954
+    kind: paper
+    title: Conservation of Isotopic Spin and Isotopic Gauge Invariance
+    url: https://doi.org/10.1103/PhysRev.96.191
+    year: 1954
+    locator: Physical Review 96(1), 191-195
+  - source_id: src_jaffe_witten_2000
+    kind: paper
+    title: Quantum Yang-Mills Theory
+    url: https://www.claymath.org/sites/default/files/yangmills.pdf
+    year: 2000
+    locator: Clay Mathematics Institute Millennium Problem description
   status_evidence:
-    - source_id: src_douglas_2004
-      kind: survey
-      title: "Report on the Status of the Yang-Mills Millennium Prize Problem"
-      year: 2004
-
+  - source_id: src_douglas_2004
+    kind: survey
+    title: Report on the Status of the Yang-Mills Millennium Prize Problem
+    year: 2004
 partial_results:
-  - summary: "Asymptotic freedom of Yang-Mills theory was proven by Gross, Wilczek, and Politzer (Nobel Prize 2004), showing the coupling constant decreases at high energies."
-    year: 1973
-  - summary: "Balaban constructed a rigorous renormalization group for lattice Yang-Mills theory in a finite volume, a key step toward the full construction."
-    year: 1989
-  - summary: "Constructive quantum field theory has successfully constructed interacting theories in d = 2 and d = 3 (e.g., phi^4_3 by Gubinelli, Imkeller, and Perkowski), but d = 4 Yang-Mills remains out of reach."
-    year: 2015
-  - summary: "Lattice gauge theory simulations provide overwhelming numerical evidence for confinement and mass gap in SU(3) Yang-Mills theory."
-    year: 2020
-
+- summary: Asymptotic freedom of Yang-Mills theory was proven by Gross, Wilczek, and Politzer (Nobel Prize 2004), showing
+    the coupling constant decreases at high energies.
+  year: 1973
+- summary: Balaban constructed a rigorous renormalization group for lattice Yang-Mills theory in a finite volume, a key step
+    toward the full construction.
+  year: 1989
+- summary: Constructive quantum field theory has successfully constructed interacting theories in d = 2 and d = 3 (e.g., phi^4_3
+    by Gubinelli, Imkeller, and Perkowski), but d = 4 Yang-Mills remains out of reach.
+  year: 2015
+- summary: Lattice gauge theory simulations provide overwhelming numerical evidence for confinement and mass gap in SU(3)
+    Yang-Mills theory.
+  year: 2020
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.phys.quantum-field-theory.consistent-theory-of-quantum-gravity"
-
+  - opa.phys.quantum-field-theory.consistent-theory-of-quantum-gravity
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.99
-  underexplored: 0.40
+  underexplored: 0.2
   toolability: 0.25
-  formality: 0.60
-  ai_fit: 0.20
-
+  formality: 0.6
+  ai_fit: 0.2
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-    - mathematica
-
+  - python
+  - mathematica
 machine_generated:
-  summary: >
-    The Yang-Mills existence and mass gap problem asks for a rigorous mathematical proof that quantum Yang-Mills theory exists and has a positive mass gap, forming the foundation of the Standard Model of particle physics.
-  decomposition:
-    - "Construct a rigorous non-perturbative Yang-Mills quantum field theory in 4D satisfying Wightman or Osterwalder-Schrader axioms"
-    - "Prove the existence of a mass gap using constructive field theory or lattice gauge theory methods"
-  disclaimer: unverified
+  summary: 'The Yang-Mills existence and mass gap problem asks for a rigorous mathematical proof that quantum Yang-Mills theory
+    exists and has a positive mass gap, forming the foundation of the Standard Model of particle physics.
 
+    '
+  decomposition:
+  - Construct a rigorous non-perturbative Yang-Mills quantum field theory in 4D satisfying Wightman or Osterwalder-Schrader
+    axioms
+  - Prove the existence of a mass gap using constructive field theory or lattice gauge theory methods
+  disclaimer: unverified
 prize:
-  amount: "1000000"
+  amount: '1000000'
   currency: USD
   offered_by: Clay Mathematics Institute
-  url: "https://www.claymath.org/millennium-problems/yang-mills-and-mass-gap"
-
+  url: https://www.claymath.org/millennium-problems/yang-mills-and-mass-gap
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

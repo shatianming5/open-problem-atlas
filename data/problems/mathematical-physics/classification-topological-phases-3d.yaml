@@ -1,137 +1,124 @@
 id: opa.phys.condensed-matter-theory.classification-topological-phases-3d
 kind: problem
-title: "Classification of Topological Phases of Matter in 3D"
+title: Classification of Topological Phases of Matter in 3D
 aliases:
-  - "3D Topological Phase Classification"
-  - "Three-Dimensional Topological Order"
-  - "Classification of 3D Gapped Phases"
-
+- 3D Topological Phase Classification
+- Three-Dimensional Topological Order
+- Classification of 3D Gapped Phases
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: mathematical-physics
 subdomains:
-  - condensed-matter-theory
-
+- condensed-matter-theory
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
 statement:
-  canonical: >
-    Provide a complete mathematical classification of gapped quantum phases of matter
-    in three spatial dimensions. Specifically: (1) For symmetry-protected topological
-    (SPT) phases in 3D with a given symmetry group G, prove that the classification is
-    given by the generalized cohomology theory (e.g., group cohomology H^{d+1}(BG, U(1))
-    for bosonic SPT phases, or appropriate cobordism groups Omega^{d+1}_{Spin}(BG) for
-    fermionic SPT phases), and determine whether these classifications are complete.
-    (2) For intrinsic topological order in 3D (phases without symmetry protection),
-    provide a complete classification: in 2D, topological orders are classified by
-    modular tensor categories, but the 3D analog requires higher-categorical structures
-    (e.g., modular 2-categories or fusion 2-categories). Prove that a specific
-    mathematical framework (such as fully extended 3+1D topological quantum field theories,
-    or equivalently 4-categories with appropriate duality structure) provides a complete
-    classification. (3) Establish the bulk-boundary correspondence rigorously: prove
-    that every 3D topological phase has a well-defined 2D boundary theory and that the
-    boundary theory uniquely determines the bulk phase.
-  informal: >
-    Matter can exist in exotic "topological phases" where the properties are determined
-    not by symmetry breaking (like ordinary phases) but by global quantum entanglement
-    patterns. In two dimensions, we have a fairly complete mathematical classification
-    of these phases. The challenge is to achieve the same in three dimensions: what are
-    all the possible topological phases of matter in 3D, and what mathematical structures
-    describe them?
+  canonical: 'Provide a complete mathematical classification of gapped quantum phases of matter in three spatial dimensions.
+    Specifically: (1) For symmetry-protected topological (SPT) phases in 3D with a given symmetry group G, prove that the
+    classification is given by the generalized cohomology theory (e.g., group cohomology H^{d+1}(BG, U(1)) for bosonic SPT
+    phases, or appropriate cobordism groups Omega^{d+1}_{Spin}(BG) for fermionic SPT phases), and determine whether these
+    classifications are complete. (2) For intrinsic topological order in 3D (phases without symmetry protection), provide
+    a complete classification: in 2D, topological orders are classified by modular tensor categories, but the 3D analog requires
+    higher-categorical structures (e.g., modular 2-categories or fusion 2-categories). Prove that a specific mathematical
+    framework (such as fully extended 3+1D topological quantum field theories, or equivalently 4-categories with appropriate
+    duality structure) provides a complete classification. (3) Establish the bulk-boundary correspondence rigorously: prove
+    that every 3D topological phase has a well-defined 2D boundary theory and that the boundary theory uniquely determines
+    the bulk phase.
 
-why_it_matters: >
-  The classification of topological phases is one of the central problems in modern
-  condensed matter physics and mathematical physics, with direct applications to quantum
-  computing (topological quantum computation), materials science (topological insulators
-  and superconductors), and pure mathematics (higher category theory, TQFT). The 2016
-  Nobel Prize in Physics was awarded for theoretical discoveries of topological phase
-  transitions. A complete 3D classification would have profound consequences for both
-  physics and mathematics.
+    '
+  informal: 'Matter can exist in exotic "topological phases" where the properties are determined not by symmetry breaking
+    (like ordinary phases) but by global quantum entanglement patterns. In two dimensions, we have a fairly complete mathematical
+    classification of these phases. The challenge is to achieve the same in three dimensions: what are all the possible topological
+    phases of matter in 3D, and what mathematical structures describe them?
 
+    '
+why_it_matters: 'The classification of topological phases is one of the central problems in modern condensed matter physics
+  and mathematical physics, with direct applications to quantum computing (topological quantum computation), materials science
+  (topological insulators and superconductors), and pure mathematics (higher category theory, TQFT). The 2016 Nobel Prize
+  in Physics was awarded for theoretical discoveries of topological phase transitions. A complete 3D classification would
+  have profound consequences for both physics and mathematics.
+
+  '
 prerequisites:
-  - quantum many-body physics
-  - topological quantum field theory (TQFT)
-  - higher category theory
-  - algebraic topology and cohomology
-  - quantum entanglement theory
-
+- quantum many-body physics
+- topological quantum field theory (TQFT)
+- higher category theory
+- algebraic topology and cohomology
+- quantum entanglement theory
 dates:
   first_stated: 2005
-
 sources:
   canonical:
-    - source_id: src_chen_gu_wen_2013
-      kind: paper
-      title: "Symmetry protected topological orders and the group cohomology of their symmetry group"
-      url: "https://arxiv.org/abs/1106.4772"
-      year: 2013
-      locator: "Physical Review B 87(15), 155114"
-    - source_id: src_kitaev_2006
-      kind: paper
-      title: "Anyons in an exactly solved model and beyond"
-      url: "https://arxiv.org/abs/cond-mat/0506438"
-      year: 2006
-      locator: "Annals of Physics 321(1), 2-111"
-  status_evidence:
-    - source_id: src_freed_hopkins_2021
-      kind: paper
-      title: "Reflection positivity and invertible topological phases"
-      url: "https://arxiv.org/abs/1604.06527"
-      year: 2021
-
-partial_results:
-  - summary: "The ten-fold way classification of free-fermion topological insulators and superconductors was completed by Kitaev, Schnyder, Ryu, Furusaki, and Ludwig using K-theory and random matrix theory."
-    year: 2009
-  - summary: "Chen, Gu, Liu, and Wen proposed group cohomology classification of bosonic SPT phases, but it was shown to be incomplete: beyond-cohomology phases exist in 3D."
+  - source_id: src_chen_gu_wen_2013
+    kind: paper
+    title: Symmetry protected topological orders and the group cohomology of their symmetry group
+    url: https://arxiv.org/abs/1106.4772
     year: 2013
-  - summary: "Freed and Hopkins classified invertible topological phases using Anderson-dual bordism, providing a complete classification for invertible (short-range entangled) phases."
+    locator: Physical Review B 87(15), 155114
+  - source_id: src_kitaev_2006
+    kind: paper
+    title: Anyons in an exactly solved model and beyond
+    url: https://arxiv.org/abs/cond-mat/0506438
+    year: 2006
+    locator: Annals of Physics 321(1), 2-111
+  status_evidence:
+  - source_id: src_freed_hopkins_2021
+    kind: paper
+    title: Reflection positivity and invertible topological phases
+    url: https://arxiv.org/abs/1604.06527
     year: 2021
-  - summary: "Lan, Kong, and Wen proposed a classification of 3+1D topological orders based on fusion 2-categories, but completeness and mathematical rigor remain to be fully established."
-    year: 2018
-  - summary: "Johnson-Freyd and collaborators established significant mathematical foundations using higher categories for the classification of topological phases."
-    year: 2022
-
+partial_results:
+- summary: The ten-fold way classification of free-fermion topological insulators and superconductors was completed by Kitaev,
+    Schnyder, Ryu, Furusaki, and Ludwig using K-theory and random matrix theory.
+  year: 2009
+- summary: 'Chen, Gu, Liu, and Wen proposed group cohomology classification of bosonic SPT phases, but it was shown to be
+    incomplete: beyond-cohomology phases exist in 3D.'
+  year: 2013
+- summary: Freed and Hopkins classified invertible topological phases using Anderson-dual bordism, providing a complete classification
+    for invertible (short-range entangled) phases.
+  year: 2021
+- summary: Lan, Kong, and Wen proposed a classification of 3+1D topological orders based on fusion 2-categories, but completeness
+    and mathematical rigor remain to be fully established.
+  year: 2018
+- summary: Johnson-Freyd and collaborators established significant mathematical foundations using higher categories for the
+    classification of topological phases.
+  year: 2022
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related: []
-
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.92
-  underexplored: 0.55
+  underexplored: 0.3
   toolability: 0.45
-  formality: 0.60
+  formality: 0.6
   ai_fit: 0.35
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-    - mathematica
-
+  - python
+  - mathematica
 machine_generated:
-  summary: >
-    This problem seeks a complete mathematical classification of gapped topological phases of matter in three spatial dimensions, using higher-categorical structures and topological quantum field theory.
-  decomposition:
-    - "Prove completeness of fusion 2-category or modular 2-category frameworks for classifying 3D topological orders"
-    - "Rigorously establish the bulk-boundary correspondence and determine which 3D phases have beyond-cohomology descriptions"
-  disclaimer: unverified
+  summary: 'This problem seeks a complete mathematical classification of gapped topological phases of matter in three spatial
+    dimensions, using higher-categorical structures and topological quantum field theory.
 
+    '
+  decomposition:
+  - Prove completeness of fusion 2-category or modular 2-category frameworks for classifying 3D topological orders
+  - Rigorously establish the bulk-boundary correspondence and determine which 3D phases have beyond-cohomology descriptions
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

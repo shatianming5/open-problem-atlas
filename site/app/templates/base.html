@@ -5,34 +5,70 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% block title %}OpenProblemAtlas{% endblock %}</title>
   <meta name="description" content="A living, machine-readable atlas of open problems for researchers, AI agents, and theorem provers.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="/static/css/style.css">
   {% block head %}{% endblock %}
 </head>
-<body>
-  <header>
+<body class="page-{{ page | default('home') }}">
+  <a class="skip-link" href="#main-content">Skip to content</a>
+
+  <div class="site-banner">
     <div class="container">
-      <a href="/" class="logo">OpenProblemAtlas</a>
-      <nav>
+      Open data for frontier mathematics and theorem proving
+    </div>
+  </div>
+
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="/" class="logo">
+        <span class="logo-mark" aria-hidden="true"></span>
+        <span>OpenProblemAtlas</span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
         <a href="/problems.html" {% if page == 'problems' %}class="active"{% endif %}>Problems</a>
         <a href="/collections.html" {% if page == 'collections' %}class="active"{% endif %}>Collections</a>
         <a href="/radar.html" {% if page == 'radar' %}class="active"{% endif %}>Radar</a>
         <a href="/attempts.html" {% if page == 'attempts' %}class="active"{% endif %}>Attempts</a>
         <a href="/graph.html" {% if page == 'graph' %}class="active"{% endif %}>Graph</a>
-        <a href="https://github.com/OpenProblemAtlas/open-problem-atlas" target="_blank">GitHub</a>
       </nav>
+
+      <a class="button button--ghost header-cta" href="https://github.com/OpenProblemAtlas/open-problem-atlas" target="_blank" rel="noreferrer">GitHub</a>
     </div>
   </header>
 
-  <main>
+  <main id="main-content">
     {% block content %}{% endblock %}
   </main>
 
-  <footer>
-    <div class="container">
-      <p>OpenProblemAtlas &mdash; Data: CC BY-SA 4.0 | Code: MIT</p>
-      <p>A community project. <a href="https://github.com/OpenProblemAtlas/open-problem-atlas/blob/main/CONTRIBUTING.md">Contribute</a></p>
+  <footer class="site-footer">
+    <div class="container site-footer__inner">
+      <div>
+        <strong>OpenProblemAtlas</strong>
+        <p>Data: CC BY-SA 4.0. Code: MIT.</p>
+      </div>
+      <div class="footer-links">
+        <a href="/api/problems.json">API</a>
+        <a href="https://github.com/OpenProblemAtlas/open-problem-atlas/blob/main/CONTRIBUTING.md">Contribute</a>
+      </div>
     </div>
   </footer>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const toggle = document.querySelector('.nav-toggle');
+      const nav = document.getElementById('site-nav');
+      if (!toggle || !nav) return;
+      toggle.addEventListener('click', () => {
+        const open = nav.classList.toggle('is-open');
+        toggle.setAttribute('aria-expanded', String(open));
+      });
+    });
+  </script>
 
   {% block scripts %}{% endblock %}
 </body>

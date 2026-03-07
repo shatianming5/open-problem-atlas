@@ -17,7 +17,7 @@ domain: theoretical-cs
 subdomains:
   - cryptography
 
-problem_type: conjecture
+problem_type: open_question
 answer_type: classification_list
 verification_mode: proof
 

@@ -6,12 +6,18 @@ aliases:
   - "Additivity of Holevo Capacity"
 
 status:
-  label: open
+  label: disproved
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: "2026-03-08"
   review_state: human_verified
   reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
+  stale_after: "2027-03-08"
+  history:
+    - from: open
+      to: disproved
+      date: "2026-03-08"
+      evidence: "Hastings (2009) disproved the general additivity conjecture by constructing random counterexamples."
+      reviewer: "OpenProblemAtlas"
 
 domain: mathematical-physics
 subdomains:

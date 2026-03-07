@@ -17,7 +17,7 @@ domain: theoretical-cs
 subdomains:
   - complexity-theory
 
-problem_type: conjecture
+problem_type: open_question
 answer_type: existential
 verification_mode: proof
 

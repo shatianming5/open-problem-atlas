@@ -19,7 +19,7 @@ subdomains:
   - number-theory
   - functional-analysis
 
-problem_type: conjecture
+problem_type: open_question
 answer_type: boolean
 verification_mode: proof
 
