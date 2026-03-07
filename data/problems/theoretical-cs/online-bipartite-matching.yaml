@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: bound
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     In the online bipartite matching problem, vertices on one side arrive online and

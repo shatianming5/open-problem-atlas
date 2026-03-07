@@ -22,6 +22,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     Consider a monotone Boolean function f: {0,1}^n -> {0,1} that is balanced (Pr[f=1] ~ 1/2).

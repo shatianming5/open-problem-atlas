@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.polynomial-hierarchy-collapse
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polynomial_hierarchy_collapse_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polynomial Hierarchy Collapse. Does the polynomial hierarchy collapse to
+  any finite level, or is it infinite? Proving PH is infinite would separate P from NP.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.string-theory-and-the-standard-model
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/string_theory_and_the_standard_model_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: String Theory and the Standard Model. Can string theory produce a unique
+  or highly constrained vacuum reproducing the Standard Model gauge group, matter content, and coupling constants?'
+parameters: {}

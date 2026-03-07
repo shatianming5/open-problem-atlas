@@ -23,6 +23,12 @@ problem_type: open_question
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: >
     Deninger conjectures the existence of an "arithmetic site" or infinite-dimensional

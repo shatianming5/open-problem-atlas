@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.exact-ramsey-number-r-5-5
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/exact_ramsey_number_r_5_5_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Exact Ramsey Number R(5,5). Determine the exact value of the Ramsey number
+  R(5,5). It is known that 43 <= R(5,5) <= 48.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.borel-conjecture-on-aspherical-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/borel_conjecture_on_aspherical_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Borel Conjecture on Aspherical Manifolds. Any homotopy equivalence between
+  closed aspherical manifolds is homotopic to a homeomorphism.'
+parameters: {}

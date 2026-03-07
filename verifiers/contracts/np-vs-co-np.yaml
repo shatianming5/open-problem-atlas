@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.np-vs-co-np
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/np_vs_co_np_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: NP vs co-NP. Is NP equal to co-NP? Equivalently, does every tautology have
+  a short proof?'
+parameters: {}

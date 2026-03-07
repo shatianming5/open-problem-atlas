@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.sidorenko-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sidorenko_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sidorenko''s Conjecture. For every bipartite graph H, the number of homomorphisms
+  from H to a graph G is at least the expected number if G were replaced by a random graph with the same edge density.'
+parameters: {}

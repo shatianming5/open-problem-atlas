@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.reconstruction-conjecture-for-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/reconstruction_conjecture_for_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Reconstruction Conjecture for Graphs. Every graph on three or more vertices
+  is uniquely determined (up to isomorphism) by its multiset of vertex-deleted subgraphs.'
+parameters: {}

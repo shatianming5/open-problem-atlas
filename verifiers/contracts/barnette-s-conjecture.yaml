@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.barnette-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/barnette_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Barnette''s Conjecture. Every 3-connected bipartite cubic planar graph is
+  Hamiltonian.'
+parameters: {}

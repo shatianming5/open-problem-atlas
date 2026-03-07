@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.irrationality-of-euler-mascheroni-constant
+kind: problem
+title: Irrationality of Euler-Mascheroni Constant
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is Euler's constant gamma = lim_{n->infty} (1+1/2+...+1/n - ln(n)) irrational?
+sources:
+  canonical:
+  - source_id: src_euler_1735
+    kind: website
+    url: https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant
+  status_evidence:
+  - source_id: src_euler_1735
+    kind: website
+    url: https://en.wikipedia.org/wiki/Euler%E2%80%93Mascheroni_constant
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: numeric
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: computational
+  machine_actionability: high
+tier: tier_2
 statement:
   canonical: >
     Determine the precise Standard Model prediction for the muon anomalous magnetic

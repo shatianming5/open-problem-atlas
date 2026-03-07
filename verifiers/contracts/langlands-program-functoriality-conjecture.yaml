@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebra.langlands-program-functoriality-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/langlands_program_functoriality_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Langlands Program - Functoriality Conjecture. Every L-homomorphism between
+  L-groups should give rise to a transfer of automorphic representations, the full functoriality principle of the Langlands
+  program.'
+parameters: {}

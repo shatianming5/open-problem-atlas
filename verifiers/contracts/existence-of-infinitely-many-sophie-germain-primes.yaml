@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.existence-of-infinitely-many-sophie-germain-primes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_infinitely_many_sophie_germain_primes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Infinitely Many Sophie Germain Primes. Are there infinitely
+  many primes p such that 2p+1 is also prime?'
+parameters: {}

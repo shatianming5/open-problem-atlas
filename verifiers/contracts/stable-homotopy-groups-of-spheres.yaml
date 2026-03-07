@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.stable-homotopy-groups-of-spheres
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stable_homotopy_groups_of_spheres_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stable Homotopy Groups of Spheres. Compute the stable homotopy groups of
+  spheres pi_n^s for all n. Only a finite range is known.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.model-theory.zilber-s-conjecture-on-strongly-minimal-sets
+kind: problem
+title: Zilber's Conjecture on Strongly Minimal Sets
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- model-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every strongly minimal set is either trivial, a vector space, or an algebraically closed field.
+sources:
+  canonical:
+  - source_id: src_zilber_1984
+    kind: website
+    url: https://en.wikipedia.org/wiki/Strongly_minimal_theory
+  status_evidence:
+  - source_id: src_zilber_1984
+    kind: website
+    url: https://en.wikipedia.org/wiki/Strongly_minimal_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

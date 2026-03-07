@@ -1,0 +1,32 @@
+id: opa.phys.string-theory.maldacena-conjecture-beyond-supergravity
+kind: problem
+title: Maldacena Conjecture Beyond Supergravity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can AdS/CFT duality be proven for the full quantum string theory on AdS_5 x S^5, beyond the supergravity and
+    planar limits?
+sources:
+  canonical:
+  - source_id: src_maldacena_1998
+    kind: website
+    url: https://arxiv.org/abs/hep-th/9711200
+  status_evidence:
+  - source_id: src_maldacena_1998
+    kind: website
+    url: https://arxiv.org/abs/hep-th/9711200
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

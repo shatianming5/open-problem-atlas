@@ -1,0 +1,32 @@
+id: opa.phys.condensed-matter-theory.pseudogap-phase-in-cuprates
+kind: problem
+title: Pseudogap Phase in Cuprates
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the nature of the pseudogap phase in underdoped cuprates? Is it a distinct phase of matter with its own
+    order parameter?
+sources:
+  canonical:
+  - source_id: src_proust_2019
+    kind: website
+    url: https://arxiv.org/abs/1801.09125
+  status_evidence:
+  - source_id: src_proust_2019
+    kind: website
+    url: https://arxiv.org/abs/1801.09125
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.abc-conjecture-effective-version
+kind: problem
+title: ABC Conjecture (Effective Version)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For every epsilon > 0, there are finitely many triples (a,b,c) with a+b=c, gcd(a,b)=1, and c > rad(abc)^{1+epsilon}.
+    Effective bounds remain open.
+sources:
+  canonical:
+  - source_id: src_oesterle_1985
+    kind: website
+    url: https://en.wikipedia.org/wiki/Abc_conjecture
+  status_evidence:
+  - source_id: src_oesterle_1985
+    kind: website
+    url: https://en.wikipedia.org/wiki/Abc_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

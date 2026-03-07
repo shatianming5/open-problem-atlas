@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.existence-of-infinitely-many-mersenne-primes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_infinitely_many_mersenne_primes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Infinitely Many Mersenne Primes. Are there infinitely many
+  primes of the form 2^p - 1 where p is prime?'
+parameters: {}

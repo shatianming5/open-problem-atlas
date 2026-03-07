@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: >
     Construct a non-trivial (interacting) quantum field theory in four spacetime

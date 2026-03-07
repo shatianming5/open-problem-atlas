@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.tsirelson-s-bound-and-quantum-correlations
+kind: problem
+title: Tsirelson's Bound and Quantum Correlations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the set of quantum correlations be fully characterized by semidefinite programming hierarchies? The MIP*=RE
+    result settled Tsirelson's problem, but finite-dimensional characterizations remain open.
+sources:
+  canonical:
+  - source_id: src_ji_2020
+    kind: website
+    url: https://arxiv.org/abs/2001.04383
+  status_evidence:
+  - source_id: src_ji_2020
+    kind: website
+    url: https://arxiv.org/abs/2001.04383
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

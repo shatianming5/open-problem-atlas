@@ -1,0 +1,32 @@
+id: opa.tcs.algorithms.faster-all-pairs-shortest-paths
+kind: problem
+title: Faster All-Pairs Shortest Paths
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can all-pairs shortest paths in a dense graph be solved in truly sub-cubic time O(n^{3-epsilon}) for general
+    weights?
+sources:
+  canonical:
+  - source_id: src_williams_2014b
+    kind: website
+    url: https://doi.org/10.1145/2611462
+  status_evidence:
+  - source_id: src_williams_2014b
+    kind: website
+    url: https://doi.org/10.1145/2611462
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

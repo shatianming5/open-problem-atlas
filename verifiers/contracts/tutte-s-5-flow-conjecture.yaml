@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.tutte-s-5-flow-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tutte_s_5_flow_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tutte''s 5-Flow Conjecture. Every bridgeless graph admits a nowhere-zero
+  5-flow.'
+parameters: {}

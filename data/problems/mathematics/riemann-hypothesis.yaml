@@ -23,6 +23,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     All non-trivial zeros of the Riemann zeta function zeta(s) = sum_{n=1}^{infinity} n^{-s}

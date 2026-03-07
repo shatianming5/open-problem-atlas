@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.critical-exponents-for-3d-percolation
+kind: problem
+title: Critical Exponents for 3D Percolation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Rigorously compute the critical exponents (e.g., beta, gamma, nu) for Bernoulli percolation on Z^3.
+sources:
+  canonical:
+  - source_id: src_grimmett_1999
+    kind: website
+    url: https://en.wikipedia.org/wiki/Percolation_critical_exponents
+  status_evidence:
+  - source_id: src_grimmett_1999
+    kind: website
+    url: https://en.wikipedia.org/wiki/Percolation_critical_exponents
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

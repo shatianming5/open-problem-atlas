@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.universality-of-eigenvalue-statistics
+kind: problem
+title: Universality of Eigenvalue Statistics
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does the universality of random matrix eigenvalue statistics extend to all Wigner-type matrices with arbitrary
+    entry distributions?
+sources:
+  canonical:
+  - source_id: src_erdos_2012
+    kind: website
+    url: https://arxiv.org/abs/1202.0068
+  status_evidence:
+  - source_id: src_erdos_2012
+    kind: website
+    url: https://arxiv.org/abs/1202.0068
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

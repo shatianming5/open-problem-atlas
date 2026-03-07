@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.erdos-unit-distance-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_unit_distance_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos Unit Distance Problem. What is the maximum number of unit distances
+  among n points in the plane? The conjectured bound is O(n^{1+epsilon}) for all epsilon > 0.'
+parameters: {}

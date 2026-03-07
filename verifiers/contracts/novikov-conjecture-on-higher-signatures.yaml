@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.novikov-conjecture-on-higher-signatures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/novikov_conjecture_on_higher_signatures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Novikov Conjecture on Higher Signatures. The higher signatures of a closed
+  oriented manifold, defined using the fundamental group, are homotopy invariants.'
+parameters: {}

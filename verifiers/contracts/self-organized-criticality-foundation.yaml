@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.self-organized-criticality-foundation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/self_organized_criticality_foundation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Self-Organized Criticality Foundation. Can self-organized criticality be
+  rigorously established for the Bak-Tang-Wiesenfeld sandpile model and related systems?'
+parameters: {}

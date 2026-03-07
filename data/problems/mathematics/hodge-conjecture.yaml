@@ -1,0 +1,32 @@
+id: opa.mathematics.geometry.hodge-conjecture
+kind: problem
+title: Hodge Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every Hodge class on a projective complex algebraic variety is a rational linear combination of classes of algebraic
+    cycles.
+sources:
+  canonical:
+  - source_id: src_hodge_1950
+    kind: website
+    url: https://www.claymath.org/millennium-problems/hodge-conjecture
+  status_evidence:
+  - source_id: src_hodge_1950
+    kind: website
+    url: https://www.claymath.org/millennium-problems/hodge-conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

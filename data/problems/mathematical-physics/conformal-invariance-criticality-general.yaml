@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     Prove that critical lattice models in d=2 are conformally invariant in the scaling

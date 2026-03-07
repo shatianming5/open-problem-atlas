@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.tsirelson-s-bound-and-quantum-correlations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tsirelson_s_bound_and_quantum_correlations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tsirelson''s Bound and Quantum Correlations. Can the set of quantum correlations
+  be fully characterized by semidefinite programming hierarchies? The MIP*=RE result settled Tsirelson''s problem, but finite-dimensional
+  characterizations remain open.'
+parameters: {}

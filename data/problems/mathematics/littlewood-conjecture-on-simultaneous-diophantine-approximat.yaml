@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.littlewood-conjecture-on-simultaneous-diophantine-approximat
+kind: problem
+title: Littlewood Conjecture on Simultaneous Diophantine Approximation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: 'For all real alpha, beta: lim inf_{n->infty} n * ||n*alpha|| * ||n*beta|| = 0, where ||.|| denotes the distance
+    to the nearest integer.'
+sources:
+  canonical:
+  - source_id: src_littlewood_1930
+    kind: website
+    url: https://en.wikipedia.org/wiki/Littlewood_conjecture
+  status_evidence:
+  - source_id: src_littlewood_1930
+    kind: website
+    url: https://en.wikipedia.org/wiki/Littlewood_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

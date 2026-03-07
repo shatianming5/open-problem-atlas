@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     Every graph G with average degree greater than k - 2 contains every tree T with k edges

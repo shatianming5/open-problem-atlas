@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.existence-of-infinitely-many-mersenne-primes
+kind: problem
+title: Existence of Infinitely Many Mersenne Primes
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Are there infinitely many primes of the form 2^p - 1 where p is prime?
+sources:
+  canonical:
+  - source_id: src_lenstra_1980
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mersenne_prime
+  status_evidence:
+  - source_id: src_lenstra_1980
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mersenne_prime
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

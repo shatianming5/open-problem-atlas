@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.muon-g-2-anomaly
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/muon_g_2_anomaly_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Muon g-2 Anomaly. Does the discrepancy between the measured and predicted
+  muon anomalous magnetic moment indicate new physics, or is it due to hadronic uncertainties?'
+parameters: {}

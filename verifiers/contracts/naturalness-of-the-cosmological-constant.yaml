@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.naturalness-of-the-cosmological-constant
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/naturalness_of_the_cosmological_constant_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Naturalness of the Cosmological Constant. Why is the observed cosmological
+  constant 120 orders of magnitude smaller than naive quantum field theory predictions?'
+parameters: {}

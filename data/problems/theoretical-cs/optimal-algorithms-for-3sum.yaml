@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.optimal-algorithms-for-3sum
+kind: problem
+title: Optimal Algorithms for 3SUM
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the 3SUM problem be solved in truly sub-quadratic time O(n^{2-epsilon})? Or is the quadratic bound tight?
+sources:
+  canonical:
+  - source_id: src_gronlund_pettie_2014
+    kind: website
+    url: https://doi.org/10.1109/FOCS.2014.53
+  status_evidence:
+  - source_id: src_gronlund_pettie_2014
+    kind: website
+    url: https://doi.org/10.1109/FOCS.2014.53
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

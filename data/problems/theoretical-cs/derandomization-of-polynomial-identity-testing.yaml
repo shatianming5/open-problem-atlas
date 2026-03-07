@@ -1,0 +1,32 @@
+id: opa.tcs.complexity-theory.derandomization-of-polynomial-identity-testing
+kind: problem
+title: Derandomization of Polynomial Identity Testing
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can polynomial identity testing be done in deterministic polynomial time? This is equivalent to constructing
+    explicit hitting sets for arithmetic circuits.
+sources:
+  canonical:
+  - source_id: src_kabanets_impagliazzo_2004
+    kind: website
+    url: https://doi.org/10.1007/s00037-004-0182-6
+  status_evidence:
+  - source_id: src_kabanets_impagliazzo_2004
+    kind: website
+    url: https://doi.org/10.1007/s00037-004-0182-6
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

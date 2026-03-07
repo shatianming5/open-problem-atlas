@@ -1,0 +1,32 @@
+id: opa.mathematics.analysis.lindelof-hypothesis
+kind: problem
+title: Lindelof Hypothesis
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Riemann zeta function satisfies zeta(1/2 + it) = O(t^epsilon) for every epsilon > 0. This is weaker than
+    the Riemann Hypothesis but still open.
+sources:
+  canonical:
+  - source_id: src_lindelof_1908
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lindel%C3%B6f_hypothesis
+  status_evidence:
+  - source_id: src_lindelof_1908
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lindel%C3%B6f_hypothesis
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

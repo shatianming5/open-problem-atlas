@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.additive-combinatorics.polynomial-freiman-ruzsa-conjecture-over-f-2
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polynomial_freiman_ruzsa_conjecture_over_f_2_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polynomial Freiman-Ruzsa Conjecture over F_2. Following the recent proof
+  by Gowers, Green, Manners, and Tao, what are the optimal quantitative bounds in the Polynomial Freiman-Ruzsa conjecture
+  over F_2^n?'
+parameters: {}

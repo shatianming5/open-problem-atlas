@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.barnette-s-conjecture
+kind: problem
+title: Barnette's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every 3-connected bipartite cubic planar graph is Hamiltonian.
+sources:
+  canonical:
+  - source_id: src_barnette_1969
+    kind: website
+    url: https://en.wikipedia.org/wiki/Barnette%27s_conjecture
+  status_evidence:
+  - source_id: src_barnette_1969
+    kind: website
+    url: https://en.wikipedia.org/wiki/Barnette%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

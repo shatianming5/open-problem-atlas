@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: constructive
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: computational
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     Provide a complete mathematical classification of topological phases of matter in

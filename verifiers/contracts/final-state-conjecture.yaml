@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.final-state-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/final_state_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Final State Conjecture. Do all vacuum black hole spacetimes in general relativity
+  settle down to a Kerr black hole? This is the black hole uniqueness and stability problem.'
+parameters: {}

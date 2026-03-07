@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.non-fermi-liquid-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_fermi_liquid_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Fermi Liquid Theory. Is there a controlled theoretical framework for
+  non-Fermi liquid behavior in metals near quantum critical points in dimensions d >= 2?'
+parameters: {}

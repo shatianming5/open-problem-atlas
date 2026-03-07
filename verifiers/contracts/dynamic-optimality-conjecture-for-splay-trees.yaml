@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.dynamic-optimality-conjecture-for-splay-trees
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dynamic_optimality_conjecture_for_splay_trees_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamic Optimality Conjecture for Splay Trees. Are splay trees O(1)-competitive
+  with the optimal offline binary search tree for every access sequence?'
+parameters: {}

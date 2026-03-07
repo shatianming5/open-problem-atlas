@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.nlts-conjecture-and-quantum-error-correction
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nlts_conjecture_and_quantum_error_correction_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: NLTS Conjecture and Quantum Error Correction. Does the No Low-Energy Trivial
+  States conjecture hold for all quantum LDPC codes? Recent progress by Anshu, Breuckmann, and Nirkhe resolved this, but generalizations
+  remain open.'
+parameters: {}

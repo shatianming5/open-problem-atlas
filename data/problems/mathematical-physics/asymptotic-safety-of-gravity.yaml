@@ -1,0 +1,32 @@
+id: opa.phys.quantum-field-theory.asymptotic-safety-of-gravity
+kind: problem
+title: Asymptotic Safety of Gravity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does quantum gravity possess a non-trivial UV fixed point making it asymptotically safe and nonperturbatively
+    renormalizable?
+sources:
+  canonical:
+  - source_id: src_reuter_1998
+    kind: website
+    url: https://arxiv.org/abs/hep-th/9605030
+  status_evidence:
+  - source_id: src_reuter_1998
+    kind: website
+    url: https://arxiv.org/abs/hep-th/9605030
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

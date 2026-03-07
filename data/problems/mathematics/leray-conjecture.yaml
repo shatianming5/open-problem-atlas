@@ -22,6 +22,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     There are no non-trivial self-similar blow-up solutions to the three-dimensional

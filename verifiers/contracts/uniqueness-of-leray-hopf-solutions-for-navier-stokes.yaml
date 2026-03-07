@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.uniqueness-of-leray-hopf-solutions-for-navier-stokes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/uniqueness_of_leray_hopf_solutions_for_navier_stokes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Uniqueness of Leray-Hopf Solutions for Navier-Stokes. Are Leray-Hopf weak
+  solutions of the 3D Navier-Stokes equations unique? Non-uniqueness has been shown for weaker solution classes.'
+parameters: {}

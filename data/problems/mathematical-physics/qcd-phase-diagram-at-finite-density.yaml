@@ -1,0 +1,32 @@
+id: opa.phys.quantum-field-theory.qcd-phase-diagram-at-finite-density
+kind: problem
+title: QCD Phase Diagram at Finite Density
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the complete phase diagram of QCD at finite baryon density and temperature? The sign problem prevents
+    direct Monte Carlo simulation.
+sources:
+  canonical:
+  - source_id: src_fukushima_2011
+    kind: website
+    url: https://arxiv.org/abs/1005.4814
+  status_evidence:
+  - source_id: src_fukushima_2011
+    kind: website
+    url: https://arxiv.org/abs/1005.4814
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

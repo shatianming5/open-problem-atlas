@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.functional-analysis.unconditional-basic-sequence-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/unconditional_basic_sequence_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Unconditional Basic Sequence Problem. Does every infinite-dimensional Banach
+  space contain an unconditional basic sequence?'
+parameters: {}

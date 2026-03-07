@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.positive-mass-theorem-generalizations
+kind: problem
+title: Positive Mass Theorem Generalizations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the positive mass theorem be extended to spacetimes with arbitrary matter content satisfying only the dominant
+    energy condition, without spin structure assumptions?
+sources:
+  canonical:
+  - source_id: src_schoen_1979
+    kind: website
+    url: https://doi.org/10.1007/BF01942062
+  status_evidence:
+  - source_id: src_schoen_1979
+    kind: website
+    url: https://doi.org/10.1007/BF01942062
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

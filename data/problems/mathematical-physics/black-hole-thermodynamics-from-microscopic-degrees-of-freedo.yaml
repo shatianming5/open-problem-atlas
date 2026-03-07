@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.black-hole-thermodynamics-from-microscopic-degrees-of-freedo
+kind: problem
+title: Black Hole Thermodynamics from Microscopic Degrees of Freedom
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Bekenstein-Hawking entropy be derived from a counting of microscopic degrees of freedom for generic (non-supersymmetric,
+    non-extremal) black holes?
+sources:
+  canonical:
+  - source_id: src_strominger_1996
+    kind: website
+    url: https://arxiv.org/abs/hep-th/9601029
+  status_evidence:
+  - source_id: src_strominger_1996
+    kind: website
+    url: https://arxiv.org/abs/hep-th/9601029
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

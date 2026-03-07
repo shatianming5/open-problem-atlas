@@ -22,6 +22,12 @@ problem_type: open_question
 answer_type: numeric
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     For a polynomial vector field of degree n in the plane,

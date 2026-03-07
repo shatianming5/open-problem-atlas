@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.universality-of-random-matrix-eigenvalue-spacing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/universality_of_random_matrix_eigenvalue_spacing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Universality of Random Matrix Eigenvalue Spacing. Prove universality of
+  the Tracy-Widom distribution for the largest eigenvalue of Wigner matrices under minimal moment assumptions.'
+parameters: {}

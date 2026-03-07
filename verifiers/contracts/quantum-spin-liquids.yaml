@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.quantum-spin-liquids
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_spin_liquids_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Spin Liquids. Do quantum spin liquids with long-range entanglement
+  and fractionalized excitations exist as stable ground states of realistic Hamiltonians in two or three dimensions?'
+parameters: {}

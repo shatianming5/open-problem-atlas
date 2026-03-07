@@ -21,6 +21,12 @@ problem_type: existence
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     A Hadamard matrix of order n is an n x n matrix H with entries in {-1, +1} satisfying

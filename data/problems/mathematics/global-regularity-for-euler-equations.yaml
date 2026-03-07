@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.global-regularity-for-euler-equations
+kind: problem
+title: Global Regularity for Euler Equations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Do solutions of the 3D incompressible Euler equations develop finite-time singularities from smooth initial data?
+sources:
+  canonical:
+  - source_id: src_beale_1984
+    kind: website
+    url: https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)
+  status_evidence:
+  - source_id: src_beale_1984
+    kind: website
+    url: https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

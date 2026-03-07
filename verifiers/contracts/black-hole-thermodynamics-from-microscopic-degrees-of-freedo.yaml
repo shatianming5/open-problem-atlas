@@ -1,0 +1,13 @@
+problem_id: opa.phys.general-relativity.black-hole-thermodynamics-from-microscopic-degrees-of-freedo
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/black_hole_thermodynamics_from_microscopic_degrees_of_freedo_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Black Hole Thermodynamics from Microscopic Degrees of Freedom. Can the Bekenstein-Hawking
+  entropy be derived from a counting of microscopic degrees of freedom for generic (non-supersymmetric, non-extremal) black
+  holes?'
+parameters: {}

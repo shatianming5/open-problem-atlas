@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.rigorous-derivation-of-fourier-s-law
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/rigorous_derivation_of_fourier_s_law_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rigorous Derivation of Fourier''s Law. Derive Fourier''s law of heat conduction
+  rigorously from microscopic Hamiltonian dynamics for a realistic model system.'
+parameters: {}

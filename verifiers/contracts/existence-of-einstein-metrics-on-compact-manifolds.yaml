@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.existence-of-einstein-metrics-on-compact-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_einstein_metrics_on_compact_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Einstein Metrics on Compact Manifolds. Which compact manifolds
+  admit Einstein metrics (Ric = lambda * g)? The existence problem is open in most dimensions.'
+parameters: {}

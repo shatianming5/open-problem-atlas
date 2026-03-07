@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     For every graph H, there exists a constant delta(H) > 0 such that every graph G on n

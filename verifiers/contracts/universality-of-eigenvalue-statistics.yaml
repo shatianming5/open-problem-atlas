@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.universality-of-eigenvalue-statistics
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/universality_of_eigenvalue_statistics_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Universality of Eigenvalue Statistics. Does the universality of random matrix
+  eigenvalue statistics extend to all Wigner-type matrices with arbitrary entry distributions?'
+parameters: {}

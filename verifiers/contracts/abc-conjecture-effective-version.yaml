@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.abc-conjecture-effective-version
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/abc_conjecture_effective_version_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: ABC Conjecture (Effective Version). For every epsilon > 0, there are finitely
+  many triples (a,b,c) with a+b=c, gcd(a,b)=1, and c > rad(abc)^{1+epsilon}. Effective bounds remain open.'
+parameters: {}

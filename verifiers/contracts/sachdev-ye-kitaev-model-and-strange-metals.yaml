@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.sachdev-ye-kitaev-model-and-strange-metals
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sachdev_ye_kitaev_model_and_strange_metals_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sachdev-Ye-Kitaev Model and Strange Metals. Does the SYK model provide a
+  universal low-energy description of strange metals, and can its predictions be quantitatively tested?'
+parameters: {}

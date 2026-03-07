@@ -1,0 +1,32 @@
+id: opa.phys.quantum-field-theory.chiral-symmetry-breaking-mechanism
+kind: problem
+title: Chiral Symmetry Breaking Mechanism
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can spontaneous chiral symmetry breaking in QCD be proven rigorously from the QCD Lagrangian without lattice
+    or model assumptions?
+sources:
+  canonical:
+  - source_id: src_nambu_1961
+    kind: website
+    url: https://doi.org/10.1103/PhysRev.122.345
+  status_evidence:
+  - source_id: src_nambu_1961
+    kind: website
+    url: https://doi.org/10.1103/PhysRev.122.345
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

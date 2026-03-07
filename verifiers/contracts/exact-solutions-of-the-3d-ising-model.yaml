@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.exact-solutions-of-the-3d-ising-model
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/exact_solutions_of_the_3d_ising_model_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Exact Solutions of the 3D Ising Model. Can the three-dimensional Ising model
+  be solved exactly, yielding closed-form expressions for the partition function and critical exponents?'
+parameters: {}

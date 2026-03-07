@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.sample-complexity-of-pac-learning-dnf-formulas
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sample_complexity_of_pac_learning_dnf_formulas_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sample Complexity of PAC Learning DNF Formulas. Can DNF formulas be PAC
+  learned in polynomial time with polynomial samples? The best known algorithms use membership queries.'
+parameters: {}

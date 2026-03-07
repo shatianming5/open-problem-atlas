@@ -1,0 +1,32 @@
+id: opa.phys.mathematical-physics.quantization-of-general-relativity
+kind: problem
+title: Quantization of General Relativity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can general relativity be quantized as a mathematically consistent quantum field theory, either perturbatively
+    or non-perturbatively?
+sources:
+  canonical:
+  - source_id: src_kiefer_2007
+    kind: website
+    url: https://doi.org/10.1093/acprof:oso/9780199212521.001.0001
+  status_evidence:
+  - source_id: src_kiefer_2007
+    kind: website
+    url: https://doi.org/10.1093/acprof:oso/9780199212521.001.0001
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

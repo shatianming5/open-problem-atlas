@@ -1,0 +1,32 @@
+id: opa.phys.string-theory.weak-gravity-conjecture-proof
+kind: problem
+title: Weak Gravity Conjecture Proof
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the weak gravity conjecture, requiring the existence of particles with charge-to-mass ratio exceeding that
+    of extremal black holes, be proven from general principles?
+sources:
+  canonical:
+  - source_id: src_arkani-hamed_2007
+    kind: website
+    url: https://arxiv.org/abs/hep-th/0601001
+  status_evidence:
+  - source_id: src_arkani-hamed_2007
+    kind: website
+    url: https://arxiv.org/abs/hep-th/0601001
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

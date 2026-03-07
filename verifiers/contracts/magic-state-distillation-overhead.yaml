@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.magic-state-distillation-overhead
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/magic_state_distillation_overhead_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Magic State Distillation Overhead. What is the minimum overhead for universal
+  fault-tolerant quantum computation via magic state distillation?'
+parameters: {}

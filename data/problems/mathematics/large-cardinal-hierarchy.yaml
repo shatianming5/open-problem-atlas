@@ -17,6 +17,12 @@ subdomains:
 problem_type: open_question
 answer_type: boolean
 verification_mode: proof
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: 'Construct an inner model (a canonical model of set theory analogous to Godel''s L) for a supercompact cardinal.
     More broadly, develop inner model theory for the large cardinal hierarchy at and beyond the level of supercompact cardinals,

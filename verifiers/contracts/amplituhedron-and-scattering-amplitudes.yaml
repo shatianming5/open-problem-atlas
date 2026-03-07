@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.amplituhedron-and-scattering-amplitudes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/amplituhedron_and_scattering_amplitudes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Amplituhedron and Scattering Amplitudes. Does the amplituhedron construction
+  generalize beyond planar N=4 SYM to provide a geometric formulation of scattering amplitudes in realistic theories?'
+parameters: {}

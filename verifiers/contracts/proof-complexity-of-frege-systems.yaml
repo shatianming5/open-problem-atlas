@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.proof-complexity-of-frege-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/proof_complexity_of_frege_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Proof Complexity of Frege Systems. Is there a family of tautologies requiring
+  super-polynomial size Frege proofs? This is a major open question in proof complexity.'
+parameters: {}

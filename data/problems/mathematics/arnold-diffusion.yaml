@@ -1,0 +1,32 @@
+id: opa.mathematics.dynamical-systems.arnold-diffusion
+kind: problem
+title: Arnold Diffusion
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- dynamical-systems
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: In a generic nearly integrable Hamiltonian system with more than two degrees of freedom, there exist orbits whose
+    action variables change by O(1) over time (Arnold diffusion).
+sources:
+  canonical:
+  - source_id: src_arnold_1964
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arnold_diffusion
+  status_evidence:
+  - source_id: src_arnold_1964
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arnold_diffusion
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

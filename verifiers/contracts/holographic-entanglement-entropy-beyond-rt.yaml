@@ -1,0 +1,13 @@
+problem_id: opa.phys.string-theory.holographic-entanglement-entropy-beyond-rt
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/holographic_entanglement_entropy_beyond_rt_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Holographic Entanglement Entropy Beyond RT. Can the Ryu-Takayanagi formula
+  for holographic entanglement entropy be derived from first principles and extended to time-dependent and quantum-corrected
+  settings?'
+parameters: {}

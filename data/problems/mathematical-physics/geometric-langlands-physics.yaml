@@ -17,6 +17,12 @@ subdomains:
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: 'Rigorously establish the Kapustin-Witten approach to the geometric Langlands correspondence via topologically
     twisted N=4 super Yang-Mills theory. Specifically, prove that the S-duality of N=4 SYM, when twisted and compactified

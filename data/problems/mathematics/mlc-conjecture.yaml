@@ -22,6 +22,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     The Mandelbrot set M = {c in C : the orbit of 0 under f_c(z) = z^2 + c

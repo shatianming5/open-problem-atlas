@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.exp-vs-nexp
+kind: problem
+title: EXP vs NEXP
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is EXP equal to NEXP? Separating these classes would imply circuit lower bounds and has deep consequences.
+sources:
+  canonical:
+  - source_id: src_arora_barak_2009
+    kind: website
+    url: https://theory.cs.princeton.edu/complexity/
+  status_evidence:
+  - source_id: src_arora_barak_2009
+    kind: website
+    url: https://theory.cs.princeton.edu/complexity/
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

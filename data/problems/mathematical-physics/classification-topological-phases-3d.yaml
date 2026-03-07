@@ -18,6 +18,12 @@ subdomains:
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: 'Provide a complete mathematical classification of gapped quantum phases of matter in three spatial dimensions.
     Specifically: (1) For symmetry-protected topological (SPT) phases in 3D with a given symmetry group G, prove that the

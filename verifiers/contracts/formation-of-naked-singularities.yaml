@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.formation-of-naked-singularities
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/formation_of_naked_singularities_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Formation of Naked Singularities. Under what physical conditions can naked
+  singularities form from regular initial data in gravitational collapse, violating cosmic censorship?'
+parameters: {}

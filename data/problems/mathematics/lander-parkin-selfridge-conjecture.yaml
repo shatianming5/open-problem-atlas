@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     If the sum a_1^k + a_2^k + ... + a_s^k = b_1^k + b_2^k + ... + b_t^k holds with all

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-error-correction-threshold-for-surface-code
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_error_correction_threshold_for_surface_code_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Error Correction Threshold for Surface Code. What is the exact error
+  threshold for the surface code under realistic noise models including correlated and non-Pauli errors?'
+parameters: {}

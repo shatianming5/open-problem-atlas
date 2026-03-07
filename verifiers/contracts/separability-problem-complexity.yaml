@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.separability-problem-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/separability_problem_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Separability Problem Complexity. What is the precise computational complexity
+  of determining whether a given quantum state is separable or entangled? The problem is known to be NP-hard in general, but
+  the exact complexity class remains unclear.'
+parameters: {}

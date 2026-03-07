@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.topological-quantum-computing-with-non-abelian-anyons
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/topological_quantum_computing_with_non_abelian_anyons_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Topological Quantum Computing with Non-Abelian Anyons. Can non-Abelian anyons
+  be braided to perform universal quantum computation in a topologically protected manner in realistic physical systems?'
+parameters: {}

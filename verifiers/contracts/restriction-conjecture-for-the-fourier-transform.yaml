@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.restriction-conjecture-for-the-fourier-transform
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/restriction_conjecture_for_the_fourier_transform_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Restriction Conjecture for the Fourier Transform. The Fourier transform
+  of an L^p function on R^n restricts to an L^q function on the unit sphere for the optimal Stein-Tomas range.'
+parameters: {}

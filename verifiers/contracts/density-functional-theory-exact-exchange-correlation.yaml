@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.density-functional-theory-exact-exchange-correlation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/density_functional_theory_exact_exchange_correlation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Density Functional Theory Exact Exchange-Correlation. Can the exact exchange-correlation
+  functional in density functional theory be constructed or systematically approximated for strongly correlated systems?'
+parameters: {}

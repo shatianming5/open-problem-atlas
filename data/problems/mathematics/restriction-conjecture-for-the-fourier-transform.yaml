@@ -1,0 +1,32 @@
+id: opa.mathematics.analysis.restriction-conjecture-for-the-fourier-transform
+kind: problem
+title: Restriction Conjecture for the Fourier Transform
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Fourier transform of an L^p function on R^n restricts to an L^q function on the unit sphere for the optimal
+    Stein-Tomas range.
+sources:
+  canonical:
+  - source_id: src_stein_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Restriction_conjecture
+  status_evidence:
+  - source_id: src_stein_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Restriction_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

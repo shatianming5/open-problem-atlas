@@ -1,0 +1,32 @@
+id: opa.phys.condensed-matter-theory.density-functional-theory-exact-exchange-correlation
+kind: problem
+title: Density Functional Theory Exact Exchange-Correlation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the exact exchange-correlation functional in density functional theory be constructed or systematically approximated
+    for strongly correlated systems?
+sources:
+  canonical:
+  - source_id: src_burke_2012
+    kind: website
+    url: https://arxiv.org/abs/1201.3679
+  status_evidence:
+  - source_id: src_burke_2012
+    kind: website
+    url: https://arxiv.org/abs/1201.3679
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

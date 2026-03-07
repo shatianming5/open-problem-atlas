@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.linear-programming-in-strongly-polynomial-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/linear_programming_in_strongly_polynomial_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Linear Programming in Strongly Polynomial Time. Can linear programming be
+  solved in strongly polynomial time? This is one of Smale''s 18 problems for the 21st century.'
+parameters: {}

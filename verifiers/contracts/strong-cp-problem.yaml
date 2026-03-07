@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.strong-cp-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/strong_cp_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Strong CP Problem. Why is the QCD vacuum angle theta approximately zero?
+  Is the axion mechanism the correct resolution?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.lehmer-s-mahler-measure-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lehmer_s_mahler_measure_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lehmer''s Mahler Measure Problem. Is there a constant c > 0 such that every
+  algebraic integer alpha (not a root of unity) satisfies M(alpha) >= 1 + c?'
+parameters: {}

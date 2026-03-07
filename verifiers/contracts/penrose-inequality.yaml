@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.penrose-inequality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/penrose_inequality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Penrose Inequality. Prove the Penrose inequality relating the ADM mass to
+  the area of the outermost apparent horizon for general initial data sets including non-time-symmetric cases.'
+parameters: {}

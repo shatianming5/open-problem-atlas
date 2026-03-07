@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: low
+tier: tier_2
 statement:
   canonical: >
     Let f_1(x), ..., f_s(x) be irreducible polynomials with integer coefficients and positive

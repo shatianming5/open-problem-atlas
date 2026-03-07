@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.torsion-conjecture-for-abelian-varieties
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/torsion_conjecture_for_abelian_varieties_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Torsion Conjecture for Abelian Varieties. Is there a uniform bound on the
+  torsion subgroup of an abelian variety of dimension g defined over a number field of degree d, depending only on g and d?'
+parameters: {}

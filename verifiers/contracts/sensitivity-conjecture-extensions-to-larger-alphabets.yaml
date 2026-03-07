@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.sensitivity-conjecture-extensions-to-larger-alphabets
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sensitivity_conjecture_extensions_to_larger_alphabets_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sensitivity Conjecture Extensions to Larger Alphabets. Can Huang''s proof
+  of the sensitivity conjecture for Boolean functions be generalized to functions over larger alphabets with tight polynomial
+  bounds?'
+parameters: {}

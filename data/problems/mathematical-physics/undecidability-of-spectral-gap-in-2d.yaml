@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.undecidability-of-spectral-gap-in-2d
+kind: problem
+title: Undecidability of Spectral Gap in 2D
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the spectral gap problem undecidable for two-dimensional lattice Hamiltonians, extending the known undecidability
+    result for 1D systems?
+sources:
+  canonical:
+  - source_id: src_cubitt_2015
+    kind: website
+    url: https://arxiv.org/abs/1502.04573
+  status_evidence:
+  - source_id: src_cubitt_2015
+    kind: website
+    url: https://arxiv.org/abs/1502.04573
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

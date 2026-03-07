@@ -1,0 +1,32 @@
+id: opa.phys.condensed-matter-theory.topological-quantum-computing-with-non-abelian-anyons
+kind: problem
+title: Topological Quantum Computing with Non-Abelian Anyons
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can non-Abelian anyons be braided to perform universal quantum computation in a topologically protected manner
+    in realistic physical systems?
+sources:
+  canonical:
+  - source_id: src_nayak_2008
+    kind: website
+    url: https://arxiv.org/abs/0707.1889
+  status_evidence:
+  - source_id: src_nayak_2008
+    kind: website
+    url: https://arxiv.org/abs/0707.1889
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

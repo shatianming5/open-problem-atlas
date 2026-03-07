@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.harmonic-analysis.kakeya-conjecture-in-r-3
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kakeya_conjecture_in_r_3_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kakeya Conjecture in R^3. Does every Besicovitch set in R^3 have Hausdorff
+  dimension 3? Recent work by Wang and Zahl made progress but the full conjecture remains open.'
+parameters: {}

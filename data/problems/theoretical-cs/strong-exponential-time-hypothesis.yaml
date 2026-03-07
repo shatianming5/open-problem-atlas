@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.strong-exponential-time-hypothesis
+kind: problem
+title: Strong Exponential Time Hypothesis
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For every epsilon > 0, does k-SAT require time 2^((1-epsilon)*n) for sufficiently large k?
+sources:
+  canonical:
+  - source_id: src_impagliazzo_paturi_2001
+    kind: website
+    url: https://doi.org/10.1006/jcss.2000.1727
+  status_evidence:
+  - source_id: src_impagliazzo_paturi_2001
+    kind: website
+    url: https://doi.org/10.1006/jcss.2000.1727
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

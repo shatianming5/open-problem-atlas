@@ -18,6 +18,12 @@ subdomains:
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: 'For any compact simple gauge group G (e.g., G = SU(N) for N >= 2), prove that a non-trivial quantum Yang-Mills
     theory exists on R^4 satisfying the Wightman axioms (or the Osterwalder-Schrader axioms for the Euclidean formulation),

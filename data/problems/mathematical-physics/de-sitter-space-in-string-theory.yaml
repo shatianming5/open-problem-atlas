@@ -1,0 +1,32 @@
+id: opa.phys.string-theory.de-sitter-space-in-string-theory
+kind: problem
+title: De Sitter Space in String Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does string theory admit stable or metastable de Sitter vacua, or does the de Sitter swampland conjecture forbid
+    them?
+sources:
+  canonical:
+  - source_id: src_obied_2018
+    kind: website
+    url: https://arxiv.org/abs/1806.08362
+  status_evidence:
+  - source_id: src_obied_2018
+    kind: website
+    url: https://arxiv.org/abs/1806.08362
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

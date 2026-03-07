@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.kervaire-invariant-problem-in-remaining-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kervaire_invariant_problem_in_remaining_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kervaire Invariant Problem in Remaining Dimensions. Does a framed manifold
+  of Kervaire invariant one exist in dimension 126? All other dimensions are resolved.'
+parameters: {}

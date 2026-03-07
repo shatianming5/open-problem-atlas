@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.infrared-structure-of-gauge-theories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/infrared_structure_of_gauge_theories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Infrared Structure of Gauge Theories. What is the complete infrared structure
+  of non-Abelian gauge theories, including the role of asymptotic symmetries and soft theorems at all orders?'
+parameters: {}

@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     Prove that the entanglement entropy S(rho_A) = -Tr(rho_A log rho_A) of the ground

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.set-theory.whitehead-problem-independence
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/whitehead_problem_independence_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Whitehead Problem Independence. Whether every Whitehead group is free is
+  independent of ZFC; characterize models where it holds or fails.'
+parameters: {}

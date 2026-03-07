@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.kaplansky-s-conjectures-on-group-rings
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kaplansky_s_conjectures_on_group_rings_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kaplansky''s Conjectures on Group Rings. For a torsion-free group G and
+  field K, the group ring K[G] has no zero divisors, no idempotents other than 0 and 1, and every unit is trivial.'
+parameters: {}

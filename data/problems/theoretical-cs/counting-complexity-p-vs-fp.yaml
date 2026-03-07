@@ -1,0 +1,32 @@
+id: opa.tcs.complexity-theory.counting-complexity-p-vs-fp
+kind: problem
+title: 'Counting Complexity: #P vs FP'
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: 'Does FP = #P? Equivalently, can every counting problem associated with an NP decision problem be solved in polynomial
+    time?'
+sources:
+  canonical:
+  - source_id: src_valiant_1979b
+    kind: website
+    url: https://doi.org/10.1016/0304-3975(79)90044-8
+  status_evidence:
+  - source_id: src_valiant_1979b
+    kind: website
+    url: https://doi.org/10.1016/0304-3975(79)90044-8
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.mathematics.algebra.langlands-program-functoriality-conjecture
+kind: problem
+title: Langlands Program - Functoriality Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every L-homomorphism between L-groups should give rise to a transfer of automorphic representations, the full
+    functoriality principle of the Langlands program.
+sources:
+  canonical:
+  - source_id: src_langlands_1970
+    kind: website
+    url: https://en.wikipedia.org/wiki/Langlands_program
+  status_evidence:
+  - source_id: src_langlands_1970
+    kind: website
+    url: https://en.wikipedia.org/wiki/Langlands_program
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

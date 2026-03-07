@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.spin-glass-phase-in-finite-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/spin_glass_phase_in_finite_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Spin Glass Phase in Finite Dimensions. What is the nature of the spin glass
+  phase in three dimensions: does the Parisi replica symmetry breaking picture or the droplet model apply?'
+parameters: {}

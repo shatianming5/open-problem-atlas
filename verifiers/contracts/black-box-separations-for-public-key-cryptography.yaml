@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.black-box-separations-for-public-key-cryptography
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/black_box_separations_for_public_key_cryptography_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Black-Box Separations for Public-Key Cryptography. Can public-key encryption
+  be built from one-way functions in a black-box way? Impagliazzo and Rudich showed barriers for key agreement.'
+parameters: {}

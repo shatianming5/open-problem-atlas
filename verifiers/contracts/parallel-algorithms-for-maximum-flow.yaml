@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.parallel-algorithms-for-maximum-flow
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/parallel_algorithms_for_maximum_flow_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Parallel Algorithms for Maximum Flow. Can maximum flow be solved in polylogarithmic
+  parallel time (NC)? This is a major open problem in parallel algorithms.'
+parameters: {}

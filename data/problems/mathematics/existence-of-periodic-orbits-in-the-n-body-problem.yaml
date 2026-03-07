@@ -1,0 +1,31 @@
+id: opa.mathematics.dynamical-systems.existence-of-periodic-orbits-in-the-n-body-problem
+kind: problem
+title: Existence of Periodic Orbits in the N-Body Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- dynamical-systems
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does the Newtonian N-body problem with generic masses always have infinitely many periodic orbits?
+sources:
+  canonical:
+  - source_id: src_montgomery_2001
+    kind: website
+    url: https://en.wikipedia.org/wiki/N-body_problem
+  status_evidence:
+  - source_id: src_montgomery_2001
+    kind: website
+    url: https://en.wikipedia.org/wiki/N-body_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

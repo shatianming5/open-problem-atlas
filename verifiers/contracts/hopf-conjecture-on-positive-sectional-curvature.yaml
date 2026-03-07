@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.hopf-conjecture-on-positive-sectional-curvature
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hopf_conjecture_on_positive_sectional_curvature_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hopf Conjecture on Positive Sectional Curvature. Does S^2 x S^2 admit a
+  Riemannian metric of positive sectional curvature?'
+parameters: {}

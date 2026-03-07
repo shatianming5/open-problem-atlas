@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.np-intermediate-problems-existence
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/np_intermediate_problems_existence_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: NP-Intermediate Problems Existence. If P != NP, are there problems in NP
+  that are neither in P nor NP-complete? Ladner''s theorem is non-constructive; finding natural candidates remains open.'
+parameters: {}

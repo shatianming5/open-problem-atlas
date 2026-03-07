@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.turan-s-brick-factory-problem-optimal-crossing-number-of-k-m
+kind: problem
+title: Turan's Brick Factory Problem (Optimal Crossing Number of K_{m,n})
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The crossing number of the complete bipartite graph K_{m,n} equals floor(m/2)*floor((m-1)/2)*floor(n/2)*floor((n-1)/2).
+sources:
+  canonical:
+  - source_id: src_turan_1977
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tur%C3%A1n%27s_brick_factory_problem
+  status_evidence:
+  - source_id: src_turan_1977
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tur%C3%A1n%27s_brick_factory_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

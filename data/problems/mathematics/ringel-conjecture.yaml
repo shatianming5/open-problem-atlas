@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     For every tree T with n edges, the complete graph K_{2n+1} can be decomposed into 2n+1

@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.non-perturbative-definition-of-string-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_perturbative_definition_of_string_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Perturbative Definition of String Theory. Does a complete non-perturbative
+  formulation of string theory (M-theory) exist beyond the matrix model and AdS/CFT descriptions?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.de-sitter-space-in-string-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/de_sitter_space_in_string_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: De Sitter Space in String Theory. Does string theory admit stable or metastable
+  de Sitter vacua, or does the de Sitter swampland conjecture forbid them?'
+parameters: {}

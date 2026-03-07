@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.entanglement-distillation-of-multipartite-states
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entanglement_distillation_of_multipartite_states_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entanglement Distillation of Multipartite States. What is the optimal rate
+  of multipartite entanglement distillation for general multipartite quantum states? The theory is well-developed only for
+  bipartite systems.'
+parameters: {}

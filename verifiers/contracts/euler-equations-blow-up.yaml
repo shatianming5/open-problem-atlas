@@ -1,0 +1,12 @@
+problem_id: opa.phys.mathematical-physics.euler-equations-blow-up
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/euler_equations_blow_up_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Euler Equations Blow-Up. Do the three-dimensional incompressible Euler equations
+  develop finite-time singularities from smooth initial data?'
+parameters: {}

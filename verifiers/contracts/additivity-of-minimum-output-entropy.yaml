@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.additivity-of-minimum-output-entropy
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/additivity_of_minimum_output_entropy_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Additivity of Minimum Output Entropy. Is the minimum output entropy of a
+  quantum channel additive under tensor products? The Hastings counterexample disproved additivity in general, but the structure
+  of violations remains poorly understood.'
+parameters: {}

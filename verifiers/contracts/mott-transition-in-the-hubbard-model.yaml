@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.mott-transition-in-the-hubbard-model
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mott_transition_in_the_hubbard_model_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mott Transition in the Hubbard Model. Can the metal-insulator (Mott) transition
+  in the two-dimensional Hubbard model be characterized exactly, including the nature of the transition and the critical doping?'
+parameters: {}

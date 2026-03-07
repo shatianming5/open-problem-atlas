@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.category-theory.baez-dolan-cobordism-hypothesis
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/baez_dolan_cobordism_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Baez-Dolan Cobordism Hypothesis. The n-category of cobordisms is the free
+  symmetric monoidal n-category with duals on a single generator.'
+parameters: {}

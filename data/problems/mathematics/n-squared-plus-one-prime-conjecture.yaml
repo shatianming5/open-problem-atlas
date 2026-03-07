@@ -22,6 +22,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     There are infinitely many primes of the form n^2 + 1 where n is a positive integer.

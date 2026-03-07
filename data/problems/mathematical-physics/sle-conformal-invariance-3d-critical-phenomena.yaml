@@ -17,6 +17,12 @@ subdomains:
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: medium
+tier: tier_3
 statement:
   canonical: 'In two dimensions, Schramm-Loewner Evolution (SLE_kappa) provides a rigorous mathematical framework for conformally
     invariant random curves arising as scaling limits of interfaces in critical lattice models (e.g., SLE_3 for the Ising

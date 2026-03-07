@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.chiral-symmetry-breaking-mechanism
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chiral_symmetry_breaking_mechanism_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chiral Symmetry Breaking Mechanism. Can spontaneous chiral symmetry breaking
+  in QCD be proven rigorously from the QCD Lagrangian without lattice or model assumptions?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.derandomization-of-polynomial-identity-testing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/derandomization_of_polynomial_identity_testing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Derandomization of Polynomial Identity Testing. Can polynomial identity
+  testing be done in deterministic polynomial time? This is equivalent to constructing explicit hitting sets for arithmetic
+  circuits.'
+parameters: {}

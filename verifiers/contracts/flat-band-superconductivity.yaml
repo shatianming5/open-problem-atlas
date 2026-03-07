@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.flat-band-superconductivity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/flat_band_superconductivity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Flat Band Superconductivity. What is the theoretical upper bound on superconducting
+  transition temperature in flat-band systems like twisted bilayer graphene?'
+parameters: {}

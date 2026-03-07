@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.smooth-schoenflies-problem-in-dimension-4
+kind: problem
+title: Smooth Schoenflies Problem in Dimension 4
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does every smoothly embedded 3-sphere in S^4 bound a smooth 4-ball?
+sources:
+  canonical:
+  - source_id: src_schoenflies_1900
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schoenflies_problem
+  status_evidence:
+  - source_id: src_schoenflies_1900
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schoenflies_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

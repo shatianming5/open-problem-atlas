@@ -21,6 +21,12 @@ problem_type: open_question
 answer_type: existential
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     The dense model theorem (used by Green, Tao, and Ziegler) states that if a set S

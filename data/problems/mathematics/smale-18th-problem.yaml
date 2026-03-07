@@ -22,6 +22,12 @@ problem_type: open_question
 answer_type: constructive
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: computational
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     What are the limits of intelligence, both artificial and human? Smale's 18th problem

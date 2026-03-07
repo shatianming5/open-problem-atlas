@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.strong-exponential-time-hypothesis
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/strong_exponential_time_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Strong Exponential Time Hypothesis. For every epsilon > 0, does k-SAT require
+  time 2^((1-epsilon)*n) for sufficiently large k?'
+parameters: {}

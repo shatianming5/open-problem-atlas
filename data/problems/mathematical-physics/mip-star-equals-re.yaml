@@ -22,6 +22,12 @@ problem_type: open_question
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     The complexity class MIP* consists of all languages decidable by a polynomial-time

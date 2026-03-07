@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.finite-temperature-qcd-transition-order
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/finite_temperature_qcd_transition_order_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Finite-Temperature QCD Transition Order. What is the precise nature of the
+  QCD phase transition at zero chemical potential with physical quark masses - crossover, first order, or otherwise?'
+parameters: {}

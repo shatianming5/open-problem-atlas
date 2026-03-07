@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.matroid-theory.rota-s-conjecture-on-matroid-minors
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/rota_s_conjecture_on_matroid_minors_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rota''s Conjecture on Matroid Minors. For any finite field GF(q), the set
+  of excluded minors for GF(q)-representability is finite.'
+parameters: {}

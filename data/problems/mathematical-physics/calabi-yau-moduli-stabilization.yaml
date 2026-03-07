@@ -1,0 +1,32 @@
+id: opa.phys.string-theory.calabi-yau-moduli-stabilization
+kind: problem
+title: Calabi-Yau Moduli Stabilization
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can all moduli of Calabi-Yau compactifications be stabilized in a controlled regime of string theory, yielding
+    a cosmologically viable vacuum?
+sources:
+  canonical:
+  - source_id: src_kachru_2003
+    kind: website
+    url: https://arxiv.org/abs/hep-th/0301240
+  status_evidence:
+  - source_id: src_kachru_2003
+    kind: website
+    url: https://arxiv.org/abs/hep-th/0301240
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

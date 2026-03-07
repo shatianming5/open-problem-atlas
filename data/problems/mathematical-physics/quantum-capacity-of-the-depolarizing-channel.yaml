@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-capacity-of-the-depolarizing-channel
+kind: problem
+title: Quantum Capacity of the Depolarizing Channel
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact quantum capacity of the depolarizing channel. Despite decades of study, the quantum capacity
+    is known only in limited parameter regimes.
+sources:
+  canonical:
+  - source_id: src_smith_2008
+    kind: website
+    url: https://arxiv.org/abs/0807.4935
+  status_evidence:
+  - source_id: src_smith_2008
+    kind: website
+    url: https://arxiv.org/abs/0807.4935
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

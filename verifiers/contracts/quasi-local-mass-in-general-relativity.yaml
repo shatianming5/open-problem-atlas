@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.quasi-local-mass-in-general-relativity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quasi_local_mass_in_general_relativity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quasi-Local Mass in General Relativity. Is there a unique, physically satisfactory
+  definition of quasi-local mass in general relativity?'
+parameters: {}

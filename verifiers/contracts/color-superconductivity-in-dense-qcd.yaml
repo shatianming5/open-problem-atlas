@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.color-superconductivity-in-dense-qcd
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/color_superconductivity_in_dense_qcd_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Color Superconductivity in Dense QCD. What is the ground state of QCD at
+  asymptotically high baryon density? Can color-flavor locking be demonstrated from first principles?'
+parameters: {}

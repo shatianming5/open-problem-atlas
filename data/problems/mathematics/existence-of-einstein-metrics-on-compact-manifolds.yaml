@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.existence-of-einstein-metrics-on-compact-manifolds
+kind: problem
+title: Existence of Einstein Metrics on Compact Manifolds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Which compact manifolds admit Einstein metrics (Ric = lambda * g)? The existence problem is open in most dimensions.
+sources:
+  canonical:
+  - source_id: src_besse_1987
+    kind: website
+    url: https://en.wikipedia.org/wiki/Einstein_manifold
+  status_evidence:
+  - source_id: src_besse_1987
+    kind: website
+    url: https://en.wikipedia.org/wiki/Einstein_manifold
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

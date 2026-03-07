@@ -23,6 +23,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     Consider k >= 2 runners on a circular track of circumference 1, starting at the same point

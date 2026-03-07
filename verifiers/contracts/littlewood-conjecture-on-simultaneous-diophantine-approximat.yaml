@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.littlewood-conjecture-on-simultaneous-diophantine-approximat
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/littlewood_conjecture_on_simultaneous_diophantine_approximat_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Littlewood Conjecture on Simultaneous Diophantine Approximation. For all
+  real alpha, beta: lim inf_{n->infty} n * ||n*alpha|| * ||n*beta|| = 0, where ||.|| denotes the distance to the nearest integer.'
+parameters: {}

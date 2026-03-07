@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.faster-all-pairs-shortest-paths
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/faster_all_pairs_shortest_paths_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Faster All-Pairs Shortest Paths. Can all-pairs shortest paths in a dense
+  graph be solved in truly sub-cubic time O(n^{3-epsilon}) for general weights?'
+parameters: {}

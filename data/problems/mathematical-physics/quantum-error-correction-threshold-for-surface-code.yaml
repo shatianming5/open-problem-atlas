@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-error-correction-threshold-for-surface-code
+kind: problem
+title: Quantum Error Correction Threshold for Surface Code
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the exact error threshold for the surface code under realistic noise models including correlated and
+    non-Pauli errors?
+sources:
+  canonical:
+  - source_id: src_fowler_2012
+    kind: website
+    url: https://arxiv.org/abs/1208.0928
+  status_evidence:
+  - source_id: src_fowler_2012
+    kind: website
+    url: https://arxiv.org/abs/1208.0928
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

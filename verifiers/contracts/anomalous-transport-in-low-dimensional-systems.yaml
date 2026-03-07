@@ -1,0 +1,13 @@
+problem_id: opa.phys.statistical-mechanics.anomalous-transport-in-low-dimensional-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/anomalous_transport_in_low_dimensional_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Anomalous Transport in Low-Dimensional Systems. What determines whether
+  heat transport in one-dimensional systems is anomalous (divergent thermal conductivity) or normal, and what is the universal
+  exponent?'
+parameters: {}

@@ -22,6 +22,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     For origin-symmetric convex bodies K and L in R^n and lambda in [0,1],

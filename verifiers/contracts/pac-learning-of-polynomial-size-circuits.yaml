@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.pac-learning-of-polynomial-size-circuits
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/pac_learning_of_polynomial_size_circuits_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: PAC Learning of Polynomial-Size Circuits. Can polynomial-size circuits be
+  PAC learned in polynomial time under the uniform distribution? This relates to fundamental cryptographic assumptions.'
+parameters: {}

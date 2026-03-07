@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.undecidability-of-spectral-gap-in-2d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/undecidability_of_spectral_gap_in_2d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Undecidability of Spectral Gap in 2D. Is the spectral gap problem undecidable
+  for two-dimensional lattice Hamiltonians, extending the known undecidability result for 1D systems?'
+parameters: {}

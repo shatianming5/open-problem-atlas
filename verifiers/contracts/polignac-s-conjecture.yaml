@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.polignac-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polignac_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polignac''s Conjecture. For every positive even integer 2k, there are infinitely
+  many consecutive prime pairs with difference 2k.'
+parameters: {}

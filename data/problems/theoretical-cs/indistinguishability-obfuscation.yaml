@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: existential
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: >
     Indistinguishability obfuscation (iO) transforms a program into an equivalent but

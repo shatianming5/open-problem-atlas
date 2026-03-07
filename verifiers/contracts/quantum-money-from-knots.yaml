@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-money-from-knots
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_money_from_knots_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Money from Knots. Can quantum money schemes based on knot invariants
+  be made secure against computationally unbounded adversaries? The security of Aaronson-Christiano scheme remains unproven.'
+parameters: {}

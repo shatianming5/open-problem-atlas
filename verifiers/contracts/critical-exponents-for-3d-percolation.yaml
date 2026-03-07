@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.critical-exponents-for-3d-percolation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/critical_exponents_for_3d_percolation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Critical Exponents for 3D Percolation. Rigorously compute the critical exponents
+  (e.g., beta, gamma, nu) for Bernoulli percolation on Z^3.'
+parameters: {}

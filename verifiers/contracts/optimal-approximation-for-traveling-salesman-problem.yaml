@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-approximation-for-traveling-salesman-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_approximation_for_traveling_salesman_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Approximation for Traveling Salesman Problem. What is the best possible
+  approximation ratio for metric TSP? The Karlin-Klein-Gharan algorithm improved on Christofides 3/2 bound.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.relativization-barrier-circumvention
+kind: problem
+title: Relativization Barrier Circumvention
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can techniques beyond relativization and algebrization settle major complexity questions like P vs NP?
+sources:
+  canonical:
+  - source_id: src_aaronson_wigderson_2009
+    kind: website
+    url: https://doi.org/10.1145/1490270.1490272
+  status_evidence:
+  - source_id: src_aaronson_wigderson_2009
+    kind: website
+    url: https://doi.org/10.1145/1490270.1490272
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

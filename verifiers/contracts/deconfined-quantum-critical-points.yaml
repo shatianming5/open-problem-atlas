@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.deconfined-quantum-critical-points
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/deconfined_quantum_critical_points_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Deconfined Quantum Critical Points. Do deconfined quantum critical points
+  exist in realistic lattice models, realizing continuous transitions forbidden by the Landau paradigm?'
+parameters: {}

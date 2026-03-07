@@ -23,6 +23,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: >
     Let Gamma be a lattice in a simple Lie group G of real rank r >= 2. If Gamma

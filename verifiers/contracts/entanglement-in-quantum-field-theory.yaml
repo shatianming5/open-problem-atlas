@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.entanglement-in-quantum-field-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entanglement_in_quantum_field_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entanglement in Quantum Field Theory. How should entanglement entropy be
+  defined and regularized for interacting quantum field theories, and what universal quantities can be extracted?'
+parameters: {}

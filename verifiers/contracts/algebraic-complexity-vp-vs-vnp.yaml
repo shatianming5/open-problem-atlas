@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.algebraic-complexity-vp-vs-vnp
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/algebraic_complexity_vp_vs_vnp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Algebraic Complexity: VP vs VNP. Is the permanent polynomial family computationally
+  harder than the determinant family? This is Valiant''s algebraic analog of P vs NP.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.string-theory-landscape-and-the-swampland
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/string_theory_landscape_and_the_swampland_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: String Theory Landscape and the Swampland. Can the swampland conjectures
+  be proven, delineating which effective field theories can be consistently coupled to quantum gravity?'
+parameters: {}

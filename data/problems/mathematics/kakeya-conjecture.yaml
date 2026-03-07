@@ -23,6 +23,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     A Besicovitch set (Kakeya set) in R^n is a compact set that contains a unit line segment

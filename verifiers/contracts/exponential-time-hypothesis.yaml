@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.exponential-time-hypothesis
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/exponential_time_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Exponential Time Hypothesis. Does 3-SAT require exponential time, i.e.,
+  does there exist a constant delta > 0 such that no algorithm solves 3-SAT in time 2^(delta*n)?'
+parameters: {}

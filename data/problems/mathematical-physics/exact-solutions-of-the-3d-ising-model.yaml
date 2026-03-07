@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.exact-solutions-of-the-3d-ising-model
+kind: problem
+title: Exact Solutions of the 3D Ising Model
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the three-dimensional Ising model be solved exactly, yielding closed-form expressions for the partition function
+    and critical exponents?
+sources:
+  canonical:
+  - source_id: src_wu_1982
+    kind: website
+    url: https://doi.org/10.1103/RevModPhys.54.235
+  status_evidence:
+  - source_id: src_wu_1982
+    kind: website
+    url: https://doi.org/10.1103/RevModPhys.54.235
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

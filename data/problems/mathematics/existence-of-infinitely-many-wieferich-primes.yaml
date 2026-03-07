@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.existence-of-infinitely-many-wieferich-primes
+kind: problem
+title: Existence of Infinitely Many Wieferich Primes
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Are there infinitely many primes p such that 2^{p-1} = 1 (mod p^2)? Only two such primes (1093 and 3511) are
+    known.
+sources:
+  canonical:
+  - source_id: src_wieferich_1909
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wieferich_prime
+  status_evidence:
+  - source_id: src_wieferich_1909
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wieferich_prime
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

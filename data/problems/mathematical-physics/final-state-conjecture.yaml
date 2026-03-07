@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.final-state-conjecture
+kind: problem
+title: Final State Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Do all vacuum black hole spacetimes in general relativity settle down to a Kerr black hole? This is the black
+    hole uniqueness and stability problem.
+sources:
+  canonical:
+  - source_id: src_dafermos_2014
+    kind: website
+    url: https://arxiv.org/abs/1401.0379
+  status_evidence:
+  - source_id: src_dafermos_2014
+    kind: website
+    url: https://arxiv.org/abs/1401.0379
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

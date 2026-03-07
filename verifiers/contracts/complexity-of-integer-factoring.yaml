@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.complexity-of-integer-factoring
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/complexity_of_integer_factoring_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Complexity of Integer Factoring. Is integer factoring in P? Is it NP-complete?
+  Factoring is in NP and coNP but its exact complexity status is unknown.'
+parameters: {}

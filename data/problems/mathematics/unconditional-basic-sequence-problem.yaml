@@ -1,0 +1,31 @@
+id: opa.mathematics.functional-analysis.unconditional-basic-sequence-problem
+kind: problem
+title: Unconditional Basic Sequence Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- functional-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does every infinite-dimensional Banach space contain an unconditional basic sequence?
+sources:
+  canonical:
+  - source_id: src_mazur_1936
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schauder_basis
+  status_evidence:
+  - source_id: src_mazur_1936
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schauder_basis
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.maldacena-conjecture-beyond-supergravity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/maldacena_conjecture_beyond_supergravity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maldacena Conjecture Beyond Supergravity. Can AdS/CFT duality be proven
+  for the full quantum string theory on AdS_5 x S^5, beyond the supergravity and planar limits?'
+parameters: {}

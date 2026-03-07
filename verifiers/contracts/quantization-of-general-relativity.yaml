@@ -1,0 +1,12 @@
+problem_id: opa.phys.mathematical-physics.quantization-of-general-relativity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantization_of_general_relativity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantization of General Relativity. Can general relativity be quantized
+  as a mathematically consistent quantum field theory, either perturbatively or non-perturbatively?'
+parameters: {}

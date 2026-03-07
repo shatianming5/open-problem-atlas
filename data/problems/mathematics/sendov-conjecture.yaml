@@ -22,6 +22,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     Let p(z) be a polynomial of degree n >= 2 with all zeros contained in the

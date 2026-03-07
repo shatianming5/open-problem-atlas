@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.output-states-of-random-quantum-circuits
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/output_states_of_random_quantum_circuits_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Output States of Random Quantum Circuits. Can the output distribution of
+  random quantum circuits be efficiently sampled classically to within constant total variation distance? This is the core
+  of quantum supremacy claims.'
+parameters: {}

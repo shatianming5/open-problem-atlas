@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.majorana-zero-modes-in-solid-state
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/majorana_zero_modes_in_solid_state_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Majorana Zero Modes in Solid State. Has a topological Majorana zero mode
+  been unambiguously observed in a solid-state system, distinguishing it from trivial Andreev bound states?'
+parameters: {}

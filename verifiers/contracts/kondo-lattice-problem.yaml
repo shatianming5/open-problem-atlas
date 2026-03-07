@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.kondo-lattice-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kondo_lattice_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kondo Lattice Problem. Can the ground state of the Kondo lattice model be
+  determined in two and three dimensions, and does it explain heavy fermion quantum criticality?'
+parameters: {}

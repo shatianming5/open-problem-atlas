@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: low
+tier: tier_2
 statement:
   canonical: >
     Can public-key encryption be constructed from one-way functions alone? One-way

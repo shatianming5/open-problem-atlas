@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.counting-complexity-p-vs-fp
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/counting_complexity_p_vs_fp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Counting Complexity: #P vs FP. Does FP = #P? Equivalently, can every counting
+  problem associated with an NP decision problem be solved in polynomial time?'
+parameters: {}

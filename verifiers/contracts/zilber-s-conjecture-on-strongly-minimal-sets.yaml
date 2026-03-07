@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.model-theory.zilber-s-conjecture-on-strongly-minimal-sets
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/zilber_s_conjecture_on_strongly_minimal_sets_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Zilber''s Conjecture on Strongly Minimal Sets. Every strongly minimal set
+  is either trivial, a vector space, or an algebraically closed field.'
+parameters: {}

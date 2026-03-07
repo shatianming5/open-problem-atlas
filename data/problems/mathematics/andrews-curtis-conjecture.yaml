@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     Every balanced presentation of the trivial group can be transformed

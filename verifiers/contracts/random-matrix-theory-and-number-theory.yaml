@@ -1,0 +1,12 @@
+problem_id: opa.phys.mathematical-physics.random-matrix-theory-and-number-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/random_matrix_theory_and_number_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Random Matrix Theory and Number Theory. Can the connection between random
+  matrix theory and the distribution of zeros of the Riemann zeta function be made mathematically precise via a physical Hamiltonian?'
+parameters: {}

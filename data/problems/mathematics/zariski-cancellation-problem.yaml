@@ -1,0 +1,32 @@
+id: opa.mathematics.algebra.zariski-cancellation-problem
+kind: problem
+title: Zariski Cancellation Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: If V is an affine variety such that V x C is isomorphic to C^{n+1}, is V necessarily isomorphic to C^n? Open
+    for n >= 3 in characteristic zero.
+sources:
+  canonical:
+  - source_id: src_gupta_2014
+    kind: website
+    url: https://en.wikipedia.org/wiki/Zariski_cancellation_problem
+  status_evidence:
+  - source_id: src_gupta_2014
+    kind: website
+    url: https://en.wikipedia.org/wiki/Zariski_cancellation_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

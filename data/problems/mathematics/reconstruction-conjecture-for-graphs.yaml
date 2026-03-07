@@ -1,0 +1,32 @@
+id: opa.mathematics.combinatorics.reconstruction-conjecture-for-graphs
+kind: problem
+title: Reconstruction Conjecture for Graphs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every graph on three or more vertices is uniquely determined (up to isomorphism) by its multiset of vertex-deleted
+    subgraphs.
+sources:
+  canonical:
+  - source_id: src_kelly_1957
+    kind: website
+    url: https://en.wikipedia.org/wiki/Reconstruction_conjecture
+  status_evidence:
+  - source_id: src_kelly_1957
+    kind: website
+    url: https://en.wikipedia.org/wiki/Reconstruction_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.stability-of-kerr-black-holes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stability_of_kerr_black_holes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stability of Kerr Black Holes. Is the Kerr metric stable under linearized
+  and nonlinear gravitational perturbations for all sub-extremal spin parameters?'
+parameters: {}

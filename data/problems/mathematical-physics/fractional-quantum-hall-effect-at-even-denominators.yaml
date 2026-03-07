@@ -1,0 +1,32 @@
+id: opa.phys.condensed-matter-theory.fractional-quantum-hall-effect-at-even-denominators
+kind: problem
+title: Fractional Quantum Hall Effect at Even Denominators
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: 'What is the nature of the 5/2 fractional quantum Hall state: is it the Moore-Read Pfaffian, anti-Pfaffian, or
+    another topological order?'
+sources:
+  canonical:
+  - source_id: src_son_2015
+    kind: website
+    url: https://arxiv.org/abs/1502.03446
+  status_evidence:
+  - source_id: src_son_2015
+    kind: website
+    url: https://arxiv.org/abs/1502.03446
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

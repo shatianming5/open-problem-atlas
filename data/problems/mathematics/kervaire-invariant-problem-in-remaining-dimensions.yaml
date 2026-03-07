@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.kervaire-invariant-problem-in-remaining-dimensions
+kind: problem
+title: Kervaire Invariant Problem in Remaining Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does a framed manifold of Kervaire invariant one exist in dimension 126? All other dimensions are resolved.
+sources:
+  canonical:
+  - source_id: src_hill_2016
+    kind: website
+    url: https://arxiv.org/abs/0908.3724
+  status_evidence:
+  - source_id: src_hill_2016
+    kind: website
+    url: https://arxiv.org/abs/0908.3724
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: existential
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     Can we construct a public-key quantum money scheme -- quantum states that can be

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.optimal-inapproximability-of-sat
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_inapproximability_of_sat_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Inapproximability of SAT. Is the optimal inapproximability ratio
+  for MAX-3-SAT exactly 7/8, assuming P != NP? Hastad showed 7/8 + epsilon is NP-hard; matching the algorithm remains open.'
+parameters: {}

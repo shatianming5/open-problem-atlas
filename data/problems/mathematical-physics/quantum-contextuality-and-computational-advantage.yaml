@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-contextuality-and-computational-advantage
+kind: problem
+title: Quantum Contextuality and Computational Advantage
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is quantum contextuality both necessary and sufficient for quantum computational advantage in all models of quantum
+    computation?
+sources:
+  canonical:
+  - source_id: src_howard_2014
+    kind: website
+    url: https://arxiv.org/abs/1401.4174
+  status_evidence:
+  - source_id: src_howard_2014
+    kind: website
+    url: https://arxiv.org/abs/1401.4174
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

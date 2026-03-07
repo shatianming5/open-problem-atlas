@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.turbulence-and-statistical-mechanics
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/turbulence_and_statistical_mechanics_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Turbulence and Statistical Mechanics. Can a statistical mechanics framework
+  provide a complete theory of fully developed turbulence, explaining Kolmogorov scaling and intermittency corrections?'
+parameters: {}

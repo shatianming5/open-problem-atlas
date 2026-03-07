@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.parameterized-complexity-of-k-clique
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/parameterized_complexity_of_k_clique_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Parameterized Complexity of k-Clique. Is k-Clique W[1]-complete or fixed-parameter
+  tractable? Showing W[1] != FPT would yield major separations.'
+parameters: {}

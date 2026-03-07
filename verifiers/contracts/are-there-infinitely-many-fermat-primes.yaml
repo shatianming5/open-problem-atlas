@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.are-there-infinitely-many-fermat-primes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/are_there_infinitely_many_fermat_primes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Are There Infinitely Many Fermat Primes?. Is the set of primes of the form
+  2^(2^n) + 1 finite or infinite? Only five are known.'
+parameters: {}

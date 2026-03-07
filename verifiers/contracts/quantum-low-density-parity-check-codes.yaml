@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-low-density-parity-check-codes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_low_density_parity_check_codes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Low-Density Parity Check Codes. Can quantum LDPC codes achieve constant
+  encoding rate and linear distance simultaneously with efficient decoders?'
+parameters: {}

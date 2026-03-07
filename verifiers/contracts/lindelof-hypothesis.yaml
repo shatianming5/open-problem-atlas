@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.lindelof-hypothesis
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lindelof_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lindelof Hypothesis. The Riemann zeta function satisfies zeta(1/2 + it)
+  = O(t^epsilon) for every epsilon > 0. This is weaker than the Riemann Hypothesis but still open.'
+parameters: {}

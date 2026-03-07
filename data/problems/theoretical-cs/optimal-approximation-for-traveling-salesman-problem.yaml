@@ -1,0 +1,32 @@
+id: opa.tcs.algorithms.optimal-approximation-for-traveling-salesman-problem
+kind: problem
+title: Optimal Approximation for Traveling Salesman Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the best possible approximation ratio for metric TSP? The Karlin-Klein-Gharan algorithm improved on Christofides
+    3/2 bound.
+sources:
+  canonical:
+  - source_id: src_karlin_klein_gharan_2021
+    kind: website
+    url: https://doi.org/10.1145/3406325.3451009
+  status_evidence:
+  - source_id: src_karlin_klein_gharan_2021
+    kind: website
+    url: https://doi.org/10.1145/3406325.3451009
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

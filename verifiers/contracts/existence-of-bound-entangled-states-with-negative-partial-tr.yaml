@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.existence-of-bound-entangled-states-with-negative-partial-tr
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_bound_entangled_states_with_negative_partial_tr_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Bound Entangled States with Negative Partial Transpose. Do
+  there exist bound entangled states with a negative partial transpose (NPT)? This is one of the longest-standing open problems
+  in quantum entanglement theory.'
+parameters: {}

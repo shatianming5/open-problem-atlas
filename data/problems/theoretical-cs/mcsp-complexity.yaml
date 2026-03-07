@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: classification_list
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     The Minimum Circuit Size Problem (MCSP) asks: given the truth table of a Boolean

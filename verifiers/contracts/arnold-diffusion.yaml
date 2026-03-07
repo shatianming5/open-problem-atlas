@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.dynamical-systems.arnold-diffusion
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/arnold_diffusion_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Arnold Diffusion. In a generic nearly integrable Hamiltonian system with
+  more than two degrees of freedom, there exist orbits whose action variables change by O(1) over time (Arnold diffusion).'
+parameters: {}

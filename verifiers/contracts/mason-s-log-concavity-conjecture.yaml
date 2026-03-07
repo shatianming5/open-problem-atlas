@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.matroid-theory.mason-s-log-concavity-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mason_s_log_concavity_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mason''s Log-Concavity Conjecture. The sequence of numbers of independent
+  sets of each size in a matroid is log-concave.'
+parameters: {}

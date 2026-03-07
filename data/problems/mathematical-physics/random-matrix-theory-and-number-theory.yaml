@@ -1,0 +1,32 @@
+id: opa.phys.mathematical-physics.random-matrix-theory-and-number-theory
+kind: problem
+title: Random Matrix Theory and Number Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the connection between random matrix theory and the distribution of zeros of the Riemann zeta function be
+    made mathematically precise via a physical Hamiltonian?
+sources:
+  canonical:
+  - source_id: src_keating_2000
+    kind: website
+    url: https://doi.org/10.1007/s002200050516
+  status_evidence:
+  - source_id: src_keating_2000
+    kind: website
+    url: https://doi.org/10.1007/s002200050516
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

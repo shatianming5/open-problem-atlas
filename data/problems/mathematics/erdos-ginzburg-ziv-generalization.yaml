@@ -22,6 +22,12 @@ problem_type: conjecture
 answer_type: numeric
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     Determine the Davenport constant D(G) for general finite abelian groups G. For a finite

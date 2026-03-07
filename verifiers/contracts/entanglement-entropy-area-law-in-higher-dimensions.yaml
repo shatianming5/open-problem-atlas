@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.entanglement-entropy-area-law-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entanglement_entropy_area_law_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entanglement Entropy Area Law in Higher Dimensions. Does the entanglement
+  entropy of ground states of gapped local Hamiltonians always satisfy an area law in dimensions greater than one?'
+parameters: {}

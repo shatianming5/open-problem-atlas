@@ -1,0 +1,32 @@
+id: opa.mathematics.operator-algebras.mip-re-consequences-for-operator-algebras
+kind: problem
+title: MIP* = RE Consequences for Operator Algebras
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- operator-algebras
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What are the full implications of MIP* = RE (Connes' embedding problem refutation) for the structure theory of
+    von Neumann algebras and quantum correlation sets?
+sources:
+  canonical:
+  - source_id: src_ji_2020
+    kind: website
+    url: https://arxiv.org/abs/2001.04383
+  status_evidence:
+  - source_id: src_ji_2020
+    kind: website
+    url: https://arxiv.org/abs/2001.04383
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

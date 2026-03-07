@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.circuit-complexity-lower-bounds-for-np
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/circuit_complexity_lower_bounds_for_np_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Circuit Complexity Lower Bounds for NP. Can we prove super-polynomial circuit
+  lower bounds for problems in NP? No explicit Boolean function in NP is known to require super-polynomial size circuits.'
+parameters: {}

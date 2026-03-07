@@ -1,0 +1,12 @@
+problem_id: opa.phys.mathematical-physics.mathematical-foundations-of-path-integrals
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mathematical_foundations_of_path_integrals_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mathematical Foundations of Path Integrals. Can the Feynman path integral
+  be placed on a rigorous mathematical foundation for gauge theories in four spacetime dimensions?'
+parameters: {}

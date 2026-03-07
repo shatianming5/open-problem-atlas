@@ -17,6 +17,12 @@ subdomains:
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
+
+verification_profile:
+  statement_precision: low
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: 'Rigorously establish the connections between quantum information theory and quantum gravity. Specifically: (1)
     Prove or disprove the ER=EPR conjecture of Maldacena and Susskind, that quantum entanglement between two systems is equivalent

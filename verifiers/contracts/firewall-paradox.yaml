@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.firewall-paradox
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/firewall_paradox_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Firewall Paradox. Must an observer falling into an old black hole encounter
+  a firewall at the event horizon, in apparent contradiction with the equivalence principle?'
+parameters: {}

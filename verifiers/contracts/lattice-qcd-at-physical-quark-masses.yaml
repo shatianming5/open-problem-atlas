@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.lattice-qcd-at-physical-quark-masses
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lattice_qcd_at_physical_quark_masses_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lattice QCD at Physical Quark Masses. Can lattice QCD computations achieve
+  sub-percent precision for all hadron masses and decay constants at physical quark masses and in the continuum limit?'
+parameters: {}

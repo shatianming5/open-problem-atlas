@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.online-algorithms-k-server-conjecture
+kind: problem
+title: 'Online Algorithms: k-Server Conjecture'
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does the k-server problem have an O(k)-competitive online algorithm in general metric spaces?
+sources:
+  canonical:
+  - source_id: src_manasse_mcgeoch_sleator_1990
+    kind: website
+    url: https://doi.org/10.1007/BF01759073
+  status_evidence:
+  - source_id: src_manasse_mcgeoch_sleator_1990
+    kind: website
+    url: https://doi.org/10.1007/BF01759073
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

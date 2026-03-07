@@ -23,6 +23,12 @@ problem_type: existence
 answer_type: existential
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     In three spatial dimensions, given any initial velocity field v_0(x) that is smooth and

@@ -22,6 +22,12 @@ problem_type: open_question
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: low
+tier: tier_2
 statement:
   canonical: >
     The Halpern-Lauchli theorem states that for any finite number d of

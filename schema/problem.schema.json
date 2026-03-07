@@ -12,7 +12,9 @@
     "domain",
     "subdomains",
     "statement",
-    "sources"
+    "sources",
+    "verification_profile",
+    "tier"
   ],
   "properties": {
     "id": {
@@ -127,6 +129,34 @@
     "verification_mode": {
       "type": "string",
       "enum": ["proof", "formal_proof", "expert_review", "computational", "mixed"]
+    },
+    "verification_profile": {
+      "type": "object",
+      "description": "Three-axis verification classification",
+      "required": ["statement_precision", "solution_checkability", "machine_actionability"],
+      "additionalProperties": false,
+      "properties": {
+        "statement_precision": {
+          "type": "string",
+          "enum": ["high", "medium", "low"],
+          "description": "How precisely the problem can be stated as a formal mathematical proposition. high=precise conjecture/bound/existence; medium=clear objects but some ambiguity; low=research direction or vague agenda"
+        },
+        "solution_checkability": {
+          "type": "string",
+          "enum": ["proof_assistant", "computational", "mixed", "expert_review"],
+          "description": "How a solution/refutation can be verified. proof_assistant=Lean/Coq/Isabelle formalizable; computational=SAT/SMT/ILP/counterexample checkable; mixed=partial machine + partial expert; expert_review=requires human expert"
+        },
+        "machine_actionability": {
+          "type": "string",
+          "enum": ["high", "medium", "low"],
+          "description": "How much AI agents can currently participate. high=can directly attempt (search, symbolic computation, formalization); medium=machine-assisted with human guidance; low=machines cannot meaningfully participate yet"
+        }
+      }
+    },
+    "tier": {
+      "type": "string",
+      "enum": ["tier_1", "tier_2", "tier_3"],
+      "description": "Classification tier. tier_1=core machine-actionable (high precision + checkable + actionable); tier_2=extended (precise statement but limited machine verification); tier_3=candidate (needs further structuring)"
     },
     "statement": {
       "type": "object",
@@ -314,5 +344,46 @@
       }
     }
   },
+  "allOf": [
+    {
+      "if": { "properties": { "tier": { "const": "tier_1" } }, "required": ["tier"] },
+      "then": {
+        "properties": {
+          "verification_profile": {
+            "properties": {
+              "statement_precision": { "const": "high" },
+              "solution_checkability": { "enum": ["proof_assistant", "computational"] },
+              "machine_actionability": { "enum": ["high", "medium"] }
+            }
+          }
+        }
+      }
+    },
+    {
+      "if": { "properties": { "tier": { "const": "tier_3" } }, "required": ["tier"] },
+      "then": {
+        "anyOf": [
+          {
+            "properties": {
+              "verification_profile": {
+                "properties": {
+                  "statement_precision": { "const": "low" }
+                }
+              }
+            }
+          },
+          {
+            "properties": {
+              "verification_profile": {
+                "properties": {
+                  "solution_checkability": { "const": "expert_review" }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  ],
   "additionalProperties": false
 }

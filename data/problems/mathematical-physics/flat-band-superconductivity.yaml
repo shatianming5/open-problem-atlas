@@ -1,0 +1,32 @@
+id: opa.phys.condensed-matter-theory.flat-band-superconductivity
+kind: problem
+title: Flat Band Superconductivity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the theoretical upper bound on superconducting transition temperature in flat-band systems like twisted
+    bilayer graphene?
+sources:
+  canonical:
+  - source_id: src_cao_2018
+    kind: website
+    url: https://doi.org/10.1038/nature26160
+  status_evidence:
+  - source_id: src_cao_2018
+    kind: website
+    url: https://doi.org/10.1038/nature26160
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

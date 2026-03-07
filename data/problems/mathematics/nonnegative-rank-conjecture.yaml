@@ -22,6 +22,12 @@ problem_type: open_question
 answer_type: numeric
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     For a polytope P, the extension complexity xc(P) is the minimum number of facets of

@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     For any hyperbolic knot K in S^3, let J_N(K; q) denote the colored

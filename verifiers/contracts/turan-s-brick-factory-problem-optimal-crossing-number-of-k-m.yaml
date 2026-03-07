@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.turan-s-brick-factory-problem-optimal-crossing-number-of-k-m
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/turan_s_brick_factory_problem_optimal_crossing_number_of_k_m_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Turan''s Brick Factory Problem (Optimal Crossing Number of K_{m,n}). The
+  crossing number of the complete bipartite graph K_{m,n} equals floor(m/2)*floor((m-1)/2)*floor(n/2)*floor((n-1)/2).'
+parameters: {}

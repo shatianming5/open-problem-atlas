@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: bound
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     In proper PAC learning, the hypothesis must come from the same concept class as

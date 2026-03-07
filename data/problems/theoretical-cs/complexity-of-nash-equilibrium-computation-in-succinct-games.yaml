@@ -1,0 +1,32 @@
+id: opa.tcs.algorithmic-game-theory.complexity-of-nash-equilibrium-computation-in-succinct-games
+kind: problem
+title: Complexity of Nash Equilibrium Computation in Succinct Games
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithmic-game-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is computing a Nash equilibrium in succinctly represented games PPAD-complete, or can it be solved in polynomial
+    time for specific graph-structured representations?
+sources:
+  canonical:
+  - source_id: src_rubinstein_2020
+    kind: website
+    url: https://arxiv.org/abs/1612.09462
+  status_evidence:
+  - source_id: src_rubinstein_2020
+    kind: website
+    url: https://arxiv.org/abs/1612.09462
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

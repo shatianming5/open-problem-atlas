@@ -1,0 +1,32 @@
+id: opa.mathematics.geometry.lehmer-s-mahler-measure-problem
+kind: problem
+title: Lehmer's Mahler Measure Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is there a constant c > 0 such that every algebraic integer alpha (not a root of unity) satisfies M(alpha) >=
+    1 + c?
+sources:
+  canonical:
+  - source_id: src_lehmer_1933
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lehmer%27s_conjecture
+  status_evidence:
+  - source_id: src_lehmer_1933
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lehmer%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

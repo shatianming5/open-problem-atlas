@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.11-8-conjecture
+kind: problem
+title: 11/8 Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For a closed spin smooth 4-manifold with nonzero signature sigma, the second Betti number satisfies b_2 >= 11|sigma|/8.
+sources:
+  canonical:
+  - source_id: src_furuta_2001
+    kind: website
+    url: https://en.wikipedia.org/wiki/11/8_conjecture
+  status_evidence:
+  - source_id: src_furuta_2001
+    kind: website
+    url: https://en.wikipedia.org/wiki/11/8_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

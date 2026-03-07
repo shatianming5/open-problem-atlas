@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.hardy-littlewood-first-conjecture-prime-k-tuples
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hardy_littlewood_first_conjecture_prime_k_tuples_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hardy-Littlewood First Conjecture (Prime k-tuples). The density of prime
+  k-tuples (e.g., twin primes, prime triplets) follows a specific asymptotic formula involving a product over primes.'
+parameters: {}

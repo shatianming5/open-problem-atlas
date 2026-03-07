@@ -1,0 +1,32 @@
+id: opa.phys.mathematical-physics.euler-equations-blow-up
+kind: problem
+title: Euler Equations Blow-Up
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Do the three-dimensional incompressible Euler equations develop finite-time singularities from smooth initial
+    data?
+sources:
+  canonical:
+  - source_id: src_luo_2014
+    kind: website
+    url: https://arxiv.org/abs/1310.4799
+  status_evidence:
+  - source_id: src_luo_2014
+    kind: website
+    url: https://arxiv.org/abs/1310.4799
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

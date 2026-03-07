@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.conformal-bootstrap-in-d-2
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/conformal_bootstrap_in_d_2_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Conformal Bootstrap in d > 2. Can the conformal bootstrap determine all
+  critical exponents of the 3D Ising model to arbitrary precision? More generally, can it classify all CFTs in d > 2?'
+parameters: {}

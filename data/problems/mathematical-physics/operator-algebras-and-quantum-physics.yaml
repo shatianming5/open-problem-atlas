@@ -1,0 +1,32 @@
+id: opa.phys.mathematical-physics.operator-algebras-and-quantum-physics
+kind: problem
+title: Operator Algebras and Quantum Physics
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the algebraic quantum field theory program based on operator algebras provide a complete non-perturbative
+    construction of interacting QFTs in four dimensions?
+sources:
+  canonical:
+  - source_id: src_haag_1996
+    kind: website
+    url: https://doi.org/10.1007/978-3-642-61458-3
+  status_evidence:
+  - source_id: src_haag_1996
+    kind: website
+    url: https://doi.org/10.1007/978-3-642-61458-3
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

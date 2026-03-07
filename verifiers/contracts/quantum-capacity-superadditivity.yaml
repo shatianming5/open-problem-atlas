@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-capacity-superadditivity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_capacity_superadditivity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Capacity Superadditivity. To what extent is the quantum capacity
+  of a quantum channel superadditive? Full characterization of superadditivity effects remains an open problem.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.calabi-yau-moduli-stabilization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/calabi_yau_moduli_stabilization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Calabi-Yau Moduli Stabilization. Can all moduli of Calabi-Yau compactifications
+  be stabilized in a controlled regime of string theory, yielding a cosmologically viable vacuum?'
+parameters: {}

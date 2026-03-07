@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.global-regularity-for-euler-equations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/global_regularity_for_euler_equations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Global Regularity for Euler Equations. Do solutions of the 3D incompressible
+  Euler equations develop finite-time singularities from smooth initial data?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.anomaly-matching-in-chiral-gauge-theories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/anomaly_matching_in_chiral_gauge_theories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Anomaly Matching in Chiral Gauge Theories. Can all chiral gauge theories
+  be consistently defined non-perturbatively on the lattice while preserving gauge invariance and anomaly matching?'
+parameters: {}

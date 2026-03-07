@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.cram-r-s-conjecture-on-prime-gaps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cram_r_s_conjecture_on_prime_gaps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cramér''s Conjecture on Prime Gaps. The maximal gap between consecutive
+  primes near N is O((log N)^2).'
+parameters: {}

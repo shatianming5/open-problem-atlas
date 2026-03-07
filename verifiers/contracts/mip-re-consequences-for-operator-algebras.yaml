@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.operator-algebras.mip-re-consequences-for-operator-algebras
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mip_re_consequences_for_operator_algebras_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: MIP* = RE Consequences for Operator Algebras. What are the full implications
+  of MIP* = RE (Connes'' embedding problem refutation) for the structure theory of von Neumann algebras and quantum correlation
+  sets?'
+parameters: {}

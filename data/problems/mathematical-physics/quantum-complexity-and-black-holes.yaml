@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-complexity-and-black-holes
+kind: problem
+title: Quantum Complexity and Black Holes
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does quantum circuit complexity of a holographic state grow linearly in time for an exponentially long period,
+    as conjectured for black hole interiors?
+sources:
+  canonical:
+  - source_id: src_susskind_2016
+    kind: website
+    url: https://arxiv.org/abs/1402.5674
+  status_evidence:
+  - source_id: src_susskind_2016
+    kind: website
+    url: https://arxiv.org/abs/1402.5674
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

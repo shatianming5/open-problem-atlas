@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-advantage-for-optimization-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_advantage_for_optimization_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Advantage for Optimization Problems. Can quantum computers provide
+  a provable super-polynomial speedup for combinatorial optimization problems? No unconditional separation is known.'
+parameters: {}

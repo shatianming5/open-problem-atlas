@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.landau-s-fourth-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/landau_s_fourth_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Landau''s Fourth Problem. Are there infinitely many primes of the form n^2
+  + 1?'
+parameters: {}

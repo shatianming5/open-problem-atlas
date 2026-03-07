@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: bound
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     Let p_n denote the n-th prime number and g_n = p_{n+1} - p_n the n-th prime gap. Cramer's

@@ -22,6 +22,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: low
+tier: tier_2
 statement:
   canonical: >
     Every slice knot is a ribbon knot. A knot K in S^3 is slice if it

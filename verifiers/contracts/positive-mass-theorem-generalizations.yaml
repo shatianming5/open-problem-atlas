@@ -1,0 +1,13 @@
+problem_id: opa.phys.general-relativity.positive-mass-theorem-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/positive_mass_theorem_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Positive Mass Theorem Generalizations. Can the positive mass theorem be
+  extended to spacetimes with arbitrary matter content satisfying only the dominant energy condition, without spin structure
+  assumptions?'
+parameters: {}

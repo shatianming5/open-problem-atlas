@@ -1,0 +1,13 @@
+problem_id: opa.tcs.algorithmic-game-theory.complexity-of-nash-equilibrium-computation-in-succinct-games
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/complexity_of_nash_equilibrium_computation_in_succinct_games_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Complexity of Nash Equilibrium Computation in Succinct Games. Is computing
+  a Nash equilibrium in succinctly represented games PPAD-complete, or can it be solved in polynomial time for specific graph-structured
+  representations?'
+parameters: {}

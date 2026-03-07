@@ -23,6 +23,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: proof_assistant
+  machine_actionability: low
+tier: tier_2
 statement:
   canonical: >
     For reductive groups G and H over a number field F, every homomorphism of L-groups

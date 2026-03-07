@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.boltzmann-equation-derivation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/boltzmann_equation_derivation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Boltzmann Equation Derivation. Can the Boltzmann equation be rigorously
+  derived from Newtonian mechanics for long times beyond the Lanford result which is valid only for short times?'
+parameters: {}

@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: constructive
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: medium
+tier: tier_1
 statement:
   canonical: >
     Determine the optimal entanglement and communication costs for quantum state

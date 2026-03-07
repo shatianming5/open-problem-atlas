@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.rigorous-derivation-of-fourier-s-law
+kind: problem
+title: Rigorous Derivation of Fourier's Law
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Derive Fourier's law of heat conduction rigorously from microscopic Hamiltonian dynamics for a realistic model
+    system.
+sources:
+  canonical:
+  - source_id: src_bonetto_2000
+    kind: website
+    url: https://arxiv.org/abs/math-ph/0002052
+  status_evidence:
+  - source_id: src_bonetto_2000
+    kind: website
+    url: https://arxiv.org/abs/math-ph/0002052
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

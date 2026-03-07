@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.dynamical-systems.existence-of-periodic-orbits-in-the-n-body-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_periodic_orbits_in_the_n_body_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Periodic Orbits in the N-Body Problem. Does the Newtonian N-body
+  problem with generic masses always have infinitely many periodic orbits?'
+parameters: {}

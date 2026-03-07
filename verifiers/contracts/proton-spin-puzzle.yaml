@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.proton-spin-puzzle
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/proton_spin_puzzle_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Proton Spin Puzzle. What fraction of the proton spin comes from gluon angular
+  momentum? Resolving the proton spin decomposition remains an open problem.'
+parameters: {}

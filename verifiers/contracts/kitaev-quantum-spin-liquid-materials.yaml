@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.kitaev-quantum-spin-liquid-materials
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kitaev_quantum_spin_liquid_materials_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kitaev Quantum Spin Liquid Materials. Can a material realization of the
+  exact Kitaev spin liquid with Majorana fermion excitations be definitively demonstrated experimentally?'
+parameters: {}

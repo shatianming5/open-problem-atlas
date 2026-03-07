@@ -22,6 +22,12 @@ problem_type: classification
 answer_type: classification_list
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     Classify all irreducible unitary representations of a real reductive Lie

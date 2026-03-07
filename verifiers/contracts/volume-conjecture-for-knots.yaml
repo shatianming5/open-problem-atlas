@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.volume-conjecture-for-knots
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/volume_conjecture_for_knots_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Volume Conjecture for Knots. The asymptotic growth rate of the colored Jones
+  polynomial of a hyperbolic knot K equals the hyperbolic volume of the knot complement S^3 \ K.'
+parameters: {}

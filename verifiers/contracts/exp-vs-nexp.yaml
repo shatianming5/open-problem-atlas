@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.exp-vs-nexp
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/exp_vs_nexp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: EXP vs NEXP. Is EXP equal to NEXP? Separating these classes would imply
+  circuit lower bounds and has deep consequences.'
+parameters: {}

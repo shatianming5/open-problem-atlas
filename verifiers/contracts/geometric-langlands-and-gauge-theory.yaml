@@ -1,0 +1,12 @@
+problem_id: opa.phys.mathematical-physics.geometric-langlands-and-gauge-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/geometric_langlands_and_gauge_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Geometric Langlands and Gauge Theory. Can the geometric Langlands program
+  be fully realized through the physics of four-dimensional N=4 super Yang-Mills theory and its topological twists?'
+parameters: {}

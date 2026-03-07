@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebraic-geometry.langlands-program-for-function-fields-over-c
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/langlands_program_for_function_fields_over_c_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Langlands Program for Function Fields over C. Can the geometric Langlands
+  correspondence be fully established for all reductive groups over the function field of a complex curve, completing Gaitsgory''s
+  program?'
+parameters: {}

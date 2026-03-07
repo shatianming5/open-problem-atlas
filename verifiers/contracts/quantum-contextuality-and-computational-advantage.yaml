@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-contextuality-and-computational-advantage
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_contextuality_and_computational_advantage_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Contextuality and Computational Advantage. Is quantum contextuality
+  both necessary and sufficient for quantum computational advantage in all models of quantum computation?'
+parameters: {}

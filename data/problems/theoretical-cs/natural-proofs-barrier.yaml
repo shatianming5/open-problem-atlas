@@ -17,6 +17,12 @@ subdomains:
 problem_type: conjecture
 answer_type: existential
 verification_mode: proof
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: 'Razborov and Rudich (1997) showed that any proof of circuit lower bounds that is both "constructive" (can recognize
     hard functions efficiently) and "large" (applies to a large fraction of functions) cannot prove P != NP if one-way functions

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-entropy-power-inequality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_entropy_power_inequality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Entropy Power Inequality. Does a full quantum analogue of the entropy
+  power inequality hold for bosonic quantum systems? Partial results exist but the general conjecture is open.'
+parameters: {}

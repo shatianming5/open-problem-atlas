@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.worst-case-to-average-case-reductions-for-lattice-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/worst_case_to_average_case_reductions_for_lattice_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Worst-Case to Average-Case Reductions for Lattice Problems. Can the hardness
+  of worst-case lattice problems like GapSVP be tightly reduced to average-case problems like LWE for all parameters?'
+parameters: {}

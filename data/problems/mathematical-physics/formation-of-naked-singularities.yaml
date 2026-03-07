@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.formation-of-naked-singularities
+kind: problem
+title: Formation of Naked Singularities
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Under what physical conditions can naked singularities form from regular initial data in gravitational collapse,
+    violating cosmic censorship?
+sources:
+  canonical:
+  - source_id: src_joshi_2007
+    kind: website
+    url: https://arxiv.org/abs/gr-qc/0610082
+  status_evidence:
+  - source_id: src_joshi_2007
+    kind: website
+    url: https://arxiv.org/abs/gr-qc/0610082
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

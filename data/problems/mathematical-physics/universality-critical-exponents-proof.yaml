@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: medium
+tier: tier_3
 statement:
   canonical: >
     Prove that critical exponents at continuous phase transitions depend only on the

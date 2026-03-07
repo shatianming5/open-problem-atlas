@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.average-case-complexity-of-np
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/average_case_complexity_of_np_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Average-Case Complexity of NP. Are there distributional problems in NP that
+  are hard on average under P-samplable distributions?'
+parameters: {}

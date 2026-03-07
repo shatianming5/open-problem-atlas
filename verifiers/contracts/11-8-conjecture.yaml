@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.11-8-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/11_8_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: 11/8 Conjecture. For a closed spin smooth 4-manifold with nonzero signature
+  sigma, the second Betti number satisfies b_2 >= 11|sigma|/8.'
+parameters: {}

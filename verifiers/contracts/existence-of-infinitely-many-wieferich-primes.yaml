@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.existence-of-infinitely-many-wieferich-primes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_infinitely_many_wieferich_primes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Infinitely Many Wieferich Primes. Are there infinitely many
+  primes p such that 2^{p-1} = 1 (mod p^2)? Only two such primes (1093 and 3511) are known.'
+parameters: {}

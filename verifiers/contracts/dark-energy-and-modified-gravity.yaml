@@ -1,0 +1,13 @@
+problem_id: opa.phys.general-relativity.dark-energy-and-modified-gravity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dark_energy_and_modified_gravity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dark Energy and Modified Gravity. Can the observed cosmic acceleration be
+  explained by modifications to general relativity rather than a cosmological constant, and how can these be distinguished
+  observationally?'
+parameters: {}

@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.boltzmann-equation-derivation
+kind: problem
+title: Boltzmann Equation Derivation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Boltzmann equation be rigorously derived from Newtonian mechanics for long times beyond the Lanford result
+    which is valid only for short times?
+sources:
+  canonical:
+  - source_id: src_gallagher_2014
+    kind: website
+    url: https://arxiv.org/abs/1208.5753
+  status_evidence:
+  - source_id: src_gallagher_2014
+    kind: website
+    url: https://arxiv.org/abs/1208.5753
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

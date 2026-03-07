@@ -1,0 +1,32 @@
+id: opa.phys.quantum-field-theory.fate-of-the-electroweak-vacuum
+kind: problem
+title: Fate of the Electroweak Vacuum
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the electroweak vacuum absolutely stable, metastable, or unstable? What are the precise tunneling rates given
+    current measurements of the top quark and Higgs masses?
+sources:
+  canonical:
+  - source_id: src_degrassi_2012
+    kind: website
+    url: https://arxiv.org/abs/1205.6497
+  status_evidence:
+  - source_id: src_degrassi_2012
+    kind: website
+    url: https://arxiv.org/abs/1205.6497
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

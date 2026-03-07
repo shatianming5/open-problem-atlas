@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-gravity-and-quantum-error-correction
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_gravity_and_quantum_error_correction_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Gravity and Quantum Error Correction. To what extent does the AdS/CFT
+  correspondence realize quantum error correction, and can this framework be extended beyond the semiclassical regime?'
+parameters: {}

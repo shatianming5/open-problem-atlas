@@ -22,6 +22,12 @@ problem_type: computation
 answer_type: numeric
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: high
+tier: tier_1
 statement:
   canonical: >
     A hiker is lost in a forest whose shape is known to be a convex region D in the plane.

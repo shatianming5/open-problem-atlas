@@ -1,0 +1,32 @@
+id: opa.tcs.learning-theory.pac-learning-of-polynomial-size-circuits
+kind: problem
+title: PAC Learning of Polynomial-Size Circuits
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can polynomial-size circuits be PAC learned in polynomial time under the uniform distribution? This relates to
+    fundamental cryptographic assumptions.
+sources:
+  canonical:
+  - source_id: src_valiant_1984
+    kind: website
+    url: https://doi.org/10.1145/1968.1972
+  status_evidence:
+  - source_id: src_valiant_1984
+    kind: website
+    url: https://doi.org/10.1145/1968.1972
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

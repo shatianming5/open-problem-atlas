@@ -18,6 +18,12 @@ subdomains:
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
+
+verification_profile:
+  statement_precision: low
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: 'Does there exist a mathematically consistent, background-independent quantum theory that reduces to general
     relativity in the classical limit and to quantum field theory in the weak-gravity limit? More precisely, construct a quantum

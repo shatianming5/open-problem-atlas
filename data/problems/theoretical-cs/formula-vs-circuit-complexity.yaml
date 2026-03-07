@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: bound
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: low
+tier: tier_2
 statement:
   canonical: >
     A Boolean formula is a circuit where every gate has fan-out one. It is known that

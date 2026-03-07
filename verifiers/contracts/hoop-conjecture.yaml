@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.hoop-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hoop_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hoop Conjecture. Can the Thorne hoop conjecture, stating that black holes
+  form when and only when a mass is compacted into a region with circumference less than 4piGM/c^2, be proven rigorously?'
+parameters: {}

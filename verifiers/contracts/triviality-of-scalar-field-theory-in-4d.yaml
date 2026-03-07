@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.triviality-of-scalar-field-theory-in-4d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/triviality_of_scalar_field_theory_in_4d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Triviality of Scalar Field Theory in 4D. Is phi^4 theory in four dimensions
+  trivial in the continuum limit? Lattice studies suggest triviality but a rigorous proof is lacking.'
+parameters: {}

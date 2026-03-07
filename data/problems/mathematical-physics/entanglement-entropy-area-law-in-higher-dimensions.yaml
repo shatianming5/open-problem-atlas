@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.entanglement-entropy-area-law-in-higher-dimensions
+kind: problem
+title: Entanglement Entropy Area Law in Higher Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does the entanglement entropy of ground states of gapped local Hamiltonians always satisfy an area law in dimensions
+    greater than one?
+sources:
+  canonical:
+  - source_id: src_eisert_2010
+    kind: website
+    url: https://arxiv.org/abs/0808.3773
+  status_evidence:
+  - source_id: src_eisert_2010
+    kind: website
+    url: https://arxiv.org/abs/0808.3773
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

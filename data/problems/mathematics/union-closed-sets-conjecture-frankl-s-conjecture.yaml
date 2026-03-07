@@ -1,0 +1,32 @@
+id: opa.mathematics.combinatorics.union-closed-sets-conjecture-frankl-s-conjecture
+kind: problem
+title: Union-Closed Sets Conjecture (Frankl's Conjecture)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For every finite union-closed family of finite sets (not all empty), there exists an element that belongs to
+    at least half of the sets.
+sources:
+  canonical:
+  - source_id: src_frankl_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Union-closed_sets_conjecture
+  status_evidence:
+  - source_id: src_frankl_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Union-closed_sets_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

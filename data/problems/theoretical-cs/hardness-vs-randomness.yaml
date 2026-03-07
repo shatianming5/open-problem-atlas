@@ -17,6 +17,12 @@ subdomains:
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: 'The hardness vs randomness paradigm establishes that circuit lower bounds imply derandomization. Is the converse
     true? Specifically, does P = BPP imply circuit lower bounds against E (or a related class)? More generally, are hardness

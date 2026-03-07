@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.exact-ramsey-number-r-5-5
+kind: problem
+title: Exact Ramsey Number R(5,5)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact value of the Ramsey number R(5,5). It is known that 43 <= R(5,5) <= 48.
+sources:
+  canonical:
+  - source_id: src_radziszowski_2021
+    kind: website
+    url: https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS1
+  status_evidence:
+  - source_id: src_radziszowski_2021
+    kind: website
+    url: https://www.combinatorics.org/ojs/index.php/eljc/article/view/DS1
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

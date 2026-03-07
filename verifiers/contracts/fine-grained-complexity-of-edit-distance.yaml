@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.fine-grained-complexity-of-edit-distance
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fine_grained_complexity_of_edit_distance_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fine-Grained Complexity of Edit Distance. Can edit distance between two
+  strings of length n be computed in truly sub-quadratic time O(n^{2-epsilon})?'
+parameters: {}

@@ -1,0 +1,32 @@
+id: opa.mathematics.probability.universality-of-random-matrix-eigenvalue-spacing
+kind: problem
+title: Universality of Random Matrix Eigenvalue Spacing
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove universality of the Tracy-Widom distribution for the largest eigenvalue of Wigner matrices under minimal
+    moment assumptions.
+sources:
+  canonical:
+  - source_id: src_tao_2012
+    kind: website
+    url: https://arxiv.org/abs/0906.0510
+  status_evidence:
+  - source_id: src_tao_2012
+    kind: website
+    url: https://arxiv.org/abs/0906.0510
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

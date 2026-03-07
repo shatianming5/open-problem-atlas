@@ -21,6 +21,12 @@ problem_type: open_question
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: >
     Extend the Lee-Yang theorem to characterize the distribution of zeros of the

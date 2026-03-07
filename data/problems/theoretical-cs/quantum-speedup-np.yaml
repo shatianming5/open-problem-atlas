@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: bound
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: computational
+  machine_actionability: low
+tier: tier_2
 statement:
   canonical: >
     Can quantum computers achieve more than a quadratic speedup (beyond Grover's

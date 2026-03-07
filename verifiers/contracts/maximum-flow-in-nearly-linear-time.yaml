@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.maximum-flow-in-nearly-linear-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/maximum_flow_in_nearly_linear_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maximum Flow in Nearly Linear Time. Can maximum flow in directed graphs
+  be computed in nearly linear time for all capacities?'
+parameters: {}

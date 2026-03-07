@@ -17,6 +17,12 @@ subdomains:
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
+
+verification_profile:
+  statement_precision: high
+  solution_checkability: mixed
+  machine_actionability: medium
+tier: tier_2
 statement:
   canonical: 'Prove or disprove the quantum PCP conjecture: for the k-local Hamiltonian problem with k = O(1), there exists
     a constant epsilon > 0 such that it is QMA-hard to determine whether the ground state energy of a k-local Hamiltonian

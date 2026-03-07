@@ -1,0 +1,31 @@
+id: opa.mathematics.set-theory.whitehead-problem-independence
+kind: problem
+title: Whitehead Problem Independence
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- set-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Whether every Whitehead group is free is independent of ZFC; characterize models where it holds or fails.
+sources:
+  canonical:
+  - source_id: src_shelah_1974
+    kind: website
+    url: https://en.wikipedia.org/wiki/Whitehead_problem
+  status_evidence:
+  - source_id: src_shelah_1974
+    kind: website
+    url: https://en.wikipedia.org/wiki/Whitehead_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

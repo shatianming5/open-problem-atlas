@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-algorithm-for-lattice-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_algorithm_for_lattice_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Algorithm for Lattice Problems. Can quantum computers solve worst-case
+  lattice problems like the Shortest Vector Problem significantly faster than classical algorithms?'
+parameters: {}

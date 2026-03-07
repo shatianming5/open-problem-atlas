@@ -21,6 +21,12 @@ problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: low
+  solution_checkability: expert_review
+  machine_actionability: medium
+tier: tier_3
 statement:
   canonical: >
     Determine the mechanism of high-temperature superconductivity in cuprate materials.

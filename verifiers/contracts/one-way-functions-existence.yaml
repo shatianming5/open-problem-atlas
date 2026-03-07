@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.one-way-functions-existence
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/one_way_functions_existence_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: One-Way Functions Existence. Do one-way functions exist? Their existence
+  is equivalent to P != NP in the worst-case/average-case sense and is foundational to cryptography.'
+parameters: {}

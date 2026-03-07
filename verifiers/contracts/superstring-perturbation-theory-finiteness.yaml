@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.superstring-perturbation-theory-finiteness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/superstring_perturbation_theory_finiteness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Superstring Perturbation Theory Finiteness. Is superstring perturbation
+  theory finite to all orders, and can this be proven rigorously for all string backgrounds?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.dynamical-systems.weinstein-conjecture-general-case
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/weinstein_conjecture_general_case_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Weinstein Conjecture (General Case). Every Reeb flow on a closed contact
+  manifold has at least one periodic orbit. Proven in dimension 3 by Taubes but open in higher dimensions.'
+parameters: {}

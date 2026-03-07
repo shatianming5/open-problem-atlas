@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.anderson-localization-in-interacting-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/anderson_localization_in_interacting_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Anderson Localization in Interacting Systems. Does Anderson localization
+  persist in the presence of interactions at finite temperature in dimensions d >= 2, or does it always eventually thermalize?'
+parameters: {}

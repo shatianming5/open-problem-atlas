@@ -21,6 +21,12 @@ problem_type: open_question
 answer_type: classification_list
 verification_mode: proof
 
+
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
 statement:
   canonical: >
     Can the known black-box separations between cryptographic primitives be
