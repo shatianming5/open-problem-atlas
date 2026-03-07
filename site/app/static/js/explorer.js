@@ -11,6 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     domain: null,
     status: null,
     type: null,
+    tier: null,
     special: null,
   };
 
@@ -89,6 +90,7 @@ document.addEventListener('DOMContentLoaded', () => {
       if (activeFilters.domain && domain !== activeFilters.domain) visible = false;
       if (activeFilters.status && status !== activeFilters.status) visible = false;
       if (activeFilters.type && ptype !== activeFilters.type) visible = false;
+      if (activeFilters.tier && (card.dataset.tier || '') !== activeFilters.tier) visible = false;
 
       // Special filter
       if (visible && activeFilters.special) {

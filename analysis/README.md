@@ -7,3 +7,4 @@
 | 2026-03-07 | Score calibration audit | [link](data-quality/score-calibration.md) | gpt-5.4/xhigh |
 | 2026-03-07 | Leads quality audit | [link](data-quality/leads-quality-audit.md) | gpt-5.4/xhigh |
 | 2026-03-07 | Site UX review | [link](code/site-ux-review.md) | gpt-5.4/xhigh |
+| 2026-03-08 | Verification profile classification | [link](architecture/verification-profile-plan.md) | gpt-5.4/xhigh |
