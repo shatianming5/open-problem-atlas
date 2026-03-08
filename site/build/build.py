@@ -338,6 +338,42 @@ def build():
     with open(api_dir / "attempts.json", "w") as f:
         json.dump(attempts, f, indent=2, ensure_ascii=False)
 
+    # Versioned API (v1)
+    api_v1 = OUTPUT_DIR / "api" / "v1"
+    api_v1.mkdir(parents=True)
+
+    # Full problem list
+    with open(api_v1 / "problems.json", "w") as f:
+        json.dump({"total": len(problems), "problems": problems}, f, indent=2, ensure_ascii=False)
+
+    # Per-domain endpoints
+    for domain in ["mathematics", "theoretical-cs", "mathematical-physics"]:
+        domain_problems = [p for p in problems if p.get("domain") == domain]
+        with open(api_v1 / f"problems-{domain}.json", "w") as f:
+            json.dump({"total": len(domain_problems), "problems": domain_problems}, f, indent=2, ensure_ascii=False)
+
+    # Stats
+    with open(api_v1 / "stats.json", "w") as f:
+        json.dump(stats, f, indent=2, ensure_ascii=False)
+
+    # Collections
+    with open(api_v1 / "collections.json", "w") as f:
+        json.dump(collections, f, indent=2, ensure_ascii=False)
+
+    # Attempts
+    with open(api_v1 / "attempts.json", "w") as f:
+        json.dump(attempts, f, indent=2, ensure_ascii=False)
+
+    # Bench collections
+    bench_dir = DATA_DIR / "collections"
+    for bench_file in sorted(bench_dir.glob("opa-bench-*.yaml")):
+        with open(bench_file) as bf:
+            bench_data = yaml.safe_load(bf)
+        if bench_data:
+            bench_name = bench_file.stem
+            with open(api_v1 / f"{bench_name}.json", "w") as f:
+                json.dump(bench_data, f, indent=2, ensure_ascii=False)
+
     print(f"Site built: {len(problems)} problems, {len(collections)} collections, "
           f"{len(leads)} leads, {len(attempts)} attempts")
     print(f"Output: {OUTPUT_DIR}")
