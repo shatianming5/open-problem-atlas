@@ -4,9 +4,11 @@
 [![Build Site](https://github.com/OpenProblemAtlas/open-problem-atlas/actions/workflows/build-site.yml/badge.svg)](https://github.com/OpenProblemAtlas/open-problem-atlas/actions/workflows/build-site.yml)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/Data-CC%20BY--SA%204.0-blue.svg)](LICENSE)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE-CODE)
-[![Problems](https://img.shields.io/badge/problems-1000%2B-orange.svg)](data/problems/)
+[![Problems](https://img.shields.io/badge/problems-2000%2B-orange.svg)](data/problems/)
 [![Checkers](https://img.shields.io/badge/checkers-100%2B-brightgreen.svg)](verifiers/checkers/)
 [![OPA-Bench](https://img.shields.io/badge/OPA--Bench-100%20problems-purple.svg)](data/collections/opa-bench-v2.yaml)
+[![Lean4](https://img.shields.io/badge/Lean4-15%25%20formalized-blue.svg)](formalization/lean4/)
+[![arXiv](https://img.shields.io/badge/arXiv-paper-red.svg)](paper/)
 
 > A living, machine-readable atlas of open problems for researchers, AI agents, and theorem provers.
 
