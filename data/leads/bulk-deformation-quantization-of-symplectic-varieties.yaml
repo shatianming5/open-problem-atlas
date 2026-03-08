@@ -1,0 +1,11 @@
+title: Deformation Quantization of Symplectic Varieties
+statement: Determine when a singular symplectic variety admits a deformation quantization.
+source_id: curated_deformation_quantization_of_symplectic_varieties
+source_url: https://en.wikipedia.org/wiki/Deformation_quantization
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Kerr/CFT Correspondence Proof
+statement: Prove the Kerr/CFT correspondence relating extremal Kerr black holes to
+  conformal field theories.
+source_id: curated_kerr_cft_correspondence_proof
+source_url: https://en.wikipedia.org/wiki/Kerr/CFT_correspondence
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

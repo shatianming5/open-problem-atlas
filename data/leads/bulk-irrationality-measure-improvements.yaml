@@ -1,0 +1,12 @@
+title: Irrationality Measure Improvements
+statement: Improve the known irrationality measures for pi, e, and other transcendental
+  constants.
+source_id: curated_irrationality_measure_improvements
+source_url: https://en.wikipedia.org/wiki/Irrationality_measure
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Ulam's Conjecture on Graph Reconstruction
+statement: Prove that every graph on at least 3 vertices is reconstructible from its
+  vertex-deleted subgraphs.
+source_id: curated_ulam_s_conjecture_on_graph_reconstruction
+source_url: https://en.wikipedia.org/wiki/Reconstruction_conjecture
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

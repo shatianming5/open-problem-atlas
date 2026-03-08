@@ -1,0 +1,12 @@
+title: Waring's Problem for Fourth Powers
+statement: 'Determine the exact value of g(4) in Waring''s problem: every sufficiently
+  large integer is a sum of at most g(4) fourth powers.'
+source_id: curated_waring_s_problem_for_fourth_powers
+source_url: https://en.wikipedia.org/wiki/Waring%27s_problem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Quantum Entanglement Witness Optimization
+statement: Determine optimal entanglement witnesses for multipartite quantum states.
+source_id: curated_quantum_entanglement_witness_optimization
+source_url: https://en.wikipedia.org/wiki/Entanglement_witness
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Proof Complexity of Extended Frege
+statement: Determine whether Extended Frege proof systems have polynomial-size proofs
+  for all tautologies.
+source_id: curated_proof_complexity_of_extended_frege
+source_url: https://en.wikipedia.org/wiki/Proof_complexity
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

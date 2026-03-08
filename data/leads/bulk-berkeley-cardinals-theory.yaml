@@ -1,0 +1,11 @@
+title: Berkeley Cardinals Theory
+statement: Develop the theory of Berkeley cardinals and their relationship to choice.
+source_id: curated_berkeley_cardinals_theory
+source_url: https://en.wikipedia.org/wiki/Berkeley_cardinal
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

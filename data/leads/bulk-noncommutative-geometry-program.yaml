@@ -1,0 +1,12 @@
+title: Noncommutative Geometry Program
+statement: Develop Connes' noncommutative geometry program for the Standard Model
+  and gravity.
+source_id: curated_noncommutative_geometry_program
+source_url: https://en.wikipedia.org/wiki/Noncommutative_geometry
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

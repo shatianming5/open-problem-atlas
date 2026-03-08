@@ -1,0 +1,11 @@
+title: Titchmarsh Divisor Problem
+statement: Determine the asymptotic average of the divisor function over shifted primes.
+source_id: curated_titchmarsh_divisor_problem
+source_url: https://en.wikipedia.org/wiki/Titchmarsh_divisor_problem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

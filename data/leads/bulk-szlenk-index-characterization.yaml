@@ -1,0 +1,11 @@
+title: Szlenk Index Characterization
+statement: Characterize Banach spaces by their Szlenk index.
+source_id: curated_szlenk_index_characterization
+source_url: https://en.wikipedia.org/wiki/Szlenk_index
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Topological Quantum Computing Error Thresholds
+statement: Determine the error thresholds for topological quantum computation with
+  realistic noise.
+source_id: curated_topological_quantum_computing_error_thresholds
+source_url: https://en.wikipedia.org/wiki/Topological_quantum_computer
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Cohen-Lenstra Heuristics Proof
+statement: Prove the Cohen-Lenstra heuristics for the distribution of class groups
+  of quadratic fields.
+source_id: curated_cohen_lenstra_heuristics_proof
+source_url: https://en.wikipedia.org/wiki/Cohen%E2%80%93Lenstra_heuristics
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Active Learning Query Complexity Optimal
+statement: Determine the optimal number of label queries for active learning of concept
+  classes.
+source_id: curated_active_learning_query_complexity_optimal
+source_url: https://en.wikipedia.org/wiki/Active_learning_(machine_learning)
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

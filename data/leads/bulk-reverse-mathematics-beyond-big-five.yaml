@@ -1,0 +1,12 @@
+title: Reverse Mathematics Beyond Big Five
+statement: Extend reverse mathematics beyond the big five subsystems of second-order
+  arithmetic.
+source_id: curated_reverse_mathematics_beyond_big_five
+source_url: https://en.wikipedia.org/wiki/Reverse_mathematics
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

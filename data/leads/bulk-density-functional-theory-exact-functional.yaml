@@ -1,0 +1,12 @@
+title: Density Functional Theory Exact Functional
+statement: Determine the exact exchange-correlation functional in density functional
+  theory.
+source_id: curated_density_functional_theory_exact_functional
+source_url: https://en.wikipedia.org/wiki/Density_functional_theory
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

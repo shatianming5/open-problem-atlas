@@ -1,0 +1,12 @@
+title: Black Hole Information Paradox Resolution
+statement: Resolve the black hole information paradox by demonstrating unitarity of
+  black hole evaporation.
+source_id: curated_black_hole_information_paradox_resolution
+source_url: https://en.wikipedia.org/wiki/Black_hole_information_paradox
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

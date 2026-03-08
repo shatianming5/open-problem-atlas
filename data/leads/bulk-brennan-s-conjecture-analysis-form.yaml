@@ -1,0 +1,12 @@
+title: Brennan's Conjecture (Analysis Form)
+statement: If f is a conformal map on the unit disk, then f' is in L^p for all p <
+  4/3 + epsilon.
+source_id: curated_brennan_s_conjecture_analysis_form
+source_url: https://en.wikipedia.org/wiki/Brennan_conjecture
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

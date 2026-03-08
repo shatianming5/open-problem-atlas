@@ -1,0 +1,12 @@
+title: Colored Jones Polynomial and Volume
+statement: Prove the volume conjecture relating the colored Jones polynomial to the
+  hyperbolic volume of a knot complement.
+source_id: curated_colored_jones_polynomial_and_volume
+source_url: https://en.wikipedia.org/wiki/Volume_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

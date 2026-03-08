@@ -1,0 +1,12 @@
+title: NEXP not in ACC0
+statement: Prove that NEXP is not contained in ACC0 circuits (extending Williams'
+  result).
+source_id: curated_nexp_not_in_acc0
+source_url: https://en.wikipedia.org/wiki/ACC0
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Serre's Modularity Conjecture (Extensions)
+statement: Extend Serre's modularity conjecture to higher-dimensional Galois representations.
+source_id: curated_serre_s_modularity_conjecture_extensions
+source_url: https://en.wikipedia.org/wiki/Serre%27s_modularity_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

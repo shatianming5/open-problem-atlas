@@ -1,0 +1,12 @@
+title: Indistinguishability Obfuscation Security
+statement: Prove the security of indistinguishability obfuscation from well-studied
+  assumptions.
+source_id: curated_indistinguishability_obfuscation_security
+source_url: https://en.wikipedia.org/wiki/Indistinguishability_obfuscation
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

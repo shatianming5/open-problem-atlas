@@ -1,0 +1,11 @@
+title: Information-Theoretic Limits of Generalization
+statement: Determine tight information-theoretic bounds on generalization error.
+source_id: curated_information_theoretic_limits_of_generalization
+source_url: https://en.wikipedia.org/wiki/Generalization_error
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

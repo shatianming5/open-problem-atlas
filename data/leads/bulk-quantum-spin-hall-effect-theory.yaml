@@ -1,0 +1,11 @@
+title: Quantum Spin Hall Effect Theory
+statement: Complete the theory of the quantum spin Hall effect and its realizations.
+source_id: curated_quantum_spin_hall_effect_theory
+source_url: https://en.wikipedia.org/wiki/Quantum_spin_Hall_effect
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

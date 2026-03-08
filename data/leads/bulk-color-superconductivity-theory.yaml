@@ -1,0 +1,11 @@
+title: Color Superconductivity Theory
+statement: Develop a rigorous theory of color superconductivity in dense quark matter.
+source_id: curated_color_superconductivity_theory
+source_url: https://en.wikipedia.org/wiki/Color_superconductivity
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

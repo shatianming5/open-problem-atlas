@@ -1,0 +1,11 @@
+title: Thermodynamic Uncertainty Relations Proof
+statement: Prove thermodynamic uncertainty relations for general non-equilibrium systems.
+source_id: curated_thermodynamic_uncertainty_relations_proof
+source_url: https://en.wikipedia.org/wiki/Thermodynamic_uncertainty_relation
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

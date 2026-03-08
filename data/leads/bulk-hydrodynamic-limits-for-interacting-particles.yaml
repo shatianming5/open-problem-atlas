@@ -1,0 +1,12 @@
+title: Hydrodynamic Limits for Interacting Particles
+statement: Prove hydrodynamic limits for interacting particle systems with long-range
+  correlations.
+source_id: curated_hydrodynamic_limits_for_interacting_particles
+source_url: https://en.wikipedia.org/wiki/Hydrodynamic_limit
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

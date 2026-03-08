@@ -1,0 +1,12 @@
+title: Dubner's Conjecture
+statement: For every k >= 1, there exist infinitely many primes that are repunits
+  in base k.
+source_id: curated_dubner_s_conjecture
+source_url: https://en.wikipedia.org/wiki/Repunit
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

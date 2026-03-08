@@ -1,0 +1,12 @@
+title: Infinitely Many Palindromic Primes in Base 10
+statement: Determine whether there are infinitely many palindromic primes in base
+  10.
+source_id: curated_infinitely_many_palindromic_primes_in_base_10
+source_url: https://en.wikipedia.org/wiki/Palindromic_prime
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

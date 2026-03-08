@@ -1,0 +1,11 @@
+title: Persistent Data Structures Optimality
+statement: Determine the optimal overhead for making data structures fully persistent.
+source_id: curated_persistent_data_structures_optimality
+source_url: https://en.wikipedia.org/wiki/Persistent_data_structure
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

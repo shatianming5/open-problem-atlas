@@ -1,0 +1,12 @@
+title: Hilbert's 16th Problem (Full Resolution)
+statement: Determine the maximum number of limit cycles for polynomial vector fields
+  of degree n.
+source_id: curated_hilbert_s_16th_problem_full_resolution
+source_url: https://en.wikipedia.org/wiki/Hilbert%27s_sixteenth_problem
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

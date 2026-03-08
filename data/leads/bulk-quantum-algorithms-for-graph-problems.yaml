@@ -1,0 +1,11 @@
+title: Quantum Algorithms for Graph Problems
+statement: Determine the quantum query complexity of fundamental graph problems.
+source_id: curated_quantum_algorithms_for_graph_problems
+source_url: https://en.wikipedia.org/wiki/Quantum_algorithm
+domain_hint: theoretical-cs
+subdomain_hint: quantum-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

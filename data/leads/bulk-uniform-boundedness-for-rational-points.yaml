@@ -1,0 +1,12 @@
+title: Uniform Boundedness for Rational Points
+statement: Prove uniform bounds on the number of rational points on curves of fixed
+  genus.
+source_id: curated_uniform_boundedness_for_rational_points
+source_url: https://en.wikipedia.org/wiki/Faltings%27s_theorem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

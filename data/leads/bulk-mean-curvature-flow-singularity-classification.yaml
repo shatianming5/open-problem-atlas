@@ -1,0 +1,11 @@
+title: Mean Curvature Flow Singularity Classification
+statement: Classify all possible singularity types in mean curvature flow.
+source_id: curated_mean_curvature_flow_singularity_classification
+source_url: https://en.wikipedia.org/wiki/Mean_curvature_flow
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

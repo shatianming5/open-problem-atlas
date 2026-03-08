@@ -1,0 +1,11 @@
+title: 3D Ising Model Exact Solution
+statement: Find an exact solution for the 3D Ising model partition function.
+source_id: curated_3d_ising_model_exact_solution
+source_url: https://en.wikipedia.org/wiki/Ising_model
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

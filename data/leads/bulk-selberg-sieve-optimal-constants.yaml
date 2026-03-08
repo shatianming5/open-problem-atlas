@@ -1,0 +1,11 @@
+title: Selberg Sieve Optimal Constants
+statement: Determine the optimal constants in the Selberg sieve.
+source_id: curated_selberg_sieve_optimal_constants
+source_url: https://en.wikipedia.org/wiki/Selberg_sieve
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

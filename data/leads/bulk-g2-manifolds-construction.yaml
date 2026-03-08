@@ -1,0 +1,11 @@
+title: G2 Manifolds Construction
+statement: Construct compact G2 manifolds with prescribed topological properties.
+source_id: curated_g2_manifolds_construction
+source_url: https://en.wikipedia.org/wiki/G2_manifold
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Motivic Integration Theory
+statement: Complete the theory of motivic integration and its applications to birational
+  geometry.
+source_id: curated_motivic_integration_theory
+source_url: https://en.wikipedia.org/wiki/Motivic_integration
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

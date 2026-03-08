@@ -1,0 +1,11 @@
+title: Quantum Nonlocality Without Entanglement (Classification)
+statement: Classify all instances of quantum nonlocality that do not require entanglement.
+source_id: curated_quantum_nonlocality_without_entanglement_classification
+source_url: https://en.wikipedia.org/wiki/Quantum_nonlocality
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

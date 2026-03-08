@@ -1,0 +1,12 @@
+title: Geometric Satake Correspondence Extensions
+statement: Extend the geometric Satake correspondence to the non-split and positive
+  characteristic settings.
+source_id: curated_geometric_satake_correspondence_extensions
+source_url: https://en.wikipedia.org/wiki/Geometric_Satake_equivalence
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

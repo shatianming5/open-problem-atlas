@@ -1,0 +1,12 @@
+title: Turan Problem for Hypergraphs
+statement: Determine the Turan number ex(n, K_4^3) for the complete 3-uniform hypergraph
+  on 4 vertices.
+source_id: curated_turan_problem_for_hypergraphs
+source_url: https://en.wikipedia.org/wiki/Tur%C3%A1n_number
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

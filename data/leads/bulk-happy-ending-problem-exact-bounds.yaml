@@ -1,0 +1,12 @@
+title: Happy Ending Problem Exact Bounds
+statement: Determine the exact value of the Erdos-Szekeres function ES(n) for all
+  n.
+source_id: curated_happy_ending_problem_exact_bounds
+source_url: https://en.wikipedia.org/wiki/Happy_ending_problem
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

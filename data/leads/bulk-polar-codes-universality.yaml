@@ -1,0 +1,12 @@
+title: Polar Codes Universality
+statement: Prove that polar codes achieve capacity universally over all symmetric
+  channels.
+source_id: curated_polar_codes_universality
+source_url: https://en.wikipedia.org/wiki/Polar_code_(coding_theory)
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

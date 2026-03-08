@@ -1,0 +1,11 @@
+title: M-Theory Mathematical Formulation
+statement: Develop a precise mathematical formulation of M-theory.
+source_id: curated_m_theory_mathematical_formulation
+source_url: https://en.wikipedia.org/wiki/M-theory
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

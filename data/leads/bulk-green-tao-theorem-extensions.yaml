@@ -1,0 +1,12 @@
+title: Green-Tao Theorem Extensions
+statement: Extend the Green-Tao theorem on arithmetic progressions in primes to polynomial
+  configurations.
+source_id: curated_green_tao_theorem_extensions
+source_url: https://en.wikipedia.org/wiki/Green%E2%80%93Tao_theorem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

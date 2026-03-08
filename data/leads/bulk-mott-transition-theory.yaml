@@ -1,0 +1,12 @@
+title: Mott Transition Theory
+statement: Develop a rigorous theory of the Mott metal-insulator transition in the
+  Hubbard model.
+source_id: curated_mott_transition_theory
+source_url: https://en.wikipedia.org/wiki/Mott_transition
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

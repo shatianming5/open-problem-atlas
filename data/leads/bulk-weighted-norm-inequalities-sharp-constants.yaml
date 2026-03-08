@@ -1,0 +1,11 @@
+title: Weighted Norm Inequalities Sharp Constants
+statement: Determine the sharp constant in the A_2 conjecture for singular integrals.
+source_id: curated_weighted_norm_inequalities_sharp_constants
+source_url: https://en.wikipedia.org/wiki/Calder%C3%B3n%E2%80%93Zygmund_theory
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

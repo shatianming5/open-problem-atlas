@@ -1,0 +1,11 @@
+title: Griffiths Conjecture on Ample Bundles
+statement: A Griffiths-positive vector bundle is ample.
+source_id: curated_griffiths_conjecture_on_ample_bundles
+source_url: https://en.wikipedia.org/wiki/Griffiths_conjecture
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

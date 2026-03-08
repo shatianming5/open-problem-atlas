@@ -1,0 +1,12 @@
+title: Arnold Conjecture (General Form)
+statement: Prove the Arnold conjecture on the number of fixed points of Hamiltonian
+  diffeomorphisms for general manifolds.
+source_id: curated_arnold_conjecture_general_form
+source_url: https://en.wikipedia.org/wiki/Arnold_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

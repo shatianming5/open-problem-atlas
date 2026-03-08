@@ -1,0 +1,12 @@
+title: Falconer's Distance Set Conjecture (Full)
+statement: If a compact set in R^d has Hausdorff dimension > d/2, then its distance
+  set has positive Lebesgue measure.
+source_id: curated_falconer_s_distance_set_conjecture_full
+source_url: https://en.wikipedia.org/wiki/Falconer%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

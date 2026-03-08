@@ -1,0 +1,11 @@
+title: Arithmetic Combinatorics in Function Fields
+statement: Develop arithmetic combinatorics over function fields and its applications.
+source_id: curated_arithmetic_combinatorics_in_function_fields
+source_url: https://en.wikipedia.org/wiki/Arithmetic_combinatorics
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

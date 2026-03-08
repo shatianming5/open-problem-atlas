@@ -1,0 +1,12 @@
+title: Double Copy Construction for Gravity
+statement: Rigorously prove and extend the BCJ double copy relating gauge theory and
+  gravity amplitudes.
+source_id: curated_double_copy_construction_for_gravity
+source_url: https://en.wikipedia.org/wiki/BCJ_duality
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

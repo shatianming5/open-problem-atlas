@@ -1,0 +1,12 @@
+title: Mean Field Theory Rigorous Justification
+statement: Rigorously justify mean field theory approximations for spin systems on
+  high-dimensional lattices.
+source_id: curated_mean_field_theory_rigorous_justification
+source_url: https://en.wikipedia.org/wiki/Mean-field_theory
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

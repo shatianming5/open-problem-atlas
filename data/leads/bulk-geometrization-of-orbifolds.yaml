@@ -1,0 +1,11 @@
+title: Geometrization of Orbifolds
+statement: Extend Perelman's geometrization theorem to 3-orbifolds.
+source_id: curated_geometrization_of_orbifolds
+source_url: https://en.wikipedia.org/wiki/Orbifold
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

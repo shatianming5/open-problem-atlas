@@ -1,0 +1,11 @@
+title: Quantum Gravity from Quantum Information
+statement: Derive gravitational dynamics from quantum information principles.
+source_id: curated_quantum_gravity_from_quantum_information
+source_url: https://en.wikipedia.org/wiki/Quantum_gravity
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

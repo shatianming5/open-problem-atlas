@@ -1,0 +1,12 @@
+title: Bloch-Kato Conjecture on Special Values
+statement: The special values of L-functions of motives are determined by periods
+  and Tamagawa numbers.
+source_id: curated_bloch_kato_conjecture_on_special_values
+source_url: https://en.wikipedia.org/wiki/Bloch%E2%80%93Kato_conjecture_(number_theory)
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

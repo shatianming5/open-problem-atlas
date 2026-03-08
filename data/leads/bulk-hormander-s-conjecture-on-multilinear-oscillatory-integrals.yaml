@@ -1,0 +1,11 @@
+title: Hormander's Conjecture on Multilinear Oscillatory Integrals
+statement: Prove optimal decay estimates for multilinear oscillatory integrals.
+source_id: curated_hormander_s_conjecture_on_multilinear_oscillatory_integrals
+source_url: https://en.wikipedia.org/wiki/Oscillatory_integral
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

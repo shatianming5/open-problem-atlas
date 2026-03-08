@@ -1,0 +1,11 @@
+title: Calibrated Geometry Classification
+statement: Classify calibrated submanifolds in special holonomy manifolds.
+source_id: curated_calibrated_geometry_classification
+source_url: https://en.wikipedia.org/wiki/Calibrated_geometry
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

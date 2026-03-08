@@ -1,0 +1,12 @@
+title: Graham's Conjecture on Sequences
+statement: Prove Graham's conjecture that every sequence with sum exceeding 1 contains
+  a subsequence with sum close to 1.
+source_id: curated_graham_s_conjecture_on_sequences
+source_url: https://en.wikipedia.org/wiki/Ronald_Graham
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

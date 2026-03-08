@@ -1,0 +1,11 @@
+title: Set Systems with Restricted Intersections
+statement: Determine tight bounds for set systems with restricted intersection sizes.
+source_id: curated_set_systems_with_restricted_intersections
+source_url: https://en.wikipedia.org/wiki/Sunflower_(mathematics)
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

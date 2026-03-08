@@ -1,0 +1,11 @@
+title: Firewall Paradox Resolution
+statement: Resolve the firewall paradox for black hole horizons.
+source_id: curated_firewall_paradox_resolution
+source_url: https://en.wikipedia.org/wiki/Firewall_(physics)
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

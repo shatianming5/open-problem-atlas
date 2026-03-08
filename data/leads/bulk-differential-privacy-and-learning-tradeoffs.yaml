@@ -1,0 +1,12 @@
+title: Differential Privacy and Learning Tradeoffs
+statement: Determine the exact cost of differential privacy for learning fundamental
+  concept classes.
+source_id: curated_differential_privacy_and_learning_tradeoffs
+source_url: https://en.wikipedia.org/wiki/Differential_privacy
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

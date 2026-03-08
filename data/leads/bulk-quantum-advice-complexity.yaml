@@ -1,0 +1,11 @@
+title: Quantum Advice Complexity
+statement: Determine the power of quantum advice for computation.
+source_id: curated_quantum_advice_complexity
+source_url: https://en.wikipedia.org/wiki/Advice_(complexity)
+domain_hint: theoretical-cs
+subdomain_hint: quantum-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

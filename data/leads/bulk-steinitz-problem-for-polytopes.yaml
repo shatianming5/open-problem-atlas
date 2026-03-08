@@ -1,0 +1,11 @@
+title: Steinitz Problem for Polytopes
+statement: Characterize which combinatorial types can be realized as polytopes.
+source_id: curated_steinitz_problem_for_polytopes
+source_url: https://en.wikipedia.org/wiki/Steinitz%27s_theorem
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

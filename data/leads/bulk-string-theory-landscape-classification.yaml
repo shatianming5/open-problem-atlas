@@ -1,0 +1,12 @@
+title: String Theory Landscape Classification
+statement: Classify the string theory landscape and determine the number of consistent
+  vacua.
+source_id: curated_string_theory_landscape_classification
+source_url: https://en.wikipedia.org/wiki/String_theory_landscape
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

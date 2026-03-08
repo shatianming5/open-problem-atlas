@@ -1,0 +1,12 @@
+title: Soergel Bimodules and Kazhdan-Lusztig Theory
+statement: Complete the theory of Soergel bimodules and prove the full Kazhdan-Lusztig
+  conjecture.
+source_id: curated_soergel_bimodules_and_kazhdan_lusztig_theory
+source_url: https://en.wikipedia.org/wiki/Soergel_bimodule
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

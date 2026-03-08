@@ -1,0 +1,12 @@
+title: Polynomial Identity Testing (PIT)
+statement: Develop a deterministic polynomial-time algorithm for polynomial identity
+  testing.
+source_id: curated_polynomial_identity_testing_pit
+source_url: https://en.wikipedia.org/wiki/Polynomial_identity_testing
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

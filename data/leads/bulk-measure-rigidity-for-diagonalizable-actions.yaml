@@ -1,0 +1,11 @@
+title: Measure Rigidity for Diagonalizable Actions
+statement: Classify all invariant measures for diagonalizable algebraic group actions.
+source_id: curated_measure_rigidity_for_diagonalizable_actions
+source_url: https://en.wikipedia.org/wiki/Invariant_measure
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

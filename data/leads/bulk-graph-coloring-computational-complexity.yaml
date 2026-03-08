@@ -1,0 +1,12 @@
+title: Graph Coloring Computational Complexity
+statement: Determine the exact complexity of k-coloring for k >= 3 on restricted graph
+  classes.
+source_id: curated_graph_coloring_computational_complexity
+source_url: https://en.wikipedia.org/wiki/Graph_coloring
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

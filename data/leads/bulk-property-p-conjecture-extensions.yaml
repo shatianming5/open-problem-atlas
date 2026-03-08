@@ -1,0 +1,12 @@
+title: Property P Conjecture Extensions
+statement: Extend the proof of Property P to characterize all exceptional surgeries
+  on knots.
+source_id: curated_property_p_conjecture_extensions
+source_url: https://en.wikipedia.org/wiki/Property_P_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

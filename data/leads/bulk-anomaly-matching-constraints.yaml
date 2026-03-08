@@ -1,0 +1,11 @@
+title: Anomaly Matching Constraints
+statement: Prove anomaly matching conditions for general quantum field theories.
+source_id: curated_anomaly_matching_constraints
+source_url: https://en.wikipedia.org/wiki/Anomaly_matching_condition
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Wolstenholme's Conjecture
+statement: Determine whether Wolstenholme primes (primes p with binomial(2p,p) = 1
+  mod p^4) are infinite in number.
+source_id: curated_wolstenholme_s_conjecture
+source_url: https://en.wikipedia.org/wiki/Wolstenholme%27s_theorem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

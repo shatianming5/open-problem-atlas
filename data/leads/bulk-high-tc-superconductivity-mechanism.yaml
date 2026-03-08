@@ -1,0 +1,12 @@
+title: High-Tc Superconductivity Mechanism
+statement: Determine the pairing mechanism responsible for high-temperature superconductivity
+  in cuprates.
+source_id: curated_high_tc_superconductivity_mechanism
+source_url: https://en.wikipedia.org/wiki/High-temperature_superconductivity
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

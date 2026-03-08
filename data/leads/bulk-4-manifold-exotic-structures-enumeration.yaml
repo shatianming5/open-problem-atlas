@@ -1,0 +1,11 @@
+title: 4-Manifold Exotic Structures Enumeration
+statement: Enumerate all exotic smooth structures on compact 4-manifolds.
+source_id: curated_4_manifold_exotic_structures_enumeration
+source_url: https://en.wikipedia.org/wiki/Exotic_R4
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

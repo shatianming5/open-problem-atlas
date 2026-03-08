@@ -1,0 +1,12 @@
+title: Polya's Random Walk Return Probability
+statement: Extend Polya's recurrence theorem to random walks on general graphs and
+  groups.
+source_id: curated_polya_s_random_walk_return_probability
+source_url: https://en.wikipedia.org/wiki/Random_walk
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

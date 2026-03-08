@@ -1,0 +1,12 @@
+title: Geometric Complexity Theory Program
+statement: Complete the geometric complexity theory approach to VP vs VNP and P vs
+  NP.
+source_id: curated_geometric_complexity_theory_program
+source_url: https://en.wikipedia.org/wiki/Geometric_complexity_theory
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

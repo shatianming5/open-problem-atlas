@@ -1,0 +1,11 @@
+title: Decoupling Conjecture for Higher-Order Surfaces
+statement: Prove sharp l^p decoupling inequalities for surfaces of higher order.
+source_id: curated_decoupling_conjecture_for_higher_order_surfaces
+source_url: https://en.wikipedia.org/wiki/Decoupling_inequality
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

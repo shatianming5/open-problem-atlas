@@ -1,0 +1,12 @@
+title: Cabling Conjecture
+statement: If Dehn surgery on a knot yields a reducible manifold, the knot is a cable
+  knot.
+source_id: curated_cabling_conjecture
+source_url: https://en.wikipedia.org/wiki/Cabling_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

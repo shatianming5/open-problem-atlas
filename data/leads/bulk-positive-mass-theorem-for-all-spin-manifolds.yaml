@@ -1,0 +1,12 @@
+title: Positive Mass Theorem for All Spin Manifolds
+statement: Prove the positive mass theorem for asymptotically flat manifolds in all
+  dimensions without the spin assumption.
+source_id: curated_positive_mass_theorem_for_all_spin_manifolds
+source_url: https://en.wikipedia.org/wiki/Positive_energy_theorem
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

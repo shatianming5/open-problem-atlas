@@ -1,0 +1,12 @@
+title: Unique Continuation at Infinity
+statement: If a solution to an elliptic PDE decays faster than any exponential at
+  infinity, must it be identically zero?
+source_id: curated_unique_continuation_at_infinity
+source_url: https://en.wikipedia.org/wiki/Unique_continuation
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

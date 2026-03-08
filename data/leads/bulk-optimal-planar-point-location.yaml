@@ -1,0 +1,12 @@
+title: Optimal Planar Point Location
+statement: Determine the optimal query time for planar point location with linear
+  space.
+source_id: curated_optimal_planar_point_location
+source_url: https://en.wikipedia.org/wiki/Point_location
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

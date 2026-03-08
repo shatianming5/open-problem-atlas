@@ -1,0 +1,11 @@
+title: Ricci Flow with Surgery in Higher Dimensions
+statement: Extend Perelman's Ricci flow with surgery to higher dimensions.
+source_id: curated_ricci_flow_with_surgery_in_higher_dimensions
+source_url: https://en.wikipedia.org/wiki/Ricci_flow
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

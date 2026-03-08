@@ -1,0 +1,11 @@
+title: Bulk-Boundary Correspondence in Topological Insulators
+statement: Prove the bulk-boundary correspondence for topological insulators rigorously.
+source_id: curated_bulk_boundary_correspondence_in_topological_insulators
+source_url: https://en.wikipedia.org/wiki/Topological_insulator
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

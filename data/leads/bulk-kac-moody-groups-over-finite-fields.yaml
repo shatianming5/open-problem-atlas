@@ -1,0 +1,12 @@
+title: Kac-Moody Groups Over Finite Fields
+statement: Develop a complete representation theory for Kac-Moody groups over finite
+  fields.
+source_id: curated_kac_moody_groups_over_finite_fields
+source_url: https://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

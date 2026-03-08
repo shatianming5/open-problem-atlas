@@ -1,0 +1,11 @@
+title: Virtual Fibering for 3-Manifolds
+statement: Extend Agol's virtual fibering theorem to 3-manifolds with boundary.
+source_id: curated_virtual_fibering_for_3_manifolds
+source_url: https://en.wikipedia.org/wiki/Virtually_fibered_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

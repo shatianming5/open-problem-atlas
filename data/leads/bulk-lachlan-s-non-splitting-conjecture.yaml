@@ -1,0 +1,12 @@
+title: Lachlan's Non-Splitting Conjecture
+statement: Resolve Lachlan's conjecture on the structure of the recursively enumerable
+  degrees.
+source_id: curated_lachlan_s_non_splitting_conjecture
+source_url: https://en.wikipedia.org/wiki/Turing_degree
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

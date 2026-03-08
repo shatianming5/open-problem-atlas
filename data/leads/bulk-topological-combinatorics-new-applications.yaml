@@ -1,0 +1,12 @@
+title: Topological Combinatorics New Applications
+statement: Find new applications of topological methods to combinatorial problems
+  beyond Kneser's conjecture.
+source_id: curated_topological_combinatorics_new_applications
+source_url: https://en.wikipedia.org/wiki/Topological_combinatorics
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

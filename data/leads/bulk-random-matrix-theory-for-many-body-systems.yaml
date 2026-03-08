@@ -1,0 +1,11 @@
+title: Random Matrix Theory for Many-Body Systems
+statement: Apply random matrix theory to predict properties of many-body quantum systems.
+source_id: curated_random_matrix_theory_for_many_body_systems
+source_url: https://en.wikipedia.org/wiki/Random_matrix
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

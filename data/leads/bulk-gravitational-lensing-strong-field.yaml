@@ -1,0 +1,12 @@
+title: Gravitational Lensing Strong Field
+statement: Develop the complete theory of gravitational lensing in the strong-field
+  regime.
+source_id: curated_gravitational_lensing_strong_field
+source_url: https://en.wikipedia.org/wiki/Gravitational_lens
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

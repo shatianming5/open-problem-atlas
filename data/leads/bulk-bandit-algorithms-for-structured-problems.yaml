@@ -1,0 +1,11 @@
+title: Bandit Algorithms for Structured Problems
+statement: Design optimal bandit algorithms for problems with combinatorial structure.
+source_id: curated_bandit_algorithms_for_structured_problems
+source_url: https://en.wikipedia.org/wiki/Multi-armed_bandit
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

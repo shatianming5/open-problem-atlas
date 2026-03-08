@@ -1,0 +1,12 @@
+title: Quantum Causal Structure Theory
+statement: Develop a complete theory of quantum causal structure and indefinite causal
+  order.
+source_id: curated_quantum_causal_structure_theory
+source_url: https://en.wikipedia.org/wiki/Causal_structure
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

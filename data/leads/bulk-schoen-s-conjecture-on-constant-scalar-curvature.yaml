@@ -1,0 +1,12 @@
+title: Schoen's Conjecture on Constant Scalar Curvature
+statement: Prove compactness of the set of constant scalar curvature metrics in a
+  conformal class for dimensions n >= 25.
+source_id: curated_schoen_s_conjecture_on_constant_scalar_curvature
+source_url: https://en.wikipedia.org/wiki/Yamabe_problem
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

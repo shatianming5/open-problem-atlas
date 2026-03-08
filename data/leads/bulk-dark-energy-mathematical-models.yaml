@@ -1,0 +1,11 @@
+title: Dark Energy Mathematical Models
+statement: Develop rigorous mathematical models for dark energy consistent with observations.
+source_id: curated_dark_energy_mathematical_models
+source_url: https://en.wikipedia.org/wiki/Dark_energy
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

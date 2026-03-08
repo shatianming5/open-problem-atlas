@@ -1,0 +1,12 @@
+title: Stanley's Positivity Conjecture
+statement: Prove Stanley's conjecture on the positivity of chromatic symmetric functions
+  for certain graph classes.
+source_id: curated_stanley_s_positivity_conjecture
+source_url: https://en.wikipedia.org/wiki/Chromatic_symmetric_function
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

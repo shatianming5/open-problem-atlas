@@ -1,0 +1,11 @@
+title: Average Rank of Elliptic Curves
+statement: Prove that the average rank of elliptic curves ordered by height is 1/2.
+source_id: curated_average_rank_of_elliptic_curves
+source_url: https://en.wikipedia.org/wiki/Elliptic_curve
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

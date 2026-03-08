@@ -1,0 +1,12 @@
+title: Perfectoid Spaces Further Applications
+statement: Find new applications of perfectoid spaces in number theory and algebraic
+  geometry.
+source_id: curated_perfectoid_spaces_further_applications
+source_url: https://en.wikipedia.org/wiki/Perfectoid_space
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

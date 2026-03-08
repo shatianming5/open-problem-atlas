@@ -1,0 +1,12 @@
+title: Neural Network Learnability Theory
+statement: Characterize the computational complexity of learning neural networks with
+  various architectures.
+source_id: curated_neural_network_learnability_theory
+source_url: https://en.wikipedia.org/wiki/Artificial_neural_network
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

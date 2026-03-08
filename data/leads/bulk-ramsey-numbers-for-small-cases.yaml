@@ -1,0 +1,12 @@
+title: Ramsey Numbers for Small Cases
+statement: Determine R(5,5), R(4,6), and other small diagonal and off-diagonal Ramsey
+  numbers.
+source_id: curated_ramsey_numbers_for_small_cases
+source_url: https://en.wikipedia.org/wiki/Ramsey%27s_theorem
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Black Hole Thermodynamics Foundations
+statement: Provide a rigorous foundation for the four laws of black hole thermodynamics.
+source_id: curated_black_hole_thermodynamics_foundations
+source_url: https://en.wikipedia.org/wiki/Black_hole_thermodynamics
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Wall-Crossing Formulas Proof
+statement: Prove the Kontsevich-Soibelman wall-crossing formula for BPS states.
+source_id: curated_wall_crossing_formulas_proof
+source_url: https://en.wikipedia.org/wiki/Wall-crossing
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

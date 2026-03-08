@@ -1,0 +1,12 @@
+title: Ramsey Multiplicity Problem
+statement: Determine the minimum number of monochromatic copies of K_t in any 2-coloring
+  of K_n.
+source_id: curated_ramsey_multiplicity_problem
+source_url: https://en.wikipedia.org/wiki/Ramsey_theory
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

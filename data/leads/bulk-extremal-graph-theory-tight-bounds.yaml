@@ -1,0 +1,12 @@
+title: Extremal Graph Theory Tight Bounds
+statement: Determine tight Turan-type bounds for forbidden subgraphs beyond complete
+  bipartite graphs.
+source_id: curated_extremal_graph_theory_tight_bounds
+source_url: https://en.wikipedia.org/wiki/Tur%C3%A1n%27s_theorem
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

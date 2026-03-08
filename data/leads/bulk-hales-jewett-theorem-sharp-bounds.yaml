@@ -1,0 +1,11 @@
+title: Hales-Jewett Theorem Sharp Bounds
+statement: Determine the exact values of the Hales-Jewett numbers HJ(r, k).
+source_id: curated_hales_jewett_theorem_sharp_bounds
+source_url: https://en.wikipedia.org/wiki/Hales%E2%80%93Jewett_theorem
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: PSPACE vs EXP
+statement: Determine the relationship between PSPACE and EXP.
+source_id: curated_pspace_vs_exp
+source_url: https://en.wikipedia.org/wiki/PSPACE
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Frankl's Union-Closed Sets Conjecture
+statement: For every finite union-closed family of sets, there exists an element in
+  at least half the sets.
+source_id: curated_frankl_s_union_closed_sets_conjecture
+source_url: https://en.wikipedia.org/wiki/Union-closed_sets_conjecture
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

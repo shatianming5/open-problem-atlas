@@ -1,0 +1,12 @@
+title: Parameterized Complexity of W[1]-Complete Problems
+statement: Determine the exact parameterized complexity of W[1]-complete problems
+  like k-clique.
+source_id: curated_parameterized_complexity_of_w_1_complete_problems
+source_url: https://en.wikipedia.org/wiki/Parameterized_complexity
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

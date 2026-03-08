@@ -1,0 +1,12 @@
+title: Muskat Problem Global Existence
+statement: Prove global existence of solutions to the Muskat problem for arbitrary
+  initial data.
+source_id: curated_muskat_problem_global_existence
+source_url: https://en.wikipedia.org/wiki/Muskat_problem
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

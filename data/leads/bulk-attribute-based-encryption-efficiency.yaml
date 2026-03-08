@@ -1,0 +1,11 @@
+title: Attribute-Based Encryption Efficiency
+statement: Construct efficient attribute-based encryption from standard assumptions.
+source_id: curated_attribute_based_encryption_efficiency
+source_url: https://en.wikipedia.org/wiki/Attribute-based_encryption
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

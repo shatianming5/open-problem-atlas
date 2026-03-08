@@ -1,0 +1,11 @@
+title: Cache-Oblivious Optimal B-Tree
+statement: Design an optimal cache-oblivious B-tree with O(log_B N) search time.
+source_id: curated_cache_oblivious_optimal_b_tree
+source_url: https://en.wikipedia.org/wiki/Cache-oblivious_algorithm
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

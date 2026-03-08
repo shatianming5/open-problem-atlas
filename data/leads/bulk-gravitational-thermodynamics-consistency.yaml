@@ -1,0 +1,12 @@
+title: Gravitational Thermodynamics Consistency
+statement: Prove the thermodynamic consistency of gravitational systems including
+  negative heat capacity.
+source_id: curated_gravitational_thermodynamics_consistency
+source_url: https://en.wikipedia.org/wiki/Black_hole_thermodynamics
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

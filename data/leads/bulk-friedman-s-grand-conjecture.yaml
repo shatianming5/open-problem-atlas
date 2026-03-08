@@ -1,0 +1,11 @@
+title: Friedman's Grand Conjecture
+statement: Determine the proof-theoretic ordinals of all natural mathematical theories.
+source_id: curated_friedman_s_grand_conjecture
+source_url: https://en.wikipedia.org/wiki/Harvey_Friedman
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

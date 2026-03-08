@@ -1,0 +1,12 @@
+title: Branching Random Walk Maximum
+statement: Determine the precise position and fluctuations of the maximum of branching
+  random walk.
+source_id: curated_branching_random_walk_maximum
+source_url: https://en.wikipedia.org/wiki/Branching_random_walk
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

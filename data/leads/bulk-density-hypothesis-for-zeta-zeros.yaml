@@ -1,0 +1,12 @@
+title: Density Hypothesis for Zeta Zeros
+statement: 'Prove the density hypothesis: N(sigma, T) << T^{2(1-sigma)+epsilon} for
+  sigma >= 1/2.'
+source_id: curated_density_hypothesis_for_zeta_zeros
+source_url: https://en.wikipedia.org/wiki/Riemann_zeta_function
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

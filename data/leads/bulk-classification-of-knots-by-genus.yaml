@@ -1,0 +1,12 @@
+title: Classification of Knots by Genus
+statement: Develop efficient algorithms to determine the genus of a knot from its
+  diagram.
+source_id: curated_classification_of_knots_by_genus
+source_url: https://en.wikipedia.org/wiki/Knot_genus
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

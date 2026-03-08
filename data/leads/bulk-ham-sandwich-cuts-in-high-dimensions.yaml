@@ -1,0 +1,11 @@
+title: Ham-Sandwich Cuts in High Dimensions
+statement: Find optimal algorithms for computing ham-sandwich cuts in high dimensions.
+source_id: curated_ham_sandwich_cuts_in_high_dimensions
+source_url: https://en.wikipedia.org/wiki/Ham_sandwich_theorem
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

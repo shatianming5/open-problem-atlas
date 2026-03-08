@@ -1,0 +1,12 @@
+title: Dynamic Trees Optimal Operations
+statement: Determine the optimal amortized cost per operation for dynamic tree data
+  structures.
+source_id: curated_dynamic_trees_optimal_operations
+source_url: https://en.wikipedia.org/wiki/Link-cut_tree
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

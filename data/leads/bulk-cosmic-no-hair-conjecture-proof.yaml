@@ -1,0 +1,12 @@
+title: Cosmic No-Hair Conjecture Proof
+statement: Prove that all expanding universes with a positive cosmological constant
+  approach de Sitter space.
+source_id: curated_cosmic_no_hair_conjecture_proof
+source_url: https://en.wikipedia.org/wiki/De_Sitter_space
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

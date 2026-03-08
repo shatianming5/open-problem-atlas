@@ -1,0 +1,11 @@
+title: Fully Homomorphic Encryption Efficiency Gap
+statement: Close the efficiency gap between FHE and standard computation.
+source_id: curated_fully_homomorphic_encryption_efficiency_gap
+source_url: https://en.wikipedia.org/wiki/Homomorphic_encryption
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

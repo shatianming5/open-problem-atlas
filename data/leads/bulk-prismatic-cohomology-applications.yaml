@@ -1,0 +1,11 @@
+title: Prismatic Cohomology Applications
+statement: Develop applications of prismatic cohomology to p-adic Hodge theory.
+source_id: curated_prismatic_cohomology_applications
+source_url: https://en.wikipedia.org/wiki/Prismatic_cohomology
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

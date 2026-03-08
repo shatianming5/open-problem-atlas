@@ -1,0 +1,12 @@
+title: Sunflower Conjecture (Improved Bounds)
+statement: Prove that a family of w-sets without a sunflower of size k has at most
+  c(k)^w members for a constant c(k).
+source_id: curated_sunflower_conjecture_improved_bounds
+source_url: https://en.wikipedia.org/wiki/Sunflower_(mathematics)
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

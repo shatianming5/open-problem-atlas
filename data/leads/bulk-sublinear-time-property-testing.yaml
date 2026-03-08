@@ -1,0 +1,12 @@
+title: Sublinear Time Property Testing
+statement: Determine the query complexity of testing graph properties in sublinear
+  time.
+source_id: curated_sublinear_time_property_testing
+source_url: https://en.wikipedia.org/wiki/Property_testing
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

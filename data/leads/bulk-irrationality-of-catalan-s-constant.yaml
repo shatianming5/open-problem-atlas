@@ -1,0 +1,11 @@
+title: Irrationality of Catalan's Constant
+statement: Prove that Catalan's constant G = sum_{n=0}^inf (-1)^n/(2n+1)^2 is irrational.
+source_id: curated_irrationality_of_catalan_s_constant
+source_url: https://en.wikipedia.org/wiki/Catalan%27s_constant
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

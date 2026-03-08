@@ -1,0 +1,11 @@
+title: Rough Path Theory Extensions
+statement: Extend rough path theory to broader classes of driving signals.
+source_id: curated_rough_path_theory_extensions
+source_url: https://en.wikipedia.org/wiki/Rough_path
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Brownian Motion on Fractals
+statement: Determine the spectral dimension and heat kernel estimates for Brownian
+  motion on general fractal sets.
+source_id: curated_brownian_motion_on_fractals
+source_url: https://en.wikipedia.org/wiki/Diffusion_on_fractals
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

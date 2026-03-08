@@ -1,0 +1,11 @@
+title: Categorical Langlands Correspondence
+statement: Prove the categorical form of the geometric Langlands correspondence.
+source_id: curated_categorical_langlands_correspondence
+source_url: https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Primes in Short Intervals
+statement: Prove that the interval [x, x + x^theta] contains a prime for theta = 1/2
+  + epsilon.
+source_id: curated_primes_in_short_intervals
+source_url: https://en.wikipedia.org/wiki/Prime_gap
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

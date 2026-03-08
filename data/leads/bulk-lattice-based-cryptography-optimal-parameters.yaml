@@ -1,0 +1,12 @@
+title: Lattice-Based Cryptography Optimal Parameters
+statement: Determine the optimal parameters for lattice-based cryptosystems that balance
+  security and efficiency.
+source_id: curated_lattice_based_cryptography_optimal_parameters
+source_url: https://en.wikipedia.org/wiki/Lattice-based_cryptography
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

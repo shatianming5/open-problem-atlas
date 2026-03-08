@@ -1,0 +1,12 @@
+title: Communication Complexity of Equality
+statement: Determine the exact randomized communication complexity of the equality
+  function.
+source_id: curated_communication_complexity_of_equality
+source_url: https://en.wikipedia.org/wiki/Communication_complexity
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Telescope Conjecture (Homotopy Theory)
+statement: Determine whether the telescope conjecture holds at all chromatic levels
+  and primes.
+source_id: curated_telescope_conjecture_homotopy_theory
+source_url: https://en.wikipedia.org/wiki/Telescope_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Wigner-Dyson Statistics for Quantum Systems
+statement: Prove Wigner-Dyson eigenvalue statistics for physically realistic quantum
+  Hamiltonians.
+source_id: curated_wigner_dyson_statistics_for_quantum_systems
+source_url: https://en.wikipedia.org/wiki/Random_matrix
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

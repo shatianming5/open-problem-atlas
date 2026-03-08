@@ -1,0 +1,11 @@
+title: D-bar Problem Optimal Estimates
+statement: Prove optimal L^2 estimates for the d-bar equation on pseudoconvex domains.
+source_id: curated_d_bar_problem_optimal_estimates
+source_url: https://en.wikipedia.org/wiki/Dolbeault_cohomology
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

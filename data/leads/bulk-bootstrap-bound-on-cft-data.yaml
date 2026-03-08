@@ -1,0 +1,12 @@
+title: Bootstrap Bound on CFT Data
+statement: Determine optimal bootstrap bounds on operator dimensions and OPE coefficients
+  in 3D CFTs.
+source_id: curated_bootstrap_bound_on_cft_data
+source_url: https://en.wikipedia.org/wiki/Conformal_bootstrap
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

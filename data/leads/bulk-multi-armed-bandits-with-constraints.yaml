@@ -1,0 +1,12 @@
+title: Multi-Armed Bandits with Constraints
+statement: Determine the optimal regret for multi-armed bandits with various constraint
+  types.
+source_id: curated_multi_armed_bandits_with_constraints
+source_url: https://en.wikipedia.org/wiki/Multi-armed_bandit
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

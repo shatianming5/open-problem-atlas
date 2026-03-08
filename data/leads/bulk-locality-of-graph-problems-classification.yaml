@@ -1,0 +1,12 @@
+title: Locality of Graph Problems Classification
+statement: Classify all locally checkable labeling problems by their round complexity
+  in the LOCAL model.
+source_id: curated_locality_of_graph_problems_classification
+source_url: https://en.wikipedia.org/wiki/Distributed_computing
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

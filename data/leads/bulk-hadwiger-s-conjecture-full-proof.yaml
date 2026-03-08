@@ -1,0 +1,11 @@
+title: Hadwiger's Conjecture (Full Proof)
+statement: Every graph with no K_t minor is (t-1)-colorable.
+source_id: curated_hadwiger_s_conjecture_full_proof
+source_url: https://en.wikipedia.org/wiki/Hadwiger_conjecture_(graph_theory)
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

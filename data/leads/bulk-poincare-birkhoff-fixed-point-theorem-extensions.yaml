@@ -1,0 +1,12 @@
+title: Poincare-Birkhoff Fixed Point Theorem Extensions
+statement: Extend the Poincare-Birkhoff fixed point theorem to higher-dimensional
+  symplectic manifolds.
+source_id: curated_poincare_birkhoff_fixed_point_theorem_extensions
+source_url: https://en.wikipedia.org/wiki/Poincar%C3%A9%E2%80%93Birkhoff_theorem
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

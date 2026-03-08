@@ -1,0 +1,11 @@
+title: Donaldson-Thomas Invariants Computation
+statement: Compute Donaldson-Thomas invariants for general Calabi-Yau threefolds.
+source_id: curated_donaldson_thomas_invariants_computation
+source_url: https://en.wikipedia.org/wiki/Donaldson%E2%80%93Thomas_theory
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

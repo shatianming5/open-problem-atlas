@@ -1,0 +1,12 @@
+title: Ramanujan-Petersson Conjecture General
+statement: The Hecke eigenvalues of cusp forms on GL(n) satisfy the optimal bound
+  |a_p| <= n*p^{(k-1)/2}.
+source_id: curated_ramanujan_petersson_conjecture_general
+source_url: https://en.wikipedia.org/wiki/Ramanujan%E2%80%93Petersson_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

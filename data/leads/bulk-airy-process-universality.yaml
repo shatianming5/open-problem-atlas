@@ -1,0 +1,11 @@
+title: Airy Process Universality
+statement: Prove the universality of the Airy process in models of random growth.
+source_id: curated_airy_process_universality
+source_url: https://en.wikipedia.org/wiki/Airy_process
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

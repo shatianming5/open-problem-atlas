@@ -1,0 +1,12 @@
+title: Stark's Conjecture
+statement: The leading term of the Taylor expansion of an Artin L-function at s=0
+  is given by a Stark unit.
+source_id: curated_stark_s_conjecture
+source_url: https://en.wikipedia.org/wiki/Stark_conjectures
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

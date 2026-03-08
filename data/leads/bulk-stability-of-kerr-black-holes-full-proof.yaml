@@ -1,0 +1,11 @@
+title: Stability of Kerr Black Holes (Full Proof)
+statement: Prove the nonlinear stability of the Kerr family of black hole solutions.
+source_id: curated_stability_of_kerr_black_holes_full_proof
+source_url: https://en.wikipedia.org/wiki/Kerr_metric
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

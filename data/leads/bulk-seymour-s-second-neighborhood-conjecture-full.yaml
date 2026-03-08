@@ -1,0 +1,12 @@
+title: Seymour's Second Neighborhood Conjecture (Full)
+statement: Every oriented graph has a vertex whose second neighborhood is at least
+  as large as its first.
+source_id: curated_seymour_s_second_neighborhood_conjecture_full
+source_url: https://en.wikipedia.org/wiki/Seymour%27s_second_neighborhood_conjecture
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

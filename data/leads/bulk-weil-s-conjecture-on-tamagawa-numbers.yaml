@@ -1,0 +1,12 @@
+title: Weil's Conjecture on Tamagawa Numbers
+statement: Prove that the Tamagawa number of a simply connected semisimple algebraic
+  group over a number field is 1.
+source_id: curated_weil_s_conjecture_on_tamagawa_numbers
+source_url: https://en.wikipedia.org/wiki/Weil%27s_conjecture_on_Tamagawa_numbers
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

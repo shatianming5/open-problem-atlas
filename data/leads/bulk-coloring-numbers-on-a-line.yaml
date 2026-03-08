@@ -1,0 +1,12 @@
+title: Coloring Numbers on a Line
+statement: Determine the minimum number of colors needed to color the integers so
+  that no arithmetic progression is monochromatic.
+source_id: curated_coloring_numbers_on_a_line
+source_url: https://en.wikipedia.org/wiki/Van_der_Waerden%27s_theorem
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

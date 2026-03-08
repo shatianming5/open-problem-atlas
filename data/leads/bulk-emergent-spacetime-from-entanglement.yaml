@@ -1,0 +1,12 @@
+title: Emergent Spacetime from Entanglement
+statement: Prove that spacetime emerges from quantum entanglement in a precise mathematical
+  framework.
+source_id: curated_emergent_spacetime_from_entanglement
+source_url: https://en.wikipedia.org/wiki/Holographic_principle
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

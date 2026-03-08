@@ -1,0 +1,12 @@
+title: Quantum PCP Theorem
+statement: 'Prove or disprove the quantum PCP conjecture: a quantum analog of the
+  PCP theorem for QMA.'
+source_id: curated_quantum_pcp_theorem
+source_url: https://en.wikipedia.org/wiki/Quantum_PCP_conjecture
+domain_hint: theoretical-cs
+subdomain_hint: quantum-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

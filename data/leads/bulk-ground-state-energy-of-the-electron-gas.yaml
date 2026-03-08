@@ -1,0 +1,11 @@
+title: Ground State Energy of the Electron Gas
+statement: Determine the exact ground state energy of the homogeneous electron gas.
+source_id: curated_ground_state_energy_of_the_electron_gas
+source_url: https://en.wikipedia.org/wiki/Jellium
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

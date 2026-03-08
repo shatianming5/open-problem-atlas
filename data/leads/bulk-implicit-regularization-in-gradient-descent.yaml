@@ -1,0 +1,12 @@
+title: Implicit Regularization in Gradient Descent
+statement: Rigorously characterize the implicit regularization of gradient descent
+  for overparameterized models.
+source_id: curated_implicit_regularization_in_gradient_descent
+source_url: https://en.wikipedia.org/wiki/Regularization_(mathematics)
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

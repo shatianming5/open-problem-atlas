@@ -1,0 +1,12 @@
+title: Non-Abelian Anyons Experimental Signatures
+statement: Develop theoretical predictions for experimental signatures of non-Abelian
+  anyons.
+source_id: curated_non_abelian_anyons_experimental_signatures
+source_url: https://en.wikipedia.org/wiki/Anyon
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

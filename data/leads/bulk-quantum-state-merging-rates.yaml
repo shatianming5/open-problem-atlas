@@ -1,0 +1,11 @@
+title: Quantum State Merging Rates
+statement: Determine the optimal rates for quantum state merging with limited resources.
+source_id: curated_quantum_state_merging_rates
+source_url: https://en.wikipedia.org/wiki/Quantum_state_merging
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

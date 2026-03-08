@@ -1,0 +1,12 @@
+title: Random Planar Maps Scaling Limits
+statement: Determine the scaling limits of random planar maps with general face degree
+  distributions.
+source_id: curated_random_planar_maps_scaling_limits
+source_url: https://en.wikipedia.org/wiki/Random_planar_maps
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

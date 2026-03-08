@@ -1,0 +1,12 @@
+title: Liouville Quantum Gravity and KPZ Relation
+statement: Rigorously prove the KPZ relation between scaling exponents in Liouville
+  quantum gravity.
+source_id: curated_liouville_quantum_gravity_and_kpz_relation
+source_url: https://en.wikipedia.org/wiki/Liouville_quantum_gravity
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

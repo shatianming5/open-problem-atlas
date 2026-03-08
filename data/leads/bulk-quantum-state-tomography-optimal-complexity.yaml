@@ -1,0 +1,11 @@
+title: Quantum State Tomography Optimal Complexity
+statement: Determine the optimal number of measurements for full quantum state tomography.
+source_id: curated_quantum_state_tomography_optimal_complexity
+source_url: https://en.wikipedia.org/wiki/Quantum_tomography
+domain_hint: theoretical-cs
+subdomain_hint: quantum-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Quantum Darwinism Rigorous Framework
+statement: Develop a rigorous mathematical framework for quantum Darwinism and objectivity.
+source_id: curated_quantum_darwinism_rigorous_framework
+source_url: https://en.wikipedia.org/wiki/Quantum_Darwinism
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

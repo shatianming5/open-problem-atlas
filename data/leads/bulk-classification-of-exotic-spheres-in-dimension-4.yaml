@@ -1,0 +1,11 @@
+title: Classification of Exotic Spheres in Dimension 4
+statement: Determine whether exotic smooth structures on S^4 exist.
+source_id: curated_classification_of_exotic_spheres_in_dimension_4
+source_url: https://en.wikipedia.org/wiki/Exotic_sphere
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

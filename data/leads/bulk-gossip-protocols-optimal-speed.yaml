@@ -1,0 +1,11 @@
+title: Gossip Protocols Optimal Speed
+statement: Determine the optimal spreading time for gossip-based information dissemination.
+source_id: curated_gossip_protocols_optimal_speed
+source_url: https://en.wikipedia.org/wiki/Gossip_protocol
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

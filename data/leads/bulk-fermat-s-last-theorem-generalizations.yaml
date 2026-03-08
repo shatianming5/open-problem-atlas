@@ -1,0 +1,12 @@
+title: Fermat's Last Theorem Generalizations
+statement: Prove generalizations of Fermat's Last Theorem to number fields and higher-dimensional
+  varieties.
+source_id: curated_fermat_s_last_theorem_generalizations
+source_url: https://en.wikipedia.org/wiki/Fermat%27s_Last_Theorem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Berge Conjecture
+statement: Characterize all knots that admit lens space surgery.
+source_id: curated_berge_conjecture
+source_url: https://en.wikipedia.org/wiki/Berge_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

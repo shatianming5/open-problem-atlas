@@ -1,0 +1,11 @@
+title: Consistency of Suslin's Hypothesis
+statement: Determine the exact consistency strength of Suslin's Hypothesis.
+source_id: curated_consistency_of_suslin_s_hypothesis
+source_url: https://en.wikipedia.org/wiki/Suslin%27s_problem
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

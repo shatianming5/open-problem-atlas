@@ -1,0 +1,12 @@
+title: Average-Case Complexity Foundations
+statement: Develop a complete theory of average-case complexity, including worst-case
+  to average-case reductions for NP.
+source_id: curated_average_case_complexity_foundations
+source_url: https://en.wikipedia.org/wiki/Average-case_complexity
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

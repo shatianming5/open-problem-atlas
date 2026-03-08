@@ -1,0 +1,11 @@
+title: Determinacy Beyond L(R)
+statement: Prove projective determinacy from optimal large cardinal axioms.
+source_id: curated_determinacy_beyond_l_r
+source_url: https://en.wikipedia.org/wiki/Projective_determinacy
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

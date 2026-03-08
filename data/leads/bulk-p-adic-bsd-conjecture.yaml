@@ -1,0 +1,11 @@
+title: p-adic BSD Conjecture
+statement: Prove the p-adic Birch and Swinnerton-Dyer conjecture.
+source_id: curated_p_adic_bsd_conjecture
+source_url: https://en.wikipedia.org/wiki/P-adic_L-function
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Kannan's Conjecture
+statement: For r >= 3, every r-connected matroid with no R_{10} minor is either graphic
+  or cographic.
+source_id: curated_kannan_s_conjecture
+source_url: https://en.wikipedia.org/wiki/Matroid
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

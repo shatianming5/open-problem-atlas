@@ -1,0 +1,12 @@
+title: Sphere Packing Bound in Coding Theory
+statement: Determine the optimal asymptotic rate of codes achieving the sphere packing
+  bound.
+source_id: curated_sphere_packing_bound_in_coding_theory
+source_url: https://en.wikipedia.org/wiki/Sphere-packing_bound
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

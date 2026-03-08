@@ -1,0 +1,12 @@
+title: Massively Parallel Computation Model
+statement: Determine the round complexity of fundamental graph problems in the MPC
+  model.
+source_id: curated_massively_parallel_computation_model
+source_url: https://en.wikipedia.org/wiki/MapReduce
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

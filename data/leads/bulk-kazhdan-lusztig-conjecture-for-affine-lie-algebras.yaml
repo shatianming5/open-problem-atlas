@@ -1,0 +1,12 @@
+title: Kazhdan-Lusztig Conjecture for Affine Lie Algebras
+statement: Prove the Kazhdan-Lusztig conjecture in full generality for affine Lie
+  algebras.
+source_id: curated_kazhdan_lusztig_conjecture_for_affine_lie_algebras
+source_url: https://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

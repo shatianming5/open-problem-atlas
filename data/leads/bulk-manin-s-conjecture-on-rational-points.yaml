@@ -1,0 +1,12 @@
+title: Manin's Conjecture on Rational Points
+statement: For a Fano variety V, the number of rational points of height at most B
+  grows as c*B*(log B)^{rho-1} for specific constants.
+source_id: curated_manin_s_conjecture_on_rational_points
+source_url: https://en.wikipedia.org/wiki/Manin_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

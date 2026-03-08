@@ -1,0 +1,12 @@
+title: Fairness and Accuracy Tradeoffs
+statement: Determine the exact tradeoff between fairness constraints and accuracy
+  in classification.
+source_id: curated_fairness_and_accuracy_tradeoffs
+source_url: https://en.wikipedia.org/wiki/Fairness_(machine_learning)
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

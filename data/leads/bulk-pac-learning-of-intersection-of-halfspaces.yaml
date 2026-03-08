@@ -1,0 +1,12 @@
+title: PAC Learning of Intersection of Halfspaces
+statement: Determine the complexity of PAC learning the intersection of k halfspaces
+  in R^n.
+source_id: curated_pac_learning_of_intersection_of_halfspaces
+source_url: https://en.wikipedia.org/wiki/Probably_approximately_correct_learning
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

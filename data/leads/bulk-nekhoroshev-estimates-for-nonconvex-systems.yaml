@@ -1,0 +1,12 @@
+title: Nekhoroshev Estimates for Nonconvex Systems
+statement: Prove Nekhoroshev-type exponential stability estimates for general non-convex
+  Hamiltonian systems.
+source_id: curated_nekhoroshev_estimates_for_nonconvex_systems
+source_url: https://en.wikipedia.org/wiki/Nekhoroshev_estimates
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

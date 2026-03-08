@@ -1,0 +1,12 @@
+title: Algebraic Combinatorics Positivity Conjectures
+statement: Prove various positivity conjectures in algebraic combinatorics including
+  Macdonald positivity for general types.
+source_id: curated_algebraic_combinatorics_positivity_conjectures
+source_url: https://en.wikipedia.org/wiki/Macdonald_polynomials
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Yau's Conjecture on Nodal Sets
+statement: The Hausdorff measure of the nodal set of a Laplacian eigenfunction is
+  comparable to the square root of the eigenvalue.
+source_id: curated_yau_s_conjecture_on_nodal_sets
+source_url: https://en.wikipedia.org/wiki/Nodal_line
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Kardar-Parisi-Zhang Fixed Point
+statement: Characterize the KPZ fixed point and prove its universality.
+source_id: curated_kardar_parisi_zhang_fixed_point
+source_url: https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

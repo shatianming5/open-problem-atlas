@@ -1,0 +1,12 @@
+title: Iitaka Conjecture (Full)
+statement: 'For a fibration f: X -> Y, the Kodaira dimension satisfies kappa(X) >=
+  kappa(Y) + kappa(F) where F is a general fiber.'
+source_id: curated_iitaka_conjecture_full
+source_url: https://en.wikipedia.org/wiki/Iitaka_conjecture
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

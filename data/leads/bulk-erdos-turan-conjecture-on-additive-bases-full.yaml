@@ -1,0 +1,12 @@
+title: Erdos-Turan Conjecture on Additive Bases (Full)
+statement: If A is an additive basis of order 2, then the representation function
+  is unbounded.
+source_id: curated_erdos_turan_conjecture_on_additive_bases_full
+source_url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Tur%C3%A1n_conjecture_on_additive_bases
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

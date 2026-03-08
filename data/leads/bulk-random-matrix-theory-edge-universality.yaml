@@ -1,0 +1,11 @@
+title: Random Matrix Theory Edge Universality
+statement: Prove edge universality for random matrices with correlated entries.
+source_id: curated_random_matrix_theory_edge_universality
+source_url: https://en.wikipedia.org/wiki/Random_matrix
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

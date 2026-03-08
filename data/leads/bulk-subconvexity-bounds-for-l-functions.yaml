@@ -1,0 +1,11 @@
+title: Subconvexity Bounds for L-Functions
+statement: Prove subconvexity bounds for L-functions in the most general settings.
+source_id: curated_subconvexity_bounds_for_l_functions
+source_url: https://en.wikipedia.org/wiki/Subconvexity
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Morley's Conjecture Extensions
+statement: Extend Morley's categoricity theorem to uncountable languages and non-first-order
+  logics.
+source_id: curated_morley_s_conjecture_extensions
+source_url: https://en.wikipedia.org/wiki/Morley%27s_categoricity_theorem
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

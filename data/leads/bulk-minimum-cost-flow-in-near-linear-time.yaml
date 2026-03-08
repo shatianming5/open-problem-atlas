@@ -1,0 +1,11 @@
+title: Minimum Cost Flow in Near-Linear Time
+statement: Compute minimum cost flow in near-linear time.
+source_id: curated_minimum_cost_flow_in_near_linear_time
+source_url: https://en.wikipedia.org/wiki/Minimum-cost_flow_problem
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Strong CP Problem Full Resolution
+statement: Resolve the strong CP problem, possibly through the axion mechanism.
+source_id: curated_strong_cp_problem_full_resolution
+source_url: https://en.wikipedia.org/wiki/Strong_CP_problem
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

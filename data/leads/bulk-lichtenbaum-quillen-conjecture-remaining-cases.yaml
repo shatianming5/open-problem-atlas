@@ -1,0 +1,12 @@
+title: Lichtenbaum-Quillen Conjecture (Remaining Cases)
+statement: Prove the Lichtenbaum-Quillen conjecture relating K-theory and etale cohomology
+  in all remaining cases.
+source_id: curated_lichtenbaum_quillen_conjecture_remaining_cases
+source_url: https://en.wikipedia.org/wiki/Quillen%E2%80%93Lichtenbaum_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

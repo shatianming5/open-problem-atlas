@@ -1,0 +1,12 @@
+title: Polynomial Partitioning Optimal Bounds
+statement: Determine optimal bounds in the polynomial partitioning method for incidence
+  geometry.
+source_id: curated_polynomial_partitioning_optimal_bounds
+source_url: https://en.wikipedia.org/wiki/Polynomial_method_in_combinatorics
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

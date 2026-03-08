@@ -1,0 +1,11 @@
+title: Hormander's L^2 Estimates Extensions
+statement: Extend Hormander's L^2 estimates for the d-bar operator to singular metrics.
+source_id: curated_hormander_s_l_2_estimates_extensions
+source_url: https://en.wikipedia.org/wiki/Lars_H%C3%B6rmander
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

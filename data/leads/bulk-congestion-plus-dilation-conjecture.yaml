@@ -1,0 +1,12 @@
+title: Congestion Plus Dilation Conjecture
+statement: Prove the conjecture that any set of packet routing requests can be scheduled
+  in time proportional to congestion plus dilation.
+source_id: curated_congestion_plus_dilation_conjecture
+source_url: https://en.wikipedia.org/wiki/Packet_routing
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

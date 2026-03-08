@@ -1,0 +1,12 @@
+title: Absolutely Maximally Entangled States
+statement: Determine the existence of absolutely maximally entangled states for all
+  numbers of parties.
+source_id: curated_absolutely_maximally_entangled_states
+source_url: https://en.wikipedia.org/wiki/Absolutely_maximally_entangled_state
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

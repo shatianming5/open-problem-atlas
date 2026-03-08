@@ -1,0 +1,12 @@
+title: Amplituhedron Geometry
+statement: Prove that the amplituhedron computes all scattering amplitudes in N=4
+  super Yang-Mills.
+source_id: curated_amplituhedron_geometry
+source_url: https://en.wikipedia.org/wiki/Amplituhedron
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

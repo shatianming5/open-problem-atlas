@@ -1,0 +1,12 @@
+title: Mixing Time of Markov Chains on Groups
+statement: Determine the mixing time of random walk on finite groups with natural
+  generating sets.
+source_id: curated_mixing_time_of_markov_chains_on_groups
+source_url: https://en.wikipedia.org/wiki/Mixing_time
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

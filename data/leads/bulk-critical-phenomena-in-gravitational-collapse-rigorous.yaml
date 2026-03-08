@@ -1,0 +1,12 @@
+title: Critical Phenomena in Gravitational Collapse (Rigorous)
+statement: Prove the universality of critical phenomena in gravitational collapse
+  rigorously.
+source_id: curated_critical_phenomena_in_gravitational_collapse_rigorous
+source_url: https://en.wikipedia.org/wiki/Critical_phenomena
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

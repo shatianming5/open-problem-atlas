@@ -1,0 +1,11 @@
+title: Superconformal Index and Microstate Counting
+statement: Prove that the superconformal index counts black hole microstates.
+source_id: curated_superconformal_index_and_microstate_counting
+source_url: https://en.wikipedia.org/wiki/Superconformal_index
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

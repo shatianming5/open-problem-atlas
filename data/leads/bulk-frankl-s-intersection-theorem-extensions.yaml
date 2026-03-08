@@ -1,0 +1,11 @@
+title: Frankl's Intersection Theorem Extensions
+statement: Extend Frankl's intersection theorem to more general families of sets.
+source_id: curated_frankl_s_intersection_theorem_extensions
+source_url: https://en.wikipedia.org/wiki/Frankl%27s_intersection_theorem
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

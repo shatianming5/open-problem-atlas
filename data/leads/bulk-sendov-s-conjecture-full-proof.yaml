@@ -1,0 +1,12 @@
+title: Sendov's Conjecture (Full Proof)
+statement: For a polynomial of degree n >= 2 with all zeros in the closed unit disk,
+  each zero has a critical point within distance 1.
+source_id: curated_sendov_s_conjecture_full_proof
+source_url: https://en.wikipedia.org/wiki/Sendov%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

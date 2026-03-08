@@ -1,0 +1,12 @@
+title: Gan-Gross-Prasad Conjecture (Remaining Cases)
+statement: Prove the remaining cases of the Gan-Gross-Prasad conjecture on restriction
+  of automorphic representations.
+source_id: curated_gan_gross_prasad_conjecture_remaining_cases
+source_url: https://en.wikipedia.org/wiki/Gan%E2%80%93Gross%E2%80%93Prasad_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

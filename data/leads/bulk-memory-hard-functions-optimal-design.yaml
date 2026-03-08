@@ -1,0 +1,11 @@
+title: Memory-Hard Functions Optimal Design
+statement: Design provably optimal memory-hard functions for password hashing.
+source_id: curated_memory_hard_functions_optimal_design
+source_url: https://en.wikipedia.org/wiki/Memory-hard_function
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

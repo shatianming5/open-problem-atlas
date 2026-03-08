@@ -1,0 +1,12 @@
+title: Fluctuation Theorems Far From Equilibrium
+statement: Extend fluctuation theorems to systems far from equilibrium with strong
+  driving.
+source_id: curated_fluctuation_theorems_far_from_equilibrium
+source_url: https://en.wikipedia.org/wiki/Fluctuation_theorem
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

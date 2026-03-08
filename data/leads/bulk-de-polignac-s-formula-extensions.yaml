@@ -1,0 +1,12 @@
+title: de Polignac's Formula Extensions
+statement: Extend precise formulas for the p-adic valuation of factorials to more
+  general arithmetic functions.
+source_id: curated_de_polignac_s_formula_extensions
+source_url: https://en.wikipedia.org/wiki/De_Polignac%27s_formula
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

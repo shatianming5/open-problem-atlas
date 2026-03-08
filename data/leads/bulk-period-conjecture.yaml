@@ -1,0 +1,12 @@
+title: Period Conjecture
+statement: Prove that all algebraic relations between periods arise from the three
+  standard relations.
+source_id: curated_period_conjecture
+source_url: https://en.wikipedia.org/wiki/Period_(algebraic_geometry)
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

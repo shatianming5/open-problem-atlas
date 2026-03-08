@@ -1,0 +1,11 @@
+title: Fukaya Category Computations
+statement: Compute the Fukaya category for general symplectic manifolds.
+source_id: curated_fukaya_category_computations
+source_url: https://en.wikipedia.org/wiki/Fukaya_category
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

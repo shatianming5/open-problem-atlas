@@ -1,0 +1,12 @@
+title: Painleve Conjecture for N-Body Problem
+statement: Prove that non-collision singularities exist in the Newtonian N-body problem
+  for N >= 4.
+source_id: curated_painleve_conjecture_for_n_body_problem
+source_url: https://en.wikipedia.org/wiki/Painlev%C3%A9_conjecture
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

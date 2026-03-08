@@ -1,0 +1,11 @@
+title: Relative Langlands Program
+statement: Develop the relative Langlands program connecting periods to L-values.
+source_id: curated_relative_langlands_program
+source_url: https://en.wikipedia.org/wiki/Langlands_program
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

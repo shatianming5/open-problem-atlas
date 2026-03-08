@@ -1,0 +1,11 @@
+title: Boussinesq System Global Regularity
+statement: Prove global regularity for the 3D Boussinesq system with partial viscosity.
+source_id: curated_boussinesq_system_global_regularity
+source_url: https://en.wikipedia.org/wiki/Boussinesq_approximation_(buoyancy)
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

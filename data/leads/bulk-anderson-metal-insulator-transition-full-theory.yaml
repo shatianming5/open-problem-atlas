@@ -1,0 +1,12 @@
+title: Anderson Metal-Insulator Transition (Full Theory)
+statement: Develop a complete theory of the Anderson metal-insulator transition in
+  three dimensions.
+source_id: curated_anderson_metal_insulator_transition_full_theory
+source_url: https://en.wikipedia.org/wiki/Anderson_localization
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

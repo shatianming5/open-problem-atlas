@@ -1,0 +1,12 @@
+title: Meta-Complexity Connections
+statement: Establish tight connections between meta-complexity problems (MCSP, Kolmogorov
+  complexity) and standard complexity classes.
+source_id: curated_meta_complexity_connections
+source_url: https://en.wikipedia.org/wiki/Kolmogorov_complexity
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

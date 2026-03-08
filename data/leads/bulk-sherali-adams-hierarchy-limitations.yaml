@@ -1,0 +1,11 @@
+title: Sherali-Adams Hierarchy Limitations
+statement: Determine tight limitations of the Sherali-Adams linear programming hierarchy.
+source_id: curated_sherali_adams_hierarchy_limitations
+source_url: https://en.wikipedia.org/wiki/Sherali%E2%80%93Adams_hierarchy
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

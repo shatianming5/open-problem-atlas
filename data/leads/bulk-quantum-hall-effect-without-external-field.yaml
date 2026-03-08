@@ -1,0 +1,12 @@
+title: Quantum Hall Effect Without External Field
+statement: Develop the theory of quantum Hall effect without external magnetic field
+  (Chern insulators).
+source_id: curated_quantum_hall_effect_without_external_field
+source_url: https://en.wikipedia.org/wiki/Quantum_anomalous_Hall_effect
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

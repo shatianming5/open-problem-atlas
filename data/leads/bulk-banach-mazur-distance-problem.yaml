@@ -1,0 +1,12 @@
+title: Banach-Mazur Distance Problem
+statement: Determine the maximum Banach-Mazur distance between n-dimensional normed
+  spaces.
+source_id: curated_banach_mazur_distance_problem
+source_url: https://en.wikipedia.org/wiki/Banach%E2%80%93Mazur_compactum
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

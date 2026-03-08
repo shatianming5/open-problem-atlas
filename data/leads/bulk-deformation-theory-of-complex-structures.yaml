@@ -1,0 +1,11 @@
+title: Deformation Theory of Complex Structures
+statement: Complete the deformation theory of complex structures on non-Kahler manifolds.
+source_id: curated_deformation_theory_of_complex_structures
+source_url: https://en.wikipedia.org/wiki/Deformation_theory
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

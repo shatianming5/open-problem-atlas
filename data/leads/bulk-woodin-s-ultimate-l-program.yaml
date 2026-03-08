@@ -1,0 +1,12 @@
+title: Woodin's Ultimate L Program
+statement: Complete Woodin's program showing that the inner model Ultimate L satisfies
+  CH and is compatible with all large cardinals.
+source_id: curated_woodin_s_ultimate_l_program
+source_url: https://en.wikipedia.org/wiki/Ultimate_L
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

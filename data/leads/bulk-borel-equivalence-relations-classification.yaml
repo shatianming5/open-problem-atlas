@@ -1,0 +1,12 @@
+title: Borel Equivalence Relations Classification
+statement: Complete the classification of Borel equivalence relations under Borel
+  reducibility.
+source_id: curated_borel_equivalence_relations_classification
+source_url: https://en.wikipedia.org/wiki/Borel_equivalence_relation
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

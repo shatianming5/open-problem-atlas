@@ -1,0 +1,12 @@
+title: A-Polynomial Conjecture
+statement: Prove that the A-polynomial of a knot determines the knot up to mirror
+  image.
+source_id: curated_a_polynomial_conjecture
+source_url: https://en.wikipedia.org/wiki/A-polynomial
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

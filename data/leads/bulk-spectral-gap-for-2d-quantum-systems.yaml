@@ -1,0 +1,12 @@
+title: Spectral Gap for 2D Quantum Systems
+statement: Determine conditions for the existence of a spectral gap in two-dimensional
+  quantum lattice systems.
+source_id: curated_spectral_gap_for_2d_quantum_systems
+source_url: https://en.wikipedia.org/wiki/Spectral_gap
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

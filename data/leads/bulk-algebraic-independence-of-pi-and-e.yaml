@@ -1,0 +1,11 @@
+title: Algebraic Independence of Pi and e
+statement: Prove that pi and e are algebraically independent.
+source_id: curated_algebraic_independence_of_pi_and_e
+source_url: https://en.wikipedia.org/wiki/Algebraic_independence
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

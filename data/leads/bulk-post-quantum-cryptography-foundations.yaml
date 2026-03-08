@@ -1,0 +1,12 @@
+title: Post-Quantum Cryptography Foundations
+statement: Determine which cryptographic primitives survive in the presence of quantum
+  computers.
+source_id: curated_post_quantum_cryptography_foundations
+source_url: https://en.wikipedia.org/wiki/Post-quantum_cryptography
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

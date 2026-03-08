@@ -1,0 +1,12 @@
+title: Muckenhoupt Conjecture
+statement: Determine the sharp weighted norm inequalities for the maximal function
+  with respect to Muckenhoupt weights.
+source_id: curated_muckenhoupt_conjecture
+source_url: https://en.wikipedia.org/wiki/Muckenhoupt_weights
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

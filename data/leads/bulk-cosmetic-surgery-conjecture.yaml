@@ -1,0 +1,12 @@
+title: Cosmetic Surgery Conjecture
+statement: Two distinct Dehn surgeries on a knot in S^3 cannot produce the same oriented
+  3-manifold.
+source_id: curated_cosmetic_surgery_conjecture
+source_url: https://en.wikipedia.org/wiki/Cosmetic_surgery_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

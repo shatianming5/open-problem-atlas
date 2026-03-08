@@ -1,0 +1,12 @@
+title: Distributed Verification Complexity
+statement: Determine the exact complexity of distributed verification (proof labeling
+  schemes) for graph properties.
+source_id: curated_distributed_verification_complexity
+source_url: https://en.wikipedia.org/wiki/Distributed_computing
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

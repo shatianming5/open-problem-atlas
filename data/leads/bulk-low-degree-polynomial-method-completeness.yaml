@@ -1,0 +1,12 @@
+title: Low-Degree Polynomial Method Completeness
+statement: Determine whether the low-degree polynomial method captures all computational
+  hardness for average-case problems.
+source_id: curated_low_degree_polynomial_method_completeness
+source_url: https://en.wikipedia.org/wiki/Average-case_complexity
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

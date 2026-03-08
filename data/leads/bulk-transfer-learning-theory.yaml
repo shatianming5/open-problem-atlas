@@ -1,0 +1,11 @@
+title: Transfer Learning Theory
+statement: Develop a rigorous theory of when and how transfer learning provably helps.
+source_id: curated_transfer_learning_theory
+source_url: https://en.wikipedia.org/wiki/Transfer_learning
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

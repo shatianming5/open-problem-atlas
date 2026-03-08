@@ -1,0 +1,12 @@
+title: Bouniakowsky Conjecture
+statement: Every irreducible polynomial with integer coefficients and positive leading
+  coefficient takes on infinitely many prime values.
+source_id: curated_bouniakowsky_conjecture
+source_url: https://en.wikipedia.org/wiki/Bunyakovsky_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Kirby's Problem List Remaining Questions
+statement: Resolve the remaining open problems from Kirby's list in low-dimensional
+  topology.
+source_id: curated_kirby_s_problem_list_remaining_questions
+source_url: https://en.wikipedia.org/wiki/Kirby%27s_list
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

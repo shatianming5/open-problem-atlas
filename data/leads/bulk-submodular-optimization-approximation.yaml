@@ -1,0 +1,12 @@
+title: Submodular Optimization Approximation
+statement: Determine the optimal approximation ratio for submodular function maximization
+  with constraints.
+source_id: curated_submodular_optimization_approximation
+source_url: https://en.wikipedia.org/wiki/Submodular_set_function
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Exact Results in 3D N=4 Theories
+statement: Derive exact results for 3D N=4 superconformal field theories.
+source_id: curated_exact_results_in_3d_n_4_theories
+source_url: https://en.wikipedia.org/wiki/Superconformal_algebra
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

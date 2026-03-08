@@ -1,0 +1,12 @@
+title: Large Deviation Principles for Interacting Systems
+statement: Prove large deviation principles for interacting particle systems beyond
+  mean-field models.
+source_id: curated_large_deviation_principles_for_interacting_systems
+source_url: https://en.wikipedia.org/wiki/Large_deviations_theory
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

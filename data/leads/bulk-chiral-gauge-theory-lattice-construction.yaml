@@ -1,0 +1,12 @@
+title: Chiral Gauge Theory Lattice Construction
+statement: Construct a lattice regularization of chiral gauge theories preserving
+  gauge invariance.
+source_id: curated_chiral_gauge_theory_lattice_construction
+source_url: https://en.wikipedia.org/wiki/Chiral_gauge_theory
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

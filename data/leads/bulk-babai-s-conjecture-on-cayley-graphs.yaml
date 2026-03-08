@@ -1,0 +1,12 @@
+title: Babai's Conjecture on Cayley Graphs
+statement: The diameter of every connected Cayley graph of a finite simple group is
+  polylogarithmic in the size of the group.
+source_id: curated_babai_s_conjecture_on_cayley_graphs
+source_url: https://en.wikipedia.org/wiki/Cayley_graph
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Thomassen's Conjecture on Hamiltonian Graphs
+statement: Every 4-connected line graph is Hamiltonian.
+source_id: curated_thomassen_s_conjecture_on_hamiltonian_graphs
+source_url: https://en.wikipedia.org/wiki/Line_graph
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

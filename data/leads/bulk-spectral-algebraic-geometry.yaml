@@ -1,0 +1,12 @@
+title: Spectral Algebraic Geometry
+statement: Develop spectral algebraic geometry and its applications to stable homotopy
+  theory.
+source_id: curated_spectral_algebraic_geometry
+source_url: https://en.wikipedia.org/wiki/Spectral_algebraic_geometry
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

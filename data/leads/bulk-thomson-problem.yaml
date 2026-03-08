@@ -1,0 +1,12 @@
+title: Thomson Problem
+statement: Determine the optimal configuration of n points on a sphere minimizing
+  electrostatic potential energy.
+source_id: curated_thomson_problem
+source_url: https://en.wikipedia.org/wiki/Thomson_problem
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

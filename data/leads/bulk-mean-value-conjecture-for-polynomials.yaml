@@ -1,0 +1,12 @@
+title: Mean Value Conjecture for Polynomials
+statement: 'Prove Smale''s mean value conjecture: for a polynomial p of degree n,
+  there is a critical point c with |p(c)/c| <= |p''(0)|*(n-1)/n.'
+source_id: curated_mean_value_conjecture_for_polynomials
+source_url: https://en.wikipedia.org/wiki/Smale%27s_problems
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

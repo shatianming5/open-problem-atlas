@@ -1,0 +1,11 @@
+title: Standard Conjectures on Algebraic Cycles (Full)
+statement: Prove the standard conjectures of Grothendieck on algebraic cycles.
+source_id: curated_standard_conjectures_on_algebraic_cycles_full
+source_url: https://en.wikipedia.org/wiki/Standard_conjectures_on_algebraic_cycles
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

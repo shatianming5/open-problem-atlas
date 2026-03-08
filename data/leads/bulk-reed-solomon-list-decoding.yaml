@@ -1,0 +1,11 @@
+title: Reed-Solomon List Decoding
+statement: Determine the optimal list decoding radius for Reed-Solomon codes.
+source_id: curated_reed_solomon_list_decoding
+source_url: https://en.wikipedia.org/wiki/Reed%E2%80%93Solomon_error_correction
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

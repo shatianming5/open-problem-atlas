@@ -1,0 +1,11 @@
+title: Orchard Planting Problem
+statement: Determine the maximum number of 3-point lines among n points in the plane.
+source_id: curated_orchard_planting_problem
+source_url: https://en.wikipedia.org/wiki/Orchard_problem
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

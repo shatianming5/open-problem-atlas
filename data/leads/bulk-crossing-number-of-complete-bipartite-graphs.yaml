@@ -1,0 +1,11 @@
+title: Crossing Number of Complete Bipartite Graphs
+statement: Determine the exact crossing number of K_{m,n} (Zarankiewicz's conjecture).
+source_id: curated_crossing_number_of_complete_bipartite_graphs
+source_url: https://en.wikipedia.org/wiki/Zarankiewicz%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

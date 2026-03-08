@@ -1,0 +1,12 @@
+title: Quantum Marginal Problem
+statement: 'Solve the quantum marginal problem: when can local density matrices be
+  assembled into a global state?'
+source_id: curated_quantum_marginal_problem
+source_url: https://en.wikipedia.org/wiki/Quantum_marginal_problem
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

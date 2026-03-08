@@ -1,0 +1,12 @@
+title: External Memory Sorting Optimality
+statement: Prove that the sorting complexity in the external memory model is Theta(N/B
+  * log_{M/B}(N/B)) I/Os.
+source_id: curated_external_memory_sorting_optimality
+source_url: https://en.wikipedia.org/wiki/External_sorting
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

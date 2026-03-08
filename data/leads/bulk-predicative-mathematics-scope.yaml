@@ -1,0 +1,12 @@
+title: Predicative Mathematics Scope
+statement: Determine the scope of predicative mathematics and its relationship to
+  classical mathematics.
+source_id: curated_predicative_mathematics_scope
+source_url: https://en.wikipedia.org/wiki/Predicativism
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

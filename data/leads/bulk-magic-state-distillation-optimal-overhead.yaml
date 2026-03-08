@@ -1,0 +1,12 @@
+title: Magic State Distillation Optimal Overhead
+statement: Determine the minimum overhead for magic state distillation in fault-tolerant
+  quantum computing.
+source_id: curated_magic_state_distillation_optimal_overhead
+source_url: https://en.wikipedia.org/wiki/Magic_state_distillation
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

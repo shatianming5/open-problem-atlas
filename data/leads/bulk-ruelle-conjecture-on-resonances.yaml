@@ -1,0 +1,12 @@
+title: Ruelle Conjecture on Resonances
+statement: Prove the Ruelle conjecture relating Pollicott-Ruelle resonances to dynamical
+  zeta functions.
+source_id: curated_ruelle_conjecture_on_resonances
+source_url: https://en.wikipedia.org/wiki/Ruelle_zeta_function
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

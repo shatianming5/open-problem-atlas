@@ -1,0 +1,11 @@
+title: Erdos-Moser Equation
+statement: The only solution to 1^k + 2^k + ... + (m-1)^k = m^k is 1 + 2 = 3.
+source_id: curated_erdos_moser_equation
+source_url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Moser_equation
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

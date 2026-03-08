@@ -1,0 +1,12 @@
+title: RNP Characterization Problem
+statement: Characterize Banach spaces with the Radon-Nikodym property using geometric
+  conditions.
+source_id: curated_rnp_characterization_problem
+source_url: https://en.wikipedia.org/wiki/Radon%E2%80%93Nikod%C3%BDm_property
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

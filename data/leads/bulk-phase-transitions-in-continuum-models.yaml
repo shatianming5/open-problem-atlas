@@ -1,0 +1,12 @@
+title: Phase Transitions in Continuum Models
+statement: Prove the existence of phase transitions for continuum particle systems
+  with realistic interactions.
+source_id: curated_phase_transitions_in_continuum_models
+source_url: https://en.wikipedia.org/wiki/Phase_transition
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

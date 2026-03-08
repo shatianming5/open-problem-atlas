@@ -1,0 +1,12 @@
+title: Elkies' Conjecture on Supersingular Primes
+statement: Prove that the density of supersingular primes for a non-CM elliptic curve
+  is zero.
+source_id: curated_elkies_conjecture_on_supersingular_primes
+source_url: https://en.wikipedia.org/wiki/Supersingular_prime_(moonshine_theory)
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

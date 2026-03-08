@@ -1,0 +1,12 @@
+title: Khovanov Homology and Slice Genus
+statement: Determine whether Khovanov homology detects the smooth slice genus of a
+  knot.
+source_id: curated_khovanov_homology_and_slice_genus
+source_url: https://en.wikipedia.org/wiki/Khovanov_homology
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

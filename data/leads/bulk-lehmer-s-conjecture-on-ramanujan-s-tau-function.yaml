@@ -1,0 +1,12 @@
+title: Lehmer's Conjecture on Ramanujan's Tau Function
+statement: 'Prove that Ramanujan''s tau function never vanishes: tau(n) is nonzero
+  for all n.'
+source_id: curated_lehmer_s_conjecture_on_ramanujan_s_tau_function
+source_url: https://en.wikipedia.org/wiki/Ramanujan_tau_function
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

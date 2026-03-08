@@ -1,0 +1,12 @@
+title: Perfect 1-Factorization Conjecture
+statement: Prove that the complete graph K_{2n} has a perfect 1-factorization for
+  all n.
+source_id: curated_perfect_1_factorization_conjecture
+source_url: https://en.wikipedia.org/wiki/Perfect_1-factorization
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

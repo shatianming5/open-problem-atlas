@@ -1,0 +1,12 @@
+title: Bernoulli Numbers Divisibility
+statement: Determine the exact divisibility properties of Bernoulli numbers by prime
+  powers.
+source_id: curated_bernoulli_numbers_divisibility
+source_url: https://en.wikipedia.org/wiki/Bernoulli_number
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

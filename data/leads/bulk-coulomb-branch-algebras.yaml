@@ -1,0 +1,11 @@
+title: Coulomb Branch Algebras
+statement: Develop the theory of Coulomb branch algebras in full generality.
+source_id: curated_coulomb_branch_algebras
+source_url: https://en.wikipedia.org/wiki/Coulomb_branch
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

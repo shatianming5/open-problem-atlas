@@ -1,0 +1,12 @@
+title: List-Decodable Learning Theory
+statement: Determine optimal algorithms for learning when a constant fraction of training
+  data is adversarial.
+source_id: curated_list_decodable_learning_theory
+source_url: https://en.wikipedia.org/wiki/List_decoding
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

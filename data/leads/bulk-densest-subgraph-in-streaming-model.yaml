@@ -1,0 +1,11 @@
+title: Densest Subgraph in Streaming Model
+statement: Find the densest subgraph in the streaming model with optimal space.
+source_id: curated_densest_subgraph_in_streaming_model
+source_url: https://en.wikipedia.org/wiki/Dense_subgraph
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

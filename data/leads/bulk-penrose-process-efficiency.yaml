@@ -1,0 +1,12 @@
+title: Penrose Process Efficiency
+statement: Determine the maximum efficiency of energy extraction from rotating black
+  holes via the Penrose process.
+source_id: curated_penrose_process_efficiency
+source_url: https://en.wikipedia.org/wiki/Penrose_process
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

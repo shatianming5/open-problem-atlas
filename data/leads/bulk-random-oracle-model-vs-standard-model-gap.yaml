@@ -1,0 +1,12 @@
+title: Random Oracle Model vs Standard Model Gap
+statement: Characterize which constructions proven secure in the random oracle model
+  can be instantiated in the standard model.
+source_id: curated_random_oracle_model_vs_standard_model_gap
+source_url: https://en.wikipedia.org/wiki/Random_oracle
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

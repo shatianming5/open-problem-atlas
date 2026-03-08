@@ -1,0 +1,11 @@
+title: Equidistribution of CM Points
+statement: Prove equidistribution theorems for CM points on Shimura varieties.
+source_id: curated_equidistribution_of_cm_points
+source_url: https://en.wikipedia.org/wiki/Complex_multiplication
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

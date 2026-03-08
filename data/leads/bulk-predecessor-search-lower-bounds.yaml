@@ -1,0 +1,12 @@
+title: Predecessor Search Lower Bounds
+statement: Determine the optimal time complexity for predecessor search in the cell
+  probe model.
+source_id: curated_predecessor_search_lower_bounds
+source_url: https://en.wikipedia.org/wiki/Predecessor_problem
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

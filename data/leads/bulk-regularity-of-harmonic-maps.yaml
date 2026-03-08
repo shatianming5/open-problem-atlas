@@ -1,0 +1,11 @@
+title: Regularity of Harmonic Maps
+statement: Determine the optimal regularity of harmonic maps between Riemannian manifolds.
+source_id: curated_regularity_of_harmonic_maps
+source_url: https://en.wikipedia.org/wiki/Harmonic_map
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

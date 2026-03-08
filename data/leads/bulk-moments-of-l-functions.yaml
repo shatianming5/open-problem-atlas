@@ -1,0 +1,12 @@
+title: Moments of L-Functions
+statement: Compute the moments of families of L-functions and prove the conjectures
+  of Conrey-Farmer-Keating-Rubinstein-Snaith.
+source_id: curated_moments_of_l_functions
+source_url: https://en.wikipedia.org/wiki/L-function
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

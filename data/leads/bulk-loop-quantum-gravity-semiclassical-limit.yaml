@@ -1,0 +1,12 @@
+title: Loop Quantum Gravity Semiclassical Limit
+statement: Prove that loop quantum gravity reproduces general relativity in the semiclassical
+  limit.
+source_id: curated_loop_quantum_gravity_semiclassical_limit
+source_url: https://en.wikipedia.org/wiki/Loop_quantum_gravity
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

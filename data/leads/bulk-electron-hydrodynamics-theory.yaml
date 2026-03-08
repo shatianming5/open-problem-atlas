@@ -1,0 +1,11 @@
+title: Electron Hydrodynamics Theory
+statement: Develop a rigorous theory of electron hydrodynamics in clean conductors.
+source_id: curated_electron_hydrodynamics_theory
+source_url: https://en.wikipedia.org/wiki/Electron_vortex
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

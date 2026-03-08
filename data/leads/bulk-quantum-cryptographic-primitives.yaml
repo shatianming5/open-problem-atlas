@@ -1,0 +1,12 @@
+title: Quantum Cryptographic Primitives
+statement: Determine which cryptographic primitives can be constructed using quantum
+  mechanics alone.
+source_id: curated_quantum_cryptographic_primitives
+source_url: https://en.wikipedia.org/wiki/Quantum_cryptography
+domain_hint: theoretical-cs
+subdomain_hint: quantum-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Derived Categories of Coherent Sheaves Classification
+statement: Classify all varieties whose derived categories of coherent sheaves are
+  equivalent.
+source_id: curated_derived_categories_of_coherent_sheaves_classification
+source_url: https://en.wikipedia.org/wiki/Derived_category
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

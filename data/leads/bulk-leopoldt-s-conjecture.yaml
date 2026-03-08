@@ -1,0 +1,11 @@
+title: Leopoldt's Conjecture
+statement: For any number field K and any prime p, the p-adic regulator of K is nonzero.
+source_id: curated_leopoldt_s_conjecture
+source_url: https://en.wikipedia.org/wiki/Leopoldt%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Equilibrium Crystal Shape Theory
+statement: Prove the existence and regularity of equilibrium crystal shapes from microscopic
+  models.
+source_id: curated_equilibrium_crystal_shape_theory
+source_url: https://en.wikipedia.org/wiki/Crystal_structure
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

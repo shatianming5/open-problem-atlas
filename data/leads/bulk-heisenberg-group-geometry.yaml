@@ -1,0 +1,11 @@
+title: Heisenberg Group Geometry
+statement: Develop the complete geometric analysis on the Heisenberg group.
+source_id: curated_heisenberg_group_geometry
+source_url: https://en.wikipedia.org/wiki/Heisenberg_group
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

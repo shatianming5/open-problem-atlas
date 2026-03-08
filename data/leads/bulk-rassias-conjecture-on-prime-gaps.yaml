@@ -1,0 +1,12 @@
+title: Rassias Conjecture on Prime Gaps
+statement: For every prime p > 2, there exist primes p1 and p2 with p1 + p2 = 2p and
+  |p1 - p| less than c*sqrt(p)*ln(p).
+source_id: curated_rassias_conjecture_on_prime_gaps
+source_url: https://en.wikipedia.org/wiki/Rassias%27_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

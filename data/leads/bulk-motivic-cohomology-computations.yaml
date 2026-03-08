@@ -1,0 +1,12 @@
+title: Motivic Cohomology Computations
+statement: Complete the computation of motivic cohomology groups of number fields
+  and varieties.
+source_id: curated_motivic_cohomology_computations
+source_url: https://en.wikipedia.org/wiki/Motivic_cohomology
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Unipotent Representations Classification
+statement: Complete the classification of unipotent representations of p-adic groups.
+source_id: curated_unipotent_representations_classification
+source_url: https://en.wikipedia.org/wiki/Unipotent_representation
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

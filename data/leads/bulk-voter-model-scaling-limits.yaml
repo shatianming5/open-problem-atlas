@@ -1,0 +1,11 @@
+title: Voter Model Scaling Limits
+statement: Determine the scaling limits of voter models on general graphs.
+source_id: curated_voter_model_scaling_limits
+source_url: https://en.wikipedia.org/wiki/Voter_model
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

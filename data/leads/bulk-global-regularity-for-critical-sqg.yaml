@@ -1,0 +1,11 @@
+title: Global Regularity for Critical SQG
+statement: Prove global regularity for the critical surface quasi-geostrophic equation.
+source_id: curated_global_regularity_for_critical_sqg
+source_url: https://en.wikipedia.org/wiki/Surface_quasi-geostrophic_equation
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

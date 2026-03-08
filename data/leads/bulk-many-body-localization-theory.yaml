@@ -1,0 +1,12 @@
+title: Many-Body Localization Theory
+statement: Prove or disprove many-body localization in interacting quantum systems
+  in arbitrary dimensions.
+source_id: curated_many_body_localization_theory
+source_url: https://en.wikipedia.org/wiki/Many-body_localization
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

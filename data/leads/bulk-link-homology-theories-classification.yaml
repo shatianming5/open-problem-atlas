@@ -1,0 +1,11 @@
+title: Link Homology Theories Classification
+statement: Classify all link homology theories categorifying quantum invariants.
+source_id: curated_link_homology_theories_classification
+source_url: https://en.wikipedia.org/wiki/Khovanov_homology
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

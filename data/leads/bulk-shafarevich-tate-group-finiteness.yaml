@@ -1,0 +1,12 @@
+title: Shafarevich-Tate Group Finiteness
+statement: Prove finiteness of the Shafarevich-Tate group for all abelian varieties
+  over number fields.
+source_id: curated_shafarevich_tate_group_finiteness
+source_url: https://en.wikipedia.org/wiki/Tate%E2%80%93Shafarevich_group
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

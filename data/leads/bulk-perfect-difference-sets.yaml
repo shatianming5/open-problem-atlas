@@ -1,0 +1,12 @@
+title: Perfect Difference Sets
+statement: Characterize all perfect difference sets and their relationship to projective
+  planes.
+source_id: curated_perfect_difference_sets
+source_url: https://en.wikipedia.org/wiki/Difference_set
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Lattice QCD Continuum Limit
+statement: Prove that lattice QCD has a well-defined continuum limit.
+source_id: curated_lattice_qcd_continuum_limit
+source_url: https://en.wikipedia.org/wiki/Lattice_QCD
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

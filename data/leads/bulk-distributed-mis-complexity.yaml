@@ -1,0 +1,12 @@
+title: Distributed MIS Complexity
+statement: Determine the exact round complexity of computing a maximal independent
+  set in the LOCAL model.
+source_id: curated_distributed_mis_complexity
+source_url: https://en.wikipedia.org/wiki/Maximal_independent_set
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

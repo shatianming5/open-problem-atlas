@@ -1,0 +1,11 @@
+title: Erdos-Ko-Rado Theorem Sharp Extensions
+statement: Prove sharp versions of the Erdos-Ko-Rado theorem for non-uniform set systems.
+source_id: curated_erdos_ko_rado_theorem_sharp_extensions
+source_url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Ko%E2%80%93Rado_theorem
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

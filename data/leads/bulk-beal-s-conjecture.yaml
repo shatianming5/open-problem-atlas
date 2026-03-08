@@ -1,0 +1,12 @@
+title: Beal's Conjecture
+statement: If a^x + b^y = c^z where a,b,c,x,y,z are positive integers with x,y,z >
+  2, then a,b,c share a common prime factor.
+source_id: curated_beal_s_conjecture
+source_url: https://en.wikipedia.org/wiki/Beal_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

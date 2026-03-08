@@ -1,0 +1,12 @@
+title: Nonlinear Wave Equations Global Existence
+statement: Prove global existence for nonlinear wave equations with large data in
+  critical spaces.
+source_id: curated_nonlinear_wave_equations_global_existence
+source_url: https://en.wikipedia.org/wiki/Wave_equation
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

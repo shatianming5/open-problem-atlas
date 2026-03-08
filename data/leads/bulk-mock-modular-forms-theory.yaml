@@ -1,0 +1,12 @@
+title: Mock Modular Forms Theory
+statement: Complete the theory of mock modular forms and their applications to number
+  theory.
+source_id: curated_mock_modular_forms_theory
+source_url: https://en.wikipedia.org/wiki/Mock_modular_form
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

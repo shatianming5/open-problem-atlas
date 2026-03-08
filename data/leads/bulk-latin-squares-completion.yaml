@@ -1,0 +1,12 @@
+title: Latin Squares Completion
+statement: Determine when a partial Latin square can be completed to a full Latin
+  square.
+source_id: curated_latin_squares_completion
+source_url: https://en.wikipedia.org/wiki/Latin_square
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

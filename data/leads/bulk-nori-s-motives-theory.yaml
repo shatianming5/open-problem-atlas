@@ -1,0 +1,12 @@
+title: Nori's Motives Theory
+statement: Complete Nori's theory of mixed motives and its connections to algebraic
+  K-theory.
+source_id: curated_nori_s_motives_theory
+source_url: https://en.wikipedia.org/wiki/Motive_(algebraic_geometry)
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

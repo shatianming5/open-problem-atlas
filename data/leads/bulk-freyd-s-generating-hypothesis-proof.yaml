@@ -1,0 +1,12 @@
+title: Freyd's Generating Hypothesis Proof
+statement: Prove that a map between finite spectra that induces zero on homotopy groups
+  is null.
+source_id: curated_freyd_s_generating_hypothesis_proof
+source_url: https://en.wikipedia.org/wiki/Generating_hypothesis
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

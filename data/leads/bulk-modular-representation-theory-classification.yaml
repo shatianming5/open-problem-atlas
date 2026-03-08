@@ -1,0 +1,12 @@
+title: Modular Representation Theory Classification
+statement: Complete the classification of modular representations of finite groups
+  of Lie type.
+source_id: curated_modular_representation_theory_classification
+source_url: https://en.wikipedia.org/wiki/Modular_representation_theory
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

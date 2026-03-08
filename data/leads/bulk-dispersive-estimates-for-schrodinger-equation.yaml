@@ -1,0 +1,11 @@
+title: Dispersive Estimates for Schrodinger Equation
+statement: Prove optimal dispersive estimates for Schrodinger equations with potentials.
+source_id: curated_dispersive_estimates_for_schrodinger_equation
+source_url: https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

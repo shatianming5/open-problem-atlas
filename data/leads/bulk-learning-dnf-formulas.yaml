@@ -1,0 +1,11 @@
+title: Learning DNF Formulas
+statement: Determine whether DNF formulas are efficiently PAC-learnable.
+source_id: curated_learning_dnf_formulas
+source_url: https://en.wikipedia.org/wiki/Disjunctive_normal_form
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

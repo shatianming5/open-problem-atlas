@@ -1,0 +1,12 @@
+title: Langlands Classification for Loop Groups
+statement: Extend the Langlands classification of representations to loop groups and
+  double loop groups.
+source_id: curated_langlands_classification_for_loop_groups
+source_url: https://en.wikipedia.org/wiki/Langlands_program
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

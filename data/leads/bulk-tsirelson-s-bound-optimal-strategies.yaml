@@ -1,0 +1,12 @@
+title: Tsirelson's Bound Optimal Strategies
+statement: Determine optimal quantum strategies achieving Tsirelson's bound for all
+  Bell inequalities.
+source_id: curated_tsirelson_s_bound_optimal_strategies
+source_url: https://en.wikipedia.org/wiki/Tsirelson%27s_bound
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

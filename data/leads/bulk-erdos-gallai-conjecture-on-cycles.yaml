@@ -1,0 +1,12 @@
+title: Erdos-Gallai Conjecture on Cycles
+statement: Every graph on n vertices with more than (k-1)(n-1)/2 edges contains a
+  cycle of length at least k.
+source_id: curated_erdos_gallai_conjecture_on_cycles
+source_url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Gallai_theorem
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

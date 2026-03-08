@@ -1,0 +1,12 @@
+title: Property R Conjecture for Links
+statement: Extend the Property R theorem to characterize which Dehn surgeries on links
+  yield S^1 x S^2.
+source_id: curated_property_r_conjecture_for_links
+source_url: https://en.wikipedia.org/wiki/Property_R_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

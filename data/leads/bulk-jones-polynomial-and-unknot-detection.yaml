@@ -1,0 +1,11 @@
+title: Jones Polynomial and Unknot Detection
+statement: Does the Jones polynomial detect the unknot?
+source_id: curated_jones_polynomial_and_unknot_detection
+source_url: https://en.wikipedia.org/wiki/Jones_polynomial
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

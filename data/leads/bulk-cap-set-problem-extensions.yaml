@@ -1,0 +1,11 @@
+title: Cap Set Problem Extensions
+statement: Extend the Croot-Lev-Pach method to prove bounds on other extremal problems.
+source_id: curated_cap_set_problem_extensions
+source_url: https://en.wikipedia.org/wiki/Cap_set
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

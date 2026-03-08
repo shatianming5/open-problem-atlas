@@ -1,0 +1,11 @@
+title: Distributed Property Testing
+statement: Determine the round complexity of property testing in distributed settings.
+source_id: curated_distributed_property_testing
+source_url: https://en.wikipedia.org/wiki/Property_testing
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Benign Overfitting Theory
+statement: Develop a complete theory explaining when and why interpolation leads to
+  good generalization.
+source_id: curated_benign_overfitting_theory
+source_url: https://en.wikipedia.org/wiki/Overfitting
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

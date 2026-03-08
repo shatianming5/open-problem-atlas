@@ -1,0 +1,12 @@
+title: Information-Theoretic Secure Computation
+statement: Determine the exact communication complexity of information-theoretically
+  secure computation.
+source_id: curated_information_theoretic_secure_computation
+source_url: https://en.wikipedia.org/wiki/Information-theoretic_security
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

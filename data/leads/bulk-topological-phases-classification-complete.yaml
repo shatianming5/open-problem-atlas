@@ -1,0 +1,12 @@
+title: Topological Phases Classification (Complete)
+statement: Complete the classification of topological phases of matter including interacting
+  and non-equilibrium systems.
+source_id: curated_topological_phases_classification_complete
+source_url: https://en.wikipedia.org/wiki/Topological_order
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

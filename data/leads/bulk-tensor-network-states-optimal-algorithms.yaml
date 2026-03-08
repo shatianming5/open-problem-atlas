@@ -1,0 +1,12 @@
+title: Tensor Network States Optimal Algorithms
+statement: Develop optimal algorithms for tensor network state simulations of 2D quantum
+  systems.
+source_id: curated_tensor_network_states_optimal_algorithms
+source_url: https://en.wikipedia.org/wiki/Tensor_network
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

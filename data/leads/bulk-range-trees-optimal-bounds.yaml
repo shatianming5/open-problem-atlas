@@ -1,0 +1,11 @@
+title: Range Trees Optimal Bounds
+statement: Determine the optimal space-query tradeoff for orthogonal range searching.
+source_id: curated_range_trees_optimal_bounds
+source_url: https://en.wikipedia.org/wiki/Range_tree
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

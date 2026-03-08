@@ -1,0 +1,11 @@
+title: Catalan's Mersenne Number Conjecture
+statement: In the sequence 2, M_2=3, M_3=7, M_7=127, M_{127}=..., every term is prime.
+source_id: curated_catalan_s_mersenne_number_conjecture
+source_url: https://en.wikipedia.org/wiki/Double_Mersenne_number
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

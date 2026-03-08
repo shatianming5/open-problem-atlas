@@ -1,0 +1,12 @@
+title: Stabilizer Rank and Quantum Simulation
+statement: Determine the stabilizer rank of magic states and its implications for
+  quantum simulation.
+source_id: curated_stabilizer_rank_and_quantum_simulation
+source_url: https://en.wikipedia.org/wiki/Stabilizer_code
+domain_hint: theoretical-cs
+subdomain_hint: quantum-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

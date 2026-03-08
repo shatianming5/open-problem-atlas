@@ -1,0 +1,11 @@
+title: Weighted Bipartite Matching in Near-Linear Time
+statement: Find a maximum weight matching in bipartite graphs in near-linear time.
+source_id: curated_weighted_bipartite_matching_in_near_linear_time
+source_url: https://en.wikipedia.org/wiki/Maximum_weight_matching
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

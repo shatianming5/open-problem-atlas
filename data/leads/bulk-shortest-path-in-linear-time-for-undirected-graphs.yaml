@@ -1,0 +1,12 @@
+title: Shortest Path in Linear Time for Undirected Graphs
+statement: Find single-source shortest paths in undirected weighted graphs in O(m
+  + n) time.
+source_id: curated_shortest_path_in_linear_time_for_undirected_graphs
+source_url: https://en.wikipedia.org/wiki/Shortest_path_problem
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Benford's Law for Prime Numbers
+statement: Prove or disprove that the leading digits of primes in various bases follow
+  Benford's law asymptotically.
+source_id: curated_benford_s_law_for_prime_numbers
+source_url: https://en.wikipedia.org/wiki/Benford%27s_law
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

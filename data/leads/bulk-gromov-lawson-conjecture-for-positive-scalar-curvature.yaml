@@ -1,0 +1,11 @@
+title: Gromov-Lawson Conjecture for Positive Scalar Curvature
+statement: Determine exactly which manifolds admit metrics of positive scalar curvature.
+source_id: curated_gromov_lawson_conjecture_for_positive_scalar_curvature
+source_url: https://en.wikipedia.org/wiki/Positive_scalar_curvature
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

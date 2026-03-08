@@ -1,0 +1,11 @@
+title: Quillen's Q-Construction Extensions
+statement: Extend Quillen's Q-construction to broader classes of exact categories.
+source_id: curated_quillen_s_q_construction_extensions
+source_url: https://en.wikipedia.org/wiki/Algebraic_K-theory
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

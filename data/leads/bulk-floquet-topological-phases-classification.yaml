@@ -1,0 +1,11 @@
+title: Floquet Topological Phases Classification
+statement: Classify topological phases in periodically driven (Floquet) quantum systems.
+source_id: curated_floquet_topological_phases_classification
+source_url: https://en.wikipedia.org/wiki/Floquet_theory
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

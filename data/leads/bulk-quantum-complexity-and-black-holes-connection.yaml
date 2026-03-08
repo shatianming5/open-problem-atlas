@@ -1,0 +1,12 @@
+title: Quantum Complexity and Black Holes Connection
+statement: Prove the conjecture relating quantum computational complexity to black
+  hole interior geometry.
+source_id: curated_quantum_complexity_and_black_holes_connection
+source_url: https://en.wikipedia.org/wiki/Black_hole
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Iwasawa Mu-Invariant Conjecture
+statement: The Iwasawa mu-invariant vanishes for all number fields and all primes
+  p.
+source_id: curated_iwasawa_mu_invariant_conjecture
+source_url: https://en.wikipedia.org/wiki/Iwasawa_theory
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

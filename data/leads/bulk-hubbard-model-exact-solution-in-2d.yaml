@@ -1,0 +1,11 @@
+title: Hubbard Model Exact Solution in 2D
+statement: Determine whether the 2D Hubbard model can be exactly solved.
+source_id: curated_hubbard_model_exact_solution_in_2d
+source_url: https://en.wikipedia.org/wiki/Hubbard_model
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

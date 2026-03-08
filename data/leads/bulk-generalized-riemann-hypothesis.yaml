@@ -1,0 +1,12 @@
+title: Generalized Riemann Hypothesis
+statement: All nontrivial zeros of every Dirichlet L-function lie on the critical
+  line Re(s) = 1/2.
+source_id: curated_generalized_riemann_hypothesis
+source_url: https://en.wikipedia.org/wiki/Generalized_Riemann_hypothesis
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

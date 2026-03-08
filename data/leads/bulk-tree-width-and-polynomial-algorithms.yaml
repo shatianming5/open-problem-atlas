@@ -1,0 +1,12 @@
+title: Tree-Width and Polynomial Algorithms
+statement: Characterize all graph problems that can be solved in polynomial time on
+  graphs of bounded tree-width.
+source_id: curated_tree_width_and_polynomial_algorithms
+source_url: https://en.wikipedia.org/wiki/Treewidth
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

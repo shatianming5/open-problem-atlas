@@ -1,0 +1,11 @@
+title: Tropical Geometry Applications
+statement: Develop applications of tropical geometry to algebraic geometry and combinatorics.
+source_id: curated_tropical_geometry_applications
+source_url: https://en.wikipedia.org/wiki/Tropical_geometry
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

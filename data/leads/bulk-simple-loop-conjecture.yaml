@@ -1,0 +1,12 @@
+title: Simple Loop Conjecture
+statement: If a map from a surface to a 3-manifold is not injective on fundamental
+  group, there is a simple loop mapped to a null-homotopic curve.
+source_id: curated_simple_loop_conjecture
+source_url: https://en.wikipedia.org/wiki/Simple_loop_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

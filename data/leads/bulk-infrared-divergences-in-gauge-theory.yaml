@@ -1,0 +1,12 @@
+title: Infrared Divergences in Gauge Theory
+statement: Develop a complete mathematical treatment of infrared divergences in non-abelian
+  gauge theories.
+source_id: curated_infrared_divergences_in_gauge_theory
+source_url: https://en.wikipedia.org/wiki/Infrared_divergence
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

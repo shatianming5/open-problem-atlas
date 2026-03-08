@@ -1,0 +1,11 @@
+title: Large Cardinals Consistency Hierarchy
+statement: Determine the exact consistency strength of all large cardinal axioms.
+source_id: curated_large_cardinals_consistency_hierarchy
+source_url: https://en.wikipedia.org/wiki/Large_cardinal
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

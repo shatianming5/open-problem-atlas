@@ -1,0 +1,12 @@
+title: De Grey's Graph Coloring Result Extensions
+statement: Improve bounds on the chromatic number of the plane following de Grey's
+  breakthrough.
+source_id: curated_de_grey_s_graph_coloring_result_extensions
+source_url: https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

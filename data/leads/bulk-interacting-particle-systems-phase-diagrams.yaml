@@ -1,0 +1,11 @@
+title: Interacting Particle Systems Phase Diagrams
+statement: Determine complete phase diagrams for classes of interacting particle systems.
+source_id: curated_interacting_particle_systems_phase_diagrams
+source_url: https://en.wikipedia.org/wiki/Interacting_particle_system
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Hoop Conjecture Proof
+statement: 'Prove the hoop conjecture: a black hole forms when, and only when, a mass
+  is compacted into a small enough region.'
+source_id: curated_hoop_conjecture_proof
+source_url: https://en.wikipedia.org/wiki/Hoop_conjecture
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

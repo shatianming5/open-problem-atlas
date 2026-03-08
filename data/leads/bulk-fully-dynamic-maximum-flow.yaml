@@ -1,0 +1,12 @@
+title: Fully Dynamic Maximum Flow
+statement: Determine the optimal update time for maintaining maximum flow in dynamic
+  graphs.
+source_id: curated_fully_dynamic_maximum_flow
+source_url: https://en.wikipedia.org/wiki/Maximum_flow_problem
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

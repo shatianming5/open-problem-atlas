@@ -1,0 +1,12 @@
+title: Sparse Recovery Optimal Measurements
+statement: Determine the optimal number of measurements for sparse recovery in compressed
+  sensing.
+source_id: curated_sparse_recovery_optimal_measurements
+source_url: https://en.wikipedia.org/wiki/Compressed_sensing
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

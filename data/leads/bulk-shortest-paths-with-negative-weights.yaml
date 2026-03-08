@@ -1,0 +1,12 @@
+title: Shortest Paths with Negative Weights
+statement: Find single-source shortest paths with negative edge weights in near-linear
+  time.
+source_id: curated_shortest_paths_with_negative_weights
+source_url: https://en.wikipedia.org/wiki/Bellman%E2%80%93Ford_algorithm
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

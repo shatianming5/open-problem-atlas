@@ -1,0 +1,12 @@
+title: Hardy-Ramanujan Partition Asymptotics Extensions
+statement: Extend the Hardy-Ramanujan asymptotic formula for partitions to colored
+  and restricted partitions.
+source_id: curated_hardy_ramanujan_partition_asymptotics_extensions
+source_url: https://en.wikipedia.org/wiki/Partition_function_(number_theory)
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

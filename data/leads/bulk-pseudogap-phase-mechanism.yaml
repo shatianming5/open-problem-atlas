@@ -1,0 +1,11 @@
+title: Pseudogap Phase Mechanism
+statement: Determine the origin and nature of the pseudogap phase in cuprate superconductors.
+source_id: curated_pseudogap_phase_mechanism
+source_url: https://en.wikipedia.org/wiki/Pseudogap
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

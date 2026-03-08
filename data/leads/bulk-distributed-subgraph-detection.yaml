@@ -1,0 +1,11 @@
+title: Distributed Subgraph Detection
+statement: Determine the round complexity of detecting subgraphs in the CONGEST model.
+source_id: curated_distributed_subgraph_detection
+source_url: https://en.wikipedia.org/wiki/CONGEST_model
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

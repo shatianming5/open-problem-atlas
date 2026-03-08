@@ -1,0 +1,12 @@
+title: Packing Chromatic Number of Z^d
+statement: Determine the packing chromatic number of the integer lattice Z^d for d
+  >= 2.
+source_id: curated_packing_chromatic_number_of_z_d
+source_url: https://en.wikipedia.org/wiki/Packing_chromatic_number
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

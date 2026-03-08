@@ -1,0 +1,11 @@
+title: Minimum Cut in Linear Time
+statement: Find the minimum cut of an undirected graph in O(m) time.
+source_id: curated_minimum_cut_in_linear_time
+source_url: https://en.wikipedia.org/wiki/Minimum_cut
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

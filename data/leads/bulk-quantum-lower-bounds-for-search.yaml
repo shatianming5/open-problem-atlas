@@ -1,0 +1,12 @@
+title: Quantum Lower Bounds for Search
+statement: Prove tight quantum lower bounds for unstructured and structured search
+  problems.
+source_id: curated_quantum_lower_bounds_for_search
+source_url: https://en.wikipedia.org/wiki/Grover%27s_algorithm
+domain_hint: theoretical-cs
+subdomain_hint: quantum-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

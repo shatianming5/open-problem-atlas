@@ -1,0 +1,12 @@
+title: Matrix Multiplication in O(n^2) Time
+statement: Determine whether two n x n matrices can be multiplied in O(n^2) arithmetic
+  operations.
+source_id: curated_matrix_multiplication_in_o_n_2_time
+source_url: https://en.wikipedia.org/wiki/Matrix_multiplication_algorithm
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

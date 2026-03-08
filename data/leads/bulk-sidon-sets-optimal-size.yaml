@@ -1,0 +1,11 @@
+title: Sidon Sets Optimal Size
+statement: Determine the maximum size of a Sidon set in {1, 2, ..., n}.
+source_id: curated_sidon_sets_optimal_size
+source_url: https://en.wikipedia.org/wiki/Sidon_set
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Waring-Goldbach Problem
+statement: Determine the minimum number of prime k-th powers needed to represent all
+  sufficiently large integers.
+source_id: curated_waring_goldbach_problem
+source_url: https://en.wikipedia.org/wiki/Waring%27s_problem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Artin's Conjecture for Function Fields
+statement: Prove the analog of Artin's primitive root conjecture over function fields
+  over finite fields.
+source_id: curated_artin_s_conjecture_for_function_fields
+source_url: https://en.wikipedia.org/wiki/Artin%27s_conjecture_on_primitive_roots
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

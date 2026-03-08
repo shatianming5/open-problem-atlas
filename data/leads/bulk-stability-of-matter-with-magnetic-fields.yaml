@@ -1,0 +1,11 @@
+title: Stability of Matter with Magnetic Fields
+statement: Prove stability of matter in the presence of strong magnetic fields.
+source_id: curated_stability_of_matter_with_magnetic_fields
+source_url: https://en.wikipedia.org/wiki/Stability_of_matter
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

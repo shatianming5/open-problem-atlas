@@ -1,0 +1,11 @@
+title: Exact Results for N-Body Problem
+statement: Find new exact solutions to the gravitational N-body problem for N >= 4.
+source_id: curated_exact_results_for_n_body_problem
+source_url: https://en.wikipedia.org/wiki/N-body_problem
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

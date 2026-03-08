@@ -1,0 +1,12 @@
+title: Euler's Sum of Powers Conjecture Extensions
+statement: Classify all solutions and non-solutions of a^k + b^k + c^k = d^k for various
+  k.
+source_id: curated_euler_s_sum_of_powers_conjecture_extensions
+source_url: https://en.wikipedia.org/wiki/Euler%27s_sum_of_powers_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

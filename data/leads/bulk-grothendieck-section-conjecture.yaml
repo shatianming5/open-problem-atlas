@@ -1,0 +1,12 @@
+title: Grothendieck Section Conjecture
+statement: Prove the section conjecture relating rational points to sections of the
+  fundamental group exact sequence.
+source_id: curated_grothendieck_section_conjecture
+source_url: https://en.wikipedia.org/wiki/Section_conjecture
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

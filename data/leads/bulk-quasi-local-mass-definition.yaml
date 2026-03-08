@@ -1,0 +1,11 @@
+title: Quasi-Local Mass Definition
+statement: Find a satisfactory definition of quasi-local mass in general relativity.
+source_id: curated_quasi_local_mass_definition
+source_url: https://en.wikipedia.org/wiki/Quasi-local_mass
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Catalan Numbers and Modular Arithmetic
+statement: Determine when the Catalan number C_n is divisible by a given prime p.
+source_id: curated_catalan_numbers_and_modular_arithmetic
+source_url: https://en.wikipedia.org/wiki/Catalan_number
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

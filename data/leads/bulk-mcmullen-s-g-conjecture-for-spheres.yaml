@@ -1,0 +1,11 @@
+title: McMullen's g-Conjecture for Spheres
+statement: Characterize the f-vectors of simplicial spheres.
+source_id: curated_mcmullen_s_g_conjecture_for_spheres
+source_url: https://en.wikipedia.org/wiki/G-conjecture
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

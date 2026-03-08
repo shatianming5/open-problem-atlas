@@ -1,0 +1,12 @@
+title: Vizing's Conjecture (Full Proof)
+statement: For the Cartesian product of graphs G and H, gamma(G [] H) >= gamma(G)
+  * gamma(H) where gamma is the domination number.
+source_id: curated_vizing_s_conjecture_full_proof
+source_url: https://en.wikipedia.org/wiki/Vizing%27s_conjecture
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

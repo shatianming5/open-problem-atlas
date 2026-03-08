@@ -1,0 +1,12 @@
+title: BPS State Counting
+statement: Count BPS states in string theory and verify agreement with black hole
+  entropy.
+source_id: curated_bps_state_counting
+source_url: https://en.wikipedia.org/wiki/BPS_state
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

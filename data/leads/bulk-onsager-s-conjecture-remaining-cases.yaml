@@ -1,0 +1,12 @@
+title: Onsager's Conjecture (Remaining Cases)
+statement: Resolve the remaining cases of Onsager's conjecture on energy conservation
+  for weak solutions of Euler equations.
+source_id: curated_onsager_s_conjecture_remaining_cases
+source_url: https://en.wikipedia.org/wiki/Onsager%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

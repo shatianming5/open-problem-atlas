@@ -1,0 +1,12 @@
+title: Algebrization Barrier Circumvention
+statement: Develop techniques that circumvent the algebrization barrier in complexity
+  theory.
+source_id: curated_algebrization_barrier_circumvention
+source_url: https://en.wikipedia.org/wiki/Algebrization
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

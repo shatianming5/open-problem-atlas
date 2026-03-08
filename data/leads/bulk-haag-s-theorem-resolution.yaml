@@ -1,0 +1,12 @@
+title: Haag's Theorem Resolution
+statement: Resolve the conflict between Haag's theorem and the practical success of
+  the interaction picture.
+source_id: curated_haag_s_theorem_resolution
+source_url: https://en.wikipedia.org/wiki/Haag%27s_theorem
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

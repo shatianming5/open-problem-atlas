@@ -1,0 +1,12 @@
+title: Effective Field Theory Bounds from Unitarity
+statement: Derive rigorous bounds on effective field theory coefficients from unitarity
+  and causality.
+source_id: curated_effective_field_theory_bounds_from_unitarity
+source_url: https://en.wikipedia.org/wiki/Effective_field_theory
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

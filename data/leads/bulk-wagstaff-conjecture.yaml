@@ -1,0 +1,12 @@
+title: Wagstaff Conjecture
+statement: There are infinitely many Wagstaff primes, i.e., primes of the form (2^p
+  + 1)/3.
+source_id: curated_wagstaff_conjecture
+source_url: https://en.wikipedia.org/wiki/Wagstaff_prime
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

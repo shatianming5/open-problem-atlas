@@ -1,0 +1,11 @@
+title: Odd Perfect Number Conjecture
+statement: No odd perfect number exists.
+source_id: curated_odd_perfect_number_conjecture
+source_url: https://en.wikipedia.org/wiki/Perfect_number
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

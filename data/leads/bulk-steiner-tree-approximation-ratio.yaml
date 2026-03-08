@@ -1,0 +1,12 @@
+title: Steiner Tree Approximation Ratio
+statement: Determine the optimal polynomial-time approximation ratio for the Steiner
+  tree problem.
+source_id: curated_steiner_tree_approximation_ratio
+source_url: https://en.wikipedia.org/wiki/Steiner_tree_problem
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

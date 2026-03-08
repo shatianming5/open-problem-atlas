@@ -1,0 +1,11 @@
+title: Tian-Yau-Donaldson Conjecture
+statement: A Fano manifold admits a Kahler-Einstein metric if and only if it is K-polystable.
+source_id: curated_tian_yau_donaldson_conjecture
+source_url: https://en.wikipedia.org/wiki/Yau%E2%80%93Tian%E2%80%93Donaldson_conjecture
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

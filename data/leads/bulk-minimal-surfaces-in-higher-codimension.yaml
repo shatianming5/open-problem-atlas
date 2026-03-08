@@ -1,0 +1,11 @@
+title: Minimal Surfaces in Higher Codimension
+statement: Develop the theory of minimal surfaces in codimension > 1.
+source_id: curated_minimal_surfaces_in_higher_codimension
+source_url: https://en.wikipedia.org/wiki/Minimal_surface
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

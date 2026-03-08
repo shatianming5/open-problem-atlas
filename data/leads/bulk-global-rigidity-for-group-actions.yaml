@@ -1,0 +1,11 @@
+title: Global Rigidity for Group Actions
+statement: Prove global rigidity results for higher-rank lattice actions on manifolds.
+source_id: curated_global_rigidity_for_group_actions
+source_url: https://en.wikipedia.org/wiki/Zimmer%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

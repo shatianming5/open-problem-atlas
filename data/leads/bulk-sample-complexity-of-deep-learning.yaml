@@ -1,0 +1,12 @@
+title: Sample Complexity of Deep Learning
+statement: Explain the surprisingly low sample complexity of deep learning relative
+  to classical bounds.
+source_id: curated_sample_complexity_of_deep_learning
+source_url: https://en.wikipedia.org/wiki/Deep_learning
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

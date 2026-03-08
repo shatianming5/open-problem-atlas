@@ -1,0 +1,12 @@
+title: Schwinger Model Complete Solution
+statement: Complete the solution of the Schwinger model including all correlation
+  functions.
+source_id: curated_schwinger_model_complete_solution
+source_url: https://en.wikipedia.org/wiki/Schwinger_model
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

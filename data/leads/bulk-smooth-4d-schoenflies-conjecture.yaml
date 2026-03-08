@@ -1,0 +1,11 @@
+title: Smooth 4D Schoenflies Conjecture
+statement: Every smoothly embedded 3-sphere in R^4 bounds a smooth 4-ball.
+source_id: curated_smooth_4d_schoenflies_conjecture
+source_url: https://en.wikipedia.org/wiki/Schoenflies_problem
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

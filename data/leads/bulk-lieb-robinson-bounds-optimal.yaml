@@ -1,0 +1,12 @@
+title: Lieb-Robinson Bounds Optimal
+statement: Determine optimal Lieb-Robinson bounds for information propagation in quantum
+  lattice systems.
+source_id: curated_lieb_robinson_bounds_optimal
+source_url: https://en.wikipedia.org/wiki/Lieb%E2%80%93Robinson_bounds
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

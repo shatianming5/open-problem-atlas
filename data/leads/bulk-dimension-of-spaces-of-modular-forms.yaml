@@ -1,0 +1,12 @@
+title: Dimension of Spaces of Modular Forms
+statement: Develop efficient algorithms for computing dimensions of spaces of modular
+  forms of higher level.
+source_id: curated_dimension_of_spaces_of_modular_forms
+source_url: https://en.wikipedia.org/wiki/Modular_form
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Gravitational Wave Memory Effect Theory
+statement: Develop a complete mathematical theory of the gravitational wave memory
+  effect.
+source_id: curated_gravitational_wave_memory_effect_theory
+source_url: https://en.wikipedia.org/wiki/Gravitational-wave_memory_effect
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

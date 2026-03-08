@@ -1,0 +1,12 @@
+title: Integer Multiplication in O(n log n)
+statement: Prove or disprove the conjecture that n-bit integer multiplication requires
+  Omega(n log n) operations.
+source_id: curated_integer_multiplication_in_o_n_log_n
+source_url: https://en.wikipedia.org/wiki/Multiplication_algorithm
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

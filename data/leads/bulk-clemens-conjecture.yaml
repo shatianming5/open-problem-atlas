@@ -1,0 +1,12 @@
+title: Clemens Conjecture
+statement: A generic quintic threefold contains only finitely many rational curves
+  of each degree.
+source_id: curated_clemens_conjecture
+source_url: https://en.wikipedia.org/wiki/Clemens_conjecture
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

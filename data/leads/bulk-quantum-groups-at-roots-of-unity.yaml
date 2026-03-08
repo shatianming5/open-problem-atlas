@@ -1,0 +1,11 @@
+title: Quantum Groups at Roots of Unity
+statement: Develop the representation theory of quantum groups at roots of unity completely.
+source_id: curated_quantum_groups_at_roots_of_unity
+source_url: https://en.wikipedia.org/wiki/Quantum_group
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

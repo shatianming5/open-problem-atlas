@@ -1,0 +1,11 @@
+title: Additive Number Theory Sum-Product Estimates
+statement: Prove optimal sum-product estimates in finite fields and the integers.
+source_id: curated_additive_number_theory_sum_product_estimates
+source_url: https://en.wikipedia.org/wiki/Sum-product_problem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

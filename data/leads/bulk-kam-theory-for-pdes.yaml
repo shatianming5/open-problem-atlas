@@ -1,0 +1,12 @@
+title: KAM Theory for PDEs
+statement: Extend KAM theory to infinite-dimensional systems (PDEs) in a complete
+  way.
+source_id: curated_kam_theory_for_pdes
+source_url: https://en.wikipedia.org/wiki/KAM_theory
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

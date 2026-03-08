@@ -1,0 +1,12 @@
+title: AGT Correspondence Full Proof
+statement: Prove the Alday-Gaiotto-Tachikawa correspondence relating 4D N=2 gauge
+  theories to 2D CFTs.
+source_id: curated_agt_correspondence_full_proof
+source_url: https://en.wikipedia.org/wiki/AGT_correspondence
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

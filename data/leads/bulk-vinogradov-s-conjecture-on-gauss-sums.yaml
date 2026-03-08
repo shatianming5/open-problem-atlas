@@ -1,0 +1,11 @@
+title: Vinogradov's Conjecture on Gauss Sums
+statement: Prove optimal bounds for character sums and Gauss sums over finite fields.
+source_id: curated_vinogradov_s_conjecture_on_gauss_sums
+source_url: https://en.wikipedia.org/wiki/Gauss_sum
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

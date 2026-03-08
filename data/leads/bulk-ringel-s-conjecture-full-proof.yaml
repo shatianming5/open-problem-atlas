@@ -1,0 +1,12 @@
+title: Ringel's Conjecture (Full Proof)
+statement: The complete graph K_{2n+1} can be decomposed into 2n+1 copies of any tree
+  on n+1 vertices.
+source_id: curated_ringel_s_conjecture_full_proof
+source_url: https://en.wikipedia.org/wiki/Ringel%27s_conjecture
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

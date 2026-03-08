@@ -1,0 +1,12 @@
+title: Mazur's Torsion Conjecture for Abelian Varieties
+statement: Extend Mazur's theorem on torsion to higher-dimensional abelian varieties
+  over number fields.
+source_id: curated_mazur_s_torsion_conjecture_for_abelian_varieties
+source_url: https://en.wikipedia.org/wiki/Mazur%27s_torsion_theorem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

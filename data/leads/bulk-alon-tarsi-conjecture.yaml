@@ -1,0 +1,12 @@
+title: Alon-Tarsi Conjecture
+statement: The number of even Latin squares of odd order differs from the number of
+  odd ones.
+source_id: curated_alon_tarsi_conjecture
+source_url: https://en.wikipedia.org/wiki/Alon%E2%80%93Tarsi_conjecture
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

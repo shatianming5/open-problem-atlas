@@ -1,0 +1,12 @@
+title: Bass-Quillen Conjecture
+statement: Every finitely generated projective module over k[x_1,...,x_n] for a PID
+  k is free (generalize Quillen-Suslin).
+source_id: curated_bass_quillen_conjecture
+source_url: https://en.wikipedia.org/wiki/Quillen%E2%80%93Suslin_theorem
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

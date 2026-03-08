@@ -1,0 +1,11 @@
+title: Flat Band Superconductivity Theory
+statement: Develop a complete theory of superconductivity in flat band systems.
+source_id: curated_flat_band_superconductivity_theory
+source_url: https://en.wikipedia.org/wiki/Superconductivity
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

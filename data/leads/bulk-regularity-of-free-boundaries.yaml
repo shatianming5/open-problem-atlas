@@ -1,0 +1,12 @@
+title: Regularity of Free Boundaries
+statement: Prove optimal regularity for free boundaries arising in obstacle problems
+  in all dimensions.
+source_id: curated_regularity_of_free_boundaries
+source_url: https://en.wikipedia.org/wiki/Obstacle_problem
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

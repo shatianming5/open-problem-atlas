@@ -1,0 +1,12 @@
+title: Yang-Mills Mass Gap Problem
+statement: Prove that quantum Yang-Mills theory on R^4 exists and has a positive mass
+  gap.
+source_id: curated_yang_mills_mass_gap_problem
+source_url: https://en.wikipedia.org/wiki/Yang%E2%80%93Mills_existence_and_mass_gap
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

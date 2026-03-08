@@ -1,0 +1,12 @@
+title: String Field Theory Completion
+statement: Complete string field theory as a background-independent formulation of
+  string theory.
+source_id: curated_string_field_theory_completion
+source_url: https://en.wikipedia.org/wiki/String_field_theory
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Quantum Resource Theories Unification
+statement: Develop a unified framework for all quantum resource theories.
+source_id: curated_quantum_resource_theories_unification
+source_url: https://en.wikipedia.org/wiki/Quantum_resource_theory
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Black Hole Area Theorem Quantum Corrections
+statement: Determine quantum corrections to the classical area theorem for black holes.
+source_id: curated_black_hole_area_theorem_quantum_corrections
+source_url: https://en.wikipedia.org/wiki/Black_hole_area_theorem
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

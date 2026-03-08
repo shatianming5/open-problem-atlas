@@ -1,0 +1,12 @@
+title: SLE and Conformal Invariance for All Models
+statement: Prove that all 2D critical lattice models converge to SLE in the scaling
+  limit.
+source_id: curated_sle_and_conformal_invariance_for_all_models
+source_url: https://en.wikipedia.org/wiki/Schramm%E2%80%93Loewner_evolution
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

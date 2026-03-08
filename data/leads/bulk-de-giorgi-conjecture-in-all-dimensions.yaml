@@ -1,0 +1,12 @@
+title: De Giorgi Conjecture in All Dimensions
+statement: Prove the De Giorgi conjecture on level sets of solutions to the Allen-Cahn
+  equation in all dimensions.
+source_id: curated_de_giorgi_conjecture_in_all_dimensions
+source_url: https://en.wikipedia.org/wiki/De_Giorgi_conjecture
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

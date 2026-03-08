@@ -1,0 +1,12 @@
+title: Random Interlacements Percolation
+statement: Determine the percolation threshold for the vacant set of random interlacements
+  on Z^d.
+source_id: curated_random_interlacements_percolation
+source_url: https://en.wikipedia.org/wiki/Random_interlacements
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Garbled Circuits Optimal Size
+statement: Determine the optimal size of garbled circuits for secure computation.
+source_id: curated_garbled_circuits_optimal_size
+source_url: https://en.wikipedia.org/wiki/Garbled_circuit
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

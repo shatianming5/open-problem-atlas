@@ -1,0 +1,12 @@
+title: Optimal Transport Regularity Problem
+statement: Determine the optimal regularity of Monge transport maps for general cost
+  functions.
+source_id: curated_optimal_transport_regularity_problem
+source_url: https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

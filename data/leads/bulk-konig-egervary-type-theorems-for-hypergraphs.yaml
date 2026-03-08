@@ -1,0 +1,12 @@
+title: Konig-Egervary Type Theorems for Hypergraphs
+statement: Determine when the maximum matching equals the minimum cover in r-uniform
+  hypergraphs.
+source_id: curated_konig_egervary_type_theorems_for_hypergraphs
+source_url: https://en.wikipedia.org/wiki/K%C3%B6nig%27s_theorem_(graph_theory)
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

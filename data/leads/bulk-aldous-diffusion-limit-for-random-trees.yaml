@@ -1,0 +1,12 @@
+title: Aldous Diffusion Limit for Random Trees
+statement: Construct and analyze the Aldous diffusion as a continuum limit of Markov
+  chains on trees.
+source_id: curated_aldous_diffusion_limit_for_random_trees
+source_url: https://en.wikipedia.org/wiki/Continuum_random_tree
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

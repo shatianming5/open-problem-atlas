@@ -1,0 +1,12 @@
+title: Quantum Thermalization in Closed Systems
+statement: Prove that generic closed quantum systems thermalize and determine the
+  timescale.
+source_id: curated_quantum_thermalization_in_closed_systems
+source_url: https://en.wikipedia.org/wiki/Thermalization
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

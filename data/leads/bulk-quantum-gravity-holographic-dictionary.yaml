@@ -1,0 +1,12 @@
+title: Quantum Gravity Holographic Dictionary
+statement: Complete the holographic dictionary relating bulk gravity to boundary CFT
+  quantities.
+source_id: curated_quantum_gravity_holographic_dictionary
+source_url: https://en.wikipedia.org/wiki/AdS/CFT_correspondence
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

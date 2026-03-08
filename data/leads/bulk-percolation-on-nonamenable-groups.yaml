@@ -1,0 +1,12 @@
+title: Percolation on Nonamenable Groups
+statement: Determine whether every nonamenable Cayley graph has a nonempty interval
+  of p-values with infinitely many infinite clusters.
+source_id: curated_percolation_on_nonamenable_groups
+source_url: https://en.wikipedia.org/wiki/Percolation_theory
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

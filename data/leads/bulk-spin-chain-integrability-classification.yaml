@@ -1,0 +1,11 @@
+title: Spin Chain Integrability Classification
+statement: Classify all integrable spin chain models.
+source_id: curated_spin_chain_integrability_classification
+source_url: https://en.wikipedia.org/wiki/Integrable_system
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

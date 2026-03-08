@@ -1,0 +1,11 @@
+title: Normal Numbers in All Bases
+statement: Prove that common constants like pi, e, and sqrt(2) are normal in all bases.
+source_id: curated_normal_numbers_in_all_bases
+source_url: https://en.wikipedia.org/wiki/Normal_number
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

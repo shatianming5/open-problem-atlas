@@ -1,0 +1,11 @@
+title: Random Matrix Theory for Open Systems
+statement: Develop random matrix theory for open quantum systems and dissipative dynamics.
+source_id: curated_random_matrix_theory_for_open_systems
+source_url: https://en.wikipedia.org/wiki/Random_matrix
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

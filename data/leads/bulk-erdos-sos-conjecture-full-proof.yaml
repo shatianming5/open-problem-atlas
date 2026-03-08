@@ -1,0 +1,12 @@
+title: Erdos-Sos Conjecture (Full Proof)
+statement: Every graph with average degree > k-2 contains every tree on k vertices
+  as a subgraph.
+source_id: curated_erdos_sos_conjecture_full_proof
+source_url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93S%C3%B3s_conjecture
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

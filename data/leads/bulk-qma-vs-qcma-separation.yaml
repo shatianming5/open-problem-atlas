@@ -1,0 +1,12 @@
+title: QMA vs QCMA Separation
+statement: Determine whether quantum witnesses are more powerful than classical witnesses
+  for quantum verification.
+source_id: curated_qma_vs_qcma_separation
+source_url: https://en.wikipedia.org/wiki/QMA
+domain_hint: theoretical-cs
+subdomain_hint: quantum-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

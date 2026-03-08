@@ -1,0 +1,11 @@
+title: Theta Vacua Classification
+statement: Classify the vacuum structure of gauge theories including theta vacua.
+source_id: curated_theta_vacua_classification
+source_url: https://en.wikipedia.org/wiki/Vacuum_state
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

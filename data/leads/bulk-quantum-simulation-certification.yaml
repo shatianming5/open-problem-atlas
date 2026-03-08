@@ -1,0 +1,11 @@
+title: Quantum Simulation Certification
+statement: Develop methods to certify the correctness of quantum simulations.
+source_id: curated_quantum_simulation_certification
+source_url: https://en.wikipedia.org/wiki/Quantum_simulator
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

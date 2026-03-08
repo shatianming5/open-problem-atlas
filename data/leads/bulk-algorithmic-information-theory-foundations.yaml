@@ -1,0 +1,12 @@
+title: Algorithmic Information Theory Foundations
+statement: Resolve foundational questions in algorithmic information theory about
+  randomness and complexity.
+source_id: curated_algorithmic_information_theory_foundations
+source_url: https://en.wikipedia.org/wiki/Algorithmic_information_theory
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

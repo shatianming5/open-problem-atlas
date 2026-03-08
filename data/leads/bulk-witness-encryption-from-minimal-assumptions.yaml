@@ -1,0 +1,11 @@
+title: Witness Encryption from Minimal Assumptions
+statement: Construct witness encryption from standard assumptions without obfuscation.
+source_id: curated_witness_encryption_from_minimal_assumptions
+source_url: https://en.wikipedia.org/wiki/Witness_encryption
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

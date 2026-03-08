@@ -1,0 +1,12 @@
+title: Wightman Axioms and Realistic QFT
+statement: Construct a QFT satisfying all Wightman axioms that describes a realistic
+  physical theory in 4D.
+source_id: curated_wightman_axioms_and_realistic_qft
+source_url: https://en.wikipedia.org/wiki/Wightman_axioms
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

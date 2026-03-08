@@ -1,0 +1,12 @@
+title: Lusztig's Character Formula for All Types
+statement: Prove Lusztig's conjecture on the characters of irreducible representations
+  of algebraic groups in positive characteristic for all types.
+source_id: curated_lusztig_s_character_formula_for_all_types
+source_url: https://en.wikipedia.org/wiki/Lusztig%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

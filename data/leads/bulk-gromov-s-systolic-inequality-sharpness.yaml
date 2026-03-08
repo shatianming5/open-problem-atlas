@@ -1,0 +1,11 @@
+title: Gromov's Systolic Inequality Sharpness
+statement: Determine the optimal systolic ratio for essential manifolds in all dimensions.
+source_id: curated_gromov_s_systolic_inequality_sharpness
+source_url: https://en.wikipedia.org/wiki/Systolic_geometry
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

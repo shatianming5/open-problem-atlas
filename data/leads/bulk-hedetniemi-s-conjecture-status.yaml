@@ -1,0 +1,12 @@
+title: Hedetniemi's Conjecture (Status)
+statement: Investigate the consequences of the disproof of Hedetniemi's conjecture
+  for chromatic numbers of tensor products.
+source_id: curated_hedetniemi_s_conjecture_status
+source_url: https://en.wikipedia.org/wiki/Hedetniemi%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

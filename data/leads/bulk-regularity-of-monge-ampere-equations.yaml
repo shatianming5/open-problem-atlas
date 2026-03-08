@@ -1,0 +1,12 @@
+title: Regularity of Monge-Ampere Equations
+statement: Prove optimal regularity results for the Monge-Ampere equation with general
+  right-hand side.
+source_id: curated_regularity_of_monge_ampere_equations
+source_url: https://en.wikipedia.org/wiki/Monge%E2%80%93Amp%C3%A8re_equation
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

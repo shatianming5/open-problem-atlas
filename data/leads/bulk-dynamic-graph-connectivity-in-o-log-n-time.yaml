@@ -1,0 +1,12 @@
+title: Dynamic Graph Connectivity in O(log n) Time
+statement: Determine whether fully dynamic graph connectivity can be maintained in
+  O(log n) amortized time per operation.
+source_id: curated_dynamic_graph_connectivity_in_o_log_n_time
+source_url: https://en.wikipedia.org/wiki/Dynamic_connectivity
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

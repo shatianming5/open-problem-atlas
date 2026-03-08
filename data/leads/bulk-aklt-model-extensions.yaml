@@ -1,0 +1,12 @@
+title: AKLT Model Extensions
+statement: Extend the AKLT model solution to higher dimensions and determine the spectral
+  gap.
+source_id: curated_aklt_model_extensions
+source_url: https://en.wikipedia.org/wiki/AKLT_model
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Entanglement and Spacetime Emergence
+statement: Prove that spacetime geometry emerges from quantum entanglement structure.
+source_id: curated_entanglement_and_spacetime_emergence
+source_url: https://en.wikipedia.org/wiki/ER_%3D_EPR
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

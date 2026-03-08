@@ -1,0 +1,12 @@
+title: Computational-Statistical Gaps Characterization
+statement: Characterize the gap between computational and statistical complexity for
+  fundamental learning problems.
+source_id: curated_computational_statistical_gaps_characterization
+source_url: https://en.wikipedia.org/wiki/Computational_learning_theory
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

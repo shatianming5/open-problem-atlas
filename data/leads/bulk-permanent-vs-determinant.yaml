@@ -1,0 +1,12 @@
+title: Permanent vs Determinant
+statement: Prove a superpolynomial lower bound on the determinantal complexity of
+  the permanent.
+source_id: curated_permanent_vs_determinant
+source_url: https://en.wikipedia.org/wiki/Permanent_(mathematics)
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

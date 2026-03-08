@@ -1,0 +1,11 @@
+title: Mean Field Games Theory
+statement: Develop the mathematical theory of mean field games in full generality.
+source_id: curated_mean_field_games_theory
+source_url: https://en.wikipedia.org/wiki/Mean-field_game_theory
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

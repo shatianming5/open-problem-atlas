@@ -1,0 +1,12 @@
+title: Concentration Inequalities for Non-Product Measures
+statement: Develop sharp concentration inequalities for functions of dependent random
+  variables.
+source_id: curated_concentration_inequalities_for_non_product_measures
+source_url: https://en.wikipedia.org/wiki/Concentration_inequality
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Automatic Structures Classification
+statement: Classify automatic structures and their decidability properties.
+source_id: curated_automatic_structures_classification
+source_url: https://en.wikipedia.org/wiki/Automatic_structure
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

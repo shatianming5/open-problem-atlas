@@ -1,0 +1,12 @@
+title: Schanuel's Conjecture for Specific Constants
+statement: Verify Schanuel's conjecture for specific sets of algebraically independent
+  complex numbers.
+source_id: curated_schanuel_s_conjecture_for_specific_constants
+source_url: https://en.wikipedia.org/wiki/Schanuel%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

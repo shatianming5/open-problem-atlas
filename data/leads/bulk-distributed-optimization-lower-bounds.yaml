@@ -1,0 +1,12 @@
+title: Distributed Optimization Lower Bounds
+statement: Prove lower bounds for distributed optimization problems in the CONGEST
+  model.
+source_id: curated_distributed_optimization_lower_bounds
+source_url: https://en.wikipedia.org/wiki/Distributed_computing
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

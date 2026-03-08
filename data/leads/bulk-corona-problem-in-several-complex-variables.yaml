@@ -1,0 +1,12 @@
+title: Corona Problem in Several Complex Variables
+statement: Determine whether the corona theorem holds for the algebra H^inf of bounded
+  holomorphic functions on the unit ball in C^n.
+source_id: curated_corona_problem_in_several_complex_variables
+source_url: https://en.wikipedia.org/wiki/Corona_theorem
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

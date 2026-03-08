@@ -1,0 +1,12 @@
+title: Point Location Optimal Data Structure
+statement: Determine optimal preprocessing and query time tradeoffs for point location
+  in planar subdivisions.
+source_id: curated_point_location_optimal_data_structure
+source_url: https://en.wikipedia.org/wiki/Point_location
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

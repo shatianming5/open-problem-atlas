@@ -1,0 +1,12 @@
+title: Smoothed Analysis Beyond Simplex
+statement: Extend smoothed analysis to provide polynomial bounds for other algorithms
+  beyond the simplex method.
+source_id: curated_smoothed_analysis_beyond_simplex
+source_url: https://en.wikipedia.org/wiki/Smoothed_analysis
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Sylvester-Gallai Type Theorems in Higher Dimensions
+statement: Generalize Sylvester-Gallai type results to higher dimensions and their
+  applications.
+source_id: curated_sylvester_gallai_type_theorems_in_higher_dimensions
+source_url: https://en.wikipedia.org/wiki/Sylvester%E2%80%93Gallai_theorem
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Thurston Norm Computation
+statement: Develop efficient algorithms for computing the Thurston norm of a 3-manifold.
+source_id: curated_thurston_norm_computation
+source_url: https://en.wikipedia.org/wiki/Thurston_norm
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

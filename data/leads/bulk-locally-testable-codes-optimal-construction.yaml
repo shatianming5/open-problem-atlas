@@ -1,0 +1,11 @@
+title: Locally Testable Codes Optimal Construction
+statement: Construct locally testable codes with optimal rate and query complexity.
+source_id: curated_locally_testable_codes_optimal_construction
+source_url: https://en.wikipedia.org/wiki/Locally_testable_code
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

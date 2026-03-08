@@ -1,0 +1,12 @@
+title: Time-Lock Puzzles Theory
+statement: Prove the security of time-lock puzzles without the sequential computation
+  assumption.
+source_id: curated_time_lock_puzzles_theory
+source_url: https://en.wikipedia.org/wiki/Time-lock_puzzle
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

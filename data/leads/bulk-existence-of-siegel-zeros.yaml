@@ -1,0 +1,12 @@
+title: Existence of Siegel Zeros
+statement: 'Prove or disprove the existence of Siegel zeros: real zeros of L-functions
+  close to s = 1.'
+source_id: curated_existence_of_siegel_zeros
+source_url: https://en.wikipedia.org/wiki/Siegel_zero
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

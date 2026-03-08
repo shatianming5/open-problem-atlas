@@ -1,0 +1,11 @@
+title: Quantum Random Access Codes Optimal
+statement: Determine optimal quantum random access codes for all parameters.
+source_id: curated_quantum_random_access_codes_optimal
+source_url: https://en.wikipedia.org/wiki/Quantum_random_access_code
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

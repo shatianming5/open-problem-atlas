@@ -1,0 +1,12 @@
+title: Optimal Regularity for Hamilton-Jacobi Equations
+statement: Determine the optimal regularity of solutions to Hamilton-Jacobi equations
+  with nonsmooth data.
+source_id: curated_optimal_regularity_for_hamilton_jacobi_equations
+source_url: https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

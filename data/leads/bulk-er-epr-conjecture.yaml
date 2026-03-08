@@ -1,0 +1,12 @@
+title: ER = EPR Conjecture
+statement: Prove the ER = EPR conjecture relating Einstein-Rosen bridges to quantum
+  entanglement.
+source_id: curated_er_epr_conjecture
+source_url: https://en.wikipedia.org/wiki/ER_%3D_EPR
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Goldbach's Weak Conjecture Extensions
+statement: Extend Helfgott's proof of the weak Goldbach conjecture to quantitative
+  improvements for representations.
+source_id: curated_goldbach_s_weak_conjecture_extensions
+source_url: https://en.wikipedia.org/wiki/Goldbach%27s_weak_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

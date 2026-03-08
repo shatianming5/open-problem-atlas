@@ -1,0 +1,11 @@
+title: NOF Communication Complexity
+statement: Prove tight lower bounds in the number-on-forehead communication model.
+source_id: curated_nof_communication_complexity
+source_url: https://en.wikipedia.org/wiki/Communication_complexity
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

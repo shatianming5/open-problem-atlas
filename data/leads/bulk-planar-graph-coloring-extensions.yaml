@@ -1,0 +1,11 @@
+title: Planar Graph Coloring Extensions
+statement: Determine the exact list chromatic number of planar graphs.
+source_id: curated_planar_graph_coloring_extensions
+source_url: https://en.wikipedia.org/wiki/List_coloring
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

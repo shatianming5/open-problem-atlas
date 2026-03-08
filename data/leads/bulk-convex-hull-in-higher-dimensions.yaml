@@ -1,0 +1,12 @@
+title: Convex Hull in Higher Dimensions
+statement: Determine optimal algorithms for computing convex hulls in dimensions d
+  >= 4.
+source_id: curated_convex_hull_in_higher_dimensions
+source_url: https://en.wikipedia.org/wiki/Convex_hull
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

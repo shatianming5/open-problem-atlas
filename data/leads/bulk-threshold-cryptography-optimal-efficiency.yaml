@@ -1,0 +1,12 @@
+title: Threshold Cryptography Optimal Efficiency
+statement: Determine the optimal communication and round complexity of threshold cryptographic
+  schemes.
+source_id: curated_threshold_cryptography_optimal_efficiency
+source_url: https://en.wikipedia.org/wiki/Threshold_cryptosystem
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

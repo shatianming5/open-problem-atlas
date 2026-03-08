@@ -1,0 +1,12 @@
+title: Hopf Conjecture on Euler Characteristic
+statement: A closed, positively curved 2n-dimensional Riemannian manifold has positive
+  Euler characteristic.
+source_id: curated_hopf_conjecture_on_euler_characteristic
+source_url: https://en.wikipedia.org/wiki/Hopf_conjecture
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

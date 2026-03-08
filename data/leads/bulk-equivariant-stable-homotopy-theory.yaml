@@ -1,0 +1,12 @@
+title: Equivariant Stable Homotopy Theory
+statement: Complete the foundations of equivariant stable homotopy theory for general
+  compact Lie groups.
+source_id: curated_equivariant_stable_homotopy_theory
+source_url: https://en.wikipedia.org/wiki/Equivariant_stable_homotopy_theory
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

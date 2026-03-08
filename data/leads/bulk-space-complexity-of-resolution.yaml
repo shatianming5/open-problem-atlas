@@ -1,0 +1,12 @@
+title: Space Complexity of Resolution
+statement: Determine the space complexity of resolution proofs and its relationship
+  to pebbling.
+source_id: curated_space_complexity_of_resolution
+source_url: https://en.wikipedia.org/wiki/Proof_complexity
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

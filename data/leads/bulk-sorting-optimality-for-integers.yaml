@@ -1,0 +1,12 @@
+title: Sorting Optimality for Integers
+statement: Determine the optimal complexity of sorting n integers in the word RAM
+  model.
+source_id: curated_sorting_optimality_for_integers
+source_url: https://en.wikipedia.org/wiki/Integer_sorting
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

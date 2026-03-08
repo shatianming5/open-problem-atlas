@@ -1,0 +1,11 @@
+title: Graph Bandwidth Computation
+statement: Determine the complexity of computing the bandwidth of a graph.
+source_id: curated_graph_bandwidth_computation
+source_url: https://en.wikipedia.org/wiki/Graph_bandwidth
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

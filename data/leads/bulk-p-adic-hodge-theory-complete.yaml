@@ -1,0 +1,11 @@
+title: p-adic Hodge Theory Complete
+statement: Complete p-adic Hodge theory in the non-smooth and relative settings.
+source_id: curated_p_adic_hodge_theory_complete
+source_url: https://en.wikipedia.org/wiki/P-adic_Hodge_theory
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

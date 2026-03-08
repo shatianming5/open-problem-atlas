@@ -1,0 +1,12 @@
+title: Kneser's Conjecture Extensions
+statement: Generalize the topological proof of Kneser's conjecture to hypergraph coloring
+  problems.
+source_id: curated_kneser_s_conjecture_extensions
+source_url: https://en.wikipedia.org/wiki/Kneser%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

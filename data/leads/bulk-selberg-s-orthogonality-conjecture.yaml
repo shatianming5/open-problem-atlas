@@ -1,0 +1,12 @@
+title: Selberg's Orthogonality Conjecture
+statement: Distinct primitive elements of the Selberg class have orthogonal Dirichlet
+  series coefficients.
+source_id: curated_selberg_s_orthogonality_conjecture
+source_url: https://en.wikipedia.org/wiki/Selberg_class
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

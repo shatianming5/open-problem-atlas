@@ -1,0 +1,12 @@
+title: Matrix Rigidity Lower Bounds
+statement: Prove that explicit matrices require high rigidity, with implications for
+  circuit complexity.
+source_id: curated_matrix_rigidity_lower_bounds
+source_url: https://en.wikipedia.org/wiki/Rigidity_(mathematics)
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

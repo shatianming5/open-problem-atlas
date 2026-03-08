@@ -1,0 +1,11 @@
+title: Neutrino Mass Generation Mechanism
+statement: Determine the theoretical mechanism responsible for neutrino mass generation.
+source_id: curated_neutrino_mass_generation_mechanism
+source_url: https://en.wikipedia.org/wiki/Neutrino_mass
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Constructive Mathematics Foundations
+statement: Develop constructive mathematics to cover more of classical analysis.
+source_id: curated_constructive_mathematics_foundations
+source_url: https://en.wikipedia.org/wiki/Constructive_mathematics
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

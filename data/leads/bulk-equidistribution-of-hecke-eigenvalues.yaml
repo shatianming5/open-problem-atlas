@@ -1,0 +1,12 @@
+title: Equidistribution of Hecke Eigenvalues
+statement: Prove the Sato-Tate distribution for Hecke eigenvalues of higher-rank automorphic
+  forms.
+source_id: curated_equidistribution_of_hecke_eigenvalues
+source_url: https://en.wikipedia.org/wiki/Sato%E2%80%93Tate_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

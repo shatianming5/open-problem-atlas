@@ -1,0 +1,12 @@
+title: Swampland Conjectures Proof
+statement: Prove the swampland conjectures characterizing effective field theories
+  inconsistent with quantum gravity.
+source_id: curated_swampland_conjectures_proof
+source_url: https://en.wikipedia.org/wiki/Swampland_(physics)
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

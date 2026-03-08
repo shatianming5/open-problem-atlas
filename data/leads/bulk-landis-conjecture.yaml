@@ -1,0 +1,12 @@
+title: Landis Conjecture
+statement: If a solution of an elliptic equation on R^n decays faster than exp(-|x|^{1+epsilon}),
+  must it be identically zero?
+source_id: curated_landis_conjecture
+source_url: https://en.wikipedia.org/wiki/Landis_conjecture
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

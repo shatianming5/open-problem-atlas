@@ -1,0 +1,12 @@
+title: Bourgain's Sum-Product Conjecture
+statement: Prove that max(|A+A|, |A*A|) >= |A|^{2-epsilon} for every epsilon > 0 and
+  finite set A of reals.
+source_id: curated_bourgain_s_sum_product_conjecture
+source_url: https://en.wikipedia.org/wiki/Sum-product_problem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Stochastic Homogenization Rates
+statement: Determine optimal convergence rates in stochastic homogenization of elliptic
+  equations.
+source_id: curated_stochastic_homogenization_rates
+source_url: https://en.wikipedia.org/wiki/Homogenization_(mathematics)
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

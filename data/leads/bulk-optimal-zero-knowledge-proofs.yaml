@@ -1,0 +1,12 @@
+title: Optimal Zero-Knowledge Proofs
+statement: Determine the optimal communication complexity of zero-knowledge proofs
+  for NP.
+source_id: curated_optimal_zero_knowledge_proofs
+source_url: https://en.wikipedia.org/wiki/Zero-knowledge_proof
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

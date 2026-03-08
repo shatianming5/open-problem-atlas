@@ -1,0 +1,12 @@
+title: Maximum Cut Approximation Beyond GW
+statement: Improve the Goemans-Williamson approximation ratio for MAX CUT, or prove
+  it is optimal.
+source_id: curated_maximum_cut_approximation_beyond_gw
+source_url: https://en.wikipedia.org/wiki/Maximum_cut
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

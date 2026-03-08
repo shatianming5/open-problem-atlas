@@ -1,0 +1,12 @@
+title: Linear-Time Suffix Array Construction
+statement: Determine the optimal algorithm for constructing suffix arrays without
+  alphabet assumptions.
+source_id: curated_linear_time_suffix_array_construction
+source_url: https://en.wikipedia.org/wiki/Suffix_array
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Virtually Haken Conjecture (Extensions)
+statement: Extend the virtually Haken property to all compact 3-manifolds with boundary.
+source_id: curated_virtually_haken_conjecture_extensions
+source_url: https://en.wikipedia.org/wiki/Virtually_Haken_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

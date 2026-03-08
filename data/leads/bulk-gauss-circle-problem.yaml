@@ -1,0 +1,12 @@
+title: Gauss Circle Problem
+statement: Determine the exact order of the error term in counting lattice points
+  inside a circle of radius r.
+source_id: curated_gauss_circle_problem
+source_url: https://en.wikipedia.org/wiki/Gauss_circle_problem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

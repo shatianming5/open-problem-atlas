@@ -1,0 +1,12 @@
+title: Random Schrodinger Operator Universality
+statement: Prove universality of eigenvalue statistics for random Schrodinger operators
+  in dimensions d >= 3.
+source_id: curated_random_schrodinger_operator_universality
+source_url: https://en.wikipedia.org/wiki/Anderson_localization
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

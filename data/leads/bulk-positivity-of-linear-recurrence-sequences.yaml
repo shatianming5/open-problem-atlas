@@ -1,0 +1,12 @@
+title: Positivity of Linear Recurrence Sequences
+statement: Determine whether it is decidable if all terms of a linear recurrence sequence
+  are positive.
+source_id: curated_positivity_of_linear_recurrence_sequences
+source_url: https://en.wikipedia.org/wiki/Skolem%E2%80%93Mahler%E2%80%93Lech_theorem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

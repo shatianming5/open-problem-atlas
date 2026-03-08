@@ -1,0 +1,11 @@
+title: MNOP Conjecture
+statement: Prove the MNOP conjecture relating Gromov-Witten and Donaldson-Thomas invariants.
+source_id: curated_mnop_conjecture
+source_url: https://en.wikipedia.org/wiki/Gromov%E2%80%93Witten_invariant
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

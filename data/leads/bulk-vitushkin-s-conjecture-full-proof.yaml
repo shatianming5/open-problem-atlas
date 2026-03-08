@@ -1,0 +1,12 @@
+title: Vitushkin's Conjecture (Full Proof)
+statement: A compact set in the plane is removable for bounded analytic functions
+  if and only if it has zero analytic capacity.
+source_id: curated_vitushkin_s_conjecture_full_proof
+source_url: https://en.wikipedia.org/wiki/Vitushkin%27s_conjecture
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

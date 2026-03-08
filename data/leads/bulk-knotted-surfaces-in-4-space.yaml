@@ -1,0 +1,11 @@
+title: Knotted Surfaces in 4-Space
+statement: Classify knotted surfaces in 4-dimensional space.
+source_id: curated_knotted_surfaces_in_4_space
+source_url: https://en.wikipedia.org/wiki/Knotted_surface
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

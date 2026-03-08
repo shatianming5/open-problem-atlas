@@ -1,0 +1,11 @@
+title: Apery-like Sequences
+statement: Find new Apery-like sequences proving irrationality of other constants.
+source_id: curated_apery_like_sequences
+source_url: https://en.wikipedia.org/wiki/Ap%C3%A9ry%27s_theorem
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

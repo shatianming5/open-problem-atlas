@@ -1,0 +1,11 @@
+title: Quark Confinement Proof
+statement: Prove quark confinement rigorously from the QCD Lagrangian.
+source_id: curated_quark_confinement_proof
+source_url: https://en.wikipedia.org/wiki/Color_confinement
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

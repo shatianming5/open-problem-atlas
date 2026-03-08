@@ -1,0 +1,12 @@
+title: Tsirelson's Problem (Consequences)
+statement: Explore the consequences of the negative resolution of Tsirelson's problem
+  for quantum correlations.
+source_id: curated_tsirelson_s_problem_consequences
+source_url: https://en.wikipedia.org/wiki/Tsirelson%27s_problem
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

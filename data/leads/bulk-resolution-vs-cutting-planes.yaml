@@ -1,0 +1,11 @@
+title: Resolution vs Cutting Planes
+statement: Determine the relative power of Resolution and Cutting Planes proof systems.
+source_id: curated_resolution_vs_cutting_planes
+source_url: https://en.wikipedia.org/wiki/Cutting-plane_method
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

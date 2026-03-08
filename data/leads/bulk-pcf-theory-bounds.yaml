@@ -1,0 +1,12 @@
+title: PCF Theory Bounds
+statement: Resolve pcf-theoretic questions about the possible cardinalities of reduced
+  products.
+source_id: curated_pcf_theory_bounds
+source_url: https://en.wikipedia.org/wiki/PCF_theory
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

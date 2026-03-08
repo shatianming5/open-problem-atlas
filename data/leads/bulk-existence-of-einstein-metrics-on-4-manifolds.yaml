@@ -1,0 +1,11 @@
+title: Existence of Einstein Metrics on 4-Manifolds
+statement: Characterize which compact 4-manifolds admit Einstein metrics.
+source_id: curated_existence_of_einstein_metrics_on_4_manifolds
+source_url: https://en.wikipedia.org/wiki/Einstein_manifold
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

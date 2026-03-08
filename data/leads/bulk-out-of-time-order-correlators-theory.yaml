@@ -1,0 +1,11 @@
+title: Out-of-Time-Order Correlators Theory
+statement: Develop a complete theory of out-of-time-order correlators in quantum systems.
+source_id: curated_out_of_time_order_correlators_theory
+source_url: https://en.wikipedia.org/wiki/OTOC
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

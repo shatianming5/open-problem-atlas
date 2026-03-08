@@ -1,0 +1,12 @@
+title: Secure Computation with Optimal Communication
+statement: Achieve secure multi-party computation with communication complexity proportional
+  to the output size.
+source_id: curated_secure_computation_with_optimal_communication
+source_url: https://en.wikipedia.org/wiki/Secure_multi-party_computation
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

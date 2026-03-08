@@ -1,0 +1,11 @@
+title: Discrepancy Theory Sharp Bounds
+statement: Determine sharp bounds in combinatorial discrepancy for specific set systems.
+source_id: curated_discrepancy_theory_sharp_bounds
+source_url: https://en.wikipedia.org/wiki/Discrepancy_theory
+domain_hint: mathematics
+subdomain_hint: combinatorics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

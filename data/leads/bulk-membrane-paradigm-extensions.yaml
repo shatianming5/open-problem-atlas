@@ -1,0 +1,11 @@
+title: Membrane Paradigm Extensions
+statement: Extend the membrane paradigm for black holes to include quantum corrections.
+source_id: curated_membrane_paradigm_extensions
+source_url: https://en.wikipedia.org/wiki/Membrane_paradigm
+domain_hint: mathematical-physics
+subdomain_hint: general-relativity
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

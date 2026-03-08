@@ -1,0 +1,12 @@
+title: Conformal Bootstrap in 3D
+statement: Determine all consistent 3D conformal field theories using the conformal
+  bootstrap.
+source_id: curated_conformal_bootstrap_in_3d
+source_url: https://en.wikipedia.org/wiki/Conformal_bootstrap
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

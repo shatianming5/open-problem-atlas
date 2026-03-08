@@ -1,0 +1,11 @@
+title: W-Algebras Theory
+statement: Develop the representation theory of W-algebras for all types.
+source_id: curated_w_algebras_theory
+source_url: https://en.wikipedia.org/wiki/W-algebra
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

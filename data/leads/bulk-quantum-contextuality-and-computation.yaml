@@ -1,0 +1,12 @@
+title: Quantum Contextuality and Computation
+statement: Prove tight connections between quantum contextuality and quantum computational
+  advantage.
+source_id: curated_quantum_contextuality_and_computation
+source_url: https://en.wikipedia.org/wiki/Quantum_contextuality
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

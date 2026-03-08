@@ -1,0 +1,11 @@
+title: Quantum State Complexity Measures
+statement: Define and characterize operational measures of quantum state complexity.
+source_id: curated_quantum_state_complexity_measures
+source_url: https://en.wikipedia.org/wiki/Quantum_complexity_theory
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

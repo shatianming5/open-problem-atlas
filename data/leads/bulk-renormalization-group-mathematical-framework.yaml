@@ -1,0 +1,12 @@
+title: Renormalization Group Mathematical Framework
+statement: Provide a complete mathematical framework for the renormalization group
+  in QFT.
+source_id: curated_renormalization_group_mathematical_framework
+source_url: https://en.wikipedia.org/wiki/Renormalization_group
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

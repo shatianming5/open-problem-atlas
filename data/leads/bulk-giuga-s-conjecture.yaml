@@ -1,0 +1,12 @@
+title: Giuga's Conjecture
+statement: A composite number n is a Giuga number if and only if sum_{k=1}^{n-1} k^{n-1}
+  = -1 mod n. Determine if any Giuga number exists.
+source_id: curated_giuga_s_conjecture
+source_url: https://en.wikipedia.org/wiki/Giuga_number
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

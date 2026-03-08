@@ -1,0 +1,12 @@
+title: Universality of Tracy-Widom Distribution
+statement: Prove Tracy-Widom universality for the largest eigenvalue of Wigner matrices
+  with general entry distributions.
+source_id: curated_universality_of_tracy_widom_distribution
+source_url: https://en.wikipedia.org/wiki/Tracy%E2%80%93Widom_distribution
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

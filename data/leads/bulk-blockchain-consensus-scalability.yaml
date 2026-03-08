@@ -1,0 +1,12 @@
+title: Blockchain Consensus Scalability
+statement: Determine the fundamental limits of throughput and latency for blockchain
+  consensus protocols.
+source_id: curated_blockchain_consensus_scalability
+source_url: https://en.wikipedia.org/wiki/Blockchain
+domain_hint: theoretical-cs
+subdomain_hint: distributed-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

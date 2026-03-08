@@ -1,0 +1,12 @@
+title: Borel Conjecture for Aspherical Manifolds
+statement: Every homotopy equivalence between closed aspherical manifolds is homotopic
+  to a homeomorphism.
+source_id: curated_borel_conjecture_for_aspherical_manifolds
+source_url: https://en.wikipedia.org/wiki/Borel_conjecture
+domain_hint: mathematics
+subdomain_hint: topology
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

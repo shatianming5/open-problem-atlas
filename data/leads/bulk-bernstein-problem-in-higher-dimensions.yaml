@@ -1,0 +1,11 @@
+title: Bernstein Problem in Higher Dimensions
+statement: Determine for which dimensions every entire minimal graph is a hyperplane.
+source_id: curated_bernstein_problem_in_higher_dimensions
+source_url: https://en.wikipedia.org/wiki/Bernstein%27s_problem
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,11 @@
+title: Four Exponentials Conjecture
+statement: Prove the four exponentials conjecture on the transcendence of exponentials.
+source_id: curated_four_exponentials_conjecture
+source_url: https://en.wikipedia.org/wiki/Four_exponentials_conjecture
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

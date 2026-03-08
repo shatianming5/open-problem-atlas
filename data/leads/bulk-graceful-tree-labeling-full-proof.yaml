@@ -1,0 +1,11 @@
+title: Graceful Tree Labeling (Full Proof)
+statement: Every tree has a graceful labeling.
+source_id: curated_graceful_tree_labeling_full_proof
+source_url: https://en.wikipedia.org/wiki/Graceful_labeling
+domain_hint: theoretical-cs
+subdomain_hint: graph-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

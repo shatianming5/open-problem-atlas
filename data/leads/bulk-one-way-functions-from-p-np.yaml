@@ -1,0 +1,11 @@
+title: One-Way Functions from P != NP
+statement: Determine whether P != NP implies the existence of one-way functions.
+source_id: curated_one_way_functions_from_p_np
+source_url: https://en.wikipedia.org/wiki/One-way_function
+domain_hint: theoretical-cs
+subdomain_hint: cryptography
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

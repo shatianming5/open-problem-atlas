@@ -1,0 +1,11 @@
+title: Quantum Depth Complexity
+statement: Determine the power of constant-depth quantum circuits.
+source_id: curated_quantum_depth_complexity
+source_url: https://en.wikipedia.org/wiki/Quantum_circuit
+domain_hint: theoretical-cs
+subdomain_hint: quantum-computing
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

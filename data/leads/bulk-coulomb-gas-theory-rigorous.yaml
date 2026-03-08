@@ -1,0 +1,11 @@
+title: Coulomb Gas Theory Rigorous
+statement: Develop a rigorous mathematical theory of the two-dimensional Coulomb gas.
+source_id: curated_coulomb_gas_theory_rigorous
+source_url: https://en.wikipedia.org/wiki/Coulomb_gas
+domain_hint: mathematical-physics
+subdomain_hint: statistical-mechanics
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

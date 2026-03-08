@@ -1,0 +1,11 @@
+title: Additivity of Quantum Channel Capacity
+statement: Determine when the capacity of quantum channels is additive.
+source_id: curated_additivity_of_quantum_channel_capacity
+source_url: https://en.wikipedia.org/wiki/Quantum_channel
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

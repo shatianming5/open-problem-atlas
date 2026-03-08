@@ -1,0 +1,11 @@
+title: Singular Cardinal Problem
+statement: Determine the possible behaviors of the power function at singular cardinals.
+source_id: curated_singular_cardinal_problem
+source_url: https://en.wikipedia.org/wiki/Singular_cardinal_hypothesis
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

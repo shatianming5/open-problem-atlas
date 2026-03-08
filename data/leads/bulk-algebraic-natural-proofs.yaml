@@ -1,0 +1,12 @@
+title: Algebraic Natural Proofs
+statement: Determine whether algebraic natural proofs barrier applies to algebraic
+  circuit complexity.
+source_id: curated_algebraic_natural_proofs
+source_url: https://en.wikipedia.org/wiki/Natural_proof
+domain_hint: theoretical-cs
+subdomain_hint: complexity-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

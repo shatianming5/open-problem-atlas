@@ -1,0 +1,12 @@
+title: Proton Spin Puzzle Resolution
+statement: Resolve the proton spin puzzle by determining the contributions of quarks,
+  gluons, and orbital angular momentum.
+source_id: curated_proton_spin_puzzle_resolution
+source_url: https://en.wikipedia.org/wiki/Proton_spin_crisis
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

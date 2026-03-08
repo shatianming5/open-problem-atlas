@@ -1,0 +1,12 @@
+title: Busemann-Petty Problem in Dimensions 5+
+statement: Does a symmetric convex body with smaller central sections have smaller
+  volume? Resolve remaining questions for non-symmetric bodies.
+source_id: curated_busemann_petty_problem_in_dimensions_5
+source_url: https://en.wikipedia.org/wiki/Busemann%E2%80%93Petty_problem
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Geometric Langlands and Physics (Full Program)
+statement: Complete the connection between the geometric Langlands program and N=4
+  super Yang-Mills theory.
+source_id: curated_geometric_langlands_and_physics_full_program
+source_url: https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Statistical Query Lower Bounds
+statement: Determine tight statistical query complexity for learning fundamental concept
+  classes.
+source_id: curated_statistical_query_lower_bounds
+source_url: https://en.wikipedia.org/wiki/Statistical_query_model
+domain_hint: theoretical-cs
+subdomain_hint: learning-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

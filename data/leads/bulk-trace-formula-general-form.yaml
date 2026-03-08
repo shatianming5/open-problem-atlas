@@ -1,0 +1,12 @@
+title: Trace Formula General Form
+statement: Prove the fundamental lemma in full generality and complete the stabilization
+  of the trace formula.
+source_id: curated_trace_formula_general_form
+source_url: https://en.wikipedia.org/wiki/Arthur%E2%80%93Selberg_trace_formula
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

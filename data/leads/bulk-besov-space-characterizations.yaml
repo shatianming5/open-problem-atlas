@@ -1,0 +1,11 @@
+title: Besov Space Characterizations
+statement: Complete the characterization of Besov spaces on rough domains.
+source_id: curated_besov_space_characterizations
+source_url: https://en.wikipedia.org/wiki/Besov_space
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

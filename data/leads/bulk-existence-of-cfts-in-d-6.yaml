@@ -1,0 +1,12 @@
+title: Existence of CFTs in d > 6
+statement: Determine whether nontrivial conformal field theories exist in dimensions
+  greater than 6.
+source_id: curated_existence_of_cfts_in_d_6
+source_url: https://en.wikipedia.org/wiki/Conformal_field_theory
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

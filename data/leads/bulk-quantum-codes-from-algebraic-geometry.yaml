@@ -1,0 +1,11 @@
+title: Quantum Codes from Algebraic Geometry
+statement: Construct optimal quantum error correcting codes using algebraic geometry.
+source_id: curated_quantum_codes_from_algebraic_geometry
+source_url: https://en.wikipedia.org/wiki/Quantum_error_correction
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

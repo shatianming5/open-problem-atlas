@@ -1,0 +1,11 @@
+title: Non-Kahler Calabi-Yau Manifolds
+statement: Determine whether non-Kahler Calabi-Yau manifolds exist and classify them.
+source_id: curated_non_kahler_calabi_yau_manifolds
+source_url: https://en.wikipedia.org/wiki/Calabi%E2%80%93Yau_manifold
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

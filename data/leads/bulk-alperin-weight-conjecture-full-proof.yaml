@@ -1,0 +1,12 @@
+title: Alperin Weight Conjecture (Full Proof)
+statement: The number of Brauer characters of a block equals the number of weights
+  of the block.
+source_id: curated_alperin_weight_conjecture_full_proof
+source_url: https://en.wikipedia.org/wiki/Alperin_weight_conjecture
+domain_hint: mathematics
+subdomain_hint: algebra
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

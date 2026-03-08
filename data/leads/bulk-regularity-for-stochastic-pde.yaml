@@ -1,0 +1,12 @@
+title: Regularity for Stochastic PDE
+statement: Develop a complete regularity theory for stochastic partial differential
+  equations.
+source_id: curated_regularity_for_stochastic_pde
+source_url: https://en.wikipedia.org/wiki/Stochastic_partial_differential_equation
+domain_hint: mathematics
+subdomain_hint: analysis
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

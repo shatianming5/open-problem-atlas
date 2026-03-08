@@ -1,0 +1,11 @@
+title: Functional Inequalities on Random Graphs
+statement: Determine the optimal Poincare and log-Sobolev constants for random graphs.
+source_id: curated_functional_inequalities_on_random_graphs
+source_url: https://en.wikipedia.org/wiki/Poincar%C3%A9_inequality
+domain_hint: mathematics
+subdomain_hint: probability
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

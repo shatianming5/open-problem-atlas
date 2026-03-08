@@ -1,0 +1,12 @@
+title: Complexity = Action Conjecture
+statement: Prove the complexity = action conjecture relating computational complexity
+  to gravitational action.
+source_id: curated_complexity_action_conjecture
+source_url: https://en.wikipedia.org/wiki/AdS/CFT_correspondence
+domain_hint: mathematical-physics
+subdomain_hint: string-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

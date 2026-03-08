@@ -1,0 +1,11 @@
+title: Continuum Hypothesis Independence Extensions
+statement: Determine natural axioms that settle the Continuum Hypothesis.
+source_id: curated_continuum_hypothesis_independence_extensions
+source_url: https://en.wikipedia.org/wiki/Continuum_hypothesis
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

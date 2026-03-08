@@ -1,0 +1,12 @@
+title: Wieferich Prime Conjecture
+statement: Determine whether infinitely many Wieferich primes (primes p with 2^{p-1}
+  = 1 mod p^2) exist.
+source_id: curated_wieferich_prime_conjecture
+source_url: https://en.wikipedia.org/wiki/Wieferich_prime
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

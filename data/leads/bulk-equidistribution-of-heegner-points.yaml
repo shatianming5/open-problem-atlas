@@ -1,0 +1,11 @@
+title: Equidistribution of Heegner Points
+statement: Prove the equidistribution of Heegner points on modular curves.
+source_id: curated_equidistribution_of_heegner_points
+source_url: https://en.wikipedia.org/wiki/Heegner_point
+domain_hint: mathematics
+subdomain_hint: number-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

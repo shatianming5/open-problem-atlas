@@ -1,0 +1,11 @@
+title: Turing Degree Spectrum Problem
+statement: Characterize the possible degree spectra of countable structures.
+source_id: curated_turing_degree_spectrum_problem
+source_url: https://en.wikipedia.org/wiki/Turing_degree
+domain_hint: mathematics
+subdomain_hint: logic
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

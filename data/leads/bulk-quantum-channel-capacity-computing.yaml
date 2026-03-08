@@ -1,0 +1,11 @@
+title: Quantum Channel Capacity Computing
+statement: Develop efficient algorithms for computing quantum channel capacities.
+source_id: curated_quantum_channel_capacity_computing
+source_url: https://en.wikipedia.org/wiki/Quantum_channel
+domain_hint: mathematical-physics
+subdomain_hint: quantum-information
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

@@ -1,0 +1,12 @@
+title: Non-Fermi Liquid Theory Foundation
+statement: Develop a systematic theory of non-Fermi liquid behavior in strongly correlated
+  electron systems.
+source_id: curated_non_fermi_liquid_theory_foundation
+source_url: https://en.wikipedia.org/wiki/Non-Fermi_liquid
+domain_hint: mathematical-physics
+subdomain_hint: condensed-matter
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

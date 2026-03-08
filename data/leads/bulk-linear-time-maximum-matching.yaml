@@ -1,0 +1,11 @@
+title: Linear Time Maximum Matching
+statement: Find a maximum matching in general graphs in linear time.
+source_id: curated_linear_time_maximum_matching
+source_url: https://en.wikipedia.org/wiki/Maximum_matching
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

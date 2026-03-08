@@ -1,0 +1,12 @@
+title: Resurgence in QFT
+statement: Prove the resurgence conjecture relating perturbative and non-perturbative
+  sectors of QFT.
+source_id: curated_resurgence_in_qft
+source_url: https://en.wikipedia.org/wiki/Resurgence_(mathematics)
+domain_hint: mathematical-physics
+subdomain_hint: quantum-field-theory
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

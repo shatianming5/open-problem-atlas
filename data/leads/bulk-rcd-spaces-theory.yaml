@@ -1,0 +1,12 @@
+title: RCD Spaces Theory
+statement: Complete the theory of RCD (Riemannian Curvature-Dimension) metric measure
+  spaces.
+source_id: curated_rcd_spaces_theory
+source_url: https://en.wikipedia.org/wiki/Metric_measure_space
+domain_hint: mathematics
+subdomain_hint: geometry
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified

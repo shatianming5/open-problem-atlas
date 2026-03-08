@@ -1,0 +1,11 @@
+title: Parallel Algorithm for Maximum Matching
+statement: Determine whether maximum matching in general graphs admits an NC algorithm.
+source_id: curated_parallel_algorithm_for_maximum_matching
+source_url: https://en.wikipedia.org/wiki/Matching_(graph_theory)
+domain_hint: theoretical-cs
+subdomain_hint: algorithms
+confidence: 0.6
+extraction_method: curated_list
+discovered_by: bulk_generator
+discovered_at: '2026-03-08'
+status: lead_unverified
