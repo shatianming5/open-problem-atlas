@@ -1,0 +1,168 @@
+{
+  "total_problems": 1006,
+  "total_contracts": 1006,
+  "total_checkers": 101,
+  "total_leads": 944,
+  "total_attempts": 3,
+  "domains": {
+    "mathematical-physics": 280,
+    "mathematics": 409,
+    "theoretical-cs": 317
+  },
+  "tiers": {
+    "tier_1": 175,
+    "tier_3": 725,
+    "tier_2": 106
+  },
+  "statuses": {
+    "open": 996,
+    "disproved": 3,
+    "solved": 4,
+    "partially_solved": 3
+  },
+  "statement_precision": {
+    "high": 281,
+    "medium": 722,
+    "low": 3
+  },
+  "solution_checkability": {
+    "computational": 88,
+    "expert_review": 725,
+    "mixed": 49,
+    "proof_assistant": 144
+  },
+  "machine_actionability": {
+    "high": 77,
+    "low": 772,
+    "medium": 157
+  },
+  "problem_types": {
+    "conjecture": 278,
+    "unknown": 694,
+    "open_question": 28,
+    "computation": 3,
+    "existence": 2,
+    "classification": 1
+  },
+  "score_distributions": {
+    "impact": {
+      "mean": 0.798,
+      "median": 0.8,
+      "count": 312
+    },
+    "underexplored": {
+      "mean": 0.381,
+      "median": 0.4,
+      "count": 312
+    },
+    "toolability": {
+      "mean": 0.394,
+      "median": 0.4,
+      "count": 312
+    },
+    "formality": {
+      "mean": 0.803,
+      "median": 0.85,
+      "count": 312
+    },
+    "ai_fit": {
+      "mean": 0.281,
+      "median": 0.25,
+      "count": 312
+    }
+  },
+  "top_subdomains": [
+    [
+      "number-theory",
+      70
+    ],
+    [
+      "quantum-information",
+      68
+    ],
+    [
+      "complexity-theory",
+      65
+    ],
+    [
+      "algorithms",
+      59
+    ],
+    [
+      "quantum-field-theory",
+      49
+    ],
+    [
+      "combinatorics",
+      44
+    ],
+    [
+      "statistical-mechanics",
+      42
+    ],
+    [
+      "cryptography",
+      36
+    ],
+    [
+      "general-relativity",
+      32
+    ],
+    [
+      "quantum-computing",
+      32
+    ],
+    [
+      "condensed-matter-theory",
+      30
+    ],
+    [
+      "algebra",
+      28
+    ],
+    [
+      "graph-theory",
+      26
+    ],
+    [
+      "graph-algorithms",
+      26
+    ],
+    [
+      "analysis",
+      24
+    ],
+    [
+      "topology",
+      23
+    ],
+    [
+      "probability",
+      23
+    ],
+    [
+      "mathematical-physics",
+      21
+    ],
+    [
+      "dynamical-systems",
+      21
+    ],
+    [
+      "learning-theory",
+      21
+    ]
+  ],
+  "contract_backends": {
+    "python_checker": 865,
+    "lean4": 141
+  },
+  "contract_task_types": {
+    "statement_verification": 774,
+    "conjecture_check_range": 80,
+    "proof_check": 141,
+    "counterexample_search": 5,
+    "bound_verification": 4,
+    "witness_search": 2
+  }
+}
