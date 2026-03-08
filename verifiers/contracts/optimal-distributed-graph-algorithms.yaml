@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.optimal-distributed-graph-algorithms
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_distributed_graph_algorithms_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Distributed Graph Algorithms. What is the exact round complexity
+  of computing minimum spanning tree in the CONGEST model of distributed computing?'
+parameters: {}

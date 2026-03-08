@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-random-access-codes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_random_access_codes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Random Access Codes. What are the optimal success probabilities
+  for quantum random access codes encoding n classical bits into m qubits for general n and m?'
+parameters: {}

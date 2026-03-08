@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.non-invertible-symmetries-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_invertible_symmetries_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Invertible Symmetries Classification. Can all non-invertible (categorical)
+  symmetries in quantum field theories be classified, and what are their implications for phase structure?'
+parameters: {}

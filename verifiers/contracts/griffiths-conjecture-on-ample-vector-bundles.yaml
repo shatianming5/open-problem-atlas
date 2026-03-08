@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.griffiths-conjecture-on-ample-vector-bundles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/griffiths_conjecture_on_ample_vector_bundles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Griffiths Conjecture on Ample Vector Bundles. A holomorphic vector bundle
+  is ample if and only if it admits a Griffiths-positive Hermitian metric.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.s-matrix-bootstrap-completion
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/s_matrix_bootstrap_completion_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: S-Matrix Bootstrap Completion. Can the S-matrix bootstrap program uniquely
+  determine scattering amplitudes of massive quantum field theories from analyticity, unitarity, and crossing symmetry alone?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.sampling-algorithms.optimal-mixing-time-of-glauber-dynamics
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_mixing_time_of_glauber_dynamics_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Mixing Time of Glauber Dynamics. For which spin systems does Glauber
+  dynamics achieve O(n log n) mixing time up to the tree-uniqueness threshold, generalizing recent results on the hardcore
+  model?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.optimal-depth-for-quantum-circuits
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_depth_for_quantum_circuits_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Depth for Quantum Circuits. What is the minimum depth of a quantum
+  circuit needed to prepare topologically ordered states, and does this match theoretical lower bounds from circuit complexity?'
+parameters: {}

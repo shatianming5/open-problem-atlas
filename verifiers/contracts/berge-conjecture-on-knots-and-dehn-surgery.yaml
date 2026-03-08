@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.berge-conjecture-on-knots-and-dehn-surgery
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/berge_conjecture_on_knots_and_dehn_surgery_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Berge Conjecture on Knots and Dehn Surgery. If Dehn surgery on a knot K
+  in S^3 yields a lens space, then K is a Berge knot.'
+parameters: {}

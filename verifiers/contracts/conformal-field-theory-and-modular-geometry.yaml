@@ -1,0 +1,12 @@
+problem_id: opa.phys.conformal-field-theory.conformal-field-theory-and-modular-geometry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/conformal_field_theory_and_modular_geometry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Conformal Field Theory and Modular Geometry. Can conformal field theory
+  partition functions be fully classified using the theory of modular forms and vertex operator algebras for all central charges?'
+parameters: {}

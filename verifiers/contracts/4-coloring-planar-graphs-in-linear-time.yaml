@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.4-coloring-planar-graphs-in-linear-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/4_coloring_planar_graphs_in_linear_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: 4-Coloring Planar Graphs in Linear Time. Can every planar graph be 4-colored
+  in provably linear time? Current algorithms have large hidden constants.'
+parameters: {}

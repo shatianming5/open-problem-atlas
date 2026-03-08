@@ -1,0 +1,12 @@
+problem_id: opa.tcs.hardness-of-approximation.approximation-resistance-of-predicate-csps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/approximation_resistance_of_predicate_csps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Approximation Resistance of Predicate CSPs. Characterize exactly which predicates
+  yield approximation-resistant constraint satisfaction problems under the Unique Games Conjecture.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.mathematical-physics.quantum-unique-ergodicity-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_unique_ergodicity_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Unique Ergodicity Conjecture. For negatively curved manifolds, eigenfunctions
+  of the Laplacian become equidistributed in the semiclassical limit.'
+parameters: {}

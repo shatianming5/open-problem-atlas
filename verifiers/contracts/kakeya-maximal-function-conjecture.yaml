@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.measure-theory.kakeya-maximal-function-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kakeya_maximal_function_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kakeya Maximal Function Conjecture. The Kakeya maximal function operator
+  on R^n is bounded on L^n with a bound depending only on the dimension.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.scattering-amplitudes.amplituhedron-and-positive-geometry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/amplituhedron_and_positive_geometry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Amplituhedron and Positive Geometry. Can the amplituhedron framework be
+  extended to compute full non-planar scattering amplitudes in N=4 SYM, and does it generalize to realistic gauge theories?'
+parameters: {}

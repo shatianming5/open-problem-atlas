@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.fluctuation-theorems-for-far-from-equilibrium-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fluctuation_theorems_for_far_from_equilibrium_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fluctuation Theorems for Far-From-Equilibrium Systems. Can fluctuation theorems
+  be extended to provide exact universal relations for systems arbitrarily far from equilibrium with memory effects?'
+parameters: {}

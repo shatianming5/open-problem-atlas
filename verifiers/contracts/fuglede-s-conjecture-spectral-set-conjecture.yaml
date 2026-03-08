@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.fuglede-s-conjecture-spectral-set-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fuglede_s_conjecture_spectral_set_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fuglede''s Conjecture (Spectral Set Conjecture). A bounded measurable set
+  in R^n tiles R^n by translations if and only if L^2 of the set has an orthogonal basis of exponential functions.'
+parameters: {}

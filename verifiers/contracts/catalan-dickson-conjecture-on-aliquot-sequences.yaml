@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.catalan-dickson-conjecture-on-aliquot-sequences
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/catalan_dickson_conjecture_on_aliquot_sequences_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Catalan-Dickson Conjecture on Aliquot Sequences. Do all aliquot sequences
+  either terminate or become periodic? Equivalently, are there no aliquot sequences that diverge to infinity?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.information-theory.two-helper-source-coding
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/two_helper_source_coding_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Two-Helper Source Coding. What is the rate region for distributed source
+  coding with two helpers? The Berger-Tung inner bound is not known to be tight.'
+parameters: {}

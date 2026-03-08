@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.learning-automata-and-regular-languages
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/learning_automata_and_regular_languages_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Learning Automata and Regular Languages. Can deterministic finite automata
+  be efficiently PAC learned from random examples alone without membership queries?'
+parameters: {}

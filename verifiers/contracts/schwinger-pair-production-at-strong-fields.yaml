@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.schwinger-pair-production-at-strong-fields
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/schwinger_pair_production_at_strong_fields_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Schwinger Pair Production at Strong Fields. Can the Schwinger mechanism
+  for electron-positron pair creation from vacuum be directly observed, and what are the corrections beyond leading order?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.toda-s-theorem-improvements
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/toda_s_theorem_improvements_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Toda''s Theorem Improvements. Can Toda''s theorem PH ⊆ P^#P be improved
+  to show PH ⊆ BP·#P or a similar strengthening?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.coding-theory.optimal-locally-decodable-codes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_locally_decodable_codes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Locally Decodable Codes. What is the optimal length of a q-query
+  locally decodable code encoding n bits? The exponential gap between 2 and 3 queries remains unexplained.'
+parameters: {}

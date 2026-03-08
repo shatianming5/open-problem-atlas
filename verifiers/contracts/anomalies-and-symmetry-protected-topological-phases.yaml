@@ -1,0 +1,13 @@
+problem_id: opa.phys.topological-phases.anomalies-and-symmetry-protected-topological-phases
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/anomalies_and_symmetry_protected_topological_phases_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Anomalies and Symmetry-Protected Topological Phases. Can one completely
+  classify anomalies in quantum field theories using cobordism, establishing a bijection between anomalies and SPT phases
+  in one dimension higher?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.data-structures.fine-grained-complexity-of-dynamic-connectivity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fine_grained_complexity_of_dynamic_connectivity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fine-Grained Complexity of Dynamic Connectivity. Is there a fully dynamic
+  graph connectivity data structure with polylogarithmic worst-case update time, or is amortized poly-log optimal?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-cache-oblivious-b-trees
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_cache_oblivious_b_trees_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Cache-Oblivious B-Trees. Can cache-oblivious B-trees match the performance
+  of cache-aware B-trees for all operations with optimal space?'
+parameters: {}

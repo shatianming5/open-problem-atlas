@@ -1,0 +1,12 @@
+problem_id: opa.phys.tqft.functorial-qft-and-cobordism-hypothesis
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/functorial_qft_and_cobordism_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Functorial QFT and Cobordism Hypothesis. Can the Baez-Dolan cobordism hypothesis,
+  proved by Lurie for fully extended TQFTs, be extended to include non-topological quantum field theories?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.exact-distance-oracles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/exact_distance_oracles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Exact Distance Oracles. Can a compact data structure of size O(n^{1+epsilon})
+  answer exact distance queries in general weighted graphs in O(1) time?'
+parameters: {}

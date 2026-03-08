@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.anomalous-dimensions-at-strong-coupling
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/anomalous_dimensions_at_strong_coupling_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Anomalous Dimensions at Strong Coupling. Can anomalous dimensions of operators
+  in strongly coupled gauge theories be computed exactly beyond the integrable (planar N=4 SYM) limit?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.sublinear-time-algorithms-for-property-testing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sublinear_time_algorithms_for_property_testing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sublinear Time Algorithms for Property Testing. Which graph properties can
+  be tested with a constant number of queries in the dense graph model? A full characterization is unknown.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.critical-casimir-effect-universality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/critical_casimir_effect_universality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Critical Casimir Effect Universality. Are the universal scaling functions
+  for critical Casimir forces fully determined for all boundary condition combinations and geometries?'
+parameters: {}

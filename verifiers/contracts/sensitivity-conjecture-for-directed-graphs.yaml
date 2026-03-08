@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.sensitivity-conjecture-for-directed-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sensitivity_conjecture_for_directed_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sensitivity Conjecture for Directed Graphs. Is there a polynomial relationship
+  between the sensitivity and block sensitivity of directed graph properties, analogous to Huang''s theorem for undirected
+  Boolean functions?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.existence-of-phase-transition-for-continuum-percolation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_phase_transition_for_continuum_percolation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Phase Transition for Continuum Percolation. Rigorously establish
+  the existence and uniqueness of a critical density for the Boolean percolation model in all dimensions d >= 2.'
+parameters: {}

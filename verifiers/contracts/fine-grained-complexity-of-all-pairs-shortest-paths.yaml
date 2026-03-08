@@ -1,0 +1,12 @@
+problem_id: opa.tcs.fine-grained-complexity.fine-grained-complexity-of-all-pairs-shortest-paths
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fine_grained_complexity_of_all_pairs_shortest_paths_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fine-Grained Complexity of All-Pairs Shortest Paths. Is there a truly subcubic
+  algorithm for APSP in dense weighted graphs, or can a conditional lower bound matching n^3 be established?'
+parameters: {}

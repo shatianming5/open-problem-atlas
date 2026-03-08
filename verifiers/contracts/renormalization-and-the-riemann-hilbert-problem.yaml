@@ -1,0 +1,13 @@
+problem_id: opa.phys.mathematical-physics.renormalization-and-the-riemann-hilbert-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/renormalization_and_the_riemann_hilbert_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Renormalization and the Riemann-Hilbert Problem. Can the Connes-Kreimer
+  algebraic approach to renormalization be extended to provide a complete non-perturbative framework for QFT via the Riemann-Hilbert
+  correspondence?'
+parameters: {}

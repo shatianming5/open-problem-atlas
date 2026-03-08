@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.arthur-merlin-games-vs-interactive-proofs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/arthur_merlin_games_vs_interactive_proofs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Arthur-Merlin Games vs Interactive Proofs. Does AM = IP? Goldwasser and
+  Sipser showed AM can simulate constant-round IP, but the general question remains open.'
+parameters: {}

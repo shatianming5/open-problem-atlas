@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.optimal-quantum-codes-for-fault-tolerance
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_quantum_codes_for_fault_tolerance_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Quantum Codes for Fault Tolerance. What is the optimal encoding
+  rate for quantum error-correcting codes that support fault-tolerant universal computation?'
+parameters: {}

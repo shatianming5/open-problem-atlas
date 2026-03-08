@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.entanglement-in-condensed-matter
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entanglement_in_condensed_matter_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entanglement in Condensed Matter. Can entanglement measures serve as universal
+  order parameters for topological phase transitions in strongly correlated systems?'
+parameters: {}

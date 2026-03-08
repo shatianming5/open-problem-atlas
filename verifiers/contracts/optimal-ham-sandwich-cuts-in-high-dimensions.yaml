@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.optimal-ham-sandwich-cuts-in-high-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_ham_sandwich_cuts_in_high_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Ham-Sandwich Cuts in High Dimensions. Can ham-sandwich cuts in R^d
+  be found in polynomial time for arbitrary d? Known algorithms are exponential in d.'
+parameters: {}

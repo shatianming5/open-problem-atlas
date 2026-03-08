@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.babai-s-conjecture-on-graph-diameters-of-cayley-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/babai_s_conjecture_on_graph_diameters_of_cayley_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Babai''s Conjecture on Graph Diameters of Cayley Graphs. There exists a
+  constant c such that the diameter of every Cayley graph of a finite simple group G with any generating set is at most (log
+  |G|)^c.'
+parameters: {}

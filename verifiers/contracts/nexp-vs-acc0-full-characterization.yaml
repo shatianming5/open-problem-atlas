@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.nexp-vs-acc0-full-characterization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nexp_vs_acc0_full_characterization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: NEXP vs ACC0 Full Characterization. What is the precise circuit complexity
+  of NEXP? Is NEXP contained in TC0 or does it require circuits beyond ACC0?'
+parameters: {}

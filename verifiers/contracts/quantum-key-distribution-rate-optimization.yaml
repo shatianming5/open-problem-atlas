@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-key-distribution-rate-optimization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_key_distribution_rate_optimization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Key Distribution Rate Optimization. What is the ultimate key rate
+  achievable by quantum key distribution protocols over lossy bosonic channels without quantum repeaters?'
+parameters: {}

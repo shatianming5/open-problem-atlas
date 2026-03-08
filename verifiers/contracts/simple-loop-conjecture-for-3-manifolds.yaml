@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.simple-loop-conjecture-for-3-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/simple_loop_conjecture_for_3_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Simple Loop Conjecture for 3-Manifolds. If a 2-sided immersion of a surface
+  into a 3-manifold is not injective on fundamental groups, then there is an essential simple closed curve in the kernel.'
+parameters: {}

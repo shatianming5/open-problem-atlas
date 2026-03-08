@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.koethe-nil-ideal-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/koethe_nil_ideal_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Koethe Nil Ideal Problem. Is the upper nil radical of a ring always equal
+  to the sum of all nil ideals?'
+parameters: {}

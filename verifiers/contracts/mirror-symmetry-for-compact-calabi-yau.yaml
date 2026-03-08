@@ -1,0 +1,12 @@
+problem_id: opa.phys.symplectic-geometry.mirror-symmetry-for-compact-calabi-yau
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mirror_symmetry_for_compact_calabi_yau_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mirror Symmetry for Compact Calabi-Yau. Can homological mirror symmetry
+  be rigorously proved for compact Calabi-Yau threefolds beyond the quintic, as conjectured by Kontsevich?'
+parameters: {}

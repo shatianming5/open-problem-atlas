@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.monotone-circuit-lower-bounds-for-np
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/monotone_circuit_lower_bounds_for_np_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Monotone Circuit Lower Bounds for NP. Can we prove exponential lower bounds
+  on monotone circuit size for an explicit NP function beyond the clique function?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.brownian-motion-on-fractals-spectral-dimension
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/brownian_motion_on_fractals_spectral_dimension_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Brownian Motion on Fractals - Spectral Dimension. Determine the exact spectral
+  dimension of Brownian motion on the Sierpinski carpet and other self-similar fractals.'
+parameters: {}

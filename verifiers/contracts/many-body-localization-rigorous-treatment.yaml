@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.many-body-localization-rigorous-treatment
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/many_body_localization_rigorous_treatment_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Many-Body Localization Rigorous Treatment. Does many-body localization exist
+  as a stable dynamical phase in interacting quantum systems in dimensions d >= 1, or does it eventually thermalize?'
+parameters: {}

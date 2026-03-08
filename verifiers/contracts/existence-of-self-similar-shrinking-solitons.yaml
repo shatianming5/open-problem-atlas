@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.existence-of-self-similar-shrinking-solitons
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_self_similar_shrinking_solitons_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Self-Similar Shrinking Solitons. Classify all complete self-similar
+  shrinking solitons for the mean curvature flow in R^n.'
+parameters: {}

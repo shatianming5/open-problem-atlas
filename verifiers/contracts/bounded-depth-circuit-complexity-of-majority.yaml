@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.bounded-depth-circuit-complexity-of-majority
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bounded_depth_circuit_complexity_of_majority_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bounded Depth Circuit Complexity of MAJORITY. What is the exact complexity
+  of the majority function in bounded-depth circuits with unbounded fan-in (AC0)?'
+parameters: {}

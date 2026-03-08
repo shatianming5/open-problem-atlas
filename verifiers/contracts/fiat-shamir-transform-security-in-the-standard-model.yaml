@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.fiat-shamir-transform-security-in-the-standard-model
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fiat_shamir_transform_security_in_the_standard_model_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fiat-Shamir Transform Security in the Standard Model. Is the Fiat-Shamir
+  transform sound in the standard model for all constant-round public-coin protocols, or do inherent barriers exist?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.positive-mass-theorem-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/positive_mass_theorem_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Positive Mass Theorem in Higher Dimensions. Can the positive mass theorem
+  be extended to all dimensions and to include more general notions of mass for asymptotically flat manifolds?'
+parameters: {}

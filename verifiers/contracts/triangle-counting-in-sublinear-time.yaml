@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.triangle-counting-in-sublinear-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/triangle_counting_in_sublinear_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Triangle Counting in Sublinear Time. What is the optimal query complexity
+  for counting triangles in a graph given adjacency list and matrix access?'
+parameters: {}

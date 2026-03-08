@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-information.randomness-extraction-from-quantum-sources
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/randomness_extraction_from_quantum_sources_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Randomness Extraction from Quantum Sources. Can one extract nearly uniform
+  random bits from a single source of quantum min-entropy without a seed, beating classical impossibility results?'
+parameters: {}

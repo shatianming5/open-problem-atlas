@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.existence-of-exotic-r-4
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_exotic_r_4_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Exotic R^4. Classify all exotic smooth structures on R^4. Uncountably
+  many exist, but a complete classification is lacking.'
+parameters: {}

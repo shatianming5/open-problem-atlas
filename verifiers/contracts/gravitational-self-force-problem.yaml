@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.gravitational-self-force-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gravitational_self_force_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gravitational Self-Force Problem. Can the gravitational self-force on a
+  compact object in a curved background be computed to sufficiently high order to model extreme mass ratio inspirals for LISA?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.category-theory.joyal-s-conjecture-on-quasi-categories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/joyal_s_conjecture_on_quasi_categories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Joyal''s Conjecture on Quasi-Categories. The model category of quasi-categories
+  is Quillen equivalent to all other models of (infinity,1)-categories.'
+parameters: {}

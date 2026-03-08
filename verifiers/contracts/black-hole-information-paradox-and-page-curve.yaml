@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-gravity.black-hole-information-paradox-and-page-curve
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/black_hole_information_paradox_and_page_curve_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Black Hole Information Paradox and Page Curve. Can the island formula and
+  replica wormholes provide a fully rigorous derivation of the Page curve for black hole evaporation in a UV-complete theory?'
+parameters: {}

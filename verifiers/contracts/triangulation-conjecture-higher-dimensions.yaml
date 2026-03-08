@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.topology.triangulation-conjecture-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/triangulation_conjecture_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Triangulation Conjecture (Higher Dimensions). Can every topological manifold
+  of dimension >= 5 be triangulated as a simplicial complex? This was recently shown to be false, but many specific cases
+  remain open.'
+parameters: {}

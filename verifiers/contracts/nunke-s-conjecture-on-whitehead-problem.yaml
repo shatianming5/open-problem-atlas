@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.homological-algebra.nunke-s-conjecture-on-whitehead-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nunke_s_conjecture_on_whitehead_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nunke''s Conjecture on Whitehead Problem. Characterize the abelian groups
+  A for which Ext^1(A, Z) = 0, beyond the free abelian groups.'
+parameters: {}

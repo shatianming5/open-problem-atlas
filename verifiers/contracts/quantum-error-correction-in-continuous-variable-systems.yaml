@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-error-correction-in-continuous-variable-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_error_correction_in_continuous_variable_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Error Correction in Continuous Variable Systems. Can bosonic quantum
+  error correcting codes such as the GKP code achieve fault tolerance with physically realistic squeezing levels?'
+parameters: {}

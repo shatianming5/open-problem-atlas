@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.imo-problem-6-2023-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/imo_problem_6_2023_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: IMO Problem 6 (2023) Generalizations. Can the IMO 2023 Problem 6 result
+  on sequences with a_n dividing a_{a_n} be generalized to characterize all such divisibility recurrences?'
+parameters: {}

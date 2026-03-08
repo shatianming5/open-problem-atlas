@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.dynamical-systems.regularity-of-lyapunov-exponents
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/regularity_of_lyapunov_exponents_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Regularity of Lyapunov Exponents. Are the Lyapunov exponents of a smooth
+  dynamical system continuous functions of the parameter? Establish regularity for specific families like the standard map.'
+parameters: {}

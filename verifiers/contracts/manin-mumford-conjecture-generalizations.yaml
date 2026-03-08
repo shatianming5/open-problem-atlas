@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.arithmetic-geometry.manin-mumford-conjecture-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/manin_mumford_conjecture_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Manin-Mumford Conjecture Generalizations. Extend the Manin-Mumford conjecture
+  (Raynaud''s theorem) to mixed Shimura varieties and other algebraic settings.'
+parameters: {}

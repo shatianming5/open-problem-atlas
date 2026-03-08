@@ -1,0 +1,13 @@
+problem_id: opa.tcs.hardness-of-approximation.unique-games-conjecture-and-optimal-inapproximability
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/unique_games_conjecture_and_optimal_inapproximability_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Unique Games Conjecture and Optimal Inapproximability. Does the Unique Games
+  Conjecture hold, implying optimal hardness of approximation for constraint satisfaction problems including Max-Cut and Vertex
+  Cover?'
+parameters: {}

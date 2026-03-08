@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebraic-complexity.matrix-multiplication-exponent-omega-2-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/matrix_multiplication_exponent_omega_2_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Matrix Multiplication Exponent omega=2 Conjecture. Is the exponent of matrix
+  multiplication exactly 2? Recent advances by Duan, Wu, and Zhou brought it below 2.372, but the true value remains open.'
+parameters: {}

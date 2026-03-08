@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.holevo-capacity-additivity-violations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/holevo_capacity_additivity_violations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Holevo Capacity Additivity Violations. What is the maximal violation of
+  additivity of Holevo capacity and how does it scale with channel dimension?'
+parameters: {}

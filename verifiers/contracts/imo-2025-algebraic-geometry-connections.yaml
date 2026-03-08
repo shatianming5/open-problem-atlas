@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.competition-geometry.imo-2025-algebraic-geometry-connections
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/imo_2025_algebraic_geometry_connections_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: IMO 2025 Algebraic Geometry Connections. Can recent IMO geometry problems
+  be systematically resolved using algebraic geometry and computational algebraic methods?'
+parameters: {}

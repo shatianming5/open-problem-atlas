@@ -1,0 +1,12 @@
+problem_id: opa.tcs.query-complexity.query-complexity-of-local-search
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/query_complexity_of_local_search_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Query Complexity of Local Search. What is the exact query complexity of
+  local search on the Boolean hypercube? The gap between Omega(2^{n/2}/sqrt(n)) and O(2^{n/2} sqrt(n)) remains.'
+parameters: {}

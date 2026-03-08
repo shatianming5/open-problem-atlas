@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.quantum-hall-effect-without-magnetic-field
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_hall_effect_without_magnetic_field_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Hall Effect Without Magnetic Field. Can the quantum anomalous Hall
+  effect be realized at elevated temperatures in realistic materials beyond current achievements?'
+parameters: {}

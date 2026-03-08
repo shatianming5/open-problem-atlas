@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.polymath5-erdos-discrepancy-problem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polymath5_erdos_discrepancy_problem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polymath5: Erdos Discrepancy Problem Extensions. Following the solution
+  of the Erdos discrepancy problem by Tao, can the methods be extended to give tight bounds for discrepancy of higher-dimensional
+  sequences?'
+parameters: {}

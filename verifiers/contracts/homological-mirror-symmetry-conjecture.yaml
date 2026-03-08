@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.homological-algebra.homological-mirror-symmetry-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/homological_mirror_symmetry_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Homological Mirror Symmetry Conjecture. For a pair of mirror Calabi-Yau
+  manifolds, the derived category of coherent sheaves on one is equivalent to the Fukaya category of the other.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.thomassen-s-conjecture-on-hamiltonian-4-connected-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/thomassen_s_conjecture_on_hamiltonian_4_connected_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Thomassen''s Conjecture on Hamiltonian 4-Connected Graphs. Every 4-connected
+  line graph is Hamiltonian.'
+parameters: {}

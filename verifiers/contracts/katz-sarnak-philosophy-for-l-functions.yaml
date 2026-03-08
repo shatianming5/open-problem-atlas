@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analytic-number-theory.katz-sarnak-philosophy-for-l-functions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/katz_sarnak_philosophy_for_l_functions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Katz-Sarnak Philosophy for L-Functions. Can one prove that the distribution
+  of low-lying zeros of families of L-functions follows random matrix theory predictions as predicted by the Katz-Sarnak philosophy?'
+parameters: {}

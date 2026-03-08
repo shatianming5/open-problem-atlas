@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.jaeger-s-conjecture-on-4-flows
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/jaeger_s_conjecture_on_4_flows_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Jaeger''s Conjecture on 4-Flows. Every 4-edge-connected graph admits a nowhere-zero
+  4-flow.'
+parameters: {}

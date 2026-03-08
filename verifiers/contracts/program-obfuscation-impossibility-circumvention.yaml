@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.program-obfuscation-impossibility-circumvention
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/program_obfuscation_impossibility_circumvention_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Program Obfuscation Impossibility Circumvention. What meaningful notions
+  of program obfuscation are achievable given Barak et al.''s impossibility result for virtual black-box obfuscation?'
+parameters: {}

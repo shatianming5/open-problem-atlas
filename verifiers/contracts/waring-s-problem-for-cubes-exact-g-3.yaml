@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.waring-s-problem-for-cubes-exact-g-3
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/waring_s_problem_for_cubes_exact_g_3_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Waring''s Problem for Cubes - Exact g(3). It is known that every positive
+  integer is a sum of at most 9 cubes, but the exact value of g(3) (whether 4 or 5 suffice for large enough n) remains open.'
+parameters: {}

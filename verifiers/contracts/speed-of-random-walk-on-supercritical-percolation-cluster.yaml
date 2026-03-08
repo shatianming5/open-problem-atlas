@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.speed-of-random-walk-on-supercritical-percolation-cluster
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/speed_of_random_walk_on_supercritical_percolation_cluster_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Speed of Random Walk on Supercritical Percolation Cluster. Determine the
+  exact speed of simple random walk on the infinite cluster of supercritical Bernoulli percolation on Z^d.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.critical-phenomena-in-gravitational-collapse
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/critical_phenomena_in_gravitational_collapse_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Critical Phenomena in Gravitational Collapse. What determines universality
+  and scaling in critical gravitational collapse, and does it extend to the full Einstein equations without symmetry assumptions?'
+parameters: {}

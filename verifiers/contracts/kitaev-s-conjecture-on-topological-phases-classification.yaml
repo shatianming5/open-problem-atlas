@@ -1,0 +1,13 @@
+problem_id: opa.phys.topological-phases.kitaev-s-conjecture-on-topological-phases-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kitaev_s_conjecture_on_topological_phases_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kitaev''s Conjecture on Topological Phases Classification. Does the classification
+  of short-range entangled topological phases in interacting fermion systems follow the conjectured generalized cohomology
+  theory?'
+parameters: {}

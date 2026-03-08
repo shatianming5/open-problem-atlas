@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algebraic-complexity.polynomial-identity-testing-derandomization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polynomial_identity_testing_derandomization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polynomial Identity Testing Derandomization. Can polynomial identity testing
+  be derandomized in polynomial time, providing a hitting set generator for arithmetic circuits?'
+parameters: {}

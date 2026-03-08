@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.consistency-of-the-singular-cardinal-hypothesis
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/consistency_of_the_singular_cardinal_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Consistency of the Singular Cardinal Hypothesis. Is it consistent with ZFC
+  that the Singular Cardinal Hypothesis fails at every singular cardinal of countable cofinality?'
+parameters: {}

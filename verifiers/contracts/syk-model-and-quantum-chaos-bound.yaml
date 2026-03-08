@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-chaos.syk-model-and-quantum-chaos-bound
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/syk_model_and_quantum_chaos_bound_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: SYK Model and Quantum Chaos Bound. Does the Sachdev-Ye-Kitaev model saturate
+  the Maldacena-Shenker-Stanford bound on chaos for all values of the coupling, and what is the precise large-q expansion?'
+parameters: {}

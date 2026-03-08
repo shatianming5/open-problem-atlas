@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.ryser-s-conjecture-on-transversals
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ryser_s_conjecture_on_transversals_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ryser''s Conjecture on Transversals. Every Latin square of odd order n has
+  a transversal (a set of n entries with no repeated row, column, or symbol).'
+parameters: {}

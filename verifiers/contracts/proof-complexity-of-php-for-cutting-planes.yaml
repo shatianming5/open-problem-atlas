@@ -1,0 +1,12 @@
+problem_id: opa.tcs.proof-complexity.proof-complexity-of-php-for-cutting-planes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/proof_complexity_of_php_for_cutting_planes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Proof Complexity of PHP for Cutting Planes. Does the pigeonhole principle
+  require superpolynomial-size cutting planes proofs? This is a major open problem in proof complexity.'
+parameters: {}

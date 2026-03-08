@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorial-geometry.chromatic-number-of-the-plane
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chromatic_number_of_the_plane_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chromatic Number of the Plane. What is the chromatic number of the plane
+  (Hadwiger-Nelson problem)? de Grey''s 2018 breakthrough showed it is at least 5; the upper bound remains 7.'
+parameters: {}

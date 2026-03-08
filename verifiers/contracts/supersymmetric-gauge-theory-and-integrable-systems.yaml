@@ -1,0 +1,12 @@
+problem_id: opa.phys.gauge-theory.supersymmetric-gauge-theory-and-integrable-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/supersymmetric_gauge_theory_and_integrable_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Supersymmetric Gauge Theory and Integrable Systems. Can the Bethe/gauge
+  correspondence be fully proved, establishing an equivalence between N=2 gauge theories and quantum integrable systems?'
+parameters: {}

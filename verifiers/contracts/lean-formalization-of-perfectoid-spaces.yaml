@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.formalization.lean-formalization-of-perfectoid-spaces
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lean_formalization_of_perfectoid_spaces_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lean Formalization of Perfectoid Spaces. Can the theory of perfectoid spaces
+  be fully formalized in Lean, extending Buzzard-Commelin-Massot''s work and enabling computer-verified arithmetic geometry?'
+parameters: {}

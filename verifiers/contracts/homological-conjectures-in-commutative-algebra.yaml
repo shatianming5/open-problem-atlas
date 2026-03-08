@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.homological-conjectures-in-commutative-algebra
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/homological_conjectures_in_commutative_algebra_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Homological Conjectures in Commutative Algebra. Several related conjectures
+  remain open: the Buchsbaum-Eisenbud-Horrocks conjecture on minimal Betti numbers of modules of finite length.'
+parameters: {}

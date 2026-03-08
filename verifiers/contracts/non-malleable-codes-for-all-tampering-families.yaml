@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.non-malleable-codes-for-all-tampering-families
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_malleable_codes_for_all_tampering_families_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Malleable Codes for All Tampering Families. Can non-malleable codes
+  be constructed for all efficient tampering families with optimal rate?'
+parameters: {}

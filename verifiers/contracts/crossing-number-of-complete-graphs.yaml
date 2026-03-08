@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.crossing-number-of-complete-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/crossing_number_of_complete_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Crossing Number of Complete Graphs. What is the exact crossing number of
+  the complete graph K_n? The conjectured formula cr(K_n) = Z(n) remains unproven.'
+parameters: {}

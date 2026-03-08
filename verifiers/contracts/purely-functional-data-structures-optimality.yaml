@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.purely-functional-data-structures-optimality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/purely_functional_data_structures_optimality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Purely Functional Data Structures Optimality. Can every data structure be
+  made purely functional with at most O(log n) overhead per operation?'
+parameters: {}

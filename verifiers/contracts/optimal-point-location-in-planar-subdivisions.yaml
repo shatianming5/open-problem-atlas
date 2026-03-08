@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.optimal-point-location-in-planar-subdivisions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_point_location_in_planar_subdivisions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Point Location in Planar Subdivisions. Can point location queries
+  in planar subdivisions be answered in O(log n) time with O(n) space using a simple data structure?'
+parameters: {}

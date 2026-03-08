@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algebraic-complexity.lower-bounds-for-matrix-rigidity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lower_bounds_for_matrix_rigidity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lower Bounds for Matrix Rigidity. Can one prove superlinear rigidity lower
+  bounds for an explicit matrix family, a key step toward arithmetic circuit lower bounds?'
+parameters: {}

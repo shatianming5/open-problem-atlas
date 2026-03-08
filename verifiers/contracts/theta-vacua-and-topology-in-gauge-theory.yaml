@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.theta-vacua-and-topology-in-gauge-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/theta_vacua_and_topology_in_gauge_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Theta Vacua and Topology in Gauge Theory. Can the topological structure
+  of the QCD vacuum and theta dependence be computed non-perturbatively without lattice discretization artifacts?'
+parameters: {}

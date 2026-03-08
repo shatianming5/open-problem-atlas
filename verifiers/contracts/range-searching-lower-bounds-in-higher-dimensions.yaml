@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.range-searching-lower-bounds-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/range_searching_lower_bounds_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Range Searching Lower Bounds in Higher Dimensions. What are tight lower
+  bounds for simplex range searching in R^d for d >= 3? Significant gaps remain between upper and lower bounds.'
+parameters: {}

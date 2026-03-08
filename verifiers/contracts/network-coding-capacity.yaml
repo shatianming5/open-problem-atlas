@@ -1,0 +1,12 @@
+problem_id: opa.tcs.information-theory.network-coding-capacity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/network_coding_capacity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Network Coding Capacity. What is the capacity region of a general network
+  coding problem? Characterizing capacity beyond single-source multicast remains open.'
+parameters: {}

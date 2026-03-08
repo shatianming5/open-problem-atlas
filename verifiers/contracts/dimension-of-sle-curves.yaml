@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.dimension-of-sle-curves
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dimension_of_sle_curves_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dimension of SLE Curves. Determine the exact Hausdorff dimension of the
+  SLE_kappa curve for all kappa, and of the set of double points.'
+parameters: {}

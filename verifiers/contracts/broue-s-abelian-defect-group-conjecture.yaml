@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.representation-theory.broue-s-abelian-defect-group-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/broue_s_abelian_defect_group_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Broue''s Abelian Defect Group Conjecture. A block of a finite group with
+  abelian defect group is derived equivalent to its Brauer correspondent.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.density-of-gaussian-moat-crossings
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/density_of_gaussian_moat_crossings_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Density of Gaussian Moat Crossings. Can one walk to infinity in the Gaussian
+  integers using steps of bounded length, stepping only on Gaussian primes?'
+parameters: {}

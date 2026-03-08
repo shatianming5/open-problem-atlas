@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.zeeman-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/zeeman_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Zeeman Conjecture. If K is a contractible 2-complex, then K x [0,1] is collapsible.
+  This implies the Poincare conjecture (now proven) but itself remains open.'
+parameters: {}

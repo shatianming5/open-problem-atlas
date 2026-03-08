@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.fixed-parameter-tractability-of-minimum-bisection
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fixed_parameter_tractability_of_minimum_bisection_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fixed-Parameter Tractability of Minimum Bisection. Is the minimum bisection
+  problem fixed-parameter tractable when parameterized by the cut size?'
+parameters: {}

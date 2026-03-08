@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.nonequilibrium-fluctuations-in-granular-materials
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nonequilibrium_fluctuations_in_granular_materials_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nonequilibrium Fluctuations in Granular Materials. Can a consistent statistical
+  mechanics framework be developed for granular materials that captures jamming transitions and force chain statistics?'
+parameters: {}

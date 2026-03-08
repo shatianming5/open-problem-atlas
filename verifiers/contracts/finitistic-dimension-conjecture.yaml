@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.homological-algebra.finitistic-dimension-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/finitistic_dimension_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Finitistic Dimension Conjecture. The finitistic dimension of a finite-dimensional
+  algebra is finite.'
+parameters: {}

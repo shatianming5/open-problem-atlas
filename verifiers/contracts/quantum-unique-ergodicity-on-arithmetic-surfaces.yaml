@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.spectral-theory.quantum-unique-ergodicity-on-arithmetic-surfaces
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_unique_ergodicity_on_arithmetic_surfaces_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Unique Ergodicity on Arithmetic Surfaces. Does quantum unique ergodicity
+  hold for all Hecke-Maass forms on non-compact arithmetic surfaces, extending the Lindenstrauss-Soundararajan results?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.optimal-spectral-sparsification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_spectral_sparsification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Spectral Sparsification. Can spectral sparsifiers with O(n/epsilon^2)
+  edges be constructed in nearly linear time?'
+parameters: {}

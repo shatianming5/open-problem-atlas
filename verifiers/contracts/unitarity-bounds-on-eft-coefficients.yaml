@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.unitarity-bounds-on-eft-coefficients
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/unitarity_bounds_on_eft_coefficients_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Unitarity Bounds on EFT Coefficients. What are the complete positivity/unitarity
+  bounds on Wilson coefficients in the Standard Model Effective Field Theory at all mass dimensions?'
+parameters: {}

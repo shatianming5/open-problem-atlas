@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.opaque-forest-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/opaque_forest_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Opaque Forest Problem. Find the shortest set of line segments (barrier)
+  in the unit square that blocks every line of sight through the square.'
+parameters: {}

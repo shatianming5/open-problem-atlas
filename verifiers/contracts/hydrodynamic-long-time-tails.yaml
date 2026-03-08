@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.hydrodynamic-long-time-tails
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hydrodynamic_long_time_tails_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hydrodynamic Long-Time Tails. Can long-time tails in hydrodynamic correlation
+  functions be rigorously derived from microscopic dynamics for interacting particle systems?'
+parameters: {}

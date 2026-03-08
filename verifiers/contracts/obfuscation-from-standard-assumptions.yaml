@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.obfuscation-from-standard-assumptions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/obfuscation_from_standard_assumptions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Obfuscation from Standard Assumptions. Can indistinguishability obfuscation
+  be based on standard polynomial hardness assumptions, following the Jain-Lin-Sahai construction from well-studied problems?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.hardness-of-approximation.unique-games-on-expanding-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/unique_games_on_expanding_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Unique Games on Expanding Graphs. Can unique games on small-set expander
+  graphs be solved in polynomial time, providing evidence against the Unique Games Conjecture?'
+parameters: {}

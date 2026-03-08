@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.memory-hard-functions-optimal-parameters
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/memory_hard_functions_optimal_parameters_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Memory-Hard Functions Optimal Parameters. What are the optimal time-memory
+  tradeoffs for memory-hard functions used in password hashing?'
+parameters: {}

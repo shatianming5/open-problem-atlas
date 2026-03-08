@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.smale-s-14th-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/smale_s_14th_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Smale''s 14th Problem. Is the concept of a polynomial-time computable map
+  on the reals equivalent to polynomial-time Turing machine computability for discrete problems?'
+parameters: {}

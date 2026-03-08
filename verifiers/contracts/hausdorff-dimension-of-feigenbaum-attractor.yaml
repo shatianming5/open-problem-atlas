@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.dynamical-systems.hausdorff-dimension-of-feigenbaum-attractor
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hausdorff_dimension_of_feigenbaum_attractor_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hausdorff Dimension of Feigenbaum Attractor. Compute the exact Hausdorff
+  dimension of the Feigenbaum attractor at the accumulation of period-doubling bifurcations.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.average-case-complexity.sum-of-squares-hierarchy-and-planted-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sum_of_squares_hierarchy_and_planted_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sum-of-Squares Hierarchy and Planted Problems. What is the precise power
+  of constant-degree sum-of-squares relaxations for refuting random CSPs and solving planted clique below the sqrt(n) threshold?'
+parameters: {}

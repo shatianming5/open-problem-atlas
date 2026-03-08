@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.random-oracle-model-vs-standard-model
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/random_oracle_model_vs_standard_model_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Random Oracle Model vs Standard Model. Which schemes proven secure in the
+  random oracle model can be instantiated securely in the standard model?'
+parameters: {}

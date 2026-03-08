@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.quantum-entanglement-and-bell-inequalities
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_entanglement_and_bell_inequalities_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Entanglement and Bell Inequalities. What is the maximum quantum
+  violation of multipartite Bell inequalities and how does it relate to computational complexity?'
+parameters: {}

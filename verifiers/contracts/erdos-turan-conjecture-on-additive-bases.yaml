@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.additive-combinatorics.erdos-turan-conjecture-on-additive-bases
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_turan_conjecture_on_additive_bases_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Turan Conjecture on Additive Bases. If A is an additive basis of order
+  2 (i.e., every sufficiently large integer can be written as a sum of two elements of A), then the number of representations
+  r(n) = |{(a,b) in A x A : a+b = n}| is unbounded.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.model-theory.lachlan-s-conjecture-on-finite-homogeneous-structures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lachlan_s_conjecture_on_finite_homogeneous_structures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lachlan''s Conjecture on Finite Homogeneous Structures. Every finite homogeneous
+  relational structure in a finite language is a known example.'
+parameters: {}

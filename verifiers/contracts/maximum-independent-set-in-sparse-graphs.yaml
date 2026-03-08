@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.maximum-independent-set-in-sparse-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/maximum_independent_set_in_sparse_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maximum Independent Set in Sparse Graphs. Can maximum independent set in
+  graphs of bounded average degree be approximated better than the general case?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.circuit-complexity.optimal-sorting-networks-size
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_sorting_networks_size_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Sorting Networks Size. What is the minimum number of comparators
+  in a sorting network on n elements? The gap between the upper bound O(n log n) and known lower bounds remains large.'
+parameters: {}

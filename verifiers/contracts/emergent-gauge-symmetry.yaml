@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.emergent-gauge-symmetry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/emergent_gauge_symmetry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Emergent Gauge Symmetry. Under what conditions can gauge symmetry emerge
+  as an accidental low-energy symmetry from a fundamentally non-gauge theory?'
+parameters: {}

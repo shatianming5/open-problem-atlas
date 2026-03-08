@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.subquadratic-algorithm-for-frechet-distance
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/subquadratic_algorithm_for_frechet_distance_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Subquadratic Algorithm for Frechet Distance. Can the Frechet distance between
+  two polygonal curves be computed in truly sub-quadratic time?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.graph-theory.vizing-s-conjecture-on-domination
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/vizing_s_conjecture_on_domination_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Vizing''s Conjecture on Domination. Is the domination number of the Cartesian
+  product of two graphs at least the product of their individual domination numbers?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-fisher-information-and-multipartite-entanglement
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_fisher_information_and_multipartite_entanglement_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Fisher Information and Multipartite Entanglement. Can the quantum
+  Fisher information provide a complete witness for all forms of multipartite entanglement in many-body systems?'
+parameters: {}

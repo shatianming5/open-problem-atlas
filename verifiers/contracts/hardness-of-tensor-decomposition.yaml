@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algebraic-complexity.hardness-of-tensor-decomposition
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hardness_of_tensor_decomposition_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hardness of Tensor Decomposition. Is computing the rank of a 3-dimensional
+  tensor over finite fields NP-hard in the worst case, and what are the average-case implications?'
+parameters: {}

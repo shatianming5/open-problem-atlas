@@ -1,0 +1,12 @@
+problem_id: opa.phys.topological-order.fractional-quantum-hall-effect-and-modular-tensor-categories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fractional_quantum_hall_effect_and_modular_tensor_categories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fractional Quantum Hall Effect and Modular Tensor Categories. Can the topological
+  order in fractional quantum Hall states be fully classified using modular tensor categories and unitary fusion categories?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.topological-phases.k-theory-classification-of-topological-insulators
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/k_theory_classification_of_topological_insulators_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: K-Theory Classification of Topological Insulators. Does the ten-fold way
+  classification of topological insulators via K-theory extend rigorously to strongly interacting systems?'
+parameters: {}

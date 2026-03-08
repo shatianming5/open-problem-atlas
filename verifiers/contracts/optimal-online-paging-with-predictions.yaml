@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-online-paging-with-predictions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_online_paging_with_predictions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Online Paging with Predictions. What is the optimal competitive
+  ratio for online paging when given machine-learned predictions of varying quality?'
+parameters: {}

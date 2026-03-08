@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.proper-learning-vs-improper-learning-gap
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/proper_learning_vs_improper_learning_gap_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Proper Learning vs Improper Learning Gap. How large can the gap between
+  proper and improper learning be? Are there concept classes where improper learning is exponentially easier?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.supersymmetry.bps-states-and-wall-crossing-formulas
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bps_states_and_wall_crossing_formulas_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: BPS States and Wall-Crossing Formulas. Can the Kontsevich-Soibelman wall-crossing
+  formula for BPS states be rigorously derived from first principles in all N=2 supersymmetric field theories?'
+parameters: {}

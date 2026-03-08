@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.functional-encryption-for-general-functions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/functional_encryption_for_general_functions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Functional Encryption for General Functions. Can functional encryption for
+  general circuits be constructed from standard assumptions without indistinguishability obfuscation?'
+parameters: {}

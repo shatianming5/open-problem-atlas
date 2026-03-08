@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-darwinism-and-objectivity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_darwinism_and_objectivity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Darwinism and Objectivity. Under what conditions does quantum Darwinism
+  emerge universally from open quantum dynamics, and can it explain classical objectivity?'
+parameters: {}

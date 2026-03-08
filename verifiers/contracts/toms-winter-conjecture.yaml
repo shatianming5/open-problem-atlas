@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.operator-algebras.toms-winter-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/toms_winter_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Toms-Winter Conjecture. For simple separable nuclear unital C*-algebras,
+  finite nuclear dimension, Z-stability, and strict comparison are equivalent.'
+parameters: {}

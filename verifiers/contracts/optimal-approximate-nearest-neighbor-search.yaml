@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-approximate-nearest-neighbor-search
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_approximate_nearest_neighbor_search_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Approximate Nearest Neighbor Search. What is the optimal query time
+  for approximate nearest neighbor search in high-dimensional spaces with polynomial preprocessing?'
+parameters: {}

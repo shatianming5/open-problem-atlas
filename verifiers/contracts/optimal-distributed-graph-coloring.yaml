@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.optimal-distributed-graph-coloring
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_distributed_graph_coloring_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Distributed Graph Coloring. What is the optimal round complexity
+  of (Delta+1)-coloring in the LOCAL model of distributed computing?'
+parameters: {}

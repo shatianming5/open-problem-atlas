@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.resolution-proof-complexity-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/resolution_proof_complexity_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Resolution Proof Complexity Lower Bounds. Can we prove super-polynomial
+  lower bounds on resolution proof length for random k-CNF formulas at the satisfiability threshold?'
+parameters: {}

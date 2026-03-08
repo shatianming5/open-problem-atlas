@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-hashing-with-worst-case-guarantees
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_hashing_with_worst_case_guarantees_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Hashing with Worst-Case Guarantees. Can constant-time hash table
+  lookups be achieved with worst-case guarantees using O(n) space and simple operations?'
+parameters: {}

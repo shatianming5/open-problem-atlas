@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.hardness-of-improper-learning-intersection-of-halfspaces
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hardness_of_improper_learning_intersection_of_halfspaces_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hardness of Improper Learning Intersection of Halfspaces. Is improperly
+  learning the intersection of two halfspaces computationally hard? The problem has resisted classification.'
+parameters: {}

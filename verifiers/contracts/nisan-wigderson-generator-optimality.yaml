@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.nisan-wigderson-generator-optimality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nisan_wigderson_generator_optimality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nisan-Wigderson Generator Optimality. Is the Nisan-Wigderson pseudorandom
+  generator construction optimal, or can better derandomization be achieved from weaker hardness assumptions?'
+parameters: {}

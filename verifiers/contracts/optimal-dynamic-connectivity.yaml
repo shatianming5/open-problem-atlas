@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-dynamic-connectivity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_dynamic_connectivity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Dynamic Connectivity. What is the optimal time per operation for
+  dynamic graph connectivity? The best known is O(log^2(n)/log log n) by Holm et al.'
+parameters: {}

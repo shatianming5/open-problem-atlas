@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.epsilon-net-size-for-geometric-set-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/epsilon_net_size_for_geometric_set_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Epsilon-Net Size for Geometric Set Systems. What is the optimal size of
+  epsilon-nets for geometric set systems such as half-planes and disks?'
+parameters: {}

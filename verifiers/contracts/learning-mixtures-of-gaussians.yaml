@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.learning-mixtures-of-gaussians
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/learning_mixtures_of_gaussians_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Learning Mixtures of Gaussians. What is the optimal sample complexity for
+  learning a mixture of k Gaussians in R^d in total variation distance?'
+parameters: {}

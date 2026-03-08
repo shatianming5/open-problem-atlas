@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.equilibrium-crystal-shapes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/equilibrium_crystal_shapes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Equilibrium Crystal Shapes. Can the equilibrium crystal shape (Wulff shape)
+  be derived rigorously from microscopic models at low temperature for three-dimensional lattice systems?'
+parameters: {}

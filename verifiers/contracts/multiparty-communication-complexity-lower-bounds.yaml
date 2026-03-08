@@ -1,0 +1,12 @@
+problem_id: opa.tcs.communication-complexity.multiparty-communication-complexity-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/multiparty_communication_complexity_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multiparty Communication Complexity Lower Bounds. Can one prove superlogarithmic
+  lower bounds on the number-on-forehead multiparty communication complexity of an explicit function?'
+parameters: {}

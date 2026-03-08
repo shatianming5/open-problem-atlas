@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.differential-geometry.positive-mass-conjecture-for-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/positive_mass_conjecture_for_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Positive Mass Conjecture for Higher Dimensions. An asymptotically flat Riemannian
+  manifold of dimension n >= 3 with nonnegative scalar curvature has nonneg ADM mass, with equality only for flat space.'
+parameters: {}

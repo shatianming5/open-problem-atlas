@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.macdonald-positivity-for-general-lie-types
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/macdonald_positivity_for_general_lie_types_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Macdonald Positivity for General Lie Types. Extend the proof of Macdonald
+  positivity (proven for type A by Haiman) to all Lie types.'
+parameters: {}

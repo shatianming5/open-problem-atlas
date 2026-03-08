@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.pseudorandom-generators-from-one-way-functions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/pseudorandom_generators_from_one_way_functions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Pseudorandom Generators from One-Way Functions. Can Hastad-Impagliazzo-Levin-Luby''s
+  PRG construction from any OWF be made with linear seed length or optimal stretch?'
+parameters: {}

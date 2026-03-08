@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.graph-isomorphism-in-polynomial-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/graph_isomorphism_in_polynomial_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Graph Isomorphism in Polynomial Time. Can Babai''s quasipolynomial algorithm
+  for graph isomorphism be improved to polynomial time, or is there an exp(sqrt(n)) lower bound?'
+parameters: {}

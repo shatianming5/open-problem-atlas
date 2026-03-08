@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.lander-parkin-and-selfridge-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lander_parkin_and_selfridge_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lander, Parkin, and Selfridge Conjecture. If the sum of k-th powers of m
+  positive integers equals the sum of k-th powers of n positive integers, then m+n >= k.'
+parameters: {}

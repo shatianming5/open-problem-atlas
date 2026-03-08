@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.tensor-network-methods-for-2d-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tensor_network_methods_for_2d_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tensor Network Methods for 2D Systems. Can tensor network methods provide
+  numerically exact results for strongly correlated two-dimensional quantum systems at finite temperature?'
+parameters: {}

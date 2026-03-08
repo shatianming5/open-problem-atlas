@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.minimum-cut-in-near-linear-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/minimum_cut_in_near_linear_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimum Cut in Near-Linear Time. Is there a deterministic near-linear time
+  algorithm for global minimum cut in weighted undirected graphs?'
+parameters: {}

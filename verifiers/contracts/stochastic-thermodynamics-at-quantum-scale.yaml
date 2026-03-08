@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.stochastic-thermodynamics-at-quantum-scale
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stochastic_thermodynamics_at_quantum_scale_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stochastic Thermodynamics at Quantum Scale. Can stochastic thermodynamics
+  be consistently extended to the quantum regime with proper treatment of measurement backaction and coherence?'
+parameters: {}

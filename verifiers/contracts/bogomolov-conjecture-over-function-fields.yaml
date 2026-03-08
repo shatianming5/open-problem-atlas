@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.arithmetic-geometry.bogomolov-conjecture-over-function-fields
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bogomolov_conjecture_over_function_fields_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bogomolov Conjecture over Function Fields. Can the Bogomolov conjecture
+  be extended to give effective height bounds for points of small height on abelian varieties over function fields?'
+parameters: {}

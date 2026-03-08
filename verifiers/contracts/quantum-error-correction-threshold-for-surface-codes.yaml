@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-error-correction.quantum-error-correction-threshold-for-surface-codes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_error_correction_threshold_for_surface_codes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Error Correction Threshold for Surface Codes. What is the exact
+  fault-tolerant threshold for the surface code under realistic (non-i.i.d.) noise models, and can it be rigorously proved?'
+parameters: {}

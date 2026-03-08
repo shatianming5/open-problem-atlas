@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.active-matter-universality-classes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/active_matter_universality_classes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Active Matter Universality Classes. What are the universality classes of
+  phase transitions in active matter systems, and how do they differ from equilibrium universality?'
+parameters: {}

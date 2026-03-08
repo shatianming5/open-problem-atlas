@@ -1,0 +1,12 @@
+problem_id: opa.phys.holography.entanglement-entropy-in-quantum-gravity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entanglement_entropy_in_quantum_gravity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entanglement Entropy in Quantum Gravity. Can the Ryu-Takayanagi formula
+  for holographic entanglement entropy be derived from first principles in a fully non-perturbative quantum gravity setting?'
+parameters: {}

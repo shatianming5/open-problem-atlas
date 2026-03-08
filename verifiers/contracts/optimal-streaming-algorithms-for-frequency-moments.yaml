@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-streaming-algorithms-for-frequency-moments
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_streaming_algorithms_for_frequency_moments_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Streaming Algorithms for Frequency Moments. What are the exact space
+  bounds for computing the k-th frequency moment in the streaming model for general k?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.tcs.complexity-theory.entropy-vs-compression-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entropy_vs_compression_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entropy vs Compression Complexity. Is Kolmogorov complexity of a string
+  within a constant factor of the Shannon entropy of its source? Characterizing the gap for various source models remains
+  open.'
+parameters: {}

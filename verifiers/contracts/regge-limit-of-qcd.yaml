@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.regge-limit-of-qcd
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/regge_limit_of_qcd_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Regge Limit of QCD. What is the exact behavior of scattering amplitudes
+  in QCD at high energies in the Regge limit, including pomeron and odderon contributions?'
+parameters: {}

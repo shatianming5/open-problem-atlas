@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.graph-theory.4-coloring-conjecture-for-planar-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/4_coloring_conjecture_for_planar_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: 4-Coloring Conjecture for Planar Graphs. Can every planar graph be 4-colored
+  such that no face has all vertices of the same color, known as the strong 4-coloring conjecture?'
+parameters: {}

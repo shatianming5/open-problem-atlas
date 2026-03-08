@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.extremal-combinatorics.sunflower-conjecture-improved-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sunflower_conjecture_improved_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sunflower Conjecture Improved Bounds. Can the sunflower lemma bound be further
+  improved beyond the recent breakthrough by Alweiss, Lovett, Wu, and Zhang to match the conjectured O(k)^n bound?'
+parameters: {}

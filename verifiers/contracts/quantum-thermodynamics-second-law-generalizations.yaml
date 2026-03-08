@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-thermodynamics-second-law-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_thermodynamics_second_law_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Thermodynamics Second Law Generalizations. What is the complete
+  set of second-law-like constraints governing quantum thermodynamic transitions for finite-dimensional quantum systems?'
+parameters: {}

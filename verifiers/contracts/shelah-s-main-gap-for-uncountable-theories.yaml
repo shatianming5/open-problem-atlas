@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.shelah-s-main-gap-for-uncountable-theories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/shelah_s_main_gap_for_uncountable_theories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Shelah''s Main Gap for Uncountable Theories. Extend Shelah''s classification
+  theory and main gap theorem to characterize the number of models of an uncountable first-order theory in every cardinality.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.sublinear-algorithms-for-edit-distance-estimation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sublinear_algorithms_for_edit_distance_estimation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sublinear Algorithms for Edit Distance Estimation. Can edit distance be
+  estimated to within a constant factor in truly sublinear time?'
+parameters: {}

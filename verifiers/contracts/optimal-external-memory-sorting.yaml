@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-external-memory-sorting
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_external_memory_sorting_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal External Memory Sorting. Is the O(N/B log_{M/B}(N/B)) I/O bound
+  for external memory sorting optimal for all parameter ranges?'
+parameters: {}

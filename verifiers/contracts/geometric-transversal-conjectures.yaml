@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.geometric-transversal-conjectures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/geometric_transversal_conjectures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Geometric Transversal Conjectures. For convex sets in R^d, when does a common
+  transversal exist? Extending Helly-type theorems to transversal settings remains largely open.'
+parameters: {}

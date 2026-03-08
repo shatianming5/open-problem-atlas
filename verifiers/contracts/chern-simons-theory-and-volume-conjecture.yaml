@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-topology.chern-simons-theory-and-volume-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chern_simons_theory_and_volume_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chern-Simons Theory and Volume Conjecture. Can the Volume Conjecture be
+  proved: that the colored Jones polynomial of a hyperbolic knot determines the hyperbolic volume of its complement?'
+parameters: {}

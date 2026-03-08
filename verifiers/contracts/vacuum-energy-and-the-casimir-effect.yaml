@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.vacuum-energy-and-the-casimir-effect
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/vacuum_energy_and_the_casimir_effect_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Vacuum Energy and the Casimir Effect. Is the Casimir effect direct evidence
+  for vacuum energy, or can it be explained purely in terms of source interactions without reference to zero-point energy?'
+parameters: {}

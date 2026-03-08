@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.analysis.kadison-singer-problem-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kadison_singer_problem_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kadison-Singer Problem Generalizations. While the Kadison-Singer problem
+  was solved by Marcus-Spielman-Srivastava, quantitative improvements and generalizations to other operator algebras remain
+  open.'
+parameters: {}

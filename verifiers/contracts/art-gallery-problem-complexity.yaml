@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.art-gallery-problem-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/art_gallery_problem_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Art Gallery Problem Complexity. What is the exact complexity of the art
+  gallery problem? It is known to be in ER (existential theory of the reals) but its completeness status is unclear.'
+parameters: {}

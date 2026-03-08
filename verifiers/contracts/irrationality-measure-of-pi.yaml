@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.irrationality-measure-of-pi
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/irrationality_measure_of_pi_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Irrationality Measure of Pi. What is the exact irrationality measure mu(pi)?
+  It is known that 2 <= mu(pi) <= 7.103, but the exact value is unknown.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.measure-theory.maharam-s-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/maharam_s_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maharam''s Problem. Is every continuous submeasure on a Boolean algebra
+  equivalent to a measure?'
+parameters: {}

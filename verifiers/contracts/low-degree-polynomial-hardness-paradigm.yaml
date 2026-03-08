@@ -1,0 +1,12 @@
+problem_id: opa.tcs.average-case-complexity.low-degree-polynomial-hardness-paradigm
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/low_degree_polynomial_hardness_paradigm_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Low-Degree Polynomial Hardness Paradigm. Can the low-degree polynomial framework
+  be formally shown to capture the exact computational threshold for all natural average-case problems?'
+parameters: {}

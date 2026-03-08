@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.matroid-theory.welsh-s-conjecture-on-matroid-enumeration
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/welsh_s_conjecture_on_matroid_enumeration_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Welsh''s Conjecture on Matroid Enumeration. Asymptotically, almost all matroids
+  are non-representable over any field.'
+parameters: {}

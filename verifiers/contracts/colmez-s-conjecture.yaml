@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.arithmetic-geometry.colmez-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/colmez_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Colmez''s Conjecture. The Faltings height of a CM abelian variety is given
+  by logarithmic derivatives of Artin L-functions.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.computational-statistical-gap-in-learning
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/computational_statistical_gap_in_learning_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Computational-Statistical Gap in Learning. Can the conjectured computational-statistical
+  gaps for planted problems be formally proved? Are there problems with polynomial samples but no polynomial algorithms?'
+parameters: {}

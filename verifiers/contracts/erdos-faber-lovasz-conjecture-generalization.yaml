@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.graph-theory.erdos-faber-lovasz-conjecture-generalization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_faber_lovasz_conjecture_generalization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Faber-Lovasz Conjecture Generalization. Following the proof of the
+  Erdos-Faber-Lovasz conjecture by Kang et al. (2023), can the result be extended to fractional chromatic number or list coloring
+  variants?'
+parameters: {}

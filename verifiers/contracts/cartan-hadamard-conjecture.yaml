@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.differential-geometry.cartan-hadamard-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cartan_hadamard_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cartan-Hadamard Conjecture. The isoperimetric inequality in a simply connected
+  Riemannian manifold of nonpositive curvature is at least as strong as in Euclidean space of the same dimension.'
+parameters: {}

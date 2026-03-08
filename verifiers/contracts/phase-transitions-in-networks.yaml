@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.phase-transitions-in-networks
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/phase_transitions_in_networks_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Phase Transitions in Networks. Can a comprehensive theory of phase transitions
+  on complex networks predict critical behavior for arbitrary degree distributions and correlations?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.graph-theory.erdos-gyarfas-conjecture-on-cycles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_gyarfas_conjecture_on_cycles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Gyarfas Conjecture on Cycles. Does every graph with minimum degree
+  at least 3 contain a cycle whose length is a power of 2?'
+parameters: {}

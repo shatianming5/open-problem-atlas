@@ -1,0 +1,12 @@
+problem_id: opa.tcs.lattice-algorithms.subexponential-lwe-algorithms
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/subexponential_lwe_algorithms_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Subexponential LWE Algorithms. Can lattice sieving or enumeration algorithms
+  for Learning with Errors achieve subexponential time complexity, or are 2^{Omega(n)} lower bounds provable?'
+parameters: {}

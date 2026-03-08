@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.schwinger-model-exact-solution-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/schwinger_model_exact_solution_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Schwinger Model Exact Solution Extensions. Can the exact solvability of
+  the Schwinger model be extended to QED in higher dimensions or to non-Abelian gauge theories in two dimensions?'
+parameters: {}

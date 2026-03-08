@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.eilenberg-ganea-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/eilenberg_ganea_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Eilenberg-Ganea Conjecture. Every group of cohomological dimension 2 has
+  geometric dimension 2 (i.e., admits a 2-dimensional Eilenberg-MacLane space).'
+parameters: {}

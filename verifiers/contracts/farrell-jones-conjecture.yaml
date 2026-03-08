@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.farrell-jones-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/farrell_jones_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Farrell-Jones Conjecture. The assembly map in algebraic K-theory and L-theory
+  for a group G with coefficients in any additive category is an isomorphism.'
+parameters: {}

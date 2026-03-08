@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.operator-algebras.blackadar-s-non-commutative-dimension-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/blackadar_s_non_commutative_dimension_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Blackadar''s Non-Commutative Dimension Conjecture. The nuclear dimension
+  of a simple separable nuclear C*-algebra is finite if and only if the algebra is Z-stable.'
+parameters: {}

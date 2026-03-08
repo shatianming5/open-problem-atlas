@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.analysis.vitushkin-s-conjecture-removable-sets-for-bounded-analytic-f
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/vitushkin_s_conjecture_removable_sets_for_bounded_analytic_f_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Vitushkin''s Conjecture (Removable Sets for Bounded Analytic Functions).
+  A compact set in the plane is removable for bounded analytic functions if and only if it has zero analytic capacity, which
+  holds iff it is purely unrectifiable.'
+parameters: {}

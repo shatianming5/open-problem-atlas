@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.network-design-with-degree-constraints
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/network_design_with_degree_constraints_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Network Design with Degree Constraints. What is the approximability of degree-bounded
+  network design problems such as minimum degree spanning tree?'
+parameters: {}

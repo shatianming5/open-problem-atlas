@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-algorithms.quantum-optimization-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_optimization_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Optimization Lower Bounds. Can one prove unconditional lower bounds
+  showing that quantum approximate optimization algorithms require super-constant depth for specific combinatorial problems?'
+parameters: {}

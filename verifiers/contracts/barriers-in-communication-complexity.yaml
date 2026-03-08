@@ -1,0 +1,12 @@
+problem_id: opa.tcs.communication-complexity.barriers-in-communication-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/barriers_in_communication_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Barriers in Communication Complexity. Can new techniques beyond discrepancy
+  and corruption break through current communication complexity lower bound barriers for natural problems?'
+parameters: {}

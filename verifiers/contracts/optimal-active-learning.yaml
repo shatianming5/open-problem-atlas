@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.optimal-active-learning
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_active_learning_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Active Learning. What are the optimal label complexity bounds for
+  active learning of halfspaces under various noise models?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.quantum-channel-capacity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_channel_capacity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Channel Capacity. Is the quantum capacity of a quantum channel additive?
+  The non-additivity of Holevo capacity has been shown but many channel capacity questions remain open.'
+parameters: {}

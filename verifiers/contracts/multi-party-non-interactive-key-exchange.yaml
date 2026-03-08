@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.multi-party-non-interactive-key-exchange
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/multi_party_non_interactive_key_exchange_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multi-Party Non-Interactive Key Exchange. Can non-interactive key exchange
+  be achieved for three or more parties without trusted setup or multilinear maps?'
+parameters: {}

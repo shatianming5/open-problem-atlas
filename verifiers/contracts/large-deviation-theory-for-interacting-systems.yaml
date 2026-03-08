@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.large-deviation-theory-for-interacting-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/large_deviation_theory_for_interacting_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Large Deviation Theory for Interacting Systems. Can large deviation principles
+  be rigorously established for the empirical measure of strongly interacting particle systems far from equilibrium?'
+parameters: {}

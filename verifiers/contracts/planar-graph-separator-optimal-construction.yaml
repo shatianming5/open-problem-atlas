@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.planar-graph-separator-optimal-construction
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/planar_graph_separator_optimal_construction_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Planar Graph Separator Optimal Construction. Can planar graph separators
+  of optimal size O(sqrt(n)) be constructed in linear time with best constants?'
+parameters: {}

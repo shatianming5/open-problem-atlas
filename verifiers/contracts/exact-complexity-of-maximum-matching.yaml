@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.exact-complexity-of-maximum-matching
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/exact_complexity_of_maximum_matching_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Exact Complexity of Maximum Matching. Can maximum bipartite matching be
+  solved in O(m sqrt(n)) time in the worst case, or is there a conditional lower bound ruling this out?'
+parameters: {}

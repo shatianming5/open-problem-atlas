@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.functional-equations.imo-2024-problem-3-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/imo_2024_problem_3_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: IMO 2024 Problem 3 Generalizations. Can the functional equation from IMO
+  2024 Problem 3 be classified within a broader framework of functional equations over the integers?'
+parameters: {}

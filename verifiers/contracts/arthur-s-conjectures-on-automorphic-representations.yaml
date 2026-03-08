@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.representation-theory.arthur-s-conjectures-on-automorphic-representations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/arthur_s_conjectures_on_automorphic_representations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Arthur''s Conjectures on Automorphic Representations. A complete classification
+  of automorphic representations of classical groups via Arthur packets and Arthur parameters.'
+parameters: {}

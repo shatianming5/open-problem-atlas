@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.lower-bounds-for-dynamic-graph-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lower_bounds_for_dynamic_graph_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lower Bounds for Dynamic Graph Problems. Can we prove unconditional polynomial
+  lower bounds for dynamic graph problems such as dynamic shortest paths?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.optimal-geometric-set-cover
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_geometric_set_cover_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Geometric Set Cover. What is the best polynomial-time approximation
+  ratio for geometric set cover with disks or fat objects?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.total-np-search-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/total_np_search_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Total NP Search Problems. Can the complete picture of the relationships
+  between TFNP subclasses (PPAD, PLS, CLS, PPP, PPA) be fully determined?'
+parameters: {}

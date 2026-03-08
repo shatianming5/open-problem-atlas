@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.space-bounded-derandomization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/space_bounded_derandomization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Space-Bounded Derandomization. Can BPL (bounded-error probabilistic log-space)
+  be derandomized to L? The RL = L question was settled by Reingold for undirected connectivity.'
+parameters: {}

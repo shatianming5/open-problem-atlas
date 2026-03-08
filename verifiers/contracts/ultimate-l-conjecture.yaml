@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.ultimate-l-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ultimate_l_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ultimate-L Conjecture. Woodin''s Ultimate-L conjecture: is there a canonical
+  inner model that is close to V (the universe of sets) and satisfies the Generalized Continuum Hypothesis?'
+parameters: {}

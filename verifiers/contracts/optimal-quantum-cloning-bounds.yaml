@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.optimal-quantum-cloning-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_quantum_cloning_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Quantum Cloning Bounds. What are the optimal fidelity bounds for
+  asymmetric quantum cloning of arbitrary mixed states? Exact bounds are known only for pure states and limited classes of
+  mixed states.'
+parameters: {}

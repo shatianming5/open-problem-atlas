@@ -1,0 +1,12 @@
+problem_id: opa.tcs.information-theory.interference-channel-capacity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/interference_channel_capacity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Interference Channel Capacity. What is the capacity region of the two-user
+  Gaussian interference channel for all interference regimes?'
+parameters: {}

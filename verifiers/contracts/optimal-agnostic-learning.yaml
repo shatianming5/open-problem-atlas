@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.optimal-agnostic-learning
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_agnostic_learning_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Agnostic Learning. What is the optimal time complexity of agnostic
+  learning for halfspaces with respect to arbitrary distributions?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.category-theory.lack-s-conjecture-on-2-categories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lack_s_conjecture_on_2_categories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lack''s Conjecture on 2-Categories. A coherence result for tricategories
+  stating that every tricategory is triequivalent to a Gray-category.'
+parameters: {}

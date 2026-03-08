@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.form-factor-bootstrap
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/form_factor_bootstrap_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Form Factor Bootstrap. Can form factors of local operators in massive integrable
+  QFTs be determined exactly using the form factor bootstrap and extended to non-integrable deformations?'
+parameters: {}

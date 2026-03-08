@@ -1,0 +1,12 @@
+problem_id: opa.phys.mathematical-physics.segal-bargmann-transform-and-infinite-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/segal_bargmann_transform_and_infinite_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Segal-Bargmann Transform and Infinite Dimensions. Can the Segal-Bargmann
+  transform be extended to infinite-dimensional settings relevant to quantum field theory with full mathematical rigor?'
+parameters: {}

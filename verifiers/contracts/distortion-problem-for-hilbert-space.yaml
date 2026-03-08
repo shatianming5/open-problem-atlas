@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.functional-analysis.distortion-problem-for-hilbert-space
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distortion_problem_for_hilbert_space_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distortion Problem for Hilbert Space. Does the Hilbert space l^2 admit an
+  equivalent norm such that every infinite-dimensional subspace contains vectors that are distorted?'
+parameters: {}

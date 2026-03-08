@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.maximum-entropy-production-principle
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/maximum_entropy_production_principle_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maximum Entropy Production Principle. Is there a rigorous maximum entropy
+  production principle for nonequilibrium steady states, and under what conditions does it hold?'
+parameters: {}

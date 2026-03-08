@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-speed-limits-for-open-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_speed_limits_for_open_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Speed Limits for Open Systems. What are the tightest achievable
+  quantum speed limits for open quantum systems undergoing non-Markovian evolution?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.phys.mathematical-physics.mathematical-structure-of-perturbative-qft
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mathematical_structure_of_perturbative_qft_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mathematical Structure of Perturbative QFT. Is there a complete mathematical
+  understanding of why perturbative quantum field theory works, including the role of the Epstein-Glaser approach and causal
+  perturbation theory?'
+parameters: {}

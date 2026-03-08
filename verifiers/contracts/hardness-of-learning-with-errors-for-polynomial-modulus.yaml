@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.hardness-of-learning-with-errors-for-polynomial-modulus
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hardness_of_learning_with_errors_for_polynomial_modulus_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hardness of Learning With Errors for Polynomial Modulus. Is LWE with polynomial
+  modulus as hard as worst-case lattice problems? Current reductions require super-polynomial modulus.'
+parameters: {}

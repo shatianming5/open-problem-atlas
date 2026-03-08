@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.spectral-geometry.weyl-law-for-arithmetic-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/weyl_law_for_arithmetic_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Weyl Law for Arithmetic Manifolds. Can the remainder term in the Weyl law
+  for eigenvalues of the Laplacian on arithmetic hyperbolic manifolds be improved to match the conjectured optimal bound?'
+parameters: {}

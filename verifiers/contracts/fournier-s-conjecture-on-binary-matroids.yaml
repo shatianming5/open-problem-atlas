@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.matroid-theory.fournier-s-conjecture-on-binary-matroids
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fournier_s_conjecture_on_binary_matroids_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fournier''s Conjecture on Binary Matroids. Every binary matroid without
+  a Fano minor is graphic or cographic.'
+parameters: {}

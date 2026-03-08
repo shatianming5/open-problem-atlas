@@ -1,0 +1,13 @@
+problem_id: opa.tcs.online-algorithms.tight-bounds-for-online-bipartite-matching
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tight_bounds_for_online_bipartite_matching_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tight Bounds for Online Bipartite Matching. What is the exact competitive
+  ratio for online bipartite matching with free disposal under adversarial arrivals? The gap between 0.5211 and 0.5368 remains
+  open.'
+parameters: {}

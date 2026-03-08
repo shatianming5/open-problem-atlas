@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.pompeiu-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/pompeiu_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Pompeiu Problem. If a nonempty bounded open set D in R^n has the property
+  that every continuous function integrating to zero over all congruent copies of D is identically zero, must D be a ball?'
+parameters: {}

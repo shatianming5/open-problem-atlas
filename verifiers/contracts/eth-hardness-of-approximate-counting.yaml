@@ -1,0 +1,12 @@
+problem_id: opa.tcs.counting-complexity.eth-hardness-of-approximate-counting
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/eth_hardness_of_approximate_counting_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: ETH-Hardness of Approximate Counting. Under the Exponential Time Hypothesis,
+  what is the fine-grained complexity of approximately counting the number of satisfying assignments of a k-CNF formula?'
+parameters: {}

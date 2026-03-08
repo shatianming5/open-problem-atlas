@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.tc0-vs-nc1
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tc0_vs_nc1_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: TC0 vs NC1. Is TC0 strictly contained in NC1? Separating these classes would
+  yield important circuit lower bounds.'
+parameters: {}

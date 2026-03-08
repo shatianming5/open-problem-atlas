@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.time-lock-puzzles-without-repeated-squaring
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/time_lock_puzzles_without_repeated_squaring_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Time-Lock Puzzles Without Repeated Squaring. Can time-lock puzzles be constructed
+  without relying on the repeated squaring assumption or similar sequential computation?'
+parameters: {}

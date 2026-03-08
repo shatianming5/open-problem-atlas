@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-information.entropic-uncertainty-relations-and-quantum-gravity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entropic_uncertainty_relations_and_quantum_gravity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entropic Uncertainty Relations and Quantum Gravity. Can strong entropic
+  uncertainty relations be derived for complementary observables in quantum gravity settings, connecting holography and quantum
+  information?'
+parameters: {}

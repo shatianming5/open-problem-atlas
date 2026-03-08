@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.differential-geometry.yau-s-conjecture-on-first-eigenvalue
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/yau_s_conjecture_on_first_eigenvalue_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Yau''s Conjecture on First Eigenvalue. The first eigenvalue of the Laplacian
+  on a closed minimal hypersurface in the unit sphere S^{n+1} equals n.'
+parameters: {}

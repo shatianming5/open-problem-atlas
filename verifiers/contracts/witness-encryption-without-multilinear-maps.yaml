@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.witness-encryption-without-multilinear-maps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/witness_encryption_without_multilinear_maps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Witness Encryption Without Multilinear Maps. Can witness encryption be constructed
+  from simpler assumptions such as LWE without relying on multilinear maps or iO?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.nonlinear-stability-of-minkowski-space-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nonlinear_stability_of_minkowski_space_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nonlinear Stability of Minkowski Space Extensions. Can the Christodoulou-Klainerman
+  proof of nonlinear stability of Minkowski space be extended to include matter fields with less decay at infinity?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.optimal-prg-seed-length-for-ac0
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_prg_seed_length_for_ac0_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal PRG Seed Length for AC0. What is the optimal seed length for pseudorandom
+  generators fooling AC0 circuits? Current constructions use seed length polylog(n).'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.electron-hydrodynamics
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/electron_hydrodynamics_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Electron Hydrodynamics. Under what conditions does electronic transport
+  in solids become genuinely hydrodynamic, and what are the universal signatures?'
+parameters: {}

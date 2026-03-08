@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.optimal-quantum-algorithms-for-search-with-structure
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_quantum_algorithms_for_search_with_structure_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Quantum Algorithms for Search with Structure. Can quantum computers
+  exploit structure in search problems beyond quadratic Grover speedup, such as for backtracking or branch-and-bound?'
+parameters: {}

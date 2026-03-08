@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.conformal-bootstrap-rigorous-bounds-in-3d-ising
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/conformal_bootstrap_rigorous_bounds_in_3d_ising_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Conformal Bootstrap Rigorous Bounds in 3D Ising. Can the conformal bootstrap
+  program produce rigorous mathematical proofs of the critical exponents of the 3D Ising model matching numerical results?'
+parameters: {}

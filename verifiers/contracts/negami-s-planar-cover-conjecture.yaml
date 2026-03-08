@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.negami-s-planar-cover-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/negami_s_planar_cover_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Negami''s Planar Cover Conjecture. A connected graph has a finite planar
+  cover if and only if it is projective-planar.'
+parameters: {}

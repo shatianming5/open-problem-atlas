@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.linear-time-suffix-array-construction-without-alphabet-assum
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/linear_time_suffix_array_construction_without_alphabet_assum_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Linear-Time Suffix Array Construction Without Alphabet Assumption. Can suffix
+  arrays be constructed in linear time for general alphabets using only comparisons?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.smoothed-analysis-of-simplex-method
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/smoothed_analysis_of_simplex_method_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Smoothed Analysis of Simplex Method. What is the smoothed complexity of
+  the simplex method under various pivot rules? Only partial results are known beyond the shadow vertex rule.'
+parameters: {}

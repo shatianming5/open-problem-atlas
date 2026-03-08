@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.optimal-motion-planning-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_motion_planning_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Motion Planning Complexity. What is the optimal complexity of motion
+  planning for a robot with d degrees of freedom in environments with n obstacles?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.optimal-private-information-retrieval
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_private_information_retrieval_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Private Information Retrieval. What is the optimal communication
+  complexity of single-server private information retrieval? Can it be sublinear without computational assumptions?'
+parameters: {}

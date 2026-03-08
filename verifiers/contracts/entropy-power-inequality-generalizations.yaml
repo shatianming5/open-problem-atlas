@@ -1,0 +1,12 @@
+problem_id: opa.tcs.information-theory.entropy-power-inequality-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entropy_power_inequality_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entropy Power Inequality Generalizations. Can the entropy power inequality
+  be generalized to Renyi entropies or discrete distributions with matching tightness?'
+parameters: {}

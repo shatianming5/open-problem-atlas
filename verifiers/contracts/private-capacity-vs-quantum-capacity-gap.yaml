@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.private-capacity-vs-quantum-capacity-gap
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/private_capacity_vs_quantum_capacity_gap_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Private Capacity vs Quantum Capacity Gap. Can the gap between the private
+  classical capacity and the quantum capacity of a quantum channel be arbitrarily large?'
+parameters: {}

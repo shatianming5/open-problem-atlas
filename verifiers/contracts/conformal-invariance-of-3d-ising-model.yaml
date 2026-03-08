@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.conformal-invariance-of-3d-ising-model
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/conformal_invariance_of_3d_ising_model_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Conformal Invariance of 3D Ising Model. Prove that the scaling limit of
+  the 3D Ising model at criticality is conformally invariant.'
+parameters: {}

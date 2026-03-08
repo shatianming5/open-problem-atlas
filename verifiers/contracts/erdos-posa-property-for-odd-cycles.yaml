@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.erdos-posa-property-for-odd-cycles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_posa_property_for_odd_cycles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Posa Property for Odd Cycles. Is there a function f such that every
+  graph either contains k vertex-disjoint odd cycles or has a set of at most f(k) vertices meeting all odd cycles?'
+parameters: {}

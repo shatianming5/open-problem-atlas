@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.matroid-theory.matroid-intersection-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/matroid_intersection_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Matroid Intersection Conjecture. For any two matroids on the same ground
+  set, the maximum size of a common independent set equals the minimum of a certain covering expression.'
+parameters: {}

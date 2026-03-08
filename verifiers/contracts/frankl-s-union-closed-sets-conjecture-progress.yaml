@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.extremal-combinatorics.frankl-s-union-closed-sets-conjecture-progress
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/frankl_s_union_closed_sets_conjecture_progress_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Frankl''s Union-Closed Sets Conjecture Progress. Following Gilmer''s breakthrough
+  lower bound of 0.01, can the constant in Frankl''s conjecture be improved to the conjectured 1/2?'
+parameters: {}

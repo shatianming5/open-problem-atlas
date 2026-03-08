@@ -1,0 +1,13 @@
+problem_id: opa.phys.noncommutative-geometry.quantum-hall-effect-and-noncommutative-geometry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_hall_effect_and_noncommutative_geometry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Hall Effect and Noncommutative Geometry. Can the integer quantum
+  Hall effect be fully derived within the framework of noncommutative geometry, extending Bellissard''s K-theoretic approach
+  to the fractional case?'
+parameters: {}

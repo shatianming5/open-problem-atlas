@@ -1,0 +1,11 @@
+problem_id: opa.mathematics.model-theory.stable-field-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stable_field_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stable Field Conjecture. An infinite stable field is separably closed.'
+parameters: {}

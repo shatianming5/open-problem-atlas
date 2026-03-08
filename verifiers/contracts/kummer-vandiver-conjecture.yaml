@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.kummer-vandiver-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kummer_vandiver_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kummer-Vandiver Conjecture. The class number of the maximal real subfield
+  of the p-th cyclotomic field is not divisible by p, for every prime p.'
+parameters: {}

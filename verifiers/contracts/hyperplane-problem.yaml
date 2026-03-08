@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.functional-analysis.hyperplane-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hyperplane_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hyperplane Problem. Does every infinite-dimensional Banach space have a
+  hyperplane (closed subspace of codimension 1) that is isomorphic to the whole space?'
+parameters: {}

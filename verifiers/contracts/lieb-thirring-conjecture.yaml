@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.mathematical-physics.lieb-thirring-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lieb_thirring_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lieb-Thirring Conjecture. The sharp constant in the Lieb-Thirring inequality
+  for the sum of negative eigenvalues of Schrodinger operators equals the semiclassical value.'
+parameters: {}

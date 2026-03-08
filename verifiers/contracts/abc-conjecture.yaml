@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.abc-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/abc_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: ABC Conjecture. For every epsilon > 0 there exist only finitely many triples
+  (a, b, c) of coprime positive integers with a + b = c such that c > rad(abc)^(1+epsilon), where rad(n) is the product of
+  the distinct prime factors of n.'
+parameters: {}

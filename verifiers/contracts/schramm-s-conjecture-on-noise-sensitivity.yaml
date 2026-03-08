@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.schramm-s-conjecture-on-noise-sensitivity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/schramm_s_conjecture_on_noise_sensitivity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Schramm''s Conjecture on Noise Sensitivity. Is the first-passage percolation
+  geodesic noise-sensitive? More generally, characterize noise sensitivity of random geometric structures.'
+parameters: {}

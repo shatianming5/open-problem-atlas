@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.dimer-models-and-exact-results
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dimer_models_and_exact_results_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dimer Models and Exact Results. Can the exact solution of dimer models on
+  planar lattices be extended to three-dimensional lattices or to interacting dimer models?'
+parameters: {}

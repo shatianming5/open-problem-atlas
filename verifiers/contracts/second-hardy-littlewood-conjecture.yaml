@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.second-hardy-littlewood-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/second_hardy_littlewood_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Second Hardy-Littlewood Conjecture. For all integers x >= 2 and y >= 2,
+  the number of primes in the interval (x, x+y] does not exceed the number of primes up to y. That is, pi(x+y) - pi(x) <=
+  pi(y) for all x, y >= 2.'
+parameters: {}

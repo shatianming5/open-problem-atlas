@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.analysis.liouville-s-theorem-generalization-bounded-harmonic-function
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/liouville_s_theorem_generalization_bounded_harmonic_function_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Liouville''s Theorem Generalization (Bounded Harmonic Functions on Groups).
+  Characterize all finitely generated groups on which every bounded harmonic function is constant (Liouville property). This
+  is open for Thompson''s group F.'
+parameters: {}

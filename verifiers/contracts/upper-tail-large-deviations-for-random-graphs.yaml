@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.upper-tail-large-deviations-for-random-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/upper_tail_large_deviations_for_random_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Upper Tail Large Deviations for Random Graphs. Determine the exact rate
+  function for the upper tail of the number of triangles in G(n,p) for all p.'
+parameters: {}

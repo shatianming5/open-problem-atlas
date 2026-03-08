@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.spectral-graph-theory.ramanujan-graph-constructions-for-all-degrees
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ramanujan_graph_constructions_for_all_degrees_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ramanujan Graph Constructions for All Degrees. Do bipartite Ramanujan graphs
+  exist for every degree d >= 3? The Marcus-Spielman-Srivastava result covers bipartite cases; the non-bipartite case remains
+  open.'
+parameters: {}

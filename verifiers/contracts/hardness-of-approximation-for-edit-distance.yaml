@@ -1,0 +1,13 @@
+problem_id: opa.tcs.fine-grained-complexity.hardness-of-approximation-for-edit-distance
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hardness_of_approximation_for_edit_distance_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hardness of Approximation for Edit Distance. Is computing edit distance
+  between two strings of length n in truly subquadratic time impossible, assuming SETH? What is the best polynomial approximation
+  factor achievable?'
+parameters: {}

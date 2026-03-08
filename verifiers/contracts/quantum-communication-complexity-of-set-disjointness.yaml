@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-communication.quantum-communication-complexity-of-set-disjointness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_communication_complexity_of_set_disjointness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Communication Complexity of Set Disjointness. Is the quantum communication
+  complexity of set disjointness exactly Theta(sqrt(n)) for all approximate protocols, or can the constant be improved?'
+parameters: {}

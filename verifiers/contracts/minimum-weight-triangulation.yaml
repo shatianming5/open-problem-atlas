@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.minimum-weight-triangulation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/minimum_weight_triangulation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimum Weight Triangulation. Is computing the minimum weight triangulation
+  of a point set NP-hard? Mulzer and Rote proved it is, but approximation bounds remain open.'
+parameters: {}

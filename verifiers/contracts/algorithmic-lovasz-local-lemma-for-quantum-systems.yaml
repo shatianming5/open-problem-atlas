@@ -1,0 +1,13 @@
+problem_id: opa.tcs.quantum-algorithms.algorithmic-lovasz-local-lemma-for-quantum-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/algorithmic_lovasz_local_lemma_for_quantum_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Algorithmic Lovasz Local Lemma for Quantum Systems. Can the constructive
+  proof of the Lovasz Local Lemma be extended to commuting local Hamiltonians, yielding efficient quantum algorithms for finding
+  satisfying ground states?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.generalized-global-symmetries-and-higher-form-symmetries
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/generalized_global_symmetries_and_higher_form_symmetries_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Generalized Global Symmetries and Higher Form Symmetries. Can the full classification
+  of generalized global symmetries, including higher-form and higher-group symmetries, be achieved for generic QFTs?'
+parameters: {}

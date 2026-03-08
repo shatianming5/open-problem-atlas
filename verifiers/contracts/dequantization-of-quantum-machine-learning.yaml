@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.dequantization-of-quantum-machine-learning
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dequantization_of_quantum_machine_learning_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dequantization of Quantum Machine Learning. Which quantum machine learning
+  algorithms retain exponential speedups after dequantization via sampling techniques?'
+parameters: {}

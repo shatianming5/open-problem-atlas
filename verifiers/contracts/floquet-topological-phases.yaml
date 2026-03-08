@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.floquet-topological-phases
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/floquet_topological_phases_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Floquet Topological Phases. Can Floquet topological phases that have no
+  static counterpart be stabilized against heating in many-body interacting systems?'
+parameters: {}

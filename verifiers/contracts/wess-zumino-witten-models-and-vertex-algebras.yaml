@@ -1,0 +1,12 @@
+problem_id: opa.phys.vertex-algebras.wess-zumino-witten-models-and-vertex-algebras
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/wess_zumino_witten_models_and_vertex_algebras_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Wess-Zumino-Witten Models and Vertex Algebras. Can one fully classify rational
+  vertex operator algebras arising from WZW models at all levels, including the non-simply-laced cases?'
+parameters: {}

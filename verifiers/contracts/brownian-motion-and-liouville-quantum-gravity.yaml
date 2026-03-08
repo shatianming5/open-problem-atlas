@@ -1,0 +1,12 @@
+problem_id: opa.phys.random-geometry.brownian-motion-and-liouville-quantum-gravity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/brownian_motion_and_liouville_quantum_gravity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Brownian Motion and Liouville Quantum Gravity. Can one rigorously construct
+  Brownian motion on Liouville quantum gravity surfaces and prove the KPZ relation for random planar maps?'
+parameters: {}

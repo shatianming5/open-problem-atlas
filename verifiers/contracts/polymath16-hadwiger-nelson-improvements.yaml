@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorial-geometry.polymath16-hadwiger-nelson-improvements
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polymath16_hadwiger_nelson_improvements_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polymath16: Hadwiger-Nelson Improvements. Can collaborative mathematical
+  efforts further improve the lower bound of 5 for the chromatic number of the plane found by de Grey?'
+parameters: {}

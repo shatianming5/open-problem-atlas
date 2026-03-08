@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.representation-theory.lusztig-s-character-formula-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lusztig_s_character_formula_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lusztig''s Character Formula Conjecture. The characters of simple modules
+  for algebraic groups in positive characteristic are given by Lusztig''s proposed formula involving Kazhdan-Lusztig polynomials.'
+parameters: {}

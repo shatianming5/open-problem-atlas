@@ -1,0 +1,13 @@
+problem_id: opa.phys.string-theory.topological-string-theory-and-enumerative-geometry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/topological_string_theory_and_enumerative_geometry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Topological String Theory and Enumerative Geometry. Can topological string
+  theory provide a complete solution to enumerative geometry problems like Gromov-Witten invariants of arbitrary Calabi-Yau
+  manifolds?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.birch-tate-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/birch_tate_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Birch-Tate Conjecture. For a totally real number field F, the order of K_2(O_F)
+  is related to the value of the Dedekind zeta function at s = -1 by an explicit formula.'
+parameters: {}

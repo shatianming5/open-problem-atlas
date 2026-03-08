@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.complexity-of-permanent-modulo-primes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/complexity_of_permanent_modulo_primes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Complexity of Permanent Modulo Primes. What is the complexity of computing
+  the permanent modulo a prime p? Toda showed it is #P-hard over integers but modular versions remain unclear.'
+parameters: {}

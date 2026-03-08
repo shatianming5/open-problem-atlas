@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.union-find-lower-bound-tightness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/union_find_lower_bound_tightness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Union-Find Lower Bound Tightness. Is the inverse Ackermann alpha(n) bound
+  for union-find operations tight in the cell probe model?'
+parameters: {}

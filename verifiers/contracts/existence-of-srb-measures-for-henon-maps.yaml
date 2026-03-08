@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.dynamical-systems.existence-of-srb-measures-for-henon-maps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_srb_measures_for_henon_maps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of SRB Measures for Henon Maps. For a positive Lebesgue measure
+  set of parameters, does every Henon map have an SRB (Sinai-Ruelle-Bowen) measure?'
+parameters: {}

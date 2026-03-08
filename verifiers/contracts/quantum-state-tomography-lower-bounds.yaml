@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.quantum-state-tomography-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_state_tomography_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum State Tomography Lower Bounds. What is the minimum number of measurements
+  needed to reconstruct an unknown quantum state to a given precision?'
+parameters: {}

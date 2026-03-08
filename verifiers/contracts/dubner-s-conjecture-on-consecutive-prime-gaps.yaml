@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.dubner-s-conjecture-on-consecutive-prime-gaps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dubner_s_conjecture_on_consecutive_prime_gaps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dubner''s Conjecture on Consecutive Prime Gaps. For every integer k, there
+  exist k consecutive primes in arithmetic progression.'
+parameters: {}

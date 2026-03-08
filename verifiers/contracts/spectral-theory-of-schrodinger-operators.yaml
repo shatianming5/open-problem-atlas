@@ -1,0 +1,13 @@
+problem_id: opa.phys.mathematical-physics.spectral-theory-of-schrodinger-operators
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/spectral_theory_of_schrodinger_operators_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Spectral Theory of Schrodinger Operators. Can the spectral properties of
+  multi-dimensional Schrodinger operators with quasi-periodic potentials be fully characterized, including the nature of the
+  spectrum and localization?'
+parameters: {}

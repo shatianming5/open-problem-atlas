@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.infinitely-many-regular-primes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/infinitely_many_regular_primes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Infinitely Many Regular Primes. Are there infinitely many regular primes,
+  i.e., primes that do not divide the class number of the cyclotomic field Q(zeta_p)?'
+parameters: {}

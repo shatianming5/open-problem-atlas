@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.extremal-combinatorics.turan-density-problem-for-hypergraphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/turan_density_problem_for_hypergraphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Turan Density Problem for Hypergraphs. What is the Turan density of the
+  complete 3-uniform hypergraph on 4 vertices K_4^3? Determining pi(K_4^3) remains one of the oldest open problems in extremal
+  combinatorics.'
+parameters: {}

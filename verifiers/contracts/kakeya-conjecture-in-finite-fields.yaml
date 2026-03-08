@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.harmonic-analysis.kakeya-conjecture-in-finite-fields
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kakeya_conjecture_in_finite_fields_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kakeya Conjecture in Finite Fields. Following Dvir''s proof of the finite
+  field Kakeya conjecture, can analogous tight bounds be obtained for the Kakeya maximal function in Euclidean space R^n?'
+parameters: {}

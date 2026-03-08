@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-markov-chain-structure
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_markov_chain_structure_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Markov Chain Structure. Can every quantum state satisfying the approximate
+  quantum Markov chain condition be recovered by a local recovery map? Exact conditions for approximate recovery remain unclear.'
+parameters: {}

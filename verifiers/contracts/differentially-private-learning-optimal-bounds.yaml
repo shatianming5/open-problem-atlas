@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.differentially-private-learning-optimal-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/differentially_private_learning_optimal_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Differentially Private Learning Optimal Bounds. What are the optimal sample
+  complexity bounds for differentially private PAC learning for various concept classes?'
+parameters: {}

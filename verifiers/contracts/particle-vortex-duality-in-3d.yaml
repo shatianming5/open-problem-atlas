@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.particle-vortex-duality-in-3d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/particle_vortex_duality_in_3d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Particle-Vortex Duality in 3D. Can particle-vortex duality and the web of
+  3D dualities be rigorously established beyond specific solvable examples?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.succinct-non-interactive-arguments-of-knowledge
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/succinct_non_interactive_arguments_of_knowledge_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Succinct Non-Interactive Arguments of Knowledge. Can SNARKs be constructed
+  with transparent setup and post-quantum security from standard assumptions?'
+parameters: {}

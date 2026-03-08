@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.dynamical-systems.smale-s-problem-on-the-number-of-equilibria
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/smale_s_problem_on_the_number_of_equilibria_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Smale''s Problem on the Number of Equilibria. Is the number of isolated
+  equilibria of a polynomial vector field on R^n bounded by a function of the degree and dimension?'
+parameters: {}

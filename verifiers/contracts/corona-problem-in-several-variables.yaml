@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.corona-problem-in-several-variables
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/corona_problem_in_several_variables_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Corona Problem in Several Variables. Does the corona theorem hold for H^infinity
+  of the polydisk or the ball in C^n for n >= 2?'
+parameters: {}

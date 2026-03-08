@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-causal-structure
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_causal_structure_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Causal Structure. Can quantum causal models be extended to handle
+  indefinite causal order, and what operational signatures distinguish quantum from classical causal structures?'
+parameters: {}

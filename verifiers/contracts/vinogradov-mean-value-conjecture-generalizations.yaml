@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.harmonic-analysis.vinogradov-mean-value-conjecture-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/vinogradov_mean_value_conjecture_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Vinogradov Mean Value Conjecture Generalizations. Generalize the mean value
+  theorem for exponential sums to higher degree polynomials and number fields.'
+parameters: {}

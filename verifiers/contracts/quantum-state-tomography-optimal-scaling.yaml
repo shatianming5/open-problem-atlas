@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-state-tomography-optimal-scaling
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_state_tomography_optimal_scaling_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum State Tomography Optimal Scaling. What is the optimal sample complexity
+  for quantum state tomography of an n-qubit state with respect to trace distance?'
+parameters: {}

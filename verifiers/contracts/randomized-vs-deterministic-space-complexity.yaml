@@ -1,0 +1,12 @@
+problem_id: opa.tcs.space-complexity.randomized-vs-deterministic-space-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/randomized_vs_deterministic_space_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Randomized vs Deterministic Space Complexity. Does RL = L? Can randomized
+  logspace computation be fully derandomized?'
+parameters: {}

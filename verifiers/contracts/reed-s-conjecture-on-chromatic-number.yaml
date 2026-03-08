@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.graph-theory.reed-s-conjecture-on-chromatic-number
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/reed_s_conjecture_on_chromatic_number_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Reed''s Conjecture on Chromatic Number. Is the chromatic number of a graph
+  at most the ceiling of the average of the clique number and the maximum degree plus one?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.combinatorics.thue-morse-sequence-and-rudin-shapiro-pattern
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/thue_morse_sequence_and_rudin_shapiro_pattern_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Thue-Morse Sequence and Rudin-Shapiro Pattern. Can extremal properties of
+  the Thue-Morse and Rudin-Shapiro sequences be proved optimal among all binary sequences for their respective discrepancy-like
+  measures?'
+parameters: {}

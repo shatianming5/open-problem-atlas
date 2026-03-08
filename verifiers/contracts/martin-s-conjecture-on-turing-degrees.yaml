@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.logic.martin-s-conjecture-on-turing-degrees
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/martin_s_conjecture_on_turing_degrees_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Martin''s Conjecture on Turing Degrees. Assuming the Axiom of Determinacy,
+  every order-preserving function on the Turing degrees is either eventually constant or eventually equal to a Turing jump
+  iterate.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.superconformal-index-and-black-hole-entropy
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/superconformal_index_and_black_hole_entropy_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Superconformal Index and Black Hole Entropy. Does the superconformal index
+  of N=4 SYM exactly reproduce the Bekenstein-Hawking entropy of dual AdS_5 black holes for all charges?'
+parameters: {}

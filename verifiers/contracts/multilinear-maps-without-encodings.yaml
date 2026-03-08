@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.multilinear-maps-without-encodings
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/multilinear_maps_without_encodings_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multilinear Maps Without Encodings. Can cryptographic multilinear maps be
+  constructed without vulnerabilities to zeroizing attacks?'
+parameters: {}

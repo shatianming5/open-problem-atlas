@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.dynamical-systems.ergodicity-of-polygonal-billiards
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ergodicity_of_polygonal_billiards_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ergodicity of Polygonal Billiards. Is the billiard flow in a generic polygon
+  ergodic? This is known for rational polygons via Veech''s theorem but open in general.'
+parameters: {}

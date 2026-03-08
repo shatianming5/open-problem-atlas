@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.existence-of-minimal-surfaces-of-arbitrary-genus
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_minimal_surfaces_of_arbitrary_genus_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Minimal Surfaces of Arbitrary Genus. In a generic Riemannian
+  3-manifold, does there exist a closed embedded minimal surface of every genus?'
+parameters: {}

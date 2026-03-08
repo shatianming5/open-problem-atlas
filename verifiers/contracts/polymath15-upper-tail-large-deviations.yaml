@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.polymath15-upper-tail-large-deviations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polymath15_upper_tail_large_deviations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polymath15: Upper Tail Large Deviations. Can the Polymath15 results on upper
+  tails of subgraph counts in random graphs be made tight for all graphs H?'
+parameters: {}

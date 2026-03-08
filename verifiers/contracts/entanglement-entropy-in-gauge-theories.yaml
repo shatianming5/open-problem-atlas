@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.entanglement-entropy-in-gauge-theories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entanglement_entropy_in_gauge_theories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entanglement Entropy in Gauge Theories. How should entanglement entropy
+  be properly defined in gauge theories given the non-factorization of the Hilbert space?'
+parameters: {}

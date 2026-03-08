@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.hawking-radiation-detection
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hawking_radiation_detection_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hawking Radiation Detection. Can analogue Hawking radiation in laboratory
+  systems provide conclusive evidence for the Hawking effect, and what corrections arise beyond the leading order?'
+parameters: {}

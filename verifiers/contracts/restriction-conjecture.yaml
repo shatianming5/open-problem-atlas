@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.harmonic-analysis.restriction-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/restriction_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Restriction Conjecture. The Fourier restriction operator to the sphere in
+  R^n is bounded from L^p to L^2 for p < 2n/(n+1).'
+parameters: {}

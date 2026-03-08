@@ -1,0 +1,12 @@
+problem_id: opa.tcs.optimization-complexity.complexity-of-gradient-descent
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/complexity_of_gradient_descent_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Complexity of Gradient Descent. Is gradient descent on non-convex functions
+  PPAD-complete in general, or are there natural classes of functions where it converges in polynomial time?'
+parameters: {}

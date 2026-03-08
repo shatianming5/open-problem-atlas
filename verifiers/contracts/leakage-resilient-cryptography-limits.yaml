@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.leakage-resilient-cryptography-limits
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/leakage_resilient_cryptography_limits_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Leakage-Resilient Cryptography Limits. What is the maximum amount of key
+  leakage that can be tolerated by public-key encryption schemes while maintaining security?'
+parameters: {}

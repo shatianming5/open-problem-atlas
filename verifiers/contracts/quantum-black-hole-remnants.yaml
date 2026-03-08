@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.quantum-black-hole-remnants
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_black_hole_remnants_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Black Hole Remnants. Do black holes leave stable remnants at the
+  end of Hawking evaporation, and if so, what are their properties and observational signatures?'
+parameters: {}

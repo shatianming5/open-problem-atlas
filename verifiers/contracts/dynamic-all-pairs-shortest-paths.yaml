@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.dynamic-all-pairs-shortest-paths
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dynamic_all_pairs_shortest_paths_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamic All-Pairs Shortest Paths. Can all-pairs shortest paths be maintained
+  dynamically in amortized sub-linear time per edge update?'
+parameters: {}

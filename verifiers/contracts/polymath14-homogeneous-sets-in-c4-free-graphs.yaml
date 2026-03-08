@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.ramsey-theory.polymath14-homogeneous-sets-in-c4-free-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polymath14_homogeneous_sets_in_c4_free_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polymath14: Homogeneous Sets in C4-Free Graphs. Can the Polymath14 bounds
+  for Ramsey multiplicity of C4-free graphs be improved using the flag algebra method?'
+parameters: {}

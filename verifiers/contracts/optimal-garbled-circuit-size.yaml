@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.optimal-garbled-circuit-size
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_garbled_circuit_size_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Garbled Circuit Size. What is the minimum size of garbled circuits
+  for secure computation? Can the 2x overhead of Yao''s construction be improved?'
+parameters: {}

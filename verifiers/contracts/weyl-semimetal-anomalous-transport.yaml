@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.weyl-semimetal-anomalous-transport
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/weyl_semimetal_anomalous_transport_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Weyl Semimetal Anomalous Transport. Can the chiral anomaly and associated
+  anomalous magnetotransport be unambiguously demonstrated in Weyl semimetals, separating from other magnetoresistance mechanisms?'
+parameters: {}

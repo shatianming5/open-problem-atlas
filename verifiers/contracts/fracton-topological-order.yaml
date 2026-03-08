@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.fracton-topological-order
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fracton_topological_order_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fracton Topological Order. Can fracton topological orders with immobile
+  excitations be fully classified, and do they exist in natural materials?'
+parameters: {}

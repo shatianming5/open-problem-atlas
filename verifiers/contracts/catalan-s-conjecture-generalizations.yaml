@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.catalan-s-conjecture-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/catalan_s_conjecture_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Catalan''s Conjecture Generalizations. Beyond Mihailescu''s proof that 8
+  and 9 are the only consecutive perfect powers, what is the structure of near-miss consecutive powers x^p - y^q = c for small
+  c?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.isomorphism-conjecture-for-np-complete-sets
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/isomorphism_conjecture_for_np_complete_sets_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Isomorphism Conjecture for NP-Complete Sets. Are all NP-complete sets isomorphic
+  under polynomial-time computable bijections (Berman-Hartmanis conjecture)?'
+parameters: {}

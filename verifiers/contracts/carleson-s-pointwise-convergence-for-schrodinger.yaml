@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.harmonic-analysis.carleson-s-pointwise-convergence-for-schrodinger
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/carleson_s_pointwise_convergence_for_schrodinger_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Carleson''s Pointwise Convergence for Schrodinger. The solution to the free
+  Schrodinger equation with L^2 initial data converges pointwise almost everywhere to the initial data.'
+parameters: {}

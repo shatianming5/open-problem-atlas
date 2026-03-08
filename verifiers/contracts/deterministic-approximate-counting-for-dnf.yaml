@@ -1,0 +1,13 @@
+problem_id: opa.tcs.derandomization.deterministic-approximate-counting-for-dnf
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/deterministic_approximate_counting_for_dnf_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Deterministic Approximate Counting for DNF. Can the number of satisfying
+  assignments of a DNF formula be deterministically approximated in polynomial time, matching the randomized result of Luby
+  and Velickovic?'
+parameters: {}

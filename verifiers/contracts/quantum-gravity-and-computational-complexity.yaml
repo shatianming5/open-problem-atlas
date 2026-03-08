@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-gravity-complexity.quantum-gravity-and-computational-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_gravity_and_computational_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Gravity and Computational Complexity. Is the AdS/CFT dictionary
+  computationally efficient, or are there states whose bulk reconstruction requires exponential quantum computation?'
+parameters: {}

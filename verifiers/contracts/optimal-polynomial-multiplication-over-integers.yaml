@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-polynomial-multiplication-over-integers
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_polynomial_multiplication_over_integers_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Polynomial Multiplication over Integers. Can two degree-n polynomials
+  over the integers be multiplied in O(n log n) time? Harvey and van der Hoeven achieved this for sufficiently large n.'
+parameters: {}

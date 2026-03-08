@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.arithmetic-geometry.andre-oort-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/andre_oort_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Andre-Oort Conjecture. Every irreducible component of the Zariski closure
+  of a set of special points in a Shimura variety is a special subvariety.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.information-engines-and-landauer-limit
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/information_engines_and_landauer_limit_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Information Engines and Landauer Limit. Can physical systems approach the
+  Landauer limit of kT ln 2 per bit erased, and what are the fundamental speed-accuracy tradeoffs?'
+parameters: {}

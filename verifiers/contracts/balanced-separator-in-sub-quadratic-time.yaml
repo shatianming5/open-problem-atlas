@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-algorithms.balanced-separator-in-sub-quadratic-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/balanced_separator_in_sub_quadratic_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Balanced Separator in Sub-Quadratic Time. Can balanced vertex separators
+  be found in sub-quadratic time for general graphs?'
+parameters: {}

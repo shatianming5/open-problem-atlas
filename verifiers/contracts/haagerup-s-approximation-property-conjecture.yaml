@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.operator-algebras.haagerup-s-approximation-property-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/haagerup_s_approximation_property_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Haagerup''s Approximation Property Conjecture. Characterize groups whose
+  reduced C*-algebra or group von Neumann algebra has the Haagerup property.'
+parameters: {}

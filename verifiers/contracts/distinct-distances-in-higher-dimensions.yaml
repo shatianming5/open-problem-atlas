@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.distinct-distances-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distinct_distances_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distinct Distances in Higher Dimensions. What is the minimum number of distinct
+  distances determined by n points in R^d for d >= 3? The planar case was settled by Guth and Katz.'
+parameters: {}

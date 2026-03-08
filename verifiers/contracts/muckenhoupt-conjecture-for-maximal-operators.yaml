@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.harmonic-analysis.muckenhoupt-conjecture-for-maximal-operators
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/muckenhoupt_conjecture_for_maximal_operators_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Muckenhoupt Conjecture for Maximal Operators. Sharp weighted norm inequalities
+  for the Hardy-Littlewood maximal operator with matrix weights.'
+parameters: {}

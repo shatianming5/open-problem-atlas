@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter-theory.dynamical-mean-field-theory-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dynamical_mean_field_theory_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamical Mean-Field Theory Extensions. Can cluster extensions of dynamical
+  mean-field theory capture the essential physics of the cuprate phase diagram, including the pseudogap and d-wave superconductivity?'
+parameters: {}

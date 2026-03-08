@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.topology.telescope-conjecture-in-stable-homotopy-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/telescope_conjecture_in_stable_homotopy_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Telescope Conjecture in Stable Homotopy Theory. The n-th telescope conjecture
+  predicts the localization of spectra with respect to the telescope of a v_n-self-map equals the localization at the Johnson-Wilson
+  spectrum E(n).'
+parameters: {}

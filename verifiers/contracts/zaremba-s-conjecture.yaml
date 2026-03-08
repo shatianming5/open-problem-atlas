@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.number-theory.zaremba-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/zaremba_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Zaremba''s Conjecture. For every positive integer d, there exists a coprime
+  integer a such that the continued fraction expansion of a/d has all partial quotients bounded by an absolute constant (conjectured
+  to be 5).'
+parameters: {}

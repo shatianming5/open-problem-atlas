@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.bochner-riesz-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bochner_riesz_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bochner-Riesz Conjecture. The Bochner-Riesz means of order delta converge
+  in L^p for the optimal range of delta, specifically for delta > max(0, n|1/p - 1/2| - 1/2).'
+parameters: {}

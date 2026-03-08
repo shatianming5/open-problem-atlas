@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.generalized-burnside-problem-for-bounded-exponent
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/generalized_burnside_problem_for_bounded_exponent_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Generalized Burnside Problem for Bounded Exponent. Are there infinite finitely
+  generated groups of bounded exponent for exponents not yet resolved? The problem remains open for many odd exponents.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.quantum-gravity-phenomenology
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_gravity_phenomenology_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Gravity Phenomenology. Are there detectable quantum gravity effects
+  in astrophysical observations such as gamma-ray burst time delays, modified dispersion relations, or gravitational decoherence?'
+parameters: {}

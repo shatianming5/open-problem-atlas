@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebraic-geometry.iitaka-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/iitaka_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Iitaka Conjecture. For a fibration f: X -> Y of smooth projective varieties,
+  the Kodaira dimension satisfies kappa(X) >= kappa(Y) + kappa(F) where F is a general fiber.'
+parameters: {}

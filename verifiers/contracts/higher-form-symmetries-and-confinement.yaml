@@ -1,0 +1,12 @@
+problem_id: opa.phys.gauge-theory.higher-form-symmetries-and-confinement
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/higher_form_symmetries_and_confinement_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Higher-Form Symmetries and Confinement. Can higher-form generalized symmetries
+  provide a rigorous criterion for confinement in non-abelian gauge theories?'
+parameters: {}

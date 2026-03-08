@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.existence-of-a-natural-model-of-nf
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_a_natural_model_of_nf_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of a Natural Model of NF. Is Quine''s set theory New Foundations
+  (NF) consistent? Provide a natural model or prove inconsistency.'
+parameters: {}

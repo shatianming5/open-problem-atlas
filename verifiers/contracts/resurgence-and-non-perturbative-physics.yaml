@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.resurgence-and-non-perturbative-physics
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/resurgence_and_non_perturbative_physics_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Resurgence and Non-Perturbative Physics. Can the resurgence program reconstruct
+  the full non-perturbative content of quantum field theories from their asymptotic perturbative expansions?'
+parameters: {}

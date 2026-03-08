@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.quantum-algorithms-for-linear-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_algorithms_for_linear_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Algorithms for Linear Systems. Can the HHL quantum algorithm for
+  linear systems be made practical with provable end-to-end speedup over classical methods?'
+parameters: {}

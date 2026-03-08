@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-multi-armed-bandit-algorithms
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_multi_armed_bandit_algorithms_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Multi-Armed Bandit Algorithms. What are the optimal instance-dependent
+  regret bounds for the multi-armed bandit problem with structured reward distributions?'
+parameters: {}

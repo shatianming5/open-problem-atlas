@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.measure-theory.falconer-s-distance-set-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/falconer_s_distance_set_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Falconer''s Distance Set Conjecture. If a compact subset of R^d has Hausdorff
+  dimension greater than d/2, then its distance set has positive Lebesgue measure.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.topological-quantum-computation.non-abelian-anyons-realization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_abelian_anyons_realization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Abelian Anyons Realization. Can non-abelian anyons be rigorously demonstrated
+  in a physical system, and can their braiding statistics be used for fault-tolerant topological quantum computation?'
+parameters: {}

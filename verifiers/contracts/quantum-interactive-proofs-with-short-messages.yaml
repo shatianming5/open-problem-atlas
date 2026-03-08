@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-complexity.quantum-interactive-proofs-with-short-messages
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_interactive_proofs_with_short_messages_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Interactive Proofs with Short Messages. Does QIP(2) = QIP(3)? Characterizing
+  the power of quantum interactive proofs with a bounded number of messages remains open.'
+parameters: {}

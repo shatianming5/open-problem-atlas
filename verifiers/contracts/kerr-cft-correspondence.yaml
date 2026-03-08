@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.kerr-cft-correspondence
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kerr_cft_correspondence_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kerr/CFT Correspondence. Does a precise Kerr/CFT correspondence exist, providing
+  a holographic dual description for generic (non-extremal) rotating black holes?'
+parameters: {}

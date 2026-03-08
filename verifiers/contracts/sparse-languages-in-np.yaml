@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.sparse-languages-in-np
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sparse_languages_in_np_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sparse Languages in NP. If P != NP, can a sparse set be NP-hard under polynomial-time
+  Turing reductions? The Mahaney-Ogiwara-Watanabe theorem handles many-one reductions.'
+parameters: {}

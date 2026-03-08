@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.exact-threshold-for-random-k-sat
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/exact_threshold_for_random_k_sat_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Exact Threshold for Random k-SAT. Is the satisfiability threshold for random
+  k-SAT exactly 2^k ln 2 - (1+ln 2)/2 + o_k(1) for all k, as predicted by the cavity method?'
+parameters: {}

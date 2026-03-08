@@ -1,0 +1,12 @@
+problem_id: opa.phys.mathematical-physics.berry-phase-and-topological-invariants
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/berry_phase_and_topological_invariants_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Berry Phase and Topological Invariants. Can all topological invariants arising
+  from Berry phases in quantum systems be systematically classified using the framework of differential cohomology?'
+parameters: {}

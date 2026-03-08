@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.operator-algebras.connes-embedding-problem-aftermath
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/connes_embedding_problem_aftermath_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Connes Embedding Problem Aftermath. What new separations in operator algebra
+  theory follow from the negative resolution of the Connes embedding problem via MIP*=RE?'
+parameters: {}

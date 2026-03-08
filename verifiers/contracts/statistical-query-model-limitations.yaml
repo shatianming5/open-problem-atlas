@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.statistical-query-model-limitations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/statistical_query_model_limitations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Statistical Query Model Limitations. What is the exact power of the statistical
+  query model? Which learning problems require non-SQ algorithms?'
+parameters: {}

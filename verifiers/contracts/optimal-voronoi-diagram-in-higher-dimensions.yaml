@@ -1,0 +1,12 @@
+problem_id: opa.tcs.computational-geometry.optimal-voronoi-diagram-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_voronoi_diagram_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Voronoi Diagram in Higher Dimensions. Can Voronoi diagrams in R^d
+  be computed in output-sensitive optimal time for d >= 3?'
+parameters: {}

@@ -1,0 +1,13 @@
+problem_id: opa.phys.general-relativity.higher-dimensional-black-hole-stability
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/higher_dimensional_black_hole_stability_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Higher-Dimensional Black Hole Stability. Are higher-dimensional black objects
+  (black strings, black rings) stable under gravitational perturbations, and what is the endpoint of the Gregory-Laflamme
+  instability?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.parallel-sorting-optimality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/parallel_sorting_optimality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Parallel Sorting Optimality. What is the optimal number of rounds for sorting
+  n elements using n processors in the PRAM model with O(n log n) total work?'
+parameters: {}

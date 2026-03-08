@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.post-quantum-security-of-existing-protocols
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/post_quantum_security_of_existing_protocols_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Post-Quantum Security of Existing Protocols. Are hash-based signature schemes
+  and code-based encryption schemes secure against quantum adversaries at claimed security levels?'
+parameters: {}

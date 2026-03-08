@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-algorithms.quantum-advantage-in-property-testing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_advantage_in_property_testing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Advantage in Property Testing. For which graph properties does quantum
+  query complexity provide a provably polynomial advantage over classical property testing?'
+parameters: {}

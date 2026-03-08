@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-complexity.bqp-vs-ph-oracle-separation-strengthening
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bqp_vs_ph_oracle_separation_strengthening_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: BQP vs PH Oracle Separation Strengthening. Can the Raz-Tal oracle separation
+  of BQP from PH be derandomized or strengthened to give unconditional evidence that BQP is not in PH?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analytic-number-theory.polymath8-improvements-on-prime-gaps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polymath8_improvements_on_prime_gaps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polymath8 Improvements on Prime Gaps. Can the Polymath8 methods further
+  reduce the bound H_1 on the gap between consecutive primes below 246, or is a fundamentally new idea required?'
+parameters: {}

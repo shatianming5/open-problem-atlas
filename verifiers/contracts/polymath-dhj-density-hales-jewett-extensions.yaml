@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.additive-combinatorics.polymath-dhj-density-hales-jewett-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polymath_dhj_density_hales_jewett_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polymath DHJ: Density Hales-Jewett Extensions. Can the Polymath1 density
+  Hales-Jewett theorem bounds be made effective and tight, giving the exact threshold density?'
+parameters: {}

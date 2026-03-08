@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.convex-geometry.slicing-problem-hyperplane-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/slicing_problem_hyperplane_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Slicing Problem (Hyperplane Conjecture). There exists a universal constant
+  c > 0 such that every convex body of volume 1 in R^n has a hyperplane section of (n-1)-dimensional volume at least c.'
+parameters: {}

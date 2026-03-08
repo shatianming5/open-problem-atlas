@@ -1,0 +1,12 @@
+problem_id: opa.tcs.information-theory.multiple-access-channel-with-feedback-capacity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/multiple_access_channel_with_feedback_capacity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multiple Access Channel with Feedback Capacity. Does feedback increase the
+  capacity region of the multiple access channel? Cover and Leung conjectured it does.'
+parameters: {}

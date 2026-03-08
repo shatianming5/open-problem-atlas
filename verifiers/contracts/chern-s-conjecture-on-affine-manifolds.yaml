@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.chern-s-conjecture-on-affine-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chern_s_conjecture_on_affine_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chern''s Conjecture on Affine Manifolds. A compact affine manifold has Euler
+  characteristic zero.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.ergodic-theory.kontsevich-zorich-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kontsevich_zorich_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kontsevich-Zorich Conjecture. The Lyapunov exponents of the Kontsevich-Zorich
+  cocycle are all distinct for connected components of strata.'
+parameters: {}

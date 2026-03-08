@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.scholz-conjecture-on-addition-chains
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/scholz_conjecture_on_addition_chains_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Scholz Conjecture on Addition Chains. The length of the shortest addition
+  chain for 2^n - 1 is at most n - 1 plus the length of the shortest addition chain for n.'
+parameters: {}

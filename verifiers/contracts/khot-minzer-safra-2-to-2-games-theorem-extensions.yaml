@@ -1,0 +1,12 @@
+problem_id: opa.tcs.hardness-of-approximation.khot-minzer-safra-2-to-2-games-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/khot_minzer_safra_2_to_2_games_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Khot-Minzer-Safra 2-to-2 Games Theorem Extensions. Can the Khot-Minzer-Safra
+  2-to-2 games theorem be strengthened to fully resolve the Unique Games Conjecture?'
+parameters: {}

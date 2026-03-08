@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.analysis.dimension-of-singular-set-for-navier-stokes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dimension_of_singular_set_for_navier_stokes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dimension of Singular Set for Navier-Stokes. What is the Hausdorff dimension
+  of the potential singular set for solutions of the 3D Navier-Stokes equations? The Caffarelli-Kohn-Nirenberg theorem gives
+  dimension < 1.'
+parameters: {}

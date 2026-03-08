@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.mixing-time-of-glauber-dynamics-for-ising-model
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mixing_time_of_glauber_dynamics_for_ising_model_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mixing Time of Glauber Dynamics for Ising Model. Determine the exact mixing
+  time of Glauber dynamics for the Ising model on Z^d at all temperatures, especially near criticality.'
+parameters: {}

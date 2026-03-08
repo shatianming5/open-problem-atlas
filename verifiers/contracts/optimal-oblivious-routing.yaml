@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-oblivious-routing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_oblivious_routing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Oblivious Routing. What is the optimal competitive ratio for oblivious
+  routing in general undirected graphs? The O(log n) upper bound and Omega(log n / log log n) lower bound leave a gap.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.information-theory.non-shannon-information-inequalities-completeness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_shannon_information_inequalities_completeness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Shannon Information Inequalities Completeness. Is there a finite set
+  of information inequalities that characterizes the entropy region for four or more random variables?'
+parameters: {}

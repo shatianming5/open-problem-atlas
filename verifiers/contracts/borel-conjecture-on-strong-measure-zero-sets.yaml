@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.borel-conjecture-on-strong-measure-zero-sets
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/borel_conjecture_on_strong_measure_zero_sets_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Borel Conjecture on Strong Measure Zero Sets. Every strong measure zero
+  set of reals is countable. This is independent of ZFC but remains open under additional axioms.'
+parameters: {}

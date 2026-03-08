@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-online-bipartite-matching
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_online_bipartite_matching_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Online Bipartite Matching. What is the optimal competitive ratio
+  for online bipartite matching? The RANKING algorithm achieves 1-1/e; is this tight?'
+parameters: {}

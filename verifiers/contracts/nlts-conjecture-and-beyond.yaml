@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.nlts-conjecture-and-beyond
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nlts_conjecture_and_beyond_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: NLTS Conjecture and Beyond. The No Low-Energy Trivial States conjecture
+  was recently proved; can it be strengthened to resolve the quantum PCP conjecture?'
+parameters: {}

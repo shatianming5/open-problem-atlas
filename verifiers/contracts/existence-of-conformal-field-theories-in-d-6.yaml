@@ -1,0 +1,13 @@
+problem_id: opa.phys.conformal-field-theory.existence-of-conformal-field-theories-in-d-6
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_conformal_field_theories_in_d_6_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Conformal Field Theories in d>6. Do non-trivial interacting
+  conformal field theories exist in spacetime dimensions greater than 6, or is there a rigorous proof that d=6 is the upper
+  critical dimension?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.optimal-secure-multi-party-computation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_secure_multi_party_computation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Secure Multi-Party Computation. What is the optimal communication
+  complexity of general secure multi-party computation protocols with an honest majority?'
+parameters: {}

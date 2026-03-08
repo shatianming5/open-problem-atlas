@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.hardness-vs-randomness-tradeoffs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hardness_vs_randomness_tradeoffs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hardness vs Randomness Tradeoffs. What is the optimal tradeoff between circuit
+  lower bounds and derandomization? Can BPP = P be proved from weaker assumptions than NEXP circuit lower bounds?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.bouniakowsky-conjecture-for-specific-polynomials
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bouniakowsky_conjecture_for_specific_polynomials_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bouniakowsky Conjecture for Specific Polynomials. Does the polynomial n^2
+  + n + 41 take infinitely many prime values? This is a specific case of the Bunyakovsky conjecture.'
+parameters: {}

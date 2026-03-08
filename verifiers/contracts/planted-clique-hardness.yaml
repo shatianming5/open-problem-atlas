@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.planted-clique-hardness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/planted_clique_hardness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Planted Clique Hardness. Is finding a planted clique of size O(sqrt(n))
+  in a random graph computationally hard? No polynomial-time algorithm is known below this threshold.'
+parameters: {}

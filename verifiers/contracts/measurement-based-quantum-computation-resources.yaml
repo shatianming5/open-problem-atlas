@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.measurement-based-quantum-computation-resources
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/measurement_based_quantum_computation_resources_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Measurement-Based Quantum Computation Resources. What is the minimal entanglement
+  required in a resource state for universal measurement-based quantum computation?'
+parameters: {}

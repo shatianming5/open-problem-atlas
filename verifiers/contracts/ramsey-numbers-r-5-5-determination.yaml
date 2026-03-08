@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.ramsey-theory.ramsey-numbers-r-5-5-determination
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ramsey_numbers_r_5_5_determination_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ramsey Numbers R(5,5) Determination. What is the exact value of the Ramsey
+  number R(5,5)? Current bounds place it between 43 and 48.'
+parameters: {}

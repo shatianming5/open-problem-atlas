@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.device-independent-quantum-key-distribution-security
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/device_independent_quantum_key_distribution_security_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Device-Independent Quantum Key Distribution Security. Can device-independent
+  QKD be made practical with realistic photon detection efficiencies and finite key lengths?'
+parameters: {}

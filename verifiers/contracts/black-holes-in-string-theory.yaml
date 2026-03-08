@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.black-holes-in-string-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/black_holes_in_string_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Black Holes in String Theory. Can the fuzzball proposal resolve the black
+  hole information paradox by replacing the classical interior geometry with a stringy microstate geometry for all black holes?'
+parameters: {}
