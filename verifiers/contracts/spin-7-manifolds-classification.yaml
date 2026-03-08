@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.spin-7-manifolds-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/spin_7_manifolds_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Spin(7) Manifolds Classification. Classify compact manifolds with Spin(7)
+  holonomy.'
+parameters: {}

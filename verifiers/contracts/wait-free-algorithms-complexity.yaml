@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.wait-free-algorithms-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/wait_free_algorithms_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Wait-Free Algorithms Complexity. Determine the step complexity of wait-free
+  algorithms for fundamental shared memory problems.'
+parameters: {}

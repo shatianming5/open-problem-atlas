@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.post-quantum-cryptography-foundations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/post_quantum_cryptography_foundations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Post-Quantum Cryptography Foundations. Determine which cryptographic primitives
+  survive in the presence of quantum computers.'
+parameters: {}

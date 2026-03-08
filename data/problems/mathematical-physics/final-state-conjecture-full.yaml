@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.final-state-conjecture-full
+kind: problem
+title: Final State Conjecture (Full)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that generic asymptotically flat solutions to the vacuum Einstein equations settle down to Kerr black holes.
+sources:
+  canonical:
+  - source_id: curated_final_state_conjecture_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/No-hair_theorem
+  status_evidence:
+  - source_id: curated_final_state_conjecture_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/No-hair_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

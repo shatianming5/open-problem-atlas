@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.ground-state-energy-of-the-electron-gas
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ground_state_energy_of_the_electron_gas_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ground State Energy of the Electron Gas. Determine the exact ground state
+  energy of the homogeneous electron gas.'
+parameters: {}

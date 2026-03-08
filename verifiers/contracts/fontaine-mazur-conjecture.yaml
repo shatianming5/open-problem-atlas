@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.arithmetic-geometry.fontaine-mazur-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fontaine_mazur_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fontaine-Mazur Conjecture. An irreducible p-adic representation of the Galois
+  group of Q that is unramified outside finitely many primes and de Rham at p comes from algebraic geometry.'
+parameters: {}

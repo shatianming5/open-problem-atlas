@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.cell-probe-lower-bounds-for-dictionaries
+kind: problem
+title: Cell Probe Lower Bounds for Dictionaries
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove tight cell probe lower bounds for dictionary data structures.
+sources:
+  canonical:
+  - source_id: curated_cell_probe_lower_bounds_for_dictionaries
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cell-probe_model
+  status_evidence:
+  - source_id: curated_cell_probe_lower_bounds_for_dictionaries
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cell-probe_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.4-manifold-exotic-structures-enumeration
+kind: problem
+title: 4-Manifold Exotic Structures Enumeration
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Enumerate all exotic smooth structures on compact 4-manifolds.
+sources:
+  canonical:
+  - source_id: curated_4_manifold_exotic_structures_enumeration
+    kind: website
+    url: https://en.wikipedia.org/wiki/Exotic_R4
+  status_evidence:
+  - source_id: curated_4_manifold_exotic_structures_enumeration
+    kind: website
+    url: https://en.wikipedia.org/wiki/Exotic_R4
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

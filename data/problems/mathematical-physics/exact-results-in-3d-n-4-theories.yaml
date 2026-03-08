@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.exact-results-in-3d-n-4-theories
+kind: problem
+title: Exact Results in 3D N=4 Theories
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Derive exact results for 3D N=4 superconformal field theories.
+sources:
+  canonical:
+  - source_id: curated_exact_results_in_3d_n_4_theories
+    kind: website
+    url: https://en.wikipedia.org/wiki/Superconformal_algebra
+  status_evidence:
+  - source_id: curated_exact_results_in_3d_n_4_theories
+    kind: website
+    url: https://en.wikipedia.org/wiki/Superconformal_algebra
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

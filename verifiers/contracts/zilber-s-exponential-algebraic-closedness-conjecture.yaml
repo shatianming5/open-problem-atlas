@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.model-theory.zilber-s-exponential-algebraic-closedness-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/zilber_s_exponential_algebraic_closedness_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Zilber''s Exponential-Algebraic Closedness Conjecture. The complex exponential
+  field satisfies exponential-algebraic closedness.'
+parameters: {}

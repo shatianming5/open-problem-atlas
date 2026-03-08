@@ -1,0 +1,13 @@
+problem_id: opa.phys.string-theory.swampland-distance-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/swampland_distance_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Swampland Distance Conjecture. Is the Swampland Distance Conjecture true
+  for all consistent quantum gravity theories: does an infinite tower of states become exponentially light at infinite distance
+  in moduli space?'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.kac-moody-groups-over-finite-fields
+kind: problem
+title: Kac-Moody Groups Over Finite Fields
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a complete representation theory for Kac-Moody groups over finite fields.
+sources:
+  canonical:
+  - source_id: curated_kac_moody_groups_over_finite_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra
+  status_evidence:
+  - source_id: curated_kac_moody_groups_over_finite_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

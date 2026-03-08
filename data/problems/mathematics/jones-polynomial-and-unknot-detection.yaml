@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.jones-polynomial-and-unknot-detection
+kind: problem
+title: Jones Polynomial and Unknot Detection
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does the Jones polynomial detect the unknot?
+sources:
+  canonical:
+  - source_id: curated_jones_polynomial_and_unknot_detection
+    kind: website
+    url: https://en.wikipedia.org/wiki/Jones_polynomial
+  status_evidence:
+  - source_id: curated_jones_polynomial_and_unknot_detection
+    kind: website
+    url: https://en.wikipedia.org/wiki/Jones_polynomial
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.approximation-theory.chebyshev-s-problem-on-best-approximation
+kind: problem
+title: Chebyshev's Problem on Best Approximation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- approximation-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For multivariate polynomial approximation, characterize the best approximation from an arbitrary set in L^p norms.
+sources:
+  canonical:
+  - source_id: src_chebyshev_1853
+    kind: website
+    url: https://en.wikipedia.org/wiki/Chebyshev%27s_theorem_(approximation)
+  status_evidence:
+  - source_id: src_chebyshev_1853
+    kind: website
+    url: https://en.wikipedia.org/wiki/Chebyshev%27s_theorem_(approximation)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

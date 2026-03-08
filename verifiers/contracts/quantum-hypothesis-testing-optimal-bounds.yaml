@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-hypothesis-testing-optimal-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_hypothesis_testing_optimal_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Hypothesis Testing Optimal Bounds. Determine the optimal error exponents
+  for quantum hypothesis testing.'
+parameters: {}

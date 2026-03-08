@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.tian-yau-donaldson-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tian_yau_donaldson_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tian-Yau-Donaldson Conjecture. A Fano manifold admits a Kahler-Einstein
+  metric if and only if it is K-polystable.'
+parameters: {}

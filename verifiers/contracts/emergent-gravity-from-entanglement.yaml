@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-gravity.emergent-gravity-from-entanglement
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/emergent_gravity_from_entanglement_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Emergent Gravity from Entanglement. Can one rigorously derive Einstein''s
+  equations of general relativity from quantum entanglement entropy using the Ryu-Takayanagi and Jacobson frameworks?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.benford-s-law-for-prime-numbers
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/benford_s_law_for_prime_numbers_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Benford''s Law for Prime Numbers. Prove or disprove that the leading digits
+  of primes in various bases follow Benford''s law asymptotically.'
+parameters: {}

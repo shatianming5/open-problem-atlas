@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.non-equilibrium-quantum-phase-transitions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_equilibrium_quantum_phase_transitions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Equilibrium Quantum Phase Transitions. Classify phase transitions in
+  non-equilibrium quantum systems.'
+parameters: {}

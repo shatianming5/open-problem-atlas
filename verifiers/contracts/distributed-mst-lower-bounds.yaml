@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.distributed-mst-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distributed_mst_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distributed MST Lower Bounds. Prove tight lower bounds for distributed minimum
+  spanning tree computation.'
+parameters: {}

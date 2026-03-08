@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.khovanov-homology-and-slice-genus
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/khovanov_homology_and_slice_genus_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Khovanov Homology and Slice Genus. Determine whether Khovanov homology detects
+  the smooth slice genus of a knot.'
+parameters: {}

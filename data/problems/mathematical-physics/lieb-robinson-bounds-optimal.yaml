@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.lieb-robinson-bounds-optimal
+kind: problem
+title: Lieb-Robinson Bounds Optimal
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine optimal Lieb-Robinson bounds for information propagation in quantum lattice systems.
+sources:
+  canonical:
+  - source_id: curated_lieb_robinson_bounds_optimal
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lieb%E2%80%93Robinson_bounds
+  status_evidence:
+  - source_id: curated_lieb_robinson_bounds_optimal
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lieb%E2%80%93Robinson_bounds
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

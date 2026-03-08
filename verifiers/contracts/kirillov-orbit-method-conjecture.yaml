@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.representation-theory.kirillov-orbit-method-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kirillov_orbit_method_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kirillov Orbit Method Conjecture. There is a natural bijection between coadjoint
+  orbits and irreducible unitary representations for general Lie groups.'
+parameters: {}

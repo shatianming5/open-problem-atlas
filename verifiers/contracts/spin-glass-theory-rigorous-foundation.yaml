@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.spin-glass-theory-rigorous-foundation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/spin_glass_theory_rigorous_foundation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Spin Glass Theory Rigorous Foundation. Provide rigorous proofs for the Parisi
+  solution of the Sherrington-Kirkpatrick spin glass model.'
+parameters: {}

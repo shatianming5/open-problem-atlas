@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.discrete-geometry.kusner-s-conjecture-on-equilateral-sets
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kusner_s_conjecture_on_equilateral_sets_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kusner''s Conjecture on Equilateral Sets. The maximum number of equidistant
+  points in l^1_n is 2n.'
+parameters: {}

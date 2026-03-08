@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.sum-of-squares-hierarchy-limitations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sum_of_squares_hierarchy_limitations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sum-of-Squares Hierarchy Limitations. Determine the limitations of the Sum-of-Squares
+  hierarchy for combinatorial optimization.'
+parameters: {}

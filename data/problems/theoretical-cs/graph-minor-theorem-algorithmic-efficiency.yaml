@@ -1,0 +1,31 @@
+id: opa.tcs.graph-theory.graph-minor-theorem-algorithmic-efficiency
+kind: problem
+title: Graph Minor Theorem Algorithmic Efficiency
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Improve the algorithmic efficiency of the Robertson-Seymour graph minor theorem to practical running times.
+sources:
+  canonical:
+  - source_id: curated_graph_minor_theorem_algorithmic_efficiency
+    kind: website
+    url: https://en.wikipedia.org/wiki/Robertson%E2%80%93Seymour_theorem
+  status_evidence:
+  - source_id: curated_graph_minor_theorem_algorithmic_efficiency
+    kind: website
+    url: https://en.wikipedia.org/wiki/Robertson%E2%80%93Seymour_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

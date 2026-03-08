@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.graph-bandwidth-computation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/graph_bandwidth_computation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Graph Bandwidth Computation. Determine the complexity of computing the bandwidth
+  of a graph.'
+parameters: {}

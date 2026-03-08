@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.donaldson-thomas-invariants-computation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/donaldson_thomas_invariants_computation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Donaldson-Thomas Invariants Computation. Compute Donaldson-Thomas invariants
+  for general Calabi-Yau threefolds.'
+parameters: {}

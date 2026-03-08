@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.set-cover-approximation-tightness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/set_cover_approximation_tightness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Set Cover Approximation Tightness. Determine whether the ln(n) approximation
+  for set cover is tight under P != NP.'
+parameters: {}

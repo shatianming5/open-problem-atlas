@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.polya-s-random-walk-return-probability
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polya_s_random_walk_return_probability_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polya''s Random Walk Return Probability. Extend Polya''s recurrence theorem
+  to random walks on general graphs and groups.'
+parameters: {}

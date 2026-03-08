@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.tensor-rank-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tensor_rank_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tensor Rank Complexity. Determine the complexity of computing tensor rank
+  and its connection to matrix multiplication.'
+parameters: {}

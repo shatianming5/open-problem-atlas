@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.graham-s-conjecture-on-sequences
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/graham_s_conjecture_on_sequences_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Graham''s Conjecture on Sequences. Prove Graham''s conjecture that every
+  sequence with sum exceeding 1 contains a subsequence with sum close to 1.'
+parameters: {}

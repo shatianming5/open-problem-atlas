@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.min-oo-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/min_oo_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Min-Oo Conjecture. A hemispherical domain with scalar curvature >= n(n-1)
+  and totally geodesic boundary is isometric to the hemisphere.'
+parameters: {}

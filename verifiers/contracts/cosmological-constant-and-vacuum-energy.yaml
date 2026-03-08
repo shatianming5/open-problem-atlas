@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-gravity.cosmological-constant-and-vacuum-energy
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cosmological_constant_and_vacuum_energy_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cosmological Constant and Vacuum Energy. Can the enormous discrepancy between
+  the observed cosmological constant and quantum field theory predictions be resolved through a rigorous mathematical framework?'
+parameters: {}

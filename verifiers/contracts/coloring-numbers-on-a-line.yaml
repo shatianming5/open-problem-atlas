@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.coloring-numbers-on-a-line
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/coloring_numbers_on_a_line_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Coloring Numbers on a Line. Determine the minimum number of colors needed
+  to color the integers so that no arithmetic progression is monochromatic.'
+parameters: {}

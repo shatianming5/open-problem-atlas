@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.quark-confinement-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quark_confinement_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quark Confinement Proof. Prove quark confinement rigorously from the QCD
+  Lagrangian.'
+parameters: {}

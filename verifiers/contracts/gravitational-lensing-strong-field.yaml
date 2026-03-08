@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.gravitational-lensing-strong-field
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gravitational_lensing_strong_field_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gravitational Lensing Strong Field. Develop the complete theory of gravitational
+  lensing in the strong-field regime.'
+parameters: {}

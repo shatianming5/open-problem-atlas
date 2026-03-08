@@ -1,0 +1,32 @@
+id: opa.phys.gauge-theory.witten-s-conjecture-on-donaldson-invariants
+kind: problem
+title: Witten's Conjecture on Donaldson Invariants
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- gauge-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the relation between Donaldson and Seiberg-Witten invariants be proved rigorously for all smooth 4-manifolds
+    using gauge theory?
+sources:
+  canonical:
+  - source_id: src_feehan_2023
+    kind: website
+    url: https://arxiv.org/abs/2301.07441
+  status_evidence:
+  - source_id: src_feehan_2023
+    kind: website
+    url: https://arxiv.org/abs/2301.07441
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

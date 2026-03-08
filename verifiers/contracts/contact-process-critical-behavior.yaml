@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.contact-process-critical-behavior
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/contact_process_critical_behavior_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Contact Process Critical Behavior. Determine the exact critical behavior
+  of the contact process in all dimensions.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.mean-curvature-flow-singularity-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mean_curvature_flow_singularity_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mean Curvature Flow Singularity Classification. Classify all possible singularity
+  types in mean curvature flow.'
+parameters: {}

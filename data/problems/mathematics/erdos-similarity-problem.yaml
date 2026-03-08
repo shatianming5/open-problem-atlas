@@ -1,0 +1,32 @@
+id: opa.mathematics.measure-theory.erdos-similarity-problem
+kind: problem
+title: Erdos Similarity Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- measure-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does there exist an infinite set S such that every measurable set of positive measure contains an affine copy
+    of S?
+sources:
+  canonical:
+  - source_id: src_erdos_1975
+    kind: website
+    url: https://en.wikipedia.org/wiki/Erd%C5%91s_similarity_problem
+  status_evidence:
+  - source_id: src_erdos_1975
+    kind: website
+    url: https://en.wikipedia.org/wiki/Erd%C5%91s_similarity_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

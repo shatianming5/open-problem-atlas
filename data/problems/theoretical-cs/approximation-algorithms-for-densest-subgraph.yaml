@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.approximation-algorithms-for-densest-subgraph
+kind: problem
+title: Approximation Algorithms for Densest Subgraph
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the best approximation ratio for the densest k-subgraph problem.
+sources:
+  canonical:
+  - source_id: curated_approximation_algorithms_for_densest_subgraph
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dense_subgraph
+  status_evidence:
+  - source_id: curated_approximation_algorithms_for_densest_subgraph
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dense_subgraph
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

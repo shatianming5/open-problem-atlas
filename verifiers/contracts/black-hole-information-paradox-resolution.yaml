@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.black-hole-information-paradox-resolution
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/black_hole_information_paradox_resolution_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Black Hole Information Paradox Resolution. Resolve the black hole information
+  paradox by demonstrating unitarity of black hole evaporation.'
+parameters: {}

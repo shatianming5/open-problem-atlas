@@ -1,0 +1,31 @@
+id: opa.mathematics.complex-analysis.bloch-s-constant-determination
+kind: problem
+title: Bloch's Constant Determination
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- complex-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact value of Bloch's constant for holomorphic functions on the unit disk.
+sources:
+  canonical:
+  - source_id: src_bloch_1925
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bloch%27s_theorem_(complex_analysis)
+  status_evidence:
+  - source_id: src_bloch_1925
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bloch%27s_theorem_(complex_analysis)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

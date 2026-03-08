@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.superconformal-index-and-microstate-counting
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/superconformal_index_and_microstate_counting_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Superconformal Index and Microstate Counting. Prove that the superconformal
+  index counts black hole microstates.'
+parameters: {}

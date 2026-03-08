@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.hardy-ramanujan-partition-asymptotics-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hardy_ramanujan_partition_asymptotics_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hardy-Ramanujan Partition Asymptotics Extensions. Extend the Hardy-Ramanujan
+  asymptotic formula for partitions to colored and restricted partitions.'
+parameters: {}

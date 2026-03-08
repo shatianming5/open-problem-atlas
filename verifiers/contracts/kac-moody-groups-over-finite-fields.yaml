@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.kac-moody-groups-over-finite-fields
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kac_moody_groups_over_finite_fields_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kac-Moody Groups Over Finite Fields. Develop a complete representation theory
+  for Kac-Moody groups over finite fields.'
+parameters: {}

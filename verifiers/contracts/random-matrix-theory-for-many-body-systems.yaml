@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.random-matrix-theory-for-many-body-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/random_matrix_theory_for_many_body_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Random Matrix Theory for Many-Body Systems. Apply random matrix theory to
+  predict properties of many-body quantum systems.'
+parameters: {}

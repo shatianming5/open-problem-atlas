@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.homological-conjectures-in-commutative-algebra-general
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/homological_conjectures_in_commutative_algebra_general_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Homological Conjectures in Commutative Algebra (General). Resolve the remaining
+  homological conjectures including the Canonical Element Conjecture generalizations.'
+parameters: {}

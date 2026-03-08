@@ -1,0 +1,32 @@
+id: opa.tcs.complexity-theory.fine-grained-complexity-foundations
+kind: problem
+title: Fine-Grained Complexity Foundations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Establish the foundations of fine-grained complexity by proving or refuting SETH, the 3SUM conjecture, and APSP
+    conjecture.
+sources:
+  canonical:
+  - source_id: curated_fine_grained_complexity_foundations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fine-grained_complexity
+  status_evidence:
+  - source_id: curated_fine_grained_complexity_foundations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fine-grained_complexity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

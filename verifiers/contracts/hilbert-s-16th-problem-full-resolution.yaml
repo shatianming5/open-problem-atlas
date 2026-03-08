@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.hilbert-s-16th-problem-full-resolution
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hilbert_s_16th_problem_full_resolution_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hilbert''s 16th Problem (Full Resolution). Determine the maximum number
+  of limit cycles for polynomial vector fields of degree n.'
+parameters: {}

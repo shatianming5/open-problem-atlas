@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.kontsevich-s-formality-conjecture-for-higher-dimensions
+kind: problem
+title: Kontsevich's Formality Conjecture for Higher Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the formality theorem for the deformation quantization of Poisson manifolds in higher dimensions.
+sources:
+  canonical:
+  - source_id: curated_kontsevich_s_formality_conjecture_for_higher_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kontsevich_quantization_formula
+  status_evidence:
+  - source_id: curated_kontsevich_s_formality_conjecture_for_higher_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kontsevich_quantization_formula
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-entanglement-and-gravity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_entanglement_and_gravity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Entanglement and Gravity. Establish rigorous connections between
+  quantum entanglement structure and gravitational dynamics.'
+parameters: {}

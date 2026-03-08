@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.entanglement-and-spacetime-emergence
+kind: problem
+title: Entanglement and Spacetime Emergence
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that spacetime geometry emerges from quantum entanglement structure.
+sources:
+  canonical:
+  - source_id: curated_entanglement_and_spacetime_emergence
+    kind: website
+    url: https://en.wikipedia.org/wiki/ER_%3D_EPR
+  status_evidence:
+  - source_id: curated_entanglement_and_spacetime_emergence
+    kind: website
+    url: https://en.wikipedia.org/wiki/ER_%3D_EPR
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

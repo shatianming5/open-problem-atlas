@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.statistical-query-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/statistical_query_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Statistical Query Lower Bounds. Determine tight statistical query complexity
+  for learning fundamental concept classes.'
+parameters: {}

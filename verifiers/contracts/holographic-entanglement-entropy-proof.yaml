@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.holographic-entanglement-entropy-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/holographic_entanglement_entropy_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Holographic Entanglement Entropy Proof. Prove the Ryu-Takayanagi formula
+  and its quantum corrections rigorously.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.four-exponentials-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/four_exponentials_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Four Exponentials Conjecture. Prove the four exponentials conjecture on
+  the transcendence of exponentials.'
+parameters: {}

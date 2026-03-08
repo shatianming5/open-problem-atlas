@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.multi-party-key-exchange-efficiency
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/multi_party_key_exchange_efficiency_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multi-Party Key Exchange Efficiency. Construct efficient non-interactive
+  multi-party key exchange protocols.'
+parameters: {}

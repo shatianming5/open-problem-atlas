@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.landis-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/landis_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Landis Conjecture. If a solution of an elliptic equation on R^n decays faster
+  than exp(-|x|^{1+epsilon}), must it be identically zero?'
+parameters: {}

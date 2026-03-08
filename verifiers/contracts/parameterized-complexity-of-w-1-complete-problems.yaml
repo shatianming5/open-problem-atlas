@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.parameterized-complexity-of-w-1-complete-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/parameterized_complexity_of_w_1_complete_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Parameterized Complexity of W[1]-Complete Problems. Determine the exact
+  parameterized complexity of W[1]-complete problems like k-clique.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.am-vs-np
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/am_vs_np_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: AM vs NP. Determine whether Arthur-Merlin protocols are more powerful than
+  NP.'
+parameters: {}

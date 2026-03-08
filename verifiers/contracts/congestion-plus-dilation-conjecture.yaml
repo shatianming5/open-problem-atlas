@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.congestion-plus-dilation-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/congestion_plus_dilation_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Congestion Plus Dilation Conjecture. Prove the conjecture that any set of
+  packet routing requests can be scheduled in time proportional to congestion plus dilation.'
+parameters: {}

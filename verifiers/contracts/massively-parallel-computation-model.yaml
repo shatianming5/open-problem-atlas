@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.massively-parallel-computation-model
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/massively_parallel_computation_model_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Massively Parallel Computation Model. Determine the round complexity of
+  fundamental graph problems in the MPC model.'
+parameters: {}

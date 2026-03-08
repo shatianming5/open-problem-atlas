@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.cosmic-no-hair-conjecture-proof
+kind: problem
+title: Cosmic No-Hair Conjecture Proof
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that all expanding universes with a positive cosmological constant approach de Sitter space.
+sources:
+  canonical:
+  - source_id: curated_cosmic_no_hair_conjecture_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/De_Sitter_space
+  status_evidence:
+  - source_id: curated_cosmic_no_hair_conjecture_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/De_Sitter_space
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

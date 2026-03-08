@@ -1,0 +1,31 @@
+id: opa.mathematics.convex-geometry.viterbo-s-volume-capacity-conjecture
+kind: problem
+title: Viterbo's Volume-Capacity Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- convex-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For convex bodies in R^{2n}, the symplectic capacity normalized by volume is maximized by the ball.
+sources:
+  canonical:
+  - source_id: src_viterbo_2000
+    kind: website
+    url: https://en.wikipedia.org/wiki/Symplectic_capacity
+  status_evidence:
+  - source_id: src_viterbo_2000
+    kind: website
+    url: https://en.wikipedia.org/wiki/Symplectic_capacity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

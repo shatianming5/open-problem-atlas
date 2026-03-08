@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.bloch-kato-conjecture-on-special-values
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bloch_kato_conjecture_on_special_values_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bloch-Kato Conjecture on Special Values. The special values of L-functions
+  of motives are determined by periods and Tamagawa numbers.'
+parameters: {}

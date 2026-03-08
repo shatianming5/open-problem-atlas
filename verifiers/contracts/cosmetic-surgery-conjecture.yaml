@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.cosmetic-surgery-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cosmetic_surgery_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cosmetic Surgery Conjecture. Two distinct Dehn surgeries on a knot in S^3
+  cannot produce the same oriented 3-manifold.'
+parameters: {}

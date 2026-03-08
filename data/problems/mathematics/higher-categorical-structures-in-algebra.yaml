@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.higher-categorical-structures-in-algebra
+kind: problem
+title: Higher Categorical Structures in Algebra
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop the theory of higher categories as applied to algebraic topology and geometry.
+sources:
+  canonical:
+  - source_id: curated_higher_categorical_structures_in_algebra
+    kind: website
+    url: https://en.wikipedia.org/wiki/Higher_category_theory
+  status_evidence:
+  - source_id: curated_higher_categorical_structures_in_algebra
+    kind: website
+    url: https://en.wikipedia.org/wiki/Higher_category_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

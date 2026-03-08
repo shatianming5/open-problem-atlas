@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.schoen-s-conjecture-on-constant-scalar-curvature
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/schoen_s_conjecture_on_constant_scalar_curvature_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Schoen''s Conjecture on Constant Scalar Curvature. Prove compactness of
+  the set of constant scalar curvature metrics in a conformal class for dimensions n >= 25.'
+parameters: {}

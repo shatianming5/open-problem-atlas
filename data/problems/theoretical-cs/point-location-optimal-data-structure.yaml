@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.point-location-optimal-data-structure
+kind: problem
+title: Point Location Optimal Data Structure
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine optimal preprocessing and query time tradeoffs for point location in planar subdivisions.
+sources:
+  canonical:
+  - source_id: curated_point_location_optimal_data_structure
+    kind: website
+    url: https://en.wikipedia.org/wiki/Point_location
+  status_evidence:
+  - source_id: curated_point_location_optimal_data_structure
+    kind: website
+    url: https://en.wikipedia.org/wiki/Point_location
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

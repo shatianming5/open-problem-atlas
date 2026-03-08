@@ -1,0 +1,31 @@
+id: opa.mathematics.discrete-geometry.kalai-s-3-d-conjecture
+kind: problem
+title: Kalai's 3^d Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- discrete-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every centrally symmetric d-polytope has at least 3^d nonempty faces.
+sources:
+  canonical:
+  - source_id: src_kalai_1989
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kalai%27s_3%5Ed_conjecture
+  status_evidence:
+  - source_id: src_kalai_1989
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kalai%27s_3%5Ed_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.convex-geometry.banach-mazur-distance-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/banach_mazur_distance_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Banach-Mazur Distance Conjecture. The Banach-Mazur distance between any
+  two n-dimensional symmetric convex bodies is at most n.'
+parameters: {}

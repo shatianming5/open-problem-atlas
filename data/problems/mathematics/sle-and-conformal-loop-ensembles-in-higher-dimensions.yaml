@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.sle-and-conformal-loop-ensembles-in-higher-dimensions
+kind: problem
+title: SLE and Conformal Loop Ensembles in Higher Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the theory of Schramm-Loewner evolution and conformal loop ensembles beyond two dimensions.
+sources:
+  canonical:
+  - source_id: src_schramm_2000
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schramm%E2%80%93Loewner_evolution
+  status_evidence:
+  - source_id: src_schramm_2000
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schramm%E2%80%93Loewner_evolution
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

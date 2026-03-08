@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-entropy-power-inequality-tight
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_entropy_power_inequality_tight_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Entropy Power Inequality (Tight). Prove tight versions of the quantum
+  entropy power inequality.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.goldfeld-s-conjecture-on-elliptic-curves
+kind: problem
+title: Goldfeld's Conjecture on Elliptic Curves
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that at least 50% of elliptic curves have rank 0 and 50% have rank 1.
+sources:
+  canonical:
+  - source_id: curated_goldfeld_s_conjecture_on_elliptic_curves
+    kind: website
+    url: https://en.wikipedia.org/wiki/Goldfeld%27s_conjecture
+  status_evidence:
+  - source_id: curated_goldfeld_s_conjecture_on_elliptic_curves
+    kind: website
+    url: https://en.wikipedia.org/wiki/Goldfeld%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

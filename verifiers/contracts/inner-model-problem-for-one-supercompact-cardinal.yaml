@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.set-theory.inner-model-problem-for-one-supercompact-cardinal
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/inner_model_problem_for_one_supercompact_cardinal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Inner Model Problem for One Supercompact Cardinal. Construct a canonical
+  inner model with a supercompact cardinal.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.topological-qft-classification-in-4d
+kind: problem
+title: Topological QFT Classification in 4D
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify all topological quantum field theories in 4 dimensions.
+sources:
+  canonical:
+  - source_id: curated_topological_qft_classification_in_4d
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_quantum_field_theory
+  status_evidence:
+  - source_id: curated_topological_qft_classification_in_4d
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_quantum_field_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

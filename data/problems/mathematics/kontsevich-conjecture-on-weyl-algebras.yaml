@@ -1,0 +1,32 @@
+id: opa.mathematics.algebra.kontsevich-conjecture-on-weyl-algebras
+kind: problem
+title: Kontsevich Conjecture on Weyl Algebras
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The automorphism group of the Weyl algebra is isomorphic to the automorphism group of the corresponding Poisson
+    algebra.
+sources:
+  canonical:
+  - source_id: curated_kontsevich_conjecture_on_weyl_algebras
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dixmier_conjecture
+  status_evidence:
+  - source_id: curated_kontsevich_conjecture_on_weyl_algebras
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dixmier_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

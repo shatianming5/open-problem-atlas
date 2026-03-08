@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.vizing-s-conjecture-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/vizing_s_conjecture_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Vizing''s Conjecture (Full Proof). For the Cartesian product of graphs G
+  and H, gamma(G [] H) >= gamma(G) * gamma(H) where gamma is the domination number.'
+parameters: {}

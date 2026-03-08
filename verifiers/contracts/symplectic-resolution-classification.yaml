@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.symplectic-resolution-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/symplectic_resolution_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Symplectic Resolution Classification. Classify all symplectic resolutions
+  of singularities.'
+parameters: {}

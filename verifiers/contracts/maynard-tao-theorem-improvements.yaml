@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.maynard-tao-theorem-improvements
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/maynard_tao_theorem_improvements_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maynard-Tao Theorem Improvements. Improve the Maynard-Tao bounds on gaps
+  between primes.'
+parameters: {}

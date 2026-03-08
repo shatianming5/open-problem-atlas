@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.subconvexity-bounds-for-l-functions
+kind: problem
+title: Subconvexity Bounds for L-Functions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove subconvexity bounds for L-functions in the most general settings.
+sources:
+  canonical:
+  - source_id: curated_subconvexity_bounds_for_l_functions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Subconvexity
+  status_evidence:
+  - source_id: curated_subconvexity_bounds_for_l_functions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Subconvexity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

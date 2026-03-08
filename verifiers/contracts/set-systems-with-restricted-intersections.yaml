@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.set-systems-with-restricted-intersections
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/set_systems_with_restricted_intersections_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Set Systems with Restricted Intersections. Determine tight bounds for set
+  systems with restricted intersection sizes.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.oblivious-routing-optimal-congestion
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/oblivious_routing_optimal_congestion_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Oblivious Routing Optimal Congestion. Determine the optimal competitive
+  ratio for oblivious routing in general networks.'
+parameters: {}

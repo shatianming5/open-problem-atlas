@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.dynamical-mean-field-theory-extensions-full
+kind: problem
+title: Dynamical Mean-Field Theory Extensions (Full)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend dynamical mean-field theory to include non-local correlations systematically.
+sources:
+  canonical:
+  - source_id: curated_dynamical_mean_field_theory_extensions_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dynamical_mean-field_theory
+  status_evidence:
+  - source_id: curated_dynamical_mean_field_theory_extensions_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dynamical_mean-field_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

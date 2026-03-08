@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.reinhardt-cardinals-without-choice
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/reinhardt_cardinals_without_choice_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Reinhardt Cardinals Without Choice. Determine the consistency of Reinhardt
+  cardinals with ZF (without choice).'
+parameters: {}

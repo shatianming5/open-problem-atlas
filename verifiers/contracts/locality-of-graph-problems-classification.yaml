@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.locality-of-graph-problems-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/locality_of_graph_problems_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Locality of Graph Problems Classification. Classify all locally checkable
+  labeling problems by their round complexity in the LOCAL model.'
+parameters: {}

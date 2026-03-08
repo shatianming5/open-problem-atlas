@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.liggett-s-conjecture-on-contact-process
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/liggett_s_conjecture_on_contact_process_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Liggett''s Conjecture on Contact Process. For the contact process on Z^d,
+  determine whether the critical values for local and global survival coincide in all dimensions.'
+parameters: {}

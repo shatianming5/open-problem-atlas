@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.penrose-inequality-full-proof
+kind: problem
+title: Penrose Inequality (Full Proof)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Penrose inequality relating the area of apparent horizons to the ADM mass in full generality.
+sources:
+  canonical:
+  - source_id: curated_penrose_inequality_full_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Penrose_inequality
+  status_evidence:
+  - source_id: curated_penrose_inequality_full_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Penrose_inequality
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

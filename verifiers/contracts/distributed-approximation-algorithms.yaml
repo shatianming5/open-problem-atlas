@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.distributed-approximation-algorithms
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distributed_approximation_algorithms_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distributed Approximation Algorithms. Determine the round complexity of
+  distributed approximation algorithms for NP-hard problems.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.measurement-induced-phase-transitions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/measurement_induced_phase_transitions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Measurement-Induced Phase Transitions. Develop the theory of measurement-induced
+  entanglement phase transitions.'
+parameters: {}

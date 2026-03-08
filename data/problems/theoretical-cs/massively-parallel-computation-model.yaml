@@ -1,0 +1,31 @@
+id: opa.tcs.distributed-computing.massively-parallel-computation-model
+kind: problem
+title: Massively Parallel Computation Model
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- distributed-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the round complexity of fundamental graph problems in the MPC model.
+sources:
+  canonical:
+  - source_id: curated_massively_parallel_computation_model
+    kind: website
+    url: https://en.wikipedia.org/wiki/MapReduce
+  status_evidence:
+  - source_id: curated_massively_parallel_computation_model
+    kind: website
+    url: https://en.wikipedia.org/wiki/MapReduce
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

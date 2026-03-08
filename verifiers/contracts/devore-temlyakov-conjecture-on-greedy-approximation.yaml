@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.approximation-theory.devore-temlyakov-conjecture-on-greedy-approximation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/devore_temlyakov_conjecture_on_greedy_approximation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: DeVore-Temlyakov Conjecture on Greedy Approximation. Greedy algorithms achieve
+  near-optimal rates for m-term approximation in arbitrary redundant systems.'
+parameters: {}

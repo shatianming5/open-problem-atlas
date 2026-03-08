@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.global-rigidity-for-group-actions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/global_rigidity_for_group_actions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Global Rigidity for Group Actions. Prove global rigidity results for higher-rank
+  lattice actions on manifolds.'
+parameters: {}

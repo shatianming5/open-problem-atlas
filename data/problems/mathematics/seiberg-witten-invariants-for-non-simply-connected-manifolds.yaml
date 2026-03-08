@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.seiberg-witten-invariants-for-non-simply-connected-manifolds
+kind: problem
+title: Seiberg-Witten Invariants for Non-Simply-Connected Manifolds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Compute Seiberg-Witten invariants for closed non-simply-connected 4-manifolds.
+sources:
+  canonical:
+  - source_id: curated_seiberg_witten_invariants_for_non_simply_connected_manifolds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Seiberg%E2%80%93Witten_invariants
+  status_evidence:
+  - source_id: curated_seiberg_witten_invariants_for_non_simply_connected_manifolds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Seiberg%E2%80%93Witten_invariants
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

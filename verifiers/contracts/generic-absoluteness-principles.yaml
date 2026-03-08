@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.generic-absoluteness-principles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/generic_absoluteness_principles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Generic Absoluteness Principles. Determine the consistency of generic absoluteness
+  principles.'
+parameters: {}

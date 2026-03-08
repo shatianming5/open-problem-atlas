@@ -1,0 +1,31 @@
+id: opa.mathematics.matroid-theory.infinite-matroid-union-conjecture
+kind: problem
+title: Infinite Matroid Union Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- matroid-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The union of any two infinite matroids is again a matroid.
+sources:
+  canonical:
+  - source_id: src_bowlercarmesin_2013
+    kind: website
+    url: https://en.wikipedia.org/wiki/Matroid
+  status_evidence:
+  - source_id: src_bowlercarmesin_2013
+    kind: website
+    url: https://en.wikipedia.org/wiki/Matroid
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebraic-geometry.grothendieck-s-section-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/grothendieck_s_section_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Grothendieck''s Section Conjecture. For a smooth projective curve of genus
+  at least 2 over a number field, rational points correspond to conjugacy classes of sections of the fundamental exact sequence.'
+parameters: {}

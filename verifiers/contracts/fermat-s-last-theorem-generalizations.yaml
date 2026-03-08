@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.fermat-s-last-theorem-generalizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fermat_s_last_theorem_generalizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fermat''s Last Theorem Generalizations. Prove generalizations of Fermat''s
+  Last Theorem to number fields and higher-dimensional varieties.'
+parameters: {}

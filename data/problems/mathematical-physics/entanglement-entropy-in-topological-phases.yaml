@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.entanglement-entropy-in-topological-phases
+kind: problem
+title: Entanglement Entropy in Topological Phases
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Compute entanglement entropy for all topologically ordered phases.
+sources:
+  canonical:
+  - source_id: curated_entanglement_entropy_in_topological_phases
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_entanglement_entropy
+  status_evidence:
+  - source_id: curated_entanglement_entropy_in_topological_phases
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_entanglement_entropy
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

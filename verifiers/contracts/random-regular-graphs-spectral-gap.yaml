@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.random-regular-graphs-spectral-gap
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/random_regular_graphs_spectral_gap_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Random Regular Graphs Spectral Gap. Prove the optimal spectral gap for random
+  d-regular graphs.'
+parameters: {}

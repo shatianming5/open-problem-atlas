@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.existence-of-cfts-in-d-6
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_cfts_in_d_6_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of CFTs in d > 6. Determine whether nontrivial conformal field
+  theories exist in dimensions greater than 6.'
+parameters: {}

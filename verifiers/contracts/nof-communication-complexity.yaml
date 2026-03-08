@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.nof-communication-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nof_communication_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: NOF Communication Complexity. Prove tight lower bounds in the number-on-forehead
+  communication model.'
+parameters: {}

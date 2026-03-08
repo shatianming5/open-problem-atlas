@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.agt-correspondence-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/agt_correspondence_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: AGT Correspondence Full Proof. Prove the Alday-Gaiotto-Tachikawa correspondence
+  relating 4D N=2 gauge theories to 2D CFTs.'
+parameters: {}

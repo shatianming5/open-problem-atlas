@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-online-algorithm-for-k-server
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_online_algorithm_for_k_server_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Online Algorithm for k-Server. Determine the optimal competitive
+  ratio for the k-server problem on general metric spaces.'
+parameters: {}

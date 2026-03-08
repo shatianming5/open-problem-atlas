@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.standard-conjectures-on-algebraic-cycles-full
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/standard_conjectures_on_algebraic_cycles_full_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Standard Conjectures on Algebraic Cycles (Full). Prove the standard conjectures
+  of Grothendieck on algebraic cycles.'
+parameters: {}

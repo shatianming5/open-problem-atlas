@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.topological-phases-classification-complete
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/topological_phases_classification_complete_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Topological Phases Classification (Complete). Complete the classification
+  of topological phases of matter including interacting and non-equilibrium systems.'
+parameters: {}

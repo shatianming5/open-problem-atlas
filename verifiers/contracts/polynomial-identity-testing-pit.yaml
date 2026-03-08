@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.polynomial-identity-testing-pit
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polynomial_identity_testing_pit_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polynomial Identity Testing (PIT). Develop a deterministic polynomial-time
+  algorithm for polynomial identity testing.'
+parameters: {}

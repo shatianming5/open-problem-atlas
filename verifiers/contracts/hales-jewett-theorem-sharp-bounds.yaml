@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.hales-jewett-theorem-sharp-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hales_jewett_theorem_sharp_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hales-Jewett Theorem Sharp Bounds. Determine the exact values of the Hales-Jewett
+  numbers HJ(r, k).'
+parameters: {}

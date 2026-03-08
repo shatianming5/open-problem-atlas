@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.p-adic-hodge-theory-complete
+kind: problem
+title: p-adic Hodge Theory Complete
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete p-adic Hodge theory in the non-smooth and relative settings.
+sources:
+  canonical:
+  - source_id: curated_p_adic_hodge_theory_complete
+    kind: website
+    url: https://en.wikipedia.org/wiki/P-adic_Hodge_theory
+  status_evidence:
+  - source_id: curated_p_adic_hodge_theory_complete
+    kind: website
+    url: https://en.wikipedia.org/wiki/P-adic_Hodge_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.additive-number-theory-sum-product-estimates
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/additive_number_theory_sum_product_estimates_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Additive Number Theory Sum-Product Estimates. Prove optimal sum-product
+  estimates in finite fields and the integers.'
+parameters: {}

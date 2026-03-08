@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.spectral-gap-for-2d-quantum-systems
+kind: problem
+title: Spectral Gap for 2D Quantum Systems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine conditions for the existence of a spectral gap in two-dimensional quantum lattice systems.
+sources:
+  canonical:
+  - source_id: curated_spectral_gap_for_2d_quantum_systems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Spectral_gap
+  status_evidence:
+  - source_id: curated_spectral_gap_for_2d_quantum_systems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Spectral_gap
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

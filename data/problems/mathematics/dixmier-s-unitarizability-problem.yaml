@@ -1,0 +1,31 @@
+id: opa.mathematics.operator-algebras.dixmier-s-unitarizability-problem
+kind: problem
+title: Dixmier's Unitarizability Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- operator-algebras
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is every countable group whose representations are all unitarizable necessarily amenable?
+sources:
+  canonical:
+  - source_id: src_dixmier_1950
+    kind: website
+    url: https://en.wikipedia.org/wiki/Unitarizable_representation
+  status_evidence:
+  - source_id: src_dixmier_1950
+    kind: website
+    url: https://en.wikipedia.org/wiki/Unitarizable_representation
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

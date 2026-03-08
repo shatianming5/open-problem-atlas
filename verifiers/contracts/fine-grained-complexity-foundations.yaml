@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.fine-grained-complexity-foundations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fine_grained_complexity_foundations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fine-Grained Complexity Foundations. Establish the foundations of fine-grained
+  complexity by proving or refuting SETH, the 3SUM conjecture, and APSP conjecture.'
+parameters: {}

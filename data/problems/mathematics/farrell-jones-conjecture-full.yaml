@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.farrell-jones-conjecture-full
+kind: problem
+title: Farrell-Jones Conjecture (Full)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The assembly map in algebraic K-theory and L-theory is an isomorphism for all groups.
+sources:
+  canonical:
+  - source_id: curated_farrell_jones_conjecture_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Farrell%E2%80%93Jones_conjecture
+  status_evidence:
+  - source_id: curated_farrell_jones_conjecture_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Farrell%E2%80%93Jones_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

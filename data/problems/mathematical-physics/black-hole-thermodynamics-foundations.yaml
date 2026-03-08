@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.black-hole-thermodynamics-foundations
+kind: problem
+title: Black Hole Thermodynamics Foundations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Provide a rigorous foundation for the four laws of black hole thermodynamics.
+sources:
+  canonical:
+  - source_id: curated_black_hole_thermodynamics_foundations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Black_hole_thermodynamics
+  status_evidence:
+  - source_id: curated_black_hole_thermodynamics_foundations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Black_hole_thermodynamics
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

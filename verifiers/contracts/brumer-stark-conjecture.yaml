@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.brumer-stark-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/brumer_stark_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Brumer-Stark Conjecture. Prove the Brumer-Stark conjecture relating Stickelberger
+  elements to annihilators of class groups.'
+parameters: {}

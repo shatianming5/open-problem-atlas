@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.homotopy-groups-of-spheres
+kind: problem
+title: Homotopy Groups of Spheres
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Compute all stable and unstable homotopy groups of spheres.
+sources:
+  canonical:
+  - source_id: curated_homotopy_groups_of_spheres
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homotopy_groups_of_spheres
+  status_evidence:
+  - source_id: curated_homotopy_groups_of_spheres
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homotopy_groups_of_spheres
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

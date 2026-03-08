@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.chromatic-number-approximation
+kind: problem
+title: Chromatic Number Approximation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the best polynomial-time approximation ratio for the chromatic number.
+sources:
+  canonical:
+  - source_id: curated_chromatic_number_approximation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Graph_coloring
+  status_evidence:
+  - source_id: curated_chromatic_number_approximation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Graph_coloring
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

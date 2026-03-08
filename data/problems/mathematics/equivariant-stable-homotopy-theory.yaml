@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.equivariant-stable-homotopy-theory
+kind: problem
+title: Equivariant Stable Homotopy Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the foundations of equivariant stable homotopy theory for general compact Lie groups.
+sources:
+  canonical:
+  - source_id: curated_equivariant_stable_homotopy_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Equivariant_stable_homotopy_theory
+  status_evidence:
+  - source_id: curated_equivariant_stable_homotopy_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Equivariant_stable_homotopy_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.quantum-lyapunov-exponent-bound
+kind: problem
+title: Quantum Lyapunov Exponent Bound
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Maldacena-Shenker-Stanford bound on quantum Lyapunov exponents for general systems.
+sources:
+  canonical:
+  - source_id: curated_quantum_lyapunov_exponent_bound
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_chaos
+  status_evidence:
+  - source_id: curated_quantum_lyapunov_exponent_bound
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_chaos
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

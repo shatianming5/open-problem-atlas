@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.mirror-symmetry-proof-general
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mirror_symmetry_proof_general_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mirror Symmetry Proof (General). Prove homological mirror symmetry for general
+  Calabi-Yau manifolds.'
+parameters: {}

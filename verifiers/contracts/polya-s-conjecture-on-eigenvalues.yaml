@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.polya-s-conjecture-on-eigenvalues
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polya_s_conjecture_on_eigenvalues_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polya''s Conjecture on Eigenvalues. The k-th eigenvalue of the Dirichlet
+  Laplacian on a bounded domain satisfies the Weyl asymptotic from below.'
+parameters: {}

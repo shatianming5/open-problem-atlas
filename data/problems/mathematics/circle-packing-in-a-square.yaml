@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.circle-packing-in-a-square
+kind: problem
+title: Circle Packing in a Square
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal packing of n unit circles in the smallest enclosing square.
+sources:
+  canonical:
+  - source_id: curated_circle_packing_in_a_square
+    kind: website
+    url: https://en.wikipedia.org/wiki/Circle_packing_in_a_square
+  status_evidence:
+  - source_id: curated_circle_packing_in_a_square
+    kind: website
+    url: https://en.wikipedia.org/wiki/Circle_packing_in_a_square
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

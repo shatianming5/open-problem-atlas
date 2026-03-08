@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.algebraic-combinatorics-positivity-conjectures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/algebraic_combinatorics_positivity_conjectures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Algebraic Combinatorics Positivity Conjectures. Prove various positivity
+  conjectures in algebraic combinatorics including Macdonald positivity for general types.'
+parameters: {}

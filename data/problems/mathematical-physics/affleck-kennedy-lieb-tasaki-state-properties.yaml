@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.affleck-kennedy-lieb-tasaki-state-properties
+kind: problem
+title: Affleck-Kennedy-Lieb-Tasaki State Properties
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact entanglement properties of AKLT states in all dimensions.
+sources:
+  canonical:
+  - source_id: curated_affleck_kennedy_lieb_tasaki_state_properties
+    kind: website
+    url: https://en.wikipedia.org/wiki/AKLT_model
+  status_evidence:
+  - source_id: curated_affleck_kennedy_lieb_tasaki_state_properties
+    kind: website
+    url: https://en.wikipedia.org/wiki/AKLT_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

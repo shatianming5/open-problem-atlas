@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.neutrino-mass-generation-mechanism
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/neutrino_mass_generation_mechanism_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Neutrino Mass Generation Mechanism. Determine the theoretical mechanism
+  responsible for neutrino mass generation.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-algorithm-for-3sum
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_algorithm_for_3sum_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Algorithm for 3SUM. Determine whether 3SUM can be solved in truly
+  subquadratic time.'
+parameters: {}

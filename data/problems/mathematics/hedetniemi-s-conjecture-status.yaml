@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.hedetniemi-s-conjecture-status
+kind: problem
+title: Hedetniemi's Conjecture (Status)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Investigate the consequences of the disproof of Hedetniemi's conjecture for chromatic numbers of tensor products.
+sources:
+  canonical:
+  - source_id: curated_hedetniemi_s_conjecture_status
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hedetniemi%27s_conjecture
+  status_evidence:
+  - source_id: curated_hedetniemi_s_conjecture_status
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hedetniemi%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

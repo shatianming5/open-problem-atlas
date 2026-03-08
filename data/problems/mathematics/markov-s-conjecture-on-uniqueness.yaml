@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.markov-s-conjecture-on-uniqueness
+kind: problem
+title: Markov's Conjecture on Uniqueness
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The largest element of each Markov triple uniquely determines the triple.
+sources:
+  canonical:
+  - source_id: curated_markov_s_conjecture_on_uniqueness
+    kind: website
+    url: https://en.wikipedia.org/wiki/Markov_number
+  status_evidence:
+  - source_id: curated_markov_s_conjecture_on_uniqueness
+    kind: website
+    url: https://en.wikipedia.org/wiki/Markov_number
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

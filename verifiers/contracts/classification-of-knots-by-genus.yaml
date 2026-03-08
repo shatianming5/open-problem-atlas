@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.classification-of-knots-by-genus
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/classification_of_knots_by_genus_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Classification of Knots by Genus. Develop efficient algorithms to determine
+  the genus of a knot from its diagram.'
+parameters: {}

@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.malle-s-conjecture-on-number-fields
+kind: problem
+title: Malle's Conjecture on Number Fields
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The number of number fields with Galois group G and discriminant bounded by X grows as c*X^a*(log X)^b for specific
+    a, b depending on G.
+sources:
+  canonical:
+  - source_id: curated_malle_s_conjecture_on_number_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Malle%27s_conjecture
+  status_evidence:
+  - source_id: curated_malle_s_conjecture_on_number_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Malle%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

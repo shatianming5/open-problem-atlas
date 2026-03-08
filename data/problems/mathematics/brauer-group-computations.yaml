@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.brauer-group-computations
+kind: problem
+title: Brauer Group Computations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Compute the Brauer group of specific varieties and their applications to the Hasse principle.
+sources:
+  canonical:
+  - source_id: curated_brauer_group_computations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Brauer_group
+  status_evidence:
+  - source_id: curated_brauer_group_computations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Brauer_group
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

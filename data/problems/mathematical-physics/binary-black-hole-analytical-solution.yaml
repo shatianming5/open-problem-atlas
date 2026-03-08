@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.binary-black-hole-analytical-solution
+kind: problem
+title: Binary Black Hole Analytical Solution
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find an analytical solution for the two-body problem in general relativity.
+sources:
+  canonical:
+  - source_id: curated_binary_black_hole_analytical_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Two-body_problem_in_general_relativity
+  status_evidence:
+  - source_id: curated_binary_black_hole_analytical_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Two-body_problem_in_general_relativity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

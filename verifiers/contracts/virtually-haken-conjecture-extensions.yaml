@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.virtually-haken-conjecture-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/virtually_haken_conjecture_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Virtually Haken Conjecture (Extensions). Extend the virtually Haken property
+  to all compact 3-manifolds with boundary.'
+parameters: {}

@@ -1,0 +1,32 @@
+id: opa.mathematics.analysis.navier-stokes-regularity-for-large-data
+kind: problem
+title: Navier-Stokes Regularity for Large Data
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether smooth solutions to the 3D Navier-Stokes equations can develop singularities from smooth initial
+    data.
+sources:
+  canonical:
+  - source_id: curated_navier_stokes_regularity_for_large_data
+    kind: website
+    url: https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness
+  status_evidence:
+  - source_id: curated_navier_stokes_regularity_for_large_data
+    kind: website
+    url: https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

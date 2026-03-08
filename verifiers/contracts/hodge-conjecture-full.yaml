@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.hodge-conjecture-full
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hodge_conjecture_full_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hodge Conjecture (Full). Every Hodge class on a non-singular complex projective
+  variety is a rational linear combination of algebraic cycle classes.'
+parameters: {}

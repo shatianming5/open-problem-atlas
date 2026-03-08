@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.chromatic-homotopy-theory-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chromatic_homotopy_theory_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chromatic Homotopy Theory Classification. Complete the classification of
+  the layers of the chromatic filtration in stable homotopy theory.'
+parameters: {}

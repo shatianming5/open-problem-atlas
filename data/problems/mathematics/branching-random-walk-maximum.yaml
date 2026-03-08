@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.branching-random-walk-maximum
+kind: problem
+title: Branching Random Walk Maximum
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the precise position and fluctuations of the maximum of branching random walk.
+sources:
+  canonical:
+  - source_id: curated_branching_random_walk_maximum
+    kind: website
+    url: https://en.wikipedia.org/wiki/Branching_random_walk
+  status_evidence:
+  - source_id: curated_branching_random_walk_maximum
+    kind: website
+    url: https://en.wikipedia.org/wiki/Branching_random_walk
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

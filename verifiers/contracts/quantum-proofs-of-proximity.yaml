@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.quantum-proofs-of-proximity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_proofs_of_proximity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Proofs of Proximity. Determine the power of quantum proofs of proximity
+  compared to classical ones.'
+parameters: {}

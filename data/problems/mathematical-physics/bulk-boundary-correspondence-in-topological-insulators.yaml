@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.bulk-boundary-correspondence-in-topological-insulators
+kind: problem
+title: Bulk-Boundary Correspondence in Topological Insulators
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the bulk-boundary correspondence for topological insulators rigorously.
+sources:
+  canonical:
+  - source_id: curated_bulk_boundary_correspondence_in_topological_insulators
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_insulator
+  status_evidence:
+  - source_id: curated_bulk_boundary_correspondence_in_topological_insulators
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_insulator
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

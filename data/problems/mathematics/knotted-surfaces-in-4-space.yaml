@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.knotted-surfaces-in-4-space
+kind: problem
+title: Knotted Surfaces in 4-Space
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify knotted surfaces in 4-dimensional space.
+sources:
+  canonical:
+  - source_id: curated_knotted_surfaces_in_4_space
+    kind: website
+    url: https://en.wikipedia.org/wiki/Knotted_surface
+  status_evidence:
+  - source_id: curated_knotted_surfaces_in_4_space
+    kind: website
+    url: https://en.wikipedia.org/wiki/Knotted_surface
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

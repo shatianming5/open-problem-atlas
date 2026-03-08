@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.multiple-zeta-values-relations
+kind: problem
+title: Multiple Zeta Values Relations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine all algebraic relations among multiple zeta values.
+sources:
+  canonical:
+  - source_id: curated_multiple_zeta_values_relations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multiple_zeta_function
+  status_evidence:
+  - source_id: curated_multiple_zeta_values_relations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multiple_zeta_function
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

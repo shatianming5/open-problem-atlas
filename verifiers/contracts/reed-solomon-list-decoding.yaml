@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.reed-solomon-list-decoding
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/reed_solomon_list_decoding_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Reed-Solomon List Decoding. Determine the optimal list decoding radius for
+  Reed-Solomon codes.'
+parameters: {}

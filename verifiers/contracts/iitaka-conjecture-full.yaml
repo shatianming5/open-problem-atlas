@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.iitaka-conjecture-full
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/iitaka_conjecture_full_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Iitaka Conjecture (Full). For a fibration f: X -> Y, the Kodaira dimension
+  satisfies kappa(X) >= kappa(Y) + kappa(F) where F is a general fiber.'
+parameters: {}

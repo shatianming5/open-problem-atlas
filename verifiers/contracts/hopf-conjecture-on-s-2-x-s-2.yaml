@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.differential-geometry.hopf-conjecture-on-s-2-x-s-2
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hopf_conjecture_on_s_2_x_s_2_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hopf Conjecture on S^2 x S^2. Does S^2 x S^2 admit a Riemannian metric with
+  positive sectional curvature?'
+parameters: {}

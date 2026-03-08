@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.regularity-of-harmonic-maps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/regularity_of_harmonic_maps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Regularity of Harmonic Maps. Determine the optimal regularity of harmonic
+  maps between Riemannian manifolds.'
+parameters: {}

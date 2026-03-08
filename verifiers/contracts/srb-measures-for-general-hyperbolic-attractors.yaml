@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.srb-measures-for-general-hyperbolic-attractors
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/srb_measures_for_general_hyperbolic_attractors_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: SRB Measures for General Hyperbolic Attractors. Prove the existence of SRB
+  measures for general uniformly and partially hyperbolic attractors.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.quantum-modular-forms
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_modular_forms_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Modular Forms. Develop the theory of quantum modular forms and their
+  relationships to topology.'
+parameters: {}

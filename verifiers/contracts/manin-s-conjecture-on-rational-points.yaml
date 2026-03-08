@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.manin-s-conjecture-on-rational-points
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/manin_s_conjecture_on_rational_points_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Manin''s Conjecture on Rational Points. For a Fano variety V, the number
+  of rational points of height at most B grows as c*B*(log B)^{rho-1} for specific constants.'
+parameters: {}

@@ -1,0 +1,32 @@
+id: opa.mathematics.category-theory.grothendieck-s-derivator-conjecture
+kind: problem
+title: Grothendieck's Derivator Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- category-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Derivators provide a sufficient framework for homotopical algebra, and every combinatorial model category gives
+    rise to a derivator.
+sources:
+  canonical:
+  - source_id: src_grothendieck_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Derivator
+  status_evidence:
+  - source_id: src_grothendieck_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Derivator
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

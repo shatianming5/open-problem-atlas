@@ -1,0 +1,31 @@
+id: opa.mathematics.convex-geometry.dar-s-volume-conjecture
+kind: problem
+title: Dar's Volume Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- convex-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: A conjectured inequality relating the volume of a convex body to its mean width and other intrinsic volumes.
+sources:
+  canonical:
+  - source_id: src_dar_1999
+    kind: website
+    url: https://en.wikipedia.org/wiki/Intrinsic_volume
+  status_evidence:
+  - source_id: src_dar_1999
+    kind: website
+    url: https://en.wikipedia.org/wiki/Intrinsic_volume
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

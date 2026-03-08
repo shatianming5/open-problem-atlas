@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.turan-problem-for-hypergraphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/turan_problem_for_hypergraphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Turan Problem for Hypergraphs. Determine the Turan number ex(n, K_4^3) for
+  the complete 3-uniform hypergraph on 4 vertices.'
+parameters: {}

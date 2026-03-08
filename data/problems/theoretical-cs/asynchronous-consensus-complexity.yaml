@@ -1,0 +1,31 @@
+id: opa.tcs.distributed-computing.asynchronous-consensus-complexity
+kind: problem
+title: Asynchronous Consensus Complexity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- distributed-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact message complexity of asynchronous consensus.
+sources:
+  canonical:
+  - source_id: curated_asynchronous_consensus_complexity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Consensus_(computer_science)
+  status_evidence:
+  - source_id: curated_asynchronous_consensus_complexity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Consensus_(computer_science)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

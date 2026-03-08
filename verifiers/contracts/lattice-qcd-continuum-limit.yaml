@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.lattice-qcd-continuum-limit
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lattice_qcd_continuum_limit_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lattice QCD Continuum Limit. Prove that lattice QCD has a well-defined continuum
+  limit.'
+parameters: {}

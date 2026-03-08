@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.infinitely-many-palindromic-primes-in-base-10
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/infinitely_many_palindromic_primes_in_base_10_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Infinitely Many Palindromic Primes in Base 10. Determine whether there are
+  infinitely many palindromic primes in base 10.'
+parameters: {}

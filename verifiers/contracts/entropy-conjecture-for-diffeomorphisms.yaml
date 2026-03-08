@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.entropy-conjecture-for-diffeomorphisms
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entropy_conjecture_for_diffeomorphisms_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entropy Conjecture for Diffeomorphisms. Prove the entropy conjecture relating
+  the topological entropy to the spectral radius of the action on homology.'
+parameters: {}

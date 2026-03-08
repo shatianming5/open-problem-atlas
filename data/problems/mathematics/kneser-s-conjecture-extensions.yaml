@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.kneser-s-conjecture-extensions
+kind: problem
+title: Kneser's Conjecture Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Generalize the topological proof of Kneser's conjecture to hypergraph coloring problems.
+sources:
+  canonical:
+  - source_id: curated_kneser_s_conjecture_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kneser%27s_conjecture
+  status_evidence:
+  - source_id: curated_kneser_s_conjecture_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kneser%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.kontsevich-s-homological-mirror-symmetry-full
+kind: problem
+title: Kontsevich's Homological Mirror Symmetry (Full)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove homological mirror symmetry for all Calabi-Yau manifolds.
+sources:
+  canonical:
+  - source_id: curated_kontsevich_s_homological_mirror_symmetry_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homological_mirror_symmetry
+  status_evidence:
+  - source_id: curated_kontsevich_s_homological_mirror_symmetry_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homological_mirror_symmetry
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.model-theory.ramsey-property-for-all-fraisse-classes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ramsey_property_for_all_fraisse_classes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ramsey Property for All Fraisse Classes. Determine which Fraisse classes
+  have the Ramsey property and establish a general classification.'
+parameters: {}

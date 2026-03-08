@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.bootstrap-bound-on-cft-data
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bootstrap_bound_on_cft_data_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bootstrap Bound on CFT Data. Determine optimal bootstrap bounds on operator
+  dimensions and OPE coefficients in 3D CFTs.'
+parameters: {}

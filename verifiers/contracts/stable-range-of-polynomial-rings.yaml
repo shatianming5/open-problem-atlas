@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.stable-range-of-polynomial-rings
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stable_range_of_polynomial_rings_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stable Range of Polynomial Rings. Determine the stable range of polynomial
+  rings over commutative Noetherian rings.'
+parameters: {}

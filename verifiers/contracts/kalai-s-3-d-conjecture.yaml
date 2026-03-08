@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.discrete-geometry.kalai-s-3-d-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kalai_s_3_d_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kalai''s 3^d Conjecture. Every centrally symmetric d-polytope has at least
+  3^d nonempty faces.'
+parameters: {}

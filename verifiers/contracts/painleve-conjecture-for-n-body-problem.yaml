@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.painleve-conjecture-for-n-body-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/painleve_conjecture_for_n_body_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Painleve Conjecture for N-Body Problem. Prove that non-collision singularities
+  exist in the Newtonian N-body problem for N >= 4.'
+parameters: {}

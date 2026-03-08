@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.zilber-pink-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/zilber_pink_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Zilber-Pink Conjecture. Does the Zilber-Pink conjecture hold for all semi-abelian
+  varieties, implying that unlikely intersections of subvarieties with special subvarieties are finite?'
+parameters: {}

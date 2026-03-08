@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.sle-and-conformal-loop-ensembles-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sle_and_conformal_loop_ensembles_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: SLE and Conformal Loop Ensembles in Higher Dimensions. Extend the theory
+  of Schramm-Loewner evolution and conformal loop ensembles beyond two dimensions.'
+parameters: {}

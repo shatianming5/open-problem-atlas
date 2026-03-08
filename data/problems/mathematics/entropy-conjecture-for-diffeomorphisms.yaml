@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.entropy-conjecture-for-diffeomorphisms
+kind: problem
+title: Entropy Conjecture for Diffeomorphisms
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the entropy conjecture relating the topological entropy to the spectral radius of the action on homology.
+sources:
+  canonical:
+  - source_id: curated_entropy_conjecture_for_diffeomorphisms
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_entropy
+  status_evidence:
+  - source_id: curated_entropy_conjecture_for_diffeomorphisms
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_entropy
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

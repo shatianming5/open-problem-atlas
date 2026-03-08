@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.daugavet-property-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/daugavet_property_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Daugavet Property Classification. Classify all Banach spaces with the Daugavet
+  property.'
+parameters: {}

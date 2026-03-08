@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.turing-degree-spectrum-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/turing_degree_spectrum_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Turing Degree Spectrum Problem. Characterize the possible degree spectra
+  of countable structures.'
+parameters: {}

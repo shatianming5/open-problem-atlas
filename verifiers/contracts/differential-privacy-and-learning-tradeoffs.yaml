@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.differential-privacy-and-learning-tradeoffs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/differential_privacy_and_learning_tradeoffs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Differential Privacy and Learning Tradeoffs. Determine the exact cost of
+  differential privacy for learning fundamental concept classes.'
+parameters: {}

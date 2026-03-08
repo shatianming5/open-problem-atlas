@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.matroid-theory.matroid-packing-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/matroid_packing_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Matroid Packing Conjecture. Any two matroids on the same ground set can
+  be packed if and only if they satisfy a natural density condition.'
+parameters: {}

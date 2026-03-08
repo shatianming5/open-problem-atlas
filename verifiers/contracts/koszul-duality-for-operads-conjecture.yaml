@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.homological-algebra.koszul-duality-for-operads-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/koszul_duality_for_operads_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Koszul Duality for Operads Conjecture. Koszul duality provides a derived
+  equivalence between categories of algebras over a Koszul operad and its dual.'
+parameters: {}

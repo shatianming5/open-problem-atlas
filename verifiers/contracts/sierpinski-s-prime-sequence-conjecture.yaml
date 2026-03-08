@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.sierpinski-s-prime-sequence-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sierpinski_s_prime_sequence_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sierpinski''s Prime Sequence Conjecture. For every integer k >= 2, there
+  exists a prime in the sequence k*2^n + 1 for some positive integer n.'
+parameters: {}

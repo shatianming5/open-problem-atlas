@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.functional-encryption-feasibility
+kind: problem
+title: Functional Encryption Feasibility
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct functional encryption for general functions from standard assumptions.
+sources:
+  canonical:
+  - source_id: curated_functional_encryption_feasibility
+    kind: website
+    url: https://en.wikipedia.org/wiki/Functional_encryption
+  status_evidence:
+  - source_id: curated_functional_encryption_feasibility
+    kind: website
+    url: https://en.wikipedia.org/wiki/Functional_encryption
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

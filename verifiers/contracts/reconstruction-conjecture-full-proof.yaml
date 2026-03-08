@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.reconstruction-conjecture-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/reconstruction_conjecture_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Reconstruction Conjecture (Full Proof). Every graph with at least 3 vertices
+  is determined up to isomorphism by its deck of vertex-deleted subgraphs.'
+parameters: {}

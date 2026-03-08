@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.inner-model-theory-for-supercompact-cardinals
+kind: problem
+title: Inner Model Theory for Supercompact Cardinals
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct canonical inner models for supercompact and larger large cardinals.
+sources:
+  canonical:
+  - source_id: curated_inner_model_theory_for_supercompact_cardinals
+    kind: website
+    url: https://en.wikipedia.org/wiki/Supercompact_cardinal
+  status_evidence:
+  - source_id: curated_inner_model_theory_for_supercompact_cardinals
+    kind: website
+    url: https://en.wikipedia.org/wiki/Supercompact_cardinal
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

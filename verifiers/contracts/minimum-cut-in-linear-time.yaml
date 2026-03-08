@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.minimum-cut-in-linear-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/minimum_cut_in_linear_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimum Cut in Linear Time. Find the minimum cut of an undirected graph
+  in O(m) time.'
+parameters: {}

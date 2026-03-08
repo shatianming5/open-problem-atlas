@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.equidistribution-of-hecke-eigenvalues
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/equidistribution_of_hecke_eigenvalues_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Equidistribution of Hecke Eigenvalues. Prove the Sato-Tate distribution
+  for Hecke eigenvalues of higher-rank automorphic forms.'
+parameters: {}

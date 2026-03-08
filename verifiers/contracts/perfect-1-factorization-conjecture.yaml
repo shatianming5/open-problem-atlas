@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.perfect-1-factorization-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/perfect_1_factorization_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Perfect 1-Factorization Conjecture. Prove that the complete graph K_{2n}
+  has a perfect 1-factorization for all n.'
+parameters: {}

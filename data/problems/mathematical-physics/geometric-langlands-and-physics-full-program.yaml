@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.geometric-langlands-and-physics-full-program
+kind: problem
+title: Geometric Langlands and Physics (Full Program)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the connection between the geometric Langlands program and N=4 super Yang-Mills theory.
+sources:
+  canonical:
+  - source_id: curated_geometric_langlands_and_physics_full_program
+    kind: website
+    url: https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence
+  status_evidence:
+  - source_id: curated_geometric_langlands_and_physics_full_program
+    kind: website
+    url: https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

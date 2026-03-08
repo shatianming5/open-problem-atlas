@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.thermodynamic-formalism-for-non-uniformly-hyperbolic-systems
+kind: problem
+title: Thermodynamic Formalism for Non-Uniformly Hyperbolic Systems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the thermodynamic formalism to non-uniformly hyperbolic dynamical systems.
+sources:
+  canonical:
+  - source_id: curated_thermodynamic_formalism_for_non_uniformly_hyperbolic_systems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Thermodynamic_formalism
+  status_evidence:
+  - source_id: curated_thermodynamic_formalism_for_non_uniformly_hyperbolic_systems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Thermodynamic_formalism
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

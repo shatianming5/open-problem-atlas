@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.ramsey-numbers-for-small-cases
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ramsey_numbers_for_small_cases_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ramsey Numbers for Small Cases. Determine R(5,5), R(4,6), and other small
+  diagonal and off-diagonal Ramsey numbers.'
+parameters: {}

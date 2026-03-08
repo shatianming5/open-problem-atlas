@@ -1,0 +1,32 @@
+id: opa.tcs.algorithms.optimal-string-matching-preprocessing
+kind: problem
+title: Optimal String Matching Preprocessing
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the optimal preprocessing time for exact string matching in the comparison model? Gaps remain between
+    known algorithms.
+sources:
+  canonical:
+  - source_id: src_knuth_morris_pratt_1977
+    kind: website
+    url: https://doi.org/10.1137/0206024
+  status_evidence:
+  - source_id: src_knuth_morris_pratt_1977
+    kind: website
+    url: https://doi.org/10.1137/0206024
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

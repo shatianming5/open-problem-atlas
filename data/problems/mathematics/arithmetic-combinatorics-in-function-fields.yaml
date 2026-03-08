@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.arithmetic-combinatorics-in-function-fields
+kind: problem
+title: Arithmetic Combinatorics in Function Fields
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop arithmetic combinatorics over function fields and its applications.
+sources:
+  canonical:
+  - source_id: curated_arithmetic_combinatorics_in_function_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arithmetic_combinatorics
+  status_evidence:
+  - source_id: curated_arithmetic_combinatorics_in_function_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arithmetic_combinatorics
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

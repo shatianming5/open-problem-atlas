@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.random-graph-threshold-functions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/random_graph_threshold_functions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Random Graph Threshold Functions. Determine sharp thresholds for all monotone
+  graph properties in random graphs.'
+parameters: {}

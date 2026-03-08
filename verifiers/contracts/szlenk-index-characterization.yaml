@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.szlenk-index-characterization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/szlenk_index_characterization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Szlenk Index Characterization. Characterize Banach spaces by their Szlenk
+  index.'
+parameters: {}

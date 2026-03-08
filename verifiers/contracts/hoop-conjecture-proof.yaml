@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.hoop-conjecture-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hoop_conjecture_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hoop Conjecture Proof. Prove the hoop conjecture: a black hole forms when,
+  and only when, a mass is compacted into a small enough region.'
+parameters: {}

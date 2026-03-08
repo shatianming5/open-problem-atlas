@@ -1,0 +1,31 @@
+id: opa.mathematics.approximation-theory.markov-brothers-inequality-extensions
+kind: problem
+title: Markov Brothers Inequality Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- approximation-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the Markov brothers' inequality for polynomial derivatives to higher dimensions and more general domains.
+sources:
+  canonical:
+  - source_id: src_markov_1889
+    kind: website
+    url: https://en.wikipedia.org/wiki/Markov_brothers%27_inequality
+  status_evidence:
+  - source_id: src_markov_1889
+    kind: website
+    url: https://en.wikipedia.org/wiki/Markov_brothers%27_inequality
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

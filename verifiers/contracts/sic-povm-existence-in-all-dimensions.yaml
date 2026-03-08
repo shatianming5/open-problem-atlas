@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.sic-povm-existence-in-all-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sic_povm_existence_in_all_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: SIC-POVM Existence in All Dimensions. Prove the existence of symmetric informationally
+  complete POVMs in all dimensions.'
+parameters: {}

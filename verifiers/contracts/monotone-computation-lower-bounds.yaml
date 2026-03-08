@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.monotone-computation-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/monotone_computation_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Monotone Computation Lower Bounds. Prove exponential lower bounds for monotone
+  Boolean formulas computing explicit functions.'
+parameters: {}

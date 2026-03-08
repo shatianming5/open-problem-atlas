@@ -1,0 +1,32 @@
+id: opa.tcs.complexity-theory.meta-complexity-connections
+kind: problem
+title: Meta-Complexity Connections
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Establish tight connections between meta-complexity problems (MCSP, Kolmogorov complexity) and standard complexity
+    classes.
+sources:
+  canonical:
+  - source_id: curated_meta_complexity_connections
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kolmogorov_complexity
+  status_evidence:
+  - source_id: curated_meta_complexity_connections
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kolmogorov_complexity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

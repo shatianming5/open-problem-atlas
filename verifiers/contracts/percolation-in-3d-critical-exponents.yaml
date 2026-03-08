@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.percolation-in-3d-critical-exponents
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/percolation_in_3d_critical_exponents_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Percolation in 3D Critical Exponents. Determine the exact critical exponents
+  for percolation in three dimensions.'
+parameters: {}

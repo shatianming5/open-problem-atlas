@@ -1,0 +1,31 @@
+id: opa.mathematics.set-theory.bagaria-s-c-extendible-cardinals-conjecture
+kind: problem
+title: Bagaria's C*-Extendible Cardinals Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- set-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: C*-extendible cardinals provide the exact consistency strength for Vopěnka's principle.
+sources:
+  canonical:
+  - source_id: src_bagaria_2012
+    kind: website
+    url: https://en.wikipedia.org/wiki/Vop%C4%9Bnka%27s_principle
+  status_evidence:
+  - source_id: src_bagaria_2012
+    kind: website
+    url: https://en.wikipedia.org/wiki/Vop%C4%9Bnka%27s_principle
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

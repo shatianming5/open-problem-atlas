@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.erdos-moser-equation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_moser_equation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Moser Equation. The only solution to 1^k + 2^k + ... + (m-1)^k = m^k
+  is 1 + 2 = 3.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.loop-quantum-gravity-semiclassical-limit
+kind: problem
+title: Loop Quantum Gravity Semiclassical Limit
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that loop quantum gravity reproduces general relativity in the semiclassical limit.
+sources:
+  canonical:
+  - source_id: curated_loop_quantum_gravity_semiclassical_limit
+    kind: website
+    url: https://en.wikipedia.org/wiki/Loop_quantum_gravity
+  status_evidence:
+  - source_id: curated_loop_quantum_gravity_semiclassical_limit
+    kind: website
+    url: https://en.wikipedia.org/wiki/Loop_quantum_gravity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

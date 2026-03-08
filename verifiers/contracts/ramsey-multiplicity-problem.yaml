@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.ramsey-multiplicity-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ramsey_multiplicity_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ramsey Multiplicity Problem. Determine the minimum number of monochromatic
+  copies of K_t in any 2-coloring of K_n.'
+parameters: {}

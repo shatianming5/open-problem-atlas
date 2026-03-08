@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.arithmetic-combinatorics-in-function-fields
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/arithmetic_combinatorics_in_function_fields_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Arithmetic Combinatorics in Function Fields. Develop arithmetic combinatorics
+  over function fields and its applications.'
+parameters: {}

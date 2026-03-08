@@ -1,0 +1,31 @@
+id: opa.mathematics.convex-geometry.banach-mazur-distance-conjecture
+kind: problem
+title: Banach-Mazur Distance Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- convex-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Banach-Mazur distance between any two n-dimensional symmetric convex bodies is at most n.
+sources:
+  canonical:
+  - source_id: src_gluskin_1981
+    kind: website
+    url: https://en.wikipedia.org/wiki/Banach%E2%80%93Mazur_compactum
+  status_evidence:
+  - source_id: src_gluskin_1981
+    kind: website
+    url: https://en.wikipedia.org/wiki/Banach%E2%80%93Mazur_compactum
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

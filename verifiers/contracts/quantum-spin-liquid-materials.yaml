@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.quantum-spin-liquid-materials
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_spin_liquid_materials_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Spin Liquid Materials. Prove the existence of quantum spin liquid
+  ground states in realistic materials.'
+parameters: {}

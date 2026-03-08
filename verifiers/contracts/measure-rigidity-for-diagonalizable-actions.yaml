@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.measure-rigidity-for-diagonalizable-actions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/measure_rigidity_for_diagonalizable_actions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Measure Rigidity for Diagonalizable Actions. Classify all invariant measures
+  for diagonalizable algebraic group actions.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.approximation-theory.markov-brothers-inequality-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/markov_brothers_inequality_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Markov Brothers Inequality Extensions. Extend the Markov brothers'' inequality
+  for polynomial derivatives to higher dimensions and more general domains.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.daugavet-property-classification
+kind: problem
+title: Daugavet Property Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify all Banach spaces with the Daugavet property.
+sources:
+  canonical:
+  - source_id: curated_daugavet_property_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Daugavet_property
+  status_evidence:
+  - source_id: curated_daugavet_property_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Daugavet_property
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

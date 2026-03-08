@@ -1,0 +1,32 @@
+id: opa.tcs.cryptography.random-oracle-model-vs-standard-model-gap
+kind: problem
+title: Random Oracle Model vs Standard Model Gap
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize which constructions proven secure in the random oracle model can be instantiated in the standard
+    model.
+sources:
+  canonical:
+  - source_id: curated_random_oracle_model_vs_standard_model_gap
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_oracle
+  status_evidence:
+  - source_id: curated_random_oracle_model_vs_standard_model_gap
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_oracle
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

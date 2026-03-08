@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.sorting-optimality-for-integers
+kind: problem
+title: Sorting Optimality for Integers
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal complexity of sorting n integers in the word RAM model.
+sources:
+  canonical:
+  - source_id: curated_sorting_optimality_for_integers
+    kind: website
+    url: https://en.wikipedia.org/wiki/Integer_sorting
+  status_evidence:
+  - source_id: curated_sorting_optimality_for_integers
+    kind: website
+    url: https://en.wikipedia.org/wiki/Integer_sorting
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.beal-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/beal_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Beal''s Conjecture. If a^x + b^y = c^z where a,b,c,x,y,z are positive integers
+  with x,y,z > 2, then a,b,c share a common prime factor.'
+parameters: {}

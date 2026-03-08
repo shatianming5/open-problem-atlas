@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.waring-s-problem-for-fourth-powers
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/waring_s_problem_for_fourth_powers_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Waring''s Problem for Fourth Powers. Determine the exact value of g(4) in
+  Waring''s problem: every sufficiently large integer is a sum of at most g(4) fourth powers.'
+parameters: {}

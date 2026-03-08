@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.stein-manifold-characterizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stein_manifold_characterizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stein Manifold Characterizations. Develop new characterizations of Stein
+  manifolds relevant to complex geometry.'
+parameters: {}

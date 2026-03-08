@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.fluctuation-theorems-far-from-equilibrium
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fluctuation_theorems_far_from_equilibrium_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fluctuation Theorems Far From Equilibrium. Extend fluctuation theorems to
+  systems far from equilibrium with strong driving.'
+parameters: {}

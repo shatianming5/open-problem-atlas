@@ -1,0 +1,32 @@
+id: opa.mathematics.probability.aldous-spectral-gap-conjecture-extensions
+kind: problem
+title: Aldous' Spectral Gap Conjecture (Extensions)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: While Aldous' conjecture that the spectral gap of the random walk on the symmetric group equals the spectral
+    gap of the corresponding random transposition walk was proven, extensions to other groups remain open.
+sources:
+  canonical:
+  - source_id: src_caputo_2010
+    kind: website
+    url: https://arxiv.org/abs/0906.1238
+  status_evidence:
+  - source_id: src_caputo_2010
+    kind: website
+    url: https://arxiv.org/abs/0906.1238
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.homological-algebra.wakamatsu-tilting-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/wakamatsu_tilting_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Wakamatsu Tilting Conjecture. Every Wakamatsu tilting module is a tilting
+  module (i.e., has finite projective dimension).'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.external-memory-sorting-optimality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/external_memory_sorting_optimality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: External Memory Sorting Optimality. Prove that the sorting complexity in
+  the external memory model is Theta(N/B * log_{M/B}(N/B)) I/Os.'
+parameters: {}

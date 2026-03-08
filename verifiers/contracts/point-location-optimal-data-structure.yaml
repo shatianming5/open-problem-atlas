@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.point-location-optimal-data-structure
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/point_location_optimal_data_structure_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Point Location Optimal Data Structure. Determine optimal preprocessing and
+  query time tradeoffs for point location in planar subdivisions.'
+parameters: {}

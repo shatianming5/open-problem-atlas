@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.primes-in-short-intervals
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/primes_in_short_intervals_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Primes in Short Intervals. Prove that the interval [x, x + x^theta] contains
+  a prime for theta = 1/2 + epsilon.'
+parameters: {}

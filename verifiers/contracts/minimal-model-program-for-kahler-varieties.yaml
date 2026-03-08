@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.minimal-model-program-for-kahler-varieties
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/minimal_model_program_for_kahler_varieties_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimal Model Program for Kahler Varieties. Extend the minimal model program
+  to compact Kahler manifolds that are not necessarily projective.'
+parameters: {}

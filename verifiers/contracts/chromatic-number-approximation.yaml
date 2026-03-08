@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.chromatic-number-approximation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chromatic_number_approximation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chromatic Number Approximation. Determine the best polynomial-time approximation
+  ratio for the chromatic number.'
+parameters: {}

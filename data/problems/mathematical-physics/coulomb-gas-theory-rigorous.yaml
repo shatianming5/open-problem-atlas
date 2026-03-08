@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.coulomb-gas-theory-rigorous
+kind: problem
+title: Coulomb Gas Theory Rigorous
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a rigorous mathematical theory of the two-dimensional Coulomb gas.
+sources:
+  canonical:
+  - source_id: curated_coulomb_gas_theory_rigorous
+    kind: website
+    url: https://en.wikipedia.org/wiki/Coulomb_gas
+  status_evidence:
+  - source_id: curated_coulomb_gas_theory_rigorous
+    kind: website
+    url: https://en.wikipedia.org/wiki/Coulomb_gas
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.permanent-vs-determinant
+kind: problem
+title: Permanent vs Determinant
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove a superpolynomial lower bound on the determinantal complexity of the permanent.
+sources:
+  canonical:
+  - source_id: curated_permanent_vs_determinant
+    kind: website
+    url: https://en.wikipedia.org/wiki/Permanent_(mathematics)
+  status_evidence:
+  - source_id: curated_permanent_vs_determinant
+    kind: website
+    url: https://en.wikipedia.org/wiki/Permanent_(mathematics)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

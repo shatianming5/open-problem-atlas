@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.existence-of-siegel-zeros
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_siegel_zeros_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Siegel Zeros. Prove or disprove the existence of Siegel zeros:
+  real zeros of L-functions close to s = 1.'
+parameters: {}

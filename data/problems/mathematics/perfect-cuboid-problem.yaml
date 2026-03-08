@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.perfect-cuboid-problem
+kind: problem
+title: Perfect Cuboid Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does a rectangular parallelepiped exist with all edges, face diagonals, and space diagonal having integer lengths?
+sources:
+  canonical:
+  - source_id: src_butler_2020
+    kind: website
+    url: https://mathoverflow.net/questions/131714
+  status_evidence:
+  - source_id: src_butler_2020
+    kind: website
+    url: https://mathoverflow.net/questions/131714
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.friedman-s-grand-conjecture
+kind: problem
+title: Friedman's Grand Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the proof-theoretic ordinals of all natural mathematical theories.
+sources:
+  canonical:
+  - source_id: curated_friedman_s_grand_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Harvey_Friedman
+  status_evidence:
+  - source_id: curated_friedman_s_grand_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Harvey_Friedman
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

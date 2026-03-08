@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.birch-and-swinnerton-dyer-conjecture-for-higher-rank
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/birch_and_swinnerton_dyer_conjecture_for_higher_rank_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Birch and Swinnerton-Dyer Conjecture for Higher Rank. Can the Birch and
+  Swinnerton-Dyer conjecture be proved for elliptic curves of analytic rank greater than 1?'
+parameters: {}

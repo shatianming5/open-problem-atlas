@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.cosmic-no-hair-conjecture-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cosmic_no_hair_conjecture_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cosmic No-Hair Conjecture Proof. Prove that all expanding universes with
+  a positive cosmological constant approach de Sitter space.'
+parameters: {}

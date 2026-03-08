@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.representation-theory.james-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/james_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: James Conjecture. For the symmetric group, decomposition numbers can be
+  computed from the canonical basis of a Fock space when the prime p is at least as large as the weight of the block.'
+parameters: {}

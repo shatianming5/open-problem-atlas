@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.apery-like-sequences
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/apery_like_sequences_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Apery-like Sequences. Find new Apery-like sequences proving irrationality
+  of other constants.'
+parameters: {}

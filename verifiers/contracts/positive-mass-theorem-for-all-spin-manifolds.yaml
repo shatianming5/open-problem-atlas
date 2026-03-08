@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.positive-mass-theorem-for-all-spin-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/positive_mass_theorem_for_all_spin_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Positive Mass Theorem for All Spin Manifolds. Prove the positive mass theorem
+  for asymptotically flat manifolds in all dimensions without the spin assumption.'
+parameters: {}

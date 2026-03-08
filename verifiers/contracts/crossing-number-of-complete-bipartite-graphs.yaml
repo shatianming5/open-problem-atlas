@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.crossing-number-of-complete-bipartite-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/crossing_number_of_complete_bipartite_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Crossing Number of Complete Bipartite Graphs. Determine the exact crossing
+  number of K_{m,n} (Zarankiewicz''s conjecture).'
+parameters: {}

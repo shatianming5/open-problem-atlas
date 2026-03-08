@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.algebraic-natural-proofs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/algebraic_natural_proofs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Algebraic Natural Proofs. Determine whether algebraic natural proofs barrier
+  applies to algebraic circuit complexity.'
+parameters: {}

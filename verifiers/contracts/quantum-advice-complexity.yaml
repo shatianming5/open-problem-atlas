@@ -1,0 +1,11 @@
+problem_id: opa.tcs.quantum-computing.quantum-advice-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_advice_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Advice Complexity. Determine the power of quantum advice for computation.'
+parameters: {}

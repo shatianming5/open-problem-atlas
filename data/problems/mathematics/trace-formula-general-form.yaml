@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.trace-formula-general-form
+kind: problem
+title: Trace Formula General Form
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the fundamental lemma in full generality and complete the stabilization of the trace formula.
+sources:
+  canonical:
+  - source_id: curated_trace_formula_general_form
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arthur%E2%80%93Selberg_trace_formula
+  status_evidence:
+  - source_id: curated_trace_formula_general_form
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arthur%E2%80%93Selberg_trace_formula
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

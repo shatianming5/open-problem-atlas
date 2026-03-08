@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.lagrangian-submanifolds-in-calabi-yau-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lagrangian_submanifolds_in_calabi_yau_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lagrangian Submanifolds in Calabi-Yau Manifolds. Classify special Lagrangian
+  submanifolds in Calabi-Yau manifolds.'
+parameters: {}

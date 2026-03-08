@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.black-hole-uniqueness-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/black_hole_uniqueness_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Black Hole Uniqueness in Higher Dimensions. Classify all stationary black
+  hole solutions in higher-dimensional general relativity.'
+parameters: {}

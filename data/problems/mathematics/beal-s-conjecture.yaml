@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.beal-s-conjecture
+kind: problem
+title: Beal's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: If a^x + b^y = c^z where a,b,c,x,y,z are positive integers with x,y,z > 2, then a,b,c share a common prime factor.
+sources:
+  canonical:
+  - source_id: curated_beal_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Beal_conjecture
+  status_evidence:
+  - source_id: curated_beal_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Beal_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.equidistribution-of-hecke-eigenvalues
+kind: problem
+title: Equidistribution of Hecke Eigenvalues
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Sato-Tate distribution for Hecke eigenvalues of higher-rank automorphic forms.
+sources:
+  canonical:
+  - source_id: curated_equidistribution_of_hecke_eigenvalues
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sato%E2%80%93Tate_conjecture
+  status_evidence:
+  - source_id: curated_equidistribution_of_hecke_eigenvalues
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sato%E2%80%93Tate_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

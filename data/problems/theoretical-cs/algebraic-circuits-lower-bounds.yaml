@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.algebraic-circuits-lower-bounds
+kind: problem
+title: Algebraic Circuits Lower Bounds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove superpolynomial lower bounds for algebraic circuits computing explicit polynomials.
+sources:
+  canonical:
+  - source_id: curated_algebraic_circuits_lower_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arithmetic_circuit_complexity
+  status_evidence:
+  - source_id: curated_algebraic_circuits_lower_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arithmetic_circuit_complexity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

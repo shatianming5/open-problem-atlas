@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.contact-structures-classification
+kind: problem
+title: Contact Structures Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify contact structures on 3-manifolds beyond the tight/overtwisted dichotomy.
+sources:
+  canonical:
+  - source_id: curated_contact_structures_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Contact_geometry
+  status_evidence:
+  - source_id: curated_contact_structures_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Contact_geometry
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

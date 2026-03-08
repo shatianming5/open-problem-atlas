@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.bouniakowsky-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bouniakowsky_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bouniakowsky Conjecture. Every irreducible polynomial with integer coefficients
+  and positive leading coefficient takes on infinitely many prime values.'
+parameters: {}

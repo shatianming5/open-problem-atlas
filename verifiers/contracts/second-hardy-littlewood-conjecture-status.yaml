@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.second-hardy-littlewood-conjecture-status
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/second_hardy_littlewood_conjecture_status_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Second Hardy-Littlewood Conjecture Status. Determine whether pi(x+y) <=
+  pi(x) + pi(y) for all x,y >= 2.'
+parameters: {}

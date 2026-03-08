@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.bkl-conjecture-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bkl_conjecture_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: BKL Conjecture Proof. Prove the Belinski-Khalatnikov-Lifshitz conjecture
+  on the structure of cosmological singularities.'
+parameters: {}

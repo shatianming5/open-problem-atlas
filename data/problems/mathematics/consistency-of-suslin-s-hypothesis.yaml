@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.consistency-of-suslin-s-hypothesis
+kind: problem
+title: Consistency of Suslin's Hypothesis
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact consistency strength of Suslin's Hypothesis.
+sources:
+  canonical:
+  - source_id: curated_consistency_of_suslin_s_hypothesis
+    kind: website
+    url: https://en.wikipedia.org/wiki/Suslin%27s_problem
+  status_evidence:
+  - source_id: curated_consistency_of_suslin_s_hypothesis
+    kind: website
+    url: https://en.wikipedia.org/wiki/Suslin%27s_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

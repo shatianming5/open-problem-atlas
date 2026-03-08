@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.primes-in-arithmetic-progressions-gaps
+kind: problem
+title: Primes in Arithmetic Progressions Gaps
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the distribution of gaps between primes in arithmetic progressions.
+sources:
+  canonical:
+  - source_id: curated_primes_in_arithmetic_progressions_gaps
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_primes_in_arithmetic_progressions
+  status_evidence:
+  - source_id: curated_primes_in_arithmetic_progressions_gaps
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_primes_in_arithmetic_progressions
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

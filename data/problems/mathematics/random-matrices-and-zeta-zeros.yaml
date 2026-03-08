@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.random-matrices-and-zeta-zeros
+kind: problem
+title: Random Matrices and Zeta Zeros
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Rigorously prove the connection between random matrix theory eigenvalue statistics and Riemann zeta zero spacing.
+sources:
+  canonical:
+  - source_id: curated_random_matrices_and_zeta_zeros
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_matrix
+  status_evidence:
+  - source_id: curated_random_matrices_and_zeta_zeros
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_matrix
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

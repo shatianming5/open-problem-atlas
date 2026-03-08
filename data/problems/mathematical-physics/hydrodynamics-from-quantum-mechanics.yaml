@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.hydrodynamics-from-quantum-mechanics
+kind: problem
+title: Hydrodynamics from Quantum Mechanics
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Derive hydrodynamic equations rigorously from quantum mechanical first principles.
+sources:
+  canonical:
+  - source_id: curated_hydrodynamics_from_quantum_mechanics
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_hydrodynamics
+  status_evidence:
+  - source_id: curated_hydrodynamics_from_quantum_mechanics
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_hydrodynamics
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

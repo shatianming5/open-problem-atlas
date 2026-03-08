@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.hormander-s-l-2-estimates-extensions
+kind: problem
+title: Hormander's L^2 Estimates Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend Hormander's L^2 estimates for the d-bar operator to singular metrics.
+sources:
+  canonical:
+  - source_id: curated_hormander_s_l_2_estimates_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lars_H%C3%B6rmander
+  status_evidence:
+  - source_id: curated_hormander_s_l_2_estimates_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lars_H%C3%B6rmander
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

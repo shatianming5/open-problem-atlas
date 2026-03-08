@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.ramsey-theory-for-infinite-structures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ramsey_theory_for_infinite_structures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ramsey Theory for Infinite Structures. Develop Ramsey theory for infinite
+  combinatorial structures beyond partition regularity.'
+parameters: {}

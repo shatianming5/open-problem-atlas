@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.convex-hull-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/convex_hull_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Convex Hull in Higher Dimensions. Determine optimal algorithms for computing
+  convex hulls in dimensions d >= 4.'
+parameters: {}

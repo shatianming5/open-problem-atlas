@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.erdos-gallai-conjecture-on-cycles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_gallai_conjecture_on_cycles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Gallai Conjecture on Cycles. Every graph on n vertices with more than
+  (k-1)(n-1)/2 edges contains a cycle of length at least k.'
+parameters: {}

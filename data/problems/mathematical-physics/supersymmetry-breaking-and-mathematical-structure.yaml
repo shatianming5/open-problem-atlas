@@ -1,0 +1,32 @@
+id: opa.phys.supersymmetry.supersymmetry-breaking-and-mathematical-structure
+kind: problem
+title: Supersymmetry Breaking and Mathematical Structure
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- supersymmetry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can spontaneous supersymmetry breaking be rigorously established in any 4D supersymmetric quantum field theory
+    using constructive field theory methods?
+sources:
+  canonical:
+  - source_id: src_witten_2022
+    kind: website
+    url: https://arxiv.org/abs/2209.07454
+  status_evidence:
+  - source_id: src_witten_2022
+    kind: website
+    url: https://arxiv.org/abs/2209.07454
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

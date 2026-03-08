@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.information-scrambling-lower-bounds
+kind: problem
+title: Information Scrambling Lower Bounds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove lower bounds on information scrambling time in quantum systems.
+sources:
+  canonical:
+  - source_id: curated_information_scrambling_lower_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_information_scrambling
+  status_evidence:
+  - source_id: curated_information_scrambling_lower_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_information_scrambling
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

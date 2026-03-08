@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.zilber-pink-conjecture
+kind: problem
+title: Zilber-Pink Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does the Zilber-Pink conjecture hold for all semi-abelian varieties, implying that unlikely intersections of
+    subvarieties with special subvarieties are finite?
+sources:
+  canonical:
+  - source_id: src_zannier_2022
+    kind: website
+    url: https://arxiv.org/abs/2209.04981
+  status_evidence:
+  - source_id: src_zannier_2022
+    kind: website
+    url: https://arxiv.org/abs/2209.04981
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

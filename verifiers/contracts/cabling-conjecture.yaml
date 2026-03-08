@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.cabling-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cabling_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cabling Conjecture. If Dehn surgery on a knot yields a reducible manifold,
+  the knot is a cable knot.'
+parameters: {}

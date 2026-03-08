@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.neural-network-learnability-theory
+kind: problem
+title: Neural Network Learnability Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize the computational complexity of learning neural networks with various architectures.
+sources:
+  canonical:
+  - source_id: curated_neural_network_learnability_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Artificial_neural_network
+  status_evidence:
+  - source_id: curated_neural_network_learnability_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Artificial_neural_network
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.carleson-s-theorem-in-higher-dimensions
+kind: problem
+title: Carleson's Theorem in Higher Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does pointwise convergence of Fourier series hold for L^2 functions in dimensions greater than 1?
+sources:
+  canonical:
+  - source_id: curated_carleson_s_theorem_in_higher_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Carleson%27s_theorem
+  status_evidence:
+  - source_id: curated_carleson_s_theorem_in_higher_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Carleson%27s_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

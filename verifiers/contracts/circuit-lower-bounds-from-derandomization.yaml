@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.circuit-lower-bounds-from-derandomization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/circuit_lower_bounds_from_derandomization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Circuit Lower Bounds from Derandomization. Prove that derandomization implies
+  circuit lower bounds and vice versa.'
+parameters: {}

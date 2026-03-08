@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.borel-equivalence-relations-classification
+kind: problem
+title: Borel Equivalence Relations Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the classification of Borel equivalence relations under Borel reducibility.
+sources:
+  canonical:
+  - source_id: curated_borel_equivalence_relations_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Borel_equivalence_relation
+  status_evidence:
+  - source_id: curated_borel_equivalence_relations_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Borel_equivalence_relation
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

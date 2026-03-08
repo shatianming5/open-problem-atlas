@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.mckay-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mckay_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: McKay Conjecture. The number of irreducible characters of a finite group
+  G of degree coprime to p equals that of the normalizer of a Sylow p-subgroup.'
+parameters: {}

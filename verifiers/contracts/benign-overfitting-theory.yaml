@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.benign-overfitting-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/benign_overfitting_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Benign Overfitting Theory. Develop a complete theory explaining when and
+  why interpolation leads to good generalization.'
+parameters: {}

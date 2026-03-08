@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.coulomb-gas-theory-rigorous
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/coulomb_gas_theory_rigorous_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Coulomb Gas Theory Rigorous. Develop a rigorous mathematical theory of the
+  two-dimensional Coulomb gas.'
+parameters: {}

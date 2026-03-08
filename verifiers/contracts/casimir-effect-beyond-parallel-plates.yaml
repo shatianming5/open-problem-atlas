@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.casimir-effect-beyond-parallel-plates
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/casimir_effect_beyond_parallel_plates_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Casimir Effect Beyond Parallel Plates. Compute the Casimir effect for general
+  geometries.'
+parameters: {}

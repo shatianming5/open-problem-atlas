@@ -1,0 +1,31 @@
+id: opa.mathematics.algebraic-geometry.griffiths-conjecture-on-positive-vector-bundles
+kind: problem
+title: Griffiths Conjecture on Positive Vector Bundles
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebraic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: An ample vector bundle on a compact complex manifold is Griffiths positive.
+sources:
+  canonical:
+  - source_id: src_griffiths_1969
+    kind: website
+    url: https://en.wikipedia.org/wiki/Griffiths_conjecture
+  status_evidence:
+  - source_id: src_griffiths_1969
+    kind: website
+    url: https://en.wikipedia.org/wiki/Griffiths_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.3d-ising-model-exact-solution
+kind: problem
+title: 3D Ising Model Exact Solution
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find an exact solution for the 3D Ising model partition function.
+sources:
+  canonical:
+  - source_id: curated_3d_ising_model_exact_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ising_model
+  status_evidence:
+  - source_id: curated_3d_ising_model_exact_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ising_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

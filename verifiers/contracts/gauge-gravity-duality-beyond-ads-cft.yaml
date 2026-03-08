@@ -1,0 +1,12 @@
+problem_id: opa.phys.holography.gauge-gravity-duality-beyond-ads-cft
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gauge_gravity_duality_beyond_ads_cft_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gauge-Gravity Duality Beyond AdS/CFT. Can gauge-gravity duality be rigorously
+  extended to de Sitter space or flat space, providing a non-perturbative definition of quantum gravity in cosmological settings?'
+parameters: {}

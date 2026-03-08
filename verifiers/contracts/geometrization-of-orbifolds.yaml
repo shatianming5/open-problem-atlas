@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.geometrization-of-orbifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/geometrization_of_orbifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Geometrization of Orbifolds. Extend Perelman''s geometrization theorem to
+  3-orbifolds.'
+parameters: {}

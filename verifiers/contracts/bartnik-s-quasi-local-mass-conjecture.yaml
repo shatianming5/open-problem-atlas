@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.bartnik-s-quasi-local-mass-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bartnik_s_quasi_local_mass_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bartnik''s Quasi-Local Mass Conjecture. Prove that Bartnik''s quasi-local
+  mass equals the infimum of the ADM mass over admissible extensions.'
+parameters: {}

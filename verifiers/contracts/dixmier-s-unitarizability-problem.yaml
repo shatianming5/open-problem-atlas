@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.operator-algebras.dixmier-s-unitarizability-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dixmier_s_unitarizability_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dixmier''s Unitarizability Problem. Is every countable group whose representations
+  are all unitarizable necessarily amenable?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.extremal-graph-theory-tight-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/extremal_graph_theory_tight_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Extremal Graph Theory Tight Bounds. Determine tight Turan-type bounds for
+  forbidden subgraphs beyond complete bipartite graphs.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.page-curve-from-microscopic-theory
+kind: problem
+title: Page Curve from Microscopic Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Derive the Page curve for black hole evaporation from a microscopic theory of quantum gravity.
+sources:
+  canonical:
+  - source_id: curated_page_curve_from_microscopic_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Page_curve
+  status_evidence:
+  - source_id: curated_page_curve_from_microscopic_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Page_curve
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

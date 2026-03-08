@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.distributed-matching-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distributed_matching_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distributed Matching Complexity. Determine the round complexity of distributed
+  maximum matching.'
+parameters: {}

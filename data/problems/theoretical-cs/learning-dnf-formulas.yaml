@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.learning-dnf-formulas
+kind: problem
+title: Learning DNF Formulas
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether DNF formulas are efficiently PAC-learnable.
+sources:
+  canonical:
+  - source_id: curated_learning_dnf_formulas
+    kind: website
+    url: https://en.wikipedia.org/wiki/Disjunctive_normal_form
+  status_evidence:
+  - source_id: curated_learning_dnf_formulas
+    kind: website
+    url: https://en.wikipedia.org/wiki/Disjunctive_normal_form
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

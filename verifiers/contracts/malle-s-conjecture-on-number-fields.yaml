@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.malle-s-conjecture-on-number-fields
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/malle_s_conjecture_on_number_fields_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Malle''s Conjecture on Number Fields. The number of number fields with Galois
+  group G and discriminant bounded by X grows as c*X^a*(log X)^b for specific a, b depending on G.'
+parameters: {}

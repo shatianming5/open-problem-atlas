@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.functional-inequalities-on-random-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/functional_inequalities_on_random_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Functional Inequalities on Random Graphs. Determine the optimal Poincare
+  and log-Sobolev constants for random graphs.'
+parameters: {}

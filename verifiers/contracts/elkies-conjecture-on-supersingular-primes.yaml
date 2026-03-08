@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.elkies-conjecture-on-supersingular-primes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/elkies_conjecture_on_supersingular_primes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Elkies'' Conjecture on Supersingular Primes. Prove that the density of supersingular
+  primes for a non-CM elliptic curve is zero.'
+parameters: {}

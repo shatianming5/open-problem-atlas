@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.de-polignac-s-formula-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/de_polignac_s_formula_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: de Polignac''s Formula Extensions. Extend precise formulas for the p-adic
+  valuation of factorials to more general arithmetic functions.'
+parameters: {}

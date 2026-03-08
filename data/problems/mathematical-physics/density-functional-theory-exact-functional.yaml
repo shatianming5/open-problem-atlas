@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.density-functional-theory-exact-functional
+kind: problem
+title: Density Functional Theory Exact Functional
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact exchange-correlation functional in density functional theory.
+sources:
+  canonical:
+  - source_id: curated_density_functional_theory_exact_functional
+    kind: website
+    url: https://en.wikipedia.org/wiki/Density_functional_theory
+  status_evidence:
+  - source_id: curated_density_functional_theory_exact_functional
+    kind: website
+    url: https://en.wikipedia.org/wiki/Density_functional_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

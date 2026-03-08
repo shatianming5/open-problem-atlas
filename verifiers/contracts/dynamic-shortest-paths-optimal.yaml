@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.dynamic-shortest-paths-optimal
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dynamic_shortest_paths_optimal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamic Shortest Paths Optimal. Determine the optimal update time for maintaining
+  shortest paths in dynamic graphs.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.moduli-stabilization-in-string-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/moduli_stabilization_in_string_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Moduli Stabilization in String Theory. Can all moduli in a string compactification
+  be rigorously stabilized in a de Sitter vacuum with small positive cosmological constant?'
+parameters: {}

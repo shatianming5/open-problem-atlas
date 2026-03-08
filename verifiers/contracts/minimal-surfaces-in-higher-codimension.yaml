@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.minimal-surfaces-in-higher-codimension
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/minimal_surfaces_in_higher_codimension_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimal Surfaces in Higher Codimension. Develop the theory of minimal surfaces
+  in codimension > 1.'
+parameters: {}

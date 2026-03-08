@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.verifiable-computation-optimal-efficiency
+kind: problem
+title: Verifiable Computation Optimal Efficiency
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Design verifiable computation schemes with optimal prover and verifier efficiency.
+sources:
+  canonical:
+  - source_id: curated_verifiable_computation_optimal_efficiency
+    kind: website
+    url: https://en.wikipedia.org/wiki/Verifiable_computing
+  status_evidence:
+  - source_id: curated_verifiable_computation_optimal_efficiency
+    kind: website
+    url: https://en.wikipedia.org/wiki/Verifiable_computing
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

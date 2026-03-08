@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.bound-entanglement-distillation
+kind: problem
+title: Bound Entanglement Distillation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether PPT bound entangled states can be activated for quantum key distribution.
+sources:
+  canonical:
+  - source_id: curated_bound_entanglement_distillation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bound_entanglement
+  status_evidence:
+  - source_id: curated_bound_entanglement_distillation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bound_entanglement
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

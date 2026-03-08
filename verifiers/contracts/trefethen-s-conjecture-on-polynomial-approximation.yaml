@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.numerical-analysis.trefethen-s-conjecture-on-polynomial-approximation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/trefethen_s_conjecture_on_polynomial_approximation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Trefethen''s Conjecture on Polynomial Approximation. The rate of convergence
+  of polynomial approximations on general regions is determined by the Green''s function.'
+parameters: {}

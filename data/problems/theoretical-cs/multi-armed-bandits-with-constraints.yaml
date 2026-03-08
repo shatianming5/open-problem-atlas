@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.multi-armed-bandits-with-constraints
+kind: problem
+title: Multi-Armed Bandits with Constraints
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal regret for multi-armed bandits with various constraint types.
+sources:
+  canonical:
+  - source_id: curated_multi_armed_bandits_with_constraints
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multi-armed_bandit
+  status_evidence:
+  - source_id: curated_multi_armed_bandits_with_constraints
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multi-armed_bandit
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

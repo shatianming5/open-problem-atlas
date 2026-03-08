@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.lasserre-hierarchy-for-optimization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lasserre_hierarchy_for_optimization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lasserre Hierarchy for Optimization. Determine the exact power of the Lasserre/SOS
+  hierarchy for combinatorial optimization.'
+parameters: {}

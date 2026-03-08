@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.erdos-renyi-random-graph-phase-transition-sharpness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_renyi_random_graph_phase_transition_sharpness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Renyi Random Graph Phase Transition Sharpness. Prove sharp thresholds
+  for all monotone properties in Erdos-Renyi random graphs.'
+parameters: {}

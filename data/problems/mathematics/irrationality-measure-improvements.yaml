@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.irrationality-measure-improvements
+kind: problem
+title: Irrationality Measure Improvements
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Improve the known irrationality measures for pi, e, and other transcendental constants.
+sources:
+  canonical:
+  - source_id: curated_irrationality_measure_improvements
+    kind: website
+    url: https://en.wikipedia.org/wiki/Irrationality_measure
+  status_evidence:
+  - source_id: curated_irrationality_measure_improvements
+    kind: website
+    url: https://en.wikipedia.org/wiki/Irrationality_measure
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

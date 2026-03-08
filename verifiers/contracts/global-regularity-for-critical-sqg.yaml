@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.global-regularity-for-critical-sqg
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/global_regularity_for_critical_sqg_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Global Regularity for Critical SQG. Prove global regularity for the critical
+  surface quasi-geostrophic equation.'
+parameters: {}

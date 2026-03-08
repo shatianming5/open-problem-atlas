@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.transfer-learning-theory
+kind: problem
+title: Transfer Learning Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a rigorous theory of when and how transfer learning provably helps.
+sources:
+  canonical:
+  - source_id: curated_transfer_learning_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Transfer_learning
+  status_evidence:
+  - source_id: curated_transfer_learning_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Transfer_learning
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

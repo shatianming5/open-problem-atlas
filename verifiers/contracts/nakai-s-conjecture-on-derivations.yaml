@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.nakai-s-conjecture-on-derivations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nakai_s_conjecture_on_derivations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nakai''s Conjecture on Derivations. If every derivation of a commutative
+  ring R is inner, then R is a polynomial ring.'
+parameters: {}

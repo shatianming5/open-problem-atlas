@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.hierarchy-problem-from-string-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hierarchy_problem_from_string_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hierarchy Problem from String Theory. Explain the hierarchy between the
+  electroweak and Planck scales from string theory.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.ham-sandwich-cuts-in-high-dimensions
+kind: problem
+title: Ham-Sandwich Cuts in High Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find optimal algorithms for computing ham-sandwich cuts in high dimensions.
+sources:
+  canonical:
+  - source_id: curated_ham_sandwich_cuts_in_high_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ham_sandwich_theorem
+  status_evidence:
+  - source_id: curated_ham_sandwich_cuts_in_high_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ham_sandwich_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

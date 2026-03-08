@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.catalan-s-mersenne-number-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/catalan_s_mersenne_number_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Catalan''s Mersenne Number Conjecture. In the sequence 2, M_2=3, M_3=7,
+  M_7=127, M_{127}=..., every term is prime.'
+parameters: {}

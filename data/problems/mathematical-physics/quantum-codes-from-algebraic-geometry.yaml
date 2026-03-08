@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.quantum-codes-from-algebraic-geometry
+kind: problem
+title: Quantum Codes from Algebraic Geometry
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct optimal quantum error correcting codes using algebraic geometry.
+sources:
+  canonical:
+  - source_id: curated_quantum_codes_from_algebraic_geometry
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_error_correction
+  status_evidence:
+  - source_id: curated_quantum_codes_from_algebraic_geometry
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_error_correction
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.multi-party-key-exchange-efficiency
+kind: problem
+title: Multi-Party Key Exchange Efficiency
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct efficient non-interactive multi-party key exchange protocols.
+sources:
+  canonical:
+  - source_id: curated_multi_party_key_exchange_efficiency
+    kind: website
+    url: https://en.wikipedia.org/wiki/Key_exchange
+  status_evidence:
+  - source_id: curated_multi_party_key_exchange_efficiency
+    kind: website
+    url: https://en.wikipedia.org/wiki/Key_exchange
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

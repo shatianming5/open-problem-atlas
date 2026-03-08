@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.spectral-algebraic-geometry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/spectral_algebraic_geometry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Spectral Algebraic Geometry. Develop spectral algebraic geometry and its
+  applications to stable homotopy theory.'
+parameters: {}

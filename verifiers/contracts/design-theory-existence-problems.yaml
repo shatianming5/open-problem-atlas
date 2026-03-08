@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.design-theory-existence-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/design_theory_existence_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Design Theory Existence Problems. Determine the existence of designs with
+  given parameters, extending Wilson''s theorem.'
+parameters: {}

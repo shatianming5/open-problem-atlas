@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.determinacy-beyond-l-r
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/determinacy_beyond_l_r_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Determinacy Beyond L(R). Prove projective determinacy from optimal large
+  cardinal axioms.'
+parameters: {}

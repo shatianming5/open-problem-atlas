@@ -1,0 +1,31 @@
+id: opa.mathematics.complex-analysis.mlc-conjecture-local-connectivity-of-mandelbrot-set
+kind: problem
+title: MLC Conjecture (Local Connectivity of Mandelbrot Set)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- complex-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Mandelbrot set is locally connected.
+sources:
+  canonical:
+  - source_id: src_douadyhubbard_1982
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mandelbrot_set#Local_connectivity
+  status_evidence:
+  - source_id: src_douadyhubbard_1982
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mandelbrot_set#Local_connectivity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

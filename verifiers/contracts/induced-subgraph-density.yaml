@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.induced-subgraph-density
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/induced_subgraph_density_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Induced Subgraph Density. Determine the maximum density of a graph that
+  avoids an induced copy of a fixed graph H.'
+parameters: {}

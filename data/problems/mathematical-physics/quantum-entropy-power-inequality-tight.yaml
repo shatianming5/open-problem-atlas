@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.quantum-entropy-power-inequality-tight
+kind: problem
+title: Quantum Entropy Power Inequality (Tight)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove tight versions of the quantum entropy power inequality.
+sources:
+  canonical:
+  - source_id: curated_quantum_entropy_power_inequality_tight
+    kind: website
+    url: https://en.wikipedia.org/wiki/Entropy_power_inequality
+  status_evidence:
+  - source_id: curated_quantum_entropy_power_inequality_tight
+    kind: website
+    url: https://en.wikipedia.org/wiki/Entropy_power_inequality
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

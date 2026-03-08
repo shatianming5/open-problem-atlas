@@ -1,0 +1,32 @@
+id: opa.mathematics.differential-topology.existence-of-exotic-spheres-in-dimension-4
+kind: problem
+title: Existence of Exotic Spheres in Dimension 4
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- differential-topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does there exist an exotic smooth structure on S^4? This is equivalent to the smooth 4D Poincare conjecture and
+    is the key remaining case.
+sources:
+  canonical:
+  - source_id: src_scorpan_2020
+    kind: website
+    url: https://mathoverflow.net/questions/54739
+  status_evidence:
+  - source_id: src_scorpan_2020
+    kind: website
+    url: https://mathoverflow.net/questions/54739
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

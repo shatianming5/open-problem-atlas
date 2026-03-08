@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.euler-s-sum-of-powers-conjecture-extensions
+kind: problem
+title: Euler's Sum of Powers Conjecture Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify all solutions and non-solutions of a^k + b^k + c^k = d^k for various k.
+sources:
+  canonical:
+  - source_id: curated_euler_s_sum_of_powers_conjecture_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Euler%27s_sum_of_powers_conjecture
+  status_evidence:
+  - source_id: curated_euler_s_sum_of_powers_conjecture_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Euler%27s_sum_of_powers_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

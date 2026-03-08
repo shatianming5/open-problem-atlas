@@ -1,0 +1,31 @@
+id: opa.mathematics.discrete-geometry.hadwiger-s-covering-conjecture
+kind: problem
+title: Hadwiger's Covering Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- discrete-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every convex body in R^n can be covered by 2^n translates of its interior.
+sources:
+  canonical:
+  - source_id: src_hadwiger_1957
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hadwiger_conjecture_(combinatorial_geometry)
+  status_evidence:
+  - source_id: src_hadwiger_1957
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hadwiger_conjecture_(combinatorial_geometry)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

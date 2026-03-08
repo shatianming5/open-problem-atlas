@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.indistinguishability-obfuscation-security
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/indistinguishability_obfuscation_security_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Indistinguishability Obfuscation Security. Prove the security of indistinguishability
+  obfuscation from well-studied assumptions.'
+parameters: {}

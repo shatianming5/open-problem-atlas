@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.numerical-analysis.optimal-complexity-of-matrix-multiplication
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_complexity_of_matrix_multiplication_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Complexity of Matrix Multiplication. Determine the exponent omega
+  of matrix multiplication: is it exactly 2?'
+parameters: {}

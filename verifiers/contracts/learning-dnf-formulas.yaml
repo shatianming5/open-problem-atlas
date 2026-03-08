@@ -1,0 +1,11 @@
+problem_id: opa.tcs.learning-theory.learning-dnf-formulas
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/learning_dnf_formulas_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Learning DNF Formulas. Determine whether DNF formulas are efficiently PAC-learnable.'
+parameters: {}

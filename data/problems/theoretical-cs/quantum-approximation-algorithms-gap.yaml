@@ -1,0 +1,31 @@
+id: opa.tcs.quantum-computing.quantum-approximation-algorithms-gap
+kind: problem
+title: Quantum Approximation Algorithms Gap
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the gap between quantum and classical approximation algorithms for CSPs.
+sources:
+  canonical:
+  - source_id: curated_quantum_approximation_algorithms_gap
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_optimization_algorithms
+  status_evidence:
+  - source_id: curated_quantum_approximation_algorithms_gap
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_optimization_algorithms
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

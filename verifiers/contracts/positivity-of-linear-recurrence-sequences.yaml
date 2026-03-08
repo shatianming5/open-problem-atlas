@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.positivity-of-linear-recurrence-sequences
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/positivity_of_linear_recurrence_sequences_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Positivity of Linear Recurrence Sequences. Determine whether it is decidable
+  if all terms of a linear recurrence sequence are positive.'
+parameters: {}

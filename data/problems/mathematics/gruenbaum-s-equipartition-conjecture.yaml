@@ -1,0 +1,31 @@
+id: opa.mathematics.convex-geometry.gruenbaum-s-equipartition-conjecture
+kind: problem
+title: Gruenbaum's Equipartition Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- convex-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Any convex body in R^3 can be partitioned into 8 pieces of equal volume by 3 hyperplanes.
+sources:
+  canonical:
+  - source_id: src_gruenbaum_1960
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ham_sandwich_theorem
+  status_evidence:
+  - source_id: src_gruenbaum_1960
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ham_sandwich_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.non-fermi-liquid-theory-foundation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_fermi_liquid_theory_foundation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Fermi Liquid Theory Foundation. Develop a systematic theory of non-Fermi
+  liquid behavior in strongly correlated electron systems.'
+parameters: {}

@@ -1,0 +1,32 @@
+id: opa.mathematics.functional-analysis.pelczynski-s-conjecture-on-universal-spaces
+kind: problem
+title: Pelczynski's Conjecture on Universal Spaces
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- functional-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The space C([0,1]) is the only universal separable Banach space for isomorphic embeddings among spaces with a
+    Schauder basis.
+sources:
+  canonical:
+  - source_id: src_pelczynski_1969
+    kind: website
+    url: https://en.wikipedia.org/wiki/Universal_space
+  status_evidence:
+  - source_id: src_pelczynski_1969
+    kind: website
+    url: https://en.wikipedia.org/wiki/Universal_space
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

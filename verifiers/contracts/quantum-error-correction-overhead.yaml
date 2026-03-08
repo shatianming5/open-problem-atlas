@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.quantum-error-correction-overhead
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_error_correction_overhead_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Error Correction Overhead. Determine the minimum overhead of quantum
+  error correction for fault-tolerant quantum computation.'
+parameters: {}

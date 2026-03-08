@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.predicative-mathematics-scope
+kind: problem
+title: Predicative Mathematics Scope
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the scope of predicative mathematics and its relationship to classical mathematics.
+sources:
+  canonical:
+  - source_id: curated_predicative_mathematics_scope
+    kind: website
+    url: https://en.wikipedia.org/wiki/Predicativism
+  status_evidence:
+  - source_id: curated_predicative_mathematics_scope
+    kind: website
+    url: https://en.wikipedia.org/wiki/Predicativism
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

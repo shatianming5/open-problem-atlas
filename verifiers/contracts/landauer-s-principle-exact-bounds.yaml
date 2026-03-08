@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.landauer-s-principle-exact-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/landauer_s_principle_exact_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Landauer''s Principle Exact Bounds. Determine the exact energetic cost of
+  information erasure in quantum systems.'
+parameters: {}

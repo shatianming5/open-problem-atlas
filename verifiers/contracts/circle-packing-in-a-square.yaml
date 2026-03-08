@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.circle-packing-in-a-square
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/circle_packing_in_a_square_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Circle Packing in a Square. Determine the optimal packing of n unit circles
+  in the smallest enclosing square.'
+parameters: {}

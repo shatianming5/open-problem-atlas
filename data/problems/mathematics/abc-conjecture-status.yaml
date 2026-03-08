@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.abc-conjecture-status
+kind: problem
+title: ABC Conjecture Status
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is Mochizuki's claimed proof of the ABC conjecture via Inter-Universal Teichmuller Theory correct, or is a new
+    approach needed?
+sources:
+  canonical:
+  - source_id: src_scholze_2021
+    kind: website
+    url: https://arxiv.org/abs/2012.14434
+  status_evidence:
+  - source_id: src_scholze_2021
+    kind: website
+    url: https://arxiv.org/abs/2012.14434
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

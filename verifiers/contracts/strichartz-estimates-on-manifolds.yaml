@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.strichartz-estimates-on-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/strichartz_estimates_on_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Strichartz Estimates on Manifolds. Prove optimal Strichartz estimates for
+  the wave and Schrodinger equations on compact Riemannian manifolds.'
+parameters: {}

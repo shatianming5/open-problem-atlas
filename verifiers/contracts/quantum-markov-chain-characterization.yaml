@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-markov-chain-characterization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_markov_chain_characterization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Markov Chain Characterization. Characterize quantum Markov chains
+  and their structure theorems.'
+parameters: {}

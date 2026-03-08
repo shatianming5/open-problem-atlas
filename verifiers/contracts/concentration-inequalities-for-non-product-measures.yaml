@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.concentration-inequalities-for-non-product-measures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/concentration_inequalities_for_non_product_measures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Concentration Inequalities for Non-Product Measures. Develop sharp concentration
+  inequalities for functions of dependent random variables.'
+parameters: {}

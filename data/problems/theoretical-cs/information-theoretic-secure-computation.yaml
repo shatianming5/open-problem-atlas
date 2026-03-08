@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.information-theoretic-secure-computation
+kind: problem
+title: Information-Theoretic Secure Computation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact communication complexity of information-theoretically secure computation.
+sources:
+  canonical:
+  - source_id: curated_information_theoretic_secure_computation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Information-theoretic_security
+  status_evidence:
+  - source_id: curated_information_theoretic_secure_computation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Information-theoretic_security
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

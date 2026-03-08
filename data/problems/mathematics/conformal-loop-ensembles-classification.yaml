@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.conformal-loop-ensembles-classification
+kind: problem
+title: Conformal Loop Ensembles Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify all conformal loop ensembles and their properties.
+sources:
+  canonical:
+  - source_id: curated_conformal_loop_ensembles_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Conformal_loop_ensemble
+  status_evidence:
+  - source_id: curated_conformal_loop_ensembles_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Conformal_loop_ensemble
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

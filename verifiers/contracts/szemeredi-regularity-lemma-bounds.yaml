@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.szemeredi-regularity-lemma-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/szemeredi_regularity_lemma_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Szemeredi Regularity Lemma Bounds. Determine the tower-type bounds in Szemeredi''s
+  regularity lemma optimally.'
+parameters: {}

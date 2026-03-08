@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.jones-polynomial-and-unknot-detection
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/jones_polynomial_and_unknot_detection_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Jones Polynomial and Unknot Detection. Does the Jones polynomial detect
+  the unknot?'
+parameters: {}

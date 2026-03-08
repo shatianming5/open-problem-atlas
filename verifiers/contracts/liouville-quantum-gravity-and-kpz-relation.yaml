@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.liouville-quantum-gravity-and-kpz-relation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/liouville_quantum_gravity_and_kpz_relation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Liouville Quantum Gravity and KPZ Relation. Rigorously prove the KPZ relation
+  between scaling exponents in Liouville quantum gravity.'
+parameters: {}

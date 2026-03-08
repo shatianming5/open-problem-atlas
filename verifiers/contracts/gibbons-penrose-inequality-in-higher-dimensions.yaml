@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.gibbons-penrose-inequality-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gibbons_penrose_inequality_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gibbons-Penrose Inequality in Higher Dimensions. Prove the Penrose inequality
+  for higher-dimensional asymptotically flat manifolds.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.harmonic-analysis.christ-kiselev-maximal-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/christ_kiselev_maximal_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Christ-Kiselev Maximal Conjecture. Pointwise convergence of eigenfunction
+  expansions under minimal regularity hypotheses.'
+parameters: {}

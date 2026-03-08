@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.minimum-spanning-tree-optimal-algorithm
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/minimum_spanning_tree_optimal_algorithm_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimum Spanning Tree Optimal Algorithm. Determine the optimal number of
+  comparisons needed to find the minimum spanning tree.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.thurston-norm-computation
+kind: problem
+title: Thurston Norm Computation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop efficient algorithms for computing the Thurston norm of a 3-manifold.
+sources:
+  canonical:
+  - source_id: curated_thurston_norm_computation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Thurston_norm
+  status_evidence:
+  - source_id: curated_thurston_norm_computation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Thurston_norm
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.fujita-conjecture-full
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fujita_conjecture_full_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fujita Conjecture (Full). For an ample line bundle L on an n-dimensional
+  variety, K_X + (n+2)L is very ample.'
+parameters: {}

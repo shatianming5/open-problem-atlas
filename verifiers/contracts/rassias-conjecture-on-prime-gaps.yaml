@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.rassias-conjecture-on-prime-gaps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/rassias_conjecture_on_prime_gaps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rassias Conjecture on Prime Gaps. For every prime p > 2, there exist primes
+  p1 and p2 with p1 + p2 = 2p and |p1 - p| less than c*sqrt(p)*ln(p).'
+parameters: {}

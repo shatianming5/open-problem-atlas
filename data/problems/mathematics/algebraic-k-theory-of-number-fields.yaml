@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.algebraic-k-theory-of-number-fields
+kind: problem
+title: Algebraic K-Theory of Number Fields
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Compute K_n(Z) for all n and verify the Lichtenbaum-Quillen conjecture in full generality.
+sources:
+  canonical:
+  - source_id: curated_algebraic_k_theory_of_number_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Algebraic_K-theory
+  status_evidence:
+  - source_id: curated_algebraic_k_theory_of_number_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Algebraic_K-theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

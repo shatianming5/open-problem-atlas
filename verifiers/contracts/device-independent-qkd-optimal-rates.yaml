@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.device-independent-qkd-optimal-rates
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/device_independent_qkd_optimal_rates_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Device-Independent QKD Optimal Rates. Determine the optimal key rates for
+  device-independent quantum key distribution.'
+parameters: {}

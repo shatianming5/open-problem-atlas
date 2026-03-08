@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.shafarevich-tate-group-finiteness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/shafarevich_tate_group_finiteness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Shafarevich-Tate Group Finiteness. Prove finiteness of the Shafarevich-Tate
+  group for all abelian varieties over number fields.'
+parameters: {}

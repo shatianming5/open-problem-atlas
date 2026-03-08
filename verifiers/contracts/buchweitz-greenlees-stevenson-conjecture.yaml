@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.homological-algebra.buchweitz-greenlees-stevenson-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/buchweitz_greenlees_stevenson_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Buchweitz-Greenlees-Stevenson Conjecture. The singularity category of a
+  Gorenstein ring is equivalent to the stable module category and related to complete cohomology.'
+parameters: {}

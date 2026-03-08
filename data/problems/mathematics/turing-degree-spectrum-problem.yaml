@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.turing-degree-spectrum-problem
+kind: problem
+title: Turing Degree Spectrum Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize the possible degree spectra of countable structures.
+sources:
+  canonical:
+  - source_id: curated_turing_degree_spectrum_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Turing_degree
+  status_evidence:
+  - source_id: curated_turing_degree_spectrum_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Turing_degree
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

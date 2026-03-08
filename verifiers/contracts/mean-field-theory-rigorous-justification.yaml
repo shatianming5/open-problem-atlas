@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.mean-field-theory-rigorous-justification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mean_field_theory_rigorous_justification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mean Field Theory Rigorous Justification. Rigorously justify mean field
+  theory approximations for spin systems on high-dimensional lattices.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.mott-transition-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mott_transition_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mott Transition Theory. Develop a rigorous theory of the Mott metal-insulator
+  transition in the Hubbard model.'
+parameters: {}

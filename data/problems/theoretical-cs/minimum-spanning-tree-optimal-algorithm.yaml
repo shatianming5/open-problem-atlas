@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.minimum-spanning-tree-optimal-algorithm
+kind: problem
+title: Minimum Spanning Tree Optimal Algorithm
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal number of comparisons needed to find the minimum spanning tree.
+sources:
+  canonical:
+  - source_id: curated_minimum_spanning_tree_optimal_algorithm
+    kind: website
+    url: https://en.wikipedia.org/wiki/Minimum_spanning_tree
+  status_evidence:
+  - source_id: curated_minimum_spanning_tree_optimal_algorithm
+    kind: website
+    url: https://en.wikipedia.org/wiki/Minimum_spanning_tree
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

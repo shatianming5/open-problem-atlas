@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.langlands-for-p-adic-groups
+kind: problem
+title: Langlands for p-adic Groups
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the local Langlands correspondence for all p-adic reductive groups.
+sources:
+  canonical:
+  - source_id: curated_langlands_for_p_adic_groups
+    kind: website
+    url: https://en.wikipedia.org/wiki/Local_Langlands_conjectures
+  status_evidence:
+  - source_id: curated_langlands_for_p_adic_groups
+    kind: website
+    url: https://en.wikipedia.org/wiki/Local_Langlands_conjectures
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

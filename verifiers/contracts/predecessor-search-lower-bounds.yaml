@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.predecessor-search-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/predecessor_search_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Predecessor Search Lower Bounds. Determine the optimal time complexity for
+  predecessor search in the cell probe model.'
+parameters: {}

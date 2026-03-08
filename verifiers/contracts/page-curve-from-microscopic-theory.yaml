@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.page-curve-from-microscopic-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/page_curve_from_microscopic_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Page Curve from Microscopic Theory. Derive the Page curve for black hole
+  evaporation from a microscopic theory of quantum gravity.'
+parameters: {}

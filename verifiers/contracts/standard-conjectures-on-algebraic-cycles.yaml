@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebraic-geometry.standard-conjectures-on-algebraic-cycles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/standard_conjectures_on_algebraic_cycles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Standard Conjectures on Algebraic Cycles. A set of conjectures about algebraic
+  cycles proposed by Grothendieck, including the Lefschetz standard conjecture and the Hodge standard conjecture.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.gravitational-thermodynamics-consistency
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gravitational_thermodynamics_consistency_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gravitational Thermodynamics Consistency. Prove the thermodynamic consistency
+  of gravitational systems including negative heat capacity.'
+parameters: {}

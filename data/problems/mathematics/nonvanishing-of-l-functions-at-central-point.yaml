@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.nonvanishing-of-l-functions-at-central-point
+kind: problem
+title: Nonvanishing of L-functions at Central Point
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that L(1/2, chi) is nonzero for all primitive Dirichlet characters chi.
+sources:
+  canonical:
+  - source_id: curated_nonvanishing_of_l_functions_at_central_point
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dirichlet_L-function
+  status_evidence:
+  - source_id: curated_nonvanishing_of_l_functions_at_central_point
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dirichlet_L-function
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

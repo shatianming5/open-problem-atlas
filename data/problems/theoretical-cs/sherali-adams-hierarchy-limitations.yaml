@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.sherali-adams-hierarchy-limitations
+kind: problem
+title: Sherali-Adams Hierarchy Limitations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine tight limitations of the Sherali-Adams linear programming hierarchy.
+sources:
+  canonical:
+  - source_id: curated_sherali_adams_hierarchy_limitations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sherali%E2%80%93Adams_hierarchy
+  status_evidence:
+  - source_id: curated_sherali_adams_hierarchy_limitations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sherali%E2%80%93Adams_hierarchy
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

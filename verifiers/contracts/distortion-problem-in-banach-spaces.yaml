@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.distortion-problem-in-banach-spaces
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distortion_problem_in_banach_spaces_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distortion Problem in Banach Spaces. Determine the optimal distortion of
+  embeddings between specific Banach spaces.'
+parameters: {}

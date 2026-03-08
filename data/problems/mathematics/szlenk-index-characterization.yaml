@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.szlenk-index-characterization
+kind: problem
+title: Szlenk Index Characterization
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize Banach spaces by their Szlenk index.
+sources:
+  canonical:
+  - source_id: curated_szlenk_index_characterization
+    kind: website
+    url: https://en.wikipedia.org/wiki/Szlenk_index
+  status_evidence:
+  - source_id: curated_szlenk_index_characterization
+    kind: website
+    url: https://en.wikipedia.org/wiki/Szlenk_index
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.set-systems-with-restricted-intersections
+kind: problem
+title: Set Systems with Restricted Intersections
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine tight bounds for set systems with restricted intersection sizes.
+sources:
+  canonical:
+  - source_id: curated_set_systems_with_restricted_intersections
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sunflower_(mathematics)
+  status_evidence:
+  - source_id: curated_set_systems_with_restricted_intersections
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sunflower_(mathematics)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

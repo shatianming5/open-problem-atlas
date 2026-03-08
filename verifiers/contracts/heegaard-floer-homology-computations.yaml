@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.heegaard-floer-homology-computations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/heegaard_floer_homology_computations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Heegaard-Floer Homology Computations. Develop polynomial-time algorithms
+  for computing Heegaard Floer homology.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.mcmullen-s-g-conjecture-for-spheres
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mcmullen_s_g_conjecture_for_spheres_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: McMullen''s g-Conjecture for Spheres. Characterize the f-vectors of simplicial
+  spheres.'
+parameters: {}

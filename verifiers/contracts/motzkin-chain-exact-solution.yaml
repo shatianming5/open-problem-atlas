@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.motzkin-chain-exact-solution
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/motzkin_chain_exact_solution_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Motzkin Chain Exact Solution. Find the exact solution and entanglement properties
+  of the Motzkin spin chain.'
+parameters: {}

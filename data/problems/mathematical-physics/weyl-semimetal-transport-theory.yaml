@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.weyl-semimetal-transport-theory
+kind: problem
+title: Weyl Semimetal Transport Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a complete theory of anomalous transport in Weyl semimetals.
+sources:
+  canonical:
+  - source_id: curated_weyl_semimetal_transport_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Weyl_semimetal
+  status_evidence:
+  - source_id: curated_weyl_semimetal_transport_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Weyl_semimetal
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

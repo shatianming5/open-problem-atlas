@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.equidistribution-of-heegner-points
+kind: problem
+title: Equidistribution of Heegner Points
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the equidistribution of Heegner points on modular curves.
+sources:
+  canonical:
+  - source_id: curated_equidistribution_of_heegner_points
+    kind: website
+    url: https://en.wikipedia.org/wiki/Heegner_point
+  status_evidence:
+  - source_id: curated_equidistribution_of_heegner_points
+    kind: website
+    url: https://en.wikipedia.org/wiki/Heegner_point
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

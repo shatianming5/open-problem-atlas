@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.koszulity-of-operads
+kind: problem
+title: Koszulity of Operads
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine which algebraic operads are Koszul and classify them.
+sources:
+  canonical:
+  - source_id: curated_koszulity_of_operads
+    kind: website
+    url: https://en.wikipedia.org/wiki/Operad
+  status_evidence:
+  - source_id: curated_koszulity_of_operads
+    kind: website
+    url: https://en.wikipedia.org/wiki/Operad
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

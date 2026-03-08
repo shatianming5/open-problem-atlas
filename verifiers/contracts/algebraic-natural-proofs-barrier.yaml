@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algebraic-complexity.algebraic-natural-proofs-barrier
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/algebraic_natural_proofs_barrier_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Algebraic Natural Proofs Barrier. Can the algebraic natural proofs barrier
+  of Forbes, Shpilka, and Volk be circumvented to prove superpolynomial algebraic circuit lower bounds?'
+parameters: {}

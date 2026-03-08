@@ -1,0 +1,31 @@
+id: opa.tcs.graph-theory.chromatic-number-of-the-plane-exact-value
+kind: problem
+title: Chromatic Number of the Plane (Exact Value)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the chromatic number of the plane, known to be between 5 and 7.
+sources:
+  canonical:
+  - source_id: curated_chromatic_number_of_the_plane_exact_value
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem
+  status_evidence:
+  - source_id: curated_chromatic_number_of_the_plane_exact_value
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

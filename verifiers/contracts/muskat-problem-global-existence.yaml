@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.muskat-problem-global-existence
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/muskat_problem_global_existence_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Muskat Problem Global Existence. Prove global existence of solutions to
+  the Muskat problem for arbitrary initial data.'
+parameters: {}

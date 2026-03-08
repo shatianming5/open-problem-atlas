@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.finite-generation-of-cox-rings
+kind: problem
+title: Finite Generation of Cox Rings
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize all algebraic varieties whose Cox ring (total coordinate ring) is finitely generated.
+sources:
+  canonical:
+  - source_id: src_hu_2000
+    kind: website
+    url: https://doi.org/10.1090/S0002-9947-00-02498-9
+  status_evidence:
+  - source_id: src_hu_2000
+    kind: website
+    url: https://doi.org/10.1090/S0002-9947-00-02498-9
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

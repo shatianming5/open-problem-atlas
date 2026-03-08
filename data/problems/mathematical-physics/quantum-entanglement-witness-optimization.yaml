@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.quantum-entanglement-witness-optimization
+kind: problem
+title: Quantum Entanglement Witness Optimization
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine optimal entanglement witnesses for multipartite quantum states.
+sources:
+  canonical:
+  - source_id: curated_quantum_entanglement_witness_optimization
+    kind: website
+    url: https://en.wikipedia.org/wiki/Entanglement_witness
+  status_evidence:
+  - source_id: curated_quantum_entanglement_witness_optimization
+    kind: website
+    url: https://en.wikipedia.org/wiki/Entanglement_witness
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.effective-field-theory-bounds-from-unitarity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/effective_field_theory_bounds_from_unitarity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Effective Field Theory Bounds from Unitarity. Derive rigorous bounds on
+  effective field theory coefficients from unitarity and causality.'
+parameters: {}

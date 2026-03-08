@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.coulomb-branch-algebras
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/coulomb_branch_algebras_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Coulomb Branch Algebras. Develop the theory of Coulomb branch algebras in
+  full generality.'
+parameters: {}

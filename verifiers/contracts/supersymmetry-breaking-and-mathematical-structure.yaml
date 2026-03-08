@@ -1,0 +1,12 @@
+problem_id: opa.phys.supersymmetry.supersymmetry-breaking-and-mathematical-structure
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/supersymmetry_breaking_and_mathematical_structure_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Supersymmetry Breaking and Mathematical Structure. Can spontaneous supersymmetry
+  breaking be rigorously established in any 4D supersymmetric quantum field theory using constructive field theory methods?'
+parameters: {}

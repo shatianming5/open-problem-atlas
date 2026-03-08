@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.constructive-qft-in-4d-full-program
+kind: problem
+title: Constructive QFT in 4D (Full Program)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct a nontrivial interacting quantum field theory in four spacetime dimensions rigorously.
+sources:
+  canonical:
+  - source_id: curated_constructive_qft_in_4d_full_program
+    kind: website
+    url: https://en.wikipedia.org/wiki/Constructive_quantum_field_theory
+  status_evidence:
+  - source_id: curated_constructive_qft_in_4d_full_program
+    kind: website
+    url: https://en.wikipedia.org/wiki/Constructive_quantum_field_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

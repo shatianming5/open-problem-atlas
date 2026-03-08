@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.random-tilings-universal-fluctuations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/random_tilings_universal_fluctuations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Random Tilings Universal Fluctuations. Prove universal fluctuation behavior
+  for random tilings and dimer models.'
+parameters: {}

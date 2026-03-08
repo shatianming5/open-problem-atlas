@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.regularity-of-free-boundaries
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/regularity_of_free_boundaries_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Regularity of Free Boundaries. Prove optimal regularity for free boundaries
+  arising in obstacle problems in all dimensions.'
+parameters: {}

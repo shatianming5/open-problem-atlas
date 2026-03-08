@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.homological-conjectures-in-commutative-algebra-general
+kind: problem
+title: Homological Conjectures in Commutative Algebra (General)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Resolve the remaining homological conjectures including the Canonical Element Conjecture generalizations.
+sources:
+  canonical:
+  - source_id: curated_homological_conjectures_in_commutative_algebra_general
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homological_conjectures_in_commutative_algebra
+  status_evidence:
+  - source_id: curated_homological_conjectures_in_commutative_algebra_general
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homological_conjectures_in_commutative_algebra
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

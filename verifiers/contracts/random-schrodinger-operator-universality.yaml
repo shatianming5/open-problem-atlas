@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.random-schrodinger-operator-universality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/random_schrodinger_operator_universality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Random Schrodinger Operator Universality. Prove universality of eigenvalue
+  statistics for random Schrodinger operators in dimensions d >= 3.'
+parameters: {}

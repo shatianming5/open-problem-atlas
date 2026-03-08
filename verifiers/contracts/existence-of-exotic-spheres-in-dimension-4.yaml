@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.differential-topology.existence-of-exotic-spheres-in-dimension-4
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_exotic_spheres_in_dimension_4_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Exotic Spheres in Dimension 4. Does there exist an exotic smooth
+  structure on S^4? This is equivalent to the smooth 4D Poincare conjecture and is the key remaining case.'
+parameters: {}

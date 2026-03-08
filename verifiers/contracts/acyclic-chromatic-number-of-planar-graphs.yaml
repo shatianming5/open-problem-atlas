@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.acyclic-chromatic-number-of-planar-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/acyclic_chromatic_number_of_planar_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Acyclic Chromatic Number of Planar Graphs. Prove that every planar graph
+  has acyclic chromatic number at most 5.'
+parameters: {}

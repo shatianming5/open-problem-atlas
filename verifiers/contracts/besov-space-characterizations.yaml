@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.besov-space-characterizations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/besov_space_characterizations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Besov Space Characterizations. Complete the characterization of Besov spaces
+  on rough domains.'
+parameters: {}

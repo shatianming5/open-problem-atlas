@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.hawking-radiation-detection-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hawking_radiation_detection_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hawking Radiation Detection Theory. Develop theoretical proposals for detecting
+  Hawking radiation analogs.'
+parameters: {}

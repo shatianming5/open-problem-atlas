@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.relative-langlands-program
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/relative_langlands_program_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Relative Langlands Program. Develop the relative Langlands program connecting
+  periods to L-values.'
+parameters: {}

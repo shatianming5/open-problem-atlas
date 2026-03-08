@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.algebraic-independence-of-pi-and-e
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/algebraic_independence_of_pi_and_e_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Algebraic Independence of Pi and e. Prove that pi and e are algebraically
+  independent.'
+parameters: {}

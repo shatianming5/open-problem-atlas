@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.abc-conjecture-status
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/abc_conjecture_status_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: ABC Conjecture Status. Is Mochizuki''s claimed proof of the ABC conjecture
+  via Inter-Universal Teichmuller Theory correct, or is a new approach needed?'
+parameters: {}

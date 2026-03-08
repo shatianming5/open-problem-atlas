@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.topological-quantum-computing-error-thresholds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/topological_quantum_computing_error_thresholds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Topological Quantum Computing Error Thresholds. Determine the error thresholds
+  for topological quantum computation with realistic noise.'
+parameters: {}

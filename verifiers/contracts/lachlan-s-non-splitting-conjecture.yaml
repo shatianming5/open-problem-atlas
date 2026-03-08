@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.lachlan-s-non-splitting-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lachlan_s_non_splitting_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lachlan''s Non-Splitting Conjecture. Resolve Lachlan''s conjecture on the
+  structure of the recursively enumerable degrees.'
+parameters: {}

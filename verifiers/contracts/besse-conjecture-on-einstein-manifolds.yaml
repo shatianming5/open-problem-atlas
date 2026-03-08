@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.differential-geometry.besse-conjecture-on-einstein-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/besse_conjecture_on_einstein_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Besse Conjecture on Einstein Manifolds. A closed Riemannian manifold of
+  dimension n >= 3 satisfying the critical point equation for the total scalar curvature is Einstein.'
+parameters: {}

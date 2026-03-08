@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.multilinear-maps-from-standard-assumptions
+kind: problem
+title: Multilinear Maps from Standard Assumptions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct secure multilinear maps from standard computational assumptions.
+sources:
+  canonical:
+  - source_id: curated_multilinear_maps_from_standard_assumptions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multilinear_map
+  status_evidence:
+  - source_id: curated_multilinear_maps_from_standard_assumptions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multilinear_map
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.stark-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stark_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stark''s Conjecture. The leading term of the Taylor expansion of an Artin
+  L-function at s=0 is given by a Stark unit.'
+parameters: {}

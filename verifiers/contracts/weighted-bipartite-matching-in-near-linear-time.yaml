@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.weighted-bipartite-matching-in-near-linear-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/weighted_bipartite_matching_in_near_linear_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Weighted Bipartite Matching in Near-Linear Time. Find a maximum weight matching
+  in bipartite graphs in near-linear time.'
+parameters: {}

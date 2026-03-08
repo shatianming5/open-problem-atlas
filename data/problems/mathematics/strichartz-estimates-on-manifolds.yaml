@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.strichartz-estimates-on-manifolds
+kind: problem
+title: Strichartz Estimates on Manifolds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove optimal Strichartz estimates for the wave and Schrodinger equations on compact Riemannian manifolds.
+sources:
+  canonical:
+  - source_id: curated_strichartz_estimates_on_manifolds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Strichartz_estimate
+  status_evidence:
+  - source_id: curated_strichartz_estimates_on_manifolds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Strichartz_estimate
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

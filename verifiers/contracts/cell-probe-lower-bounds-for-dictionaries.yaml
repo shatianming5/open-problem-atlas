@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.cell-probe-lower-bounds-for-dictionaries
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cell_probe_lower_bounds_for_dictionaries_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cell Probe Lower Bounds for Dictionaries. Prove tight cell probe lower bounds
+  for dictionary data structures.'
+parameters: {}

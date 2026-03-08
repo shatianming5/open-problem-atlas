@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.sle-and-conformal-invariance-for-all-models
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sle_and_conformal_invariance_for_all_models_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: SLE and Conformal Invariance for All Models. Prove that all 2D critical
+  lattice models converge to SLE in the scaling limit.'
+parameters: {}

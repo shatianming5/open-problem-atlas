@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.aldous-diffusion-limit-for-random-trees
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/aldous_diffusion_limit_for_random_trees_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Aldous Diffusion Limit for Random Trees. Construct and analyze the Aldous
+  diffusion as a continuum limit of Markov chains on trees.'
+parameters: {}

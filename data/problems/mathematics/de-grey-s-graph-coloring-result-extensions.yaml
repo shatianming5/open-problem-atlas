@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.de-grey-s-graph-coloring-result-extensions
+kind: problem
+title: De Grey's Graph Coloring Result Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Improve bounds on the chromatic number of the plane following de Grey's breakthrough.
+sources:
+  canonical:
+  - source_id: curated_de_grey_s_graph_coloring_result_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem
+  status_evidence:
+  - source_id: curated_de_grey_s_graph_coloring_result_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hadwiger%E2%80%93Nelson_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

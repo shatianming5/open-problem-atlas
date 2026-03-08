@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.steiner-tree-approximation-ratio
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/steiner_tree_approximation_ratio_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Steiner Tree Approximation Ratio. Determine the optimal polynomial-time
+  approximation ratio for the Steiner tree problem.'
+parameters: {}

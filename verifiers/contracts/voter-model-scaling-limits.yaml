@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.voter-model-scaling-limits
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/voter_model_scaling_limits_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Voter Model Scaling Limits. Determine the scaling limits of voter models
+  on general graphs.'
+parameters: {}

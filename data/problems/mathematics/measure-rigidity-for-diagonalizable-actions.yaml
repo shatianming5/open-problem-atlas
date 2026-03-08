@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.measure-rigidity-for-diagonalizable-actions
+kind: problem
+title: Measure Rigidity for Diagonalizable Actions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify all invariant measures for diagonalizable algebraic group actions.
+sources:
+  canonical:
+  - source_id: curated_measure_rigidity_for_diagonalizable_actions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Invariant_measure
+  status_evidence:
+  - source_id: curated_measure_rigidity_for_diagonalizable_actions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Invariant_measure
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

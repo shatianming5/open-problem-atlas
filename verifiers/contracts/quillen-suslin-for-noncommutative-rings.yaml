@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.quillen-suslin-for-noncommutative-rings
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quillen_suslin_for_noncommutative_rings_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quillen-Suslin for Noncommutative Rings. Extend the Quillen-Suslin theorem
+  (every finitely generated projective module over a polynomial ring is free) to broader classes of noncommutative rings.'
+parameters: {}

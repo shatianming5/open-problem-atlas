@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.shortest-path-in-linear-time-for-undirected-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/shortest_path_in_linear_time_for_undirected_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Shortest Path in Linear Time for Undirected Graphs. Find single-source shortest
+  paths in undirected weighted graphs in O(m + n) time.'
+parameters: {}

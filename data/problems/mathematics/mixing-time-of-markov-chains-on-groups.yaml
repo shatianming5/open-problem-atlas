@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.mixing-time-of-markov-chains-on-groups
+kind: problem
+title: Mixing Time of Markov Chains on Groups
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the mixing time of random walk on finite groups with natural generating sets.
+sources:
+  canonical:
+  - source_id: curated_mixing_time_of_markov_chains_on_groups
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mixing_time
+  status_evidence:
+  - source_id: curated_mixing_time_of_markov_chains_on_groups
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mixing_time
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

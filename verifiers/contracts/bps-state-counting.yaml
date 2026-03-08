@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.bps-state-counting
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bps_state_counting_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: BPS State Counting. Count BPS states in string theory and verify agreement
+  with black hole entropy.'
+parameters: {}

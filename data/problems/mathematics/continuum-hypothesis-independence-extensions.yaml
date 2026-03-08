@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.continuum-hypothesis-independence-extensions
+kind: problem
+title: Continuum Hypothesis Independence Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine natural axioms that settle the Continuum Hypothesis.
+sources:
+  canonical:
+  - source_id: curated_continuum_hypothesis_independence_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Continuum_hypothesis
+  status_evidence:
+  - source_id: curated_continuum_hypothesis_independence_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Continuum_hypothesis
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

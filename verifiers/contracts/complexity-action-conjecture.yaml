@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.complexity-action-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/complexity_action_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Complexity = Action Conjecture. Prove the complexity = action conjecture
+  relating computational complexity to gravitational action.'
+parameters: {}

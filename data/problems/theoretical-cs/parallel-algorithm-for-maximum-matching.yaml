@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.parallel-algorithm-for-maximum-matching
+kind: problem
+title: Parallel Algorithm for Maximum Matching
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether maximum matching in general graphs admits an NC algorithm.
+sources:
+  canonical:
+  - source_id: curated_parallel_algorithm_for_maximum_matching
+    kind: website
+    url: https://en.wikipedia.org/wiki/Matching_(graph_theory)
+  status_evidence:
+  - source_id: curated_parallel_algorithm_for_maximum_matching
+    kind: website
+    url: https://en.wikipedia.org/wiki/Matching_(graph_theory)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

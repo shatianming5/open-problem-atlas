@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.besov-space-characterizations
+kind: problem
+title: Besov Space Characterizations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the characterization of Besov spaces on rough domains.
+sources:
+  canonical:
+  - source_id: curated_besov_space_characterizations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Besov_space
+  status_evidence:
+  - source_id: curated_besov_space_characterizations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Besov_space
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

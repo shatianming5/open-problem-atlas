@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.regge-limit-of-qcd-rigorous
+kind: problem
+title: Regge Limit of QCD (Rigorous)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Rigorously derive the BFKL equation and prove its consequences for the Regge limit of QCD.
+sources:
+  canonical:
+  - source_id: curated_regge_limit_of_qcd_rigorous
+    kind: website
+    url: https://en.wikipedia.org/wiki/BFKL_pomeron
+  status_evidence:
+  - source_id: curated_regge_limit_of_qcd_rigorous
+    kind: website
+    url: https://en.wikipedia.org/wiki/BFKL_pomeron
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.celestial-holography-program
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/celestial_holography_program_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Celestial Holography Program. Develop celestial holography into a complete
+  framework for flat space holography.'
+parameters: {}

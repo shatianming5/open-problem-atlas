@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.gromov-lawson-conjecture-for-positive-scalar-curvature
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gromov_lawson_conjecture_for_positive_scalar_curvature_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gromov-Lawson Conjecture for Positive Scalar Curvature. Determine exactly
+  which manifolds admit metrics of positive scalar curvature.'
+parameters: {}

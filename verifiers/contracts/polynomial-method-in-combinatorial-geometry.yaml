@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.polynomial-method-in-combinatorial-geometry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polynomial_method_in_combinatorial_geometry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polynomial Method in Combinatorial Geometry. Extend the polynomial method
+  to solve more incidence geometry problems.'
+parameters: {}

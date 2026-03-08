@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.anomalous-transport-in-low-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/anomalous_transport_in_low_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Anomalous Transport in Low Dimensions. Develop a rigorous theory of anomalous
+  heat and charge transport in low-dimensional systems.'
+parameters: {}

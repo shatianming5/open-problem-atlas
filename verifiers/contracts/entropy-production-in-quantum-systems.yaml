@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.entropy-production-in-quantum-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entropy_production_in_quantum_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entropy Production in Quantum Systems. Determine tight bounds on entropy
+  production in quantum thermodynamic processes.'
+parameters: {}

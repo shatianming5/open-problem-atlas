@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.ergodic-theory.smooth-realization-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/smooth_realization_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Smooth Realization Conjecture. Every ergodic measure-preserving system with
+  finite entropy can be realized as a smooth diffeomorphism of a compact manifold.'
+parameters: {}

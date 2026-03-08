@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.calibrated-geometry-classification
+kind: problem
+title: Calibrated Geometry Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify calibrated submanifolds in special holonomy manifolds.
+sources:
+  canonical:
+  - source_id: curated_calibrated_geometry_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Calibrated_geometry
+  status_evidence:
+  - source_id: curated_calibrated_geometry_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Calibrated_geometry
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

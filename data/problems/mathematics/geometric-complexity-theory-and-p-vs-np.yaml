@@ -1,0 +1,32 @@
+id: opa.mathematics.algebraic-geometry.geometric-complexity-theory-and-p-vs-np
+kind: problem
+title: Geometric Complexity Theory and P vs NP
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebraic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the algebraic geometry and representation theory framework of Geometric Complexity Theory resolve the permanent
+    vs determinant conjecture as a step toward P != NP?
+sources:
+  canonical:
+  - source_id: src_mulmuley_2021
+    kind: website
+    url: https://arxiv.org/abs/0709.0746
+  status_evidence:
+  - source_id: src_mulmuley_2021
+    kind: website
+    url: https://arxiv.org/abs/0709.0746
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.kakeya-conjecture-in-all-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kakeya_conjecture_in_all_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kakeya Conjecture in All Dimensions. A Besicovitch set in R^n has Hausdorff
+  dimension n.'
+parameters: {}

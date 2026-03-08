@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.prismatic-cohomology-applications
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/prismatic_cohomology_applications_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Prismatic Cohomology Applications. Develop applications of prismatic cohomology
+  to p-adic Hodge theory.'
+parameters: {}

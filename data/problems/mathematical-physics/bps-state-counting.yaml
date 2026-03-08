@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.bps-state-counting
+kind: problem
+title: BPS State Counting
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Count BPS states in string theory and verify agreement with black hole entropy.
+sources:
+  canonical:
+  - source_id: curated_bps_state_counting
+    kind: website
+    url: https://en.wikipedia.org/wiki/BPS_state
+  status_evidence:
+  - source_id: curated_bps_state_counting
+    kind: website
+    url: https://en.wikipedia.org/wiki/BPS_state
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.triviality-of-phi-4-theory-in-4d-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/triviality_of_phi_4_theory_in_4d_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Triviality of Phi^4 Theory in 4D (Full Proof). Prove that the continuum
+  limit of lattice phi^4 theory in 4D is trivial (free field).'
+parameters: {}

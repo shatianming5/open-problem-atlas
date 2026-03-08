@@ -1,0 +1,31 @@
+id: opa.tcs.computational-geometry.zone-theorem-generalization
+kind: problem
+title: Zone Theorem Generalization
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- computational-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the zone theorem for hyperplane arrangements be tightly generalized to curved surfaces and higher-order objects?
+sources:
+  canonical:
+  - source_id: src_agarwal_sharir_2000
+    kind: website
+    url: https://doi.org/10.1007/s004540010002
+  status_evidence:
+  - source_id: src_agarwal_sharir_2000
+    kind: website
+    url: https://doi.org/10.1007/s004540010002
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

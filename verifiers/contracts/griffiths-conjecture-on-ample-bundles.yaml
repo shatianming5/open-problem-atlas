@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.griffiths-conjecture-on-ample-bundles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/griffiths_conjecture_on_ample_bundles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Griffiths Conjecture on Ample Bundles. A Griffiths-positive vector bundle
+  is ample.'
+parameters: {}

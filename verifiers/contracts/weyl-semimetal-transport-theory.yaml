@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.weyl-semimetal-transport-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/weyl_semimetal_transport_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Weyl Semimetal Transport Theory. Develop a complete theory of anomalous
+  transport in Weyl semimetals.'
+parameters: {}

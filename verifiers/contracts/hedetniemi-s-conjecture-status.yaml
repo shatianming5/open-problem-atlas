@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.hedetniemi-s-conjecture-status
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hedetniemi_s_conjecture_status_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hedetniemi''s Conjecture (Status). Investigate the consequences of the disproof
+  of Hedetniemi''s conjecture for chromatic numbers of tensor products.'
+parameters: {}

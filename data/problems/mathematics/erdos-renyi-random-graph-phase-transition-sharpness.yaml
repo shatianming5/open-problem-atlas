@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.erdos-renyi-random-graph-phase-transition-sharpness
+kind: problem
+title: Erdos-Renyi Random Graph Phase Transition Sharpness
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove sharp thresholds for all monotone properties in Erdos-Renyi random graphs.
+sources:
+  canonical:
+  - source_id: curated_erdos_renyi_random_graph_phase_transition_sharpness
+    kind: website
+    url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model
+  status_evidence:
+  - source_id: curated_erdos_renyi_random_graph_phase_transition_sharpness
+    kind: website
+    url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

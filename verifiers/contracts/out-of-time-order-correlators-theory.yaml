@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.out-of-time-order-correlators-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/out_of_time_order_correlators_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Out-of-Time-Order Correlators Theory. Develop a complete theory of out-of-time-order
+  correlators in quantum systems.'
+parameters: {}

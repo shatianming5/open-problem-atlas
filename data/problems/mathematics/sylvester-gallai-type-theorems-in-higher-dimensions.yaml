@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.sylvester-gallai-type-theorems-in-higher-dimensions
+kind: problem
+title: Sylvester-Gallai Type Theorems in Higher Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Generalize Sylvester-Gallai type results to higher dimensions and their applications.
+sources:
+  canonical:
+  - source_id: curated_sylvester_gallai_type_theorems_in_higher_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sylvester%E2%80%93Gallai_theorem
+  status_evidence:
+  - source_id: curated_sylvester_gallai_type_theorems_in_higher_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sylvester%E2%80%93Gallai_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

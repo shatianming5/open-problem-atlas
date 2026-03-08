@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.babai-s-conjecture-on-cayley-graphs
+kind: problem
+title: Babai's Conjecture on Cayley Graphs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The diameter of every connected Cayley graph of a finite simple group is polylogarithmic in the size of the group.
+sources:
+  canonical:
+  - source_id: curated_babai_s_conjecture_on_cayley_graphs
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cayley_graph
+  status_evidence:
+  - source_id: curated_babai_s_conjecture_on_cayley_graphs
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cayley_graph
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

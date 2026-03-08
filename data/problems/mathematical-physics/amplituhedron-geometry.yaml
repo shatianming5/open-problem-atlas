@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.amplituhedron-geometry
+kind: problem
+title: Amplituhedron Geometry
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that the amplituhedron computes all scattering amplitudes in N=4 super Yang-Mills.
+sources:
+  canonical:
+  - source_id: curated_amplituhedron_geometry
+    kind: website
+    url: https://en.wikipedia.org/wiki/Amplituhedron
+  status_evidence:
+  - source_id: curated_amplituhedron_geometry
+    kind: website
+    url: https://en.wikipedia.org/wiki/Amplituhedron
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

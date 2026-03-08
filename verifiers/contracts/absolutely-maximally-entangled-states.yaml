@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.absolutely-maximally-entangled-states
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/absolutely_maximally_entangled_states_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Absolutely Maximally Entangled States. Determine the existence of absolutely
+  maximally entangled states for all numbers of parties.'
+parameters: {}

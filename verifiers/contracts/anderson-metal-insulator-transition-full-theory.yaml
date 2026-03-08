@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.anderson-metal-insulator-transition-full-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/anderson_metal_insulator_transition_full_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Anderson Metal-Insulator Transition (Full Theory). Develop a complete theory
+  of the Anderson metal-insulator transition in three dimensions.'
+parameters: {}

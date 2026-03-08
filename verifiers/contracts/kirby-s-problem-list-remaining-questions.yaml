@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.kirby-s-problem-list-remaining-questions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kirby_s_problem_list_remaining_questions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kirby''s Problem List Remaining Questions. Resolve the remaining open problems
+  from Kirby''s list in low-dimensional topology.'
+parameters: {}

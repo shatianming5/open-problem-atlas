@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.calibrated-geometry-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/calibrated_geometry_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Calibrated Geometry Classification. Classify calibrated submanifolds in
+  special holonomy manifolds.'
+parameters: {}

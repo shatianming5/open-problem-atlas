@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.mubs-in-all-dimensions
+kind: problem
+title: MUBs in All Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the maximum number of mutually unbiased bases in all dimensions.
+sources:
+  canonical:
+  - source_id: curated_mubs_in_all_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mutually_unbiased_bases
+  status_evidence:
+  - source_id: curated_mubs_in_all_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mutually_unbiased_bases
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

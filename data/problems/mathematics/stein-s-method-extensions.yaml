@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.stein-s-method-extensions
+kind: problem
+title: Stein's Method Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend Stein's method to prove limit theorems for dependent random variables.
+sources:
+  canonical:
+  - source_id: curated_stein_s_method_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Stein%27s_method
+  status_evidence:
+  - source_id: curated_stein_s_method_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Stein%27s_method
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

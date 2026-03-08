@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.turan-density-problem-for-k-4-3
+kind: problem
+title: Turan Density Problem for K_4^3-
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the Turan density of the complete 3-uniform hypergraph minus one edge.
+sources:
+  canonical:
+  - source_id: curated_turan_density_problem_for_k_4_3
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tur%C3%A1n_number
+  status_evidence:
+  - source_id: curated_turan_density_problem_for_k_4_3
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tur%C3%A1n_number
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

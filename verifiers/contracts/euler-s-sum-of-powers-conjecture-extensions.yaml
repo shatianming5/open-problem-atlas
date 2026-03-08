@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.euler-s-sum-of-powers-conjecture-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/euler_s_sum_of_powers_conjecture_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Euler''s Sum of Powers Conjecture Extensions. Classify all solutions and
+  non-solutions of a^k + b^k + c^k = d^k for various k.'
+parameters: {}

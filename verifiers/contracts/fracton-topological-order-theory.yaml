@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.fracton-topological-order-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fracton_topological_order_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fracton Topological Order Theory. Develop a complete mathematical theory
+  of fracton topological order.'
+parameters: {}

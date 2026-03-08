@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.information-engines-optimal-efficiency
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/information_engines_optimal_efficiency_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Information Engines Optimal Efficiency. Determine the optimal efficiency
+  of information engines at the nanoscale.'
+parameters: {}

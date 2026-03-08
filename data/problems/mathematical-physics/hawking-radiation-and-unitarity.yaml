@@ -1,0 +1,32 @@
+id: opa.phys.quantum-gravity.hawking-radiation-and-unitarity
+kind: problem
+title: Hawking Radiation and Unitarity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-gravity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the unitarity of black hole evaporation be proved within a consistent theory of quantum gravity, resolving
+    the information paradox?
+sources:
+  canonical:
+  - source_id: src_almheiri_2021
+    kind: website
+    url: https://arxiv.org/abs/2006.06872
+  status_evidence:
+  - source_id: src_almheiri_2021
+    kind: website
+    url: https://arxiv.org/abs/2006.06872
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

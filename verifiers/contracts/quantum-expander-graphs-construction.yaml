@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-expander-graphs-construction
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_expander_graphs_construction_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Expander Graphs Construction. Construct explicit quantum expander
+  graphs with optimal expansion.'
+parameters: {}

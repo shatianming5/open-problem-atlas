@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.arithmetic-geometry.bloch-kato-conjecture-on-l-functions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bloch_kato_conjecture_on_l_functions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bloch-Kato Conjecture on L-functions. Special values of L-functions of motives
+  are related to orders of Shafarevich-Tate groups and regulators.'
+parameters: {}

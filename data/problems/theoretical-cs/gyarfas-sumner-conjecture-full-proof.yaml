@@ -1,0 +1,32 @@
+id: opa.tcs.graph-theory.gyarfas-sumner-conjecture-full-proof
+kind: problem
+title: Gyarfas-Sumner Conjecture (Full Proof)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For every tree T, chi-bounded classes of T-free graphs have bounded chromatic number as a function of clique
+    number.
+sources:
+  canonical:
+  - source_id: curated_gyarfas_sumner_conjecture_full_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gy%C3%A1rf%C3%A1s%E2%80%93Sumner_conjecture
+  status_evidence:
+  - source_id: curated_gyarfas_sumner_conjecture_full_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gy%C3%A1rf%C3%A1s%E2%80%93Sumner_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

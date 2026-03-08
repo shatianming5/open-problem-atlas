@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.category-theory.morita-equivalence-for-higher-categories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/morita_equivalence_for_higher_categories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Morita Equivalence for Higher Categories. Develop a complete theory of Morita
+  equivalence for enriched higher categories that generalizes classical Morita theory.'
+parameters: {}

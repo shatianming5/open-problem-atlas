@@ -1,0 +1,12 @@
+problem_id: opa.tcs.circuit-complexity.circuit-complexity-of-constant-depth-threshold-circuits
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/circuit_complexity_of_constant_depth_threshold_circuits_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Circuit Complexity of Constant-Depth Threshold Circuits. Can one prove superpolynomial
+  lower bounds for TC^0 circuits computing an explicit function, separating TC^0 from NC^1?'
+parameters: {}

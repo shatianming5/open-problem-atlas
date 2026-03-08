@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.harmonic-analysis.local-smoothing-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/local_smoothing_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Local Smoothing Conjecture. Solutions to the wave equation gain 1/2 - epsilon
+  derivatives locally in L^p for p > 2.'
+parameters: {}

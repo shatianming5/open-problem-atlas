@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.discrete-geometry.moser-s-worm-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/moser_s_worm_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Moser''s Worm Problem. Find the convex set of smallest area that can cover
+  every planar curve of unit length.'
+parameters: {}

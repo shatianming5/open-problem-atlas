@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.equilibrium-crystal-shape-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/equilibrium_crystal_shape_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Equilibrium Crystal Shape Theory. Prove the existence and regularity of
+  equilibrium crystal shapes from microscopic models.'
+parameters: {}

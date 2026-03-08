@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.lehmer-s-conjecture-on-ramanujan-s-tau-function
+kind: problem
+title: Lehmer's Conjecture on Ramanujan's Tau Function
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: 'Prove that Ramanujan''s tau function never vanishes: tau(n) is nonzero for all n.'
+sources:
+  canonical:
+  - source_id: curated_lehmer_s_conjecture_on_ramanujan_s_tau_function
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ramanujan_tau_function
+  status_evidence:
+  - source_id: curated_lehmer_s_conjecture_on_ramanujan_s_tau_function
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ramanujan_tau_function
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

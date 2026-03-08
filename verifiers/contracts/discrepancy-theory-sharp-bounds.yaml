@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.discrepancy-theory-sharp-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/discrepancy_theory_sharp_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Discrepancy Theory Sharp Bounds. Determine sharp bounds in combinatorial
+  discrepancy for specific set systems.'
+parameters: {}

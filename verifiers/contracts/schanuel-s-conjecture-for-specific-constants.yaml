@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.schanuel-s-conjecture-for-specific-constants
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/schanuel_s_conjecture_for_specific_constants_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Schanuel''s Conjecture for Specific Constants. Verify Schanuel''s conjecture
+  for specific sets of algebraically independent complex numbers.'
+parameters: {}

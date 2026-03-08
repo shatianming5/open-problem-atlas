@@ -1,0 +1,32 @@
+id: opa.mathematics.arithmetic-geometry.fontaine-mazur-conjecture
+kind: problem
+title: Fontaine-Mazur Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- arithmetic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: An irreducible p-adic representation of the Galois group of Q that is unramified outside finitely many primes
+    and de Rham at p comes from algebraic geometry.
+sources:
+  canonical:
+  - source_id: src_fontainemazur_1995
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fontaine%E2%80%93Mazur_conjecture
+  status_evidence:
+  - source_id: src_fontainemazur_1995
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fontaine%E2%80%93Mazur_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

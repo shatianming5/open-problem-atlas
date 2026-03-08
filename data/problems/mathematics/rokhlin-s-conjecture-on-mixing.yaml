@@ -1,0 +1,31 @@
+id: opa.mathematics.ergodic-theory.rokhlin-s-conjecture-on-mixing
+kind: problem
+title: Rokhlin's Conjecture on Mixing
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- ergodic-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is mixing of all orders equivalent to mixing of order 2 for measure-preserving transformations?
+sources:
+  canonical:
+  - source_id: src_rokhlin_1949
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mixing_(mathematics)
+  status_evidence:
+  - source_id: src_rokhlin_1949
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mixing_(mathematics)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

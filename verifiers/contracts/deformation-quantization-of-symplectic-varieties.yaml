@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.deformation-quantization-of-symplectic-varieties
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/deformation_quantization_of_symplectic_varieties_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Deformation Quantization of Symplectic Varieties. Determine when a singular
+  symplectic variety admits a deformation quantization.'
+parameters: {}

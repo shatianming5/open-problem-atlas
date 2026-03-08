@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.chromatic-homotopy-theory-classification
+kind: problem
+title: Chromatic Homotopy Theory Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the classification of the layers of the chromatic filtration in stable homotopy theory.
+sources:
+  canonical:
+  - source_id: curated_chromatic_homotopy_theory_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Chromatic_homotopy_theory
+  status_evidence:
+  - source_id: curated_chromatic_homotopy_theory_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Chromatic_homotopy_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.iwasawa-mu-invariant-conjecture
+kind: problem
+title: Iwasawa Mu-Invariant Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Iwasawa mu-invariant vanishes for all number fields and all primes p.
+sources:
+  canonical:
+  - source_id: curated_iwasawa_mu_invariant_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Iwasawa_theory
+  status_evidence:
+  - source_id: curated_iwasawa_mu_invariant_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Iwasawa_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

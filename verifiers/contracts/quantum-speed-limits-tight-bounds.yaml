@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-speed-limits-tight-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_speed_limits_tight_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Speed Limits Tight Bounds. Determine tight quantum speed limits
+  for general quantum channels.'
+parameters: {}

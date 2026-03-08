@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.quantum-entanglement-classification
+kind: problem
+title: Quantum Entanglement Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify multipartite quantum entanglement for arbitrary numbers of qubits.
+sources:
+  canonical:
+  - source_id: curated_quantum_entanglement_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_entanglement
+  status_evidence:
+  - source_id: curated_quantum_entanglement_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_entanglement
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.matroid-theory.whittle-s-stabilizer-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/whittle_s_stabilizer_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Whittle''s Stabilizer Theorem Extensions. Extend stabilizer theorems to
+  characterize representability of matroids over partial fields.'
+parameters: {}

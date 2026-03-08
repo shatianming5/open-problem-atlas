@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.dynamic-trees-optimal-operations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dynamic_trees_optimal_operations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamic Trees Optimal Operations. Determine the optimal amortized cost per
+  operation for dynamic tree data structures.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.rcd-spaces-theory
+kind: problem
+title: RCD Spaces Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the theory of RCD (Riemannian Curvature-Dimension) metric measure spaces.
+sources:
+  canonical:
+  - source_id: curated_rcd_spaces_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Metric_measure_space
+  status_evidence:
+  - source_id: curated_rcd_spaces_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Metric_measure_space
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

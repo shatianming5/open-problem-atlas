@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.gravitino-mass-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gravitino_mass_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gravitino Mass Problem. Determine the gravitino mass in supergravity theories
+  and its cosmological implications.'
+parameters: {}

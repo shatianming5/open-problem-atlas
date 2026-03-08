@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.boltzmann-equation-rigorous-derivation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/boltzmann_equation_rigorous_derivation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Boltzmann Equation Rigorous Derivation. Derive the Boltzmann equation rigorously
+  from Newtonian mechanics for long times.'
+parameters: {}

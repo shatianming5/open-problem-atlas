@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.cosmic-strings-gravitational-effects
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cosmic_strings_gravitational_effects_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cosmic Strings Gravitational Effects. Determine the exact gravitational
+  effects of cosmic strings.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.primes-in-arithmetic-progressions-gaps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/primes_in_arithmetic_progressions_gaps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Primes in Arithmetic Progressions Gaps. Determine the distribution of gaps
+  between primes in arithmetic progressions.'
+parameters: {}

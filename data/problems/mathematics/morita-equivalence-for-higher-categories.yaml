@@ -1,0 +1,32 @@
+id: opa.mathematics.category-theory.morita-equivalence-for-higher-categories
+kind: problem
+title: Morita Equivalence for Higher Categories
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- category-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a complete theory of Morita equivalence for enriched higher categories that generalizes classical Morita
+    theory.
+sources:
+  canonical:
+  - source_id: src_lurie_2009
+    kind: website
+    url: https://en.wikipedia.org/wiki/Morita_equivalence
+  status_evidence:
+  - source_id: src_lurie_2009
+    kind: website
+    url: https://en.wikipedia.org/wiki/Morita_equivalence
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.mathematical-physics.hilbert-polya-conjecture
+kind: problem
+title: Hilbert-Polya Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The zeros of the Riemann zeta function correspond to eigenvalues of a self-adjoint operator.
+sources:
+  canonical:
+  - source_id: src_hilbertpolya_1914
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hilbert%E2%80%93P%C3%B3lya_conjecture
+  status_evidence:
+  - source_id: src_hilbertpolya_1914
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hilbert%E2%80%93P%C3%B3lya_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

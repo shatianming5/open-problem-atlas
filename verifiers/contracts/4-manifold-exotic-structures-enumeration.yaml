@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.4-manifold-exotic-structures-enumeration
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/4_manifold_exotic_structures_enumeration_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: 4-Manifold Exotic Structures Enumeration. Enumerate all exotic smooth structures
+  on compact 4-manifolds.'
+parameters: {}

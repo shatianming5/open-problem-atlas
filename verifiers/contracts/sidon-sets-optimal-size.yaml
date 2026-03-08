@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.sidon-sets-optimal-size
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sidon_sets_optimal_size_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sidon Sets Optimal Size. Determine the maximum size of a Sidon set in {1,
+  2, ..., n}.'
+parameters: {}

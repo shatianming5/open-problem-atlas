@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.stein-manifold-characterizations
+kind: problem
+title: Stein Manifold Characterizations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop new characterizations of Stein manifolds relevant to complex geometry.
+sources:
+  canonical:
+  - source_id: curated_stein_manifold_characterizations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Stein_manifold
+  status_evidence:
+  - source_id: curated_stein_manifold_characterizations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Stein_manifold
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

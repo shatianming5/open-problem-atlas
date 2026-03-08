@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.hierarchy-problem-from-string-theory
+kind: problem
+title: Hierarchy Problem from String Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Explain the hierarchy between the electroweak and Planck scales from string theory.
+sources:
+  canonical:
+  - source_id: curated_hierarchy_problem_from_string_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hierarchy_problem
+  status_evidence:
+  - source_id: curated_hierarchy_problem_from_string_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hierarchy_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

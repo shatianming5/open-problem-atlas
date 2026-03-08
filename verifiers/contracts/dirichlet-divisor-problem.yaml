@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.dirichlet-divisor-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dirichlet_divisor_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dirichlet Divisor Problem. Determine the infimum of exponents alpha such
+  that the error term in the divisor summatory function is O(x^alpha).'
+parameters: {}

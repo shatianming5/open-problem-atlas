@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.steinitz-problem-for-polytopes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/steinitz_problem_for_polytopes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Steinitz Problem for Polytopes. Characterize which combinatorial types can
+  be realized as polytopes.'
+parameters: {}

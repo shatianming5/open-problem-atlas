@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.tao-green-conjecture-on-primes-and-nilsequences
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tao_green_conjecture_on_primes_and_nilsequences_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tao-Green Conjecture on Primes and Nilsequences. Prove optimal bounds for
+  correlations between primes and nilsequences.'
+parameters: {}

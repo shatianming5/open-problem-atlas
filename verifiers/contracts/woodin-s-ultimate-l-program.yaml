@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.woodin-s-ultimate-l-program
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/woodin_s_ultimate_l_program_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Woodin''s Ultimate L Program. Complete Woodin''s program showing that the
+  inner model Ultimate L satisfies CH and is compatible with all large cardinals.'
+parameters: {}

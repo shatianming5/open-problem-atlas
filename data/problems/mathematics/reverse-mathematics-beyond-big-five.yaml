@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.reverse-mathematics-beyond-big-five
+kind: problem
+title: Reverse Mathematics Beyond Big Five
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend reverse mathematics beyond the big five subsystems of second-order arithmetic.
+sources:
+  canonical:
+  - source_id: curated_reverse_mathematics_beyond_big_five
+    kind: website
+    url: https://en.wikipedia.org/wiki/Reverse_mathematics
+  status_evidence:
+  - source_id: curated_reverse_mathematics_beyond_big_five
+    kind: website
+    url: https://en.wikipedia.org/wiki/Reverse_mathematics
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

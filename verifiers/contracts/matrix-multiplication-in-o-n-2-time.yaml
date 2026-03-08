@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.matrix-multiplication-in-o-n-2-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/matrix_multiplication_in_o_n_2_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Matrix Multiplication in O(n^2) Time. Determine whether two n x n matrices
+  can be multiplied in O(n^2) arithmetic operations.'
+parameters: {}

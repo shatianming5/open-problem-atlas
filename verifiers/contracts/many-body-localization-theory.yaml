@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.many-body-localization-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/many_body_localization_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Many-Body Localization Theory. Prove or disprove many-body localization
+  in interacting quantum systems in arbitrary dimensions.'
+parameters: {}

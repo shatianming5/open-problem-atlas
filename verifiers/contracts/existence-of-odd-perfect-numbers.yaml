@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.existence-of-odd-perfect-numbers
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_odd_perfect_numbers_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Odd Perfect Numbers. Do odd perfect numbers exist? Despite
+  searches up to 10^{2200} and many necessary conditions, existence remains unresolved.'
+parameters: {}

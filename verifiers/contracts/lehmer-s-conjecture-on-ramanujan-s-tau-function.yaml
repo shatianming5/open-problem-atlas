@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.lehmer-s-conjecture-on-ramanujan-s-tau-function
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lehmer_s_conjecture_on_ramanujan_s_tau_function_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lehmer''s Conjecture on Ramanujan''s Tau Function. Prove that Ramanujan''s
+  tau function never vanishes: tau(n) is nonzero for all n.'
+parameters: {}

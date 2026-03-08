@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.dynamical-mean-field-theory-extensions-full
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dynamical_mean_field_theory_extensions_full_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamical Mean-Field Theory Extensions (Full). Extend dynamical mean-field
+  theory to include non-local correlations systematically.'
+parameters: {}

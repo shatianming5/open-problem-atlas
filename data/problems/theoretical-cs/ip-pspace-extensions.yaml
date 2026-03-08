@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.ip-pspace-extensions
+kind: problem
+title: IP = PSPACE Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the IP = PSPACE result to multi-prover interactive proofs and quantum settings.
+sources:
+  canonical:
+  - source_id: curated_ip_pspace_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/IP_(complexity)
+  status_evidence:
+  - source_id: curated_ip_pspace_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/IP_(complexity)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

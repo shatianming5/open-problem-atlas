@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.all-pairs-shortest-paths-optimal
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/all_pairs_shortest_paths_optimal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: All-Pairs Shortest Paths Optimal. Determine whether all-pairs shortest paths
+  can be computed in truly subcubic time for general graphs.'
+parameters: {}

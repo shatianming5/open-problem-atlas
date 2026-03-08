@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.tao-green-conjecture-on-primes-and-nilsequences
+kind: problem
+title: Tao-Green Conjecture on Primes and Nilsequences
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove optimal bounds for correlations between primes and nilsequences.
+sources:
+  canonical:
+  - source_id: curated_tao_green_conjecture_on_primes_and_nilsequences
+    kind: website
+    url: https://en.wikipedia.org/wiki/Green%E2%80%93Tao_theorem
+  status_evidence:
+  - source_id: curated_tao_green_conjecture_on_primes_and_nilsequences
+    kind: website
+    url: https://en.wikipedia.org/wiki/Green%E2%80%93Tao_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

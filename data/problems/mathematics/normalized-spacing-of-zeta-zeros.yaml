@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.normalized-spacing-of-zeta-zeros
+kind: problem
+title: Normalized Spacing of Zeta Zeros
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that the normalized spacings between consecutive zeros of the Riemann zeta function follow GUE statistics.
+sources:
+  canonical:
+  - source_id: curated_normalized_spacing_of_zeta_zeros
+    kind: website
+    url: https://en.wikipedia.org/wiki/Montgomery%27s_pair_correlation_conjecture
+  status_evidence:
+  - source_id: curated_normalized_spacing_of_zeta_zeros
+    kind: website
+    url: https://en.wikipedia.org/wiki/Montgomery%27s_pair_correlation_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

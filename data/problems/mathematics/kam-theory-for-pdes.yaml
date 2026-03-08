@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.kam-theory-for-pdes
+kind: problem
+title: KAM Theory for PDEs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend KAM theory to infinite-dimensional systems (PDEs) in a complete way.
+sources:
+  canonical:
+  - source_id: curated_kam_theory_for_pdes
+    kind: website
+    url: https://en.wikipedia.org/wiki/KAM_theory
+  status_evidence:
+  - source_id: curated_kam_theory_for_pdes
+    kind: website
+    url: https://en.wikipedia.org/wiki/KAM_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

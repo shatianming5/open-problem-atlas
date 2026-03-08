@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.classification-of-exotic-spheres-in-dimension-4
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/classification_of_exotic_spheres_in_dimension_4_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Classification of Exotic Spheres in Dimension 4. Determine whether exotic
+  smooth structures on S^4 exist.'
+parameters: {}

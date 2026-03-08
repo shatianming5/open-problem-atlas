@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.self-organized-criticality-mathematical-foundation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/self_organized_criticality_mathematical_foundation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Self-Organized Criticality Mathematical Foundation. Develop a rigorous mathematical
+  theory of self-organized criticality.'
+parameters: {}

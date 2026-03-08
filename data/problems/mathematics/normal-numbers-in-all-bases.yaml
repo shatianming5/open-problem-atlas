@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.normal-numbers-in-all-bases
+kind: problem
+title: Normal Numbers in All Bases
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that common constants like pi, e, and sqrt(2) are normal in all bases.
+sources:
+  canonical:
+  - source_id: curated_normal_numbers_in_all_bases
+    kind: website
+    url: https://en.wikipedia.org/wiki/Normal_number
+  status_evidence:
+  - source_id: curated_normal_numbers_in_all_bases
+    kind: website
+    url: https://en.wikipedia.org/wiki/Normal_number
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

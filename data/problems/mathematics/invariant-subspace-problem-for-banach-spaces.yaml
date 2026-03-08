@@ -1,0 +1,32 @@
+id: opa.mathematics.functional-analysis.invariant-subspace-problem-for-banach-spaces
+kind: problem
+title: Invariant Subspace Problem for Banach Spaces
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- functional-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does every bounded linear operator on a separable infinite-dimensional Banach space have a non-trivial closed
+    invariant subspace?
+sources:
+  canonical:
+  - source_id: src_enflo_2023
+    kind: website
+    url: https://arxiv.org/abs/2305.15442
+  status_evidence:
+  - source_id: src_enflo_2023
+    kind: website
+    url: https://arxiv.org/abs/2305.15442
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

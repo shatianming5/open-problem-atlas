@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.shortest-paths-with-negative-weights
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/shortest_paths_with_negative_weights_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Shortest Paths with Negative Weights. Find single-source shortest paths
+  with negative edge weights in near-linear time.'
+parameters: {}

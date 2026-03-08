@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.trace-formula-general-form
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/trace_formula_general_form_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Trace Formula General Form. Prove the fundamental lemma in full generality
+  and complete the stabilization of the trace formula.'
+parameters: {}

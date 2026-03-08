@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.aklt-model-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/aklt_model_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: AKLT Model Extensions. Extend the AKLT model solution to higher dimensions
+  and determine the spectral gap.'
+parameters: {}

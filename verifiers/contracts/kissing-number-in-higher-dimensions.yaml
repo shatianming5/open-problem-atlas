@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.kissing-number-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kissing_number_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kissing Number in Higher Dimensions. Determine the kissing number in dimensions
+  5 and above.'
+parameters: {}

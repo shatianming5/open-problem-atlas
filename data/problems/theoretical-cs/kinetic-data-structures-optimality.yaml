@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.kinetic-data-structures-optimality
+kind: problem
+title: Kinetic Data Structures Optimality
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal efficiency of kinetic data structures for geometric problems.
+sources:
+  canonical:
+  - source_id: curated_kinetic_data_structures_optimality
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kinetic_data_structure
+  status_evidence:
+  - source_id: curated_kinetic_data_structures_optimality
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kinetic_data_structure
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.quantum-money-scheme-from-standard-assumptions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_money_scheme_from_standard_assumptions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Money Scheme from Standard Assumptions. Construct a public-key quantum
+  money scheme from standard cryptographic assumptions.'
+parameters: {}

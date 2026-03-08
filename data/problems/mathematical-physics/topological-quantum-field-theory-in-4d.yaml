@@ -1,0 +1,31 @@
+id: opa.phys.tqft.topological-quantum-field-theory-in-4d
+kind: problem
+title: Topological Quantum Field Theory in 4D
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- tqft
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can one construct a fully rigorous non-trivial 4-dimensional TQFT that detects exotic smooth structures on 4-manifolds?
+sources:
+  canonical:
+  - source_id: src_witten_2020
+    kind: website
+    url: https://arxiv.org/abs/1710.01791
+  status_evidence:
+  - source_id: src_witten_2020
+    kind: website
+    url: https://arxiv.org/abs/1710.01791
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

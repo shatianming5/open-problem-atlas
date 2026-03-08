@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.wieferich-prime-conjecture
+kind: problem
+title: Wieferich Prime Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether infinitely many Wieferich primes (primes p with 2^{p-1} = 1 mod p^2) exist.
+sources:
+  canonical:
+  - source_id: curated_wieferich_prime_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wieferich_prime
+  status_evidence:
+  - source_id: curated_wieferich_prime_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wieferich_prime
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

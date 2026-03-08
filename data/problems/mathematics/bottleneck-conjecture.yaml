@@ -1,0 +1,31 @@
+id: opa.mathematics.convex-geometry.bottleneck-conjecture
+kind: problem
+title: Bottleneck Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- convex-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Among all origin-symmetric convex bodies, the cube has the smallest bottleneck.
+sources:
+  canonical:
+  - source_id: src_pelczynski_1990
+    kind: website
+    url: https://en.wikipedia.org/wiki/Convex_body
+  status_evidence:
+  - source_id: src_pelczynski_1990
+    kind: website
+    url: https://en.wikipedia.org/wiki/Convex_body
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

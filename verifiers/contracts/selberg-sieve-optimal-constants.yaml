@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.selberg-sieve-optimal-constants
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/selberg_sieve_optimal_constants_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Selberg Sieve Optimal Constants. Determine the optimal constants in the
+  Selberg sieve.'
+parameters: {}

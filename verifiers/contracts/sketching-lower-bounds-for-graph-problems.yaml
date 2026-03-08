@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.sketching-lower-bounds-for-graph-problems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sketching_lower_bounds_for_graph_problems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sketching Lower Bounds for Graph Problems. Prove tight sketching lower bounds
+  for graph problems like connectivity and matching.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.g2-manifolds-construction
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/g2_manifolds_construction_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: G2 Manifolds Construction. Construct compact G2 manifolds with prescribed
+  topological properties.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.kpz-universality-for-general-initial-data
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kpz_universality_for_general_initial_data_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: KPZ Universality for General Initial Data. Prove KPZ universality for the
+  fluctuations of growing interfaces with general initial conditions.'
+parameters: {}

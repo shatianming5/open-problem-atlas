@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.approximation-theory.bernstein-s-lethargy-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bernstein_s_lethargy_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bernstein''s Lethargy Theorem Extensions. Characterize the rates of best
+  approximation in arbitrary Banach spaces for general compact operators.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.szemeredi-regularity-lemma-bounds
+kind: problem
+title: Szemeredi Regularity Lemma Bounds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the tower-type bounds in Szemeredi's regularity lemma optimally.
+sources:
+  canonical:
+  - source_id: curated_szemeredi_regularity_lemma_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Szemer%C3%A9di_regularity_lemma
+  status_evidence:
+  - source_id: curated_szemeredi_regularity_lemma_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Szemer%C3%A9di_regularity_lemma
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

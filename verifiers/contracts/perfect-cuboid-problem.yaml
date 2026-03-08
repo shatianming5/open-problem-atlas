@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.perfect-cuboid-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/perfect_cuboid_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Perfect Cuboid Problem. Does a rectangular parallelepiped exist with all
+  edges, face diagonals, and space diagonal having integer lengths?'
+parameters: {}

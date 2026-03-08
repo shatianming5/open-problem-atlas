@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.resolution-vs-cutting-planes
+kind: problem
+title: Resolution vs Cutting Planes
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the relative power of Resolution and Cutting Planes proof systems.
+sources:
+  canonical:
+  - source_id: curated_resolution_vs_cutting_planes
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cutting-plane_method
+  status_evidence:
+  - source_id: curated_resolution_vs_cutting_planes
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cutting-plane_method
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

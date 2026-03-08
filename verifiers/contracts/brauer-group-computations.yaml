@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.brauer-group-computations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/brauer_group_computations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Brauer Group Computations. Compute the Brauer group of specific varieties
+  and their applications to the Hasse principle.'
+parameters: {}

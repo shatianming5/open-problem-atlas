@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.causal-set-theory-dynamics
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/causal_set_theory_dynamics_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Causal Set Theory Dynamics. Develop the dynamics of causal set theory and
+  connect it to known physics.'
+parameters: {}

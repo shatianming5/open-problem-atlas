@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.density-hypothesis-for-zeta-zeros
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/density_hypothesis_for_zeta_zeros_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Density Hypothesis for Zeta Zeros. Prove the density hypothesis: N(sigma,
+  T) << T^{2(1-sigma)+epsilon} for sigma >= 1/2.'
+parameters: {}

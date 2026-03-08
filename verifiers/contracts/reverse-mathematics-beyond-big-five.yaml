@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.reverse-mathematics-beyond-big-five
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/reverse_mathematics_beyond_big_five_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Reverse Mathematics Beyond Big Five. Extend reverse mathematics beyond the
+  big five subsystems of second-order arithmetic.'
+parameters: {}

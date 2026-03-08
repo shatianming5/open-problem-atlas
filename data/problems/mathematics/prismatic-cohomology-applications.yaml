@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.prismatic-cohomology-applications
+kind: problem
+title: Prismatic Cohomology Applications
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop applications of prismatic cohomology to p-adic Hodge theory.
+sources:
+  canonical:
+  - source_id: curated_prismatic_cohomology_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Prismatic_cohomology
+  status_evidence:
+  - source_id: curated_prismatic_cohomology_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Prismatic_cohomology
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

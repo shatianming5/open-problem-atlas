@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.arithmetic-statistics-foundations
+kind: problem
+title: Arithmetic Statistics Foundations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop the foundations of arithmetic statistics for number fields and function fields.
+sources:
+  canonical:
+  - source_id: curated_arithmetic_statistics_foundations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arithmetic_statistics
+  status_evidence:
+  - source_id: curated_arithmetic_statistics_foundations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arithmetic_statistics
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

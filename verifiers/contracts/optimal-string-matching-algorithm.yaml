@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-string-matching-algorithm
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_string_matching_algorithm_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal String Matching Algorithm. Determine the optimal number of comparisons
+  for exact string matching.'
+parameters: {}

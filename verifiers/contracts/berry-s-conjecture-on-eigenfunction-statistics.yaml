@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.mathematical-physics.berry-s-conjecture-on-eigenfunction-statistics
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/berry_s_conjecture_on_eigenfunction_statistics_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Berry''s Conjecture on Eigenfunction Statistics. High-energy eigenfunctions
+  of classically chaotic systems behave like random waves.'
+parameters: {}

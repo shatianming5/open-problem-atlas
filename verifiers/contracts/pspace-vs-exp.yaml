@@ -1,0 +1,11 @@
+problem_id: opa.tcs.complexity-theory.pspace-vs-exp
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/pspace_vs_exp_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: PSPACE vs EXP. Determine the relationship between PSPACE and EXP.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.complex-analysis.smale-s-mean-value-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/smale_s_mean_value_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Smale''s Mean Value Conjecture. For a polynomial p of degree n with p(0)
+  = 0 and p''(0) = 1, there exists a critical point c with |p(c)/c| <= (n-1)/n.'
+parameters: {}

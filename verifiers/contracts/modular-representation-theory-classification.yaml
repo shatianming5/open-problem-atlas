@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.modular-representation-theory-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/modular_representation_theory_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Modular Representation Theory Classification. Complete the classification
+  of modular representations of finite groups of Lie type.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.equivariant-stable-homotopy-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/equivariant_stable_homotopy_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Equivariant Stable Homotopy Theory. Complete the foundations of equivariant
+  stable homotopy theory for general compact Lie groups.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.topological-combinatorics-new-applications
+kind: problem
+title: Topological Combinatorics New Applications
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find new applications of topological methods to combinatorial problems beyond Kneser's conjecture.
+sources:
+  canonical:
+  - source_id: curated_topological_combinatorics_new_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_combinatorics
+  status_evidence:
+  - source_id: curated_topological_combinatorics_new_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_combinatorics
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

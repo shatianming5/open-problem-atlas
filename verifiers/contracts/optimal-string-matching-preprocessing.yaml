@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.optimal-string-matching-preprocessing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_string_matching_preprocessing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal String Matching Preprocessing. What is the optimal preprocessing
+  time for exact string matching in the comparison model? Gaps remain between known algorithms.'
+parameters: {}

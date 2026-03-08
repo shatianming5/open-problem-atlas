@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.wall-crossing-formulas-proof
+kind: problem
+title: Wall-Crossing Formulas Proof
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Kontsevich-Soibelman wall-crossing formula for BPS states.
+sources:
+  canonical:
+  - source_id: curated_wall_crossing_formulas_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wall-crossing
+  status_evidence:
+  - source_id: curated_wall_crossing_formulas_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wall-crossing
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

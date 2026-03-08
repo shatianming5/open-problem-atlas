@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.mcmullen-s-g-conjecture-for-spheres
+kind: problem
+title: McMullen's g-Conjecture for Spheres
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize the f-vectors of simplicial spheres.
+sources:
+  canonical:
+  - source_id: curated_mcmullen_s_g_conjecture_for_spheres
+    kind: website
+    url: https://en.wikipedia.org/wiki/G-conjecture
+  status_evidence:
+  - source_id: curated_mcmullen_s_g_conjecture_for_spheres
+    kind: website
+    url: https://en.wikipedia.org/wiki/G-conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

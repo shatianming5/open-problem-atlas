@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-gravity.hawking-radiation-and-unitarity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hawking_radiation_and_unitarity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hawking Radiation and Unitarity. Can the unitarity of black hole evaporation
+  be proved within a consistent theory of quantum gravity, resolving the information paradox?'
+parameters: {}

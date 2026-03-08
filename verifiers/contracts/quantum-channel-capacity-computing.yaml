@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-channel-capacity-computing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_channel_capacity_computing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Channel Capacity Computing. Develop efficient algorithms for computing
+  quantum channel capacities.'
+parameters: {}

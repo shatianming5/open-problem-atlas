@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.lusztig-s-character-formula-for-all-types
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lusztig_s_character_formula_for_all_types_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lusztig''s Character Formula for All Types. Prove Lusztig''s conjecture
+  on the characters of irreducible representations of algebraic groups in positive characteristic for all types.'
+parameters: {}

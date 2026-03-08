@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.standard-conjectures-on-algebraic-cycles-full
+kind: problem
+title: Standard Conjectures on Algebraic Cycles (Full)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the standard conjectures of Grothendieck on algebraic cycles.
+sources:
+  canonical:
+  - source_id: curated_standard_conjectures_on_algebraic_cycles_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Standard_conjectures_on_algebraic_cycles
+  status_evidence:
+  - source_id: curated_standard_conjectures_on_algebraic_cycles_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Standard_conjectures_on_algebraic_cycles
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

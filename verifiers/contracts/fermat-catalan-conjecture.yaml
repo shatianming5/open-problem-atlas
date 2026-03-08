@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.fermat-catalan-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fermat_catalan_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fermat-Catalan Conjecture. There are only finitely many solutions to a^m
+  + b^n = c^k with 1/m + 1/n + 1/k < 1 and gcd(a,b,c)=1.'
+parameters: {}

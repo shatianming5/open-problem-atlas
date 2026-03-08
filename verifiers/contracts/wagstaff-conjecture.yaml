@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.wagstaff-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/wagstaff_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Wagstaff Conjecture. There are infinitely many Wagstaff primes, i.e., primes
+  of the form (2^p + 1)/3.'
+parameters: {}

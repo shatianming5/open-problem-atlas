@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.threshold-cryptography-optimal-efficiency
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/threshold_cryptography_optimal_efficiency_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Threshold Cryptography Optimal Efficiency. Determine the optimal communication
+  and round complexity of threshold cryptographic schemes.'
+parameters: {}

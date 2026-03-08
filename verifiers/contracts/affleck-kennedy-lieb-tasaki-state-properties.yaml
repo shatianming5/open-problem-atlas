@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.affleck-kennedy-lieb-tasaki-state-properties
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/affleck_kennedy_lieb_tasaki_state_properties_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Affleck-Kennedy-Lieb-Tasaki State Properties. Determine the exact entanglement
+  properties of AKLT states in all dimensions.'
+parameters: {}

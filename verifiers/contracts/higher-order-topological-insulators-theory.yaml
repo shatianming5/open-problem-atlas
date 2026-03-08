@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.higher-order-topological-insulators-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/higher_order_topological_insulators_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Higher-Order Topological Insulators Theory. Develop a complete theory of
+  higher-order topological insulators.'
+parameters: {}

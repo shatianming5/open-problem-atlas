@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.fracton-topological-order-theory
+kind: problem
+title: Fracton Topological Order Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a complete mathematical theory of fracton topological order.
+sources:
+  canonical:
+  - source_id: curated_fracton_topological_order_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fracton_(subdimensional_particle)
+  status_evidence:
+  - source_id: curated_fracton_topological_order_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fracton_(subdimensional_particle)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

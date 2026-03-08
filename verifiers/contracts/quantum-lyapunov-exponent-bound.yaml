@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.quantum-lyapunov-exponent-bound
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_lyapunov_exponent_bound_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Lyapunov Exponent Bound. Prove the Maldacena-Shenker-Stanford bound
+  on quantum Lyapunov exponents for general systems.'
+parameters: {}

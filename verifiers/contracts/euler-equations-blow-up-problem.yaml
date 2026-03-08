@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.euler-equations-blow-up-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/euler_equations_blow_up_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Euler Equations Blow-Up Problem. Determine whether smooth solutions to the
+  3D incompressible Euler equations can develop singularities in finite time.'
+parameters: {}

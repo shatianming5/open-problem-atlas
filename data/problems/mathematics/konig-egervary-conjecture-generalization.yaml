@@ -1,0 +1,32 @@
+id: opa.mathematics.combinatorics.konig-egervary-conjecture-generalization
+kind: problem
+title: Konig-Egervary Conjecture Generalization
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Konig-Egervary theorem be extended to hypergraphs? Characterize hypergraphs where the minimum vertex
+    cover equals the maximum matching.
+sources:
+  canonical:
+  - source_id: src_aharoni_2000
+    kind: website
+    url: https://doi.org/10.1007/s004930070009
+  status_evidence:
+  - source_id: src_aharoni_2000
+    kind: website
+    url: https://doi.org/10.1007/s004930070009
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

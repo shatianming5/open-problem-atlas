@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.meyniel-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/meyniel_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Meyniel''s Conjecture. The cop number of a connected graph on n vertices
+  is O(sqrt(n)).'
+parameters: {}

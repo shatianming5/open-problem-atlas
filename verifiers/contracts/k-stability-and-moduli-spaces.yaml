@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.k-stability-and-moduli-spaces
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/k_stability_and_moduli_spaces_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: K-Stability and Moduli Spaces. Construct moduli spaces of K-stable Fano
+  varieties.'
+parameters: {}

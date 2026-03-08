@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.cohen-lenstra-heuristics-proof
+kind: problem
+title: Cohen-Lenstra Heuristics Proof
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Cohen-Lenstra heuristics for the distribution of class groups of quadratic fields.
+sources:
+  canonical:
+  - source_id: curated_cohen_lenstra_heuristics_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cohen%E2%80%93Lenstra_heuristics
+  status_evidence:
+  - source_id: curated_cohen_lenstra_heuristics_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cohen%E2%80%93Lenstra_heuristics
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

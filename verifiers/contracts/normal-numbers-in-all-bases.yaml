@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.normal-numbers-in-all-bases
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/normal_numbers_in_all_bases_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Normal Numbers in All Bases. Prove that common constants like pi, e, and
+  sqrt(2) are normal in all bases.'
+parameters: {}

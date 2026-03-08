@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.string-theory-landscape-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/string_theory_landscape_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: String Theory Landscape Classification. Classify the string theory landscape
+  and determine the number of consistent vacua.'
+parameters: {}

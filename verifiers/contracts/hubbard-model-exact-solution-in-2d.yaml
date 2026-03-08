@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.hubbard-model-exact-solution-in-2d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hubbard_model_exact_solution_in_2d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hubbard Model Exact Solution in 2D. Determine whether the 2D Hubbard model
+  can be exactly solved.'
+parameters: {}

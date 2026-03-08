@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.dynamical-systems.collatz-conjecture-density-results
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/collatz_conjecture_density_results_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Collatz Conjecture Density Results. Can Tao''s almost-all result for the
+  Collatz conjecture be strengthened to cover all positive integers, or is there an alternative dynamical systems approach?'
+parameters: {}

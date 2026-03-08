@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.polar-codes-universality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/polar_codes_universality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Polar Codes Universality. Prove that polar codes achieve capacity universally
+  over all symmetric channels.'
+parameters: {}

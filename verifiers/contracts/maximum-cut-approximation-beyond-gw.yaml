@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.maximum-cut-approximation-beyond-gw
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/maximum_cut_approximation_beyond_gw_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maximum Cut Approximation Beyond GW. Improve the Goemans-Williamson approximation
+  ratio for MAX CUT, or prove it is optimal.'
+parameters: {}

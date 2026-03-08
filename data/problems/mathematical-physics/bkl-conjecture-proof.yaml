@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.bkl-conjecture-proof
+kind: problem
+title: BKL Conjecture Proof
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Belinski-Khalatnikov-Lifshitz conjecture on the structure of cosmological singularities.
+sources:
+  canonical:
+  - source_id: curated_bkl_conjecture_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/BKL_singularity
+  status_evidence:
+  - source_id: curated_bkl_conjecture_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/BKL_singularity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

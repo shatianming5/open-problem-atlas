@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.conformal-bootstrap-in-3d
+kind: problem
+title: Conformal Bootstrap in 3D
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine all consistent 3D conformal field theories using the conformal bootstrap.
+sources:
+  canonical:
+  - source_id: curated_conformal_bootstrap_in_3d
+    kind: website
+    url: https://en.wikipedia.org/wiki/Conformal_bootstrap
+  status_evidence:
+  - source_id: curated_conformal_bootstrap_in_3d
+    kind: website
+    url: https://en.wikipedia.org/wiki/Conformal_bootstrap
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.link-homology-theories-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/link_homology_theories_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Link Homology Theories Classification. Classify all link homology theories
+  categorifying quantum invariants.'
+parameters: {}

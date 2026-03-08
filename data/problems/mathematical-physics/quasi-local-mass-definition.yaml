@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.quasi-local-mass-definition
+kind: problem
+title: Quasi-Local Mass Definition
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find a satisfactory definition of quasi-local mass in general relativity.
+sources:
+  canonical:
+  - source_id: curated_quasi_local_mass_definition
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quasi-local_mass
+  status_evidence:
+  - source_id: curated_quasi_local_mass_definition
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quasi-local_mass
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

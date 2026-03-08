@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.sinkless-orientation-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sinkless_orientation_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sinkless Orientation Problem. Determine the exact round complexity of the
+  sinkless orientation problem in the LOCAL model.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.perfectoid-spaces-further-applications
+kind: problem
+title: Perfectoid Spaces Further Applications
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find new applications of perfectoid spaces in number theory and algebraic geometry.
+sources:
+  canonical:
+  - source_id: curated_perfectoid_spaces_further_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Perfectoid_space
+  status_evidence:
+  - source_id: curated_perfectoid_spaces_further_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Perfectoid_space
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

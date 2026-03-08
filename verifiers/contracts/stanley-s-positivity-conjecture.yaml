@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.stanley-s-positivity-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stanley_s_positivity_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stanley''s Positivity Conjecture. Prove Stanley''s conjecture on the positivity
+  of chromatic symmetric functions for certain graph classes.'
+parameters: {}

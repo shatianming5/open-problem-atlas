@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.categorical-langlands-correspondence
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/categorical_langlands_correspondence_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Categorical Langlands Correspondence. Prove the categorical form of the
+  geometric Langlands correspondence.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.giuga-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/giuga_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Giuga''s Conjecture. A composite number n is a Giuga number if and only
+  if sum_{k=1}^{n-1} k^{n-1} = -1 mod n. Determine if any Giuga number exists.'
+parameters: {}

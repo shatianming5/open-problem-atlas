@@ -1,0 +1,31 @@
+id: opa.mathematics.functional-analysis.banach-mazur-rotation-problem
+kind: problem
+title: Banach-Mazur Rotation Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- functional-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: If every linear isometry of a Banach space X onto itself is transitive on the unit sphere, is X a Hilbert space?
+sources:
+  canonical:
+  - source_id: src_banachmazur_1932
+    kind: website
+    url: https://en.wikipedia.org/wiki/Banach%E2%80%93Mazur_compactum
+  status_evidence:
+  - source_id: src_banachmazur_1932
+    kind: website
+    url: https://en.wikipedia.org/wiki/Banach%E2%80%93Mazur_compactum
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

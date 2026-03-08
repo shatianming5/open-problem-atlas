@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.equidistribution-of-cm-points
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/equidistribution_of_cm_points_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Equidistribution of CM Points. Prove equidistribution theorems for CM points
+  on Shimura varieties.'
+parameters: {}

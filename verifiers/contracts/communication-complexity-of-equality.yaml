@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.communication-complexity-of-equality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/communication_complexity_of_equality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Communication Complexity of Equality. Determine the exact randomized communication
+  complexity of the equality function.'
+parameters: {}

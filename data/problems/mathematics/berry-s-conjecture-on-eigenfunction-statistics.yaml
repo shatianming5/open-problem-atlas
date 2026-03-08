@@ -1,0 +1,31 @@
+id: opa.mathematics.mathematical-physics.berry-s-conjecture-on-eigenfunction-statistics
+kind: problem
+title: Berry's Conjecture on Eigenfunction Statistics
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: High-energy eigenfunctions of classically chaotic systems behave like random waves.
+sources:
+  canonical:
+  - source_id: src_berry_1977
+    kind: website
+    url: https://en.wikipedia.org/wiki/Berry%27s_conjecture
+  status_evidence:
+  - source_id: src_berry_1977
+    kind: website
+    url: https://en.wikipedia.org/wiki/Berry%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

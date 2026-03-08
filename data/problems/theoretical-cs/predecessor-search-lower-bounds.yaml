@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.predecessor-search-lower-bounds
+kind: problem
+title: Predecessor Search Lower Bounds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal time complexity for predecessor search in the cell probe model.
+sources:
+  canonical:
+  - source_id: curated_predecessor_search_lower_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Predecessor_problem
+  status_evidence:
+  - source_id: curated_predecessor_search_lower_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Predecessor_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

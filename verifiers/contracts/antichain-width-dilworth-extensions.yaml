@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.antichain-width-dilworth-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/antichain_width_dilworth_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Antichain Width Dilworth Extensions. Extend Dilworth''s theorem to partially
+  ordered sets with additional structure.'
+parameters: {}

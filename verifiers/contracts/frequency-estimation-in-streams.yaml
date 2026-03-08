@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.frequency-estimation-in-streams
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/frequency_estimation_in_streams_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Frequency Estimation in Streams. Determine the optimal space complexity
+  for frequency estimation in data streams.'
+parameters: {}

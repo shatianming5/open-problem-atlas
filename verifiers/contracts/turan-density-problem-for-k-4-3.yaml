@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.turan-density-problem-for-k-4-3
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/turan_density_problem_for_k_4_3_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Turan Density Problem for K_4^3-. Determine the Turan density of the complete
+  3-uniform hypergraph minus one edge.'
+parameters: {}

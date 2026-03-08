@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.stieltjes-conjecture-on-zeros-of-zeta
+kind: problem
+title: Stieltjes' Conjecture on Zeros of Zeta
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: All zeros of the de la Vallee-Poussin function (closely related to the Riemann zeta function) are real.
+sources:
+  canonical:
+  - source_id: src_stieltjes_1885
+    kind: website
+    url: https://en.wikipedia.org/wiki/Riemann_hypothesis
+  status_evidence:
+  - source_id: src_stieltjes_1885
+    kind: website
+    url: https://en.wikipedia.org/wiki/Riemann_hypothesis
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

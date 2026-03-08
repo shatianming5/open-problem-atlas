@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.homotopy-type-theory-foundations
+kind: problem
+title: Homotopy Type Theory Foundations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop homotopy type theory as a complete alternative foundation for mathematics.
+sources:
+  canonical:
+  - source_id: curated_homotopy_type_theory_foundations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homotopy_type_theory
+  status_evidence:
+  - source_id: curated_homotopy_type_theory_foundations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homotopy_type_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

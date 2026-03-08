@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.ricci-flow-with-surgery-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ricci_flow_with_surgery_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ricci Flow with Surgery in Higher Dimensions. Extend Perelman''s Ricci flow
+  with surgery to higher dimensions.'
+parameters: {}

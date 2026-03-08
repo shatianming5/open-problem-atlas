@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.rnp-characterization-problem
+kind: problem
+title: RNP Characterization Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize Banach spaces with the Radon-Nikodym property using geometric conditions.
+sources:
+  canonical:
+  - source_id: curated_rnp_characterization_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Radon%E2%80%93Nikod%C3%BDm_property
+  status_evidence:
+  - source_id: curated_rnp_characterization_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Radon%E2%80%93Nikod%C3%BDm_property
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

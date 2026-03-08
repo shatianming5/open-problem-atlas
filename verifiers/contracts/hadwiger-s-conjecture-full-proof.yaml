@@ -1,0 +1,11 @@
+problem_id: opa.tcs.graph-theory.hadwiger-s-conjecture-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hadwiger_s_conjecture_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hadwiger''s Conjecture (Full Proof). Every graph with no K_t minor is (t-1)-colorable.'
+parameters: {}

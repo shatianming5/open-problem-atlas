@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.sogge-s-local-smoothing-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sogge_s_local_smoothing_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sogge''s Local Smoothing Conjecture. Prove optimal local smoothing estimates
+  for the wave equation in all dimensions.'
+parameters: {}

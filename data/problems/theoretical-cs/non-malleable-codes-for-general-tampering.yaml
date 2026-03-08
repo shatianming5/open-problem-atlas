@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.non-malleable-codes-for-general-tampering
+kind: problem
+title: Non-Malleable Codes for General Tampering
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct non-malleable codes for arbitrary tampering families with optimal rate.
+sources:
+  canonical:
+  - source_id: curated_non_malleable_codes_for_general_tampering
+    kind: website
+    url: https://en.wikipedia.org/wiki/Non-malleable_code
+  status_evidence:
+  - source_id: curated_non_malleable_codes_for_general_tampering
+    kind: website
+    url: https://en.wikipedia.org/wiki/Non-malleable_code
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.approximation-theory.entropy-numbers-conjecture-for-embeddings
+kind: problem
+title: Entropy Numbers Conjecture for Embeddings
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- approximation-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact asymptotic behavior of entropy numbers for Sobolev space embeddings in all regimes.
+sources:
+  canonical:
+  - source_id: src_edmundstriebel_1996
+    kind: website
+    url: https://en.wikipedia.org/wiki/Entropy_(functional_analysis)
+  status_evidence:
+  - source_id: src_edmundstriebel_1996
+    kind: website
+    url: https://en.wikipedia.org/wiki/Entropy_(functional_analysis)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

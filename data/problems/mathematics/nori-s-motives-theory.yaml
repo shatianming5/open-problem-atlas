@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.nori-s-motives-theory
+kind: problem
+title: Nori's Motives Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete Nori's theory of mixed motives and its connections to algebraic K-theory.
+sources:
+  canonical:
+  - source_id: curated_nori_s_motives_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Motive_(algebraic_geometry)
+  status_evidence:
+  - source_id: curated_nori_s_motives_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Motive_(algebraic_geometry)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

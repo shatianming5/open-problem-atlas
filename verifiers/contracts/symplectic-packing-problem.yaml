@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.symplectic-packing-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/symplectic_packing_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Symplectic Packing Problem. Determine the optimal symplectic packing of
+  balls into symplectic manifolds.'
+parameters: {}

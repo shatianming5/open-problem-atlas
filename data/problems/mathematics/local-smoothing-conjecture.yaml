@@ -1,0 +1,31 @@
+id: opa.mathematics.harmonic-analysis.local-smoothing-conjecture
+kind: problem
+title: Local Smoothing Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- harmonic-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Solutions to the wave equation gain 1/2 - epsilon derivatives locally in L^p for p > 2.
+sources:
+  canonical:
+  - source_id: src_sogge_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Local_smoothing_conjecture
+  status_evidence:
+  - source_id: src_sogge_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Local_smoothing_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

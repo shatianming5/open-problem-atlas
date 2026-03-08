@@ -1,0 +1,31 @@
+id: opa.tcs.graph-theory.graph-coloring-computational-complexity
+kind: problem
+title: Graph Coloring Computational Complexity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact complexity of k-coloring for k >= 3 on restricted graph classes.
+sources:
+  canonical:
+  - source_id: curated_graph_coloring_computational_complexity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Graph_coloring
+  status_evidence:
+  - source_id: curated_graph_coloring_computational_complexity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Graph_coloring
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.greenberg-s-conjecture-on-iwasawa-invariants
+kind: problem
+title: Greenberg's Conjecture on Iwasawa Invariants
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove Greenberg's conjecture that the Iwasawa lambda and mu invariants vanish for totally real number fields.
+sources:
+  canonical:
+  - source_id: curated_greenberg_s_conjecture_on_iwasawa_invariants
+    kind: website
+    url: https://en.wikipedia.org/wiki/Iwasawa_theory
+  status_evidence:
+  - source_id: curated_greenberg_s_conjecture_on_iwasawa_invariants
+    kind: website
+    url: https://en.wikipedia.org/wiki/Iwasawa_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

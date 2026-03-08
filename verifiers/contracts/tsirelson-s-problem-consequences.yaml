@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.tsirelson-s-problem-consequences
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tsirelson_s_problem_consequences_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tsirelson''s Problem (Consequences). Explore the consequences of the negative
+  resolution of Tsirelson''s problem for quantum correlations.'
+parameters: {}

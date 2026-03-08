@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.lieb-thirring-conjecture-optimal-constant
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lieb_thirring_conjecture_optimal_constant_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lieb-Thirring Conjecture (Optimal Constant). Determine the sharp constant
+  in the Lieb-Thirring inequality for the sum of negative eigenvalues of Schrodinger operators.'
+parameters: {}

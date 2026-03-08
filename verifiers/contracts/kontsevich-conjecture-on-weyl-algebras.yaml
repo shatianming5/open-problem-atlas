@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.kontsevich-conjecture-on-weyl-algebras
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kontsevich_conjecture_on_weyl_algebras_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kontsevich Conjecture on Weyl Algebras. The automorphism group of the Weyl
+  algebra is isomorphic to the automorphism group of the corresponding Poisson algebra.'
+parameters: {}

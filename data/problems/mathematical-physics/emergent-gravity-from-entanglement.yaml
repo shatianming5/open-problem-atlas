@@ -1,0 +1,32 @@
+id: opa.phys.quantum-gravity.emergent-gravity-from-entanglement
+kind: problem
+title: Emergent Gravity from Entanglement
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-gravity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can one rigorously derive Einstein's equations of general relativity from quantum entanglement entropy using
+    the Ryu-Takayanagi and Jacobson frameworks?
+sources:
+  canonical:
+  - source_id: src_van_raamsdonk_2020
+    kind: website
+    url: https://arxiv.org/abs/1005.3035
+  status_evidence:
+  - source_id: src_van_raamsdonk_2020
+    kind: website
+    url: https://arxiv.org/abs/1005.3035
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

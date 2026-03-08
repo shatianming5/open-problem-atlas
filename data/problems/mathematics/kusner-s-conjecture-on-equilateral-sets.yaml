@@ -1,0 +1,31 @@
+id: opa.mathematics.discrete-geometry.kusner-s-conjecture-on-equilateral-sets
+kind: problem
+title: Kusner's Conjecture on Equilateral Sets
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- discrete-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The maximum number of equidistant points in l^1_n is 2n.
+sources:
+  canonical:
+  - source_id: src_kusner_1983
+    kind: website
+    url: https://en.wikipedia.org/wiki/Equilateral_set
+  status_evidence:
+  - source_id: src_kusner_1983
+    kind: website
+    url: https://en.wikipedia.org/wiki/Equilateral_set
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

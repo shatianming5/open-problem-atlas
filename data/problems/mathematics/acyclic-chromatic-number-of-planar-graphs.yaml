@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.acyclic-chromatic-number-of-planar-graphs
+kind: problem
+title: Acyclic Chromatic Number of Planar Graphs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that every planar graph has acyclic chromatic number at most 5.
+sources:
+  canonical:
+  - source_id: curated_acyclic_chromatic_number_of_planar_graphs
+    kind: website
+    url: https://en.wikipedia.org/wiki/Acyclic_coloring
+  status_evidence:
+  - source_id: curated_acyclic_chromatic_number_of_planar_graphs
+    kind: website
+    url: https://en.wikipedia.org/wiki/Acyclic_coloring
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

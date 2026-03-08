@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.link-homology-theories-classification
+kind: problem
+title: Link Homology Theories Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify all link homology theories categorifying quantum invariants.
+sources:
+  canonical:
+  - source_id: curated_link_homology_theories_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Khovanov_homology
+  status_evidence:
+  - source_id: curated_link_homology_theories_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Khovanov_homology
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

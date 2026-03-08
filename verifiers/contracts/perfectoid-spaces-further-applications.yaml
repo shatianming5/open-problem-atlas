@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.perfectoid-spaces-further-applications
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/perfectoid_spaces_further_applications_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Perfectoid Spaces Further Applications. Find new applications of perfectoid
+  spaces in number theory and algebraic geometry.'
+parameters: {}

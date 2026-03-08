@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.measure-theory.ruzsa-s-conjecture-on-measure-and-sumsets
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ruzsa_s_conjecture_on_measure_and_sumsets_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ruzsa''s Conjecture on Measure and Sumsets. If A is a subset of Z with positive
+  upper Banach density, then A-A contains a Bohr neighborhood.'
+parameters: {}

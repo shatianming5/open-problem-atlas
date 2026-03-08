@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analytic-number-theory.waring-s-problem-optimal-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/waring_s_problem_optimal_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Waring''s Problem Optimal Bounds. What is the exact value of the function
+  G(k), the smallest s such that every sufficiently large integer is a sum of at most s k-th powers, for k >= 4?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.a-polynomial-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/a_polynomial_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: A-Polynomial Conjecture. Prove that the A-polynomial of a knot determines
+  the knot up to mirror image.'
+parameters: {}

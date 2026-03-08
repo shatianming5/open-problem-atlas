@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.coding-theory-singleton-bound-tightness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/coding_theory_singleton_bound_tightness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Coding Theory Singleton Bound Tightness. Determine for which parameters
+  the Singleton bound can be achieved by linear codes.'
+parameters: {}

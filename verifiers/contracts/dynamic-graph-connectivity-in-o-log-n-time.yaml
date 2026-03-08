@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.dynamic-graph-connectivity-in-o-log-n-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dynamic_graph_connectivity_in_o_log_n_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamic Graph Connectivity in O(log n) Time. Determine whether fully dynamic
+  graph connectivity can be maintained in O(log n) amortized time per operation.'
+parameters: {}

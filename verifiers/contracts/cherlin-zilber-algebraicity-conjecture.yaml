@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.model-theory.cherlin-zilber-algebraicity-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cherlin_zilber_algebraicity_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cherlin-Zilber Algebraicity Conjecture. Every simple group of finite Morley
+  rank is an algebraic group over an algebraically closed field.'
+parameters: {}

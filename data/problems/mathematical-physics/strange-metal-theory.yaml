@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.strange-metal-theory
+kind: problem
+title: Strange Metal Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a complete theory of strange metal behavior in strongly correlated electron systems.
+sources:
+  canonical:
+  - source_id: curated_strange_metal_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Strange_metal
+  status_evidence:
+  - source_id: curated_strange_metal_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Strange_metal
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

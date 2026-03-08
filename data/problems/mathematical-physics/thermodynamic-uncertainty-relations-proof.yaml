@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.thermodynamic-uncertainty-relations-proof
+kind: problem
+title: Thermodynamic Uncertainty Relations Proof
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove thermodynamic uncertainty relations for general non-equilibrium systems.
+sources:
+  canonical:
+  - source_id: curated_thermodynamic_uncertainty_relations_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Thermodynamic_uncertainty_relation
+  status_evidence:
+  - source_id: curated_thermodynamic_uncertainty_relations_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Thermodynamic_uncertainty_relation
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

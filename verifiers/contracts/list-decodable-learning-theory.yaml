@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.list-decodable-learning-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/list_decodable_learning_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: List-Decodable Learning Theory. Determine optimal algorithms for learning
+  when a constant fraction of training data is adversarial.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.nonvanishing-of-l-functions-at-central-point
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nonvanishing_of_l_functions_at_central_point_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nonvanishing of L-functions at Central Point. Prove that L(1/2, chi) is
+  nonzero for all primitive Dirichlet characters chi.'
+parameters: {}

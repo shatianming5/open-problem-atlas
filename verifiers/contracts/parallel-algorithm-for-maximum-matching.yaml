@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.parallel-algorithm-for-maximum-matching
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/parallel_algorithm_for_maximum_matching_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Parallel Algorithm for Maximum Matching. Determine whether maximum matching
+  in general graphs admits an NC algorithm.'
+parameters: {}

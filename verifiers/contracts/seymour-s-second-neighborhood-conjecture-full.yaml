@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.seymour-s-second-neighborhood-conjecture-full
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/seymour_s_second_neighborhood_conjecture_full_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Seymour''s Second Neighborhood Conjecture (Full). Every oriented graph has
+  a vertex whose second neighborhood is at least as large as its first.'
+parameters: {}

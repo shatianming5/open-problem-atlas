@@ -1,0 +1,11 @@
+problem_id: opa.mathematics.topology.berge-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/berge_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Berge Conjecture. Characterize all knots that admit lens space surgery.'
+parameters: {}

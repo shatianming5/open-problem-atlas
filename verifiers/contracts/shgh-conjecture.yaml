@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.shgh-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/shgh_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: SHGH Conjecture. The Segre-Harbourne-Gimigliano-Hirschowitz conjecture on
+  the dimension of linear systems of plane curves with assigned base points.'
+parameters: {}

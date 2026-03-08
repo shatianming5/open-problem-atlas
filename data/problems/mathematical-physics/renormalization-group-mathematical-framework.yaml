@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.renormalization-group-mathematical-framework
+kind: problem
+title: Renormalization Group Mathematical Framework
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Provide a complete mathematical framework for the renormalization group in QFT.
+sources:
+  canonical:
+  - source_id: curated_renormalization_group_mathematical_framework
+    kind: website
+    url: https://en.wikipedia.org/wiki/Renormalization_group
+  status_evidence:
+  - source_id: curated_renormalization_group_mathematical_framework
+    kind: website
+    url: https://en.wikipedia.org/wiki/Renormalization_group
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

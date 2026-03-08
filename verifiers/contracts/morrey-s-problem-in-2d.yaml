@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.morrey-s-problem-in-2d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/morrey_s_problem_in_2d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Morrey''s Problem in 2D. Does quasiconvexity imply rank-one convexity for
+  2x2 matrices?'
+parameters: {}

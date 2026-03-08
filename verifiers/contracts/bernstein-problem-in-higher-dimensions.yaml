@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.bernstein-problem-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bernstein_problem_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bernstein Problem in Higher Dimensions. Determine for which dimensions every
+  entire minimal graph is a hyperplane.'
+parameters: {}

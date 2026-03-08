@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.gaussian-moat-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gaussian_moat_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gaussian Moat Problem. Is it possible to walk to infinity in the Gaussian
+  integers using steps of bounded length, stepping only on Gaussian primes?'
+parameters: {}

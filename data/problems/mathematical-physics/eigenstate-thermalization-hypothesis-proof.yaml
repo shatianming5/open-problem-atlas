@@ -1,0 +1,32 @@
+id: opa.phys.quantum-statistical-mechanics.eigenstate-thermalization-hypothesis-proof
+kind: problem
+title: Eigenstate Thermalization Hypothesis Proof
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Eigenstate Thermalization Hypothesis be rigorously proved for specific many-body quantum systems, establishing
+    when quantum thermalization occurs?
+sources:
+  canonical:
+  - source_id: src_dalessio_2021
+    kind: website
+    url: https://arxiv.org/abs/1509.06411
+  status_evidence:
+  - source_id: src_dalessio_2021
+    kind: website
+    url: https://arxiv.org/abs/1509.06411
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

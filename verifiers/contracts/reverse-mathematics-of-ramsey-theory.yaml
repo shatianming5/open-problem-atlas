@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.reverse-mathematics-of-ramsey-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/reverse_mathematics_of_ramsey_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Reverse Mathematics of Ramsey Theory. Determine the exact proof-theoretic
+  strength of Ramsey-type theorems.'
+parameters: {}

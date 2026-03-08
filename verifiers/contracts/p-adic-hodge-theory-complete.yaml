@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.p-adic-hodge-theory-complete
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/p_adic_hodge_theory_complete_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: p-adic Hodge Theory Complete. Complete p-adic Hodge theory in the non-smooth
+  and relative settings.'
+parameters: {}

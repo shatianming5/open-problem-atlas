@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.abelian-sandpile-model-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/abelian_sandpile_model_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Abelian Sandpile Model Theory. Develop a complete theory of the abelian
+  sandpile model on general graphs.'
+parameters: {}

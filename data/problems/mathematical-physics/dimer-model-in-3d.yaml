@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.dimer-model-in-3d
+kind: problem
+title: Dimer Model in 3D
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend exact dimer model results from 2D to three-dimensional lattices.
+sources:
+  canonical:
+  - source_id: curated_dimer_model_in_3d
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dimer_model
+  status_evidence:
+  - source_id: curated_dimer_model_in_3d
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dimer_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

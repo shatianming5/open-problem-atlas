@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.quantum-groups-at-roots-of-unity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_groups_at_roots_of_unity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Groups at Roots of Unity. Develop the representation theory of quantum
+  groups at roots of unity completely.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.integer-multiplication-in-o-n-log-n
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/integer_multiplication_in_o_n_log_n_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Integer Multiplication in O(n log n). Prove or disprove the conjecture that
+  n-bit integer multiplication requires Omega(n log n) operations.'
+parameters: {}

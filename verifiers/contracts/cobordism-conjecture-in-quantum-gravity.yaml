@@ -1,0 +1,13 @@
+problem_id: opa.phys.quantum-gravity.cobordism-conjecture-in-quantum-gravity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cobordism_conjecture_in_quantum_gravity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cobordism Conjecture in Quantum Gravity. Does every consistent quantum gravity
+  theory satisfy the Cobordism Conjecture: that the bordism group of quantum gravity is trivial, requiring dynamical objects
+  to end all topological cobordisms?'
+parameters: {}

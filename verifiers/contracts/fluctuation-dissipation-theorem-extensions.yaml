@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.fluctuation-dissipation-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fluctuation_dissipation_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fluctuation-Dissipation Theorem Extensions. Extend the fluctuation-dissipation
+  theorem to far-from-equilibrium systems.'
+parameters: {}

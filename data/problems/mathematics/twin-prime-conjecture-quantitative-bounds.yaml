@@ -1,0 +1,32 @@
+id: opa.mathematics.analytic-number-theory.twin-prime-conjecture-quantitative-bounds
+kind: problem
+title: Twin Prime Conjecture Quantitative Bounds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analytic-number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Maynard-Tao bound on gaps between primes be improved to establish infinitely many twin primes, or is
+    there a fundamental barrier?
+sources:
+  canonical:
+  - source_id: src_maynard_2020
+    kind: website
+    url: https://arxiv.org/abs/1311.4600
+  status_evidence:
+  - source_id: src_maynard_2020
+    kind: website
+    url: https://arxiv.org/abs/1311.4600
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

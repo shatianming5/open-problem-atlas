@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.rank-distribution-of-elliptic-curves
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/rank_distribution_of_elliptic_curves_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rank Distribution of Elliptic Curves. Determine the distribution of ranks
+  of elliptic curves over Q.'
+parameters: {}

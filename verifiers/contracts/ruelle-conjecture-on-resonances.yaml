@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.ruelle-conjecture-on-resonances
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ruelle_conjecture_on_resonances_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ruelle Conjecture on Resonances. Prove the Ruelle conjecture relating Pollicott-Ruelle
+  resonances to dynamical zeta functions.'
+parameters: {}

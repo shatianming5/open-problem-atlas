@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.exact-results-for-n-body-problem
+kind: problem
+title: Exact Results for N-Body Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find new exact solutions to the gravitational N-body problem for N >= 4.
+sources:
+  canonical:
+  - source_id: curated_exact_results_for_n_body_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/N-body_problem
+  status_evidence:
+  - source_id: curated_exact_results_for_n_body_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/N-body_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

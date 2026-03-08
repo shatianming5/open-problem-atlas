@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.sphere-packing-bound-in-coding-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sphere_packing_bound_in_coding_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sphere Packing Bound in Coding Theory. Determine the optimal asymptotic
+  rate of codes achieving the sphere packing bound.'
+parameters: {}

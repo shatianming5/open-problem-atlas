@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.vinogradov-s-mean-value-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/vinogradov_s_mean_value_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Vinogradov''s Mean Value Theorem Extensions. Extend the proof of Vinogradov''s
+  mean value theorem to systems of forms.'
+parameters: {}

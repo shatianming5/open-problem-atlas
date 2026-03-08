@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.quantum-spin-liquids-mathematical-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_spin_liquids_mathematical_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Spin Liquids Mathematical Theory. Can quantum spin liquid ground
+  states be rigorously proved to exist in physically realistic 2D frustrated spin models like the kagome Heisenberg antiferromagnet?'
+parameters: {}

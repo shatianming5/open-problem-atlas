@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.sparse-recovery-optimal-measurements
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sparse_recovery_optimal_measurements_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sparse Recovery Optimal Measurements. Determine the optimal number of measurements
+  for sparse recovery in compressed sensing.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.condensed-mathematics-applications
+kind: problem
+title: Condensed Mathematics Applications
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop applications of condensed mathematics to analysis and functional analysis.
+sources:
+  canonical:
+  - source_id: curated_condensed_mathematics_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Condensed_mathematics
+  status_evidence:
+  - source_id: curated_condensed_mathematics_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Condensed_mathematics
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

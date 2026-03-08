@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.topological-recursion-and-matrix-models
+kind: problem
+title: Topological Recursion and Matrix Models
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the topological recursion conjecture connecting matrix models to enumerative geometry.
+sources:
+  canonical:
+  - source_id: curated_topological_recursion_and_matrix_models
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_recursion
+  status_evidence:
+  - source_id: curated_topological_recursion_and_matrix_models
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_recursion
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

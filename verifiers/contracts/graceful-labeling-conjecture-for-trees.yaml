@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.graph-theory.graceful-labeling-conjecture-for-trees
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/graceful_labeling_conjecture_for_trees_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Graceful Labeling Conjecture for Trees. Can every tree with n edges be gracefully
+  labeled with vertex labels from {0,1,...,n} such that the edge labels (absolute differences) are all distinct?'
+parameters: {}

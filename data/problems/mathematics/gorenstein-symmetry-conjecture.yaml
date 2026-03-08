@@ -1,0 +1,32 @@
+id: opa.mathematics.homological-algebra.gorenstein-symmetry-conjecture
+kind: problem
+title: Gorenstein Symmetry Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- homological-algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For an Artin algebra, the left and right injective dimensions of the algebra are either both infinite or both
+    finite and equal.
+sources:
+  canonical:
+  - source_id: src_auslanderbuchweitz_1989
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gorenstein_ring
+  status_evidence:
+  - source_id: src_auslanderbuchweitz_1989
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gorenstein_ring
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

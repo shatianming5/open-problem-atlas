@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.gravitational-wave-memory-effect-theory
+kind: problem
+title: Gravitational Wave Memory Effect Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a complete mathematical theory of the gravitational wave memory effect.
+sources:
+  canonical:
+  - source_id: curated_gravitational_wave_memory_effect_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gravitational-wave_memory_effect
+  status_evidence:
+  - source_id: curated_gravitational_wave_memory_effect_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gravitational-wave_memory_effect
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

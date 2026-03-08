@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.tsirelson-s-bound-optimal-strategies
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tsirelson_s_bound_optimal_strategies_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tsirelson''s Bound Optimal Strategies. Determine optimal quantum strategies
+  achieving Tsirelson''s bound for all Bell inequalities.'
+parameters: {}

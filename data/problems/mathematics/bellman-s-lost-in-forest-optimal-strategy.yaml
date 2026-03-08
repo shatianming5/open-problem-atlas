@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.bellman-s-lost-in-forest-optimal-strategy
+kind: problem
+title: Bellman's Lost in Forest (Optimal Strategy)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find the optimal search strategy for a person lost in a forest of known shape.
+sources:
+  canonical:
+  - source_id: curated_bellman_s_lost_in_forest_optimal_strategy
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lost_in_a_forest
+  status_evidence:
+  - source_id: curated_bellman_s_lost_in_forest_optimal_strategy
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lost_in_a_forest
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

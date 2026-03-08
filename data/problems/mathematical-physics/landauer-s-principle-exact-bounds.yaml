@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.landauer-s-principle-exact-bounds
+kind: problem
+title: Landauer's Principle Exact Bounds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact energetic cost of information erasure in quantum systems.
+sources:
+  canonical:
+  - source_id: curated_landauer_s_principle_exact_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Landauer%27s_principle
+  status_evidence:
+  - source_id: curated_landauer_s_principle_exact_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Landauer%27s_principle
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

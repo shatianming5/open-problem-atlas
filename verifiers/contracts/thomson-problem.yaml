@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.thomson-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/thomson_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Thomson Problem. Determine the optimal configuration of n points on a sphere
+  minimizing electrostatic potential energy.'
+parameters: {}

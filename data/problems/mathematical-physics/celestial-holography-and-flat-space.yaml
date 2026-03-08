@@ -1,0 +1,31 @@
+id: opa.phys.holography.celestial-holography-and-flat-space
+kind: problem
+title: Celestial Holography and Flat Space
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- holography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can celestial holography provide a complete holographic dual for quantum gravity in asymptotically flat spacetimes?
+sources:
+  canonical:
+  - source_id: src_pasterski_2023
+    kind: website
+    url: https://arxiv.org/abs/2301.01810
+  status_evidence:
+  - source_id: src_pasterski_2023
+    kind: website
+    url: https://arxiv.org/abs/2301.01810
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

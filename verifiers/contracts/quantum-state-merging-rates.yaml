@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-state-merging-rates
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_state_merging_rates_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum State Merging Rates. Determine the optimal rates for quantum state
+  merging with limited resources.'
+parameters: {}

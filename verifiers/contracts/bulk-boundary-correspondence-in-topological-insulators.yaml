@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.bulk-boundary-correspondence-in-topological-insulators
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bulk_boundary_correspondence_in_topological_insulators_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bulk-Boundary Correspondence in Topological Insulators. Prove the bulk-boundary
+  correspondence for topological insulators rigorously.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.gossip-protocols-optimal-speed
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gossip_protocols_optimal_speed_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gossip Protocols Optimal Speed. Determine the optimal spreading time for
+  gossip-based information dissemination.'
+parameters: {}

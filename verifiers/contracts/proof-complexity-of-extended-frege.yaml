@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.proof-complexity-of-extended-frege
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/proof_complexity_of_extended_frege_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Proof Complexity of Extended Frege. Determine whether Extended Frege proof
+  systems have polynomial-size proofs for all tautologies.'
+parameters: {}

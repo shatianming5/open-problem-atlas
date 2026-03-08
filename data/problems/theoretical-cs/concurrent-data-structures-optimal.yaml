@@ -1,0 +1,31 @@
+id: opa.tcs.distributed-computing.concurrent-data-structures-optimal
+kind: problem
+title: Concurrent Data Structures Optimal
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- distributed-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Design concurrent data structures with optimal contention and space.
+sources:
+  canonical:
+  - source_id: curated_concurrent_data_structures_optimal
+    kind: website
+    url: https://en.wikipedia.org/wiki/Concurrent_data_structure
+  status_evidence:
+  - source_id: curated_concurrent_data_structures_optimal
+    kind: website
+    url: https://en.wikipedia.org/wiki/Concurrent_data_structure
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

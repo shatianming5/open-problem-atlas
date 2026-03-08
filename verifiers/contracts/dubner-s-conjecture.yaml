@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.dubner-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dubner_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dubner''s Conjecture. For every k >= 1, there exist infinitely many primes
+  that are repunits in base k.'
+parameters: {}

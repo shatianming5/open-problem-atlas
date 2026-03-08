@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.selberg-s-orthogonality-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/selberg_s_orthogonality_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Selberg''s Orthogonality Conjecture. Distinct primitive elements of the
+  Selberg class have orthogonal Dirichlet series coefficients.'
+parameters: {}

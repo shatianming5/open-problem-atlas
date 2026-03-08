@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.rl-vs-l
+kind: problem
+title: RL vs L
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether randomized log-space equals deterministic log-space.
+sources:
+  canonical:
+  - source_id: curated_rl_vs_l
+    kind: website
+    url: https://en.wikipedia.org/wiki/RL_(complexity)
+  status_evidence:
+  - source_id: curated_rl_vs_l
+    kind: website
+    url: https://en.wikipedia.org/wiki/RL_(complexity)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.tutte-polynomial-computation
+kind: problem
+title: Tutte Polynomial Computation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the computational complexity of evaluating the Tutte polynomial at specific points.
+sources:
+  canonical:
+  - source_id: curated_tutte_polynomial_computation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tutte_polynomial
+  status_evidence:
+  - source_id: curated_tutte_polynomial_computation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tutte_polynomial
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

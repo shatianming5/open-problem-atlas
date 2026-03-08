@@ -1,0 +1,31 @@
+id: opa.tcs.quantum-computing.quantum-error-correction-overhead
+kind: problem
+title: Quantum Error Correction Overhead
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the minimum overhead of quantum error correction for fault-tolerant quantum computation.
+sources:
+  canonical:
+  - source_id: curated_quantum_error_correction_overhead
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_error_correction
+  status_evidence:
+  - source_id: curated_quantum_error_correction_overhead
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_error_correction
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

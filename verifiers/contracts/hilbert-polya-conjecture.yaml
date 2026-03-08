@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.mathematical-physics.hilbert-polya-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hilbert_polya_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hilbert-Polya Conjecture. The zeros of the Riemann zeta function correspond
+  to eigenvalues of a self-adjoint operator.'
+parameters: {}

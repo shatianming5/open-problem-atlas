@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.spin-chain-integrability-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/spin_chain_integrability_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Spin Chain Integrability Classification. Classify all integrable spin chain
+  models.'
+parameters: {}

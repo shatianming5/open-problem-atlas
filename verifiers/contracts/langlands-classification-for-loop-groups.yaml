@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.langlands-classification-for-loop-groups
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/langlands_classification_for_loop_groups_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Langlands Classification for Loop Groups. Extend the Langlands classification
+  of representations to loop groups and double loop groups.'
+parameters: {}

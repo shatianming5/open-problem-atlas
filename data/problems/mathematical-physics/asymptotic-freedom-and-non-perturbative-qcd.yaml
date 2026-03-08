@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.asymptotic-freedom-and-non-perturbative-qcd
+kind: problem
+title: Asymptotic Freedom and Non-Perturbative QCD
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop rigorous non-perturbative methods for QCD building on asymptotic freedom.
+sources:
+  canonical:
+  - source_id: curated_asymptotic_freedom_and_non_perturbative_qcd
+    kind: website
+    url: https://en.wikipedia.org/wiki/Asymptotic_freedom
+  status_evidence:
+  - source_id: curated_asymptotic_freedom_and_non_perturbative_qcd
+    kind: website
+    url: https://en.wikipedia.org/wiki/Asymptotic_freedom
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

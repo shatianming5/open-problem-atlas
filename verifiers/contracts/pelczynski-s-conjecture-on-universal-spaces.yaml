@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.functional-analysis.pelczynski-s-conjecture-on-universal-spaces
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/pelczynski_s_conjecture_on_universal_spaces_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Pelczynski''s Conjecture on Universal Spaces. The space C([0,1]) is the
+  only universal separable Banach space for isomorphic embeddings among spaces with a Schauder basis.'
+parameters: {}

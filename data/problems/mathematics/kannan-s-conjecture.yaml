@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.kannan-s-conjecture
+kind: problem
+title: Kannan's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For r >= 3, every r-connected matroid with no R_{10} minor is either graphic or cographic.
+sources:
+  canonical:
+  - source_id: curated_kannan_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Matroid
+  status_evidence:
+  - source_id: curated_kannan_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Matroid
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

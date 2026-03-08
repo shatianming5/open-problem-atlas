@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.effective-faltings-theorem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/effective_faltings_theorem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Effective Faltings Theorem. Make Faltings'' theorem effective: give an algorithm
+  to find all rational points on curves of genus >= 2.'
+parameters: {}

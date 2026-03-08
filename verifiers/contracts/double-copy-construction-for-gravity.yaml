@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.double-copy-construction-for-gravity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/double_copy_construction_for_gravity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Double Copy Construction for Gravity. Rigorously prove and extend the BCJ
+  double copy relating gauge theory and gravity amplitudes.'
+parameters: {}

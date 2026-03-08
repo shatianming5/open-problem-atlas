@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.regularity-structures-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/regularity_structures_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Regularity Structures Extensions. Extend Hairer''s regularity structures
+  to cover more singular SPDEs.'
+parameters: {}

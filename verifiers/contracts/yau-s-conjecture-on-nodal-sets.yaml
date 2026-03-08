@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.yau-s-conjecture-on-nodal-sets
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/yau_s_conjecture_on_nodal_sets_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Yau''s Conjecture on Nodal Sets. The Hausdorff measure of the nodal set
+  of a Laplacian eigenfunction is comparable to the square root of the eigenvalue.'
+parameters: {}

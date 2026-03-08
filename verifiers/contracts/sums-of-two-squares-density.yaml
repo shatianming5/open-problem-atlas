@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.sums-of-two-squares-density
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sums_of_two_squares_density_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sums of Two Squares Density. Determine the exact density of integers that
+  are sums of two squares.'
+parameters: {}

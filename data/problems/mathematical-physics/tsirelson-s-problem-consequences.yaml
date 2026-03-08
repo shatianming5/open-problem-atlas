@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.tsirelson-s-problem-consequences
+kind: problem
+title: Tsirelson's Problem (Consequences)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Explore the consequences of the negative resolution of Tsirelson's problem for quantum correlations.
+sources:
+  canonical:
+  - source_id: curated_tsirelson_s_problem_consequences
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tsirelson%27s_problem
+  status_evidence:
+  - source_id: curated_tsirelson_s_problem_consequences
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tsirelson%27s_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.exact-results-in-3d-n-4-theories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/exact_results_in_3d_n_4_theories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Exact Results in 3D N=4 Theories. Derive exact results for 3D N=4 superconformal
+  field theories.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.de-grey-s-graph-coloring-result-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/de_grey_s_graph_coloring_result_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: De Grey''s Graph Coloring Result Extensions. Improve bounds on the chromatic
+  number of the plane following de Grey''s breakthrough.'
+parameters: {}

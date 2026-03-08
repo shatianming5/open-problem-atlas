@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.convex-hull-in-higher-dimensions
+kind: problem
+title: Convex Hull in Higher Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine optimal algorithms for computing convex hulls in dimensions d >= 4.
+sources:
+  canonical:
+  - source_id: curated_convex_hull_in_higher_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Convex_hull
+  status_evidence:
+  - source_id: curated_convex_hull_in_higher_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Convex_hull
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

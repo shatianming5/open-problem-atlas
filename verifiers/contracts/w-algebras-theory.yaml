@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.w-algebras-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/w_algebras_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: W-Algebras Theory. Develop the representation theory of W-algebras for all
+  types.'
+parameters: {}

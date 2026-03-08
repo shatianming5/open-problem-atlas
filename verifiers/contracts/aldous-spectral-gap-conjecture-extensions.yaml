@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.probability.aldous-spectral-gap-conjecture-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/aldous_spectral_gap_conjecture_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Aldous'' Spectral Gap Conjecture (Extensions). While Aldous'' conjecture
+  that the spectral gap of the random walk on the symmetric group equals the spectral gap of the corresponding random transposition
+  walk was proven, extensions to other groups remain open.'
+parameters: {}

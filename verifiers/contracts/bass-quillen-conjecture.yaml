@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.bass-quillen-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bass_quillen_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bass-Quillen Conjecture. Every finitely generated projective module over
+  k[x_1,...,x_n] for a PID k is free (generalize Quillen-Suslin).'
+parameters: {}

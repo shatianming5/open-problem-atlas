@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.algebraic-independence-of-pi-and-e
+kind: problem
+title: Algebraic Independence of Pi and e
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that pi and e are algebraically independent.
+sources:
+  canonical:
+  - source_id: curated_algebraic_independence_of_pi_and_e
+    kind: website
+    url: https://en.wikipedia.org/wiki/Algebraic_independence
+  status_evidence:
+  - source_id: curated_algebraic_independence_of_pi_and_e
+    kind: website
+    url: https://en.wikipedia.org/wiki/Algebraic_independence
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

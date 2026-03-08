@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.wightman-axioms-and-realistic-qft
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/wightman_axioms_and_realistic_qft_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Wightman Axioms and Realistic QFT. Construct a QFT satisfying all Wightman
+  axioms that describes a realistic physical theory in 4D.'
+parameters: {}

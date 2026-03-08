@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.circuit-lower-bounds-from-derandomization
+kind: problem
+title: Circuit Lower Bounds from Derandomization
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that derandomization implies circuit lower bounds and vice versa.
+sources:
+  canonical:
+  - source_id: curated_circuit_lower_bounds_from_derandomization
+    kind: website
+    url: https://en.wikipedia.org/wiki/Derandomization
+  status_evidence:
+  - source_id: curated_circuit_lower_bounds_from_derandomization
+    kind: website
+    url: https://en.wikipedia.org/wiki/Derandomization
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

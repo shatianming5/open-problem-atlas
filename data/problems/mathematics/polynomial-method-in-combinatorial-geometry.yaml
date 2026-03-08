@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.polynomial-method-in-combinatorial-geometry
+kind: problem
+title: Polynomial Method in Combinatorial Geometry
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the polynomial method to solve more incidence geometry problems.
+sources:
+  canonical:
+  - source_id: curated_polynomial_method_in_combinatorial_geometry
+    kind: website
+    url: https://en.wikipedia.org/wiki/Polynomial_method_in_combinatorics
+  status_evidence:
+  - source_id: curated_polynomial_method_in_combinatorial_geometry
+    kind: website
+    url: https://en.wikipedia.org/wiki/Polynomial_method_in_combinatorics
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

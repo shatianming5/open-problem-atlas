@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.cannon-s-conjecture
+kind: problem
+title: Cannon's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: A finitely presented group whose boundary at infinity is the 2-sphere acts geometrically on hyperbolic 3-space.
+sources:
+  canonical:
+  - source_id: curated_cannon_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cannon%27s_conjecture
+  status_evidence:
+  - source_id: curated_cannon_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cannon%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

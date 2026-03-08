@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.planar-graph-coloring-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/planar_graph_coloring_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Planar Graph Coloring Extensions. Determine the exact list chromatic number
+  of planar graphs.'
+parameters: {}

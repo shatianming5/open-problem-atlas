@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.periodic-orbit-growth-rate
+kind: problem
+title: Periodic Orbit Growth Rate
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the growth rate of the number of periodic orbits for generic dynamical systems.
+sources:
+  canonical:
+  - source_id: curated_periodic_orbit_growth_rate
+    kind: website
+    url: https://en.wikipedia.org/wiki/Periodic_orbit
+  status_evidence:
+  - source_id: curated_periodic_orbit_growth_rate
+    kind: website
+    url: https://en.wikipedia.org/wiki/Periodic_orbit
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

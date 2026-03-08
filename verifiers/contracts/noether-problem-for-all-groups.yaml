@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.noether-problem-for-all-groups
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/noether_problem_for_all_groups_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Noether Problem for All Groups. Determine for which finite groups G the
+  field of invariants k(x_1,...,x_n)^G is purely transcendental.'
+parameters: {}

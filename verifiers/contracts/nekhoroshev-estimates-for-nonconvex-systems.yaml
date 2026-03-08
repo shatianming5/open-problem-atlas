@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.nekhoroshev-estimates-for-nonconvex-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nekhoroshev_estimates_for_nonconvex_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nekhoroshev Estimates for Nonconvex Systems. Prove Nekhoroshev-type exponential
+  stability estimates for general non-convex Hamiltonian systems.'
+parameters: {}

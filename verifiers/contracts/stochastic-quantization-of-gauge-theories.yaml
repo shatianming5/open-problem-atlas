@@ -1,0 +1,12 @@
+problem_id: opa.phys.constructive-qft.stochastic-quantization-of-gauge-theories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stochastic_quantization_of_gauge_theories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stochastic Quantization of Gauge Theories. Can stochastic quantization via
+  the Parisi-Wu approach be made rigorous for non-abelian gauge theories in four dimensions?'
+parameters: {}

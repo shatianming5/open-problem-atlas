@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.partial-differential-equations.navier-stokes-global-regularity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/navier_stokes_global_regularity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Navier-Stokes Global Regularity. Do smooth solutions to the 3D incompressible
+  Navier-Stokes equations with finite energy initial data remain smooth for all time, or can singularities form?'
+parameters: {}

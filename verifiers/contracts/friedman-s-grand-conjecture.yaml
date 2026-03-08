@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.friedman-s-grand-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/friedman_s_grand_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Friedman''s Grand Conjecture. Determine the proof-theoretic ordinals of
+  all natural mathematical theories.'
+parameters: {}

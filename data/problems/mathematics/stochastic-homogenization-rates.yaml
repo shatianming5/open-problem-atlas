@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.stochastic-homogenization-rates
+kind: problem
+title: Stochastic Homogenization Rates
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine optimal convergence rates in stochastic homogenization of elliptic equations.
+sources:
+  canonical:
+  - source_id: curated_stochastic_homogenization_rates
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homogenization_(mathematics)
+  status_evidence:
+  - source_id: curated_stochastic_homogenization_rates
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homogenization_(mathematics)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

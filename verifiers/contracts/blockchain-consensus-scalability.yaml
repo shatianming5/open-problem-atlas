@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.blockchain-consensus-scalability
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/blockchain_consensus_scalability_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Blockchain Consensus Scalability. Determine the fundamental limits of throughput
+  and latency for blockchain consensus protocols.'
+parameters: {}

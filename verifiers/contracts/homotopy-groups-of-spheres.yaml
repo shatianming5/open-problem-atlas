@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.homotopy-groups-of-spheres
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/homotopy_groups_of_spheres_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Homotopy Groups of Spheres. Compute all stable and unstable homotopy groups
+  of spheres.'
+parameters: {}

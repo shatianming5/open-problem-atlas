@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.graph-polynomials-relationships
+kind: problem
+title: Graph Polynomials Relationships
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify the relationships between different graph polynomials.
+sources:
+  canonical:
+  - source_id: curated_graph_polynomials_relationships
+    kind: website
+    url: https://en.wikipedia.org/wiki/Graph_polynomial
+  status_evidence:
+  - source_id: curated_graph_polynomials_relationships
+    kind: website
+    url: https://en.wikipedia.org/wiki/Graph_polynomial
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

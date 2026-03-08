@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.pila-wilkie-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/pila_wilkie_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Pila-Wilkie Theorem Extensions. Extend the Pila-Wilkie theorem to prove
+  new cases of the Andre-Oort conjecture.'
+parameters: {}

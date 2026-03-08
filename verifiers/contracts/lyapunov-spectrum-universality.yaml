@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.lyapunov-spectrum-universality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lyapunov_spectrum_universality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lyapunov Spectrum Universality. Prove universality of the Lyapunov spectrum
+  for classes of dynamical systems.'
+parameters: {}

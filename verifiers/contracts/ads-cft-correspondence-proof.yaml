@@ -1,0 +1,11 @@
+problem_id: opa.phys.string-theory.ads-cft-correspondence-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ads_cft_correspondence_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: AdS/CFT Correspondence Proof. Provide a rigorous proof of the AdS/CFT correspondence.'
+parameters: {}

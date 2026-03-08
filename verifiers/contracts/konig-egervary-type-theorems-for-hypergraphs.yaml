@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.konig-egervary-type-theorems-for-hypergraphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/konig_egervary_type_theorems_for_hypergraphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Konig-Egervary Type Theorems for Hypergraphs. Determine when the maximum
+  matching equals the minimum cover in r-uniform hypergraphs.'
+parameters: {}

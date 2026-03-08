@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.geometric-complexity-theory-program
+kind: problem
+title: Geometric Complexity Theory Program
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the geometric complexity theory approach to VP vs VNP and P vs NP.
+sources:
+  canonical:
+  - source_id: curated_geometric_complexity_theory_program
+    kind: website
+    url: https://en.wikipedia.org/wiki/Geometric_complexity_theory
+  status_evidence:
+  - source_id: curated_geometric_complexity_theory_program
+    kind: website
+    url: https://en.wikipedia.org/wiki/Geometric_complexity_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

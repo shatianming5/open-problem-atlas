@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.functorial-qft-construction
+kind: problem
+title: Functorial QFT Construction
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct examples of fully extended topological field theories classified by the cobordism hypothesis.
+sources:
+  canonical:
+  - source_id: curated_functorial_qft_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_quantum_field_theory
+  status_evidence:
+  - source_id: curated_functorial_qft_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_quantum_field_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

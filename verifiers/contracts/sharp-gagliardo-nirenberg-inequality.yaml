@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.sharp-gagliardo-nirenberg-inequality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sharp_gagliardo_nirenberg_inequality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sharp Gagliardo-Nirenberg Inequality. Determine the sharp constant in the
+  Gagliardo-Nirenberg interpolation inequality.'
+parameters: {}

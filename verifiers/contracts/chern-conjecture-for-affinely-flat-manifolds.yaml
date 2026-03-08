@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.differential-geometry.chern-conjecture-for-affinely-flat-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chern_conjecture_for_affinely_flat_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chern Conjecture for Affinely Flat Manifolds. A closed affinely flat manifold
+  has zero Euler characteristic.'
+parameters: {}

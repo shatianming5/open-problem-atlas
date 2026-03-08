@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.quantum-depth-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_depth_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Depth Complexity. Determine the power of constant-depth quantum
+  circuits.'
+parameters: {}

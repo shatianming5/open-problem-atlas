@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.erdos-ulam-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_ulam_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Ulam Problem. Does there exist a dense set in the plane with all pairwise
+  distances rational?'
+parameters: {}

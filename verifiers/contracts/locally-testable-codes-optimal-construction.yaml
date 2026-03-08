@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.locally-testable-codes-optimal-construction
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/locally_testable_codes_optimal_construction_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Locally Testable Codes Optimal Construction. Construct locally testable
+  codes with optimal rate and query complexity.'
+parameters: {}

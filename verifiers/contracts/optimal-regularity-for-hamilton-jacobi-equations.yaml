@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.optimal-regularity-for-hamilton-jacobi-equations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/optimal_regularity_for_hamilton_jacobi_equations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Optimal Regularity for Hamilton-Jacobi Equations. Determine the optimal
+  regularity of solutions to Hamilton-Jacobi equations with nonsmooth data.'
+parameters: {}

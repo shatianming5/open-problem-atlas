@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.carmichael-s-totient-conjecture
+kind: problem
+title: Carmichael's Totient Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For every integer n, the equation phi(x) = n has either no solution or at least two solutions.
+sources:
+  canonical:
+  - source_id: curated_carmichael_s_totient_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Carmichael%27s_totient_function_conjecture
+  status_evidence:
+  - source_id: curated_carmichael_s_totient_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Carmichael%27s_totient_function_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

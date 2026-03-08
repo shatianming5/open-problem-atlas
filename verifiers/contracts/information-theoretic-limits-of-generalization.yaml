@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.information-theoretic-limits-of-generalization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/information_theoretic_limits_of_generalization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Information-Theoretic Limits of Generalization. Determine tight information-theoretic
+  bounds on generalization error.'
+parameters: {}

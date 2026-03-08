@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.quantum-gravity-from-quantum-information
+kind: problem
+title: Quantum Gravity from Quantum Information
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Derive gravitational dynamics from quantum information principles.
+sources:
+  canonical:
+  - source_id: curated_quantum_gravity_from_quantum_information
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_gravity
+  status_evidence:
+  - source_id: curated_quantum_gravity_from_quantum_information
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_gravity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

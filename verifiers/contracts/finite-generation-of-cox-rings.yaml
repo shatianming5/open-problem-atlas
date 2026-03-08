@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.finite-generation-of-cox-rings
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/finite_generation_of_cox_rings_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Finite Generation of Cox Rings. Characterize all algebraic varieties whose
+  Cox ring (total coordinate ring) is finitely generated.'
+parameters: {}

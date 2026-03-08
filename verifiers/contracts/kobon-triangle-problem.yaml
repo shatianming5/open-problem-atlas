@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.kobon-triangle-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kobon_triangle_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kobon Triangle Problem. Determine the maximum number of non-overlapping
+  triangles that can be formed by n straight lines.'
+parameters: {}

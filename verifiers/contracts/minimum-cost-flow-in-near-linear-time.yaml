@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.minimum-cost-flow-in-near-linear-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/minimum_cost_flow_in_near_linear_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimum Cost Flow in Near-Linear Time. Compute minimum cost flow in near-linear
+  time.'
+parameters: {}

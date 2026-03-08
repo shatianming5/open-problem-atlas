@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.quantum-nonlocality-without-entanglement-classification
+kind: problem
+title: Quantum Nonlocality Without Entanglement (Classification)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify all instances of quantum nonlocality that do not require entanglement.
+sources:
+  canonical:
+  - source_id: curated_quantum_nonlocality_without_entanglement_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_nonlocality
+  status_evidence:
+  - source_id: curated_quantum_nonlocality_without_entanglement_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_nonlocality
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

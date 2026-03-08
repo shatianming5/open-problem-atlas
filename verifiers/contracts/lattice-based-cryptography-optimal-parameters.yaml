@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.lattice-based-cryptography-optimal-parameters
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lattice_based_cryptography_optimal_parameters_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lattice-Based Cryptography Optimal Parameters. Determine the optimal parameters
+  for lattice-based cryptosystems that balance security and efficiency.'
+parameters: {}

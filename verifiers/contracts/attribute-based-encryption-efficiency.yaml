@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.attribute-based-encryption-efficiency
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/attribute_based_encryption_efficiency_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Attribute-Based Encryption Efficiency. Construct efficient attribute-based
+  encryption from standard assumptions.'
+parameters: {}

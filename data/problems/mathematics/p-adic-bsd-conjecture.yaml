@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.p-adic-bsd-conjecture
+kind: problem
+title: p-adic BSD Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the p-adic Birch and Swinnerton-Dyer conjecture.
+sources:
+  canonical:
+  - source_id: curated_p_adic_bsd_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/P-adic_L-function
+  status_evidence:
+  - source_id: curated_p_adic_bsd_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/P-adic_L-function
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

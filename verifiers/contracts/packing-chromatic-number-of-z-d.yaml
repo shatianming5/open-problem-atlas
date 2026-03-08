@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.packing-chromatic-number-of-z-d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/packing_chromatic_number_of_z_d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Packing Chromatic Number of Z^d. Determine the packing chromatic number
+  of the integer lattice Z^d for d >= 2.'
+parameters: {}

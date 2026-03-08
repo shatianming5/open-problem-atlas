@@ -1,0 +1,31 @@
+id: opa.mathematics.approximation-theory.brudnyi-kruglyak-k-divisibility-conjecture
+kind: problem
+title: Brudnyi-Kruglyak K-Divisibility Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- approximation-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The K-functional for interpolation between Banach spaces satisfies exact divisibility properties.
+sources:
+  canonical:
+  - source_id: src_brudnyikruglyak_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Interpolation_space
+  status_evidence:
+  - source_id: src_brudnyikruglyak_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Interpolation_space
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

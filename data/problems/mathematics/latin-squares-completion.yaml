@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.latin-squares-completion
+kind: problem
+title: Latin Squares Completion
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine when a partial Latin square can be completed to a full Latin square.
+sources:
+  canonical:
+  - source_id: curated_latin_squares_completion
+    kind: website
+    url: https://en.wikipedia.org/wiki/Latin_square
+  status_evidence:
+  - source_id: curated_latin_squares_completion
+    kind: website
+    url: https://en.wikipedia.org/wiki/Latin_square
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

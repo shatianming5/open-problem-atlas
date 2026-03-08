@@ -17,7 +17,7 @@ ROOT = Path(__file__).resolve().parent.parent
 LEADS_DIR = ROOT / "data" / "leads"
 PROBLEMS_DIR = ROOT / "data" / "problems"
 
-CONFIDENCE_THRESHOLD = 0.5
+CONFIDENCE_THRESHOLD = 0.3
 TODAY = date.today().isoformat()
 
 # Domain mapping: domain_hint -> (directory name, id prefix)

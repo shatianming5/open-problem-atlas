@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.kerr-cft-correspondence-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kerr_cft_correspondence_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kerr/CFT Correspondence Proof. Prove the Kerr/CFT correspondence relating
+  extremal Kerr black holes to conformal field theories.'
+parameters: {}

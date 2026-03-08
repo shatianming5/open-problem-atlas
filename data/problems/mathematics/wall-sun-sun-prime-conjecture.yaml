@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.wall-sun-sun-prime-conjecture
+kind: problem
+title: Wall-Sun-Sun Prime Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether infinitely many Wall-Sun-Sun primes exist.
+sources:
+  canonical:
+  - source_id: curated_wall_sun_sun_prime_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wall%E2%80%93Sun%E2%80%93Sun_prime
+  status_evidence:
+  - source_id: curated_wall_sun_sun_prime_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wall%E2%80%93Sun%E2%80%93Sun_prime
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

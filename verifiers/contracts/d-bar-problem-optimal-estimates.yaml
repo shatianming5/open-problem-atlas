@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.d-bar-problem-optimal-estimates
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/d_bar_problem_optimal_estimates_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: D-bar Problem Optimal Estimates. Prove optimal L^2 estimates for the d-bar
+  equation on pseudoconvex domains.'
+parameters: {}

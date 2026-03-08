@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.renormalization-group-mathematical-framework
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/renormalization_group_mathematical_framework_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Renormalization Group Mathematical Framework. Provide a complete mathematical
+  framework for the renormalization group in QFT.'
+parameters: {}

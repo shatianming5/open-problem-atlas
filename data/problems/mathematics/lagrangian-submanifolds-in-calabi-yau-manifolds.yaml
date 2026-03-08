@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.lagrangian-submanifolds-in-calabi-yau-manifolds
+kind: problem
+title: Lagrangian Submanifolds in Calabi-Yau Manifolds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify special Lagrangian submanifolds in Calabi-Yau manifolds.
+sources:
+  canonical:
+  - source_id: curated_lagrangian_submanifolds_in_calabi_yau_manifolds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Special_Lagrangian_submanifold
+  status_evidence:
+  - source_id: curated_lagrangian_submanifolds_in_calabi_yau_manifolds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Special_Lagrangian_submanifold
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

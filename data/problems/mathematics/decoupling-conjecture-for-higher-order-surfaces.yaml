@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.decoupling-conjecture-for-higher-order-surfaces
+kind: problem
+title: Decoupling Conjecture for Higher-Order Surfaces
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove sharp l^p decoupling inequalities for surfaces of higher order.
+sources:
+  canonical:
+  - source_id: curated_decoupling_conjecture_for_higher_order_surfaces
+    kind: website
+    url: https://en.wikipedia.org/wiki/Decoupling_inequality
+  status_evidence:
+  - source_id: curated_decoupling_conjecture_for_higher_order_surfaces
+    kind: website
+    url: https://en.wikipedia.org/wiki/Decoupling_inequality
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

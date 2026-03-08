@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.fluctuation-theorems-far-from-equilibrium
+kind: problem
+title: Fluctuation Theorems Far From Equilibrium
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend fluctuation theorems to systems far from equilibrium with strong driving.
+sources:
+  canonical:
+  - source_id: curated_fluctuation_theorems_far_from_equilibrium
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fluctuation_theorem
+  status_evidence:
+  - source_id: curated_fluctuation_theorems_far_from_equilibrium
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fluctuation_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

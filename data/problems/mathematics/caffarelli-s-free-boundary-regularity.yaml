@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.caffarelli-s-free-boundary-regularity
+kind: problem
+title: Caffarelli's Free Boundary Regularity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove optimal regularity for free boundaries in two-phase obstacle problems.
+sources:
+  canonical:
+  - source_id: curated_caffarelli_s_free_boundary_regularity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Obstacle_problem
+  status_evidence:
+  - source_id: curated_caffarelli_s_free_boundary_regularity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Obstacle_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

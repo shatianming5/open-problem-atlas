@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.nekhoroshev-estimates-for-nonconvex-systems
+kind: problem
+title: Nekhoroshev Estimates for Nonconvex Systems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove Nekhoroshev-type exponential stability estimates for general non-convex Hamiltonian systems.
+sources:
+  canonical:
+  - source_id: curated_nekhoroshev_estimates_for_nonconvex_systems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Nekhoroshev_estimates
+  status_evidence:
+  - source_id: curated_nekhoroshev_estimates_for_nonconvex_systems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Nekhoroshev_estimates
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

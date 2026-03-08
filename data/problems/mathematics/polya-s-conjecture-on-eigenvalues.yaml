@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.polya-s-conjecture-on-eigenvalues
+kind: problem
+title: Polya's Conjecture on Eigenvalues
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The k-th eigenvalue of the Dirichlet Laplacian on a bounded domain satisfies the Weyl asymptotic from below.
+sources:
+  canonical:
+  - source_id: curated_polya_s_conjecture_on_eigenvalues
+    kind: website
+    url: https://en.wikipedia.org/wiki/Weyl_law
+  status_evidence:
+  - source_id: curated_polya_s_conjecture_on_eigenvalues
+    kind: website
+    url: https://en.wikipedia.org/wiki/Weyl_law
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.kontsevich-s-formality-conjecture-for-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kontsevich_s_formality_conjecture_for_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kontsevich''s Formality Conjecture for Higher Dimensions. Prove the formality
+  theorem for the deformation quantization of Poisson manifolds in higher dimensions.'
+parameters: {}

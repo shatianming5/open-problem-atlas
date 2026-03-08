@@ -1,0 +1,11 @@
+problem_id: opa.tcs.complexity-theory.rl-vs-l
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/rl_vs_l_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: RL vs L. Determine whether randomized log-space equals deterministic log-space.'
+parameters: {}

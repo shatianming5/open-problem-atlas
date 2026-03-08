@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.additivity-of-quantum-channel-capacity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/additivity_of_quantum_channel_capacity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Additivity of Quantum Channel Capacity. Determine when the capacity of quantum
+  channels is additive.'
+parameters: {}

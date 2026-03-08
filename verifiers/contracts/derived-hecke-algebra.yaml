@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.derived-hecke-algebra
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/derived_hecke_algebra_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Derived Hecke Algebra. Develop the theory of derived Hecke algebras and
+  their applications to cohomology of arithmetic groups.'
+parameters: {}

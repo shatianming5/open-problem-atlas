@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.classification-of-exotic-spheres-in-dimension-4
+kind: problem
+title: Classification of Exotic Spheres in Dimension 4
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether exotic smooth structures on S^4 exist.
+sources:
+  canonical:
+  - source_id: curated_classification_of_exotic_spheres_in_dimension_4
+    kind: website
+    url: https://en.wikipedia.org/wiki/Exotic_sphere
+  status_evidence:
+  - source_id: curated_classification_of_exotic_spheres_in_dimension_4
+    kind: website
+    url: https://en.wikipedia.org/wiki/Exotic_sphere
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

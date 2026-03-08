@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.gan-gross-prasad-conjecture-remaining-cases
+kind: problem
+title: Gan-Gross-Prasad Conjecture (Remaining Cases)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the remaining cases of the Gan-Gross-Prasad conjecture on restriction of automorphic representations.
+sources:
+  canonical:
+  - source_id: curated_gan_gross_prasad_conjecture_remaining_cases
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gan%E2%80%93Gross%E2%80%93Prasad_conjecture
+  status_evidence:
+  - source_id: curated_gan_gross_prasad_conjecture_remaining_cases
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gan%E2%80%93Gross%E2%80%93Prasad_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.stability-of-matter-with-magnetic-fields
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stability_of_matter_with_magnetic_fields_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stability of Matter with Magnetic Fields. Prove stability of matter in the
+  presence of strong magnetic fields.'
+parameters: {}

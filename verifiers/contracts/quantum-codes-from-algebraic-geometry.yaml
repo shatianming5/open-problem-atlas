@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-codes-from-algebraic-geometry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_codes_from_algebraic_geometry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Codes from Algebraic Geometry. Construct optimal quantum error correcting
+  codes using algebraic geometry.'
+parameters: {}

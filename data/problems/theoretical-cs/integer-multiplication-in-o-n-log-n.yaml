@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.integer-multiplication-in-o-n-log-n
+kind: problem
+title: Integer Multiplication in O(n log n)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove or disprove the conjecture that n-bit integer multiplication requires Omega(n log n) operations.
+sources:
+  canonical:
+  - source_id: curated_integer_multiplication_in_o_n_log_n
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multiplication_algorithm
+  status_evidence:
+  - source_id: curated_integer_multiplication_in_o_n_log_n
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multiplication_algorithm
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.information-causality-principle
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/information_causality_principle_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Information Causality Principle. Derive quantum mechanics from the information
+  causality principle.'
+parameters: {}

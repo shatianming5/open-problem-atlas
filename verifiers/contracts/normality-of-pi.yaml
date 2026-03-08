@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.normality-of-pi
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/normality_of_pi_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Normality of Pi. Is pi normal in base 10, meaning every finite digit string
+  appears with equal limiting frequency? No irrational algebraic or natural constant has been proved normal.'
+parameters: {}

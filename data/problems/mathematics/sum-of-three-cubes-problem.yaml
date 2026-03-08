@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.sum-of-three-cubes-problem
+kind: problem
+title: Sum of Three Cubes Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For which integers n can the equation x^3 + y^3 + z^3 = n be solved in integers?
+sources:
+  canonical:
+  - source_id: curated_sum_of_three_cubes_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sums_of_three_cubes
+  status_evidence:
+  - source_id: curated_sum_of_three_cubes_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sums_of_three_cubes
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

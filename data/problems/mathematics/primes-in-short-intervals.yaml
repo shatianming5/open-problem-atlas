@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.primes-in-short-intervals
+kind: problem
+title: Primes in Short Intervals
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that the interval [x, x + x^theta] contains a prime for theta = 1/2 + epsilon.
+sources:
+  canonical:
+  - source_id: curated_primes_in_short_intervals
+    kind: website
+    url: https://en.wikipedia.org/wiki/Prime_gap
+  status_evidence:
+  - source_id: curated_primes_in_short_intervals
+    kind: website
+    url: https://en.wikipedia.org/wiki/Prime_gap
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

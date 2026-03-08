@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.borel-conjecture-for-aspherical-manifolds
+kind: problem
+title: Borel Conjecture for Aspherical Manifolds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every homotopy equivalence between closed aspherical manifolds is homotopic to a homeomorphism.
+sources:
+  canonical:
+  - source_id: curated_borel_conjecture_for_aspherical_manifolds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Borel_conjecture
+  status_evidence:
+  - source_id: curated_borel_conjecture_for_aspherical_manifolds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Borel_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

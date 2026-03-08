@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-statistical-mechanics.eigenstate-thermalization-hypothesis-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/eigenstate_thermalization_hypothesis_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Eigenstate Thermalization Hypothesis Proof. Can the Eigenstate Thermalization
+  Hypothesis be rigorously proved for specific many-body quantum systems, establishing when quantum thermalization occurs?'
+parameters: {}

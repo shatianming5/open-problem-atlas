@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.topological-modular-forms-applications
+kind: problem
+title: Topological Modular Forms Applications
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find new applications of topological modular forms to algebraic topology.
+sources:
+  canonical:
+  - source_id: curated_topological_modular_forms_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_modular_forms
+  status_evidence:
+  - source_id: curated_topological_modular_forms_applications
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_modular_forms
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

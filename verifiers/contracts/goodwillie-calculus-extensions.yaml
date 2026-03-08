@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.goodwillie-calculus-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/goodwillie_calculus_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Goodwillie Calculus Extensions. Extend Goodwillie calculus to broader classes
+  of functors and categories.'
+parameters: {}

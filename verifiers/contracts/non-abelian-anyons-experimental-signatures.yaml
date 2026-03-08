@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.non-abelian-anyons-experimental-signatures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_abelian_anyons_experimental_signatures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Abelian Anyons Experimental Signatures. Develop theoretical predictions
+  for experimental signatures of non-Abelian anyons.'
+parameters: {}

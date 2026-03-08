@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.secure-computation-with-optimal-communication
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/secure_computation_with_optimal_communication_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Secure Computation with Optimal Communication. Achieve secure multi-party
+  computation with communication complexity proportional to the output size.'
+parameters: {}

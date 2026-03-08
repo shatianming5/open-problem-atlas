@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.heisenberg-group-geometry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/heisenberg_group_geometry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Heisenberg Group Geometry. Develop the complete geometric analysis on the
+  Heisenberg group.'
+parameters: {}

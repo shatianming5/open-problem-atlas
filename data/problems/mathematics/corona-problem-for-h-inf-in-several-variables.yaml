@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.corona-problem-for-h-inf-in-several-variables
+kind: problem
+title: Corona Problem for H^inf in Several Variables
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether the corona theorem holds for H^inf of the polydisk.
+sources:
+  canonical:
+  - source_id: curated_corona_problem_for_h_inf_in_several_variables
+    kind: website
+    url: https://en.wikipedia.org/wiki/Corona_theorem
+  status_evidence:
+  - source_id: curated_corona_problem_for_h_inf_in_several_variables
+    kind: website
+    url: https://en.wikipedia.org/wiki/Corona_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

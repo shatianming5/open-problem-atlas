@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.boussinesq-system-global-regularity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/boussinesq_system_global_regularity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Boussinesq System Global Regularity. Prove global regularity for the 3D
+  Boussinesq system with partial viscosity.'
+parameters: {}

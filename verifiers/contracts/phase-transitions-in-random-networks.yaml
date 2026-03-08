@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.phase-transitions-in-random-networks
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/phase_transitions_in_random_networks_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Phase Transitions in Random Networks. Determine the critical phenomena for
+  phase transitions in random network models.'
+parameters: {}

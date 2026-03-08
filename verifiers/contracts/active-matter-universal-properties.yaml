@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.active-matter-universal-properties
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/active_matter_universal_properties_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Active Matter Universal Properties. Determine universal properties and phase
+  transitions in active matter systems.'
+parameters: {}

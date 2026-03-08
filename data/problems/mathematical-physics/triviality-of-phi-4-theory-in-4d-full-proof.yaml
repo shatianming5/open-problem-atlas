@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.triviality-of-phi-4-theory-in-4d-full-proof
+kind: problem
+title: Triviality of Phi^4 Theory in 4D (Full Proof)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that the continuum limit of lattice phi^4 theory in 4D is trivial (free field).
+sources:
+  canonical:
+  - source_id: curated_triviality_of_phi_4_theory_in_4d_full_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quartic_interaction
+  status_evidence:
+  - source_id: curated_triviality_of_phi_4_theory_in_4d_full_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quartic_interaction
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

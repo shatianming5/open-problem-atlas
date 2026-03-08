@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.dynamic-trees-optimal-operations
+kind: problem
+title: Dynamic Trees Optimal Operations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal amortized cost per operation for dynamic tree data structures.
+sources:
+  canonical:
+  - source_id: curated_dynamic_trees_optimal_operations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Link-cut_tree
+  status_evidence:
+  - source_id: curated_dynamic_trees_optimal_operations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Link-cut_tree
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.higher-order-topological-insulators-theory
+kind: problem
+title: Higher-Order Topological Insulators Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a complete theory of higher-order topological insulators.
+sources:
+  canonical:
+  - source_id: curated_higher_order_topological_insulators_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_insulator
+  status_evidence:
+  - source_id: curated_higher_order_topological_insulators_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Topological_insulator
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

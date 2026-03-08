@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.kazhdan-lusztig-conjecture-for-affine-lie-algebras
+kind: problem
+title: Kazhdan-Lusztig Conjecture for Affine Lie Algebras
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Kazhdan-Lusztig conjecture in full generality for affine Lie algebras.
+sources:
+  canonical:
+  - source_id: curated_kazhdan_lusztig_conjecture_for_affine_lie_algebras
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial
+  status_evidence:
+  - source_id: curated_kazhdan_lusztig_conjecture_for_affine_lie_algebras
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_polynomial
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

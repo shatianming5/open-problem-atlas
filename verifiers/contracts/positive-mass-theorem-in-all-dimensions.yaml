@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.positive-mass-theorem-in-all-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/positive_mass_theorem_in_all_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Positive Mass Theorem in All Dimensions. Prove the positive mass theorem
+  for general asymptotically flat spacetimes in all dimensions.'
+parameters: {}

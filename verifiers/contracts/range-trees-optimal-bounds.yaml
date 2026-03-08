@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.range-trees-optimal-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/range_trees_optimal_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Range Trees Optimal Bounds. Determine the optimal space-query tradeoff for
+  orthogonal range searching.'
+parameters: {}

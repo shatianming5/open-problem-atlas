@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.witness-encryption-from-minimal-assumptions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/witness_encryption_from_minimal_assumptions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Witness Encryption from Minimal Assumptions. Construct witness encryption
+  from standard assumptions without obfuscation.'
+parameters: {}

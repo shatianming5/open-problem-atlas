@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.hirsch-conjecture-status-and-variants
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hirsch_conjecture_status_and_variants_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hirsch Conjecture (Status and Variants). Determine the maximum diameter
+  of d-dimensional polytopes with n facets after the disproof of the Hirsch conjecture.'
+parameters: {}

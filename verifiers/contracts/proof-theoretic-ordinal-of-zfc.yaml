@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.proof-theoretic-ordinal-of-zfc
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/proof_theoretic_ordinal_of_zfc_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Proof-Theoretic Ordinal of ZFC. Determine the proof-theoretic ordinal of
+  Zermelo-Fraenkel set theory with choice.'
+parameters: {}

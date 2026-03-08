@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.banach-mazur-distance-problem
+kind: problem
+title: Banach-Mazur Distance Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the maximum Banach-Mazur distance between n-dimensional normed spaces.
+sources:
+  canonical:
+  - source_id: curated_banach_mazur_distance_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Banach%E2%80%93Mazur_compactum
+  status_evidence:
+  - source_id: curated_banach_mazur_distance_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Banach%E2%80%93Mazur_compactum
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

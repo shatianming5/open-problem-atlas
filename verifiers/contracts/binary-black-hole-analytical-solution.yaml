@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.binary-black-hole-analytical-solution
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/binary_black_hole_analytical_solution_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Binary Black Hole Analytical Solution. Find an analytical solution for the
+  two-body problem in general relativity.'
+parameters: {}

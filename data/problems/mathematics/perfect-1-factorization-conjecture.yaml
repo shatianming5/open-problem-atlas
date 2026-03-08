@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.perfect-1-factorization-conjecture
+kind: problem
+title: Perfect 1-Factorization Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that the complete graph K_{2n} has a perfect 1-factorization for all n.
+sources:
+  canonical:
+  - source_id: curated_perfect_1_factorization_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Perfect_1-factorization
+  status_evidence:
+  - source_id: curated_perfect_1_factorization_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Perfect_1-factorization
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

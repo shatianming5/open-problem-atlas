@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.vaught-s-conjecture-full-resolution
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/vaught_s_conjecture_full_resolution_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Vaught''s Conjecture (Full Resolution). A countable first-order theory has
+  either countably many or continuum many countable models.'
+parameters: {}

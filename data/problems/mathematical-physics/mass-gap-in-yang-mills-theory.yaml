@@ -1,0 +1,32 @@
+id: opa.phys.quantum-field-theory.mass-gap-in-yang-mills-theory
+kind: problem
+title: Mass Gap in Yang-Mills Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that for any compact simple gauge group, quantum Yang-Mills theory on R^4 exists and has a mass gap, as
+    stated in the Clay Millennium Problems.
+sources:
+  canonical:
+  - source_id: src_jaffe_2006
+    kind: website
+    url: https://www.claymath.org/millennium-problems/yang-mills-and-mass-gap
+  status_evidence:
+  - source_id: src_jaffe_2006
+    kind: website
+    url: https://www.claymath.org/millennium-problems/yang-mills-and-mass-gap
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

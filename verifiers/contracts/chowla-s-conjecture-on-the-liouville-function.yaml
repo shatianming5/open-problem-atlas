@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.chowla-s-conjecture-on-the-liouville-function
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chowla_s_conjecture_on_the_liouville_function_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chowla''s Conjecture on the Liouville Function. The Liouville function exhibits
+  cancellation in short correlations: the average of lambda(n)*lambda(n+1) tends to zero.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.kelvin-problem
+kind: problem
+title: Kelvin Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal space-partitioning structure minimizing surface area per unit volume.
+sources:
+  canonical:
+  - source_id: curated_kelvin_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kelvin_problem
+  status_evidence:
+  - source_id: curated_kelvin_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kelvin_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

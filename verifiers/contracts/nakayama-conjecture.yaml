@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.homological-algebra.nakayama-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nakayama_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nakayama Conjecture. Every finite-dimensional algebra of infinite dominant
+  dimension is self-injective.'
+parameters: {}

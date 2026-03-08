@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.interacting-particle-systems-phase-diagrams
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/interacting_particle_systems_phase_diagrams_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Interacting Particle Systems Phase Diagrams. Determine complete phase diagrams
+  for classes of interacting particle systems.'
+parameters: {}

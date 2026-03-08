@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.berkeley-cardinals-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/berkeley_cardinals_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Berkeley Cardinals Theory. Develop the theory of Berkeley cardinals and
+  their relationship to choice.'
+parameters: {}

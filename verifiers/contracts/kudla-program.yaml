@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.kudla-program
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kudla_program_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kudla Program. Complete Kudla''s program relating arithmetic intersection
+  numbers to Fourier coefficients of modular forms.'
+parameters: {}

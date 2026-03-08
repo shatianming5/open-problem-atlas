@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.wigner-dyson-statistics-for-quantum-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/wigner_dyson_statistics_for_quantum_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Wigner-Dyson Statistics for Quantum Systems. Prove Wigner-Dyson eigenvalue
+  statistics for physically realistic quantum Hamiltonians.'
+parameters: {}

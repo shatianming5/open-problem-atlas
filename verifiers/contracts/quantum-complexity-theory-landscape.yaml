@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.quantum-complexity-theory-landscape
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_complexity_theory_landscape_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Complexity Theory Landscape. Map the complete landscape of quantum
+  complexity classes and their relationships.'
+parameters: {}

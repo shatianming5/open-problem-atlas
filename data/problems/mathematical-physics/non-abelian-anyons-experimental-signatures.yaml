@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.non-abelian-anyons-experimental-signatures
+kind: problem
+title: Non-Abelian Anyons Experimental Signatures
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop theoretical predictions for experimental signatures of non-Abelian anyons.
+sources:
+  canonical:
+  - source_id: curated_non_abelian_anyons_experimental_signatures
+    kind: website
+    url: https://en.wikipedia.org/wiki/Anyon
+  status_evidence:
+  - source_id: curated_non_abelian_anyons_experimental_signatures
+    kind: website
+    url: https://en.wikipedia.org/wiki/Anyon
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

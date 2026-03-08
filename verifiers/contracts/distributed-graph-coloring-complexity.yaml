@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.distributed-graph-coloring-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distributed_graph_coloring_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distributed Graph Coloring Complexity. Determine the exact round complexity
+  of distributed graph coloring in the LOCAL model.'
+parameters: {}

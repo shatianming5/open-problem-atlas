@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.category-theory.rosicky-s-conjecture-on-accessible-categories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/rosicky_s_conjecture_on_accessible_categories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rosicky''s Conjecture on Accessible Categories. Every accessible category
+  with directed colimits is locally presentable.'
+parameters: {}

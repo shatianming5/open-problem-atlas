@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.erdos-hajnal-conjecture-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_hajnal_conjecture_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Hajnal Conjecture (Full Proof). For every graph H, there is epsilon
+  > 0 such that every H-free graph on n vertices has a clique or independent set of size n^epsilon.'
+parameters: {}

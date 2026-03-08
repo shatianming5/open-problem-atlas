@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.topological-qft-classification-in-4d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/topological_qft_classification_in_4d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Topological QFT Classification in 4D. Classify all topological quantum field
+  theories in 4 dimensions.'
+parameters: {}

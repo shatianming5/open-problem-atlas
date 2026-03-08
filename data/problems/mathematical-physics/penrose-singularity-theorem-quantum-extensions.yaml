@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.penrose-singularity-theorem-quantum-extensions
+kind: problem
+title: Penrose Singularity Theorem Quantum Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can Penrose's singularity theorem be extended to incorporate quantum effects, rigorously proving or disproving
+    singularity avoidance in quantum gravity?
+sources:
+  canonical:
+  - source_id: src_fewster_2022
+    kind: website
+    url: https://arxiv.org/abs/2203.16438
+  status_evidence:
+  - source_id: src_fewster_2022
+    kind: website
+    url: https://arxiv.org/abs/2203.16438
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.mathematics.analysis.euler-equations-blow-up-problem
+kind: problem
+title: Euler Equations Blow-Up Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine whether smooth solutions to the 3D incompressible Euler equations can develop singularities in finite
+    time.
+sources:
+  canonical:
+  - source_id: curated_euler_equations_blow_up_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)
+  status_evidence:
+  - source_id: curated_euler_equations_blow_up_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Euler_equations_(fluid_dynamics)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

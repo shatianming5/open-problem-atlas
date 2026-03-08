@@ -1,0 +1,31 @@
+id: opa.mathematics.homological-algebra.koszul-duality-for-operads-conjecture
+kind: problem
+title: Koszul Duality for Operads Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- homological-algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Koszul duality provides a derived equivalence between categories of algebras over a Koszul operad and its dual.
+sources:
+  canonical:
+  - source_id: src_ginzburgkapranov_1994
+    kind: website
+    url: https://en.wikipedia.org/wiki/Koszul_duality
+  status_evidence:
+  - source_id: src_ginzburgkapranov_1994
+    kind: website
+    url: https://en.wikipedia.org/wiki/Koszul_duality
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.amplituhedron-geometry
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/amplituhedron_geometry_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Amplituhedron Geometry. Prove that the amplituhedron computes all scattering
+  amplitudes in N=4 super Yang-Mills.'
+parameters: {}

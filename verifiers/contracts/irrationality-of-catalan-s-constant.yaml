@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.irrationality-of-catalan-s-constant
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/irrationality_of_catalan_s_constant_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Irrationality of Catalan''s Constant. Prove that Catalan''s constant G =
+  sum_{n=0}^inf (-1)^n/(2n+1)^2 is irrational.'
+parameters: {}

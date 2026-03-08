@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.complexity-volume-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/complexity_volume_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Complexity = Volume Conjecture. Prove the complexity = volume conjecture
+  relating computational complexity to spacetime volume.'
+parameters: {}

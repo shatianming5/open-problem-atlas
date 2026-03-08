@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.arithmetic-geometry.malle-s-conjecture-on-number-field-counting
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/malle_s_conjecture_on_number_field_counting_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Malle''s Conjecture on Number Field Counting. The number of number fields
+  with Galois group G and discriminant bounded by X grows as X^{a(G)} (log X)^{b(G)}.'
+parameters: {}

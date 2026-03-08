@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.category-theory.simpson-s-conjecture-on-strict-n-categories
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/simpson_s_conjecture_on_strict_n_categories_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Simpson''s Conjecture on Strict n-Categories. Every weak n-category is equivalent
+  to a strict one in a suitable sense, for certain model structures.'
+parameters: {}

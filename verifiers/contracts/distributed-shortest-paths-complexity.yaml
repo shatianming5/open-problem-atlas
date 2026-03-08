@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.distributed-shortest-paths-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distributed_shortest_paths_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distributed Shortest Paths Complexity. Determine the exact round complexity
+  of computing shortest paths in distributed networks.'
+parameters: {}

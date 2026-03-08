@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.information-theoretic-secure-computation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/information_theoretic_secure_computation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Information-Theoretic Secure Computation. Determine the exact communication
+  complexity of information-theoretically secure computation.'
+parameters: {}

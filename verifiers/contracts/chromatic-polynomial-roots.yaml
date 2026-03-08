@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.chromatic-polynomial-roots
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chromatic_polynomial_roots_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chromatic Polynomial Roots. Determine the distribution and density of roots
+  of chromatic polynomials.'
+parameters: {}

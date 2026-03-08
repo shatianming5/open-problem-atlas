@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.consensus-lower-bounds-with-failures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/consensus_lower_bounds_with_failures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Consensus Lower Bounds with Failures. Determine the exact round complexity
+  of consensus in the presence of Byzantine failures.'
+parameters: {}

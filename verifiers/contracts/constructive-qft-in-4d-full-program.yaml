@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.constructive-qft-in-4d-full-program
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/constructive_qft_in_4d_full_program_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Constructive QFT in 4D (Full Program). Construct a nontrivial interacting
+  quantum field theory in four spacetime dimensions rigorously.'
+parameters: {}

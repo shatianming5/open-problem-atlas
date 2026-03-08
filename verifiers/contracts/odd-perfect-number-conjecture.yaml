@@ -1,0 +1,11 @@
+problem_id: opa.mathematics.number-theory.odd-perfect-number-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/odd_perfect_number_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Odd Perfect Number Conjecture. No odd perfect number exists.'
+parameters: {}

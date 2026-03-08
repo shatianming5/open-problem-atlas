@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.large-cardinals-consistency-hierarchy
+kind: problem
+title: Large Cardinals Consistency Hierarchy
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact consistency strength of all large cardinal axioms.
+sources:
+  canonical:
+  - source_id: curated_large_cardinals_consistency_hierarchy
+    kind: website
+    url: https://en.wikipedia.org/wiki/Large_cardinal
+  status_evidence:
+  - source_id: curated_large_cardinals_consistency_hierarchy
+    kind: website
+    url: https://en.wikipedia.org/wiki/Large_cardinal
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

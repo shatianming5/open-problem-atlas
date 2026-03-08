@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.cannon-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cannon_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cannon''s Conjecture. A finitely presented group whose boundary at infinity
+  is the 2-sphere acts geometrically on hyperbolic 3-space.'
+parameters: {}

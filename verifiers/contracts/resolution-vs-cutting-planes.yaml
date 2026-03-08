@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.resolution-vs-cutting-planes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/resolution_vs_cutting_planes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Resolution vs Cutting Planes. Determine the relative power of Resolution
+  and Cutting Planes proof systems.'
+parameters: {}

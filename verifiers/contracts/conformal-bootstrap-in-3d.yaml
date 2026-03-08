@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.conformal-bootstrap-in-3d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/conformal_bootstrap_in_3d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Conformal Bootstrap in 3D. Determine all consistent 3D conformal field theories
+  using the conformal bootstrap.'
+parameters: {}

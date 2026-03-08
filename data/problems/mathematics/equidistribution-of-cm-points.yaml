@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.equidistribution-of-cm-points
+kind: problem
+title: Equidistribution of CM Points
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove equidistribution theorems for CM points on Shimura varieties.
+sources:
+  canonical:
+  - source_id: curated_equidistribution_of_cm_points
+    kind: website
+    url: https://en.wikipedia.org/wiki/Complex_multiplication
+  status_evidence:
+  - source_id: curated_equidistribution_of_cm_points
+    kind: website
+    url: https://en.wikipedia.org/wiki/Complex_multiplication
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

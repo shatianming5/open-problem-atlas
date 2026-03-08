@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.colored-jones-polynomial-and-volume
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/colored_jones_polynomial_and_volume_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Colored Jones Polynomial and Volume. Prove the volume conjecture relating
+  the colored Jones polynomial to the hyperbolic volume of a knot complement.'
+parameters: {}

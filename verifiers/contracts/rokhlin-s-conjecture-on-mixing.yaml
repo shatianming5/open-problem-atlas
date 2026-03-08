@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.ergodic-theory.rokhlin-s-conjecture-on-mixing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/rokhlin_s_conjecture_on_mixing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rokhlin''s Conjecture on Mixing. Is mixing of all orders equivalent to mixing
+  of order 2 for measure-preserving transformations?'
+parameters: {}

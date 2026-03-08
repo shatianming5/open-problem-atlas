@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.sylvester-gallai-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sylvester_gallai_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sylvester-Gallai in Higher Dimensions. Prove quantitative Sylvester-Gallai
+  type theorems in higher dimensions.'
+parameters: {}

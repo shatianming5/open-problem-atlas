@@ -1,0 +1,12 @@
+problem_id: opa.phys.holography.celestial-holography-and-flat-space
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/celestial_holography_and_flat_space_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Celestial Holography and Flat Space. Can celestial holography provide a
+  complete holographic dual for quantum gravity in asymptotically flat spacetimes?'
+parameters: {}

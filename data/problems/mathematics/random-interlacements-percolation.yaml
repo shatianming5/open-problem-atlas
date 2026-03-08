@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.random-interlacements-percolation
+kind: problem
+title: Random Interlacements Percolation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the percolation threshold for the vacant set of random interlacements on Z^d.
+sources:
+  canonical:
+  - source_id: curated_random_interlacements_percolation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_interlacements
+  status_evidence:
+  - source_id: curated_random_interlacements_percolation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_interlacements
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

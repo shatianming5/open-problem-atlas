@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.submodular-optimization-approximation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/submodular_optimization_approximation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Submodular Optimization Approximation. Determine the optimal approximation
+  ratio for submodular function maximization with constraints.'
+parameters: {}

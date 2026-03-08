@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.snarg-efficiency-from-falsifiable-assumptions
+kind: problem
+title: SNARG Efficiency from Falsifiable Assumptions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct succinct non-interactive arguments with optimal efficiency from falsifiable assumptions.
+sources:
+  canonical:
+  - source_id: curated_snarg_efficiency_from_falsifiable_assumptions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof
+  status_evidence:
+  - source_id: curated_snarg_efficiency_from_falsifiable_assumptions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Non-interactive_zero-knowledge_proof
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

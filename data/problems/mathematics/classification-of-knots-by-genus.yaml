@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.classification-of-knots-by-genus
+kind: problem
+title: Classification of Knots by Genus
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop efficient algorithms to determine the genus of a knot from its diagram.
+sources:
+  canonical:
+  - source_id: curated_classification_of_knots_by_genus
+    kind: website
+    url: https://en.wikipedia.org/wiki/Knot_genus
+  status_evidence:
+  - source_id: curated_classification_of_knots_by_genus
+    kind: website
+    url: https://en.wikipedia.org/wiki/Knot_genus
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.numerical-analysis.kreiss-matrix-theorem-sharpening
+kind: problem
+title: Kreiss Matrix Theorem Sharpening
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- numerical-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Improve the constant in the Kreiss matrix theorem for non-normal matrices.
+sources:
+  canonical:
+  - source_id: src_kreiss_1962
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kreiss_matrix_theorem
+  status_evidence:
+  - source_id: src_kreiss_1962
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kreiss_matrix_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

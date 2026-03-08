@@ -1,0 +1,32 @@
+id: opa.tcs.distributed-computing.congestion-plus-dilation-conjecture
+kind: problem
+title: Congestion Plus Dilation Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- distributed-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the conjecture that any set of packet routing requests can be scheduled in time proportional to congestion
+    plus dilation.
+sources:
+  canonical:
+  - source_id: curated_congestion_plus_dilation_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Packet_routing
+  status_evidence:
+  - source_id: curated_congestion_plus_dilation_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Packet_routing
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

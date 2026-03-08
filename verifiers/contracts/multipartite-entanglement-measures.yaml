@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.multipartite-entanglement-measures
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/multipartite_entanglement_measures_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multipartite Entanglement Measures. Develop computable measures of multipartite
+  entanglement.'
+parameters: {}

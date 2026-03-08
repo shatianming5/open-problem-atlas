@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.geometric-representation-theory-program
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/geometric_representation_theory_program_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Geometric Representation Theory Program. Complete the geometric representation
+  theory program relating geometry to representation theory.'
+parameters: {}

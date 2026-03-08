@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.minimum-circuit-size-problem-mcsp-np-hardness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/minimum_circuit_size_problem_mcsp_np_hardness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minimum Circuit Size Problem (MCSP) NP-Hardness. Determine whether MCSP
+  is NP-hard under polynomial-time reductions.'
+parameters: {}

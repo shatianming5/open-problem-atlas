@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.ringel-s-conjecture-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ringel_s_conjecture_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ringel''s Conjecture (Full Proof). The complete graph K_{2n+1} can be decomposed
+  into 2n+1 copies of any tree on n+1 vertices.'
+parameters: {}

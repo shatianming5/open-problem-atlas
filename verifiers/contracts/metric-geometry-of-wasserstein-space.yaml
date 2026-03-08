@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.metric-geometry-of-wasserstein-space
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/metric_geometry_of_wasserstein_space_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Metric Geometry of Wasserstein Space. Develop the Riemannian geometry of
+  Wasserstein space of probability measures.'
+parameters: {}

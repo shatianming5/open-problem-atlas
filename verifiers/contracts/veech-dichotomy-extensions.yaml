@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.ergodic-theory.veech-dichotomy-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/veech_dichotomy_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Veech Dichotomy Extensions. Extend Veech''s dichotomy for translation surfaces
+  to characterize ergodic properties of general polygon billiards.'
+parameters: {}

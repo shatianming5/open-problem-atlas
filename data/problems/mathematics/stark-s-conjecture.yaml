@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.stark-s-conjecture
+kind: problem
+title: Stark's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The leading term of the Taylor expansion of an Artin L-function at s=0 is given by a Stark unit.
+sources:
+  canonical:
+  - source_id: curated_stark_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Stark_conjectures
+  status_evidence:
+  - source_id: curated_stark_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Stark_conjectures
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

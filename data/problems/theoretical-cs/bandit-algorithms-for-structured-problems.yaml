@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.bandit-algorithms-for-structured-problems
+kind: problem
+title: Bandit Algorithms for Structured Problems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Design optimal bandit algorithms for problems with combinatorial structure.
+sources:
+  canonical:
+  - source_id: curated_bandit_algorithms_for_structured_problems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multi-armed_bandit
+  status_evidence:
+  - source_id: curated_bandit_algorithms_for_structured_problems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Multi-armed_bandit
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

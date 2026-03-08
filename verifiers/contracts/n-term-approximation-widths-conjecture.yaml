@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.approximation-theory.n-term-approximation-widths-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/n_term_approximation_widths_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: N-term Approximation Widths Conjecture. For nonlinear n-term approximation
+  from wavelet bases, the optimal rate is achieved by thresholding.'
+parameters: {}

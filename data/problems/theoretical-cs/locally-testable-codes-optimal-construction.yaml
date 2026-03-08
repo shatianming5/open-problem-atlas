@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.locally-testable-codes-optimal-construction
+kind: problem
+title: Locally Testable Codes Optimal Construction
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct locally testable codes with optimal rate and query complexity.
+sources:
+  canonical:
+  - source_id: curated_locally_testable_codes_optimal_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/Locally_testable_code
+  status_evidence:
+  - source_id: curated_locally_testable_codes_optimal_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/Locally_testable_code
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

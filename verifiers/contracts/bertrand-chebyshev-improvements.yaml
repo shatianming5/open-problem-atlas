@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.bertrand-chebyshev-improvements
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bertrand_chebyshev_improvements_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bertrand-Chebyshev Improvements. For every epsilon > 0, there is a prime
+  between n and (1+epsilon)*n for sufficiently large n.'
+parameters: {}

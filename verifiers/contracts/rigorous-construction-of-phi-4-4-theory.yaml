@@ -1,0 +1,12 @@
+problem_id: opa.phys.constructive-qft.rigorous-construction-of-phi-4-4-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/rigorous_construction_of_phi_4_4_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rigorous Construction of Phi^4_4 Theory. Can one rigorously construct the
+  interacting phi^4 quantum field theory in 4 spacetime dimensions, or prove its triviality?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.chromatic-number-of-the-plane-exact-value
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chromatic_number_of_the_plane_exact_value_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chromatic Number of the Plane (Exact Value). Determine the chromatic number
+  of the plane, known to be between 5 and 7.'
+parameters: {}

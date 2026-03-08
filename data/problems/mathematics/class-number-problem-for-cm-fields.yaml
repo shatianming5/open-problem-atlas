@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.class-number-problem-for-cm-fields
+kind: problem
+title: Class Number Problem for CM Fields
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine all CM fields with class number one.
+sources:
+  canonical:
+  - source_id: curated_class_number_problem_for_cm_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Class_number_problem
+  status_evidence:
+  - source_id: curated_class_number_problem_for_cm_fields
+    kind: website
+    url: https://en.wikipedia.org/wiki/Class_number_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

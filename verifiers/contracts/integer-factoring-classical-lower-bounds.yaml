@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.integer-factoring-classical-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/integer_factoring_classical_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Integer Factoring Classical Lower Bounds. Prove lower bounds on the classical
+  complexity of integer factoring.'
+parameters: {}

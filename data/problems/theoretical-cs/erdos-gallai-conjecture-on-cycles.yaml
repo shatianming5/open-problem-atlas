@@ -1,0 +1,31 @@
+id: opa.tcs.graph-theory.erdos-gallai-conjecture-on-cycles
+kind: problem
+title: Erdos-Gallai Conjecture on Cycles
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every graph on n vertices with more than (k-1)(n-1)/2 edges contains a cycle of length at least k.
+sources:
+  canonical:
+  - source_id: curated_erdos_gallai_conjecture_on_cycles
+    kind: website
+    url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Gallai_theorem
+  status_evidence:
+  - source_id: curated_erdos_gallai_conjecture_on_cycles
+    kind: website
+    url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Gallai_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.dispersive-estimates-for-schrodinger-equation
+kind: problem
+title: Dispersive Estimates for Schrodinger Equation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove optimal dispersive estimates for Schrodinger equations with potentials.
+sources:
+  canonical:
+  - source_id: curated_dispersive_estimates_for_schrodinger_equation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+  status_evidence:
+  - source_id: curated_dispersive_estimates_for_schrodinger_equation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schr%C3%B6dinger_equation
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

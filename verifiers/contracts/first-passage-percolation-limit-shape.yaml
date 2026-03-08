@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.first-passage-percolation-limit-shape
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/first_passage_percolation_limit_shape_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: First Passage Percolation Limit Shape. Determine the exact limit shape in
+  first passage percolation on Z^d.'
+parameters: {}

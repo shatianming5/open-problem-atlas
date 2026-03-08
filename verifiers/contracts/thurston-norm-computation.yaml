@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.thurston-norm-computation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/thurston_norm_computation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Thurston Norm Computation. Develop efficient algorithms for computing the
+  Thurston norm of a 3-manifold.'
+parameters: {}

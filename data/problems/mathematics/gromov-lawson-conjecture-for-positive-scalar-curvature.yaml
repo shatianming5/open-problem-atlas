@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.gromov-lawson-conjecture-for-positive-scalar-curvature
+kind: problem
+title: Gromov-Lawson Conjecture for Positive Scalar Curvature
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine exactly which manifolds admit metrics of positive scalar curvature.
+sources:
+  canonical:
+  - source_id: curated_gromov_lawson_conjecture_for_positive_scalar_curvature
+    kind: website
+    url: https://en.wikipedia.org/wiki/Positive_scalar_curvature
+  status_evidence:
+  - source_id: curated_gromov_lawson_conjecture_for_positive_scalar_curvature
+    kind: website
+    url: https://en.wikipedia.org/wiki/Positive_scalar_curvature
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

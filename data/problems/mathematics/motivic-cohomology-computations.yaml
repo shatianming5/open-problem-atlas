@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.motivic-cohomology-computations
+kind: problem
+title: Motivic Cohomology Computations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the computation of motivic cohomology groups of number fields and varieties.
+sources:
+  canonical:
+  - source_id: curated_motivic_cohomology_computations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Motivic_cohomology
+  status_evidence:
+  - source_id: curated_motivic_cohomology_computations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Motivic_cohomology
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

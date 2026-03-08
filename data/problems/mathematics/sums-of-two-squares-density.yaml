@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.sums-of-two-squares-density
+kind: problem
+title: Sums of Two Squares Density
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact density of integers that are sums of two squares.
+sources:
+  canonical:
+  - source_id: curated_sums_of_two_squares_density
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sum_of_two_squares_theorem
+  status_evidence:
+  - source_id: curated_sums_of_two_squares_density
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sum_of_two_squares_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

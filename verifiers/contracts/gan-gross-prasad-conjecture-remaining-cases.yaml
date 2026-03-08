@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.gan-gross-prasad-conjecture-remaining-cases
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gan_gross_prasad_conjecture_remaining_cases_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gan-Gross-Prasad Conjecture (Remaining Cases). Prove the remaining cases
+  of the Gan-Gross-Prasad conjecture on restriction of automorphic representations.'
+parameters: {}

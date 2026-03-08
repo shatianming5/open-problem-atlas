@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.non-equilibrium-steady-states-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_equilibrium_steady_states_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Equilibrium Steady States Theory. Develop a general theory of non-equilibrium
+  steady states analogous to equilibrium thermodynamics.'
+parameters: {}

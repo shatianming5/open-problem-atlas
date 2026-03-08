@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.motzkin-chain-exact-solution
+kind: problem
+title: Motzkin Chain Exact Solution
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find the exact solution and entanglement properties of the Motzkin spin chain.
+sources:
+  canonical:
+  - source_id: curated_motzkin_chain_exact_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Motzkin_number
+  status_evidence:
+  - source_id: curated_motzkin_chain_exact_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Motzkin_number
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

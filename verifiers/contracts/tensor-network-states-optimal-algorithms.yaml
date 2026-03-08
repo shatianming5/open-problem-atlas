@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.tensor-network-states-optimal-algorithms
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tensor_network_states_optimal_algorithms_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tensor Network States Optimal Algorithms. Develop optimal algorithms for
+  tensor network state simulations of 2D quantum systems.'
+parameters: {}

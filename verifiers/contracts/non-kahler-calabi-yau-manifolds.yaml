@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.non-kahler-calabi-yau-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/non_kahler_calabi_yau_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Non-Kahler Calabi-Yau Manifolds. Determine whether non-Kahler Calabi-Yau
+  manifolds exist and classify them.'
+parameters: {}

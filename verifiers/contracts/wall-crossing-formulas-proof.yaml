@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.wall-crossing-formulas-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/wall_crossing_formulas_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Wall-Crossing Formulas Proof. Prove the Kontsevich-Soibelman wall-crossing
+  formula for BPS states.'
+parameters: {}

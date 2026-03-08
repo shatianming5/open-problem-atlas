@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.quantum-error-correction-continuous-variable
+kind: problem
+title: Quantum Error Correction Continuous Variable
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop efficient quantum error correction codes for continuous variable systems.
+sources:
+  canonical:
+  - source_id: curated_quantum_error_correction_continuous_variable
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_error_correction
+  status_evidence:
+  - source_id: curated_quantum_error_correction_continuous_variable
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_error_correction
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.arnold-conjecture-general-form
+kind: problem
+title: Arnold Conjecture (General Form)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Arnold conjecture on the number of fixed points of Hamiltonian diffeomorphisms for general manifolds.
+sources:
+  canonical:
+  - source_id: curated_arnold_conjecture_general_form
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arnold_conjecture
+  status_evidence:
+  - source_id: curated_arnold_conjecture_general_form
+    kind: website
+    url: https://en.wikipedia.org/wiki/Arnold_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

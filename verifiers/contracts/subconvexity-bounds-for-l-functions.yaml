@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.subconvexity-bounds-for-l-functions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/subconvexity_bounds_for_l_functions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Subconvexity Bounds for L-Functions. Prove subconvexity bounds for L-functions
+  in the most general settings.'
+parameters: {}

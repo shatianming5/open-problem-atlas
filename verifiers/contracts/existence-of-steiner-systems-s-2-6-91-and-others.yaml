@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.existence-of-steiner-systems-s-2-6-91-and-others
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_steiner_systems_s_2_6_91_and_others_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Steiner Systems S(2,6,91) and Others. Do there exist Steiner
+  systems S(2,6,91)? Many parameter sets for Steiner systems are unresolved.'
+parameters: {}

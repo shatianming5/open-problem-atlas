@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.dynamic-optimality-for-binary-search-trees
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dynamic_optimality_for_binary_search_trees_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dynamic Optimality for Binary Search Trees. Prove that splay trees or some
+  other BST is dynamically optimal.'
+parameters: {}

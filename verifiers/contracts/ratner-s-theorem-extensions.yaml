@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.ergodic-theory.ratner-s-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ratner_s_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ratner''s Theorem Extensions. Extend Ratner''s orbit closure theorem to
+  actions of groups beyond unipotent ones, such as diagonalizable groups.'
+parameters: {}

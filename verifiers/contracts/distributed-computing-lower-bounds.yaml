@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.distributed-computing-lower-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distributed_computing_lower_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distributed Computing Lower Bounds. Prove tight lower bounds for fundamental
+  problems in distributed computing (e.g., MIS, coloring).'
+parameters: {}

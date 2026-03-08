@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.minkowski-s-conjecture-on-lattice-coverings
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/minkowski_s_conjecture_on_lattice_coverings_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Minkowski''s Conjecture on Lattice Coverings. Prove Minkowski''s conjecture
+  on lattice covering density.'
+parameters: {}

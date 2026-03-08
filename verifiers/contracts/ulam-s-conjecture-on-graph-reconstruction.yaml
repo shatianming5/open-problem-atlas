@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.ulam-s-conjecture-on-graph-reconstruction
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ulam_s_conjecture_on_graph_reconstruction_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Ulam''s Conjecture on Graph Reconstruction. Prove that every graph on at
+  least 3 vertices is reconstructible from its vertex-deleted subgraphs.'
+parameters: {}

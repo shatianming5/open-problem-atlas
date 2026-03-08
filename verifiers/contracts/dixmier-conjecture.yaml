@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.functional-analysis.dixmier-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dixmier_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dixmier Conjecture. Is every non-zero endomorphism of the Weyl algebra A_n
+  an automorphism?'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.mock-modular-forms-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mock_modular_forms_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mock Modular Forms Theory. Complete the theory of mock modular forms and
+  their applications to number theory.'
+parameters: {}

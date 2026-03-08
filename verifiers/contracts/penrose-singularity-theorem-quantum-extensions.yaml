@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.penrose-singularity-theorem-quantum-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/penrose_singularity_theorem_quantum_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Penrose Singularity Theorem Quantum Extensions. Can Penrose''s singularity
+  theorem be extended to incorporate quantum effects, rigorously proving or disproving singularity avoidance in quantum gravity?'
+parameters: {}

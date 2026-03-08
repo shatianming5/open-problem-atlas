@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.quantum-complexity-and-black-holes-connection
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_complexity_and_black_holes_connection_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Complexity and Black Holes Connection. Prove the conjecture relating
+  quantum computational complexity to black hole interior geometry.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.multilinear-maps-from-standard-assumptions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/multilinear_maps_from_standard_assumptions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multilinear Maps from Standard Assumptions. Construct secure multilinear
+  maps from standard computational assumptions.'
+parameters: {}

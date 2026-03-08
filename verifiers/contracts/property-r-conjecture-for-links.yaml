@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.property-r-conjecture-for-links
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/property_r_conjecture_for_links_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Property R Conjecture for Links. Extend the Property R theorem to characterize
+  which Dehn surgeries on links yield S^1 x S^2.'
+parameters: {}

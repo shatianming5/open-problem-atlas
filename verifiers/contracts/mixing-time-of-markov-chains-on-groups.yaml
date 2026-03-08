@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.mixing-time-of-markov-chains-on-groups
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/mixing_time_of_markov_chains_on_groups_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Mixing Time of Markov Chains on Groups. Determine the mixing time of random
+  walk on finite groups with natural generating sets.'
+parameters: {}

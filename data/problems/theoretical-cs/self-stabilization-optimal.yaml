@@ -1,0 +1,31 @@
+id: opa.tcs.distributed-computing.self-stabilization-optimal
+kind: problem
+title: Self-Stabilization Optimal
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- distributed-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Design self-stabilizing algorithms with optimal convergence time for fundamental problems.
+sources:
+  canonical:
+  - source_id: curated_self_stabilization_optimal
+    kind: website
+    url: https://en.wikipedia.org/wiki/Self-stabilization
+  status_evidence:
+  - source_id: curated_self_stabilization_optimal
+    kind: website
+    url: https://en.wikipedia.org/wiki/Self-stabilization
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

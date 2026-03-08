@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.virtual-fibering-for-3-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/virtual_fibering_for_3_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Virtual Fibering for 3-Manifolds. Extend Agol''s virtual fibering theorem
+  to 3-manifolds with boundary.'
+parameters: {}

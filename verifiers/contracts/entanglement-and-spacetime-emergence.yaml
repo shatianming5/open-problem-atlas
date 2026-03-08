@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.entanglement-and-spacetime-emergence
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entanglement_and_spacetime_emergence_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entanglement and Spacetime Emergence. Prove that spacetime geometry emerges
+  from quantum entanglement structure.'
+parameters: {}

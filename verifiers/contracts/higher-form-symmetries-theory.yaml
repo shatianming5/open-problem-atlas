@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.higher-form-symmetries-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/higher_form_symmetries_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Higher-Form Symmetries Theory. Develop the theory of higher-form symmetries
+  and their role in confinement.'
+parameters: {}

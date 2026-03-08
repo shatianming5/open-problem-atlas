@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.durdevic-conjecture-on-quantum-principal-bundles
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/durdevic_conjecture_on_quantum_principal_bundles_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Durdevic Conjecture on Quantum Principal Bundles. Classify all quantum principal
+  bundles over quantum homogeneous spaces of compact quantum groups.'
+parameters: {}

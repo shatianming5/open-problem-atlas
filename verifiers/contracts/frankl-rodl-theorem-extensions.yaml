@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.frankl-rodl-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/frankl_rodl_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Frankl-Rodl Theorem Extensions. Extend the Frankl-Rodl theorem to determine
+  the chromatic number of Kneser-type hypergraphs.'
+parameters: {}

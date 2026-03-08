@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.low-degree-polynomial-method-completeness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/low_degree_polynomial_method_completeness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Low-Degree Polynomial Method Completeness. Determine whether the low-degree
+  polynomial method captures all computational hardness for average-case problems.'
+parameters: {}

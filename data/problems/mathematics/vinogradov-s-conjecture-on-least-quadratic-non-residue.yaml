@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.vinogradov-s-conjecture-on-least-quadratic-non-residue
+kind: problem
+title: Vinogradov's Conjecture on Least Quadratic Non-Residue
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The least quadratic non-residue modulo a prime p is O(p^epsilon) for every epsilon > 0.
+sources:
+  canonical:
+  - source_id: curated_vinogradov_s_conjecture_on_least_quadratic_non_residue
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quadratic_residue
+  status_evidence:
+  - source_id: curated_vinogradov_s_conjecture_on_least_quadratic_non_residue
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quadratic_residue
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

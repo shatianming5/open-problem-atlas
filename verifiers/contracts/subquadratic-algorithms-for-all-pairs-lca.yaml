@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.subquadratic-algorithms-for-all-pairs-lca
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/subquadratic_algorithms_for_all_pairs_lca_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Subquadratic Algorithms for All-Pairs LCA. Can all-pairs lowest common ancestors
+  in a tree be computed in truly sub-quadratic time when the output size is quadratic?'
+parameters: {}

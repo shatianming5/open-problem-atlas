@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.normalized-spacing-of-zeta-zeros
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/normalized_spacing_of_zeta_zeros_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Normalized Spacing of Zeta Zeros. Prove that the normalized spacings between
+  consecutive zeros of the Riemann zeta function follow GUE statistics.'
+parameters: {}

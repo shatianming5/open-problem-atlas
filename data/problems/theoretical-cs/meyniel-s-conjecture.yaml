@@ -1,0 +1,31 @@
+id: opa.tcs.graph-theory.meyniel-s-conjecture
+kind: problem
+title: Meyniel's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The cop number of a connected graph on n vertices is O(sqrt(n)).
+sources:
+  canonical:
+  - source_id: curated_meyniel_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Meyniel%27s_conjecture
+  status_evidence:
+  - source_id: curated_meyniel_s_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Meyniel%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

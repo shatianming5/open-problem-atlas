@@ -1,0 +1,12 @@
+problem_id: opa.phys.general-relativity.black-hole-area-theorem-quantum-corrections
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/black_hole_area_theorem_quantum_corrections_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Black Hole Area Theorem Quantum Corrections. Determine quantum corrections
+  to the classical area theorem for black holes.'
+parameters: {}

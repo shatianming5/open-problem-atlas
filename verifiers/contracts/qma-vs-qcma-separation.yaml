@@ -1,0 +1,12 @@
+problem_id: opa.tcs.quantum-computing.qma-vs-qcma-separation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/qma_vs_qcma_separation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: QMA vs QCMA Separation. Determine whether quantum witnesses are more powerful
+  than classical witnesses for quantum verification.'
+parameters: {}

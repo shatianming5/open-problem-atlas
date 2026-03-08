@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.complex-analysis.bloch-s-constant-determination
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bloch_s_constant_determination_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bloch''s Constant Determination. Determine the exact value of Bloch''s constant
+  for holomorphic functions on the unit disk.'
+parameters: {}

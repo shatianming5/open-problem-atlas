@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.regularity-of-monge-ampere-equations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/regularity_of_monge_ampere_equations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Regularity of Monge-Ampere Equations. Prove optimal regularity results for
+  the Monge-Ampere equation with general right-hand side.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.voter-model-scaling-limits
+kind: problem
+title: Voter Model Scaling Limits
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the scaling limits of voter models on general graphs.
+sources:
+  canonical:
+  - source_id: curated_voter_model_scaling_limits
+    kind: website
+    url: https://en.wikipedia.org/wiki/Voter_model
+  status_evidence:
+  - source_id: curated_voter_model_scaling_limits
+    kind: website
+    url: https://en.wikipedia.org/wiki/Voter_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

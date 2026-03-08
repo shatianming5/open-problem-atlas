@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.numerical-analysis.inf-sup-stability-for-stokes-on-general-meshes
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/inf_sup_stability_for_stokes_on_general_meshes_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Inf-Sup Stability for Stokes on General Meshes. Determine the optimal constant
+  in the inf-sup condition for the Stokes equations on arbitrary polyhedral meshes.'
+parameters: {}

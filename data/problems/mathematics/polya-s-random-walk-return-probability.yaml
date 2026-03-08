@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.polya-s-random-walk-return-probability
+kind: problem
+title: Polya's Random Walk Return Probability
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend Polya's recurrence theorem to random walks on general graphs and groups.
+sources:
+  canonical:
+  - source_id: curated_polya_s_random_walk_return_probability
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_walk
+  status_evidence:
+  - source_id: curated_polya_s_random_walk_return_probability
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_walk
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

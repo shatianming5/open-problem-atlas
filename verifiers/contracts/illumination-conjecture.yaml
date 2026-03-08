@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.discrete-geometry.illumination-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/illumination_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Illumination Conjecture. Every convex body in R^n (n >= 3) can be illuminated
+  by at most 2^n light sources.'
+parameters: {}

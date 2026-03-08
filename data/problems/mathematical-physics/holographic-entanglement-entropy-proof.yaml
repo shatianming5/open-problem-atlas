@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.holographic-entanglement-entropy-proof
+kind: problem
+title: Holographic Entanglement Entropy Proof
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Ryu-Takayanagi formula and its quantum corrections rigorously.
+sources:
+  canonical:
+  - source_id: curated_holographic_entanglement_entropy_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ryu%E2%80%93Takayanagi_conjecture
+  status_evidence:
+  - source_id: curated_holographic_entanglement_entropy_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ryu%E2%80%93Takayanagi_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.proton-spin-puzzle-resolution
+kind: problem
+title: Proton Spin Puzzle Resolution
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Resolve the proton spin puzzle by determining the contributions of quarks, gluons, and orbital angular momentum.
+sources:
+  canonical:
+  - source_id: curated_proton_spin_puzzle_resolution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Proton_spin_crisis
+  status_evidence:
+  - source_id: curated_proton_spin_puzzle_resolution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Proton_spin_crisis
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.latin-squares-completion
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/latin_squares_completion_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Latin Squares Completion. Determine when a partial Latin square can be completed
+  to a full Latin square.'
+parameters: {}

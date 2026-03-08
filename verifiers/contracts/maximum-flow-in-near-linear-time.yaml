@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.maximum-flow-in-near-linear-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/maximum_flow_in_near_linear_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maximum Flow in Near-Linear Time. Compute maximum flow in O(m polylog n)
+  time in a graph with m edges.'
+parameters: {}

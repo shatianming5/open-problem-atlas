@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-field-theory.chiral-gauge-theory-lattice-construction
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chiral_gauge_theory_lattice_construction_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chiral Gauge Theory Lattice Construction. Construct a lattice regularization
+  of chiral gauge theories preserving gauge invariance.'
+parameters: {}

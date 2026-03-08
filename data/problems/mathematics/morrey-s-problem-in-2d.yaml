@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.morrey-s-problem-in-2d
+kind: problem
+title: Morrey's Problem in 2D
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does quasiconvexity imply rank-one convexity for 2x2 matrices?
+sources:
+  canonical:
+  - source_id: curated_morrey_s_problem_in_2d
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quasiconvexity_(calculus_of_variations)
+  status_evidence:
+  - source_id: curated_morrey_s_problem_in_2d
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quasiconvexity_(calculus_of_variations)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

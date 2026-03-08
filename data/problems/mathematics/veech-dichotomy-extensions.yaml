@@ -1,0 +1,31 @@
+id: opa.mathematics.ergodic-theory.veech-dichotomy-extensions
+kind: problem
+title: Veech Dichotomy Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- ergodic-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend Veech's dichotomy for translation surfaces to characterize ergodic properties of general polygon billiards.
+sources:
+  canonical:
+  - source_id: src_veech_1989
+    kind: website
+    url: https://en.wikipedia.org/wiki/Veech_surface
+  status_evidence:
+  - source_id: src_veech_1989
+    kind: website
+    url: https://en.wikipedia.org/wiki/Veech_surface
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

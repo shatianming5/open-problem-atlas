@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.erdos-sos-conjecture-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_sos_conjecture_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos-Sos Conjecture (Full Proof). Every graph with average degree > k-2
+  contains every tree on k vertices as a subgraph.'
+parameters: {}

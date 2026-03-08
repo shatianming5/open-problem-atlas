@@ -1,0 +1,12 @@
+problem_id: opa.phys.holography.sachdev-ye-kitaev-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sachdev_ye_kitaev_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sachdev-Ye-Kitaev in Higher Dimensions. Can the exactly solvable features
+  of the SYK model be extended to higher-dimensional models while preserving maximal chaos and holographic duality?'
+parameters: {}

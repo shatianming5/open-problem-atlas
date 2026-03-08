@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.babai-s-conjecture-on-cayley-graphs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/babai_s_conjecture_on_cayley_graphs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Babai''s Conjecture on Cayley Graphs. The diameter of every connected Cayley
+  graph of a finite simple group is polylogarithmic in the size of the group.'
+parameters: {}

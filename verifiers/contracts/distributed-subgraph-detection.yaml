@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.distributed-subgraph-detection
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distributed_subgraph_detection_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distributed Subgraph Detection. Determine the round complexity of detecting
+  subgraphs in the CONGEST model.'
+parameters: {}

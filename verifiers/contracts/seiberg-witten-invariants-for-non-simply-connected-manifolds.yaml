@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.seiberg-witten-invariants-for-non-simply-connected-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/seiberg_witten_invariants_for_non_simply_connected_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Seiberg-Witten Invariants for Non-Simply-Connected Manifolds. Compute Seiberg-Witten
+  invariants for closed non-simply-connected 4-manifolds.'
+parameters: {}

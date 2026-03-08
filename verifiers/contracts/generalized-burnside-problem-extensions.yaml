@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.generalized-burnside-problem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/generalized_burnside_problem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Generalized Burnside Problem Extensions. For which functions f(d) is every
+  f(d)-Engel group locally nilpotent?'
+parameters: {}

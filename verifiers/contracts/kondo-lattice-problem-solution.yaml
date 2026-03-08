@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.kondo-lattice-problem-solution
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kondo_lattice_problem_solution_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kondo Lattice Problem Solution. Solve the Kondo lattice problem and determine
+  the ground state of heavy fermion systems.'
+parameters: {}

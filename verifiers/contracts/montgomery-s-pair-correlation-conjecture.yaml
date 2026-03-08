@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analytic-number-theory.montgomery-s-pair-correlation-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/montgomery_s_pair_correlation_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Montgomery''s Pair Correlation Conjecture. Is the pair correlation of zeros
+  of the Riemann zeta function asymptotically given by the GUE distribution from random matrix theory?'
+parameters: {}

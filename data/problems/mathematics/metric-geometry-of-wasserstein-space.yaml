@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.metric-geometry-of-wasserstein-space
+kind: problem
+title: Metric Geometry of Wasserstein Space
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop the Riemannian geometry of Wasserstein space of probability measures.
+sources:
+  canonical:
+  - source_id: curated_metric_geometry_of_wasserstein_space
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wasserstein_metric
+  status_evidence:
+  - source_id: curated_metric_geometry_of_wasserstein_space
+    kind: website
+    url: https://en.wikipedia.org/wiki/Wasserstein_metric
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

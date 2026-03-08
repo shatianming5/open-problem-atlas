@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.extremal-graph-theory-tight-bounds
+kind: problem
+title: Extremal Graph Theory Tight Bounds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine tight Turan-type bounds for forbidden subgraphs beyond complete bipartite graphs.
+sources:
+  canonical:
+  - source_id: curated_extremal_graph_theory_tight_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tur%C3%A1n%27s_theorem
+  status_evidence:
+  - source_id: curated_extremal_graph_theory_tight_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tur%C3%A1n%27s_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

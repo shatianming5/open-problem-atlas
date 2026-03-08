@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.inverse-theorems-in-additive-combinatorics
+kind: problem
+title: Inverse Theorems in Additive Combinatorics
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove optimal inverse theorems for the Gowers norms at all orders.
+sources:
+  canonical:
+  - source_id: curated_inverse_theorems_in_additive_combinatorics
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gowers_norm
+  status_evidence:
+  - source_id: curated_inverse_theorems_in_additive_combinatorics
+    kind: website
+    url: https://en.wikipedia.org/wiki/Gowers_norm
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

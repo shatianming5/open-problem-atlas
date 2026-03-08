@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.integer-factoring-classical-lower-bounds
+kind: problem
+title: Integer Factoring Classical Lower Bounds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove lower bounds on the classical complexity of integer factoring.
+sources:
+  canonical:
+  - source_id: curated_integer_factoring_classical_lower_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Integer_factorization
+  status_evidence:
+  - source_id: curated_integer_factoring_classical_lower_bounds
+    kind: website
+    url: https://en.wikipedia.org/wiki/Integer_factorization
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

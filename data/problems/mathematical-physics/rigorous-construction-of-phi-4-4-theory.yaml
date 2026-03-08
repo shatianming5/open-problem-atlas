@@ -1,0 +1,32 @@
+id: opa.phys.constructive-qft.rigorous-construction-of-phi-4-4-theory
+kind: problem
+title: Rigorous Construction of Phi^4_4 Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- constructive-qft
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can one rigorously construct the interacting phi^4 quantum field theory in 4 spacetime dimensions, or prove its
+    triviality?
+sources:
+  canonical:
+  - source_id: src_aizenman_2021
+    kind: website
+    url: https://arxiv.org/abs/1912.07973
+  status_evidence:
+  - source_id: src_aizenman_2021
+    kind: website
+    url: https://arxiv.org/abs/1912.07973
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

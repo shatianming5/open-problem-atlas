@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.syz-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/syz_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: SYZ Conjecture. Mirror symmetry for Calabi-Yau manifolds is realized via
+  dual torus fibrations.'
+parameters: {}

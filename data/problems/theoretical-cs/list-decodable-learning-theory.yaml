@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.list-decodable-learning-theory
+kind: problem
+title: List-Decodable Learning Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine optimal algorithms for learning when a constant fraction of training data is adversarial.
+sources:
+  canonical:
+  - source_id: curated_list_decodable_learning_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/List_decoding
+  status_evidence:
+  - source_id: curated_list_decodable_learning_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/List_decoding
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

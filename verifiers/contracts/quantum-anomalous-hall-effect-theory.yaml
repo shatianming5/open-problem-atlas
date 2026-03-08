@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.quantum-anomalous-hall-effect-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_anomalous_hall_effect_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Anomalous Hall Effect Theory. Develop a complete theory of the quantum
+  anomalous Hall effect.'
+parameters: {}

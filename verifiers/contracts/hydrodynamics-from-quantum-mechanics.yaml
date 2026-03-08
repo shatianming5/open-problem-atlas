@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.hydrodynamics-from-quantum-mechanics
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hydrodynamics_from_quantum_mechanics_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hydrodynamics from Quantum Mechanics. Derive hydrodynamic equations rigorously
+  from quantum mechanical first principles.'
+parameters: {}

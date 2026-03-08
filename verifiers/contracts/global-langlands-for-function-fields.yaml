@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.global-langlands-for-function-fields
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/global_langlands_for_function_fields_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Global Langlands for Function Fields. Complete the proof of the global Langlands
+  correspondence over function fields for all reductive groups.'
+parameters: {}

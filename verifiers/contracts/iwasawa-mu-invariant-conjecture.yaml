@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.iwasawa-mu-invariant-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/iwasawa_mu_invariant_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Iwasawa Mu-Invariant Conjecture. The Iwasawa mu-invariant vanishes for all
+  number fields and all primes p.'
+parameters: {}

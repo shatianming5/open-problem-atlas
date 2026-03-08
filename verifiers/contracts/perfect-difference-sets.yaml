@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.perfect-difference-sets
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/perfect_difference_sets_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Perfect Difference Sets. Characterize all perfect difference sets and their
+  relationship to projective planes.'
+parameters: {}

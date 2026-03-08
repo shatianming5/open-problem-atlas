@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.skolem-problem-for-linear-recurrences
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/skolem_problem_for_linear_recurrences_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Skolem Problem for Linear Recurrences. Determine the decidability of the
+  Skolem problem: does a given linear recurrence sequence have a zero?'
+parameters: {}

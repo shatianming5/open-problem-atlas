@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.poincare-birkhoff-fixed-point-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/poincare_birkhoff_fixed_point_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Poincare-Birkhoff Fixed Point Theorem Extensions. Extend the Poincare-Birkhoff
+  fixed point theorem to higher-dimensional symplectic manifolds.'
+parameters: {}

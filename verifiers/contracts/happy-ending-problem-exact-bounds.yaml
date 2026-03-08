@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.happy-ending-problem-exact-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/happy_ending_problem_exact_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Happy Ending Problem Exact Bounds. Determine the exact value of the Erdos-Szekeres
+  function ES(n) for all n.'
+parameters: {}

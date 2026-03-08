@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.measure-theory.erdos-similarity-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_similarity_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos Similarity Problem. Does there exist an infinite set S such that every
+  measurable set of positive measure contains an affine copy of S?'
+parameters: {}

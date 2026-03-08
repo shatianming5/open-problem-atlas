@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.stolz-conjecture-on-positive-ricci-curvature
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stolz_conjecture_on_positive_ricci_curvature_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stolz Conjecture on Positive Ricci Curvature. A string manifold with positive
+  Ricci curvature has vanishing Witten genus.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.kondo-lattice-problem-solution
+kind: problem
+title: Kondo Lattice Problem Solution
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Solve the Kondo lattice problem and determine the ground state of heavy fermion systems.
+sources:
+  canonical:
+  - source_id: curated_kondo_lattice_problem_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kondo_effect
+  status_evidence:
+  - source_id: curated_kondo_lattice_problem_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kondo_effect
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.kneser-s-conjecture-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kneser_s_conjecture_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kneser''s Conjecture Extensions. Generalize the topological proof of Kneser''s
+  conjecture to hypergraph coloring problems.'
+parameters: {}

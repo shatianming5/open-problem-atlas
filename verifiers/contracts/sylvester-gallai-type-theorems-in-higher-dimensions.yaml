@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.sylvester-gallai-type-theorems-in-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sylvester_gallai_type_theorems_in_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sylvester-Gallai Type Theorems in Higher Dimensions. Generalize Sylvester-Gallai
+  type results to higher dimensions and their applications.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.homological-algebra.generalized-nakayama-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/generalized_nakayama_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Generalized Nakayama Conjecture. For each indecomposable projective module
+  P over an Artin algebra, there exists i > 0 with Ext^i(D(A), P) nonzero.'
+parameters: {}

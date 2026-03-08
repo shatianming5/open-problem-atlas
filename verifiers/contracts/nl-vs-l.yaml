@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.nl-vs-l
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nl_vs_l_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: NL vs L. Determine whether nondeterministic log-space equals deterministic
+  log-space.'
+parameters: {}

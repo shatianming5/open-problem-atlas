@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.implicit-regularization-in-gradient-descent
+kind: problem
+title: Implicit Regularization in Gradient Descent
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Rigorously characterize the implicit regularization of gradient descent for overparameterized models.
+sources:
+  canonical:
+  - source_id: curated_implicit_regularization_in_gradient_descent
+    kind: website
+    url: https://en.wikipedia.org/wiki/Regularization_(mathematics)
+  status_evidence:
+  - source_id: curated_implicit_regularization_in_gradient_descent
+    kind: website
+    url: https://en.wikipedia.org/wiki/Regularization_(mathematics)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

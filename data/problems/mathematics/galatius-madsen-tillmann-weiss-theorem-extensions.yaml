@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.galatius-madsen-tillmann-weiss-theorem-extensions
+kind: problem
+title: Galatius-Madsen-Tillmann-Weiss Theorem Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the computation of the homotopy type of cobordism categories to all dimensions.
+sources:
+  canonical:
+  - source_id: curated_galatius_madsen_tillmann_weiss_theorem_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cobordism
+  status_evidence:
+  - source_id: curated_galatius_madsen_tillmann_weiss_theorem_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Cobordism
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

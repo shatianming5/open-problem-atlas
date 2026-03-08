@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.gromov-hausdorff-limits-of-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gromov_hausdorff_limits_of_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gromov-Hausdorff Limits of Manifolds. Characterize Gromov-Hausdorff limits
+  of sequences of Riemannian manifolds with bounded curvature.'
+parameters: {}

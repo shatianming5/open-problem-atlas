@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.large-deviation-principles-for-interacting-systems
+kind: problem
+title: Large Deviation Principles for Interacting Systems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove large deviation principles for interacting particle systems beyond mean-field models.
+sources:
+  canonical:
+  - source_id: curated_large_deviation_principles_for_interacting_systems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Large_deviations_theory
+  status_evidence:
+  - source_id: curated_large_deviation_principles_for_interacting_systems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Large_deviations_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

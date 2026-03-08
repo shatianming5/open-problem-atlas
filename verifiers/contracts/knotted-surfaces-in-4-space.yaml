@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.knotted-surfaces-in-4-space
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/knotted_surfaces_in_4_space_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Knotted Surfaces in 4-Space. Classify knotted surfaces in 4-dimensional
+  space.'
+parameters: {}

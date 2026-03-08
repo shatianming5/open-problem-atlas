@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.information-geometry-and-quantum-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/information_geometry_and_quantum_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Information Geometry and Quantum Systems. Develop information geometry for
+  quantum statistical models.'
+parameters: {}

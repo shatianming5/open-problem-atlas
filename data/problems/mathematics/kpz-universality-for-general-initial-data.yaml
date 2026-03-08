@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.kpz-universality-for-general-initial-data
+kind: problem
+title: KPZ Universality for General Initial Data
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove KPZ universality for the fluctuations of growing interfaces with general initial conditions.
+sources:
+  canonical:
+  - source_id: curated_kpz_universality_for_general_initial_data
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation
+  status_evidence:
+  - source_id: curated_kpz_universality_for_general_initial_data
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kardar%E2%80%93Parisi%E2%80%93Zhang_equation
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

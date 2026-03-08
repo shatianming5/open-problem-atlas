@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.random-constraint-satisfaction-phase-transitions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/random_constraint_satisfaction_phase_transitions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Random Constraint Satisfaction Phase Transitions. Determine the precise
+  phase transition thresholds for random constraint satisfaction problems.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.set-theory.large-cardinal-hierarchy-completeness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/large_cardinal_hierarchy_completeness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Large Cardinal Hierarchy Completeness. Is there a natural large cardinal
+  axiom that is inconsistent, providing an upper bound on the large cardinal hierarchy?'
+parameters: {}

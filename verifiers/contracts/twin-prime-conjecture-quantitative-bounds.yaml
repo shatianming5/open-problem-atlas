@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analytic-number-theory.twin-prime-conjecture-quantitative-bounds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/twin_prime_conjecture_quantitative_bounds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Twin Prime Conjecture Quantitative Bounds. Can the Maynard-Tao bound on
+  gaps between primes be improved to establish infinitely many twin primes, or is there a fundamental barrier?'
+parameters: {}

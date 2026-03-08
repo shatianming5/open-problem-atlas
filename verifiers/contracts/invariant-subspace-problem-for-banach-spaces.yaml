@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.functional-analysis.invariant-subspace-problem-for-banach-spaces
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/invariant_subspace_problem_for_banach_spaces_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Invariant Subspace Problem for Banach Spaces. Does every bounded linear
+  operator on a separable infinite-dimensional Banach space have a non-trivial closed invariant subspace?'
+parameters: {}

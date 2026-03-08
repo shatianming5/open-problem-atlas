@@ -1,0 +1,12 @@
+problem_id: opa.phys.tqft.topological-quantum-field-theory-in-4d
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/topological_quantum_field_theory_in_4d_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Topological Quantum Field Theory in 4D. Can one construct a fully rigorous
+  non-trivial 4-dimensional TQFT that detects exotic smooth structures on 4-manifolds?'
+parameters: {}

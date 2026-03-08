@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.willmore-conjecture-higher-dimensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/willmore_conjecture_higher_dimensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Willmore Conjecture (Higher Dimensions). Determine the minimum Willmore
+  energy of a torus in higher-dimensional spheres.'
+parameters: {}

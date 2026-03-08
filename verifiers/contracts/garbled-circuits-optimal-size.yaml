@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.garbled-circuits-optimal-size
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/garbled_circuits_optimal_size_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Garbled Circuits Optimal Size. Determine the optimal size of garbled circuits
+  for secure computation.'
+parameters: {}

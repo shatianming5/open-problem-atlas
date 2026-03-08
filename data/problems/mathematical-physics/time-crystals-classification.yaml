@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.time-crystals-classification
+kind: problem
+title: Time Crystals Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify and characterize discrete and continuous time crystals.
+sources:
+  canonical:
+  - source_id: curated_time_crystals_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Time_crystal
+  status_evidence:
+  - source_id: curated_time_crystals_classification
+    kind: website
+    url: https://en.wikipedia.org/wiki/Time_crystal
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

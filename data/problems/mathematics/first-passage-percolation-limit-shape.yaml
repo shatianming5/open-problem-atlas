@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.first-passage-percolation-limit-shape
+kind: problem
+title: First Passage Percolation Limit Shape
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact limit shape in first passage percolation on Z^d.
+sources:
+  canonical:
+  - source_id: curated_first_passage_percolation_limit_shape
+    kind: website
+    url: https://en.wikipedia.org/wiki/First_passage_percolation
+  status_evidence:
+  - source_id: curated_first_passage_percolation_limit_shape
+    kind: website
+    url: https://en.wikipedia.org/wiki/First_passage_percolation
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

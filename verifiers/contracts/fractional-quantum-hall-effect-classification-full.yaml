@@ -1,0 +1,12 @@
+problem_id: opa.phys.condensed-matter.fractional-quantum-hall-effect-classification-full
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fractional_quantum_hall_effect_classification_full_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fractional Quantum Hall Effect Classification (Full). Classify all fractional
+  quantum Hall states and their topological properties.'
+parameters: {}

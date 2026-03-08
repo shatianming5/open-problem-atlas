@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.optimal-regularity-for-hamilton-jacobi-equations
+kind: problem
+title: Optimal Regularity for Hamilton-Jacobi Equations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal regularity of solutions to Hamilton-Jacobi equations with nonsmooth data.
+sources:
+  canonical:
+  - source_id: curated_optimal_regularity_for_hamilton_jacobi_equations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation
+  status_evidence:
+  - source_id: curated_optimal_regularity_for_hamilton_jacobi_equations
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hamilton%E2%80%93Jacobi_equation
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

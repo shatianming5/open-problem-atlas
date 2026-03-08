@@ -1,0 +1,12 @@
+problem_id: opa.tcs.distributed-computing.distributed-property-testing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distributed_property_testing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distributed Property Testing. Determine the round complexity of property
+  testing in distributed settings.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.mathematics.approximation-theory.mergelyan-conjecture-generalizations
+kind: problem
+title: Mergelyan Conjecture Generalizations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- approximation-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend Mergelyan's theorem on polynomial approximation to functions on more general compact sets in C^n.
+sources:
+  canonical:
+  - source_id: src_mergelyan_1951
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mergelyan%27s_theorem
+  status_evidence:
+  - source_id: src_mergelyan_1951
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mergelyan%27s_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.sorting-optimality-for-integers
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sorting_optimality_for_integers_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sorting Optimality for Integers. Determine the optimal complexity of sorting
+  n integers in the word RAM model.'
+parameters: {}

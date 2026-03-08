@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.ankeny-artin-chowla-conjecture
+kind: problem
+title: Ankeny-Artin-Chowla Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: If p is a prime with p = 1 mod 4, and the fundamental unit of Q(sqrt(p)) is (t + u*sqrt(p))/2, then p does not
+    divide u.
+sources:
+  canonical:
+  - source_id: curated_ankeny_artin_chowla_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ankeny%E2%80%93Artin%E2%80%93Chowla_conjecture
+  status_evidence:
+  - source_id: curated_ankeny_artin_chowla_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ankeny%E2%80%93Artin%E2%80%93Chowla_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

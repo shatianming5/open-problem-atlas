@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.lichtenbaum-quillen-conjecture-remaining-cases
+kind: problem
+title: Lichtenbaum-Quillen Conjecture (Remaining Cases)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Lichtenbaum-Quillen conjecture relating K-theory and etale cohomology in all remaining cases.
+sources:
+  canonical:
+  - source_id: curated_lichtenbaum_quillen_conjecture_remaining_cases
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quillen%E2%80%93Lichtenbaum_conjecture
+  status_evidence:
+  - source_id: curated_lichtenbaum_quillen_conjecture_remaining_cases
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quillen%E2%80%93Lichtenbaum_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

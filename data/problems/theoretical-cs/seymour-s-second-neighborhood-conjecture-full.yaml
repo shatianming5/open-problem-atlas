@@ -1,0 +1,31 @@
+id: opa.tcs.graph-theory.seymour-s-second-neighborhood-conjecture-full
+kind: problem
+title: Seymour's Second Neighborhood Conjecture (Full)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every oriented graph has a vertex whose second neighborhood is at least as large as its first.
+sources:
+  canonical:
+  - source_id: curated_seymour_s_second_neighborhood_conjecture_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Seymour%27s_second_neighborhood_conjecture
+  status_evidence:
+  - source_id: curated_seymour_s_second_neighborhood_conjecture_full
+    kind: website
+    url: https://en.wikipedia.org/wiki/Seymour%27s_second_neighborhood_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

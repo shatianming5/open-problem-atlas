@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.discrete-geometry.hadwiger-s-covering-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hadwiger_s_covering_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hadwiger''s Covering Conjecture. Every convex body in R^n can be covered
+  by 2^n translates of its interior.'
+parameters: {}

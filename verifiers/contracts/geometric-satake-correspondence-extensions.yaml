@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.geometric-satake-correspondence-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/geometric_satake_correspondence_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Geometric Satake Correspondence Extensions. Extend the geometric Satake
+  correspondence to the non-split and positive characteristic settings.'
+parameters: {}

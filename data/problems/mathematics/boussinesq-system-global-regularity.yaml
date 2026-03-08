@@ -1,0 +1,31 @@
+id: opa.mathematics.analysis.boussinesq-system-global-regularity
+kind: problem
+title: Boussinesq System Global Regularity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove global regularity for the 3D Boussinesq system with partial viscosity.
+sources:
+  canonical:
+  - source_id: curated_boussinesq_system_global_regularity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Boussinesq_approximation_(buoyancy)
+  status_evidence:
+  - source_id: curated_boussinesq_system_global_regularity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Boussinesq_approximation_(buoyancy)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

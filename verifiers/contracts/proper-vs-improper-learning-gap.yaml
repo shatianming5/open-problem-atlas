@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.proper-vs-improper-learning-gap
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/proper_vs_improper_learning_gap_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Proper vs Improper Learning Gap. Characterize the computational gap between
+  proper and improper PAC learning.'
+parameters: {}

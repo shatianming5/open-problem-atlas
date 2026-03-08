@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.bertrand-chebyshev-improvements
+kind: problem
+title: Bertrand-Chebyshev Improvements
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For every epsilon > 0, there is a prime between n and (1+epsilon)*n for sufficiently large n.
+sources:
+  canonical:
+  - source_id: curated_bertrand_chebyshev_improvements
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bertrand%27s_postulate
+  status_evidence:
+  - source_id: curated_bertrand_chebyshev_improvements
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bertrand%27s_postulate
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

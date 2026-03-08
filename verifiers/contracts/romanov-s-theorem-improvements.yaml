@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.romanov-s-theorem-improvements
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/romanov_s_theorem_improvements_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Romanov''s Theorem Improvements. Improve the density estimate in Romanov''s
+  theorem on numbers representable as p + 2^k.'
+parameters: {}

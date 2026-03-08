@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.property-r-conjecture-for-links
+kind: problem
+title: Property R Conjecture for Links
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the Property R theorem to characterize which Dehn surgeries on links yield S^1 x S^2.
+sources:
+  canonical:
+  - source_id: curated_property_r_conjecture_for_links
+    kind: website
+    url: https://en.wikipedia.org/wiki/Property_R_conjecture
+  status_evidence:
+  - source_id: curated_property_r_conjecture_for_links
+    kind: website
+    url: https://en.wikipedia.org/wiki/Property_R_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

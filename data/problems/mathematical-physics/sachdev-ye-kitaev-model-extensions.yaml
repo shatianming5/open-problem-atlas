@@ -1,0 +1,31 @@
+id: opa.phys.condensed-matter.sachdev-ye-kitaev-model-extensions
+kind: problem
+title: Sachdev-Ye-Kitaev Model Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the SYK model analysis to higher dimensions and more general interactions.
+sources:
+  canonical:
+  - source_id: curated_sachdev_ye_kitaev_model_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sachdev%E2%80%93Ye%E2%80%93Kitaev_model
+  status_evidence:
+  - source_id: curated_sachdev_ye_kitaev_model_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sachdev%E2%80%93Ye%E2%80%93Kitaev_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.tcs.distributed-computing.distributed-approximation-algorithms
+kind: problem
+title: Distributed Approximation Algorithms
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- distributed-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the round complexity of distributed approximation algorithms for NP-hard problems.
+sources:
+  canonical:
+  - source_id: curated_distributed_approximation_algorithms
+    kind: website
+    url: https://en.wikipedia.org/wiki/Distributed_algorithm
+  status_evidence:
+  - source_id: curated_distributed_approximation_algorithms
+    kind: website
+    url: https://en.wikipedia.org/wiki/Distributed_algorithm
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

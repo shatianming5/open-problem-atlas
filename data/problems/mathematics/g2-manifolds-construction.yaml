@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.g2-manifolds-construction
+kind: problem
+title: G2 Manifolds Construction
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct compact G2 manifolds with prescribed topological properties.
+sources:
+  canonical:
+  - source_id: curated_g2_manifolds_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/G2_manifold
+  status_evidence:
+  - source_id: curated_g2_manifolds_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/G2_manifold
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

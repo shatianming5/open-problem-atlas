@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.quantum-complexity-and-black-holes-connection
+kind: problem
+title: Quantum Complexity and Black Holes Connection
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the conjecture relating quantum computational complexity to black hole interior geometry.
+sources:
+  canonical:
+  - source_id: curated_quantum_complexity_and_black_holes_connection
+    kind: website
+    url: https://en.wikipedia.org/wiki/Black_hole
+  status_evidence:
+  - source_id: curated_quantum_complexity_and_black_holes_connection
+    kind: website
+    url: https://en.wikipedia.org/wiki/Black_hole
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

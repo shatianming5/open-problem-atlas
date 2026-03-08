@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.gaussian-free-field-maximum
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/gaussian_free_field_maximum_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Gaussian Free Field Maximum. Determine the precise distribution of the maximum
+  of the discrete Gaussian free field.'
+parameters: {}

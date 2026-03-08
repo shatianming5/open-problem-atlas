@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.online-learning-optimal-regret
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/online_learning_optimal_regret_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Online Learning Optimal Regret. Determine optimal regret bounds for online
+  learning with partial information.'
+parameters: {}

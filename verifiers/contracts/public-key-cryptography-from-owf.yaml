@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.public-key-cryptography-from-owf
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/public_key_cryptography_from_owf_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Public-Key Cryptography from OWF. Construct public-key encryption from any
+  one-way function.'
+parameters: {}

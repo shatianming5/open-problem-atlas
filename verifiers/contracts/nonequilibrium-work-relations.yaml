@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.nonequilibrium-work-relations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/nonequilibrium_work_relations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Nonequilibrium Work Relations. Prove nonequilibrium work relations (Jarzynski,
+  Crooks) for general quantum systems.'
+parameters: {}

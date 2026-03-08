@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.saturation-problems-in-extremal-combinatorics
+kind: problem
+title: Saturation Problems in Extremal Combinatorics
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the saturation number for various forbidden configurations.
+sources:
+  canonical:
+  - source_id: curated_saturation_problems_in_extremal_combinatorics
+    kind: website
+    url: https://en.wikipedia.org/wiki/Graph_saturation
+  status_evidence:
+  - source_id: curated_saturation_problems_in_extremal_combinatorics
+    kind: website
+    url: https://en.wikipedia.org/wiki/Graph_saturation
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

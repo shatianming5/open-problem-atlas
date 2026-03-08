@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.optimal-packing-of-tetrahedra
+kind: problem
+title: Optimal Packing of Tetrahedra
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the densest packing of regular tetrahedra in 3-dimensional space.
+sources:
+  canonical:
+  - source_id: curated_optimal_packing_of_tetrahedra
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tetrahedron_packing
+  status_evidence:
+  - source_id: curated_optimal_packing_of_tetrahedra
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tetrahedron_packing
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

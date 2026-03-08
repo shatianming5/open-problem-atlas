@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.cluster-algebras-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cluster_algebras_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cluster Algebras Classification. Complete the classification of finite-type
+  and affine-type cluster algebras.'
+parameters: {}

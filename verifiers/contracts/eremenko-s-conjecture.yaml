@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.complex-analysis.eremenko-s-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/eremenko_s_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Eremenko''s Conjecture. Every connected component of the escaping set of
+  a transcendental entire function is unbounded.'
+parameters: {}

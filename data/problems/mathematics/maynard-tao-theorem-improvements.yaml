@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.maynard-tao-theorem-improvements
+kind: problem
+title: Maynard-Tao Theorem Improvements
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Improve the Maynard-Tao bounds on gaps between primes.
+sources:
+  canonical:
+  - source_id: curated_maynard_tao_theorem_improvements
+    kind: website
+    url: https://en.wikipedia.org/wiki/James_Maynard_(mathematician)
+  status_evidence:
+  - source_id: curated_maynard_tao_theorem_improvements
+    kind: website
+    url: https://en.wikipedia.org/wiki/James_Maynard_(mathematician)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

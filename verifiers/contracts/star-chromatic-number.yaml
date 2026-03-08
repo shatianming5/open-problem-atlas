@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.star-chromatic-number
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/star_chromatic_number_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Star Chromatic Number. Determine the star chromatic number for various families
+  of graphs.'
+parameters: {}

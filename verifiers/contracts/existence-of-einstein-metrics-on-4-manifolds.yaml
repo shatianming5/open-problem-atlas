@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.existence-of-einstein-metrics-on-4-manifolds
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/existence_of_einstein_metrics_on_4_manifolds_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Existence of Einstein Metrics on 4-Manifolds. Characterize which compact
+  4-manifolds admit Einstein metrics.'
+parameters: {}

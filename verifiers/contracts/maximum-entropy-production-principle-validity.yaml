@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.maximum-entropy-production-principle-validity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/maximum_entropy_production_principle_validity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Maximum Entropy Production Principle Validity. Determine the validity and
+  scope of the maximum entropy production principle.'
+parameters: {}

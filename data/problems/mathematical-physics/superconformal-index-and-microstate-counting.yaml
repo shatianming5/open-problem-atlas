@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.superconformal-index-and-microstate-counting
+kind: problem
+title: Superconformal Index and Microstate Counting
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that the superconformal index counts black hole microstates.
+sources:
+  canonical:
+  - source_id: curated_superconformal_index_and_microstate_counting
+    kind: website
+    url: https://en.wikipedia.org/wiki/Superconformal_index
+  status_evidence:
+  - source_id: curated_superconformal_index_and_microstate_counting
+    kind: website
+    url: https://en.wikipedia.org/wiki/Superconformal_index
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

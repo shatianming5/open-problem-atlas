@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.graph-minor-theorem-algorithmic-efficiency
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/graph_minor_theorem_algorithmic_efficiency_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Graph Minor Theorem Algorithmic Efficiency. Improve the algorithmic efficiency
+  of the Robertson-Seymour graph minor theorem to practical running times.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.percolation-on-nonamenable-groups
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/percolation_on_nonamenable_groups_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Percolation on Nonamenable Groups. Determine whether every nonamenable Cayley
+  graph has a nonempty interval of p-values with infinitely many infinite clusters.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.smoothed-analysis-beyond-simplex
+kind: problem
+title: Smoothed Analysis Beyond Simplex
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend smoothed analysis to provide polynomial bounds for other algorithms beyond the simplex method.
+sources:
+  canonical:
+  - source_id: curated_smoothed_analysis_beyond_simplex
+    kind: website
+    url: https://en.wikipedia.org/wiki/Smoothed_analysis
+  status_evidence:
+  - source_id: curated_smoothed_analysis_beyond_simplex
+    kind: website
+    url: https://en.wikipedia.org/wiki/Smoothed_analysis
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

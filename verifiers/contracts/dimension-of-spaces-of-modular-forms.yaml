@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.dimension-of-spaces-of-modular-forms
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/dimension_of_spaces_of_modular_forms_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Dimension of Spaces of Modular Forms. Develop efficient algorithms for computing
+  dimensions of spaces of modular forms of higher level.'
+parameters: {}

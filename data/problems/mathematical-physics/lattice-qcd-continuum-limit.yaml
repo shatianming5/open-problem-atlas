@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.lattice-qcd-continuum-limit
+kind: problem
+title: Lattice QCD Continuum Limit
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that lattice QCD has a well-defined continuum limit.
+sources:
+  canonical:
+  - source_id: curated_lattice_qcd_continuum_limit
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lattice_QCD
+  status_evidence:
+  - source_id: curated_lattice_qcd_continuum_limit
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lattice_QCD
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

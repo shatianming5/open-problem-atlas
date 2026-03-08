@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.universality-of-critical-exponents-rigorous-proof
+kind: problem
+title: Universality of Critical Exponents (Rigorous Proof)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Provide a rigorous mathematical proof of universality of critical exponents in statistical mechanics.
+sources:
+  canonical:
+  - source_id: curated_universality_of_critical_exponents_rigorous_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Universality_(dynamical_systems)
+  status_evidence:
+  - source_id: curated_universality_of_critical_exponents_rigorous_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Universality_(dynamical_systems)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

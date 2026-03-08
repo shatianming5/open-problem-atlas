@@ -1,0 +1,31 @@
+id: opa.mathematics.logic.proof-theoretic-ordinal-of-zfc
+kind: problem
+title: Proof-Theoretic Ordinal of ZFC
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the proof-theoretic ordinal of Zermelo-Fraenkel set theory with choice.
+sources:
+  canonical:
+  - source_id: curated_proof_theoretic_ordinal_of_zfc
+    kind: website
+    url: https://en.wikipedia.org/wiki/Proof-theoretic_ordinal
+  status_evidence:
+  - source_id: curated_proof_theoretic_ordinal_of_zfc
+    kind: website
+    url: https://en.wikipedia.org/wiki/Proof-theoretic_ordinal
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

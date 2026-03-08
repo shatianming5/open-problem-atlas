@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.quantum-groups-at-roots-of-unity
+kind: problem
+title: Quantum Groups at Roots of Unity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop the representation theory of quantum groups at roots of unity completely.
+sources:
+  canonical:
+  - source_id: curated_quantum_groups_at_roots_of_unity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_group
+  status_evidence:
+  - source_id: curated_quantum_groups_at_roots_of_unity
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_group
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

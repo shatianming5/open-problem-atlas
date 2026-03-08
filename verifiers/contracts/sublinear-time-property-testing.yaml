@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.sublinear-time-property-testing
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sublinear_time_property_testing_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sublinear Time Property Testing. Determine the query complexity of testing
+  graph properties in sublinear time.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.convex-geometry.viterbo-s-volume-capacity-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/viterbo_s_volume_capacity_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Viterbo''s Volume-Capacity Conjecture. For convex bodies in R^{2n}, the
+  symplectic capacity normalized by volume is maximized by the ball.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.schwinger-model-complete-solution
+kind: problem
+title: Schwinger Model Complete Solution
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the solution of the Schwinger model including all correlation functions.
+sources:
+  canonical:
+  - source_id: curated_schwinger_model_complete_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schwinger_model
+  status_evidence:
+  - source_id: curated_schwinger_model_complete_solution
+    kind: website
+    url: https://en.wikipedia.org/wiki/Schwinger_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

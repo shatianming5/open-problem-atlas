@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.parameterized-complexity-of-w-1-complete-problems
+kind: problem
+title: Parameterized Complexity of W[1]-Complete Problems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact parameterized complexity of W[1]-complete problems like k-clique.
+sources:
+  canonical:
+  - source_id: curated_parameterized_complexity_of_w_1_complete_problems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Parameterized_complexity
+  status_evidence:
+  - source_id: curated_parameterized_complexity_of_w_1_complete_problems
+    kind: website
+    url: https://en.wikipedia.org/wiki/Parameterized_complexity
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

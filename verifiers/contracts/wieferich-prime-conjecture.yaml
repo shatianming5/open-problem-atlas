@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.wieferich-prime-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/wieferich_prime_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Wieferich Prime Conjecture. Determine whether infinitely many Wieferich
+  primes (primes p with 2^{p-1} = 1 mod p^2) exist.'
+parameters: {}

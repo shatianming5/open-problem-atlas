@@ -1,0 +1,12 @@
+problem_id: opa.tcs.graph-theory.graph-coloring-computational-complexity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/graph_coloring_computational_complexity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Graph Coloring Computational Complexity. Determine the exact complexity
+  of k-coloring for k >= 3 on restricted graph classes.'
+parameters: {}

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.bellman-s-lost-in-forest-optimal-strategy
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bellman_s_lost_in_forest_optimal_strategy_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bellman''s Lost in Forest (Optimal Strategy). Find the optimal search strategy
+  for a person lost in a forest of known shape.'
+parameters: {}

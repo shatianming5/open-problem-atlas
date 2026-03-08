@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.arithmetic-geometry.langlands-program-for-number-fields
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/langlands_program_for_number_fields_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Langlands Program for Number Fields. Establish the Langlands correspondence
+  between automorphic representations and Galois representations for general reductive groups over number fields.'
+parameters: {}

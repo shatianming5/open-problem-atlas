@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.carmichael-s-totient-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/carmichael_s_totient_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Carmichael''s Totient Conjecture. For every integer n, the equation phi(x)
+  = n has either no solution or at least two solutions.'
+parameters: {}

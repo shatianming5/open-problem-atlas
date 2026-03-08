@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.log-rank-conjecture-full-resolution
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/log_rank_conjecture_full_resolution_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Log-Rank Conjecture (Full Resolution). The communication complexity of a
+  Boolean function is polynomially related to the log-rank of its communication matrix.'
+parameters: {}

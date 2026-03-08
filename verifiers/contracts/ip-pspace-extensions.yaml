@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.ip-pspace-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/ip_pspace_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: IP = PSPACE Extensions. Extend the IP = PSPACE result to multi-prover interactive
+  proofs and quantum settings.'
+parameters: {}

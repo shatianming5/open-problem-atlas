@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.ergodic-theory.rauzy-gasket-conjecture
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/rauzy_gasket_conjecture_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Rauzy Gasket Conjecture. The Rauzy gasket (arising from interval exchange
+  transformations) has Hausdorff dimension strictly between 1 and 2.'
+parameters: {}

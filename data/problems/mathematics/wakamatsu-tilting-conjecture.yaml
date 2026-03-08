@@ -1,0 +1,31 @@
+id: opa.mathematics.homological-algebra.wakamatsu-tilting-conjecture
+kind: problem
+title: Wakamatsu Tilting Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- homological-algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every Wakamatsu tilting module is a tilting module (i.e., has finite projective dimension).
+sources:
+  canonical:
+  - source_id: src_wakamatsu_1988
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tilting_theory
+  status_evidence:
+  - source_id: src_wakamatsu_1988
+    kind: website
+    url: https://en.wikipedia.org/wiki/Tilting_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

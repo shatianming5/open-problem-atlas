@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.syk-model-and-strange-metals
+kind: problem
+title: SYK Model and Strange Metals
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the precise connection between the Sachdev-Ye-Kitaev model and strange metal phenomenology.
+sources:
+  canonical:
+  - source_id: curated_syk_model_and_strange_metals
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sachdev%E2%80%93Ye%E2%80%93Kitaev_model
+  status_evidence:
+  - source_id: curated_syk_model_and_strange_metals
+    kind: website
+    url: https://en.wikipedia.org/wiki/Sachdev%E2%80%93Ye%E2%80%93Kitaev_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

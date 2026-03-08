@@ -1,0 +1,13 @@
+problem_id: opa.mathematics.algebraic-geometry.geometric-complexity-theory-and-p-vs-np
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/geometric_complexity_theory_and_p_vs_np_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Geometric Complexity Theory and P vs NP. Can the algebraic geometry and
+  representation theory framework of Geometric Complexity Theory resolve the permanent vs determinant conjecture as a step
+  toward P != NP?'
+parameters: {}

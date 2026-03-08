@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.cap-set-problem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cap_set_problem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cap Set Problem Extensions. Extend the Croot-Lev-Pach method to prove bounds
+  on other extremal problems.'
+parameters: {}

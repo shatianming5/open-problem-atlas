@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.quadratic-forms-representation-problem
+kind: problem
+title: Quadratic Forms Representation Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine which integers are represented by a given positive definite quadratic form.
+sources:
+  canonical:
+  - source_id: curated_quadratic_forms_representation_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quadratic_form
+  status_evidence:
+  - source_id: curated_quadratic_forms_representation_problem
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quadratic_form
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.fairness-and-accuracy-tradeoffs
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fairness_and_accuracy_tradeoffs_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fairness and Accuracy Tradeoffs. Determine the exact tradeoff between fairness
+  constraints and accuracy in classification.'
+parameters: {}

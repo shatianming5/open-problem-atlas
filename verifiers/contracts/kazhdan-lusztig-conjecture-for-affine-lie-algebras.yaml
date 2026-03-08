@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.algebra.kazhdan-lusztig-conjecture-for-affine-lie-algebras
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kazhdan_lusztig_conjecture_for_affine_lie_algebras_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kazhdan-Lusztig Conjecture for Affine Lie Algebras. Prove the Kazhdan-Lusztig
+  conjecture in full generality for affine Lie algebras.'
+parameters: {}

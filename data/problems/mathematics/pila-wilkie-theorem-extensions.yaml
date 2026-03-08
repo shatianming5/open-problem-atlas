@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.pila-wilkie-theorem-extensions
+kind: problem
+title: Pila-Wilkie Theorem Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the Pila-Wilkie theorem to prove new cases of the Andre-Oort conjecture.
+sources:
+  canonical:
+  - source_id: curated_pila_wilkie_theorem_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Pila%E2%80%93Wilkie_theorem
+  status_evidence:
+  - source_id: curated_pila_wilkie_theorem_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Pila%E2%80%93Wilkie_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.tcs.complexity-theory.separating-np-from-conp-poly
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/separating_np_from_conp_poly_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Separating NP from coNP/poly. Can one prove that NP does not have polynomial-size
+  non-uniform circuits for co-NP, i.e., NP is not in coNP/poly?'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.integrable-systems-and-gauge-theory
+kind: problem
+title: Integrable Systems and Gauge Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Complete the connection between integrable systems and supersymmetric gauge theories.
+sources:
+  canonical:
+  - source_id: curated_integrable_systems_and_gauge_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Integrable_system
+  status_evidence:
+  - source_id: curated_integrable_systems_and_gauge_theory
+    kind: website
+    url: https://en.wikipedia.org/wiki/Integrable_system
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

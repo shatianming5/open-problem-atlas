@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.definable-wellordering-of-the-reals
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/definable_wellordering_of_the_reals_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Definable Wellordering of the Reals. Determine under which axioms there
+  exists a definable wellordering of the reals.'
+parameters: {}

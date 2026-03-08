@@ -1,0 +1,32 @@
+id: opa.mathematics.dynamical-systems.collatz-conjecture-density-results
+kind: problem
+title: Collatz Conjecture Density Results
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- dynamical-systems
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can Tao's almost-all result for the Collatz conjecture be strengthened to cover all positive integers, or is
+    there an alternative dynamical systems approach?
+sources:
+  canonical:
+  - source_id: src_tao_2022
+    kind: website
+    url: https://arxiv.org/abs/1909.03562
+  status_evidence:
+  - source_id: src_tao_2022
+    kind: website
+    url: https://arxiv.org/abs/1909.03562
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

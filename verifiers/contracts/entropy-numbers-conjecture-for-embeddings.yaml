@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.approximation-theory.entropy-numbers-conjecture-for-embeddings
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/entropy_numbers_conjecture_for_embeddings_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Entropy Numbers Conjecture for Embeddings. Determine the exact asymptotic
+  behavior of entropy numbers for Sobolev space embeddings in all regimes.'
+parameters: {}

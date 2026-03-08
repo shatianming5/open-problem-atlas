@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.grothendieck-section-conjecture
+kind: problem
+title: Grothendieck Section Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the section conjecture relating rational points to sections of the fundamental group exact sequence.
+sources:
+  canonical:
+  - source_id: curated_grothendieck_section_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Section_conjecture
+  status_evidence:
+  - source_id: curated_grothendieck_section_conjecture
+    kind: website
+    url: https://en.wikipedia.org/wiki/Section_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

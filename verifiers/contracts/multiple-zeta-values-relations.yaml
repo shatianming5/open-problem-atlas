@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.multiple-zeta-values-relations
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/multiple_zeta_values_relations_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Multiple Zeta Values Relations. Determine all algebraic relations among
+  multiple zeta values.'
+parameters: {}

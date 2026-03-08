@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.hardy-ramanujan-partition-asymptotics-extensions
+kind: problem
+title: Hardy-Ramanujan Partition Asymptotics Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the Hardy-Ramanujan asymptotic formula for partitions to colored and restricted partitions.
+sources:
+  canonical:
+  - source_id: curated_hardy_ramanujan_partition_asymptotics_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Partition_function_(number_theory)
+  status_evidence:
+  - source_id: curated_hardy_ramanujan_partition_asymptotics_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Partition_function_(number_theory)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-wasserstein-distance-theory
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_wasserstein_distance_theory_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Wasserstein Distance Theory. Develop a complete theory of quantum
+  optimal transport and Wasserstein distances.'
+parameters: {}

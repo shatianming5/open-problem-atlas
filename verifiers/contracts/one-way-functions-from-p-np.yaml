@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.one-way-functions-from-p-np
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/one_way_functions_from_p_np_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: One-Way Functions from P != NP. Determine whether P != NP implies the existence
+  of one-way functions.'
+parameters: {}

@@ -1,0 +1,31 @@
+id: opa.phys.statistical-mechanics.self-organized-criticality-mathematical-foundation
+kind: problem
+title: Self-Organized Criticality Mathematical Foundation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a rigorous mathematical theory of self-organized criticality.
+sources:
+  canonical:
+  - source_id: curated_self_organized_criticality_mathematical_foundation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Self-organized_criticality
+  status_evidence:
+  - source_id: curated_self_organized_criticality_mathematical_foundation
+    kind: website
+    url: https://en.wikipedia.org/wiki/Self-organized_criticality
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

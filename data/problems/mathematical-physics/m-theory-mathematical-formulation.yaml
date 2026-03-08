@@ -1,0 +1,31 @@
+id: opa.phys.string-theory.m-theory-mathematical-formulation
+kind: problem
+title: M-Theory Mathematical Formulation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Develop a precise mathematical formulation of M-theory.
+sources:
+  canonical:
+  - source_id: curated_m_theory_mathematical_formulation
+    kind: website
+    url: https://en.wikipedia.org/wiki/M-theory
+  status_evidence:
+  - source_id: curated_m_theory_mathematical_formulation
+    kind: website
+    url: https://en.wikipedia.org/wiki/M-theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

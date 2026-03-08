@@ -1,0 +1,32 @@
+id: opa.mathematics.ergodic-theory.smooth-realization-conjecture
+kind: problem
+title: Smooth Realization Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- ergodic-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every ergodic measure-preserving system with finite entropy can be realized as a smooth diffeomorphism of a compact
+    manifold.
+sources:
+  canonical:
+  - source_id: src_katok_1980
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ergodic_theory
+  status_evidence:
+  - source_id: src_katok_1980
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ergodic_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

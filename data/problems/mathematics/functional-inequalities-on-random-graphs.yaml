@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.functional-inequalities-on-random-graphs
+kind: problem
+title: Functional Inequalities on Random Graphs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal Poincare and log-Sobolev constants for random graphs.
+sources:
+  canonical:
+  - source_id: curated_functional_inequalities_on_random_graphs
+    kind: website
+    url: https://en.wikipedia.org/wiki/Poincar%C3%A9_inequality
+  status_evidence:
+  - source_id: curated_functional_inequalities_on_random_graphs
+    kind: website
+    url: https://en.wikipedia.org/wiki/Poincar%C3%A9_inequality
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

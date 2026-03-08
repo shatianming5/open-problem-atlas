@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.stieltjes-conjecture-on-zeros-of-zeta
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stieltjes_conjecture_on_zeros_of_zeta_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stieltjes'' Conjecture on Zeros of Zeta. All zeros of the de la Vallee-Poussin
+  function (closely related to the Riemann zeta function) are real.'
+parameters: {}

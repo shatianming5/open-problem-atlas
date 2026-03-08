@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.kerr-cft-correspondence-proof
+kind: problem
+title: Kerr/CFT Correspondence Proof
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the Kerr/CFT correspondence relating extremal Kerr black holes to conformal field theories.
+sources:
+  canonical:
+  - source_id: curated_kerr_cft_correspondence_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kerr/CFT_correspondence
+  status_evidence:
+  - source_id: curated_kerr_cft_correspondence_proof
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kerr/CFT_correspondence
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

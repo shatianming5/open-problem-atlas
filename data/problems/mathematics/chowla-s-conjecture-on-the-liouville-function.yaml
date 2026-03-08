@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.chowla-s-conjecture-on-the-liouville-function
+kind: problem
+title: Chowla's Conjecture on the Liouville Function
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: 'The Liouville function exhibits cancellation in short correlations: the average of lambda(n)*lambda(n+1) tends
+    to zero.'
+sources:
+  canonical:
+  - source_id: curated_chowla_s_conjecture_on_the_liouville_function
+    kind: website
+    url: https://en.wikipedia.org/wiki/Chowla%27s_conjecture
+  status_evidence:
+  - source_id: curated_chowla_s_conjecture_on_the_liouville_function
+    kind: website
+    url: https://en.wikipedia.org/wiki/Chowla%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.selberg-sieve-optimal-constants
+kind: problem
+title: Selberg Sieve Optimal Constants
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the optimal constants in the Selberg sieve.
+sources:
+  canonical:
+  - source_id: curated_selberg_sieve_optimal_constants
+    kind: website
+    url: https://en.wikipedia.org/wiki/Selberg_sieve
+  status_evidence:
+  - source_id: curated_selberg_sieve_optimal_constants
+    kind: website
+    url: https://en.wikipedia.org/wiki/Selberg_sieve
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

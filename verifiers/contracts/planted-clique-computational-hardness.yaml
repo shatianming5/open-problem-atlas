@@ -1,0 +1,12 @@
+problem_id: opa.tcs.learning-theory.planted-clique-computational-hardness
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/planted_clique_computational_hardness_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Planted Clique Computational Hardness. Prove that the planted clique problem
+  in G(n, 1/2) requires super-polynomial time when the clique size is o(sqrt(n)).'
+parameters: {}

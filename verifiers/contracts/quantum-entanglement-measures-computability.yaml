@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-entanglement-measures-computability
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_entanglement_measures_computability_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Entanglement Measures Computability. Determine the computability
+  of entanglement measures such as entanglement entropy and negativity.'
+parameters: {}

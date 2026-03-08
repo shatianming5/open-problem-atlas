@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.cobordism-hypothesis-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/cobordism_hypothesis_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Cobordism Hypothesis (Full Proof). Provide a complete proof of the cobordism
+  hypothesis classifying extended TQFTs.'
+parameters: {}

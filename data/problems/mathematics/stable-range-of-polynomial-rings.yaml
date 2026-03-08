@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.stable-range-of-polynomial-rings
+kind: problem
+title: Stable Range of Polynomial Rings
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the stable range of polynomial rings over commutative Noetherian rings.
+sources:
+  canonical:
+  - source_id: curated_stable_range_of_polynomial_rings
+    kind: website
+    url: https://en.wikipedia.org/wiki/Stable_range_condition
+  status_evidence:
+  - source_id: curated_stable_range_of_polynomial_rings
+    kind: website
+    url: https://en.wikipedia.org/wiki/Stable_range_condition
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

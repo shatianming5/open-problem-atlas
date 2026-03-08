@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.hopf-conjecture-on-euler-characteristic
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hopf_conjecture_on_euler_characteristic_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hopf Conjecture on Euler Characteristic. A closed, positively curved 2n-dimensional
+  Riemannian manifold has positive Euler characteristic.'
+parameters: {}

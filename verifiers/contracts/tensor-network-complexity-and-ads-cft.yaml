@@ -1,0 +1,12 @@
+problem_id: opa.phys.holography.tensor-network-complexity-and-ads-cft
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/tensor_network_complexity_and_ads_cft_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Tensor Network Complexity and AdS/CFT. Is there a rigorous equivalence between
+  the minimal tensor network complexity of a holographic state and the volume of the Einstein-Rosen bridge in AdS/CFT?'
+parameters: {}

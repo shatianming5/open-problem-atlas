@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.riemann-hypothesis-for-function-fields-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/riemann_hypothesis_for_function_fields_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Riemann Hypothesis for Function Fields Extensions. Extend the proof of the
+  Riemann hypothesis for function fields to new settings.'
+parameters: {}

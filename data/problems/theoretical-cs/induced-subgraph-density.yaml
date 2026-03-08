@@ -1,0 +1,31 @@
+id: opa.tcs.graph-theory.induced-subgraph-density
+kind: problem
+title: Induced Subgraph Density
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the maximum density of a graph that avoids an induced copy of a fixed graph H.
+sources:
+  canonical:
+  - source_id: curated_induced_subgraph_density
+    kind: website
+    url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Hajnal_conjecture
+  status_evidence:
+  - source_id: curated_induced_subgraph_density
+    kind: website
+    url: https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93Hajnal_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.bounded-gaps-between-primes-optimal
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/bounded_gaps_between_primes_optimal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Bounded Gaps Between Primes Optimal. Determine the smallest gap between
+  consecutive primes that occurs infinitely often.'
+parameters: {}

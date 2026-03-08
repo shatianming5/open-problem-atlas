@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.hormander-s-l-2-estimates-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hormander_s_l_2_estimates_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hormander''s L^2 Estimates Extensions. Extend Hormander''s L^2 estimates
+  for the d-bar operator to singular metrics.'
+parameters: {}

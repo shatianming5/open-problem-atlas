@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.closed-geodesic-problem
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/closed_geodesic_problem_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Closed Geodesic Problem. Every closed Riemannian manifold has infinitely
+  many geometrically distinct closed geodesics.'
+parameters: {}

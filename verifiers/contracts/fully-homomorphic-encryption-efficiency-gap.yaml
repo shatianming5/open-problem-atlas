@@ -1,0 +1,12 @@
+problem_id: opa.tcs.cryptography.fully-homomorphic-encryption-efficiency-gap
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/fully_homomorphic_encryption_efficiency_gap_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Fully Homomorphic Encryption Efficiency Gap. Close the efficiency gap between
+  FHE and standard computation.'
+parameters: {}

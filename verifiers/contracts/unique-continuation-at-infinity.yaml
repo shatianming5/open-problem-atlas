@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.unique-continuation-at-infinity
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/unique_continuation_at_infinity_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Unique Continuation at Infinity. If a solution to an elliptic PDE decays
+  faster than any exponential at infinity, must it be identically zero?'
+parameters: {}

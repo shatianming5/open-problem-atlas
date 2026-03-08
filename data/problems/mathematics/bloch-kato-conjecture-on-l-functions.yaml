@@ -1,0 +1,31 @@
+id: opa.mathematics.arithmetic-geometry.bloch-kato-conjecture-on-l-functions
+kind: problem
+title: Bloch-Kato Conjecture on L-functions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- arithmetic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Special values of L-functions of motives are related to orders of Shafarevich-Tate groups and regulators.
+sources:
+  canonical:
+  - source_id: src_blochkato_1990
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bloch%E2%80%93Kato_conjecture_(number_theory)
+  status_evidence:
+  - source_id: src_blochkato_1990
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bloch%E2%80%93Kato_conjecture_(number_theory)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

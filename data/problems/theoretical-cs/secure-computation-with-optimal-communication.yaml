@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.secure-computation-with-optimal-communication
+kind: problem
+title: Secure Computation with Optimal Communication
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Achieve secure multi-party computation with communication complexity proportional to the output size.
+sources:
+  canonical:
+  - source_id: curated_secure_computation_with_optimal_communication
+    kind: website
+    url: https://en.wikipedia.org/wiki/Secure_multi-party_computation
+  status_evidence:
+  - source_id: curated_secure_computation_with_optimal_communication
+    kind: website
+    url: https://en.wikipedia.org/wiki/Secure_multi-party_computation
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

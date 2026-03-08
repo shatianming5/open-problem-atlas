@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.topology.lichtenbaum-quillen-conjecture-remaining-cases
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/lichtenbaum_quillen_conjecture_remaining_cases_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Lichtenbaum-Quillen Conjecture (Remaining Cases). Prove the Lichtenbaum-Quillen
+  conjecture relating K-theory and etale cohomology in all remaining cases.'
+parameters: {}

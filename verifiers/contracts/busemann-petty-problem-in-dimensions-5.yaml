@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.geometry.busemann-petty-problem-in-dimensions-5
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/busemann_petty_problem_in_dimensions_5_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Busemann-Petty Problem in Dimensions 5+. Does a symmetric convex body with
+  smaller central sections have smaller volume? Resolve remaining questions for non-symmetric bodies.'
+parameters: {}

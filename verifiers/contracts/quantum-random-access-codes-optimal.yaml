@@ -1,0 +1,12 @@
+problem_id: opa.phys.quantum-information.quantum-random-access-codes-optimal
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_random_access_codes_optimal_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Random Access Codes Optimal. Determine optimal quantum random access
+  codes for all parameters.'
+parameters: {}

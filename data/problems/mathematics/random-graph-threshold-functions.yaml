@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.random-graph-threshold-functions
+kind: problem
+title: Random Graph Threshold Functions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine sharp thresholds for all monotone graph properties in random graphs.
+sources:
+  canonical:
+  - source_id: curated_random_graph_threshold_functions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_graph
+  status_evidence:
+  - source_id: curated_random_graph_threshold_functions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Random_graph
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

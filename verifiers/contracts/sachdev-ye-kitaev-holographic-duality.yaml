@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.sachdev-ye-kitaev-holographic-duality
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sachdev_ye_kitaev_holographic_duality_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sachdev-Ye-Kitaev Holographic Duality. Prove the holographic duality of
+  the SYK model with Jackiw-Teitelboim gravity.'
+parameters: {}

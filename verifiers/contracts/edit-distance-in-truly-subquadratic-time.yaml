@@ -1,0 +1,12 @@
+problem_id: opa.tcs.algorithms.edit-distance-in-truly-subquadratic-time
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/edit_distance_in_truly_subquadratic_time_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Edit Distance in Truly Subquadratic Time. Determine whether edit distance
+  can be computed in truly subquadratic time.'
+parameters: {}

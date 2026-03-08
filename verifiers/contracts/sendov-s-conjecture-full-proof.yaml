@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analysis.sendov-s-conjecture-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/sendov_s_conjecture_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Sendov''s Conjecture (Full Proof). For a polynomial of degree n >= 2 with
+  all zeros in the closed unit disk, each zero has a critical point within distance 1.'
+parameters: {}

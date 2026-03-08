@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.topological-recursion-and-matrix-models
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/topological_recursion_and_matrix_models_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Topological Recursion and Matrix Models. Prove the topological recursion
+  conjecture connecting matrix models to enumerative geometry.'
+parameters: {}

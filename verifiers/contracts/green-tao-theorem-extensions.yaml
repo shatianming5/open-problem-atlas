@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.green-tao-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/green_tao_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Green-Tao Theorem Extensions. Extend the Green-Tao theorem on arithmetic
+  progressions in primes to polynomial configurations.'
+parameters: {}

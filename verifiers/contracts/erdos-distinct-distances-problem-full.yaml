@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.erdos-distinct-distances-problem-full
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/erdos_distinct_distances_problem_full_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Erdos Distinct Distances Problem (Full). Prove that n points in the plane
+  determine at least cn/sqrt(log n) distinct distances.'
+parameters: {}

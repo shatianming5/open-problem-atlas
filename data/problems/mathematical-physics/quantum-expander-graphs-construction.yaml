@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.quantum-expander-graphs-construction
+kind: problem
+title: Quantum Expander Graphs Construction
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct explicit quantum expander graphs with optimal expansion.
+sources:
+  canonical:
+  - source_id: curated_quantum_expander_graphs_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/Expander_graph
+  status_evidence:
+  - source_id: curated_quantum_expander_graphs_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/Expander_graph
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

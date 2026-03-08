@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.number-theory.distribution-of-prime-gaps
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/distribution_of_prime_gaps_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Distribution of Prime Gaps. Determine the precise distribution of gaps between
+  consecutive primes.'
+parameters: {}

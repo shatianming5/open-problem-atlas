@@ -1,0 +1,12 @@
+problem_id: opa.phys.string-theory.string-field-theory-completion
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/string_field_theory_completion_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: String Field Theory Completion. Complete string field theory as a background-independent
+  formulation of string theory.'
+parameters: {}

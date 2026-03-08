@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.consistency-of-suslin-s-hypothesis
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/consistency_of_suslin_s_hypothesis_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Consistency of Suslin''s Hypothesis. Determine the exact consistency strength
+  of Suslin''s Hypothesis.'
+parameters: {}

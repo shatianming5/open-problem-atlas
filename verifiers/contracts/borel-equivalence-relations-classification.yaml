@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.logic.borel-equivalence-relations-classification
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/borel_equivalence_relations_classification_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Borel Equivalence Relations Classification. Complete the classification
+  of Borel equivalence relations under Borel reducibility.'
+parameters: {}

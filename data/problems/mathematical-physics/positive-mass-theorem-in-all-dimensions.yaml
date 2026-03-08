@@ -1,0 +1,31 @@
+id: opa.phys.general-relativity.positive-mass-theorem-in-all-dimensions
+kind: problem
+title: Positive Mass Theorem in All Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove the positive mass theorem for general asymptotically flat spacetimes in all dimensions.
+sources:
+  canonical:
+  - source_id: curated_positive_mass_theorem_in_all_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Positive_energy_theorem
+  status_evidence:
+  - source_id: curated_positive_mass_theorem_in_all_dimensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Positive_energy_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

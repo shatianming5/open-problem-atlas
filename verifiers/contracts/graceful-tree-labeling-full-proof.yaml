@@ -1,0 +1,11 @@
+problem_id: opa.tcs.graph-theory.graceful-tree-labeling-full-proof
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/graceful_tree_labeling_full_proof_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Graceful Tree Labeling (Full Proof). Every tree has a graceful labeling.'
+parameters: {}

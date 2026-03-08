@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.yau-s-conjecture-on-minimal-surfaces
+kind: problem
+title: Yau's Conjecture on Minimal Surfaces
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every closed 3-manifold contains infinitely many minimal surfaces.
+sources:
+  canonical:
+  - source_id: curated_yau_s_conjecture_on_minimal_surfaces
+    kind: website
+    url: https://en.wikipedia.org/wiki/Minimal_surface
+  status_evidence:
+  - source_id: curated_yau_s_conjecture_on_minimal_surfaces
+    kind: website
+    url: https://en.wikipedia.org/wiki/Minimal_surface
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

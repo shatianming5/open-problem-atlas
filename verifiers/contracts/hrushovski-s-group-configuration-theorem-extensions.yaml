@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.model-theory.hrushovski-s-group-configuration-theorem-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/hrushovski_s_group_configuration_theorem_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Hrushovski''s Group Configuration Theorem Extensions. Extend the group configuration
+  theorem to non-stable settings such as simple or NIP theories.'
+parameters: {}

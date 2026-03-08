@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.combinatorics.konig-egervary-conjecture-generalization
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/konig_egervary_conjecture_generalization_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Konig-Egervary Conjecture Generalization. Can the Konig-Egervary theorem
+  be extended to hypergraphs? Characterize hypergraphs where the minimum vertex cover equals the maximum matching.'
+parameters: {}

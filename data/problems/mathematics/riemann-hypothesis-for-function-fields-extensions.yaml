@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.riemann-hypothesis-for-function-fields-extensions
+kind: problem
+title: Riemann Hypothesis for Function Fields Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the proof of the Riemann hypothesis for function fields to new settings.
+sources:
+  canonical:
+  - source_id: curated_riemann_hypothesis_for_function_fields_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Weil_conjectures
+  status_evidence:
+  - source_id: curated_riemann_hypothesis_for_function_fields_extensions
+    kind: website
+    url: https://en.wikipedia.org/wiki/Weil_conjectures
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

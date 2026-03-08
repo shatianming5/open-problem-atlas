@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.approximation-theory.chebyshev-s-problem-on-best-approximation
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/chebyshev_s_problem_on_best_approximation_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Chebyshev''s Problem on Best Approximation. For multivariate polynomial
+  approximation, characterize the best approximation from an arbitrary set in L^p norms.'
+parameters: {}

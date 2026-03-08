@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.minimum-cut-in-linear-time
+kind: problem
+title: Minimum Cut in Linear Time
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Find the minimum cut of an undirected graph in O(m) time.
+sources:
+  canonical:
+  - source_id: curated_minimum_cut_in_linear_time
+    kind: website
+    url: https://en.wikipedia.org/wiki/Minimum_cut
+  status_evidence:
+  - source_id: curated_minimum_cut_in_linear_time
+    kind: website
+    url: https://en.wikipedia.org/wiki/Minimum_cut
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

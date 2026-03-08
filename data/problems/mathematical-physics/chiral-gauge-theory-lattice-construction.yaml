@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.chiral-gauge-theory-lattice-construction
+kind: problem
+title: Chiral Gauge Theory Lattice Construction
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Construct a lattice regularization of chiral gauge theories preserving gauge invariance.
+sources:
+  canonical:
+  - source_id: curated_chiral_gauge_theory_lattice_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/Chiral_gauge_theory
+  status_evidence:
+  - source_id: curated_chiral_gauge_theory_lattice_construction
+    kind: website
+    url: https://en.wikipedia.org/wiki/Chiral_gauge_theory
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

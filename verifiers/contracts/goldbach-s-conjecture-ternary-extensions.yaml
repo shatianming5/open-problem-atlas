@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.analytic-number-theory.goldbach-s-conjecture-ternary-extensions
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/goldbach_s_conjecture_ternary_extensions_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Goldbach''s Conjecture Ternary Extensions. Following Helfgott''s proof of
+  the ternary Goldbach conjecture, can the methods be extended to resolve the binary Goldbach conjecture for all even numbers?'
+parameters: {}

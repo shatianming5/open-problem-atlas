@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.probability.stochastic-homogenization-rates
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/stochastic_homogenization_rates_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Stochastic Homogenization Rates. Determine optimal convergence rates in
+  stochastic homogenization of elliptic equations.'
+parameters: {}

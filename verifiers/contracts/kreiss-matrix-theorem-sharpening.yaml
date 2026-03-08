@@ -1,0 +1,12 @@
+problem_id: opa.mathematics.numerical-analysis.kreiss-matrix-theorem-sharpening
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/kreiss_matrix_theorem_sharpening_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Kreiss Matrix Theorem Sharpening. Improve the constant in the Kreiss matrix
+  theorem for non-normal matrices.'
+parameters: {}

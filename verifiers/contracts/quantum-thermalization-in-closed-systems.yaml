@@ -1,0 +1,12 @@
+problem_id: opa.phys.statistical-mechanics.quantum-thermalization-in-closed-systems
+backend: python_checker
+task_type: statement_verification
+checker:
+  file: verifiers/checkers/auto/quantum_thermalization_in_closed_systems_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 300
+  memory_mb: 512
+success_criteria: 'Verify or advance progress on: Quantum Thermalization in Closed Systems. Prove that generic closed quantum
+  systems thermalize and determine the timescale.'
+parameters: {}
