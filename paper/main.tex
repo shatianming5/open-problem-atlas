@@ -1,0 +1,473 @@
+\documentclass[11pt]{article}
+
+% Page geometry
+\usepackage[margin=1in]{geometry}
+
+% Standard packages
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{natbib}
+% \usepackage{microtype} % Uncomment if full TeX Live is installed
+\usepackage{url}
+\usepackage{float}
+
+\hypersetup{
+  colorlinks=true,
+  linkcolor=blue!70!black,
+  citecolor=green!50!black,
+  urlcolor=blue!60!black
+}
+
+% Compact spacing
+\setlength{\parskip}{0.4em}
+\setlength{\parindent}{0em}
+
+\title{\textbf{OpenProblemAtlas}: A Machine-Verifiable Atlas of \\Unsolved Problems for AI Mathematical Reasoning}
+
+\author{
+  OpenProblemAtlas Contributors\thanks{Project website: \url{https://openproblem-atlas.org}. Data and code available at \url{https://github.com/openproblem-atlas/OpenProblemAtlas}.}
+}
+
+\date{}
+
+\begin{document}
+
+\maketitle
+
+% ============================================================
+\begin{abstract}
+We present \textsc{OpenProblemAtlas} (OPA), the first large-scale, structured, and machine-verifiable dataset of \emph{unsolved} mathematical problems, designed to evaluate and drive AI systems toward genuine mathematical discovery rather than mere problem-solving on known answers.
+OPA contains 2{,}075 open problems across three domains---mathematics, theoretical computer science, and mathematical physics---each annotated with a YAML-based data model that records problem status, domain taxonomy, a three-axis verification profile (statement precision, solution checkability, machine actionability), a tier classification, and five numerical scores measuring research fitness.
+The dataset is accompanied by 2{,}075 verification contracts, 101 executable Python checkers, and 312 Lean\,4 formalization stubs covering 15\% of problems.
+We introduce \textsc{OPA-Bench}, a curated benchmark of 100 problems graded at Bronze, Silver, and Gold difficulty levels for evaluating AI mathematical reasoning on open questions.
+Unlike existing benchmarks such as MATH, GSM8K, and MiniF2F, where ground-truth answers are known, OPA targets the frontier of mathematical knowledge, providing infrastructure for machine-verifiable partial progress on unsolved problems.
+All data, contracts, checkers, and formalizations are released under an open license.
+\end{abstract}
+
+% ============================================================
+\section{Introduction}
+\label{sec:intro}
+
+Recent advances in AI-driven mathematical reasoning have produced systems capable of impressive performance on established benchmarks.
+AlphaProof~\citep{alphaproof2024} achieved silver-medal-level performance at the International Mathematical Olympiad, while DeepSeek-Prover~\citep{xin2024deepseekprover} and Llemma~\citep{azerbayev2024llemma} have demonstrated strong theorem-proving capabilities in Lean and other formal systems.
+AlphaGeometry~\citep{trinh2024alphageometry} solved olympiad geometry problems at a near-gold-medal level, and language-model-based approaches~\citep{polu2020gpt,jiang2023draft} have shown that large models can generate and guide formal proofs.
+
+Yet all major benchmarks used to evaluate these systems---MATH~\citep{hendrycks2021math}, GSM8K~\citep{cobbe2021gsm8k}, MiniF2F~\citep{zheng2022minif2f}, PutnamBench~\citep{tsoukalas2024putnambench}---share a critical limitation: \textbf{the answers are already known}.
+These benchmarks measure the ability of AI systems to reproduce solutions that humans have already found, not to discover new mathematical truths.
+An AI system that scores perfectly on MATH has demonstrated sophisticated pattern matching and reasoning, but it has not advanced the frontier of mathematical knowledge.
+
+This gap motivates \textsc{OpenProblemAtlas} (OPA).
+We build the first structured, machine-readable dataset of \emph{unsolved} problems, where no answer is known a priori.
+OPA is not merely a list of open problems (cf.\ Open Problem Garden~\citep{openproblemgarden}, Erd\H{o}s Problems~\citep{erdosproblems}); it is a \emph{verification infrastructure} that enables AI systems to make machine-checkable partial progress.
+Each problem comes with:
+\begin{enumerate}  \item A structured YAML entry with canonical statement, domain taxonomy, and status metadata;
+  \item A \textbf{verification contract} specifying how claimed progress can be checked;
+  \item Where applicable, an executable \textbf{Python checker} for computational verification;
+  \item Where applicable, a \textbf{Lean\,4 formalization stub} for formal proof attempts.
+\end{enumerate}
+
+Our contributions are:
+\begin{itemize}  \item A curated dataset of 2{,}075 open problems with rich structured annotations spanning three major domains;
+  \item A multi-layer verification framework with 2{,}075 contracts and 101 executable checkers;
+  \item 312 Lean\,4 formalization stubs (15\% coverage) integrated with the verification pipeline;
+  \item \textsc{OPA-Bench}, a benchmark of 100 problems at three difficulty levels for standardized AI evaluation;
+  \item An open-source, continuously updated data infrastructure with schema validation and CI/CD.
+\end{itemize}
+
+% ============================================================
+\section{Related Work}
+\label{sec:related}
+
+\paragraph{Mathematical Reasoning Benchmarks.}
+MATH~\citep{hendrycks2021math} provides 12{,}500 competition-level problems with final numerical or symbolic answers.
+GSM8K~\citep{cobbe2021gsm8k} contains 8{,}500 grade-school word problems.
+MiniF2F~\citep{zheng2022minif2f} offers 488 formalized olympiad-level statements in Lean, Isabelle, and Metamath.
+PutnamBench~\citep{tsoukalas2024putnambench} contributes 1{,}697 Putnam competition problems formalized in Lean\,4.
+All of these benchmarks evaluate systems on problems with \emph{known} solutions.
+
+\paragraph{Open Problem Collections.}
+Several informal collections of unsolved problems exist.
+The Open Problem Garden~\citep{openproblemgarden} hosts a wiki-style database organized by topic.
+Erd\H{o}s Problems~\citep{erdosproblems} catalogs problems posed by Paul Erd\H{o}s with their current status.
+The Clay Millennium Problems represent seven high-profile open problems with \$1M prizes.
+However, none of these resources provides machine-readable structured data, verification contracts, or executable checkers.
+
+\paragraph{Formal Mathematics and Autoformalization.}
+The Lean\,4 proof assistant~\citep{moura2021lean4} and its mathematical library mathlib4~\citep{mathlib2020} provide a growing corpus of formalized mathematics.
+LeanDojo~\citep{yang2024leandojo} and related tools enable neural theorem provers to interact with Lean.
+Recent work on autoformalization~\citep{wu2022autoformalization} and FormalConjectures~\citep{glazer2024formalconjectures} explores the automatic translation of informal mathematics into formal statements, which is complementary to OPA's formalization stubs.
+
+% ============================================================
+\section{Dataset Description}
+\label{sec:dataset}
+
+\subsection{Data Model}
+
+Each problem in OPA is represented as a YAML file conforming to a JSON Schema (version 1.0.0).
+The schema enforces the following required fields:
+
+\begin{itemize}  \item \texttt{id}: A globally unique identifier following the pattern \texttt{opa.<domain>.<subdomain>.<slug>};
+  \item \texttt{title}: Canonical problem name;
+  \item \texttt{status}: A structured object with \texttt{label} (one of \texttt{open}, \texttt{partially\_solved}, \texttt{solved}, \texttt{disproved}, \texttt{conditional}, \texttt{independent}, \texttt{ambiguous}, \texttt{retired\_duplicate}), \texttt{confidence} level, review date, and review state;
+  \item \texttt{domain} and \texttt{subdomains}: Hierarchical classification;
+  \item \texttt{statement}: Canonical and informal descriptions;
+  \item \texttt{verification\_profile}: Three-axis verification classification;
+  \item \texttt{tier}: Tier assignment (\texttt{tier\_1}, \texttt{tier\_2}, or \texttt{tier\_3});
+  \item \texttt{sources}: Bibliographic references with DOIs and URLs.
+\end{itemize}
+
+Optional fields include \texttt{problem\_type}, \texttt{answer\_type}, \texttt{partial\_results}, \texttt{relations} (equivalences, generalizations, special cases), \texttt{formalization} metadata, five-dimensional \texttt{scores}, and \texttt{prize} information.
+
+\subsection{Verification Profile}
+\label{sec:verif-profile}
+
+A distinctive feature of OPA is the \textbf{three-axis verification profile}, which classifies each problem along three orthogonal dimensions:
+
+\begin{enumerate}  \item \textbf{Statement Precision} (\texttt{high}/\texttt{medium}/\texttt{low}): How precisely the problem can be stated as a formal mathematical proposition. \emph{High}: a precise conjecture, bound, or existence claim. \emph{Medium}: clear mathematical objects but some definitional ambiguity. \emph{Low}: a research direction or vague agenda.
+  \item \textbf{Solution Checkability} (\texttt{proof\_assistant}/\texttt{computational}/\texttt{mixed}/\texttt{expert\_review}): How a claimed solution or refutation can be verified. Problems checkable by proof assistants (Lean, Coq) or by computational means (SAT/SMT solvers, counterexample search) are the most machine-tractable.
+  \item \textbf{Machine Actionability} (\texttt{high}/\texttt{medium}/\texttt{low}): How much AI agents can currently participate in solving the problem. \emph{High}: AI can directly attempt the problem via search, symbolic computation, or formalization. \emph{Low}: the problem currently lies beyond machine capabilities.
+\end{enumerate}
+
+\subsection{Tier System}
+
+The tier system provides a coarse classification of machine tractability:
+
+\begin{itemize}  \item \textbf{Tier 1} (175 problems): Core machine-actionable problems with high statement precision \emph{and} machine-checkable solutions (proof assistant or computational) \emph{and} at least medium machine actionability.
+  \item \textbf{Tier 2} (106 problems): Extended problems with precise statements but limited machine verification---typically requiring mixed human--machine approaches.
+  \item \textbf{Tier 3} (1{,}794 problems): Candidate problems that require further structuring; typically have low statement precision or require expert review for solution checking.
+\end{itemize}
+
+\subsection{Scoring Dimensions}
+
+For a subset of 312 problems, we provide five numerical scores on a $[0, 1]$ scale:
+
+\begin{itemize}  \item \textbf{Impact}: Mathematical significance and breadth of consequences;
+  \item \textbf{Underexplored}: Degree to which the problem has received insufficient attention;
+  \item \textbf{Toolability}: Amenability to computational or automated tools;
+  \item \textbf{Formality}: Readiness for formal statement in a proof assistant;
+  \item \textbf{AI Fit}: Overall suitability for current AI approaches.
+\end{itemize}
+
+\subsection{Domain and Subdomain Taxonomy}
+
+OPA covers three top-level domains, each subdivided into fine-grained subdomains.
+Mathematics is the largest domain (998 problems), encompassing subdomains from number theory and combinatorics to algebraic geometry and topology.
+Theoretical computer science (541 problems) covers complexity theory, algorithms, cryptography, quantum computing, and learning theory.
+Mathematical physics (536 problems) spans quantum field theory, statistical mechanics, general relativity, condensed matter theory, and quantum information.
+
+% ============================================================
+\section{Verification Framework}
+\label{sec:verification}
+
+\subsection{Multi-Layer Architecture}
+
+OPA's verification framework operates at four layers:
+
+\begin{description}  \item[L1 -- Schema Validation:] Every problem YAML file is validated against the JSON Schema (draft 2020-12) during CI. This ensures structural correctness: required fields are present, enumerations are valid, tier assignments are consistent with verification profiles.
+  \item[L2 -- Verification Contracts:] Each problem has an associated \emph{verification contract} (a YAML file) that specifies: (a) the backend (\texttt{python\_checker} or \texttt{lean4}); (b) the task type (e.g., \texttt{statement\_verification}, \texttt{conjecture\_check\_range}, \texttt{proof\_check}, \texttt{counterexample\_search}); (c) resource limits (timeout, memory); and (d) success criteria in natural language.
+  \item[L3 -- Executable Checkers:] For 101 problems, we provide Python checker scripts that implement specific computational verifications. Each checker exposes a \texttt{verify(params: dict) -> dict} interface, returning a structured result with \texttt{status} (\texttt{pass}/\texttt{fail}), \texttt{summary}, and \texttt{details}. Examples include range-checking the Collatz conjecture, verifying Goldbach representations up to a bound, and searching for counterexamples to graph-theoretic conjectures.
+  \item[L4 -- Formal Verification:] For problems with Lean\,4 formalization stubs, the contract specifies \texttt{lean4} as the backend and \texttt{proof\_check} as the task type. A completed formal proof can be verified by the Lean type checker.
+\end{description}
+
+\subsection{Contract Specification}
+
+A verification contract is a lightweight YAML document linking a problem to its verification infrastructure.
+Listing~\ref{lst:contract} shows an example contract for the Collatz conjecture:
+
+\begin{figure}[H]
+\small
+\begin{verbatim}
+problem_id: opa.mathematics.number-theory.collatz-conjecture
+backend: python_checker
+task_type: conjecture_check_range
+checker:
+  file: verifiers/checkers/math/collatz_checker.py
+  function: verify
+resource_limits:
+  timeout_seconds: 600
+  memory_mb: 512
+success_criteria: >
+  Verify that the Collatz sequence reaches 1
+  for all integers in [1, upper_bound]
+parameters:
+  upper_bound: 1000000
+\end{verbatim}
+\caption{Example verification contract for the Collatz conjecture.}
+\label{lst:contract}
+\end{figure}
+
+\subsection{Checker Interface}
+
+All Python checkers follow a uniform interface:
+
+\begin{verbatim}
+def verify(params: dict) -> dict:
+    # Returns {"status": "pass"|"fail",
+    #          "summary": str,
+    #          "details": dict}
+\end{verbatim}
+
+This standardized interface enables automated batch execution.
+The 101 checkers span multiple verification strategies: range checking of conjectures over integer intervals, counterexample search in combinatorial structures, bound verification for numerical conjectures, and witness construction for existential claims.
+
+\subsection{Contract and Task Type Distribution}
+
+Of the 2{,}075 contracts, 1{,}934 (93.2\%) use the \texttt{python\_checker} backend and 141 (6.8\%) use the \texttt{lean4} backend.
+Task types are distributed as follows: statement verification (1{,}843), conjecture range checking (80), proof checking (141), counterexample search (5), bound verification (4), and witness search (2).
+
+% ============================================================
+\section{OPA-Bench}
+\label{sec:bench}
+
+\textsc{OPA-Bench} is a curated benchmark of 100 open problems designed for standardized evaluation of AI mathematical reasoning systems on unsolved questions.
+Problems are selected from the full OPA dataset based on a composite \emph{bench score} that aggregates statement precision, solution checkability, machine actionability, and AI fitness.
+The 100 highest-scoring problems are partitioned into three difficulty tiers by tertile:
+
+\begin{itemize}  \item \textbf{Bronze} (33 problems): The most machine-tractable open problems. These have high statement precision, computational or proof-assistant checkability, and the highest AI fit scores. Examples: Collatz conjecture, Hadamard conjecture, Erd\H{o}s--Straus conjecture.
+  \item \textbf{Silver} (33 problems): Problems with clear formal statements and partial machine checkability, but requiring more sophisticated approaches. Examples: Twin prime conjecture, Goldbach conjecture, Kakeya conjecture.
+  \item \textbf{Gold} (34 problems): The most challenging benchmark problems, where machine actionability is lowest within the top 100. Examples: BPP vs.\ P, PPT bound entanglement, cosmic censorship conjecture.
+\end{itemize}
+
+Table~\ref{tab:comparison} compares OPA-Bench with existing mathematical reasoning benchmarks.
+
+\begin{table}[H]
+\centering
+\caption{Comparison of OPA-Bench with existing mathematical reasoning benchmarks.}
+\label{tab:comparison}
+\small
+\begin{tabular}{@{}lrccc@{}}
+\toprule
+\textbf{Benchmark} & \textbf{Problems} & \textbf{Type} & \textbf{Answers Known} & \textbf{Verification} \\
+\midrule
+MATH & 12{,}500 & Competition & Yes & Answer matching \\
+GSM8K & 8{,}500 & Grade school & Yes & Answer matching \\
+MiniF2F & 488 & Formal theorems & Yes & Lean/Isabelle \\
+PutnamBench & 1{,}697 & Competition & Yes & Lean\,4 \\
+\midrule
+\textbf{OPA-Bench} & \textbf{100} & \textbf{Open problems} & \textbf{No} & \textbf{Multi-layer} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The fundamental difference is that OPA-Bench does not have ground-truth answers.
+Evaluation on OPA-Bench measures \emph{verifiable partial progress}---whether an AI system can produce outputs that pass the verification contract (e.g., extending a computational check to a larger range, finding a counterexample, or generating a Lean proof of a subresult).
+
+\subsection{Domain Composition}
+
+The 100 OPA-Bench problems span three domains: mathematics (50), theoretical computer science (30), and mathematical physics (20), reflecting a deliberate emphasis on problems where machine verification is most feasible.
+
+% ============================================================
+\section{Dataset Statistics}
+\label{sec:stats}
+
+\subsection{Domain Distribution}
+
+Table~\ref{tab:domains} summarizes the distribution of problems across the three top-level domains.
+
+\begin{table}[H]
+\centering
+\caption{Distribution of problems across domains.}
+\label{tab:domains}
+\begin{tabular}{@{}lrr@{}}
+\toprule
+\textbf{Domain} & \textbf{Count} & \textbf{Percentage} \\
+\midrule
+Mathematics & 998 & 48.1\% \\
+Theoretical Computer Science & 541 & 26.1\% \\
+Mathematical Physics & 536 & 25.8\% \\
+\midrule
+\textbf{Total} & \textbf{2{,}075} & \textbf{100\%} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Tier Distribution}
+
+\begin{table}[H]
+\centering
+\caption{Distribution of problems across tiers.}
+\label{tab:tiers}
+\begin{tabular}{@{}lrrp{7.5cm}@{}}
+\toprule
+\textbf{Tier} & \textbf{Count} & \textbf{\%} & \textbf{Description} \\
+\midrule
+Tier 1 & 175 & 8.4\% & Core machine-actionable: high precision, checkable, actionable \\
+Tier 2 & 106 & 5.1\% & Extended: precise statement, limited machine verification \\
+Tier 3 & 1{,}794 & 86.5\% & Candidate: needs further structuring \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The dominance of Tier 3 problems reflects the inherent difficulty of unsolved mathematical problems: most require expert review for solution verification and are not yet amenable to fully automated approaches.
+The 175 Tier 1 problems represent the immediate frontier for AI-driven mathematical research.
+
+\subsection{Verification Profile Distribution}
+
+Table~\ref{tab:verif-profile} shows the distribution along each axis of the verification profile.
+
+\begin{table}[H]
+\centering
+\caption{Verification profile distribution across the three axes.}
+\label{tab:verif-profile}
+\begin{tabular}{@{}llrr@{}}
+\toprule
+\textbf{Axis} & \textbf{Value} & \textbf{Count} & \textbf{\%} \\
+\midrule
+Statement Precision & High   & 281   & 13.5\% \\
+                    & Medium & 1{,}791 & 86.3\% \\
+                    & Low    & 3     & 0.1\% \\
+\midrule
+Solution Checkability & Proof Assistant  & 144   & 6.9\% \\
+                      & Computational    & 88    & 4.2\% \\
+                      & Mixed            & 49    & 2.4\% \\
+                      & Expert Review    & 1{,}794 & 86.5\% \\
+\midrule
+Machine Actionability & High   & 77    & 3.7\% \\
+                      & Medium & 157   & 7.6\% \\
+                      & Low    & 1{,}841 & 88.7\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Score Distributions}
+
+For the 312 problems with numerical scores, Table~\ref{tab:scores} reports summary statistics.
+
+\begin{table}[H]
+\centering
+\caption{Score distributions for 312 annotated problems (scale 0--1).}
+\label{tab:scores}
+\begin{tabular}{@{}lcc@{}}
+\toprule
+\textbf{Score} & \textbf{Mean} & \textbf{Median} \\
+\midrule
+Impact        & 0.798 & 0.80 \\
+Underexplored & 0.381 & 0.40 \\
+Toolability   & 0.394 & 0.40 \\
+Formality     & 0.803 & 0.85 \\
+AI Fit        & 0.281 & 0.25 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The high mean impact (0.80) reflects that the scored subset was drawn from well-known, significant problems.
+The low mean AI fit (0.28) quantitatively captures the difficulty of unsolved problems for current AI methods.
+The gap between formality (0.80) and AI fit (0.28) suggests that many problems are sufficiently well-formalized but remain beyond current AI capabilities---precisely the gap OPA is designed to help close.
+
+\subsection{Top Subdomains}
+
+Table~\ref{tab:subdomains} lists the 15 most represented subdomains.
+
+\begin{table}[H]
+\centering
+\caption{Top 15 subdomains by problem count.}
+\label{tab:subdomains}
+\small
+\begin{tabular}{@{}lr@{\hspace{2em}}lr@{}}
+\toprule
+\textbf{Subdomain} & \textbf{Count} & \textbf{Subdomain} & \textbf{Count} \\
+\midrule
+Number Theory          & 203 & Topology              & 70 \\
+Algorithms             & 124 & General Relativity    & 61 \\
+Quantum Information    & 116 & Cryptography          & 60 \\
+Complexity Theory      & 107 & Probability           & 59 \\
+Combinatorics          & 97  & Quantum Computing     & 55 \\
+Analysis               & 93  & String Theory         & 53 \\
+Algebra                & 92  & Graph Theory          & 51 \\
+Quantum Field Theory   & 87  & & \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\subsection{Problem Status}
+
+Of the 2{,}075 problems, 2{,}065 (99.5\%) are currently open, 4 are solved, 3 are partially solved, and 3 are disproved.
+The small number of non-open problems serves as ground truth for validating the status-tracking pipeline: these problems were open when first entered and their status was later updated based on new results.
+
+\subsection{OPA-Bench Difficulty Breakdown}
+
+\begin{table}[H]
+\centering
+\caption{OPA-Bench difficulty distribution.}
+\label{tab:bench-difficulty}
+\begin{tabular}{@{}lrrrrr@{}}
+\toprule
+\textbf{Difficulty} & \textbf{Count} & \textbf{Math} & \textbf{TCS} & \textbf{Math-Phys} \\
+\midrule
+Bronze & 33 & 32 & 0 & 1 \\
+Silver & 33 & 18 & 12 & 3 \\
+Gold   & 34 & 0  & 18 & 16 \\
+\midrule
+\textbf{Total} & \textbf{100} & \textbf{50} & \textbf{30} & \textbf{20} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The domain composition shifts across difficulty levels: Bronze is dominated by mathematics (particularly number theory and combinatorics), where computational verification is most natural.
+Gold is dominated by theoretical computer science and mathematical physics, where machine actionability is more limited.
+
+% ============================================================
+\section{Lean\,4 Formalization}
+\label{sec:lean4}
+
+OPA includes 312 Lean\,4 formalization stubs, covering 15.0\% of the dataset.
+Each stub is a minimal Lean\,4 file that:
+\begin{enumerate}  \item Documents the problem with its OPA identifier, domain, status, and informal statement in a block comment;
+  \item Declares the problem as an \texttt{axiom} with \texttt{True} as the target type, serving as a placeholder for the actual formal statement and proof;
+  \item Provides a URL back to the OPA web entry.
+\end{enumerate}
+
+While these stubs are intentionally minimal---they do not formalize the mathematical content of the statements---they serve several purposes.
+First, they establish the scaffolding for a formalization effort: the file structure, naming convention, and metadata are in place, reducing the friction for contributors who wish to add formal statements.
+Second, 141 problems have verification contracts with \texttt{lean4} as the backend and \texttt{proof\_check} as the task type, creating a pipeline where a formalized proof can be automatically verified.
+Third, the stubs identify problems where formalization is explicitly \emph{wanted} (via the \texttt{formalization.wanted: true} flag in the problem YAML), enabling prioritization of formalization efforts.
+
+The formalization stubs complement recent work on autoformalization~\citep{wu2022autoformalization,glazer2024formalconjectures}, which could be applied to automatically upgrade the stubs from placeholder axioms to genuine Lean\,4 statements.
+
+% ============================================================
+\section{Limitations and Future Work}
+\label{sec:limitations}
+
+\paragraph{Coverage and Bias.}
+The dataset's domain distribution reflects the availability of well-documented open problems in existing sources.
+Areas with fewer accessible problem lists (e.g., applied mathematics, mathematical biology) are underrepresented.
+The subdomain taxonomy is not fully standardized and may contain overlapping or inconsistent categories.
+
+\paragraph{Status Currency.}
+Mathematical problems can be solved at any time, and our status-tracking pipeline relies on periodic manual review.
+While the schema includes \texttt{stale\_after} dates and review states to flag potentially outdated entries, there is inherent latency between a problem being solved and the dataset being updated.
+
+\paragraph{Verification Depth.}
+Only 101 of 2{,}075 problems have executable checkers, and the Lean\,4 stubs are placeholders.
+Expanding the checker coverage and upgrading the formalization stubs to genuine formal statements are key priorities.
+
+\paragraph{Score Subjectivity.}
+The five-dimensional scores (impact, underexplored, toolability, formality, AI fit) are currently assigned through a semi-automated process and have been computed for only 312 problems.
+Calibrating these scores through expert review and extending coverage to all problems remains future work.
+
+\paragraph{Evaluation Methodology.}
+OPA-Bench evaluates verifiable partial progress, but defining and measuring ``partial progress'' on open problems is inherently challenging.
+We plan to develop more nuanced evaluation protocols, including multi-turn interaction frameworks where AI systems can query checkers iteratively.
+
+\paragraph{Future Directions.}
+We plan to: (1)~expand the dataset to 5{,}000+ problems with broader domain coverage; (2)~upgrade Lean\,4 stubs to full formal statements using autoformalization; (3)~develop a multi-turn verification protocol for evaluating AI research assistants; (4)~integrate with HuggingFace for periodic dataset snapshots; and (5)~build a community curation platform for expert review and annotation.
+
+% ============================================================
+\section{Conclusion}
+\label{sec:conclusion}
+
+We have presented \textsc{OpenProblemAtlas}, a dataset of 2{,}075 unsolved mathematical problems with structured annotations, verification contracts, executable checkers, and formalization stubs.
+Together with the \textsc{OPA-Bench} benchmark, OPA provides the first infrastructure for evaluating AI systems on genuine open questions in mathematics, theoretical computer science, and mathematical physics.
+By shifting evaluation from solved problems to unsolved ones, OPA aims to redirect AI mathematical reasoning research toward the ultimate goal: contributing to human mathematical knowledge.
+
+% ============================================================
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+\end{document}

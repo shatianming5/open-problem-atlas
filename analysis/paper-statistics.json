@@ -1,44 +1,44 @@
 {
-  "total_problems": 1006,
-  "total_contracts": 1006,
+  "total_problems": 2075,
+  "total_contracts": 2075,
   "total_checkers": 101,
-  "total_leads": 944,
+  "total_leads": 1865,
   "total_attempts": 3,
   "domains": {
-    "mathematical-physics": 280,
-    "mathematics": 409,
-    "theoretical-cs": 317
+    "mathematical-physics": 536,
+    "mathematics": 998,
+    "theoretical-cs": 541
   },
   "tiers": {
+    "tier_3": 1794,
     "tier_1": 175,
-    "tier_3": 725,
     "tier_2": 106
   },
   "statuses": {
-    "open": 996,
+    "open": 2065,
     "disproved": 3,
     "solved": 4,
     "partially_solved": 3
   },
   "statement_precision": {
+    "medium": 1791,
     "high": 281,
-    "medium": 722,
     "low": 3
   },
   "solution_checkability": {
+    "expert_review": 1794,
     "computational": 88,
-    "expert_review": 725,
     "mixed": 49,
     "proof_assistant": 144
   },
   "machine_actionability": {
+    "low": 1841,
     "high": 77,
-    "low": 772,
     "medium": 157
   },
   "problem_types": {
+    "unknown": 1763,
     "conjecture": 278,
-    "unknown": 694,
     "open_question": 28,
     "computation": 3,
     "existence": 2,
@@ -74,91 +74,91 @@
   "top_subdomains": [
     [
       "number-theory",
-      70
-    ],
-    [
-      "quantum-information",
-      68
-    ],
-    [
-      "complexity-theory",
-      65
+      203
     ],
     [
       "algorithms",
-      59
+      124
     ],
     [
-      "quantum-field-theory",
-      49
+      "quantum-information",
+      116
+    ],
+    [
+      "complexity-theory",
+      107
     ],
     [
       "combinatorics",
-      44
-    ],
-    [
-      "statistical-mechanics",
-      42
-    ],
-    [
-      "cryptography",
-      36
-    ],
-    [
-      "general-relativity",
-      32
-    ],
-    [
-      "quantum-computing",
-      32
-    ],
-    [
-      "condensed-matter-theory",
-      30
-    ],
-    [
-      "algebra",
-      28
-    ],
-    [
-      "graph-theory",
-      26
-    ],
-    [
-      "graph-algorithms",
-      26
+      97
     ],
     [
       "analysis",
-      24
+      93
+    ],
+    [
+      "algebra",
+      92
+    ],
+    [
+      "quantum-field-theory",
+      87
+    ],
+    [
+      "statistical-mechanics",
+      82
+    ],
+    [
+      "geometry",
+      80
     ],
     [
       "topology",
-      23
+      70
+    ],
+    [
+      "general-relativity",
+      61
+    ],
+    [
+      "cryptography",
+      60
     ],
     [
       "probability",
-      23
+      59
     ],
     [
-      "mathematical-physics",
-      21
+      "quantum-computing",
+      55
     ],
     [
-      "dynamical-systems",
-      21
+      "string-theory",
+      53
+    ],
+    [
+      "graph-theory",
+      51
+    ],
+    [
+      "condensed-matter",
+      48
     ],
     [
       "learning-theory",
-      21
+      40
+    ],
+    [
+      "logic",
+      33
     ]
   ],
   "contract_backends": {
-    "python_checker": 865,
+    "python_checker": 1934,
     "lean4": 141
   },
   "contract_task_types": {
-    "statement_verification": 774,
+    "statement_verification": 1843,
     "conjecture_check_range": 80,
     "proof_check": 141,
     "counterexample_search": 5,
