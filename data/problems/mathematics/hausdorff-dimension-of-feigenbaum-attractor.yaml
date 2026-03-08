@@ -1,0 +1,31 @@
+id: opa.mathematics.dynamical-systems.hausdorff-dimension-of-feigenbaum-attractor
+kind: problem
+title: Hausdorff Dimension of Feigenbaum Attractor
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- dynamical-systems
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Compute the exact Hausdorff dimension of the Feigenbaum attractor at the accumulation of period-doubling bifurcations.
+sources:
+  canonical:
+  - source_id: src_feigenbaum_1978
+    kind: website
+    url: https://en.wikipedia.org/wiki/Feigenbaum_constants
+  status_evidence:
+  - source_id: src_feigenbaum_1978
+    kind: website
+    url: https://en.wikipedia.org/wiki/Feigenbaum_constants
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

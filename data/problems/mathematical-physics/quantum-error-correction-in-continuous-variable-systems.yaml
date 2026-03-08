@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-error-correction-in-continuous-variable-systems
+kind: problem
+title: Quantum Error Correction in Continuous Variable Systems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can bosonic quantum error correcting codes such as the GKP code achieve fault tolerance with physically realistic
+    squeezing levels?
+sources:
+  canonical:
+  - source_id: src_gottesman_2001
+    kind: website
+    url: https://arxiv.org/abs/quant-ph/0008040
+  status_evidence:
+  - source_id: src_gottesman_2001
+    kind: website
+    url: https://arxiv.org/abs/quant-ph/0008040
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

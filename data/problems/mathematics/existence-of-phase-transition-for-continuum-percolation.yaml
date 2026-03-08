@@ -1,0 +1,32 @@
+id: opa.mathematics.probability.existence-of-phase-transition-for-continuum-percolation
+kind: problem
+title: Existence of Phase Transition for Continuum Percolation
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Rigorously establish the existence and uniqueness of a critical density for the Boolean percolation model in
+    all dimensions d >= 2.
+sources:
+  canonical:
+  - source_id: src_meester_1996
+    kind: website
+    url: https://doi.org/10.1017/CBO9780511750540
+  status_evidence:
+  - source_id: src_meester_1996
+    kind: website
+    url: https://doi.org/10.1017/CBO9780511750540
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

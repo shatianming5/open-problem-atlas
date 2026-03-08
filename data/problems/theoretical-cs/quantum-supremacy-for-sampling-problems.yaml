@@ -1,0 +1,32 @@
+id: opa.tcs.quantum-computing.quantum-supremacy-for-sampling-problems
+kind: problem
+title: Quantum Supremacy for Sampling Problems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can one prove unconditionally that no classical computer can efficiently sample from the output distribution
+    of a random quantum circuit?
+sources:
+  canonical:
+  - source_id: src_aaronson_2023
+    kind: website
+    url: https://arxiv.org/abs/2306.07462
+  status_evidence:
+  - source_id: src_aaronson_2023
+    kind: website
+    url: https://arxiv.org/abs/2306.07462
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

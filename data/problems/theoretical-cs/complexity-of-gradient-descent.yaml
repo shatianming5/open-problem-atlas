@@ -1,0 +1,32 @@
+id: opa.tcs.optimization-complexity.complexity-of-gradient-descent
+kind: problem
+title: Complexity of Gradient Descent
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- optimization-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is gradient descent on non-convex functions PPAD-complete in general, or are there natural classes of functions
+    where it converges in polynomial time?
+sources:
+  canonical:
+  - source_id: src_daskalakis_2022
+    kind: website
+    url: https://arxiv.org/abs/2209.06025
+  status_evidence:
+  - source_id: src_daskalakis_2022
+    kind: website
+    url: https://arxiv.org/abs/2209.06025
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

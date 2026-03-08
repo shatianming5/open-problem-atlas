@@ -1,0 +1,32 @@
+id: opa.mathematics.dynamical-systems.smale-s-problem-on-the-number-of-equilibria
+kind: problem
+title: Smale's Problem on the Number of Equilibria
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- dynamical-systems
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the number of isolated equilibria of a polynomial vector field on R^n bounded by a function of the degree
+    and dimension?
+sources:
+  canonical:
+  - source_id: src_smale_1998b
+    kind: website
+    url: https://en.wikipedia.org/wiki/Smale%27s_problems
+  status_evidence:
+  - source_id: src_smale_1998b
+    kind: website
+    url: https://en.wikipedia.org/wiki/Smale%27s_problems
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

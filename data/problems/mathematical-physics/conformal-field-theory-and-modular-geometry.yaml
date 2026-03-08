@@ -1,0 +1,32 @@
+id: opa.phys.conformal-field-theory.conformal-field-theory-and-modular-geometry
+kind: problem
+title: Conformal Field Theory and Modular Geometry
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- conformal-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can conformal field theory partition functions be fully classified using the theory of modular forms and vertex
+    operator algebras for all central charges?
+sources:
+  canonical:
+  - source_id: src_schellekens_2023
+    kind: website
+    url: https://arxiv.org/abs/2302.12247
+  status_evidence:
+  - source_id: src_schellekens_2023
+    kind: website
+    url: https://arxiv.org/abs/2302.12247
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

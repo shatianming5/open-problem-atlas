@@ -1,0 +1,32 @@
+id: opa.tcs.complexity-theory.time-space-tradeoffs-for-sat
+kind: problem
+title: Time-Space Tradeoffs for SAT
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can SAT be solved simultaneously in polynomial space and sub-exponential time? What are the optimal time-space
+    tradeoffs?
+sources:
+  canonical:
+  - source_id: src_williams_2008
+    kind: website
+    url: https://doi.org/10.1137/1.9781611973075.110
+  status_evidence:
+  - source_id: src_williams_2008
+    kind: website
+    url: https://doi.org/10.1137/1.9781611973075.110
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

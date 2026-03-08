@@ -1,0 +1,32 @@
+id: opa.mathematics.graph-theory.reed-s-conjecture-on-chromatic-number
+kind: problem
+title: Reed's Conjecture on Chromatic Number
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the chromatic number of a graph at most the ceiling of the average of the clique number and the maximum degree
+    plus one?
+sources:
+  canonical:
+  - source_id: src_reed_2020
+    kind: website
+    url: https://doi.org/10.1016/j.jctb.1998.09.003
+  status_evidence:
+  - source_id: src_reed_2020
+    kind: website
+    url: https://doi.org/10.1016/j.jctb.1998.09.003
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

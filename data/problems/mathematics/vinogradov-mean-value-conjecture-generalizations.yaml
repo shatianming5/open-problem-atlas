@@ -1,0 +1,31 @@
+id: opa.mathematics.harmonic-analysis.vinogradov-mean-value-conjecture-generalizations
+kind: problem
+title: Vinogradov Mean Value Conjecture Generalizations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- harmonic-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Generalize the mean value theorem for exponential sums to higher degree polynomials and number fields.
+sources:
+  canonical:
+  - source_id: src_vinogradov_1935
+    kind: website
+    url: https://en.wikipedia.org/wiki/Vinogradov%27s_mean-value_theorem
+  status_evidence:
+  - source_id: src_vinogradov_1935
+    kind: website
+    url: https://en.wikipedia.org/wiki/Vinogradov%27s_mean-value_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.mathematics.algebraic-geometry.iitaka-conjecture
+kind: problem
+title: Iitaka Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebraic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: 'For a fibration f: X -> Y of smooth projective varieties, the Kodaira dimension satisfies kappa(X) >= kappa(Y)
+    + kappa(F) where F is a general fiber.'
+sources:
+  canonical:
+  - source_id: src_iitaka_1970
+    kind: website
+    url: https://en.wikipedia.org/wiki/Iitaka_conjecture
+  status_evidence:
+  - source_id: src_iitaka_1970
+    kind: website
+    url: https://en.wikipedia.org/wiki/Iitaka_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

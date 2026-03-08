@@ -1,0 +1,32 @@
+id: opa.mathematics.functional-analysis.distortion-problem-for-hilbert-space
+kind: problem
+title: Distortion Problem for Hilbert Space
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- functional-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does the Hilbert space l^2 admit an equivalent norm such that every infinite-dimensional subspace contains vectors
+    that are distorted?
+sources:
+  canonical:
+  - source_id: src_milmanshchechtman_1986
+    kind: website
+    url: https://en.wikipedia.org/wiki/Distortion_problem
+  status_evidence:
+  - source_id: src_milmanshchechtman_1986
+    kind: website
+    url: https://en.wikipedia.org/wiki/Distortion_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

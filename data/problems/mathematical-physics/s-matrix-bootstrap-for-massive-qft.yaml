@@ -1,0 +1,32 @@
+id: opa.phys.scattering-amplitudes.s-matrix-bootstrap-for-massive-qft
+kind: problem
+title: S-Matrix Bootstrap for Massive QFT
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- scattering-amplitudes
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the S-matrix bootstrap program determine the exact scattering amplitudes for massive integrable quantum field
+    theories in 2D using only crossing symmetry and unitarity?
+sources:
+  canonical:
+  - source_id: src_paulos_2022
+    kind: website
+    url: https://arxiv.org/abs/2203.09556
+  status_evidence:
+  - source_id: src_paulos_2022
+    kind: website
+    url: https://arxiv.org/abs/2203.09556
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

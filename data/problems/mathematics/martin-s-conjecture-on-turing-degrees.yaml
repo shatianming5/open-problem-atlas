@@ -1,0 +1,32 @@
+id: opa.mathematics.logic.martin-s-conjecture-on-turing-degrees
+kind: problem
+title: Martin's Conjecture on Turing Degrees
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- logic
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Assuming the Axiom of Determinacy, every order-preserving function on the Turing degrees is either eventually
+    constant or eventually equal to a Turing jump iterate.
+sources:
+  canonical:
+  - source_id: src_martin_1980
+    kind: website
+    url: https://en.wikipedia.org/wiki/Martin%27s_conjecture
+  status_evidence:
+  - source_id: src_martin_1980
+    kind: website
+    url: https://en.wikipedia.org/wiki/Martin%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

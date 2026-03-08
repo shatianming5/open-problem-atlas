@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.equilibrium-crystal-shapes
+kind: problem
+title: Equilibrium Crystal Shapes
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the equilibrium crystal shape (Wulff shape) be derived rigorously from microscopic models at low temperature
+    for three-dimensional lattice systems?
+sources:
+  canonical:
+  - source_id: src_dobrushin_1992
+    kind: website
+    url: https://doi.org/10.1007/978-1-4612-2168-5
+  status_evidence:
+  - source_id: src_dobrushin_1992
+    kind: website
+    url: https://doi.org/10.1007/978-1-4612-2168-5
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

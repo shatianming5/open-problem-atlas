@@ -1,0 +1,32 @@
+id: opa.mathematics.analysis.pompeiu-problem
+kind: problem
+title: Pompeiu Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: If a nonempty bounded open set D in R^n has the property that every continuous function integrating to zero over
+    all congruent copies of D is identically zero, must D be a ball?
+sources:
+  canonical:
+  - source_id: src_pompeiu_1929
+    kind: website
+    url: https://en.wikipedia.org/wiki/Pompeiu_problem
+  status_evidence:
+  - source_id: src_pompeiu_1929
+    kind: website
+    url: https://en.wikipedia.org/wiki/Pompeiu_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

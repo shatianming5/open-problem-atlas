@@ -1,0 +1,32 @@
+id: opa.mathematics.probability.mixing-time-of-glauber-dynamics-for-ising-model
+kind: problem
+title: Mixing Time of Glauber Dynamics for Ising Model
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact mixing time of Glauber dynamics for the Ising model on Z^d at all temperatures, especially
+    near criticality.
+sources:
+  canonical:
+  - source_id: src_lubetzky_2012
+    kind: website
+    url: https://arxiv.org/abs/1205.0542
+  status_evidence:
+  - source_id: src_lubetzky_2012
+    kind: website
+    url: https://arxiv.org/abs/1205.0542
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

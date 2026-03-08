@@ -1,0 +1,31 @@
+id: opa.mathematics.ramsey-theory.ramsey-numbers-r-5-5-determination
+kind: problem
+title: Ramsey Numbers R(5,5) Determination
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- ramsey-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the exact value of the Ramsey number R(5,5)? Current bounds place it between 43 and 48.
+sources:
+  canonical:
+  - source_id: src_angeltveit_2024
+    kind: website
+    url: https://arxiv.org/abs/2405.18144
+  status_evidence:
+  - source_id: src_angeltveit_2024
+    kind: website
+    url: https://arxiv.org/abs/2405.18144
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

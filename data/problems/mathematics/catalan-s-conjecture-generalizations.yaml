@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.catalan-s-conjecture-generalizations
+kind: problem
+title: Catalan's Conjecture Generalizations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Beyond Mihailescu's proof that 8 and 9 are the only consecutive perfect powers, what is the structure of near-miss
+    consecutive powers x^p - y^q = c for small c?
+sources:
+  canonical:
+  - source_id: src_bennett_2021
+    kind: website
+    url: https://arxiv.org/abs/2106.02044
+  status_evidence:
+  - source_id: src_bennett_2021
+    kind: website
+    url: https://arxiv.org/abs/2106.02044
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

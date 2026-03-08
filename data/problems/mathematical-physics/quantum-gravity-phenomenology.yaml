@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.quantum-gravity-phenomenology
+kind: problem
+title: Quantum Gravity Phenomenology
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Are there detectable quantum gravity effects in astrophysical observations such as gamma-ray burst time delays,
+    modified dispersion relations, or gravitational decoherence?
+sources:
+  canonical:
+  - source_id: src_amelino-camelia_2013
+    kind: website
+    url: https://arxiv.org/abs/0806.0339
+  status_evidence:
+  - source_id: src_amelino-camelia_2013
+    kind: website
+    url: https://arxiv.org/abs/0806.0339
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

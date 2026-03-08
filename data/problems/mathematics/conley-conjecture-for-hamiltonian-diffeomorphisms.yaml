@@ -1,0 +1,32 @@
+id: opa.mathematics.dynamical-systems.conley-conjecture-for-hamiltonian-diffeomorphisms
+kind: problem
+title: Conley Conjecture for Hamiltonian Diffeomorphisms
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- dynamical-systems
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every Hamiltonian diffeomorphism of a closed symplectically aspherical manifold has infinitely many periodic
+    points.
+sources:
+  canonical:
+  - source_id: src_conley_1984
+    kind: website
+    url: https://doi.org/10.1007/s00222-009-0217-1
+  status_evidence:
+  - source_id: src_conley_1984
+    kind: website
+    url: https://doi.org/10.1007/s00222-009-0217-1
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

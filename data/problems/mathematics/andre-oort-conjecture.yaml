@@ -1,0 +1,32 @@
+id: opa.mathematics.arithmetic-geometry.andre-oort-conjecture
+kind: problem
+title: Andre-Oort Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- arithmetic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every irreducible component of the Zariski closure of a set of special points in a Shimura variety is a special
+    subvariety.
+sources:
+  canonical:
+  - source_id: src_andre_1989
+    kind: website
+    url: https://en.wikipedia.org/wiki/Andr%C3%A9%E2%80%93Oort_conjecture
+  status_evidence:
+  - source_id: src_andre_1989
+    kind: website
+    url: https://en.wikipedia.org/wiki/Andr%C3%A9%E2%80%93Oort_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

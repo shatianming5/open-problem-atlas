@@ -1,0 +1,32 @@
+id: opa.tcs.sampling-algorithms.optimal-mixing-time-of-glauber-dynamics
+kind: problem
+title: Optimal Mixing Time of Glauber Dynamics
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- sampling-algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For which spin systems does Glauber dynamics achieve O(n log n) mixing time up to the tree-uniqueness threshold,
+    generalizing recent results on the hardcore model?
+sources:
+  canonical:
+  - source_id: src_anari_2021
+    kind: website
+    url: https://arxiv.org/abs/2106.04105
+  status_evidence:
+  - source_id: src_anari_2021
+    kind: website
+    url: https://arxiv.org/abs/2106.04105
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

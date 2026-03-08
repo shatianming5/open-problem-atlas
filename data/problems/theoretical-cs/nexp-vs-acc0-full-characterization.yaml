@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.nexp-vs-acc0-full-characterization
+kind: problem
+title: NEXP vs ACC0 Full Characterization
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the precise circuit complexity of NEXP? Is NEXP contained in TC0 or does it require circuits beyond ACC0?
+sources:
+  canonical:
+  - source_id: src_williams_2014
+    kind: website
+    url: https://doi.org/10.1145/2559903
+  status_evidence:
+  - source_id: src_williams_2014
+    kind: website
+    url: https://doi.org/10.1145/2559903
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.tcs.quantum-computing.optimal-quantum-codes-for-fault-tolerance
+kind: problem
+title: Optimal Quantum Codes for Fault Tolerance
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the optimal encoding rate for quantum error-correcting codes that support fault-tolerant universal computation?
+sources:
+  canonical:
+  - source_id: src_gottesman_2014
+    kind: website
+    url: https://arxiv.org/abs/1310.2984
+  status_evidence:
+  - source_id: src_gottesman_2014
+    kind: website
+    url: https://arxiv.org/abs/1310.2984
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

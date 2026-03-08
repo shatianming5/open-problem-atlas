@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.lower-bounds-for-dynamic-graph-problems
+kind: problem
+title: Lower Bounds for Dynamic Graph Problems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can we prove unconditional polynomial lower bounds for dynamic graph problems such as dynamic shortest paths?
+sources:
+  canonical:
+  - source_id: src_patrascu_demaine_2006
+    kind: website
+    url: https://doi.org/10.1137/1.9781611973075.75
+  status_evidence:
+  - source_id: src_patrascu_demaine_2006
+    kind: website
+    url: https://doi.org/10.1137/1.9781611973075.75
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

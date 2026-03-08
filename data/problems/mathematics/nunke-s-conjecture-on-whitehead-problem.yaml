@@ -1,0 +1,31 @@
+id: opa.mathematics.homological-algebra.nunke-s-conjecture-on-whitehead-problem
+kind: problem
+title: Nunke's Conjecture on Whitehead Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- homological-algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize the abelian groups A for which Ext^1(A, Z) = 0, beyond the free abelian groups.
+sources:
+  canonical:
+  - source_id: src_nunke_1962
+    kind: website
+    url: https://en.wikipedia.org/wiki/Whitehead_problem
+  status_evidence:
+  - source_id: src_nunke_1962
+    kind: website
+    url: https://en.wikipedia.org/wiki/Whitehead_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

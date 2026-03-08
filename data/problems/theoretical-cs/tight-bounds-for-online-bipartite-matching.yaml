@@ -1,0 +1,32 @@
+id: opa.tcs.online-algorithms.tight-bounds-for-online-bipartite-matching
+kind: problem
+title: Tight Bounds for Online Bipartite Matching
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- online-algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the exact competitive ratio for online bipartite matching with free disposal under adversarial arrivals?
+    The gap between 0.5211 and 0.5368 remains open.
+sources:
+  canonical:
+  - source_id: src_huang_2021
+    kind: website
+    url: https://arxiv.org/abs/2005.08441
+  status_evidence:
+  - source_id: src_huang_2021
+    kind: website
+    url: https://arxiv.org/abs/2005.08441
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

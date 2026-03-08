@@ -1,0 +1,32 @@
+id: opa.tcs.fine-grained-complexity.hardness-of-approximation-for-edit-distance
+kind: problem
+title: Hardness of Approximation for Edit Distance
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- fine-grained-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is computing edit distance between two strings of length n in truly subquadratic time impossible, assuming SETH?
+    What is the best polynomial approximation factor achievable?
+sources:
+  canonical:
+  - source_id: src_brakensiek_2020
+    kind: website
+    url: https://arxiv.org/abs/1905.01511
+  status_evidence:
+  - source_id: src_brakensiek_2020
+    kind: website
+    url: https://arxiv.org/abs/1905.01511
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

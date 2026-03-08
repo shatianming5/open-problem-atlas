@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-thermodynamics-second-law-generalizations
+kind: problem
+title: Quantum Thermodynamics Second Law Generalizations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the complete set of second-law-like constraints governing quantum thermodynamic transitions for finite-dimensional
+    quantum systems?
+sources:
+  canonical:
+  - source_id: src_brandao_2015
+    kind: website
+    url: https://arxiv.org/abs/1305.5278
+  status_evidence:
+  - source_id: src_brandao_2015
+    kind: website
+    url: https://arxiv.org/abs/1305.5278
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

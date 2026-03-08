@@ -1,0 +1,31 @@
+id: opa.tcs.computational-geometry.crossing-number-of-complete-graphs
+kind: problem
+title: Crossing Number of Complete Graphs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- computational-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the exact crossing number of the complete graph K_n? The conjectured formula cr(K_n) = Z(n) remains unproven.
+sources:
+  canonical:
+  - source_id: src_aichholzer_et_al_2007
+    kind: website
+    url: https://doi.org/10.1016/j.comgeo.2005.09.005
+  status_evidence:
+  - source_id: src_aichholzer_et_al_2007
+    kind: website
+    url: https://doi.org/10.1016/j.comgeo.2005.09.005
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

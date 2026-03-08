@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.optimal-agnostic-learning
+kind: problem
+title: Optimal Agnostic Learning
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the optimal time complexity of agnostic learning for halfspaces with respect to arbitrary distributions?
+sources:
+  canonical:
+  - source_id: src_daniely_2016
+    kind: website
+    url: https://doi.org/10.1145/2840728.2840731
+  status_evidence:
+  - source_id: src_daniely_2016
+    kind: website
+    url: https://doi.org/10.1145/2840728.2840731
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

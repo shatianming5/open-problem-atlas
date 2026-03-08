@@ -1,0 +1,32 @@
+id: opa.mathematics.algebra.generalized-burnside-problem-for-bounded-exponent
+kind: problem
+title: Generalized Burnside Problem for Bounded Exponent
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Are there infinite finitely generated groups of bounded exponent for exponents not yet resolved? The problem
+    remains open for many odd exponents.
+sources:
+  canonical:
+  - source_id: src_adian_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Burnside_problem
+  status_evidence:
+  - source_id: src_adian_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Burnside_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

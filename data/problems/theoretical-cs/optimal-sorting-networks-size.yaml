@@ -1,0 +1,32 @@
+id: opa.tcs.circuit-complexity.optimal-sorting-networks-size
+kind: problem
+title: Optimal Sorting Networks Size
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- circuit-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the minimum number of comparators in a sorting network on n elements? The gap between the upper bound
+    O(n log n) and known lower bounds remains large.
+sources:
+  canonical:
+  - source_id: src_codish_2020
+    kind: website
+    url: https://arxiv.org/abs/1405.5754
+  status_evidence:
+  - source_id: src_codish_2020
+    kind: website
+    url: https://arxiv.org/abs/1405.5754
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

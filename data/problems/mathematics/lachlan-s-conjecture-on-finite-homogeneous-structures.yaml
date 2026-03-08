@@ -1,0 +1,31 @@
+id: opa.mathematics.model-theory.lachlan-s-conjecture-on-finite-homogeneous-structures
+kind: problem
+title: Lachlan's Conjecture on Finite Homogeneous Structures
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- model-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every finite homogeneous relational structure in a finite language is a known example.
+sources:
+  canonical:
+  - source_id: src_lachlan_1980
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homogeneous_structure
+  status_evidence:
+  - source_id: src_lachlan_1980
+    kind: website
+    url: https://en.wikipedia.org/wiki/Homogeneous_structure
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

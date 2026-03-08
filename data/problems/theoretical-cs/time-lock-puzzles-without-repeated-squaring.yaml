@@ -1,0 +1,32 @@
+id: opa.tcs.cryptography.time-lock-puzzles-without-repeated-squaring
+kind: problem
+title: Time-Lock Puzzles Without Repeated Squaring
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can time-lock puzzles be constructed without relying on the repeated squaring assumption or similar sequential
+    computation?
+sources:
+  canonical:
+  - source_id: src_rivest_shamir_wagner_1996
+    kind: website
+    url: https://people.csail.mit.edu/rivest/pubs/RSW96.pdf
+  status_evidence:
+  - source_id: src_rivest_shamir_wagner_1996
+    kind: website
+    url: https://people.csail.mit.edu/rivest/pubs/RSW96.pdf
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

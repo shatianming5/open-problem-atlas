@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.dimension-of-sle-curves
+kind: problem
+title: Dimension of SLE Curves
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact Hausdorff dimension of the SLE_kappa curve for all kappa, and of the set of double points.
+sources:
+  canonical:
+  - source_id: src_beffara_2008
+    kind: website
+    url: https://arxiv.org/abs/math/0211322
+  status_evidence:
+  - source_id: src_beffara_2008
+    kind: website
+    url: https://arxiv.org/abs/math/0211322
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

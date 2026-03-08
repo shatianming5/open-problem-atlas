@@ -1,0 +1,32 @@
+id: opa.mathematics.set-theory.suslin-hypothesis
+kind: problem
+title: Suslin Hypothesis
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- set-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is every dense complete linearly ordered set without endpoints and satisfying the countable chain condition isomorphic
+    to the real line?
+sources:
+  canonical:
+  - source_id: src_suslin_1920
+    kind: website
+    url: https://en.wikipedia.org/wiki/Suslin%27s_problem
+  status_evidence:
+  - source_id: src_suslin_1920
+    kind: website
+    url: https://en.wikipedia.org/wiki/Suslin%27s_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

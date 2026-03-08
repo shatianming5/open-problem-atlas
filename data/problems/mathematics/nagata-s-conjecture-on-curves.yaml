@@ -1,0 +1,32 @@
+id: opa.mathematics.algebraic-geometry.nagata-s-conjecture-on-curves
+kind: problem
+title: Nagata's Conjecture on Curves
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebraic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: If r >= 10 points in general position in the projective plane are blown up, the resulting surface has no curves
+    of negative self-intersection below a certain bound.
+sources:
+  canonical:
+  - source_id: src_nagata_1959
+    kind: website
+    url: https://en.wikipedia.org/wiki/Nagata%27s_conjecture_on_curves
+  status_evidence:
+  - source_id: src_nagata_1959
+    kind: website
+    url: https://en.wikipedia.org/wiki/Nagata%27s_conjecture_on_curves
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

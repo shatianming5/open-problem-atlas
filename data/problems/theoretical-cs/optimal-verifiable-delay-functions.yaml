@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.optimal-verifiable-delay-functions
+kind: problem
+title: Optimal Verifiable Delay Functions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can verifiable delay functions be constructed with minimal overhead and based on well-studied hardness assumptions?
+sources:
+  canonical:
+  - source_id: src_boneh_bonneau_bunz_fisch_2018
+    kind: website
+    url: https://doi.org/10.1007/978-3-030-26948-7_25
+  status_evidence:
+  - source_id: src_boneh_bonneau_bunz_fisch_2018
+    kind: website
+    url: https://doi.org/10.1007/978-3-030-26948-7_25
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

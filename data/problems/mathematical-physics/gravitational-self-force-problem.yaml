@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.gravitational-self-force-problem
+kind: problem
+title: Gravitational Self-Force Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the gravitational self-force on a compact object in a curved background be computed to sufficiently high
+    order to model extreme mass ratio inspirals for LISA?
+sources:
+  canonical:
+  - source_id: src_barack_2009
+    kind: website
+    url: https://arxiv.org/abs/0908.1664
+  status_evidence:
+  - source_id: src_barack_2009
+    kind: website
+    url: https://arxiv.org/abs/0908.1664
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

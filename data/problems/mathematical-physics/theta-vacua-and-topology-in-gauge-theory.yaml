@@ -1,0 +1,32 @@
+id: opa.phys.quantum-field-theory.theta-vacua-and-topology-in-gauge-theory
+kind: problem
+title: Theta Vacua and Topology in Gauge Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the topological structure of the QCD vacuum and theta dependence be computed non-perturbatively without lattice
+    discretization artifacts?
+sources:
+  canonical:
+  - source_id: src_vicari_2009
+    kind: website
+    url: https://arxiv.org/abs/0803.1593
+  status_evidence:
+  - source_id: src_vicari_2009
+    kind: website
+    url: https://arxiv.org/abs/0803.1593
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

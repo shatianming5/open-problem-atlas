@@ -1,0 +1,32 @@
+id: opa.phys.condensed-matter-theory.weyl-semimetal-anomalous-transport
+kind: problem
+title: Weyl Semimetal Anomalous Transport
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the chiral anomaly and associated anomalous magnetotransport be unambiguously demonstrated in Weyl semimetals,
+    separating from other magnetoresistance mechanisms?
+sources:
+  canonical:
+  - source_id: src_armitage_2018
+    kind: website
+    url: https://arxiv.org/abs/1705.01111
+  status_evidence:
+  - source_id: src_armitage_2018
+    kind: website
+    url: https://arxiv.org/abs/1705.01111
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

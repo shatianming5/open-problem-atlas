@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.learning-mixtures-of-gaussians
+kind: problem
+title: Learning Mixtures of Gaussians
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the optimal sample complexity for learning a mixture of k Gaussians in R^d in total variation distance?
+sources:
+  canonical:
+  - source_id: src_moitra_valiant_2010
+    kind: website
+    url: https://doi.org/10.1109/FOCS.2010.85
+  status_evidence:
+  - source_id: src_moitra_valiant_2010
+    kind: website
+    url: https://doi.org/10.1109/FOCS.2010.85
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

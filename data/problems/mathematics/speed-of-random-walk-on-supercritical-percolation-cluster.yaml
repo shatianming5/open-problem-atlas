@@ -1,0 +1,32 @@
+id: opa.mathematics.probability.speed-of-random-walk-on-supercritical-percolation-cluster
+kind: problem
+title: Speed of Random Walk on Supercritical Percolation Cluster
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Determine the exact speed of simple random walk on the infinite cluster of supercritical Bernoulli percolation
+    on Z^d.
+sources:
+  canonical:
+  - source_id: src_berger_2007
+    kind: website
+    url: https://arxiv.org/abs/math/0610243
+  status_evidence:
+  - source_id: src_berger_2007
+    kind: website
+    url: https://arxiv.org/abs/math/0610243
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

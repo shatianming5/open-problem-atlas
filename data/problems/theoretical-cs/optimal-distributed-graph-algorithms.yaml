@@ -1,0 +1,31 @@
+id: opa.tcs.distributed-computing.optimal-distributed-graph-algorithms
+kind: problem
+title: Optimal Distributed Graph Algorithms
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- distributed-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the exact round complexity of computing minimum spanning tree in the CONGEST model of distributed computing?
+sources:
+  canonical:
+  - source_id: src_elkin_2022
+    kind: website
+    url: https://arxiv.org/abs/2205.05040
+  status_evidence:
+  - source_id: src_elkin_2022
+    kind: website
+    url: https://arxiv.org/abs/2205.05040
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

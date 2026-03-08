@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.optimal-zero-knowledge-proofs-for-np
+kind: problem
+title: Optimal Zero-Knowledge Proofs for NP
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the optimal round complexity and communication complexity of zero-knowledge proofs for all of NP?
+sources:
+  canonical:
+  - source_id: src_goldreich_micali_wigderson_1991
+    kind: website
+    url: https://doi.org/10.1145/116825.116852
+  status_evidence:
+  - source_id: src_goldreich_micali_wigderson_1991
+    kind: website
+    url: https://doi.org/10.1145/116825.116852
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

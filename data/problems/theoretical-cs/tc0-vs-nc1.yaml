@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.tc0-vs-nc1
+kind: problem
+title: TC0 vs NC1
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is TC0 strictly contained in NC1? Separating these classes would yield important circuit lower bounds.
+sources:
+  canonical:
+  - source_id: src_arora_barak_2009
+    kind: website
+    url: https://theory.cs.princeton.edu/complexity/
+  status_evidence:
+  - source_id: src_arora_barak_2009
+    kind: website
+    url: https://theory.cs.princeton.edu/complexity/
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

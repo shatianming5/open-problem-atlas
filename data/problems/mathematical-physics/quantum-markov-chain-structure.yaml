@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-markov-chain-structure
+kind: problem
+title: Quantum Markov Chain Structure
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can every quantum state satisfying the approximate quantum Markov chain condition be recovered by a local recovery
+    map? Exact conditions for approximate recovery remain unclear.
+sources:
+  canonical:
+  - source_id: src_fawzi_2015
+    kind: website
+    url: https://arxiv.org/abs/1410.0664
+  status_evidence:
+  - source_id: src_fawzi_2015
+    kind: website
+    url: https://arxiv.org/abs/1410.0664
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

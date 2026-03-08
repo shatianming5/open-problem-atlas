@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.purely-functional-data-structures-optimality
+kind: problem
+title: Purely Functional Data Structures Optimality
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can every data structure be made purely functional with at most O(log n) overhead per operation?
+sources:
+  canonical:
+  - source_id: src_okasaki_1998
+    kind: website
+    url: https://doi.org/10.1017/CBO9780511530043
+  status_evidence:
+  - source_id: src_okasaki_1998
+    kind: website
+    url: https://doi.org/10.1017/CBO9780511530043
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

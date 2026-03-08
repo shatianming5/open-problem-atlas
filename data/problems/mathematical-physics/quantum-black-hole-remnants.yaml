@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.quantum-black-hole-remnants
+kind: problem
+title: Quantum Black Hole Remnants
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Do black holes leave stable remnants at the end of Hawking evaporation, and if so, what are their properties
+    and observational signatures?
+sources:
+  canonical:
+  - source_id: src_chen_2015
+    kind: website
+    url: https://arxiv.org/abs/1412.8366
+  status_evidence:
+  - source_id: src_chen_2015
+    kind: website
+    url: https://arxiv.org/abs/1412.8366
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

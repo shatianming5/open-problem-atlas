@@ -1,0 +1,32 @@
+id: opa.mathematics.mathematical-physics.quantum-unique-ergodicity-conjecture
+kind: problem
+title: Quantum Unique Ergodicity Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For negatively curved manifolds, eigenfunctions of the Laplacian become equidistributed in the semiclassical
+    limit.
+sources:
+  canonical:
+  - source_id: src_rudnicksarnak_1994
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_unique_ergodicity_conjecture
+  status_evidence:
+  - source_id: src_rudnicksarnak_1994
+    kind: website
+    url: https://en.wikipedia.org/wiki/Quantum_unique_ergodicity_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

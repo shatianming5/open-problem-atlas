@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.whitehead-asphericity-conjecture
+kind: problem
+title: Whitehead Asphericity Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every subcomplex of an aspherical 2-complex is itself aspherical.
+sources:
+  canonical:
+  - source_id: src_whitehead_1941
+    kind: website
+    url: https://en.wikipedia.org/wiki/Whitehead_conjecture
+  status_evidence:
+  - source_id: src_whitehead_1941
+    kind: website
+    url: https://en.wikipedia.org/wiki/Whitehead_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

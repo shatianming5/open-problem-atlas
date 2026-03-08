@@ -1,0 +1,31 @@
+id: opa.tcs.hardness-of-approximation.khot-minzer-safra-2-to-2-games-theorem-extensions
+kind: problem
+title: Khot-Minzer-Safra 2-to-2 Games Theorem Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- hardness-of-approximation
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Khot-Minzer-Safra 2-to-2 games theorem be strengthened to fully resolve the Unique Games Conjecture?
+sources:
+  canonical:
+  - source_id: src_khot_2023
+    kind: website
+    url: https://arxiv.org/abs/2306.09111
+  status_evidence:
+  - source_id: src_khot_2023
+    kind: website
+    url: https://arxiv.org/abs/2306.09111
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

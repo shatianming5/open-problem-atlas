@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.entropy-production-in-biological-systems
+kind: problem
+title: Entropy Production in Biological Systems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can minimum entropy production principles or thermodynamic bounds constrain the efficiency and design of biological
+    molecular machines?
+sources:
+  canonical:
+  - source_id: src_seifert_2019
+    kind: website
+    url: https://arxiv.org/abs/1901.00953
+  status_evidence:
+  - source_id: src_seifert_2019
+    kind: website
+    url: https://arxiv.org/abs/1901.00953
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

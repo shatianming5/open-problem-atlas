@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.alon-tarsi-conjecture-on-latin-squares
+kind: problem
+title: Alon-Tarsi Conjecture on Latin Squares
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For even n, the number of even Latin squares of order n differs from the number of odd Latin squares.
+sources:
+  canonical:
+  - source_id: src_alon_1992
+    kind: website
+    url: https://en.wikipedia.org/wiki/Alon%E2%80%93Tarsi_conjecture
+  status_evidence:
+  - source_id: src_alon_1992
+    kind: website
+    url: https://en.wikipedia.org/wiki/Alon%E2%80%93Tarsi_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

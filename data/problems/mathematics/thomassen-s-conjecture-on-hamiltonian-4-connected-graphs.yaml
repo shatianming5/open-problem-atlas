@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.thomassen-s-conjecture-on-hamiltonian-4-connected-graphs
+kind: problem
+title: Thomassen's Conjecture on Hamiltonian 4-Connected Graphs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every 4-connected line graph is Hamiltonian.
+sources:
+  canonical:
+  - source_id: src_thomassen_1986
+    kind: website
+    url: https://doi.org/10.1002/jgt.3190100211
+  status_evidence:
+  - source_id: src_thomassen_1986
+    kind: website
+    url: https://doi.org/10.1002/jgt.3190100211
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

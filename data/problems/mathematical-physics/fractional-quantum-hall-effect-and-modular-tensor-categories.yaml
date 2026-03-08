@@ -1,0 +1,32 @@
+id: opa.phys.topological-order.fractional-quantum-hall-effect-and-modular-tensor-categories
+kind: problem
+title: Fractional Quantum Hall Effect and Modular Tensor Categories
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- topological-order
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the topological order in fractional quantum Hall states be fully classified using modular tensor categories
+    and unitary fusion categories?
+sources:
+  canonical:
+  - source_id: src_wen_2021
+    kind: website
+    url: https://arxiv.org/abs/2106.08457
+  status_evidence:
+  - source_id: src_wen_2021
+    kind: website
+    url: https://arxiv.org/abs/2106.08457
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

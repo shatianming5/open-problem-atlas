@@ -1,0 +1,32 @@
+id: opa.mathematics.dynamical-systems.regularity-of-lyapunov-exponents
+kind: problem
+title: Regularity of Lyapunov Exponents
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- dynamical-systems
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Are the Lyapunov exponents of a smooth dynamical system continuous functions of the parameter? Establish regularity
+    for specific families like the standard map.
+sources:
+  canonical:
+  - source_id: src_young_2002
+    kind: website
+    url: https://doi.org/10.1007/s002200200667
+  status_evidence:
+  - source_id: src_young_2002
+    kind: website
+    url: https://doi.org/10.1007/s002200200667
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

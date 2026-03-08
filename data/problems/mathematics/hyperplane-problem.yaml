@@ -1,0 +1,32 @@
+id: opa.mathematics.functional-analysis.hyperplane-problem
+kind: problem
+title: Hyperplane Problem
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- functional-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does every infinite-dimensional Banach space have a hyperplane (closed subspace of codimension 1) that is isomorphic
+    to the whole space?
+sources:
+  canonical:
+  - source_id: src_banach_1932
+    kind: website
+    url: https://en.wikipedia.org/wiki/Banach_space
+  status_evidence:
+  - source_id: src_banach_1932
+    kind: website
+    url: https://en.wikipedia.org/wiki/Banach_space
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

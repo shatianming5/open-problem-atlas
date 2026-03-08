@@ -1,0 +1,32 @@
+id: opa.mathematics.combinatorial-geometry.polymath16-hadwiger-nelson-improvements
+kind: problem
+title: 'Polymath16: Hadwiger-Nelson Improvements'
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorial-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can collaborative mathematical efforts further improve the lower bound of 5 for the chromatic number of the plane
+    found by de Grey?
+sources:
+  canonical:
+  - source_id: src_polymath_2020
+    kind: website
+    url: https://dustingmixon.wordpress.com/2018/04/14/polymath16-project/
+  status_evidence:
+  - source_id: src_polymath_2020
+    kind: website
+    url: https://dustingmixon.wordpress.com/2018/04/14/polymath16-project/
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.tcs.quantum-computing.optimal-depth-for-quantum-circuits
+kind: problem
+title: Optimal Depth for Quantum Circuits
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the minimum depth of a quantum circuit needed to prepare topologically ordered states, and does this
+    match theoretical lower bounds from circuit complexity?
+sources:
+  canonical:
+  - source_id: src_bravyi_2022
+    kind: website
+    url: https://arxiv.org/abs/2210.06796
+  status_evidence:
+  - source_id: src_bravyi_2022
+    kind: website
+    url: https://arxiv.org/abs/2210.06796
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

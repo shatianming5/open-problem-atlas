@@ -1,0 +1,32 @@
+id: opa.mathematics.mathematical-physics.lieb-thirring-conjecture
+kind: problem
+title: Lieb-Thirring Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The sharp constant in the Lieb-Thirring inequality for the sum of negative eigenvalues of Schrodinger operators
+    equals the semiclassical value.
+sources:
+  canonical:
+  - source_id: src_liebthirring_1976
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lieb%E2%80%93Thirring_inequality
+  status_evidence:
+  - source_id: src_liebthirring_1976
+    kind: website
+    url: https://en.wikipedia.org/wiki/Lieb%E2%80%93Thirring_inequality
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

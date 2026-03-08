@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.maximum-entropy-production-principle
+kind: problem
+title: Maximum Entropy Production Principle
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is there a rigorous maximum entropy production principle for nonequilibrium steady states, and under what conditions
+    does it hold?
+sources:
+  canonical:
+  - source_id: src_martyushev_2006
+    kind: website
+    url: https://doi.org/10.1016/j.physrep.2006.08.002
+  status_evidence:
+  - source_id: src_martyushev_2006
+    kind: website
+    url: https://doi.org/10.1016/j.physrep.2006.08.002
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

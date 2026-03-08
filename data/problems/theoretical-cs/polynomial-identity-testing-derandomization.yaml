@@ -1,0 +1,32 @@
+id: opa.tcs.algebraic-complexity.polynomial-identity-testing-derandomization
+kind: problem
+title: Polynomial Identity Testing Derandomization
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algebraic-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can polynomial identity testing be derandomized in polynomial time, providing a hitting set generator for arithmetic
+    circuits?
+sources:
+  canonical:
+  - source_id: src_agrawal_2021
+    kind: website
+    url: https://arxiv.org/abs/2107.12386
+  status_evidence:
+  - source_id: src_agrawal_2021
+    kind: website
+    url: https://arxiv.org/abs/2107.12386
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

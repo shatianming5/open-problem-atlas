@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.irrationality-measure-of-pi
+kind: problem
+title: Irrationality Measure of Pi
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the exact irrationality measure mu(pi)? It is known that 2 <= mu(pi) <= 7.103, but the exact value is
+    unknown.
+sources:
+  canonical:
+  - source_id: src_salikhov_2008
+    kind: website
+    url: https://en.wikipedia.org/wiki/Irrationality_measure
+  status_evidence:
+  - source_id: src_salikhov_2008
+    kind: website
+    url: https://en.wikipedia.org/wiki/Irrationality_measure
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

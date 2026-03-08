@@ -1,0 +1,32 @@
+id: opa.tcs.quantum-computing.quantum-complexity-of-approximate-counting
+kind: problem
+title: Quantum Complexity of Approximate Counting
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the exact quantum query complexity of approximate counting? Can quantum computers count n marked items
+    out of N with fewer than O(sqrt(N/n)) queries?
+sources:
+  canonical:
+  - source_id: src_brassard_hoyer_tapp_1998
+    kind: website
+    url: https://doi.org/10.1007/BFb0054319
+  status_evidence:
+  - source_id: src_brassard_hoyer_tapp_1998
+    kind: website
+    url: https://doi.org/10.1007/BFb0054319
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

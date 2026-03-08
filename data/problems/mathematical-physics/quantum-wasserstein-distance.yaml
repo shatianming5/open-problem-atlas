@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-wasserstein-distance
+kind: problem
+title: Quantum Wasserstein Distance
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is there a canonical definition of quantum optimal transport that unifies the various proposed quantum Wasserstein
+    distances and retains classical properties?
+sources:
+  canonical:
+  - source_id: src_demaorais_2022
+    kind: website
+    url: https://arxiv.org/abs/2102.07787
+  status_evidence:
+  - source_id: src_demaorais_2022
+    kind: website
+    url: https://arxiv.org/abs/2102.07787
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

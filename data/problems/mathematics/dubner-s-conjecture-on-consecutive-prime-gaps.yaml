@@ -1,0 +1,31 @@
+id: opa.mathematics.number-theory.dubner-s-conjecture-on-consecutive-prime-gaps
+kind: problem
+title: Dubner's Conjecture on Consecutive Prime Gaps
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For every integer k, there exist k consecutive primes in arithmetic progression.
+sources:
+  canonical:
+  - source_id: src_green_2004
+    kind: website
+    url: https://en.wikipedia.org/wiki/Primes_in_arithmetic_progression
+  status_evidence:
+  - source_id: src_green_2004
+    kind: website
+    url: https://en.wikipedia.org/wiki/Primes_in_arithmetic_progression
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.phys.mathematical-physics.mathematical-structure-of-perturbative-qft
+kind: problem
+title: Mathematical Structure of Perturbative QFT
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is there a complete mathematical understanding of why perturbative quantum field theory works, including the
+    role of the Epstein-Glaser approach and causal perturbation theory?
+sources:
+  canonical:
+  - source_id: src_rejzner_2016
+    kind: website
+    url: https://doi.org/10.1007/978-3-319-25901-7
+  status_evidence:
+  - source_id: src_rejzner_2016
+    kind: website
+    url: https://doi.org/10.1007/978-3-319-25901-7
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

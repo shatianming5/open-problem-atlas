@@ -1,0 +1,32 @@
+id: opa.tcs.information-theory.broadcast-channel-capacity-region
+kind: problem
+title: Broadcast Channel Capacity Region
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- information-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the capacity region of the general broadcast channel? Marton's inner bound is conjectured to be tight
+    but this is unproven.
+sources:
+  canonical:
+  - source_id: src_marton_1979
+    kind: website
+    url: https://doi.org/10.1109/TIT.1979.1056071
+  status_evidence:
+  - source_id: src_marton_1979
+    kind: website
+    url: https://doi.org/10.1109/TIT.1979.1056071
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

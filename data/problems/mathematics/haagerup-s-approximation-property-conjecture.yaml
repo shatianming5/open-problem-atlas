@@ -1,0 +1,31 @@
+id: opa.mathematics.operator-algebras.haagerup-s-approximation-property-conjecture
+kind: problem
+title: Haagerup's Approximation Property Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- operator-algebras
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize groups whose reduced C*-algebra or group von Neumann algebra has the Haagerup property.
+sources:
+  canonical:
+  - source_id: src_haagerup_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Haagerup_property
+  status_evidence:
+  - source_id: src_haagerup_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Haagerup_property
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.critical-casimir-effect-universality
+kind: problem
+title: Critical Casimir Effect Universality
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Are the universal scaling functions for critical Casimir forces fully determined for all boundary condition combinations
+    and geometries?
+sources:
+  canonical:
+  - source_id: src_gambassi_2009
+    kind: website
+    url: https://arxiv.org/abs/0812.0935
+  status_evidence:
+  - source_id: src_gambassi_2009
+    kind: website
+    url: https://arxiv.org/abs/0812.0935
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

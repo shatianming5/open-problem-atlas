@@ -1,0 +1,31 @@
+id: opa.mathematics.discrete-geometry.mahler-s-conjecture
+kind: problem
+title: Mahler's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- discrete-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Mahler volume of a centrally symmetric convex body in R^n is minimized by the hypercube.
+sources:
+  canonical:
+  - source_id: src_mahler_1939
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mahler_volume
+  status_evidence:
+  - source_id: src_mahler_1939
+    kind: website
+    url: https://en.wikipedia.org/wiki/Mahler_volume
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

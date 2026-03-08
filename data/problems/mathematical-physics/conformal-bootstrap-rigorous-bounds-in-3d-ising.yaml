@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.conformal-bootstrap-rigorous-bounds-in-3d-ising
+kind: problem
+title: Conformal Bootstrap Rigorous Bounds in 3D Ising
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the conformal bootstrap program produce rigorous mathematical proofs of the critical exponents of the 3D
+    Ising model matching numerical results?
+sources:
+  canonical:
+  - source_id: src_elshowk_2021
+    kind: website
+    url: https://arxiv.org/abs/1203.6064
+  status_evidence:
+  - source_id: src_elshowk_2021
+    kind: website
+    url: https://arxiv.org/abs/1203.6064
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.tcs.information-theory.two-helper-source-coding
+kind: problem
+title: Two-Helper Source Coding
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- information-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the rate region for distributed source coding with two helpers? The Berger-Tung inner bound is not known
+    to be tight.
+sources:
+  canonical:
+  - source_id: src_berger_1977
+    kind: website
+    url: https://doi.org/10.1137/1.9781611970104
+  status_evidence:
+  - source_id: src_berger_1977
+    kind: website
+    url: https://doi.org/10.1137/1.9781611970104
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

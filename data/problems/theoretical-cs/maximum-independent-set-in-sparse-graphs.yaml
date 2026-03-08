@@ -1,0 +1,31 @@
+id: opa.tcs.graph-algorithms.maximum-independent-set-in-sparse-graphs
+kind: problem
+title: Maximum Independent Set in Sparse Graphs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can maximum independent set in graphs of bounded average degree be approximated better than the general case?
+sources:
+  canonical:
+  - source_id: src_hastad_1999
+    kind: website
+    url: https://doi.org/10.1007/BF01215920
+  status_evidence:
+  - source_id: src_hastad_1999
+    kind: website
+    url: https://doi.org/10.1007/BF01215920
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

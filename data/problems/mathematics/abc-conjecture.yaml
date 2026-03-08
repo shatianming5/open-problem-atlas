@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.abc-conjecture
+kind: problem
+title: ABC Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For every epsilon > 0 there exist only finitely many triples (a, b, c) of coprime positive integers with a +
+    b = c such that c > rad(abc)^(1+epsilon), where rad(n) is the product of the distinct prime factors of n.
+sources:
+  canonical:
+  - source_id: src_masser_oesterle_1985
+    kind: website
+    url: https://en.wikipedia.org/wiki/Abc_conjecture
+  status_evidence:
+  - source_id: src_masser_oesterle_1985
+    kind: website
+    url: https://en.wikipedia.org/wiki/Abc_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

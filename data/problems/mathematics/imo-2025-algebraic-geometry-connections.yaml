@@ -1,0 +1,32 @@
+id: opa.mathematics.competition-geometry.imo-2025-algebraic-geometry-connections
+kind: problem
+title: IMO 2025 Algebraic Geometry Connections
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- competition-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can recent IMO geometry problems be systematically resolved using algebraic geometry and computational algebraic
+    methods?
+sources:
+  canonical:
+  - source_id: src_evan_chen_2025
+    kind: website
+    url: https://web.evanchen.cc/problems.html
+  status_evidence:
+  - source_id: src_evan_chen_2025
+    kind: website
+    url: https://web.evanchen.cc/problems.html
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

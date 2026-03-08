@@ -1,0 +1,31 @@
+id: opa.mathematics.probability.conformal-invariance-of-3d-ising-model
+kind: problem
+title: Conformal Invariance of 3D Ising Model
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- probability
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Prove that the scaling limit of the 3D Ising model at criticality is conformally invariant.
+sources:
+  canonical:
+  - source_id: src_polyakov_1970
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ising_model
+  status_evidence:
+  - source_id: src_polyakov_1970
+    kind: website
+    url: https://en.wikipedia.org/wiki/Ising_model
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

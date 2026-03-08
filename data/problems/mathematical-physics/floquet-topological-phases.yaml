@@ -1,0 +1,32 @@
+id: opa.phys.condensed-matter-theory.floquet-topological-phases
+kind: problem
+title: Floquet Topological Phases
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can Floquet topological phases that have no static counterpart be stabilized against heating in many-body interacting
+    systems?
+sources:
+  canonical:
+  - source_id: src_rudner_2013
+    kind: website
+    url: https://arxiv.org/abs/1212.3324
+  status_evidence:
+  - source_id: src_rudner_2013
+    kind: website
+    url: https://arxiv.org/abs/1212.3324
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

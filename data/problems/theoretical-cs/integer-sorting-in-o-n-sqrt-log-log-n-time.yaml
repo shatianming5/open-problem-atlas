@@ -1,0 +1,32 @@
+id: opa.tcs.algorithms.integer-sorting-in-o-n-sqrt-log-log-n-time
+kind: problem
+title: Integer Sorting in O(n sqrt(log log n)) Time
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can n integers be sorted in linear time in the word RAM model? The best known is O(n sqrt(log log n)) by Han
+    and Thorup.
+sources:
+  canonical:
+  - source_id: src_han_thorup_2002
+    kind: website
+    url: https://doi.org/10.1109/SFCS.2002.1181890
+  status_evidence:
+  - source_id: src_han_thorup_2002
+    kind: website
+    url: https://doi.org/10.1109/SFCS.2002.1181890
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

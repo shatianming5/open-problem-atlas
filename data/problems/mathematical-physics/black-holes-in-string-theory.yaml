@@ -1,0 +1,32 @@
+id: opa.phys.string-theory.black-holes-in-string-theory
+kind: problem
+title: Black Holes in String Theory
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- string-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the fuzzball proposal resolve the black hole information paradox by replacing the classical interior geometry
+    with a stringy microstate geometry for all black holes?
+sources:
+  canonical:
+  - source_id: src_mathur_2005
+    kind: website
+    url: https://arxiv.org/abs/hep-th/0502050
+  status_evidence:
+  - source_id: src_mathur_2005
+    kind: website
+    url: https://arxiv.org/abs/hep-th/0502050
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

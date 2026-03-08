@@ -1,0 +1,32 @@
+id: opa.phys.quantum-field-theory.emergent-gauge-symmetry
+kind: problem
+title: Emergent Gauge Symmetry
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Under what conditions can gauge symmetry emerge as an accidental low-energy symmetry from a fundamentally non-gauge
+    theory?
+sources:
+  canonical:
+  - source_id: src_wen_2002
+    kind: website
+    url: https://arxiv.org/abs/hep-th/0210040
+  status_evidence:
+  - source_id: src_wen_2002
+    kind: website
+    url: https://arxiv.org/abs/hep-th/0210040
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

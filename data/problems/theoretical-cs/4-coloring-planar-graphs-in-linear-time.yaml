@@ -1,0 +1,31 @@
+id: opa.tcs.graph-algorithms.4-coloring-planar-graphs-in-linear-time
+kind: problem
+title: 4-Coloring Planar Graphs in Linear Time
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can every planar graph be 4-colored in provably linear time? Current algorithms have large hidden constants.
+sources:
+  canonical:
+  - source_id: src_robertson_sanders_seymour_thomas_1997
+    kind: website
+    url: https://doi.org/10.1006/jctb.1997.1750
+  status_evidence:
+  - source_id: src_robertson_sanders_seymour_thomas_1997
+    kind: website
+    url: https://doi.org/10.1006/jctb.1997.1750
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

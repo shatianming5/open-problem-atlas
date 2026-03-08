@@ -1,0 +1,32 @@
+id: opa.tcs.algorithms.linear-time-deterministic-median-finding-optimal-constants
+kind: problem
+title: Linear-Time Deterministic Median Finding Optimal Constants
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the minimum number of comparisons needed to find the median of n elements? The exact constant in the
+    linear bound is unknown.
+sources:
+  canonical:
+  - source_id: src_blum_et_al_1973
+    kind: website
+    url: https://doi.org/10.1016/S0022-0000(73)80033-9
+  status_evidence:
+  - source_id: src_blum_et_al_1973
+    kind: website
+    url: https://doi.org/10.1016/S0022-0000(73)80033-9
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

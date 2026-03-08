@@ -1,0 +1,32 @@
+id: opa.mathematics.additive-combinatorics.furstenberg-bergelson-leibman-conjecture
+kind: problem
+title: Furstenberg-Bergelson-Leibman Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- additive-combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does every set of positive upper density contain polynomial progressions of arbitrary length, extending the polynomial
+    Szemeredi theorem to all configurations?
+sources:
+  canonical:
+  - source_id: src_peluse_2022
+    kind: website
+    url: https://arxiv.org/abs/2203.07269
+  status_evidence:
+  - source_id: src_peluse_2022
+    kind: website
+    url: https://arxiv.org/abs/2203.07269
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

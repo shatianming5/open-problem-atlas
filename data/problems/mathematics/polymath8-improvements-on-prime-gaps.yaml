@@ -1,0 +1,32 @@
+id: opa.mathematics.analytic-number-theory.polymath8-improvements-on-prime-gaps
+kind: problem
+title: Polymath8 Improvements on Prime Gaps
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analytic-number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Polymath8 methods further reduce the bound H_1 on the gap between consecutive primes below 246, or is
+    a fundamentally new idea required?
+sources:
+  canonical:
+  - source_id: src_polymath8_2020
+    kind: website
+    url: https://arxiv.org/abs/1407.4897
+  status_evidence:
+  - source_id: src_polymath8_2020
+    kind: website
+    url: https://arxiv.org/abs/1407.4897
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

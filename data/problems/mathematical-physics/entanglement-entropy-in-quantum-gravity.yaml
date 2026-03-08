@@ -1,0 +1,32 @@
+id: opa.phys.holography.entanglement-entropy-in-quantum-gravity
+kind: problem
+title: Entanglement Entropy in Quantum Gravity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- holography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Ryu-Takayanagi formula for holographic entanglement entropy be derived from first principles in a fully
+    non-perturbative quantum gravity setting?
+sources:
+  canonical:
+  - source_id: src_engelhardt_2023
+    kind: website
+    url: https://arxiv.org/abs/2304.09892
+  status_evidence:
+  - source_id: src_engelhardt_2023
+    kind: website
+    url: https://arxiv.org/abs/2304.09892
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.quantum-thermalization-timescales
+kind: problem
+title: Quantum Thermalization Timescales
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What are the rigorous bounds on thermalization timescales for generic quantum many-body systems, and when can
+    thermalization fail?
+sources:
+  canonical:
+  - source_id: src_gogolin_2016
+    kind: website
+    url: https://arxiv.org/abs/1503.07538
+  status_evidence:
+  - source_id: src_gogolin_2016
+    kind: website
+    url: https://arxiv.org/abs/1503.07538
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

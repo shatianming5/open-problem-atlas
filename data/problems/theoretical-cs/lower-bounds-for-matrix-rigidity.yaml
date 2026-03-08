@@ -1,0 +1,32 @@
+id: opa.tcs.algebraic-complexity.lower-bounds-for-matrix-rigidity
+kind: problem
+title: Lower Bounds for Matrix Rigidity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algebraic-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can one prove superlinear rigidity lower bounds for an explicit matrix family, a key step toward arithmetic circuit
+    lower bounds?
+sources:
+  canonical:
+  - source_id: src_alman_2021
+    kind: website
+    url: https://arxiv.org/abs/2105.02060
+  status_evidence:
+  - source_id: src_alman_2021
+    kind: website
+    url: https://arxiv.org/abs/2105.02060
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

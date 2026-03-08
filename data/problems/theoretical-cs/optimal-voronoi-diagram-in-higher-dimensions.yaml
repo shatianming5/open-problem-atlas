@@ -1,0 +1,31 @@
+id: opa.tcs.computational-geometry.optimal-voronoi-diagram-in-higher-dimensions
+kind: problem
+title: Optimal Voronoi Diagram in Higher Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- computational-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can Voronoi diagrams in R^d be computed in output-sensitive optimal time for d >= 3?
+sources:
+  canonical:
+  - source_id: src_chan_2000
+    kind: website
+    url: https://doi.org/10.1007/s004540010013
+  status_evidence:
+  - source_id: src_chan_2000
+    kind: website
+    url: https://doi.org/10.1007/s004540010013
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

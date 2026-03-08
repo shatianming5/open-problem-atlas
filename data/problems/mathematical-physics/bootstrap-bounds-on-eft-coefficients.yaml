@@ -1,0 +1,32 @@
+id: opa.phys.eft.bootstrap-bounds-on-eft-coefficients
+kind: problem
+title: Bootstrap Bounds on EFT Coefficients
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- eft
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can dispersive sum rules and positivity bounds from the S-matrix bootstrap determine exact constraints on Wilson
+    coefficients in effective field theories?
+sources:
+  canonical:
+  - source_id: src_caron_huot_2023
+    kind: website
+    url: https://arxiv.org/abs/2307.04739
+  status_evidence:
+  - source_id: src_caron_huot_2023
+    kind: website
+    url: https://arxiv.org/abs/2307.04739
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

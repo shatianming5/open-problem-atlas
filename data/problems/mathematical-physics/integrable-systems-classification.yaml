@@ -1,0 +1,32 @@
+id: opa.phys.mathematical-physics.integrable-systems-classification
+kind: problem
+title: Integrable Systems Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can all integrable partial differential equations in two dimensions be completely classified, and does integrability
+    persist under quantization?
+sources:
+  canonical:
+  - source_id: src_zakharov_1991
+    kind: website
+    url: https://doi.org/10.1007/978-3-642-88703-1
+  status_evidence:
+  - source_id: src_zakharov_1991
+    kind: website
+    url: https://doi.org/10.1007/978-3-642-88703-1
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

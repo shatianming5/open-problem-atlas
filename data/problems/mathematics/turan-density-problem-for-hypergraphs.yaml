@@ -1,0 +1,32 @@
+id: opa.mathematics.extremal-combinatorics.turan-density-problem-for-hypergraphs
+kind: problem
+title: Turan Density Problem for Hypergraphs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- extremal-combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the Turan density of the complete 3-uniform hypergraph on 4 vertices K_4^3? Determining pi(K_4^3) remains
+    one of the oldest open problems in extremal combinatorics.
+sources:
+  canonical:
+  - source_id: src_razborov_2023
+    kind: website
+    url: https://arxiv.org/abs/2310.09614
+  status_evidence:
+  - source_id: src_razborov_2023
+    kind: website
+    url: https://arxiv.org/abs/2310.09614
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

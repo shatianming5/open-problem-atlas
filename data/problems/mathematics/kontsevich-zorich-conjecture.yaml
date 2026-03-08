@@ -1,0 +1,31 @@
+id: opa.mathematics.ergodic-theory.kontsevich-zorich-conjecture
+kind: problem
+title: Kontsevich-Zorich Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- ergodic-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Lyapunov exponents of the Kontsevich-Zorich cocycle are all distinct for connected components of strata.
+sources:
+  canonical:
+  - source_id: src_kontsevichzorich_1997
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kontsevich%E2%80%93Zorich_cocycle
+  status_evidence:
+  - source_id: src_kontsevichzorich_1997
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kontsevich%E2%80%93Zorich_cocycle
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

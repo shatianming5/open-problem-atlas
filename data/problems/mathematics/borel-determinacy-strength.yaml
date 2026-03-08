@@ -1,0 +1,31 @@
+id: opa.mathematics.set-theory.borel-determinacy-strength
+kind: problem
+title: Borel Determinacy Strength
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- set-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize the optimal proof-theoretic strength needed for Borel determinacy beyond ZFC.
+sources:
+  canonical:
+  - source_id: src_martin_1975
+    kind: website
+    url: https://en.wikipedia.org/wiki/Borel_determinacy_theorem
+  status_evidence:
+  - source_id: src_martin_1975
+    kind: website
+    url: https://en.wikipedia.org/wiki/Borel_determinacy_theorem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

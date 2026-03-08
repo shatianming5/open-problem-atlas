@@ -1,0 +1,31 @@
+id: opa.tcs.quantum-computing.quantum-algorithms-for-graph-properties
+kind: problem
+title: Quantum Algorithms for Graph Properties
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-computing
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the quantum query complexity of determining graph connectivity and other monotone graph properties?
+sources:
+  canonical:
+  - source_id: src_durr_heiligman_hoyer_mhalla_2006
+    kind: website
+    url: https://doi.org/10.1007/s00453-006-0171-0
+  status_evidence:
+  - source_id: src_durr_heiligman_hoyer_mhalla_2006
+    kind: website
+    url: https://doi.org/10.1007/s00453-006-0171-0
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

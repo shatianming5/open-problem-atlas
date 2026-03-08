@@ -1,0 +1,31 @@
+id: opa.mathematics.measure-theory.kakeya-maximal-function-conjecture
+kind: problem
+title: Kakeya Maximal Function Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- measure-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Kakeya maximal function operator on R^n is bounded on L^n with a bound depending only on the dimension.
+sources:
+  canonical:
+  - source_id: src_bourgain_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kakeya_set#Kakeya_conjecture
+  status_evidence:
+  - source_id: src_bourgain_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kakeya_set#Kakeya_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

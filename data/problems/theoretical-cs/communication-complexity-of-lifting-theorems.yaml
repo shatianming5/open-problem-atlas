@@ -1,0 +1,32 @@
+id: opa.tcs.communication-complexity.communication-complexity-of-lifting-theorems
+kind: problem
+title: Communication Complexity of Lifting Theorems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- communication-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can query-to-communication lifting theorems be made tight for all query measures, providing a complete dictionary
+    between query and communication complexity?
+sources:
+  canonical:
+  - source_id: src_chattopadhyay_2022
+    kind: website
+    url: https://arxiv.org/abs/2204.10218
+  status_evidence:
+  - source_id: src_chattopadhyay_2022
+    kind: website
+    url: https://arxiv.org/abs/2204.10218
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

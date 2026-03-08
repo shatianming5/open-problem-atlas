@@ -1,0 +1,32 @@
+id: opa.tcs.quantum-gravity-complexity.quantum-gravity-and-computational-complexity
+kind: problem
+title: Quantum Gravity and Computational Complexity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-gravity-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the AdS/CFT dictionary computationally efficient, or are there states whose bulk reconstruction requires exponential
+    quantum computation?
+sources:
+  canonical:
+  - source_id: src_bouland_2022
+    kind: website
+    url: https://arxiv.org/abs/2111.12700
+  status_evidence:
+  - source_id: src_bouland_2022
+    kind: website
+    url: https://arxiv.org/abs/2111.12700
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

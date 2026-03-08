@@ -1,0 +1,31 @@
+id: opa.tcs.information-theory.information-theoretic-security-of-wiretap-channels
+kind: problem
+title: Information-Theoretic Security of Wiretap Channels
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- information-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the secrecy capacity of the general wiretap channel with noisy feedback?
+sources:
+  canonical:
+  - source_id: src_wyner_1975
+    kind: website
+    url: https://doi.org/10.1002/j.1538-7305.1975.tb02040.x
+  status_evidence:
+  - source_id: src_wyner_1975
+    kind: website
+    url: https://doi.org/10.1002/j.1538-7305.1975.tb02040.x
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.phys.mathematical-physics.berry-phase-and-topological-invariants
+kind: problem
+title: Berry Phase and Topological Invariants
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can all topological invariants arising from Berry phases in quantum systems be systematically classified using
+    the framework of differential cohomology?
+sources:
+  canonical:
+  - source_id: src_freed_2013
+    kind: website
+    url: https://arxiv.org/abs/1404.7224
+  status_evidence:
+  - source_id: src_freed_2013
+    kind: website
+    url: https://arxiv.org/abs/1404.7224
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

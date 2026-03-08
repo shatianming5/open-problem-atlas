@@ -1,0 +1,31 @@
+id: opa.tcs.computational-geometry.optimal-geometric-set-cover
+kind: problem
+title: Optimal Geometric Set Cover
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- computational-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the best polynomial-time approximation ratio for geometric set cover with disks or fat objects?
+sources:
+  canonical:
+  - source_id: src_mustafa_ray_2010
+    kind: website
+    url: https://doi.org/10.1007/s00454-009-9225-8
+  status_evidence:
+  - source_id: src_mustafa_ray_2010
+    kind: website
+    url: https://doi.org/10.1007/s00454-009-9225-8
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

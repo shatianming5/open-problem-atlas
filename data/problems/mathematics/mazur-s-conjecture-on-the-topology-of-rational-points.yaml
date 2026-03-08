@@ -1,0 +1,32 @@
+id: opa.mathematics.analysis.mazur-s-conjecture-on-the-topology-of-rational-points
+kind: problem
+title: Mazur's Conjecture on the Topology of Rational Points
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the closure of the set of rational points in an algebraic variety V (in the real topology) a finite union
+    of connected components of V(R)?
+sources:
+  canonical:
+  - source_id: src_mazur_1992
+    kind: website
+    url: https://doi.org/10.1080/10586458.1992.10504253
+  status_evidence:
+  - source_id: src_mazur_1992
+    kind: website
+    url: https://doi.org/10.1080/10586458.1992.10504253
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

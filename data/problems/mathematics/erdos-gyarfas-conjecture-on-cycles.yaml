@@ -1,0 +1,31 @@
+id: opa.mathematics.graph-theory.erdos-gyarfas-conjecture-on-cycles
+kind: problem
+title: Erdos-Gyarfas Conjecture on Cycles
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does every graph with minimum degree at least 3 contain a cycle whose length is a power of 2?
+sources:
+  canonical:
+  - source_id: src_erdos_2020
+    kind: website
+    url: https://mathoverflow.net/questions/180851
+  status_evidence:
+  - source_id: src_erdos_2020
+    kind: website
+    url: https://mathoverflow.net/questions/180851
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

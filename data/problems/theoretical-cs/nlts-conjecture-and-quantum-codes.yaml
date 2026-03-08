@@ -1,0 +1,32 @@
+id: opa.tcs.quantum-complexity.nlts-conjecture-and-quantum-codes
+kind: problem
+title: NLTS Conjecture and Quantum Codes
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Following Anshu, Breuckmann, and Nirkhe's proof of the NLTS conjecture, can it be used to prove the quantum PCP
+    conjecture?
+sources:
+  canonical:
+  - source_id: src_anshu_2023
+    kind: website
+    url: https://arxiv.org/abs/2206.13228
+  status_evidence:
+  - source_id: src_anshu_2023
+    kind: website
+    url: https://arxiv.org/abs/2206.13228
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.mathematics.convex-geometry.slicing-problem-hyperplane-conjecture
+kind: problem
+title: Slicing Problem (Hyperplane Conjecture)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- convex-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: There exists a universal constant c > 0 such that every convex body of volume 1 in R^n has a hyperplane section
+    of (n-1)-dimensional volume at least c.
+sources:
+  canonical:
+  - source_id: src_bourgain_1986
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hyperplane_conjecture
+  status_evidence:
+  - source_id: src_bourgain_1986
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hyperplane_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

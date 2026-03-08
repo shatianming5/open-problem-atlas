@@ -1,0 +1,31 @@
+id: opa.mathematics.arithmetic-geometry.colmez-s-conjecture
+kind: problem
+title: Colmez's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- arithmetic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Faltings height of a CM abelian variety is given by logarithmic derivatives of Artin L-functions.
+sources:
+  canonical:
+  - source_id: src_colmez_1993
+    kind: website
+    url: https://en.wikipedia.org/wiki/Colmez_conjecture
+  status_evidence:
+  - source_id: src_colmez_1993
+    kind: website
+    url: https://en.wikipedia.org/wiki/Colmez_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

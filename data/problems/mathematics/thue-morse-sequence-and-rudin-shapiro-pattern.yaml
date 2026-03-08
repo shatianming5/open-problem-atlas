@@ -1,0 +1,32 @@
+id: opa.mathematics.combinatorics.thue-morse-sequence-and-rudin-shapiro-pattern
+kind: problem
+title: Thue-Morse Sequence and Rudin-Shapiro Pattern
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can extremal properties of the Thue-Morse and Rudin-Shapiro sequences be proved optimal among all binary sequences
+    for their respective discrepancy-like measures?
+sources:
+  canonical:
+  - source_id: src_konieczny_2023
+    kind: website
+    url: https://arxiv.org/abs/2304.07441
+  status_evidence:
+  - source_id: src_konieczny_2023
+    kind: website
+    url: https://arxiv.org/abs/2304.07441
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

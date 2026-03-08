@@ -1,0 +1,32 @@
+id: opa.phys.topological-phases.k-theory-classification-of-topological-insulators
+kind: problem
+title: K-Theory Classification of Topological Insulators
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- topological-phases
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does the ten-fold way classification of topological insulators via K-theory extend rigorously to strongly interacting
+    systems?
+sources:
+  canonical:
+  - source_id: src_freed_2021
+    kind: website
+    url: https://arxiv.org/abs/2106.09670
+  status_evidence:
+  - source_id: src_freed_2021
+    kind: website
+    url: https://arxiv.org/abs/2106.09670
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.numerical-analysis.optimal-transport-map-regularity
+kind: problem
+title: Optimal Transport Map Regularity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- numerical-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Under what conditions on the cost function and domains is the optimal transport map smooth?
+sources:
+  canonical:
+  - source_id: src_brenier_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)
+  status_evidence:
+  - source_id: src_brenier_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Transportation_theory_(mathematics)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.mathematics.functional-equations.imo-2024-problem-3-generalizations
+kind: problem
+title: IMO 2024 Problem 3 Generalizations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- functional-equations
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the functional equation from IMO 2024 Problem 3 be classified within a broader framework of functional equations
+    over the integers?
+sources:
+  canonical:
+  - source_id: src_imo_2024
+    kind: website
+    url: https://artofproblemsolving.com/wiki/index.php/2024_IMO_Problems/Problem_3
+  status_evidence:
+  - source_id: src_imo_2024
+    kind: website
+    url: https://artofproblemsolving.com/wiki/index.php/2024_IMO_Problems/Problem_3
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

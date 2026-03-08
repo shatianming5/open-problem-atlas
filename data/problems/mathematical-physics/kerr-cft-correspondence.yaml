@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.kerr-cft-correspondence
+kind: problem
+title: Kerr/CFT Correspondence
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does a precise Kerr/CFT correspondence exist, providing a holographic dual description for generic (non-extremal)
+    rotating black holes?
+sources:
+  canonical:
+  - source_id: src_guica_2009
+    kind: website
+    url: https://arxiv.org/abs/0809.4266
+  status_evidence:
+  - source_id: src_guica_2009
+    kind: website
+    url: https://arxiv.org/abs/0809.4266
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

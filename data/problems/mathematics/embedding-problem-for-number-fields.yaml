@@ -1,0 +1,32 @@
+id: opa.mathematics.algebra.embedding-problem-for-number-fields
+kind: problem
+title: Embedding Problem for Number Fields
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Given an extension L/K of number fields with Galois group G/N, when can it be embedded in an extension M/K with
+    Galois group G?
+sources:
+  canonical:
+  - source_id: src_neukirch_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Embedding_problem
+  status_evidence:
+  - source_id: src_neukirch_1979
+    kind: website
+    url: https://en.wikipedia.org/wiki/Embedding_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

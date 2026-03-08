@@ -1,0 +1,31 @@
+id: opa.mathematics.geometry.existence-of-self-similar-shrinking-solitons
+kind: problem
+title: Existence of Self-Similar Shrinking Solitons
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Classify all complete self-similar shrinking solitons for the mean curvature flow in R^n.
+sources:
+  canonical:
+  - source_id: src_colding_2012
+    kind: website
+    url: https://arxiv.org/abs/1205.6326
+  status_evidence:
+  - source_id: src_colding_2012
+    kind: website
+    url: https://arxiv.org/abs/1205.6326
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

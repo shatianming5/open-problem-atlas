@@ -1,0 +1,32 @@
+id: opa.mathematics.operator-algebras.connes-embedding-problem-aftermath
+kind: problem
+title: Connes Embedding Problem Aftermath
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- operator-algebras
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What new separations in operator algebra theory follow from the negative resolution of the Connes embedding problem
+    via MIP*=RE?
+sources:
+  canonical:
+  - source_id: src_ozawa_2022
+    kind: website
+    url: https://arxiv.org/abs/2209.11507
+  status_evidence:
+  - source_id: src_ozawa_2022
+    kind: website
+    url: https://arxiv.org/abs/2209.11507
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

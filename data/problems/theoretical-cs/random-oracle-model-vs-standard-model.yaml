@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.random-oracle-model-vs-standard-model
+kind: problem
+title: Random Oracle Model vs Standard Model
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Which schemes proven secure in the random oracle model can be instantiated securely in the standard model?
+sources:
+  canonical:
+  - source_id: src_canetti_goldreich_halevi_1998
+    kind: website
+    url: https://doi.org/10.1145/1008731.1008734
+  status_evidence:
+  - source_id: src_canetti_goldreich_halevi_1998
+    kind: website
+    url: https://doi.org/10.1145/1008731.1008734
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

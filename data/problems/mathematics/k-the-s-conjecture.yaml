@@ -1,0 +1,31 @@
+id: opa.mathematics.algebra.k-the-s-conjecture
+kind: problem
+title: Köthe's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: If a ring has no nonzero nil right ideal, then it has no nonzero nil left ideal either.
+sources:
+  canonical:
+  - source_id: src_kothe_1930
+    kind: website
+    url: https://en.wikipedia.org/wiki/K%C3%B6the_conjecture
+  status_evidence:
+  - source_id: src_kothe_1930
+    kind: website
+    url: https://en.wikipedia.org/wiki/K%C3%B6the_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

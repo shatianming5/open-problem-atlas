@@ -1,0 +1,32 @@
+id: opa.phys.quantum-field-theory.entanglement-entropy-in-gauge-theories
+kind: problem
+title: Entanglement Entropy in Gauge Theories
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: How should entanglement entropy be properly defined in gauge theories given the non-factorization of the Hilbert
+    space?
+sources:
+  canonical:
+  - source_id: src_casini_2014
+    kind: website
+    url: https://arxiv.org/abs/1312.1183
+  status_evidence:
+  - source_id: src_casini_2014
+    kind: website
+    url: https://arxiv.org/abs/1312.1183
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

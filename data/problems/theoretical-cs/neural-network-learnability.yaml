@@ -1,0 +1,32 @@
+id: opa.tcs.learning-theory.neural-network-learnability
+kind: problem
+title: Neural Network Learnability
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can two-layer neural networks with polynomial neurons be PAC learned in polynomial time? Hardness results exist
+    but gaps remain.
+sources:
+  canonical:
+  - source_id: src_daniely_shalev_shwartz_2020
+    kind: website
+    url: https://doi.org/10.1145/3382078
+  status_evidence:
+  - source_id: src_daniely_shalev_shwartz_2020
+    kind: website
+    url: https://doi.org/10.1145/3382078
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

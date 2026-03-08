@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.kummer-vandiver-conjecture
+kind: problem
+title: Kummer-Vandiver Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The class number of the maximal real subfield of the p-th cyclotomic field is not divisible by p, for every prime
+    p.
+sources:
+  canonical:
+  - source_id: src_vandiver_1934
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kummer%E2%80%93Vandiver_conjecture
+  status_evidence:
+  - source_id: src_vandiver_1934
+    kind: website
+    url: https://en.wikipedia.org/wiki/Kummer%E2%80%93Vandiver_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

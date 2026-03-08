@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.list-decodable-learning
+kind: problem
+title: List-Decodable Learning
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the optimal sample complexity for list-decodable mean estimation and regression?
+sources:
+  canonical:
+  - source_id: src_charikar_steinhardt_valiant_2017
+    kind: website
+    url: https://doi.org/10.1145/3055399.3055491
+  status_evidence:
+  - source_id: src_charikar_steinhardt_valiant_2017
+    kind: website
+    url: https://doi.org/10.1145/3055399.3055491
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.algebraic-geometry.hartshorne-s-conjecture-on-complete-intersections
+kind: problem
+title: Hartshorne's Conjecture on Complete Intersections
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebraic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every smooth closed subvariety of projective space of sufficiently small codimension is a complete intersection.
+sources:
+  canonical:
+  - source_id: src_hartshorne_1974
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hartshorne%27s_conjecture
+  status_evidence:
+  - source_id: src_hartshorne_1974
+    kind: website
+    url: https://en.wikipedia.org/wiki/Hartshorne%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.tcs.algorithms.faster-minimum-spanning-tree-algorithm
+kind: problem
+title: Faster Minimum Spanning Tree Algorithm
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can a minimum spanning tree be found in linear time deterministically? The randomized linear-time algorithm of
+    Karger-Klein-Tarjan exists but no deterministic counterpart.
+sources:
+  canonical:
+  - source_id: src_chazelle_2000
+    kind: website
+    url: https://doi.org/10.1145/355541.355562
+  status_evidence:
+  - source_id: src_chazelle_2000
+    kind: website
+    url: https://doi.org/10.1145/355541.355562
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

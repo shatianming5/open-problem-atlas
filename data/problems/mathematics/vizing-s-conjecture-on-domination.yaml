@@ -1,0 +1,32 @@
+id: opa.mathematics.graph-theory.vizing-s-conjecture-on-domination
+kind: problem
+title: Vizing's Conjecture on Domination
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- graph-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the domination number of the Cartesian product of two graphs at least the product of their individual domination
+    numbers?
+sources:
+  canonical:
+  - source_id: src_bresar_2021
+    kind: website
+    url: https://mathoverflow.net/questions/264953
+  status_evidence:
+  - source_id: src_bresar_2021
+    kind: website
+    url: https://mathoverflow.net/questions/264953
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

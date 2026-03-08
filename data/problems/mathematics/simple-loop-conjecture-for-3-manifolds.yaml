@@ -1,0 +1,32 @@
+id: opa.mathematics.topology.simple-loop-conjecture-for-3-manifolds
+kind: problem
+title: Simple Loop Conjecture for 3-Manifolds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: If a 2-sided immersion of a surface into a 3-manifold is not injective on fundamental groups, then there is an
+    essential simple closed curve in the kernel.
+sources:
+  canonical:
+  - source_id: src_gabai_1985
+    kind: website
+    url: https://mathoverflow.net/questions/19746
+  status_evidence:
+  - source_id: src_gabai_1985
+    kind: website
+    url: https://mathoverflow.net/questions/19746
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

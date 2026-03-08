@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.waring-s-problem-for-cubes-exact-g-3
+kind: problem
+title: Waring's Problem for Cubes - Exact g(3)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: It is known that every positive integer is a sum of at most 9 cubes, but the exact value of g(3) (whether 4 or
+    5 suffice for large enough n) remains open.
+sources:
+  canonical:
+  - source_id: src_deshouillers_2000
+    kind: website
+    url: https://en.wikipedia.org/wiki/Waring%27s_problem
+  status_evidence:
+  - source_id: src_deshouillers_2000
+    kind: website
+    url: https://en.wikipedia.org/wiki/Waring%27s_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

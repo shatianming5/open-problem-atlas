@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.dimer-models-and-exact-results
+kind: problem
+title: Dimer Models and Exact Results
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the exact solution of dimer models on planar lattices be extended to three-dimensional lattices or to interacting
+    dimer models?
+sources:
+  canonical:
+  - source_id: src_kenyon_2009
+    kind: website
+    url: https://arxiv.org/abs/0910.3129
+  status_evidence:
+  - source_id: src_kenyon_2009
+    kind: website
+    url: https://arxiv.org/abs/0910.3129
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

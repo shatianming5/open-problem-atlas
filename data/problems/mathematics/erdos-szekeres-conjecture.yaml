@@ -1,0 +1,31 @@
+id: opa.mathematics.discrete-geometry.erdos-szekeres-conjecture
+kind: problem
+title: Erdos-Szekeres Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- discrete-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The minimum number of points in general position needed to guarantee a convex n-gon is exactly 2^{n-2}+1.
+sources:
+  canonical:
+  - source_id: src_erdosszekeres_1935
+    kind: website
+    url: https://en.wikipedia.org/wiki/Happy_ending_problem
+  status_evidence:
+  - source_id: src_erdosszekeres_1935
+    kind: website
+    url: https://en.wikipedia.org/wiki/Happy_ending_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

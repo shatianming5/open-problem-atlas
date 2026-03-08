@@ -1,0 +1,31 @@
+id: opa.tcs.space-complexity.randomized-vs-deterministic-space-complexity
+kind: problem
+title: Randomized vs Deterministic Space Complexity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- space-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does RL = L? Can randomized logspace computation be fully derandomized?
+sources:
+  canonical:
+  - source_id: src_reingold_2020
+    kind: website
+    url: https://cstheory.stackexchange.com/questions/25286
+  status_evidence:
+  - source_id: src_reingold_2020
+    kind: website
+    url: https://cstheory.stackexchange.com/questions/25286
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

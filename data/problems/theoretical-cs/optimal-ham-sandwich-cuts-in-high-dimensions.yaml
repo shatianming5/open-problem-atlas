@@ -1,0 +1,32 @@
+id: opa.tcs.computational-geometry.optimal-ham-sandwich-cuts-in-high-dimensions
+kind: problem
+title: Optimal Ham-Sandwich Cuts in High Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- computational-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can ham-sandwich cuts in R^d be found in polynomial time for arbitrary d? Known algorithms are exponential in
+    d.
+sources:
+  canonical:
+  - source_id: src_lo_matousek_steiger_1994
+    kind: website
+    url: https://doi.org/10.1007/BF02574008
+  status_evidence:
+  - source_id: src_lo_matousek_steiger_1994
+    kind: website
+    url: https://doi.org/10.1007/BF02574008
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

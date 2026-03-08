@@ -1,0 +1,32 @@
+id: opa.tcs.complexity-theory.planted-clique-hardness
+kind: problem
+title: Planted Clique Hardness
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is finding a planted clique of size O(sqrt(n)) in a random graph computationally hard? No polynomial-time algorithm
+    is known below this threshold.
+sources:
+  canonical:
+  - source_id: src_jerrum_1992
+    kind: website
+    url: https://doi.org/10.1002/rsa.3240030211
+  status_evidence:
+  - source_id: src_jerrum_1992
+    kind: website
+    url: https://doi.org/10.1002/rsa.3240030211
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

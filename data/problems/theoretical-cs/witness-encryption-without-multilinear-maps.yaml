@@ -1,0 +1,32 @@
+id: opa.tcs.cryptography.witness-encryption-without-multilinear-maps
+kind: problem
+title: Witness Encryption Without Multilinear Maps
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can witness encryption be constructed from simpler assumptions such as LWE without relying on multilinear maps
+    or iO?
+sources:
+  canonical:
+  - source_id: src_garg_gentry_sahai_waters_2013
+    kind: website
+    url: https://doi.org/10.1145/2488608.2488667
+  status_evidence:
+  - source_id: src_garg_gentry_sahai_waters_2013
+    kind: website
+    url: https://doi.org/10.1145/2488608.2488667
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

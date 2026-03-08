@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.deterministic-primality-testing-improvements
+kind: problem
+title: Deterministic Primality Testing Improvements
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the AKS primality test be improved to run in O(log^3 n) or faster unconditionally?
+sources:
+  canonical:
+  - source_id: src_agrawal_kayal_saxena_2004
+    kind: website
+    url: https://doi.org/10.4007/annals.2004.160.781
+  status_evidence:
+  - source_id: src_agrawal_kayal_saxena_2004
+    kind: website
+    url: https://doi.org/10.4007/annals.2004.160.781
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

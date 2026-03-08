@@ -1,0 +1,31 @@
+id: opa.tcs.cryptography.multi-party-non-interactive-key-exchange
+kind: problem
+title: Multi-Party Non-Interactive Key Exchange
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can non-interactive key exchange be achieved for three or more parties without trusted setup or multilinear maps?
+sources:
+  canonical:
+  - source_id: src_boneh_zhandry_2014
+    kind: website
+    url: https://doi.org/10.1007/978-3-662-44371-2_30
+  status_evidence:
+  - source_id: src_boneh_zhandry_2014
+    kind: website
+    url: https://doi.org/10.1007/978-3-662-44371-2_30
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

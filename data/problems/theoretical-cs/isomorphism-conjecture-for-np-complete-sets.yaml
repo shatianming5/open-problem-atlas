@@ -1,0 +1,31 @@
+id: opa.tcs.complexity-theory.isomorphism-conjecture-for-np-complete-sets
+kind: problem
+title: Isomorphism Conjecture for NP-Complete Sets
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Are all NP-complete sets isomorphic under polynomial-time computable bijections (Berman-Hartmanis conjecture)?
+sources:
+  canonical:
+  - source_id: src_berman_hartmanis_1977
+    kind: website
+    url: https://doi.org/10.1137/0206023
+  status_evidence:
+  - source_id: src_berman_hartmanis_1977
+    kind: website
+    url: https://doi.org/10.1137/0206023
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

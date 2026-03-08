@@ -1,0 +1,32 @@
+id: opa.mathematics.extremal-combinatorics.sunflower-conjecture-improved-bounds
+kind: problem
+title: Sunflower Conjecture Improved Bounds
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- extremal-combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the sunflower lemma bound be further improved beyond the recent breakthrough by Alweiss, Lovett, Wu, and
+    Zhang to match the conjectured O(k)^n bound?
+sources:
+  canonical:
+  - source_id: src_alweiss_2020
+    kind: website
+    url: https://arxiv.org/abs/1908.08483
+  status_evidence:
+  - source_id: src_alweiss_2020
+    kind: website
+    url: https://arxiv.org/abs/1908.08483
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

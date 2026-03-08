@@ -1,0 +1,32 @@
+id: opa.phys.quantum-gravity.black-hole-information-paradox-and-page-curve
+kind: problem
+title: Black Hole Information Paradox and Page Curve
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-gravity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the island formula and replica wormholes provide a fully rigorous derivation of the Page curve for black
+    hole evaporation in a UV-complete theory?
+sources:
+  canonical:
+  - source_id: src_penington_2020
+    kind: website
+    url: https://arxiv.org/abs/1911.11977
+  status_evidence:
+  - source_id: src_penington_2020
+    kind: website
+    url: https://arxiv.org/abs/1911.11977
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

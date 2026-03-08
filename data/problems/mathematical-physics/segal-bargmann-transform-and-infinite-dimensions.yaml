@@ -1,0 +1,32 @@
+id: opa.phys.mathematical-physics.segal-bargmann-transform-and-infinite-dimensions
+kind: problem
+title: Segal-Bargmann Transform and Infinite Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- mathematical-physics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Segal-Bargmann transform be extended to infinite-dimensional settings relevant to quantum field theory
+    with full mathematical rigor?
+sources:
+  canonical:
+  - source_id: src_hall_2000
+    kind: website
+    url: https://doi.org/10.1006/jfan.2000.3574
+  status_evidence:
+  - source_id: src_hall_2000
+    kind: website
+    url: https://doi.org/10.1006/jfan.2000.3574
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

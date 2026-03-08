@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.nonequilibrium-fluctuations-in-granular-materials
+kind: problem
+title: Nonequilibrium Fluctuations in Granular Materials
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can a consistent statistical mechanics framework be developed for granular materials that captures jamming transitions
+    and force chain statistics?
+sources:
+  canonical:
+  - source_id: src_edwards_1989
+    kind: website
+    url: https://doi.org/10.1016/0378-4371(89)90034-4
+  status_evidence:
+  - source_id: src_edwards_1989
+    kind: website
+    url: https://doi.org/10.1016/0378-4371(89)90034-4
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.mathematics.topology.farrell-jones-conjecture
+kind: problem
+title: Farrell-Jones Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The assembly map in algebraic K-theory and L-theory for a group G with coefficients in any additive category
+    is an isomorphism.
+sources:
+  canonical:
+  - source_id: src_farrell_1993
+    kind: website
+    url: https://en.wikipedia.org/wiki/Farrell%E2%80%93Jones_conjecture
+  status_evidence:
+  - source_id: src_farrell_1993
+    kind: website
+    url: https://en.wikipedia.org/wiki/Farrell%E2%80%93Jones_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

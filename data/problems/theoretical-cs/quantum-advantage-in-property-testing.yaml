@@ -1,0 +1,32 @@
+id: opa.tcs.quantum-algorithms.quantum-advantage-in-property-testing
+kind: problem
+title: Quantum Advantage in Property Testing
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For which graph properties does quantum query complexity provide a provably polynomial advantage over classical
+    property testing?
+sources:
+  canonical:
+  - source_id: src_ambainis_2023
+    kind: website
+    url: https://arxiv.org/abs/2303.10408
+  status_evidence:
+  - source_id: src_ambainis_2023
+    kind: website
+    url: https://arxiv.org/abs/2303.10408
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.phys.tqft.functorial-qft-and-cobordism-hypothesis
+kind: problem
+title: Functorial QFT and Cobordism Hypothesis
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- tqft
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Baez-Dolan cobordism hypothesis, proved by Lurie for fully extended TQFTs, be extended to include non-topological
+    quantum field theories?
+sources:
+  canonical:
+  - source_id: src_lurie_2021
+    kind: website
+    url: https://arxiv.org/abs/0905.0465
+  status_evidence:
+  - source_id: src_lurie_2021
+    kind: website
+    url: https://arxiv.org/abs/0905.0465
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

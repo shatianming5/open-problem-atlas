@@ -1,0 +1,32 @@
+id: opa.phys.supersymmetry.bps-states-and-wall-crossing-formulas
+kind: problem
+title: BPS States and Wall-Crossing Formulas
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- supersymmetry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Kontsevich-Soibelman wall-crossing formula for BPS states be rigorously derived from first principles
+    in all N=2 supersymmetric field theories?
+sources:
+  canonical:
+  - source_id: src_kontsevich_2022
+    kind: website
+    url: https://arxiv.org/abs/2206.15462
+  status_evidence:
+  - source_id: src_kontsevich_2022
+    kind: website
+    url: https://arxiv.org/abs/2206.15462
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

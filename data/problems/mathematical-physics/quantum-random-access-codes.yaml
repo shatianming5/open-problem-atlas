@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-random-access-codes
+kind: problem
+title: Quantum Random Access Codes
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What are the optimal success probabilities for quantum random access codes encoding n classical bits into m qubits
+    for general n and m?
+sources:
+  canonical:
+  - source_id: src_ambainis_1999
+    kind: website
+    url: https://arxiv.org/abs/quant-ph/9904066
+  status_evidence:
+  - source_id: src_ambainis_1999
+    kind: website
+    url: https://arxiv.org/abs/quant-ph/9904066
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

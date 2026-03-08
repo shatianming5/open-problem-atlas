@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.phase-transitions-in-networks
+kind: problem
+title: Phase Transitions in Networks
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can a comprehensive theory of phase transitions on complex networks predict critical behavior for arbitrary degree
+    distributions and correlations?
+sources:
+  canonical:
+  - source_id: src_dorogovtsev_2008
+    kind: website
+    url: https://arxiv.org/abs/0705.0010
+  status_evidence:
+  - source_id: src_dorogovtsev_2008
+    kind: website
+    url: https://arxiv.org/abs/0705.0010
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

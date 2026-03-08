@@ -1,0 +1,31 @@
+id: opa.phys.quantum-field-theory.particle-vortex-duality-in-3d
+kind: problem
+title: Particle-Vortex Duality in 3D
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can particle-vortex duality and the web of 3D dualities be rigorously established beyond specific solvable examples?
+sources:
+  canonical:
+  - source_id: src_seiberg_2016
+    kind: website
+    url: https://arxiv.org/abs/1606.01893
+  status_evidence:
+  - source_id: src_seiberg_2016
+    kind: website
+    url: https://arxiv.org/abs/1606.01893
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

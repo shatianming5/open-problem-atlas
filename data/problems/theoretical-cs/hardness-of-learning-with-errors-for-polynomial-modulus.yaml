@@ -1,0 +1,32 @@
+id: opa.tcs.cryptography.hardness-of-learning-with-errors-for-polynomial-modulus
+kind: problem
+title: Hardness of Learning With Errors for Polynomial Modulus
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is LWE with polynomial modulus as hard as worst-case lattice problems? Current reductions require super-polynomial
+    modulus.
+sources:
+  canonical:
+  - source_id: src_peikert_2009
+    kind: website
+    url: https://doi.org/10.1145/1536414.1536461
+  status_evidence:
+  - source_id: src_peikert_2009
+    kind: website
+    url: https://doi.org/10.1145/1536414.1536461
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

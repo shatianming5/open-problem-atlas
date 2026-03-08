@@ -1,0 +1,31 @@
+id: opa.tcs.algorithms.optimal-external-memory-sorting
+kind: problem
+title: Optimal External Memory Sorting
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the O(N/B log_{M/B}(N/B)) I/O bound for external memory sorting optimal for all parameter ranges?
+sources:
+  canonical:
+  - source_id: src_aggarwal_vitter_1988
+    kind: website
+    url: https://doi.org/10.1145/48529.48535
+  status_evidence:
+  - source_id: src_aggarwal_vitter_1988
+    kind: website
+    url: https://doi.org/10.1145/48529.48535
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.mathematics.analysis.bochner-riesz-conjecture
+kind: problem
+title: Bochner-Riesz Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Bochner-Riesz means of order delta converge in L^p for the optimal range of delta, specifically for delta
+    > max(0, n|1/p - 1/2| - 1/2).
+sources:
+  canonical:
+  - source_id: src_bochner_1936
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bochner%E2%80%93Riesz_mean
+  status_evidence:
+  - source_id: src_bochner_1936
+    kind: website
+    url: https://en.wikipedia.org/wiki/Bochner%E2%80%93Riesz_mean
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

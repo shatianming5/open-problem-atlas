@@ -1,0 +1,32 @@
+id: opa.mathematics.functional-analysis.approximation-property-conjecture
+kind: problem
+title: Approximation Property Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- functional-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize which Banach spaces have the approximation property and determine if it is equivalent to the bounded
+    approximation property.
+sources:
+  canonical:
+  - source_id: src_grothendieck_1955
+    kind: website
+    url: https://en.wikipedia.org/wiki/Approximation_property
+  status_evidence:
+  - source_id: src_grothendieck_1955
+    kind: website
+    url: https://en.wikipedia.org/wiki/Approximation_property
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

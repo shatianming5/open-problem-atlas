@@ -1,0 +1,32 @@
+id: opa.tcs.average-case-complexity.low-degree-polynomial-hardness-paradigm
+kind: problem
+title: Low-Degree Polynomial Hardness Paradigm
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- average-case-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the low-degree polynomial framework be formally shown to capture the exact computational threshold for all
+    natural average-case problems?
+sources:
+  canonical:
+  - source_id: src_hopkins_2022
+    kind: website
+    url: https://arxiv.org/abs/2205.01058
+  status_evidence:
+  - source_id: src_hopkins_2022
+    kind: website
+    url: https://arxiv.org/abs/2205.01058
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

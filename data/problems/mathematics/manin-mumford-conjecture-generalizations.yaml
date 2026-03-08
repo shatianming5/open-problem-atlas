@@ -1,0 +1,31 @@
+id: opa.mathematics.arithmetic-geometry.manin-mumford-conjecture-generalizations
+kind: problem
+title: Manin-Mumford Conjecture Generalizations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- arithmetic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Extend the Manin-Mumford conjecture (Raynaud's theorem) to mixed Shimura varieties and other algebraic settings.
+sources:
+  canonical:
+  - source_id: src_maninmumford_1963
+    kind: website
+    url: https://en.wikipedia.org/wiki/Manin%E2%80%93Mumford_conjecture
+  status_evidence:
+  - source_id: src_maninmumford_1963
+    kind: website
+    url: https://en.wikipedia.org/wiki/Manin%E2%80%93Mumford_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

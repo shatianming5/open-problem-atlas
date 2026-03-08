@@ -1,0 +1,32 @@
+id: opa.phys.topological-quantum-computation.non-abelian-anyons-realization
+kind: problem
+title: Non-Abelian Anyons Realization
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- topological-quantum-computation
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can non-abelian anyons be rigorously demonstrated in a physical system, and can their braiding statistics be
+    used for fault-tolerant topological quantum computation?
+sources:
+  canonical:
+  - source_id: src_nayak_2022
+    kind: website
+    url: https://arxiv.org/abs/2210.10255
+  status_evidence:
+  - source_id: src_nayak_2022
+    kind: website
+    url: https://arxiv.org/abs/2210.10255
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

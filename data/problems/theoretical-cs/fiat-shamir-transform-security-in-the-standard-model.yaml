@@ -1,0 +1,32 @@
+id: opa.tcs.cryptography.fiat-shamir-transform-security-in-the-standard-model
+kind: problem
+title: Fiat-Shamir Transform Security in the Standard Model
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the Fiat-Shamir transform sound in the standard model for all constant-round public-coin protocols, or do
+    inherent barriers exist?
+sources:
+  canonical:
+  - source_id: src_lombardi_2022
+    kind: website
+    url: https://arxiv.org/abs/2206.04507
+  status_evidence:
+  - source_id: src_lombardi_2022
+    kind: website
+    url: https://arxiv.org/abs/2206.04507
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

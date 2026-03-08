@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.positive-mass-theorem-in-higher-dimensions
+kind: problem
+title: Positive Mass Theorem in Higher Dimensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the positive mass theorem be extended to all dimensions and to include more general notions of mass for asymptotically
+    flat manifolds?
+sources:
+  canonical:
+  - source_id: src_schoen_2022
+    kind: website
+    url: https://arxiv.org/abs/2204.10602
+  status_evidence:
+  - source_id: src_schoen_2022
+    kind: website
+    url: https://arxiv.org/abs/2204.10602
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

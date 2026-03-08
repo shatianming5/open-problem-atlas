@@ -1,0 +1,32 @@
+id: opa.phys.quantum-information.quantum-nonlocality-without-entanglement
+kind: problem
+title: Quantum Nonlocality Without Entanglement
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the phenomenon of quantum nonlocality without entanglement be fully characterized, and what is its role in
+    multipartite quantum information processing?
+sources:
+  canonical:
+  - source_id: src_bennett_1999
+    kind: website
+    url: https://arxiv.org/abs/quant-ph/9804053
+  status_evidence:
+  - source_id: src_bennett_1999
+    kind: website
+    url: https://arxiv.org/abs/quant-ph/9804053
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

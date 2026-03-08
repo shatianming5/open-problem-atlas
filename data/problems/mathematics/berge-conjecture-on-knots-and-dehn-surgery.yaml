@@ -1,0 +1,31 @@
+id: opa.mathematics.topology.berge-conjecture-on-knots-and-dehn-surgery
+kind: problem
+title: Berge Conjecture on Knots and Dehn Surgery
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- topology
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: If Dehn surgery on a knot K in S^3 yields a lens space, then K is a Berge knot.
+sources:
+  canonical:
+  - source_id: src_berge_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Berge_conjecture
+  status_evidence:
+  - source_id: src_berge_1991
+    kind: website
+    url: https://en.wikipedia.org/wiki/Berge_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.phys.quantum-field-theory.s-matrix-bootstrap-completion
+kind: problem
+title: S-Matrix Bootstrap Completion
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-field-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the S-matrix bootstrap program uniquely determine scattering amplitudes of massive quantum field theories
+    from analyticity, unitarity, and crossing symmetry alone?
+sources:
+  canonical:
+  - source_id: src_paulos_2017
+    kind: website
+    url: https://arxiv.org/abs/1607.06110
+  status_evidence:
+  - source_id: src_paulos_2017
+    kind: website
+    url: https://arxiv.org/abs/1607.06110
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

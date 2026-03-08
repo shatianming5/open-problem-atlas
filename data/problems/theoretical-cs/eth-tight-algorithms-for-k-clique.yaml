@@ -1,0 +1,32 @@
+id: opa.tcs.fine-grained-complexity.eth-tight-algorithms-for-k-clique
+kind: problem
+title: ETH-Tight Algorithms for k-Clique
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- fine-grained-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the n^{omega*k/3} algorithm for k-clique detection optimal under the Exponential Time Hypothesis, where omega
+    is the matrix multiplication exponent?
+sources:
+  canonical:
+  - source_id: src_lincoln_2022
+    kind: website
+    url: https://arxiv.org/abs/2211.11006
+  status_evidence:
+  - source_id: src_lincoln_2022
+    kind: website
+    url: https://arxiv.org/abs/2211.11006
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

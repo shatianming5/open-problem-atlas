@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.rademacher-complexity-for-kernel-classes
+kind: problem
+title: Rademacher Complexity for Kernel Classes
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What are tight Rademacher complexity bounds for kernel classes with various spectral decay profiles?
+sources:
+  canonical:
+  - source_id: src_bartlett_mendelson_2002
+    kind: website
+    url: https://doi.org/10.1162/153244302760200704
+  status_evidence:
+  - source_id: src_bartlett_mendelson_2002
+    kind: website
+    url: https://doi.org/10.1162/153244302760200704
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

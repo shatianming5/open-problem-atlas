@@ -1,0 +1,31 @@
+id: opa.tcs.computational-geometry.epsilon-net-size-for-geometric-set-systems
+kind: problem
+title: Epsilon-Net Size for Geometric Set Systems
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- computational-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the optimal size of epsilon-nets for geometric set systems such as half-planes and disks?
+sources:
+  canonical:
+  - source_id: src_pach_tardos_2013
+    kind: website
+    url: https://doi.org/10.1007/s00454-012-9466-y
+  status_evidence:
+  - source_id: src_pach_tardos_2013
+    kind: website
+    url: https://doi.org/10.1007/s00454-012-9466-y
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.non-equilibrium-phase-transitions-classification
+kind: problem
+title: Non-Equilibrium Phase Transitions Classification
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can all non-equilibrium phase transitions in driven diffusive systems be classified into universality classes
+    analogous to equilibrium statistical mechanics?
+sources:
+  canonical:
+  - source_id: src_marro_1999
+    kind: website
+    url: https://doi.org/10.1017/CBO9780511524288
+  status_evidence:
+  - source_id: src_marro_1999
+    kind: website
+    url: https://doi.org/10.1017/CBO9780511524288
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

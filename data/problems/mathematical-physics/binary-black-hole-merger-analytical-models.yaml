@@ -1,0 +1,32 @@
+id: opa.phys.general-relativity.binary-black-hole-merger-analytical-models
+kind: problem
+title: Binary Black Hole Merger Analytical Models
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- general-relativity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can analytical models accurately describe the merger phase of binary black hole coalescence, bridging the gap
+    between post-Newtonian and perturbation theory?
+sources:
+  canonical:
+  - source_id: src_buonanno_1999
+    kind: website
+    url: https://arxiv.org/abs/gr-qc/9811091
+  status_evidence:
+  - source_id: src_buonanno_1999
+    kind: website
+    url: https://arxiv.org/abs/gr-qc/9811091
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

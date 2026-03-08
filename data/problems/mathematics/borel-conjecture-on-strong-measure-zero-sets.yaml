@@ -1,0 +1,32 @@
+id: opa.mathematics.analysis.borel-conjecture-on-strong-measure-zero-sets
+kind: problem
+title: Borel Conjecture on Strong Measure Zero Sets
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every strong measure zero set of reals is countable. This is independent of ZFC but remains open under additional
+    axioms.
+sources:
+  canonical:
+  - source_id: src_borel_1919
+    kind: website
+    url: https://en.wikipedia.org/wiki/Strong_measure_zero_set
+  status_evidence:
+  - source_id: src_borel_1919
+    kind: website
+    url: https://en.wikipedia.org/wiki/Strong_measure_zero_set
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

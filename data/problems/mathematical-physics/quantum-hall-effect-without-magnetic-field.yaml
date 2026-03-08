@@ -1,0 +1,32 @@
+id: opa.phys.condensed-matter-theory.quantum-hall-effect-without-magnetic-field
+kind: problem
+title: Quantum Hall Effect Without Magnetic Field
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- condensed-matter-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the quantum anomalous Hall effect be realized at elevated temperatures in realistic materials beyond current
+    achievements?
+sources:
+  canonical:
+  - source_id: src_chang_2013
+    kind: website
+    url: https://doi.org/10.1126/science.1234414
+  status_evidence:
+  - source_id: src_chang_2013
+    kind: website
+    url: https://doi.org/10.1126/science.1234414
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

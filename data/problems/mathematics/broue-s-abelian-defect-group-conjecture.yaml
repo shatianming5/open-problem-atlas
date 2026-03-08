@@ -1,0 +1,31 @@
+id: opa.mathematics.representation-theory.broue-s-abelian-defect-group-conjecture
+kind: problem
+title: Broue's Abelian Defect Group Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- representation-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: A block of a finite group with abelian defect group is derived equivalent to its Brauer correspondent.
+sources:
+  canonical:
+  - source_id: src_broue_1990
+    kind: website
+    url: https://en.wikipedia.org/wiki/Brou%C3%A9%27s_conjecture
+  status_evidence:
+  - source_id: src_broue_1990
+    kind: website
+    url: https://en.wikipedia.org/wiki/Brou%C3%A9%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

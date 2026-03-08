@@ -1,0 +1,32 @@
+id: opa.mathematics.dynamical-systems.ergodicity-of-polygonal-billiards
+kind: problem
+title: Ergodicity of Polygonal Billiards
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- dynamical-systems
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is the billiard flow in a generic polygon ergodic? This is known for rational polygons via Veech's theorem but
+    open in general.
+sources:
+  canonical:
+  - source_id: src_kerckhoff_1986
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dynamical_billiards
+  status_evidence:
+  - source_id: src_kerckhoff_1986
+    kind: website
+    url: https://en.wikipedia.org/wiki/Dynamical_billiards
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.mathematics.convex-geometry.busemann-petty-problem-extensions
+kind: problem
+title: Busemann-Petty Problem Extensions
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- convex-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For which dimensions and classes of bodies does the Busemann-Petty inequality extend beyond its known range?
+sources:
+  canonical:
+  - source_id: src_busemannpetty_1956
+    kind: website
+    url: https://en.wikipedia.org/wiki/Busemann%E2%80%93Petty_problem
+  status_evidence:
+  - source_id: src_busemannpetty_1956
+    kind: website
+    url: https://en.wikipedia.org/wiki/Busemann%E2%80%93Petty_problem
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

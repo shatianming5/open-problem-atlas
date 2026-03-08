@@ -1,0 +1,32 @@
+id: opa.phys.statistical-mechanics.stochastic-thermodynamics-at-quantum-scale
+kind: problem
+title: Stochastic Thermodynamics at Quantum Scale
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- statistical-mechanics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can stochastic thermodynamics be consistently extended to the quantum regime with proper treatment of measurement
+    backaction and coherence?
+sources:
+  canonical:
+  - source_id: src_esposito_2009
+    kind: website
+    url: https://arxiv.org/abs/0811.3948
+  status_evidence:
+  - source_id: src_esposito_2009
+    kind: website
+    url: https://arxiv.org/abs/0811.3948
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

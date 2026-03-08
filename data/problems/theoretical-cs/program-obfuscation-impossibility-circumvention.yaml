@@ -1,0 +1,32 @@
+id: opa.tcs.cryptography.program-obfuscation-impossibility-circumvention
+kind: problem
+title: Program Obfuscation Impossibility Circumvention
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- cryptography
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What meaningful notions of program obfuscation are achievable given Barak et al.'s impossibility result for virtual
+    black-box obfuscation?
+sources:
+  canonical:
+  - source_id: src_barak_et_al_2001
+    kind: website
+    url: https://doi.org/10.1007/3-540-44647-8_1
+  status_evidence:
+  - source_id: src_barak_et_al_2001
+    kind: website
+    url: https://doi.org/10.1007/3-540-44647-8_1
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

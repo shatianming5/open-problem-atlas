@@ -1,0 +1,32 @@
+id: opa.mathematics.combinatorics.sensitivity-conjecture-for-directed-graphs
+kind: problem
+title: Sensitivity Conjecture for Directed Graphs
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is there a polynomial relationship between the sensitivity and block sensitivity of directed graph properties,
+    analogous to Huang's theorem for undirected Boolean functions?
+sources:
+  canonical:
+  - source_id: src_directed_sensitivity_2020
+    kind: website
+    url: https://arxiv.org/abs/2010.09548
+  status_evidence:
+  - source_id: src_directed_sensitivity_2020
+    kind: website
+    url: https://arxiv.org/abs/2010.09548
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

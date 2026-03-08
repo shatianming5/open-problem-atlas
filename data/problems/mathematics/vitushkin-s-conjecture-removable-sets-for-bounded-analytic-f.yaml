@@ -1,0 +1,32 @@
+id: opa.mathematics.analysis.vitushkin-s-conjecture-removable-sets-for-bounded-analytic-f
+kind: problem
+title: Vitushkin's Conjecture (Removable Sets for Bounded Analytic Functions)
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: A compact set in the plane is removable for bounded analytic functions if and only if it has zero analytic capacity,
+    which holds iff it is purely unrectifiable.
+sources:
+  canonical:
+  - source_id: src_tolsa_2003
+    kind: website
+    url: https://doi.org/10.1007/s11511-003-0004-6
+  status_evidence:
+  - source_id: src_tolsa_2003
+    kind: website
+    url: https://doi.org/10.1007/s11511-003-0004-6
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,31 @@
+id: opa.tcs.learning-theory.learning-automata-and-regular-languages
+kind: problem
+title: Learning Automata and Regular Languages
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- learning-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can deterministic finite automata be efficiently PAC learned from random examples alone without membership queries?
+sources:
+  canonical:
+  - source_id: src_angluin_1987
+    kind: website
+    url: https://doi.org/10.1016/0890-5401(87)90052-6
+  status_evidence:
+  - source_id: src_angluin_1987
+    kind: website
+    url: https://doi.org/10.1016/0890-5401(87)90052-6
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

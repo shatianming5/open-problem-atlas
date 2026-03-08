@@ -1,0 +1,31 @@
+id: opa.phys.quantum-information.holevo-capacity-additivity-violations
+kind: problem
+title: Holevo Capacity Additivity Violations
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematical-physics
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the maximal violation of additivity of Holevo capacity and how does it scale with channel dimension?
+sources:
+  canonical:
+  - source_id: src_hastings_2009b
+    kind: website
+    url: https://arxiv.org/abs/0809.3972
+  status_evidence:
+  - source_id: src_hastings_2009b
+    kind: website
+    url: https://arxiv.org/abs/0809.3972
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

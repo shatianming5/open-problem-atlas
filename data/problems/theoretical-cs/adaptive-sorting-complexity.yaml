@@ -1,0 +1,32 @@
+id: opa.tcs.algorithms.adaptive-sorting-complexity
+kind: problem
+title: Adaptive Sorting Complexity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the optimal comparison complexity for sorting a nearly sorted sequence as a function of its disorder
+    measure?
+sources:
+  canonical:
+  - source_id: src_estivill_castro_wood_1992
+    kind: website
+    url: https://doi.org/10.1145/146370.146381
+  status_evidence:
+  - source_id: src_estivill_castro_wood_1992
+    kind: website
+    url: https://doi.org/10.1145/146370.146381
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

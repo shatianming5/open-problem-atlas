@@ -1,0 +1,32 @@
+id: opa.mathematics.algebra.eilenberg-ganea-conjecture
+kind: problem
+title: Eilenberg-Ganea Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebra
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Every group of cohomological dimension 2 has geometric dimension 2 (i.e., admits a 2-dimensional Eilenberg-MacLane
+    space).
+sources:
+  canonical:
+  - source_id: src_eilenberg_1957
+    kind: website
+    url: https://en.wikipedia.org/wiki/Eilenberg%E2%80%93Ganea_conjecture
+  status_evidence:
+  - source_id: src_eilenberg_1957
+    kind: website
+    url: https://en.wikipedia.org/wiki/Eilenberg%E2%80%93Ganea_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

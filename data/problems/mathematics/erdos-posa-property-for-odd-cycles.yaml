@@ -1,0 +1,32 @@
+id: opa.mathematics.combinatorics.erdos-posa-property-for-odd-cycles
+kind: problem
+title: Erdos-Posa Property for Odd Cycles
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is there a function f such that every graph either contains k vertex-disjoint odd cycles or has a set of at most
+    f(k) vertices meeting all odd cycles?
+sources:
+  canonical:
+  - source_id: src_reed_1999
+    kind: website
+    url: https://doi.org/10.1007/s004930050058
+  status_evidence:
+  - source_id: src_reed_1999
+    kind: website
+    url: https://doi.org/10.1007/s004930050058
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

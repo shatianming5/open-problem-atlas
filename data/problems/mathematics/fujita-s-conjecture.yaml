@@ -1,0 +1,32 @@
+id: opa.mathematics.algebraic-geometry.fujita-s-conjecture
+kind: problem
+title: Fujita's Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- algebraic-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: For a smooth projective variety X of dimension n with ample divisor L, the divisor K_X + mL is basepoint-free
+    for m >= n+1 and very ample for m >= n+2.
+sources:
+  canonical:
+  - source_id: src_fujita_1987
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fujita_conjecture
+  status_evidence:
+  - source_id: src_fujita_1987
+    kind: website
+    url: https://en.wikipedia.org/wiki/Fujita_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

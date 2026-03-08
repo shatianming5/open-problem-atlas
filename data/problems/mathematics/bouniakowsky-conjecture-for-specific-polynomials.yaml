@@ -1,0 +1,32 @@
+id: opa.mathematics.number-theory.bouniakowsky-conjecture-for-specific-polynomials
+kind: problem
+title: Bouniakowsky Conjecture for Specific Polynomials
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- number-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does the polynomial n^2 + n + 41 take infinitely many prime values? This is a specific case of the Bunyakovsky
+    conjecture.
+sources:
+  canonical:
+  - source_id: src_mollin_1997
+    kind: website
+    url: https://mathoverflow.net/questions/42512
+  status_evidence:
+  - source_id: src_mollin_1997
+    kind: website
+    url: https://mathoverflow.net/questions/42512
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

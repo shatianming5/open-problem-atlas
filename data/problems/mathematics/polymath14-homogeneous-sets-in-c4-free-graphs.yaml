@@ -1,0 +1,31 @@
+id: opa.mathematics.ramsey-theory.polymath14-homogeneous-sets-in-c4-free-graphs
+kind: problem
+title: 'Polymath14: Homogeneous Sets in C4-Free Graphs'
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- ramsey-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can the Polymath14 bounds for Ramsey multiplicity of C4-free graphs be improved using the flag algebra method?
+sources:
+  canonical:
+  - source_id: src_polymath14_2021
+    kind: website
+    url: https://gowers.wordpress.com/2021/04/09/polymath14/
+  status_evidence:
+  - source_id: src_polymath14_2021
+    kind: website
+    url: https://gowers.wordpress.com/2021/04/09/polymath14/
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -1,0 +1,32 @@
+id: opa.tcs.complexity-theory.communication-complexity-of-set-disjointness-variants
+kind: problem
+title: Communication Complexity of Set Disjointness Variants
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- complexity-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the exact randomized communication complexity of set disjointness variants in the multiparty number-on-forehead
+    model?
+sources:
+  canonical:
+  - source_id: src_chattopadhyay_pitassi_2010
+    kind: website
+    url: https://doi.org/10.1145/1806689.1806743
+  status_evidence:
+  - source_id: src_chattopadhyay_pitassi_2010
+    kind: website
+    url: https://doi.org/10.1145/1806689.1806743
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

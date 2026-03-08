@@ -1,0 +1,32 @@
+id: opa.tcs.algebraic-complexity.hardness-of-tensor-decomposition
+kind: problem
+title: Hardness of Tensor Decomposition
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- algebraic-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Is computing the rank of a 3-dimensional tensor over finite fields NP-hard in the worst case, and what are the
+    average-case implications?
+sources:
+  canonical:
+  - source_id: src_hillar_2022
+    kind: website
+    url: https://arxiv.org/abs/2204.01637
+  status_evidence:
+  - source_id: src_hillar_2022
+    kind: website
+    url: https://arxiv.org/abs/2204.01637
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

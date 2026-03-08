@@ -1,0 +1,31 @@
+id: opa.mathematics.combinatorics.negami-s-planar-cover-conjecture
+kind: problem
+title: Negami's Planar Cover Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- combinatorics
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: A connected graph has a finite planar cover if and only if it is projective-planar.
+sources:
+  canonical:
+  - source_id: src_negami_1988
+    kind: website
+    url: https://en.wikipedia.org/wiki/Negami%27s_conjecture
+  status_evidence:
+  - source_id: src_negami_1988
+    kind: website
+    url: https://en.wikipedia.org/wiki/Negami%27s_conjecture
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

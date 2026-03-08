@@ -1,0 +1,31 @@
+id: opa.tcs.graph-algorithms.exact-algorithms-for-graph-coloring
+kind: problem
+title: Exact Algorithms for Graph Coloring
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can k-coloring be solved in time O*(2^{(1-epsilon)*n}) for some epsilon > 0 for all k >= 3?
+sources:
+  canonical:
+  - source_id: src_bjorklund_husfeldt_koivisto_2009
+    kind: website
+    url: https://doi.org/10.1137/070683933
+  status_evidence:
+  - source_id: src_bjorklund_husfeldt_koivisto_2009
+    kind: website
+    url: https://doi.org/10.1137/070683933
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

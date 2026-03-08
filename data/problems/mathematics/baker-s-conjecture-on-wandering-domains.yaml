@@ -1,0 +1,31 @@
+id: opa.mathematics.complex-analysis.baker-s-conjecture-on-wandering-domains
+kind: problem
+title: Baker's Conjecture on Wandering Domains
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- complex-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Characterize which transcendental entire functions have wandering domains and determine their properties.
+sources:
+  canonical:
+  - source_id: src_baker_1976
+    kind: website
+    url: https://en.wikipedia.org/wiki/Classification_of_Fatou_components
+  status_evidence:
+  - source_id: src_baker_1976
+    kind: website
+    url: https://en.wikipedia.org/wiki/Classification_of_Fatou_components
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

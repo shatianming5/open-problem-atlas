@@ -1,0 +1,31 @@
+id: opa.mathematics.harmonic-analysis.restriction-conjecture
+kind: problem
+title: Restriction Conjecture
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- harmonic-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: The Fourier restriction operator to the sphere in R^n is bounded from L^p to L^2 for p < 2n/(n+1).
+sources:
+  canonical:
+  - source_id: src_stein_1967
+    kind: website
+    url: https://en.wikipedia.org/wiki/Restriction_(mathematics)
+  status_evidence:
+  - source_id: src_stein_1967
+    kind: website
+    url: https://en.wikipedia.org/wiki/Restriction_(mathematics)
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

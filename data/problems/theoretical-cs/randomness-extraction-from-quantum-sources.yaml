@@ -1,0 +1,32 @@
+id: opa.tcs.quantum-information.randomness-extraction-from-quantum-sources
+kind: problem
+title: Randomness Extraction from Quantum Sources
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- quantum-information
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can one extract nearly uniform random bits from a single source of quantum min-entropy without a seed, beating
+    classical impossibility results?
+sources:
+  canonical:
+  - source_id: src_arnon_2022
+    kind: website
+    url: https://arxiv.org/abs/2207.08697
+  status_evidence:
+  - source_id: src_arnon_2022
+    kind: website
+    url: https://arxiv.org/abs/2207.08697
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

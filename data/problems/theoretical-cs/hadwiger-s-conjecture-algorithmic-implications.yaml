@@ -1,0 +1,32 @@
+id: opa.tcs.graph-algorithms.hadwiger-s-conjecture-algorithmic-implications
+kind: problem
+title: Hadwiger's Conjecture Algorithmic Implications
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- graph-algorithms
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Can graphs without K_t minors be efficiently (t-1)-colored? Hadwiger's conjecture implies this but the algorithmic
+    question is open for t >= 7.
+sources:
+  canonical:
+  - source_id: src_robertson_seymour_thomas_1993
+    kind: website
+    url: https://doi.org/10.1007/BF01202354
+  status_evidence:
+  - source_id: src_robertson_seymour_thomas_1993
+    kind: website
+    url: https://doi.org/10.1007/BF01202354
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

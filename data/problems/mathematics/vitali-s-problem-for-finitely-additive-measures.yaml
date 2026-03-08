@@ -1,0 +1,32 @@
+id: opa.mathematics.measure-theory.vitali-s-problem-for-finitely-additive-measures
+kind: problem
+title: Vitali's Problem for Finitely Additive Measures
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- measure-theory
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Does there exist a finitely additive, translation-invariant measure on all subsets of R^n that extends Lebesgue
+    measure for n >= 3?
+sources:
+  canonical:
+  - source_id: src_vitali_1905
+    kind: website
+    url: https://en.wikipedia.org/wiki/Non-measurable_set
+  status_evidence:
+  - source_id: src_vitali_1905
+    kind: website
+    url: https://en.wikipedia.org/wiki/Non-measurable_set
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

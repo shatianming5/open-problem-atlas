@@ -1,0 +1,31 @@
+id: opa.mathematics.harmonic-analysis.muckenhoupt-conjecture-for-maximal-operators
+kind: problem
+title: Muckenhoupt Conjecture for Maximal Operators
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: mathematics
+subdomains:
+- harmonic-analysis
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Sharp weighted norm inequalities for the Hardy-Littlewood maximal operator with matrix weights.
+sources:
+  canonical:
+  - source_id: src_muckenhoupt_1972
+    kind: website
+    url: https://en.wikipedia.org/wiki/Muckenhoupt_weights
+  status_evidence:
+  - source_id: src_muckenhoupt_1972
+    kind: website
+    url: https://en.wikipedia.org/wiki/Muckenhoupt_weights
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

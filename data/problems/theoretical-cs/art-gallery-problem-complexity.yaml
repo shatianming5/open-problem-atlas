@@ -1,0 +1,32 @@
+id: opa.tcs.computational-geometry.art-gallery-problem-complexity
+kind: problem
+title: Art Gallery Problem Complexity
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- computational-geometry
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: What is the exact complexity of the art gallery problem? It is known to be in ER (existential theory of the reals)
+    but its completeness status is unclear.
+sources:
+  canonical:
+  - source_id: src_abrahamsen_adamaszek_miltzow_2018
+    kind: website
+    url: https://doi.org/10.1145/3188745.3188868
+  status_evidence:
+  - source_id: src_abrahamsen_adamaszek_miltzow_2018
+    kind: website
+    url: https://doi.org/10.1145/3188745.3188868
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0

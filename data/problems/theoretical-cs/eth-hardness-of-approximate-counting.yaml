@@ -1,0 +1,32 @@
+id: opa.tcs.counting-complexity.eth-hardness-of-approximate-counting
+kind: problem
+title: ETH-Hardness of Approximate Counting
+status:
+  label: open
+  confidence: medium
+  last_reviewed_at: '2026-03-08'
+  review_state: auto_generated
+domain: theoretical-cs
+subdomains:
+- counting-complexity
+verification_profile:
+  statement_precision: medium
+  solution_checkability: expert_review
+  machine_actionability: low
+tier: tier_3
+statement:
+  canonical: Under the Exponential Time Hypothesis, what is the fine-grained complexity of approximately counting the number
+    of satisfying assignments of a k-CNF formula?
+sources:
+  canonical:
+  - source_id: src_dell_2022
+    kind: website
+    url: https://arxiv.org/abs/2007.04777
+  status_evidence:
+  - source_id: src_dell_2022
+    kind: website
+    url: https://arxiv.org/abs/2007.04777
+provenance:
+  created_from: radar_promotion
+  parser_version: 0.3.1
+  schema_version: 1.0.0
