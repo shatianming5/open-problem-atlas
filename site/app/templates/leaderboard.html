@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+{% set page = 'leaderboard' %}
+{% block title %}Leaderboard — OpenProblemAtlas{% endblock %}
+
+{% block content %}
+<div class="container" style="padding-top: 32px;">
+  <h1 style="font-size: 28px; margin-bottom: 8px;">AI Leaderboard</h1>
+  <p style="color: var(--text-muted); margin-bottom: 24px;">
+    Tracking AI systems' attempts on open problems from OPA-Bench.
+  </p>
+
+  <div class="stats-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 16px; margin-bottom: 32px;">
+    <div style="background: var(--bg-secondary); padding: 20px; border-radius: var(--radius);">
+      <div style="font-size: 28px; font-weight: bold; color: var(--accent);">{{ leaderboard_stats.total_attempts }}</div>
+      <div style="font-size: 13px; color: var(--text-muted);">Total Attempts</div>
+    </div>
+    <div style="background: var(--bg-secondary); padding: 20px; border-radius: var(--radius);">
+      <div style="font-size: 28px; font-weight: bold; color: var(--accent);">{{ leaderboard_stats.unique_models }}</div>
+      <div style="font-size: 13px; color: var(--text-muted);">AI Systems</div>
+    </div>
+    <div style="background: var(--bg-secondary); padding: 20px; border-radius: var(--radius);">
+      <div style="font-size: 28px; font-weight: bold; color: var(--accent);">{{ leaderboard_stats.problems_attempted }}</div>
+      <div style="font-size: 13px; color: var(--text-muted);">Problems Attempted</div>
+    </div>
+    <div style="background: var(--bg-secondary); padding: 20px; border-radius: var(--radius);">
+      <div style="font-size: 28px; font-weight: bold; color: var(--accent);">{{ leaderboard_stats.verified_results }}</div>
+      <div style="font-size: 13px; color: var(--text-muted);">Verified Results</div>
+    </div>
+  </div>
+
+  <h2 style="font-size: 20px; margin-bottom: 16px;">By AI System</h2>
+  <div style="overflow-x: auto;">
+    <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+      <thead>
+        <tr style="border-bottom: 2px solid var(--border); text-align: left;">
+          <th style="padding: 12px 8px;">Rank</th>
+          <th style="padding: 12px 8px;">System</th>
+          <th style="padding: 12px 8px;">Attempts</th>
+          <th style="padding: 12px 8px;">Partial Progress</th>
+          <th style="padding: 12px 8px;">Verified</th>
+          <th style="padding: 12px 8px;">Best Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for entry in leaderboard %}
+        <tr style="border-bottom: 1px solid var(--border);">
+          <td style="padding: 12px 8px; color: var(--text-muted);">{{ loop.index }}</td>
+          <td style="padding: 12px 8px; font-weight: 500;">{{ entry.system }}</td>
+          <td style="padding: 12px 8px;">{{ entry.attempts }}</td>
+          <td style="padding: 12px 8px;">{{ entry.partial }}</td>
+          <td style="padding: 12px 8px;">{{ entry.verified }}</td>
+          <td style="padding: 12px 8px;">
+            {% if entry.best_result %}
+            <a href="/problem/{{ entry.best_problem_slug }}.html" style="color: var(--accent);">{{ entry.best_result }}</a>
+            {% else %}
+            <span style="color: var(--text-muted);">—</span>
+            {% endif %}
+          </td>
+        </tr>
+        {% endfor %}
+        {% if leaderboard | length == 0 %}
+        <tr>
+          <td colspan="6" style="padding: 32px; text-align: center; color: var(--text-muted);">
+            No attempts recorded yet. Submit yours via the <a href="https://github.com/OpenProblemAtlas/open-problem-atlas/issues/new" style="color: var(--accent);">issue form</a>.
+          </td>
+        </tr>
+        {% endif %}
+      </tbody>
+    </table>
+  </div>
+
+  <h2 style="font-size: 20px; margin-top: 32px; margin-bottom: 16px;">Recent Attempts</h2>
+  <div class="problem-list">
+    {% for att in recent_attempts[:10] %}
+    <div class="problem-card">
+      <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+        <div class="title">
+          <a href="/problem/{{ att.problem_id | replace('.', '-') }}.html" style="color: var(--accent);">{{ att.problem_title | default(att.problem_id) }}</a>
+        </div>
+        <span style="color: var(--text-muted); font-size: 13px;">{{ att.date | default('') }}</span>
+      </div>
+      <div class="meta" style="margin-top: 8px;">
+        <span>{{ att.actor | default('Unknown') }}</span>
+        <span class="tag tag-domain">{{ att.model | default('') }}</span>
+        <span class="tag {% if att.verification_status == 'verified' %}tag-open{% else %}tag-type{% endif %}">{{ att.verification_status | default('pending') }}</span>
+      </div>
+      {% if att.method_summary %}
+      <div style="margin-top: 8px; font-size: 14px; color: var(--text-muted);">{{ att.method_summary }}</div>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+</div>
+{% endblock %}
