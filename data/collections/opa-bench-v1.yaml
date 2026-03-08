@@ -1,59 +1,59 @@
-id: opa-bench-v1
+collection_id: col_opa-bench-v1
 title: 'OPA-Bench v1: AI Theorem Proving Benchmark'
 description: A curated subset of 50 open problems selected for AI theorem proving
   evaluation. Every problem has a machine-verifiable contract.
 version: 1.0.0
 problems:
-- opa.mathematics.number-theory.sierpinski-problem
-- opa.mathematics.number-theory.selfridges-conjecture
-- opa.mathematics.number-theory.collatz-conjecture
-- opa.mathematics.number-theory.erdos-straus-conjecture
-- opa.mathematics.combinatorics.hadamard-conjecture
-- opa.mathematics.coding-theory.cerny-conjecture
-- opa.mathematics.graph-theory.graceful-tree-conjecture
-- opa.mathematics.combinatorics.union-closed-sets-conjecture
-- opa.mathematics.combinatorics.ramsey-number-r55
-- opa.mathematics.combinatorics.lonely-runner-conjecture
-- opa.mathematics.enumerative-combinatorics.ringel-conjecture
-- opa.mathematics.commutative-algebra.casas-alvero-conjecture
-- opa.mathematics.number-theory.gilbreaths-conjecture
-- opa.mathematics.number-theory.scholz-conjecture
-- opa.phys.statistical-mechanics.3d-ising-model-phase-transition
-- opa.mathematics.combinatorics.hadwiger-nelson-problem
-- opa.mathematics.coding-theory.simplex-conjecture
-- opa.mathematics.combinatorics.singmasters-conjecture
-- opa.mathematics.number-theory.agoh-giuga-conjecture
-- opa.mathematics.number-theory.catalan-dickson-conjecture
-- opa.mathematics.number-theory.lehmers-totient-problem
-- opa.mathematics.extremal-combinatorics.frankl-conjecture-specific-bounds
-- opa.mathematics.number-theory.erdos-mollin-walsh-conjecture
-- opa.mathematics.order-theory.neggers-stanley-conjecture
-- opa.mathematics.enumerative-combinatorics.freiman-ruzsa-conjecture
-- opa.mathematics.differential-equations.hot-spots-conjecture
-- opa.tcs.algorithms.nearest-neighbor-high-dim
-- opa.tcs.algorithms.3sum-complexity
-- opa.tcs.information-theory.capacity-achieving-linear-time-code
-- opa.tcs.algorithms.multi-armed-bandit-regret
-- opa.tcs.algorithms.sublinear-edit-distance
-- opa.tcs.computational-geometry.minimum-enclosing-ball
-- opa.phys.quantum-field-theory.anomalous-magnetic-moment-theory
-- opa.phys.quantum-information.quantum-fault-tolerance-threshold-exact
-- opa.tcs.algorithms.matrix-multiplication-exponent
-- opa.tcs.learning-theory.active-learning-query-complexity
-- opa.tcs.complexity-theory.graph-isomorphism-complexity
-- opa.tcs.learning-theory.agnostic-learning-limits
-- opa.phys.statistical-mechanics.percolation-threshold-exact-values
-- opa.tcs.learning-theory.computational-statistical-gap
-- opa.tcs.cryptography.homomorphic-encryption-efficiency
-- opa.tcs.cryptography.lwe-hardness-parameters
-- opa.phys.quantum-information.quantum-key-distribution-optimal-rates
-- opa.tcs.algorithms.online-learning-experts
-- opa.tcs.computational-geometry.polygon-triangulation-optimal
-- opa.phys.statistical-mechanics.self-avoiding-walk-connective-constant
-- opa.phys.statistical-mechanics.dimer-model-3d
-- opa.phys.quantum-information.quantum-error-correction-fundamental-limits
-- opa.phys.quantum-information.entanglement-distillation-optimal-rates
-- opa.phys.quantum-information.quantum-state-merging-generalizations
+- problem_id: opa.mathematics.number-theory.sierpinski-problem
+- problem_id: opa.mathematics.number-theory.selfridges-conjecture
+- problem_id: opa.mathematics.number-theory.collatz-conjecture
+- problem_id: opa.mathematics.number-theory.erdos-straus-conjecture
+- problem_id: opa.mathematics.combinatorics.hadamard-conjecture
+- problem_id: opa.mathematics.coding-theory.cerny-conjecture
+- problem_id: opa.mathematics.graph-theory.graceful-tree-conjecture
+- problem_id: opa.mathematics.combinatorics.union-closed-sets-conjecture
+- problem_id: opa.mathematics.combinatorics.ramsey-number-r55
+- problem_id: opa.mathematics.combinatorics.lonely-runner-conjecture
+- problem_id: opa.mathematics.enumerative-combinatorics.ringel-conjecture
+- problem_id: opa.mathematics.commutative-algebra.casas-alvero-conjecture
+- problem_id: opa.mathematics.number-theory.gilbreaths-conjecture
+- problem_id: opa.mathematics.number-theory.scholz-conjecture
+- problem_id: opa.phys.statistical-mechanics.3d-ising-model-phase-transition
+- problem_id: opa.mathematics.combinatorics.hadwiger-nelson-problem
+- problem_id: opa.mathematics.coding-theory.simplex-conjecture
+- problem_id: opa.mathematics.combinatorics.singmasters-conjecture
+- problem_id: opa.mathematics.number-theory.agoh-giuga-conjecture
+- problem_id: opa.mathematics.number-theory.catalan-dickson-conjecture
+- problem_id: opa.mathematics.number-theory.lehmers-totient-problem
+- problem_id: opa.mathematics.extremal-combinatorics.frankl-conjecture-specific-bounds
+- problem_id: opa.mathematics.number-theory.erdos-mollin-walsh-conjecture
+- problem_id: opa.mathematics.order-theory.neggers-stanley-conjecture
+- problem_id: opa.mathematics.enumerative-combinatorics.freiman-ruzsa-conjecture
+- problem_id: opa.mathematics.differential-equations.hot-spots-conjecture
+- problem_id: opa.tcs.algorithms.nearest-neighbor-high-dim
+- problem_id: opa.tcs.algorithms.3sum-complexity
+- problem_id: opa.tcs.information-theory.capacity-achieving-linear-time-code
+- problem_id: opa.tcs.algorithms.multi-armed-bandit-regret
+- problem_id: opa.tcs.algorithms.sublinear-edit-distance
+- problem_id: opa.tcs.computational-geometry.minimum-enclosing-ball
+- problem_id: opa.phys.quantum-field-theory.anomalous-magnetic-moment-theory
+- problem_id: opa.phys.quantum-information.quantum-fault-tolerance-threshold-exact
+- problem_id: opa.tcs.algorithms.matrix-multiplication-exponent
+- problem_id: opa.tcs.learning-theory.active-learning-query-complexity
+- problem_id: opa.tcs.complexity-theory.graph-isomorphism-complexity
+- problem_id: opa.tcs.learning-theory.agnostic-learning-limits
+- problem_id: opa.phys.statistical-mechanics.percolation-threshold-exact-values
+- problem_id: opa.tcs.learning-theory.computational-statistical-gap
+- problem_id: opa.tcs.cryptography.homomorphic-encryption-efficiency
+- problem_id: opa.tcs.cryptography.lwe-hardness-parameters
+- problem_id: opa.phys.quantum-information.quantum-key-distribution-optimal-rates
+- problem_id: opa.tcs.algorithms.online-learning-experts
+- problem_id: opa.tcs.computational-geometry.polygon-triangulation-optimal
+- problem_id: opa.phys.statistical-mechanics.self-avoiding-walk-connective-constant
+- problem_id: opa.phys.statistical-mechanics.dimer-model-3d
+- problem_id: opa.phys.quantum-information.quantum-error-correction-fundamental-limits
+- problem_id: opa.phys.quantum-information.entanglement-distillation-optimal-rates
+- problem_id: opa.phys.quantum-information.quantum-state-merging-generalizations
 metadata:
   total: 50
   domains:

@@ -18,6 +18,10 @@
       "type": "string",
       "minLength": 10
     },
+    "version": {
+      "type": "string",
+      "description": "Semantic version of the collection"
+    },
     "curator": {
       "type": "string"
     },
@@ -40,10 +44,20 @@
         "required": ["problem_id"],
         "properties": {
           "problem_id": { "type": "string" },
+          "difficulty": {
+            "type": "string",
+            "enum": ["bronze", "silver", "gold"],
+            "description": "Difficulty tier (v2+)"
+          },
           "note": { "type": "string" }
-        }
+        },
+        "additionalProperties": false
       },
       "minItems": 1
+    },
+    "metadata": {
+      "type": "object",
+      "description": "Additional metadata about the collection"
     },
     "featured": {
       "type": "boolean",
