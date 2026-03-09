@@ -4,10 +4,10 @@
 [![Build Site](https://github.com/OpenProblemAtlas/open-problem-atlas/actions/workflows/build-site.yml/badge.svg)](https://github.com/OpenProblemAtlas/open-problem-atlas/actions/workflows/build-site.yml)
 [![License: CC BY-SA 4.0](https://img.shields.io/badge/Data-CC%20BY--SA%204.0-blue.svg)](LICENSE)
 [![License: MIT](https://img.shields.io/badge/Code-MIT-green.svg)](LICENSE-CODE)
-[![Problems](https://img.shields.io/badge/problems-2000%2B-orange.svg)](data/problems/)
-[![Checkers](https://img.shields.io/badge/checkers-100%2B-brightgreen.svg)](verifiers/checkers/)
+[![Problems](https://img.shields.io/badge/problems-2003-orange.svg)](data/problems/)
+[![Checkers](https://img.shields.io/badge/checkers-101-brightgreen.svg)](verifiers/checkers/)
 [![OPA-Bench](https://img.shields.io/badge/OPA--Bench-100%20problems-purple.svg)](data/collections/opa-bench-v2.yaml)
-[![Lean4](https://img.shields.io/badge/Lean4-15%25%20formalized-blue.svg)](formalization/lean4/)
+[![Lean4](https://img.shields.io/badge/Lean4-312%20stubs-blue.svg)](formalization/lean4/)
 [![arXiv](https://img.shields.io/badge/arXiv-paper-red.svg)](paper/)
 
 > A living, machine-readable atlas of open problems for researchers, AI agents, and theorem provers.
@@ -22,11 +22,11 @@
 
 | Layer | Description | Count |
 |-------|-------------|-------|
-| **Atlas** | Verified open problems with canonical sources and verification contracts | 500+ |
-| **Radar** | Machine-mined candidate problems awaiting review | 900+ |
+| **Atlas** | Verified open problems with canonical sources and verification contracts | 2,003 |
+| **Radar** | Machine-mined candidate problems awaiting review | 1,865 |
 | **Lab** | Reproducible AI/human attempts on open problems | growing |
-| **Checkers** | Python verification scripts for computational problems | 50 |
-| **OPA-Bench** | Curated AI theorem-proving benchmark subset | 50 |
+| **Checkers** | Python verification scripts for computational problems | 101 |
+| **OPA-Bench** | Curated AI theorem-proving benchmark subset | 100 |
 
 ## Quick Start (Python)
 
@@ -66,7 +66,7 @@ gems = ds.filter(lambda x: x["impact"] > 0.7 and x["underexplored"] > 0.5)
 
 ## Machine Verification
 
-Every problem has a verification contract. 50 problems have executable Python checkers:
+Every problem has a verification contract. 101 problems have executable Python checkers:
 
 ```bash
 # Run a single checker
@@ -83,11 +83,11 @@ Checker types: `conjecture_check_range`, `counterexample_search`, `bound_verific
 
 ## OPA-Bench: AI Theorem Proving Benchmark
 
-A curated subset of 50 problems selected for AI evaluation, balanced across domains:
+A curated subset of 100 problems selected for AI evaluation, with Bronze/Silver/Gold difficulty grading:
 
 ```python
 from opa.bench import load_bench
-bench = load_bench()  # 50 problems with verification contracts
+bench = load_bench()  # 100 problems with verification contracts
 ```
 
 | vs. Existing Benchmarks | Problem Type | Answers Known? | Verification |
@@ -99,7 +99,7 @@ bench = load_bench()  # 50 problems with verification contracts
 ## Key Features
 
 - **Verified Problems** -- Canonical statement, source, status evidence, review record
-- **Machine Verification** -- Every problem has a verification contract; 50 have executable checkers
+- **Machine Verification** -- Every problem has a verification contract; 101 have executable checkers
 - **Fresh Radar Leads** -- Automated pipelines mine arXiv, surveys, and problem lists
 - **Formalization Links** -- Filter for problems with Lean/Coq formalizations or `formalization-wanted` tags
 - **Solver-Ready Tags** -- Find problems amenable to SAT, SMT, computational search, or LLM reasoning
@@ -111,21 +111,24 @@ bench = load_bench()  # 50 problems with verification contracts
 ```
 open-problem-atlas/
 ├── data/
-│   ├── problems/         # Verified open problems (YAML, 500+)
-│   │   ├── mathematics/
-│   │   ├── theoretical-cs/
-│   │   └── mathematical-physics/
-│   ├── leads/            # Unverified candidate problems (900+)
+│   ├── problems/         # Verified open problems (YAML, 2,003)
+│   │   ├── mathematics/          # 984 problems
+│   │   ├── theoretical-cs/       # 484 problems
+│   │   └── mathematical-physics/ # 535 problems
+│   ├── leads/            # Unverified candidate problems (1,865)
 │   ├── attempts/         # AI/human attempt records
-│   ├── collections/      # Curated collections (OPA-Bench)
+│   ├── collections/      # Curated collections (OPA-Bench, etc.)
 │   └── snapshots/        # Frozen monthly releases
 ├── src/opa/              # Python SDK (atlas, bench)
 ├── verifiers/
-│   ├── checkers/math/    # 50 Python verification scripts
-│   └── contracts/        # 500+ verification contracts
+│   ├── checkers/math/    # 101 Python verification scripts
+│   └── contracts/        # 2,075 verification contracts
+├── formalization/
+│   └── lean4/            # 312 Lean4 formalization stubs
 ├── runner/               # Verification runner (CLI + backends)
 ├── schema/               # JSON Schema for all data types
 ├── ingestion/            # Source adapters and parsers
+├── paper/                # arXiv paper LaTeX source
 ├── site/                 # Static site / explorer
 ├── docs/                 # Project documentation
 └── tests/                # Test suite
@@ -133,9 +136,9 @@ open-problem-atlas/
 
 ## Domains (v1)
 
-1. **Mathematics** -- Number theory, combinatorics, algebra, analysis, geometry, topology
-2. **Theoretical Computer Science** -- Complexity theory, algorithms, graph theory, cryptography
-3. **Mathematical Physics** -- Quantum information, statistical mechanics, quantum field theory
+1. **Mathematics** (984) -- Number theory, combinatorics, algebra, analysis, geometry, topology
+2. **Theoretical Computer Science** (484) -- Complexity theory, algorithms, graph theory, cryptography
+3. **Mathematical Physics** (535) -- Quantum information, statistical mechanics, quantum field theory
 
 ## Data Model
 
