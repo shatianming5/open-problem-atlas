@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The assembly map in algebraic K-theory and L-theory for a group G with coefficients in any additive category
-    is an isomorphism.
+  canonical: The assembly map in algebraic K-theory and L-theory for a group G with
+    coefficients in any additive category is an isomorphism.
 sources:
   canonical:
   - source_id: src_farrell_1993
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

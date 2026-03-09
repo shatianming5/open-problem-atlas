@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every convex body in R^n (n >= 3) can be illuminated by at most 2^n light sources.
+  canonical: Every convex body in R^n (n >= 3) can be illuminated by at most 2^n light
+    sources.
 sources:
   canonical:
   - source_id: src_boltyanski_1960
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

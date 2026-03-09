@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the quantum communication complexity of set disjointness exactly Theta(sqrt(n)) for all approximate protocols,
-    or can the constant be improved?
+  canonical: Is the quantum communication complexity of set disjointness exactly Theta(sqrt(n))
+    for all approximate protocols, or can the constant be improved?
 sources:
   canonical:
   - source_id: src_braverman_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2103.08394
   status_evidence:
   - source_id: src_braverman_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2103.08394
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

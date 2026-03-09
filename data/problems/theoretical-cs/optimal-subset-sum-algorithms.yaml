@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can Subset Sum be solved in time O*(2^{n/2-epsilon}) for some epsilon > 0, improving on meet-in-the-middle?
+  canonical: Can Subset Sum be solved in time O*(2^{n/2-epsilon}) for some epsilon
+    > 0, improving on meet-in-the-middle?
 sources:
   canonical:
   - source_id: src_bringmann_2017
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/1.9781611974782.59
   status_evidence:
   - source_id: src_bringmann_2017
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/1.9781611974782.59
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

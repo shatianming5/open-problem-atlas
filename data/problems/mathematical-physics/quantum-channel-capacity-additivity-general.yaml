@@ -3,15 +3,16 @@ kind: problem
 title: "Quantum Channel Capacity Additivity (General Conjectures)"
 aliases:
   - "Additivity of Minimum Output Entropy"
+  - "Additivity of Quantum Channel Capacity"
   - "Multiplicativity of p-norms"
 
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: "2026-03-09"
   review_state: human_verified
   reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
+  stale_after: "2027-03-09"
 
 domain: mathematical-physics
 subdomains:
@@ -82,6 +83,7 @@ relations:
   generalizes: []
   special_cases: []
   related:
+    - "opa.phys.quantum-information.additivity-conjecture-quantum-channel-capacity"
     - "opa.phys.quantum-information.quantum-error-correction-fundamental-limits"
 
 formalization:

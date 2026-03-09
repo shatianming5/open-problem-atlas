@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Whether every Whitehead group is free is independent of ZFC; characterize models where it holds or fails.
+  canonical: Whether every Whitehead group is free is independent of ZFC; characterize
+    models where it holds or fails.
 sources:
   canonical:
   - source_id: src_shelah_1974
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

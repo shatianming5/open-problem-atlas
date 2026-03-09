@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the worst-case integrality gap of the multi-commodity flow relaxation for general graphs? Is it O(log
-    n)?
+  canonical: What is the worst-case integrality gap of the multi-commodity flow relaxation
+    for general graphs? Is it O(log n)?
 sources:
   canonical:
   - source_id: src_leighton_rao_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1090/S0894-0347-99-00284-8
   status_evidence:
   - source_id: src_leighton_rao_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1090/S0894-0347-99-00284-8
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

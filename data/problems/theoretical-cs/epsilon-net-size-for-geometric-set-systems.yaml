@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal size of epsilon-nets for geometric set systems such as half-planes and disks?
+  canonical: What is the optimal size of epsilon-nets for geometric set systems such
+    as half-planes and disks?
 sources:
   canonical:
   - source_id: src_pach_tardos_2013
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/s00454-012-9466-y
   status_evidence:
   - source_id: src_pach_tardos_2013
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/s00454-012-9466-y
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

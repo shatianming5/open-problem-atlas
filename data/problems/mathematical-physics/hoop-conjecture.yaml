@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Thorne hoop conjecture, stating that black holes form when and only when a mass is compacted into a region
-    with circumference less than 4piGM/c^2, be proven rigorously?
+  canonical: Can the Thorne hoop conjecture, stating that black holes form when and
+    only when a mass is compacted into a region with circumference less than 4piGM/c^2,
+    be proven rigorously?
 sources:
   canonical:
   - source_id: src_schoen_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0710.4112
   status_evidence:
   - source_id: src_schoen_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0710.4112
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

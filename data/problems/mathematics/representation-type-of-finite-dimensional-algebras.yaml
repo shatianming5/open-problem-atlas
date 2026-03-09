@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Classify finite-dimensional algebras of tame representation type completely. The second Brauer-Thrall conjecture
-    (now proven) leaves open the full wild/tame dichotomy in positive characteristic.
+  canonical: Classify finite-dimensional algebras of tame representation type completely.
+    The second Brauer-Thrall conjecture (now proven) leaves open the full wild/tame
+    dichotomy in positive characteristic.
 sources:
   canonical:
   - source_id: src_drozd_1980
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

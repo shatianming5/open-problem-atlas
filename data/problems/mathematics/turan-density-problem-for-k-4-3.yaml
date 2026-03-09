@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the Turan density of the complete 3-uniform hypergraph minus one edge.
+  canonical: Determine the Turan density of the complete 3-uniform hypergraph minus
+    one edge.
 sources:
   canonical:
   - source_id: curated_turan_density_problem_for_k_4_3
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

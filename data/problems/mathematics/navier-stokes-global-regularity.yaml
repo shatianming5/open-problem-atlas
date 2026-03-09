@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Do smooth solutions to the 3D incompressible Navier-Stokes equations with finite energy initial data remain smooth
-    for all time, or can singularities form?
+  canonical: Do smooth solutions to the 3D incompressible Navier-Stokes equations
+    with finite energy initial data remain smooth for all time, or can singularities
+    form?
 sources:
   canonical:
   - source_id: src_tao_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1402.0290
   status_evidence:
   - source_id: src_tao_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1402.0290
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

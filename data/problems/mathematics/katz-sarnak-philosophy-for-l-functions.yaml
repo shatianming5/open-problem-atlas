@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can one prove that the distribution of low-lying zeros of families of L-functions follows random matrix theory
-    predictions as predicted by the Katz-Sarnak philosophy?
+  canonical: Can one prove that the distribution of low-lying zeros of families of
+    L-functions follows random matrix theory predictions as predicted by the Katz-Sarnak
+    philosophy?
 sources:
   canonical:
   - source_id: src_sarnak_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2003.05491
   status_evidence:
   - source_id: src_sarnak_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2003.05491
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

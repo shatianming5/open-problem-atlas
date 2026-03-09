@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What fraction of the proton spin comes from gluon angular momentum? Resolving the proton spin decomposition remains
-    an open problem.
+  canonical: What fraction of the proton spin comes from gluon angular momentum? Resolving
+    the proton spin decomposition remains an open problem.
 sources:
   canonical:
   - source_id: src_ji_2020b
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2009.01291
   status_evidence:
   - source_id: src_ji_2020b
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2009.01291
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

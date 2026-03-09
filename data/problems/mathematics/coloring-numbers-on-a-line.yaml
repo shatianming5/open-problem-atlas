@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the minimum number of colors needed to color the integers so that no arithmetic progression is monochromatic.
+  canonical: Determine the minimum number of colors needed to color the integers so
+    that no arithmetic progression is monochromatic.
 sources:
   canonical:
   - source_id: curated_coloring_numbers_on_a_line
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

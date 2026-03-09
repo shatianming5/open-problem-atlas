@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Do all aliquot sequences either terminate or become periodic? Equivalently, are there no aliquot sequences that
-    diverge to infinity?
+  canonical: Do all aliquot sequences either terminate or become periodic? Equivalently,
+    are there no aliquot sequences that diverge to infinity?
 sources:
   canonical:
   - source_id: src_guy_2004
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

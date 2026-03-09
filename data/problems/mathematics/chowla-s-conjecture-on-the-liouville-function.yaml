@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'The Liouville function exhibits cancellation in short correlations: the average of lambda(n)*lambda(n+1) tends
-    to zero.'
+  canonical: 'The Liouville function exhibits cancellation in short correlations:
+    the average of lambda(n)*lambda(n+1) tends to zero.'
 sources:
   canonical:
   - source_id: curated_chowla_s_conjecture_on_the_liouville_function
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the conformal bootstrap program produce rigorous mathematical proofs of the critical exponents of the 3D
-    Ising model matching numerical results?
+  canonical: Can the conformal bootstrap program produce rigorous mathematical proofs
+    of the critical exponents of the 3D Ising model matching numerical results?
 sources:
   canonical:
   - source_id: src_elshowk_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1203.6064
   status_evidence:
   - source_id: src_elshowk_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1203.6064
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

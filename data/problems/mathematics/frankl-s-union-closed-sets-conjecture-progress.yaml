@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Following Gilmer's breakthrough lower bound of 0.01, can the constant in Frankl's conjecture be improved to the
-    conjectured 1/2?
+  canonical: Following Gilmer's breakthrough lower bound of 0.01, can the constant
+    in Frankl's conjecture be improved to the conjectured 1/2?
 sources:
   canonical:
   - source_id: src_gilmer_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2211.09055
   status_evidence:
   - source_id: src_gilmer_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2211.09055
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Why is the observed cosmological constant 120 orders of magnitude smaller than naive quantum field theory predictions?
+  canonical: Why is the observed cosmological constant 120 orders of magnitude smaller
+    than naive quantum field theory predictions?
 sources:
   canonical:
   - source_id: src_weinberg_1989
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/RevModPhys.61.1
   status_evidence:
   - source_id: src_weinberg_1989
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/RevModPhys.61.1
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

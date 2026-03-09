@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: An asymptotically flat Riemannian manifold of dimension n >= 3 with nonnegative scalar curvature has nonneg ADM
-    mass, with equality only for flat space.
+  canonical: An asymptotically flat Riemannian manifold of dimension n >= 3 with nonnegative
+    scalar curvature has nonneg ADM mass, with equality only for flat space.
 sources:
   canonical:
   - source_id: src_schoen_1979
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

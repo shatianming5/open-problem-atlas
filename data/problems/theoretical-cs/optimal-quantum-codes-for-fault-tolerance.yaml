@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal encoding rate for quantum error-correcting codes that support fault-tolerant universal computation?
+  canonical: What is the optimal encoding rate for quantum error-correcting codes
+    that support fault-tolerant universal computation?
 sources:
   canonical:
   - source_id: src_gottesman_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1310.2984
   status_evidence:
   - source_id: src_gottesman_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1310.2984
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the remainder term in the Weyl law for eigenvalues of the Laplacian on arithmetic hyperbolic manifolds be
-    improved to match the conjectured optimal bound?
+  canonical: Can the remainder term in the Weyl law for eigenvalues of the Laplacian
+    on arithmetic hyperbolic manifolds be improved to match the conjectured optimal
+    bound?
 sources:
   canonical:
   - source_id: src_marshall_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.08392
   status_evidence:
   - source_id: src_marshall_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.08392
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

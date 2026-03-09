@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the exact hardness of the Learning Parity with Noise (LPN) problem? Is it exponentially hard for constant
-    noise rates?
+  canonical: What is the exact hardness of the Learning Parity with Noise (LPN) problem?
+    Is it exponentially hard for constant noise rates?
 sources:
   canonical:
   - source_id: src_blum_kalai_wasserman_2003
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/780542.780603
   status_evidence:
   - source_id: src_blum_kalai_wasserman_2003
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/780542.780603
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

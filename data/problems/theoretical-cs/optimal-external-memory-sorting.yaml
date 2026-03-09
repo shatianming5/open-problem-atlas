@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the O(N/B log_{M/B}(N/B)) I/O bound for external memory sorting optimal for all parameter ranges?
+  canonical: Is the O(N/B log_{M/B}(N/B)) I/O bound for external memory sorting optimal
+    for all parameter ranges?
 sources:
   canonical:
   - source_id: src_aggarwal_vitter_1988
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/48529.48535
   status_evidence:
   - source_id: src_aggarwal_vitter_1988
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/48529.48535
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

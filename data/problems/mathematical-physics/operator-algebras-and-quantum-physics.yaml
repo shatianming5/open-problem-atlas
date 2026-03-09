@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the algebraic quantum field theory program based on operator algebras provide a complete non-perturbative
-    construction of interacting QFTs in four dimensions?
+  canonical: Can the algebraic quantum field theory program based on operator algebras
+    provide a complete non-perturbative construction of interacting QFTs in four dimensions?
 sources:
   canonical:
   - source_id: src_haag_1996
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-642-61458-3
   status_evidence:
   - source_id: src_haag_1996
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-642-61458-3
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Feynman path integral be placed on a rigorous mathematical foundation for gauge theories in four spacetime
-    dimensions?
+  canonical: Can the Feynman path integral be placed on a rigorous mathematical foundation
+    for gauge theories in four spacetime dimensions?
 sources:
   canonical:
   - source_id: src_albeverio_2008
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-540-76956-9
   status_evidence:
   - source_id: src_albeverio_2008
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-540-76956-9
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

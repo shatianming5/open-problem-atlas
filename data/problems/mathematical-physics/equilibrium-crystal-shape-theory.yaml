@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the existence and regularity of equilibrium crystal shapes from microscopic models.
+  canonical: Prove the existence and regularity of equilibrium crystal shapes from
+    microscopic models.
 sources:
   canonical:
   - source_id: curated_equilibrium_crystal_shape_theory
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

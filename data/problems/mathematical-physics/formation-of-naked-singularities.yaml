@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Under what physical conditions can naked singularities form from regular initial data in gravitational collapse,
-    violating cosmic censorship?
+  canonical: Under what physical conditions can naked singularities form from regular
+    initial data in gravitational collapse, violating cosmic censorship?
 sources:
   canonical:
   - source_id: src_joshi_2007
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/gr-qc/0610082
   status_evidence:
   - source_id: src_joshi_2007
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/gr-qc/0610082
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

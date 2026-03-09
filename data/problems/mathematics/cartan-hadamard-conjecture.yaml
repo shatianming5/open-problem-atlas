@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The isoperimetric inequality in a simply connected Riemannian manifold of nonpositive curvature is at least as
-    strong as in Euclidean space of the same dimension.
+  canonical: The isoperimetric inequality in a simply connected Riemannian manifold
+    of nonpositive curvature is at least as strong as in Euclidean space of the same
+    dimension.
 sources:
   canonical:
   - source_id: src_aubin_1976
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

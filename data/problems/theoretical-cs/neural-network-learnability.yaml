@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can two-layer neural networks with polynomial neurons be PAC learned in polynomial time? Hardness results exist
-    but gaps remain.
+  canonical: Can two-layer neural networks with polynomial neurons be PAC learned
+    in polynomial time? Hardness results exist but gaps remain.
 sources:
   canonical:
   - source_id: src_daniely_shalev_shwartz_2020
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3382078
   status_evidence:
   - source_id: src_daniely_shalev_shwartz_2020
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3382078
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

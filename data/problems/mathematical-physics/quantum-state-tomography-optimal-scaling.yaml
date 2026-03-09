@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal sample complexity for quantum state tomography of an n-qubit state with respect to trace
-    distance?
+  canonical: What is the optimal sample complexity for quantum state tomography of
+    an n-qubit state with respect to trace distance?
 sources:
   canonical:
   - source_id: src_haah_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1508.01797
   status_evidence:
   - source_id: src_haah_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1508.01797
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

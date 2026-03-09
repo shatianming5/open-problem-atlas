@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does every set of positive upper density contain polynomial progressions of arbitrary length, extending the polynomial
-    Szemeredi theorem to all configurations?
+  canonical: Does every set of positive upper density contain polynomial progressions
+    of arbitrary length, extending the polynomial Szemeredi theorem to all configurations?
 sources:
   canonical:
   - source_id: src_peluse_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2203.07269
   status_evidence:
   - source_id: src_peluse_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2203.07269
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

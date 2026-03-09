@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does a precise Kerr/CFT correspondence exist, providing a holographic dual description for generic (non-extremal)
-    rotating black holes?
+  canonical: Does a precise Kerr/CFT correspondence exist, providing a holographic
+    dual description for generic (non-extremal) rotating black holes?
 sources:
   canonical:
   - source_id: src_guica_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0809.4266
   status_evidence:
   - source_id: src_guica_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0809.4266
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

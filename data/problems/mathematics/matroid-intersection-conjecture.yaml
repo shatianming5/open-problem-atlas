@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For any two matroids on the same ground set, the maximum size of a common independent set equals the minimum
-    of a certain covering expression.
+  canonical: For any two matroids on the same ground set, the maximum size of a common
+    independent set equals the minimum of a certain covering expression.
 sources:
   canonical:
   - source_id: src_edmonds_1970
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

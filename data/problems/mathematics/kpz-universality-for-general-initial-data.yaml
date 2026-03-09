@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove KPZ universality for the fluctuations of growing interfaces with general initial conditions.
+  canonical: Prove KPZ universality for the fluctuations of growing interfaces with
+    general initial conditions.
 sources:
   canonical:
   - source_id: curated_kpz_universality_for_general_initial_data
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

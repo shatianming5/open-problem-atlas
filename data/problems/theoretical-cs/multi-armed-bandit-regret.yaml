@@ -1,121 +1,115 @@
 id: opa.tcs.algorithms.multi-armed-bandit-regret
 kind: problem
-title: "Multi-Armed Bandit Optimal Regret"
+title: Multi-Armed Bandit Optimal Regret
 aliases:
-  - "Bandit optimal exploration-exploitation"
-  - "Best arm identification complexity"
-
+- Bandit optimal exploration-exploitation
+- Best arm identification complexity
+- Multi-Armed Bandits with Constraints
+- Optimal Multi-Armed Bandit Algorithms
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - algorithms
-
+- algorithms
 problem_type: conjecture
 answer_type: bound
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: computational
   machine_actionability: high
 tier: tier_1
 statement:
-  canonical: >
-    In the multi-armed bandit problem, a learner selects one of K arms at each round
-    and observes a reward. For structured bandits (linear, contextual, combinatorial),
-    what are the exact minimax regret bounds? For contextual bandits with large or
-    infinite policy classes, what is the optimal regret as a function of the complexity
-    of the policy class?
-  informal: >
-    When making sequential decisions under uncertainty with limited feedback, what is
-    the best possible performance for complex, structured settings? Many important
+  canonical: 'In the multi-armed bandit problem, a learner selects one of K arms at
+    each round and observes a reward. For structured bandits (linear, contextual,
+    combinatorial), what are the exact minimax regret bounds? For contextual bandits
+    with large or infinite policy classes, what is the optimal regret as a function
+    of the complexity of the policy class?
+
+    '
+  informal: 'When making sequential decisions under uncertainty with limited feedback,
+    what is the best possible performance for complex, structured settings? Many important
     variants of the bandit problem still lack tight bounds.
 
-why_it_matters: >
-  Multi-armed bandits are fundamental to sequential decision-making with applications
-  in clinical trials, recommendation systems, and online advertising. Tight regret
-  bounds guide practical algorithm design.
+    '
+why_it_matters: 'Multi-armed bandits are fundamental to sequential decision-making
+  with applications in clinical trials, recommendation systems, and online advertising.
+  Tight regret bounds guide practical algorithm design.
 
+  '
 prerequisites:
-  - multi-armed bandits
-  - regret bounds
-  - exploration-exploitation tradeoff
-  - contextual bandits
-
+- multi-armed bandits
+- regret bounds
+- exploration-exploitation tradeoff
+- contextual bandits
 dates:
   first_stated: 2002
-
 sources:
   canonical:
-    - source_id: src_auer_cesa_bianchi_fischer_2002
-      kind: paper
-      title: "Finite-time Analysis of the Multiarmed Bandit Problem"
-      authors:
-        - "Peter Auer"
-        - "Nicolò Cesa-Bianchi"
-        - "Paul Fischer"
-      url: "https://doi.org/10.1023/A:1013689704352"
-      year: 2002
-  status_evidence:
-    - source_id: src_lattimore_szepesvari_2020
-      kind: textbook
-      title: "Bandit Algorithms"
-      authors:
-        - "Tor Lattimore"
-        - "Csaba Szepesvári"
-      url: "https://doi.org/10.1017/9781108571401"
-      year: 2020
-
-partial_results:
-  - summary: "UCB achieves O(sqrt(KT log T)) regret for K-armed bandits, nearly matching the Omega(sqrt(KT)) lower bound."
+  - source_id: src_auer_cesa_bianchi_fischer_2002
+    kind: paper
+    title: Finite-time Analysis of the Multiarmed Bandit Problem
+    authors:
+    - Peter Auer
+    - Nicolò Cesa-Bianchi
+    - Paul Fischer
+    url: https://doi.org/10.1023/A:1013689704352
     year: 2002
-  - summary: "For linear bandits in d dimensions, the optimal regret is Theta(d*sqrt(T)) but structural assumptions affect constants."
-    year: 2011
-  - summary: "For contextual bandits with general policy classes, tight bounds in terms of VC/Natarajan dimension remain open."
+  status_evidence:
+  - source_id: src_lattimore_szepesvari_2020
+    kind: textbook
+    title: Bandit Algorithms
+    authors:
+    - Tor Lattimore
+    - Csaba Szepesvári
+    url: https://doi.org/10.1017/9781108571401
     year: 2020
-
+partial_results:
+- summary: UCB achieves O(sqrt(KT log T)) regret for K-armed bandits, nearly matching
+    the Omega(sqrt(KT)) lower bound.
+  year: 2002
+- summary: For linear bandits in d dimensions, the optimal regret is Theta(d*sqrt(T))
+    but structural assumptions affect constants.
+  year: 2011
+- summary: For contextual bandits with general policy classes, tight bounds in terms
+    of VC/Natarajan dimension remain open.
+  year: 2020
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.algorithms.online-learning-experts"
-
+  - opa.tcs.algorithms.online-learning-experts
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.75
-  underexplored: 0.30
-  toolability: 0.50
-  formality: 0.80
-  ai_fit: 0.40
-
+  underexplored: 0.3
+  toolability: 0.5
+  formality: 0.8
+  ai_fit: 0.4
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-
+  - python
 machine_generated:
-  summary: >
-    Determining exact minimax regret bounds for structured bandit problems (linear,
-    contextual, combinatorial) remains open with significant gaps in several settings.
-  decomposition:
-    - "Close the gap for contextual bandits with large policy classes"
-    - "Determine instance-optimal regret for structured bandits"
-  disclaimer: unverified
+  summary: 'Determining exact minimax regret bounds for structured bandit problems
+    (linear, contextual, combinatorial) remains open with significant gaps in several
+    settings.
 
+    '
+  decomposition:
+  - Close the gap for contextual bandits with large policy classes
+  - Determine instance-optimal regret for structured bandits
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

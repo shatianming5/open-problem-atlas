@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether nontrivial conformal field theories exist in dimensions greater than 6.
+  canonical: Determine whether nontrivial conformal field theories exist in dimensions
+    greater than 6.
 sources:
   canonical:
   - source_id: curated_existence_of_cfts_in_d_6
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

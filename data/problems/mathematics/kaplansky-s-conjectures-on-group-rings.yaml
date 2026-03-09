@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For a torsion-free group G and field K, the group ring K[G] has no zero divisors, no idempotents other than 0
-    and 1, and every unit is trivial.
+  canonical: For a torsion-free group G and field K, the group ring K[G] has no zero
+    divisors, no idempotents other than 0 and 1, and every unit is trivial.
 sources:
   canonical:
   - source_id: src_kaplansky_1970
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

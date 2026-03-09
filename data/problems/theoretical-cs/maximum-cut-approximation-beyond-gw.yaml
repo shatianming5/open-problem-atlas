@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Improve the Goemans-Williamson approximation ratio for MAX CUT, or prove it is optimal.
+  canonical: Improve the Goemans-Williamson approximation ratio for MAX CUT, or prove
+    it is optimal.
 sources:
   canonical:
   - source_id: curated_maximum_cut_approximation_beyond_gw
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

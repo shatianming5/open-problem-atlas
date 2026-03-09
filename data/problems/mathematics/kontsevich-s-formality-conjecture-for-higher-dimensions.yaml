@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the formality theorem for the deformation quantization of Poisson manifolds in higher dimensions.
+  canonical: Prove the formality theorem for the deformation quantization of Poisson
+    manifolds in higher dimensions.
 sources:
   canonical:
   - source_id: curated_kontsevich_s_formality_conjecture_for_higher_dimensions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

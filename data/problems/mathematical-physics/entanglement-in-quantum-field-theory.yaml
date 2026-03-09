@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: How should entanglement entropy be defined and regularized for interacting quantum field theories, and what universal
-    quantities can be extracted?
+  canonical: How should entanglement entropy be defined and regularized for interacting
+    quantum field theories, and what universal quantities can be extracted?
 sources:
   canonical:
   - source_id: src_witten_2018
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1803.04993
   status_evidence:
   - source_id: src_witten_2018
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1803.04993
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

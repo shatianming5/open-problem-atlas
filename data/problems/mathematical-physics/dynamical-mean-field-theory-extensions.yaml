@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can cluster extensions of dynamical mean-field theory capture the essential physics of the cuprate phase diagram,
-    including the pseudogap and d-wave superconductivity?
+  canonical: Can cluster extensions of dynamical mean-field theory capture the essential
+    physics of the cuprate phase diagram, including the pseudogap and d-wave superconductivity?
 sources:
   canonical:
   - source_id: src_georges_2004
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/RevModPhys.68.13
   status_evidence:
   - source_id: src_georges_2004
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/RevModPhys.68.13
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

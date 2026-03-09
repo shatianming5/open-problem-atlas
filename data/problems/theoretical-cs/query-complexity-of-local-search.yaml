@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the exact query complexity of local search on the Boolean hypercube? The gap between Omega(2^{n/2}/sqrt(n))
-    and O(2^{n/2} sqrt(n)) remains.
+  canonical: What is the exact query complexity of local search on the Boolean hypercube?
+    The gap between Omega(2^{n/2}/sqrt(n)) and O(2^{n/2} sqrt(n)) remains.
 sources:
   canonical:
   - source_id: src_bruna_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2309.04434
   status_evidence:
   - source_id: src_bruna_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2309.04434
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

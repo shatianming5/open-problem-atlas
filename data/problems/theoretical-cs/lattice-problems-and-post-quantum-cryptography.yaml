@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the Learning with Errors problem truly hard for quantum computers, ensuring the security of lattice-based
-    post-quantum cryptographic schemes?
+  canonical: Is the Learning with Errors problem truly hard for quantum computers,
+    ensuring the security of lattice-based post-quantum cryptographic schemes?
 sources:
   canonical:
   - source_id: src_peikert_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2211.08882
   status_evidence:
   - source_id: src_peikert_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2211.08882
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

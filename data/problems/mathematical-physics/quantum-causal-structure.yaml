@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can quantum causal models be extended to handle indefinite causal order, and what operational signatures distinguish
-    quantum from classical causal structures?
+  canonical: Can quantum causal models be extended to handle indefinite causal order,
+    and what operational signatures distinguish quantum from classical causal structures?
 sources:
   canonical:
   - source_id: src_oreshkov_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1105.4464
   status_evidence:
   - source_id: src_oreshkov_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1105.4464
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

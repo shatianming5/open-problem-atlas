@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can verifiable delay functions be constructed with minimal overhead and based on well-studied hardness assumptions?
+  canonical: Can verifiable delay functions be constructed with minimal overhead and
+    based on well-studied hardness assumptions?
 sources:
   canonical:
   - source_id: src_boneh_bonneau_bunz_fisch_2018
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-030-26948-7_25
   status_evidence:
   - source_id: src_boneh_bonneau_bunz_fisch_2018
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-030-26948-7_25
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

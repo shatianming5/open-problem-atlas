@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The No Low-Energy Trivial States conjecture was recently proved; can it be strengthened to resolve the quantum
-    PCP conjecture?
+  canonical: The No Low-Energy Trivial States conjecture was recently proved; can
+    it be strengthened to resolve the quantum PCP conjecture?
 sources:
   canonical:
   - source_id: src_anshu_breuckmann_nirkhe_2023
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3564246.3585114
   status_evidence:
   - source_id: src_anshu_breuckmann_nirkhe_2023
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3564246.3585114
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

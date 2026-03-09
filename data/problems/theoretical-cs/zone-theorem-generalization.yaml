@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the zone theorem for hyperplane arrangements be tightly generalized to curved surfaces and higher-order objects?
+  canonical: Can the zone theorem for hyperplane arrangements be tightly generalized
+    to curved surfaces and higher-order objects?
 sources:
   canonical:
   - source_id: src_agarwal_sharir_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/s004540010002
   status_evidence:
   - source_id: src_agarwal_sharir_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/s004540010002
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

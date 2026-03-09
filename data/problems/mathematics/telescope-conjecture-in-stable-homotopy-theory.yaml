@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The n-th telescope conjecture predicts the localization of spectra with respect to the telescope of a v_n-self-map
-    equals the localization at the Johnson-Wilson spectrum E(n).
+  canonical: The n-th telescope conjecture predicts the localization of spectra with
+    respect to the telescope of a v_n-self-map equals the localization at the Johnson-Wilson
+    spectrum E(n).
 sources:
   canonical:
   - source_id: src_ravenel_1984
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

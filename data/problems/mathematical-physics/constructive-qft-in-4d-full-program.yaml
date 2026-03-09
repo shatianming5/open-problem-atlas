@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Construct a nontrivial interacting quantum field theory in four spacetime dimensions rigorously.
+  canonical: Construct a nontrivial interacting quantum field theory in four spacetime
+    dimensions rigorously.
 sources:
   canonical:
   - source_id: curated_constructive_qft_in_4d_full_program
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Complete the geometric complexity theory approach to VP vs VNP and P vs NP.
+  canonical: Complete the geometric complexity theory approach to VP vs VNP and P
+    vs NP.
 sources:
   canonical:
   - source_id: curated_geometric_complexity_theory_program
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

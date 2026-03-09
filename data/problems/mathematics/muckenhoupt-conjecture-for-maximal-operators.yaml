@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Sharp weighted norm inequalities for the Hardy-Littlewood maximal operator with matrix weights.
+  canonical: Sharp weighted norm inequalities for the Hardy-Littlewood maximal operator
+    with matrix weights.
 sources:
   canonical:
   - source_id: src_muckenhoupt_1972
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Two distinct Dehn surgeries on a knot in S^3 cannot produce the same oriented 3-manifold.
+  canonical: Two distinct Dehn surgeries on a knot in S^3 cannot produce the same
+    oriented 3-manifold.
 sources:
   canonical:
   - source_id: curated_cosmetic_surgery_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

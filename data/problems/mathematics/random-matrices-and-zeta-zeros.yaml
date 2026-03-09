@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Rigorously prove the connection between random matrix theory eigenvalue statistics and Riemann zeta zero spacing.
+  canonical: Rigorously prove the connection between random matrix theory eigenvalue
+    statistics and Riemann zeta zero spacing.
 sources:
   canonical:
   - source_id: curated_random_matrices_and_zeta_zeros
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

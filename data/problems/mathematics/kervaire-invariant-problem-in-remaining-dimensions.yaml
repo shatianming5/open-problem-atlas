@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does a framed manifold of Kervaire invariant one exist in dimension 126? All other dimensions are resolved.
+  canonical: Does a framed manifold of Kervaire invariant one exist in dimension 126?
+    All other dimensions are resolved.
 sources:
   canonical:
   - source_id: src_hill_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0908.3724
   status_evidence:
   - source_id: src_hill_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0908.3724
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

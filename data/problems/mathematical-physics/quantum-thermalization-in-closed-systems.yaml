@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that generic closed quantum systems thermalize and determine the timescale.
+  canonical: Prove that generic closed quantum systems thermalize and determine the
+    timescale.
 sources:
   canonical:
   - source_id: curated_quantum_thermalization_in_closed_systems
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

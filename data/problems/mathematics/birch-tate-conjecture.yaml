@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For a totally real number field F, the order of K_2(O_F) is related to the value of the Dedekind zeta function
-    at s = -1 by an explicit formula.
+  canonical: For a totally real number field F, the order of K_2(O_F) is related to
+    the value of the Dedekind zeta function at s = -1 by an explicit formula.
 sources:
   canonical:
   - source_id: src_birch_1969
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

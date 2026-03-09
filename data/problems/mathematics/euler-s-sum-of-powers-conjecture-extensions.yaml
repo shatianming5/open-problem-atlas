@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Classify all solutions and non-solutions of a^k + b^k + c^k = d^k for various k.
+  canonical: Classify all solutions and non-solutions of a^k + b^k + c^k = d^k for
+    various k.
 sources:
   canonical:
   - source_id: curated_euler_s_sum_of_powers_conjecture_extensions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

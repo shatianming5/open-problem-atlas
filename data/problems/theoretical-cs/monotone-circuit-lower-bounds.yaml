@@ -1,123 +1,116 @@
 id: opa.tcs.complexity-theory.monotone-circuit-lower-bounds
 kind: problem
-title: "Monotone Circuit Lower Bounds"
+title: Monotone Circuit Lower Bounds
 aliases:
-  - "Monotone circuit complexity"
-  - "Monotone P vs NP"
-
+- Monotone circuit complexity
+- Monotone P vs NP
+- Monotone Circuit Lower Bounds for NP
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - complexity-theory
-
+- complexity-theory
 problem_type: conjecture
 answer_type: bound
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: computational
   machine_actionability: low
 tier: tier_2
 statement:
-  canonical: >
-    A monotone Boolean circuit uses only AND and OR gates (no NOT gates). Razborov
-    (1985) proved exponential lower bounds for the monotone circuit complexity of the
-    clique function. Can similar exponential lower bounds be proved for monotone
+  canonical: 'A monotone Boolean circuit uses only AND and OR gates (no NOT gates).
+    Razborov (1985) proved exponential lower bounds for the monotone circuit complexity
+    of the clique function. Can similar exponential lower bounds be proved for monotone
     functions that have polynomial-size general (non-monotone) circuits? Can the gap
     between monotone and general circuit complexity be fully characterized?
-  informal: >
-    How much does negation help in circuit computation? For which problems does removing
-    NOT gates make circuits exponentially larger?
 
-why_it_matters: >
-  Monotone circuits are a natural restriction where strong lower bounds are known.
-  Understanding the gap between monotone and general circuits could yield insights
-  into the role of negation in computation and potentially transfer to general circuit
-  lower bounds.
+    '
+  informal: 'How much does negation help in circuit computation? For which problems
+    does removing NOT gates make circuits exponentially larger?
 
+    '
+why_it_matters: 'Monotone circuits are a natural restriction where strong lower bounds
+  are known. Understanding the gap between monotone and general circuits could yield
+  insights into the role of negation in computation and potentially transfer to general
+  circuit lower bounds.
+
+  '
 prerequisites:
-  - monotone circuit complexity
-  - Razborov's approximation method
-  - clique function
-  - Tardos function
-
+- monotone circuit complexity
+- Razborov's approximation method
+- clique function
+- Tardos function
 dates:
   first_stated: 1985
-
 sources:
   canonical:
-    - source_id: src_razborov_1985
-      kind: paper
-      title: "Lower Bounds on the Monotone Complexity of Some Boolean Functions"
-      authors:
-        - "Alexander Razborov"
-      url: "https://doi.org/10.1007/BF02104744"
-      year: 1985
-  status_evidence:
-    - source_id: src_goos_pitassi_watson_2018
-      kind: paper
-      title: "Deterministic Communication vs. Partition Number"
-      authors:
-        - "Mika Göös"
-        - "Toniann Pitassi"
-        - "Thomas Watson"
-      url: "https://doi.org/10.1137/17M1130101"
-      year: 2018
-
-partial_results:
-  - summary: "Razborov (1985) proved exponential monotone circuit lower bounds for the clique function using the approximation method."
+  - source_id: src_razborov_1985
+    kind: paper
+    title: Lower Bounds on the Monotone Complexity of Some Boolean Functions
+    authors:
+    - Alexander Razborov
+    url: https://doi.org/10.1007/BF02104744
     year: 1985
-  - summary: "Tardos (1988) exhibited a monotone function in P (has poly-size general circuits) that requires exponential-size monotone circuits."
-    year: 1988
-  - summary: "Göös, Pitassi, and Watson used monotone circuit techniques to resolve long-standing communication complexity conjectures."
+  status_evidence:
+  - source_id: src_goos_pitassi_watson_2018
+    kind: paper
+    title: Deterministic Communication vs. Partition Number
+    authors:
+    - Mika Göös
+    - Toniann Pitassi
+    - Thomas Watson
+    url: https://doi.org/10.1137/17M1130101
     year: 2018
-
+partial_results:
+- summary: Razborov (1985) proved exponential monotone circuit lower bounds for the
+    clique function using the approximation method.
+  year: 1985
+- summary: Tardos (1988) exhibited a monotone function in P (has poly-size general
+    circuits) that requires exponential-size monotone circuits.
+  year: 1988
+- summary: Göös, Pitassi, and Watson used monotone circuit techniques to resolve long-standing
+    communication complexity conjectures.
+  year: 2018
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.complexity-theory.circuit-complexity-explicit-functions"
-    - "opa.tcs.complexity-theory.formula-vs-circuit-complexity"
-
+  - opa.tcs.complexity-theory.circuit-complexity-explicit-functions
+  - opa.tcs.complexity-theory.formula-vs-circuit-complexity
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.75
   underexplored: 0.35
-  toolability: 0.30
-  formality: 0.90
+  toolability: 0.3
+  formality: 0.9
   ai_fit: 0.15
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-    - lean
-
+  - python
+  - lean
 machine_generated:
-  summary: >
-    The monotone circuit lower bounds problem asks for a complete characterization
+  summary: 'The monotone circuit lower bounds problem asks for a complete characterization
     of the gap between monotone and general circuit complexity, and whether monotone
     techniques can be leveraged for general lower bounds.
-  decomposition:
-    - "Characterize which functions exhibit exponential monotone-nonmonotone gaps"
-    - "Develop techniques that transfer monotone lower bounds to general circuit lower bounds"
-  disclaimer: unverified
 
+    '
+  decomposition:
+  - Characterize which functions exhibit exponential monotone-nonmonotone gaps
+  - Develop techniques that transfer monotone lower bounds to general circuit lower
+    bounds
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

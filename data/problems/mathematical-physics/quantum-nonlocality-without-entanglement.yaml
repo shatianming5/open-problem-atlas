@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the phenomenon of quantum nonlocality without entanglement be fully characterized, and what is its role in
-    multipartite quantum information processing?
+  canonical: Can the phenomenon of quantum nonlocality without entanglement be fully
+    characterized, and what is its role in multipartite quantum information processing?
 sources:
   canonical:
   - source_id: src_bennett_1999
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/quant-ph/9804053
   status_evidence:
   - source_id: src_bennett_1999
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/quant-ph/9804053
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

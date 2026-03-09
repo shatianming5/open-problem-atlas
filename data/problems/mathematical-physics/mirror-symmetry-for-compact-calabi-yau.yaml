@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can homological mirror symmetry be rigorously proved for compact Calabi-Yau threefolds beyond the quintic, as
-    conjectured by Kontsevich?
+  canonical: Can homological mirror symmetry be rigorously proved for compact Calabi-Yau
+    threefolds beyond the quintic, as conjectured by Kontsevich?
 sources:
   canonical:
   - source_id: src_sheridan_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1507.02523
   status_evidence:
   - source_id: src_sheridan_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1507.02523
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

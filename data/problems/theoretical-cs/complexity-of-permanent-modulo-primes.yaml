@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'What is the complexity of computing the permanent modulo a prime p? Toda showed it is #P-hard over integers
-    but modular versions remain unclear.'
+  canonical: 'What is the complexity of computing the permanent modulo a prime p?
+    Toda showed it is #P-hard over integers but modular versions remain unclear.'
 sources:
   canonical:
   - source_id: src_toda_1991
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0220066
   status_evidence:
   - source_id: src_toda_1991
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0220066
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that the normalized spacings between consecutive zeros of the Riemann zeta function follow GUE statistics.
+  canonical: Prove that the normalized spacings between consecutive zeros of the Riemann
+    zeta function follow GUE statistics.
 sources:
   canonical:
   - source_id: curated_normalized_spacing_of_zeta_zeros
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

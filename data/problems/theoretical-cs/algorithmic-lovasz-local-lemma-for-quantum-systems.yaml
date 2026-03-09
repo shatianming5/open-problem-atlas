@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the constructive proof of the Lovasz Local Lemma be extended to commuting local Hamiltonians, yielding efficient
-    quantum algorithms for finding satisfying ground states?
+  canonical: Can the constructive proof of the Lovasz Local Lemma be extended to commuting
+    local Hamiltonians, yielding efficient quantum algorithms for finding satisfying
+    ground states?
 sources:
   canonical:
   - source_id: src_gilyenA_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2109.11563
   status_evidence:
   - source_id: src_gilyenA_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2109.11563
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

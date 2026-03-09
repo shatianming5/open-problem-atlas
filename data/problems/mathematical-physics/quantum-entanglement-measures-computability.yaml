@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the computability of entanglement measures such as entanglement entropy and negativity.
+  canonical: Determine the computability of entanglement measures such as entanglement
+    entropy and negativity.
 sources:
   canonical:
   - source_id: curated_quantum_entanglement_measures_computability
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

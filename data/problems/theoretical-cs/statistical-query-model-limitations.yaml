@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the exact power of the statistical query model? Which learning problems require non-SQ algorithms?
+  canonical: What is the exact power of the statistical query model? Which learning
+    problems require non-SQ algorithms?
 sources:
   canonical:
   - source_id: src_kearns_1998
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/293347.293351
   status_evidence:
   - source_id: src_kearns_1998
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/293347.293351
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

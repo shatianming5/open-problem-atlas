@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Heights of rational points on algebraic varieties satisfy a precise inequality analogous to the Second Main Theorem
-    in Nevanlinna theory.
+  canonical: Heights of rational points on algebraic varieties satisfy a precise inequality
+    analogous to the Second Main Theorem in Nevanlinna theory.
 sources:
   canonical:
   - source_id: curated_vojta_s_conjecture
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

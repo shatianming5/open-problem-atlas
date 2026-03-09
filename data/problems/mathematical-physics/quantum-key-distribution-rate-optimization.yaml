@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the ultimate key rate achievable by quantum key distribution protocols over lossy bosonic channels without
-    quantum repeaters?
+  canonical: What is the ultimate key rate achievable by quantum key distribution
+    protocols over lossy bosonic channels without quantum repeaters?
 sources:
   canonical:
   - source_id: src_pirandola_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1510.08863
   status_evidence:
   - source_id: src_pirandola_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1510.08863
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

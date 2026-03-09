@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The Mahler volume of a centrally symmetric convex body in R^n is minimized by the hypercube.
+  canonical: The Mahler volume of a centrally symmetric convex body in R^n is minimized
+    by the hypercube.
 sources:
   canonical:
   - source_id: src_mahler_1939
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

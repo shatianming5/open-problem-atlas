@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the mixing time of random walk on finite groups with natural generating sets.
+  canonical: Determine the mixing time of random walk on finite groups with natural
+    generating sets.
 sources:
   canonical:
   - source_id: curated_mixing_time_of_markov_chains_on_groups
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For every prime p > 2, there exist primes p1 and p2 with p1 + p2 = 2p and |p1 - p| less than c*sqrt(p)*ln(p).
+  canonical: For every prime p > 2, there exist primes p1 and p2 with p1 + p2 = 2p
+    and |p1 - p| less than c*sqrt(p)*ln(p).
 sources:
   canonical:
   - source_id: curated_rassias_conjecture_on_prime_gaps
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

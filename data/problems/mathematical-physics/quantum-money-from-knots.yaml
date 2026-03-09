@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can quantum money schemes based on knot invariants be made secure against computationally unbounded adversaries?
-    The security of Aaronson-Christiano scheme remains unproven.
+  canonical: Can quantum money schemes based on knot invariants be made secure against
+    computationally unbounded adversaries? The security of Aaronson-Christiano scheme
+    remains unproven.
 sources:
   canonical:
   - source_id: src_aaronson_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1203.4740
   status_evidence:
   - source_id: src_aaronson_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1203.4740
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

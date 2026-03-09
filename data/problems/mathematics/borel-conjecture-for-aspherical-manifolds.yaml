@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every homotopy equivalence between closed aspherical manifolds is homotopic to a homeomorphism.
+  canonical: Every homotopy equivalence between closed aspherical manifolds is homotopic
+    to a homeomorphism.
 sources:
   canonical:
   - source_id: curated_borel_conjecture_for_aspherical_manifolds
@@ -29,3 +30,7 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+aliases:
+- Borel Conjecture on Aspherical Manifolds
+problem_type: open_question
+answer_type: boolean

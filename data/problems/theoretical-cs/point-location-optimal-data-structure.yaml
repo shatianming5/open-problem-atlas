@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine optimal preprocessing and query time tradeoffs for point location in planar subdivisions.
+  canonical: Determine optimal preprocessing and query time tradeoffs for point location
+    in planar subdivisions.
 sources:
   canonical:
   - source_id: curated_point_location_optimal_data_structure
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

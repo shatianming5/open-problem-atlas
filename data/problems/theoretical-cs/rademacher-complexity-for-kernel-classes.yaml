@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What are tight Rademacher complexity bounds for kernel classes with various spectral decay profiles?
+  canonical: What are tight Rademacher complexity bounds for kernel classes with various
+    spectral decay profiles?
 sources:
   canonical:
   - source_id: src_bartlett_mendelson_2002
-    kind: website
+    kind: paper
     url: https://doi.org/10.1162/153244302760200704
   status_evidence:
   - source_id: src_bartlett_mendelson_2002
-    kind: website
+    kind: paper
     url: https://doi.org/10.1162/153244302760200704
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

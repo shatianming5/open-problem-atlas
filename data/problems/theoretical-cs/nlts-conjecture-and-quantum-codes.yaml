@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Following Anshu, Breuckmann, and Nirkhe's proof of the NLTS conjecture, can it be used to prove the quantum PCP
-    conjecture?
+  canonical: Following Anshu, Breuckmann, and Nirkhe's proof of the NLTS conjecture,
+    can it be used to prove the quantum PCP conjecture?
 sources:
   canonical:
   - source_id: src_anshu_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2206.13228
   status_evidence:
   - source_id: src_anshu_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2206.13228
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

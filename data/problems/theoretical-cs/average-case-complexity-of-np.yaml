@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Are there distributional problems in NP that are hard on average under P-samplable distributions?
+  canonical: Are there distributional problems in NP that are hard on average under
+    P-samplable distributions?
 sources:
   canonical:
   - source_id: src_bogdanov_trevisan_2006
-    kind: website
+    kind: paper
     url: https://doi.org/10.1561/0400000004
   status_evidence:
   - source_id: src_bogdanov_trevisan_2006
-    kind: website
+    kind: paper
     url: https://doi.org/10.1561/0400000004
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A countable first-order theory has either countably many or continuum many countable models.
+  canonical: A countable first-order theory has either countably many or continuum
+    many countable models.
 sources:
   canonical:
   - source_id: curated_vaught_s_conjecture_full_resolution
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

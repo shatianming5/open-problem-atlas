@@ -1,121 +1,114 @@
 id: opa.tcs.learning-theory.agnostic-learning-limits
 kind: problem
-title: "Agnostic Learning Fundamental Limits"
+title: Agnostic Learning Fundamental Limits
 aliases:
-  - "Agnostic PAC learning hardness"
-  - "Learning without realizability"
-
+- Agnostic PAC learning hardness
+- Learning without realizability
+- Optimal Agnostic Learning
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - learning-theory
-
+- learning-theory
 problem_type: conjecture
 answer_type: bound
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: computational
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    In agnostic learning, the target function may not belong to the hypothesis class.
-    The learner seeks the best approximation within the class. What are the fundamental
-    computational limits of agnostic learning? For which concept classes (halfspaces,
-    decision trees, DNF) is agnostic learning computationally hard, and what are the
-    best achievable approximation guarantees in polynomial time?
-  informal: >
-    When learning without assuming the data fits a model perfectly, how well can we
-    learn? For basic concept classes like linear classifiers, even approximately finding
-    the best-fitting classifier is open.
+  canonical: 'In agnostic learning, the target function may not belong to the hypothesis
+    class. The learner seeks the best approximation within the class. What are the
+    fundamental computational limits of agnostic learning? For which concept classes
+    (halfspaces, decision trees, DNF) is agnostic learning computationally hard, and
+    what are the best achievable approximation guarantees in polynomial time?
 
-why_it_matters: >
-  Agnostic learning is the realistic learning setting since real data rarely fits
-  any model perfectly. Understanding its computational limits is essential for
-  understanding what machine learning can and cannot achieve efficiently.
+    '
+  informal: 'When learning without assuming the data fits a model perfectly, how well
+    can we learn? For basic concept classes like linear classifiers, even approximately
+    finding the best-fitting classifier is open.
 
+    '
+why_it_matters: 'Agnostic learning is the realistic learning setting since real data
+  rarely fits any model perfectly. Understanding its computational limits is essential
+  for understanding what machine learning can and cannot achieve efficiently.
+
+  '
 prerequisites:
-  - agnostic learning
-  - PAC learning
-  - hardness of approximation
-  - halfspace learning
-
+- agnostic learning
+- PAC learning
+- hardness of approximation
+- halfspace learning
 dates:
   first_stated: 2001
-
 sources:
   canonical:
-    - source_id: src_kearns_schapire_sellie_1994
-      kind: paper
-      title: "Toward Efficient Agnostic Learning"
-      authors:
-        - "Michael J. Kearns"
-        - "Robert E. Schapire"
-        - "Linda M. Sellie"
-      url: "https://doi.org/10.1007/BF00993468"
-      year: 1994
-  status_evidence:
-    - source_id: src_daniely_2016
-      kind: paper
-      title: "Complexity Theoretic Limitations on Learning Halfspaces"
-      authors:
-        - "Amit Daniely"
-      url: "https://doi.org/10.1145/2897518.2897520"
-      year: 2016
-
-partial_results:
-  - summary: "Kearns, Schapire, and Sellie (1994) introduced the agnostic learning framework and gave algorithms for simple classes."
+  - source_id: src_kearns_schapire_sellie_1994
+    kind: paper
+    title: Toward Efficient Agnostic Learning
+    authors:
+    - Michael J. Kearns
+    - Robert E. Schapire
+    - Linda M. Sellie
+    url: https://doi.org/10.1007/BF00993468
     year: 1994
-  - summary: "Daniely (2016) showed that agnostic learning of halfspaces is hard under the assumption that random K-SAT is hard."
+  status_evidence:
+  - source_id: src_daniely_2016
+    kind: paper
+    title: Complexity Theoretic Limitations on Learning Halfspaces
+    authors:
+    - Amit Daniely
+    url: https://doi.org/10.1145/2897518.2897520
     year: 2016
-  - summary: "For decision trees and DNF, the complexity of agnostic learning is still poorly understood."
-    year: 2016
-
+partial_results:
+- summary: Kearns, Schapire, and Sellie (1994) introduced the agnostic learning framework
+    and gave algorithms for simple classes.
+  year: 1994
+- summary: Daniely (2016) showed that agnostic learning of halfspaces is hard under
+    the assumption that random K-SAT is hard.
+  year: 2016
+- summary: For decision trees and DNF, the complexity of agnostic learning is still
+    poorly understood.
+  year: 2016
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.learning-theory.pac-learning-dnf"
-    - "opa.tcs.algorithms.multi-armed-bandit-regret"
-
+  - opa.tcs.learning-theory.pac-learning-dnf
+  - opa.tcs.algorithms.multi-armed-bandit-regret
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
-  impact: 0.80
+  impact: 0.8
   underexplored: 0.35
-  toolability: 0.40
-  formality: 0.80
-  ai_fit: 0.40
-
+  toolability: 0.4
+  formality: 0.8
+  ai_fit: 0.4
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-
+  - python
 machine_generated:
-  summary: >
-    Understanding the computational limits of agnostic learning, where the target
-    may not lie in the hypothesis class, is fundamental to realistic machine learning theory.
-  decomposition:
-    - "Determine the computational complexity of agnostically learning halfspaces"
-    - "Establish tight bounds for agnostic learning of natural concept classes"
-  disclaimer: unverified
+  summary: 'Understanding the computational limits of agnostic learning, where the
+    target may not lie in the hypothesis class, is fundamental to realistic machine
+    learning theory.
 
+    '
+  decomposition:
+  - Determine the computational complexity of agnostically learning halfspaces
+  - Establish tight bounds for agnostic learning of natural concept classes
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

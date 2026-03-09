@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: An irreducible p-adic representation of the Galois group of Q that is unramified outside finitely many primes
-    and de Rham at p comes from algebraic geometry.
+  canonical: An irreducible p-adic representation of the Galois group of Q that is
+    unramified outside finitely many primes and de Rham at p comes from algebraic
+    geometry.
 sources:
   canonical:
   - source_id: src_fontainemazur_1995
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

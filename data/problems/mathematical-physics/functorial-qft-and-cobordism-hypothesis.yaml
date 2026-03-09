@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Baez-Dolan cobordism hypothesis, proved by Lurie for fully extended TQFTs, be extended to include non-topological
-    quantum field theories?
+  canonical: Can the Baez-Dolan cobordism hypothesis, proved by Lurie for fully extended
+    TQFTs, be extended to include non-topological quantum field theories?
 sources:
   canonical:
   - source_id: src_lurie_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0905.0465
   status_evidence:
   - source_id: src_lurie_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0905.0465
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

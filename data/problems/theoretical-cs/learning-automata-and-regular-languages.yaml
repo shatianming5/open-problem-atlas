@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can deterministic finite automata be efficiently PAC learned from random examples alone without membership queries?
+  canonical: Can deterministic finite automata be efficiently PAC learned from random
+    examples alone without membership queries?
 sources:
   canonical:
   - source_id: src_angluin_1987
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/0890-5401(87)90052-6
   status_evidence:
   - source_id: src_angluin_1987
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/0890-5401(87)90052-6
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

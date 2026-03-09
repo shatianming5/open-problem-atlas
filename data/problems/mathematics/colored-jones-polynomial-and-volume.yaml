@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the volume conjecture relating the colored Jones polynomial to the hyperbolic volume of a knot complement.
+  canonical: Prove the volume conjecture relating the colored Jones polynomial to
+    the hyperbolic volume of a knot complement.
 sources:
   canonical:
   - source_id: curated_colored_jones_polynomial_and_volume
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

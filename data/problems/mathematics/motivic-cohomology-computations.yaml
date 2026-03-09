@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Complete the computation of motivic cohomology groups of number fields and varieties.
+  canonical: Complete the computation of motivic cohomology groups of number fields
+    and varieties.
 sources:
   canonical:
   - source_id: curated_motivic_cohomology_computations
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For convex sets in R^d, when does a common transversal exist? Extending Helly-type theorems to transversal settings
-    remains largely open.
+  canonical: For convex sets in R^d, when does a common transversal exist? Extending
+    Helly-type theorems to transversal settings remains largely open.
 sources:
   canonical:
   - source_id: src_goodman_pollack_wenger_1993
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4613-8431-1_5
   status_evidence:
   - source_id: src_goodman_pollack_wenger_1993
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4613-8431-1_5
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

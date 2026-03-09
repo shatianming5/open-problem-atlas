@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the exact irrationality measure mu(pi)? It is known that 2 <= mu(pi) <= 7.103, but the exact value is
-    unknown.
+  canonical: What is the exact irrationality measure mu(pi)? It is known that 2 <=
+    mu(pi) <= 7.103, but the exact value is unknown.
 sources:
   canonical:
   - source_id: src_salikhov_2008
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

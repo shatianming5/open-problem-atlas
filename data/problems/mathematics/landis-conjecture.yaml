@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If a solution of an elliptic equation on R^n decays faster than exp(-|x|^{1+epsilon}), must it be identically
-    zero?
+  canonical: If a solution of an elliptic equation on R^n decays faster than exp(-|x|^{1+epsilon}),
+    must it be identically zero?
 sources:
   canonical:
   - source_id: curated_landis_conjecture
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

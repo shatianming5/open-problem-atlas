@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every Artin L-function for a nontrivial irreducible representation is entire.
+  canonical: Every Artin L-function for a nontrivial irreducible representation is
+    entire.
 sources:
   canonical:
   - source_id: curated_artin_s_holomorphy_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

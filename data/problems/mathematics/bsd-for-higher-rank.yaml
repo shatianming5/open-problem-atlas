@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the Birch and Swinnerton-Dyer conjecture for elliptic curves of analytic rank greater than 1.
+  canonical: Prove the Birch and Swinnerton-Dyer conjecture for elliptic curves of
+    analytic rank greater than 1.
 sources:
   canonical:
   - source_id: curated_bsd_for_higher_rank
@@ -29,3 +30,7 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+aliases:
+- Birch and Swinnerton-Dyer Conjecture for Higher Rank
+problem_type: conjecture
+answer_type: boolean

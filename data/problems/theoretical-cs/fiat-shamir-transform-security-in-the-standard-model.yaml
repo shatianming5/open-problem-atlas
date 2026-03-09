@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the Fiat-Shamir transform sound in the standard model for all constant-round public-coin protocols, or do
-    inherent barriers exist?
+  canonical: Is the Fiat-Shamir transform sound in the standard model for all constant-round
+    public-coin protocols, or do inherent barriers exist?
 sources:
   canonical:
   - source_id: src_lombardi_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2206.04507
   status_evidence:
   - source_id: src_lombardi_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2206.04507
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

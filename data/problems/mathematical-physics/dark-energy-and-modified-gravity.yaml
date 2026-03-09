@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the observed cosmic acceleration be explained by modifications to general relativity rather than a cosmological
-    constant, and how can these be distinguished observationally?
+  canonical: Can the observed cosmic acceleration be explained by modifications to
+    general relativity rather than a cosmological constant, and how can these be distinguished
+    observationally?
 sources:
   canonical:
   - source_id: src_clifton_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1106.2476
   status_evidence:
   - source_id: src_clifton_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1106.2476
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

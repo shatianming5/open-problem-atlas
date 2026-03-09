@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can n integers be sorted in linear time in the word RAM model? The best known is O(n sqrt(log log n)) by Han
-    and Thorup.
+  canonical: Can n integers be sorted in linear time in the word RAM model? The best
+    known is O(n sqrt(log log n)) by Han and Thorup.
 sources:
   canonical:
   - source_id: src_han_thorup_2002
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/SFCS.2002.1181890
   status_evidence:
   - source_id: src_han_thorup_2002
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/SFCS.2002.1181890
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

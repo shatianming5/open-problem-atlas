@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Explain the discrepancy between the observed cosmological constant and theoretical predictions.
+  canonical: Explain the discrepancy between the observed cosmological constant and
+    theoretical predictions.
 sources:
   canonical:
   - source_id: curated_cosmological_constant_problem
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can suffix arrays be constructed in linear time for general alphabets using only comparisons?
+  canonical: Can suffix arrays be constructed in linear time for general alphabets
+    using only comparisons?
 sources:
   canonical:
   - source_id: src_karkkainan_sanders_2003
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/3-540-45061-0_73
   status_evidence:
   - source_id: src_karkkainan_sanders_2003
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/3-540-45061-0_73
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

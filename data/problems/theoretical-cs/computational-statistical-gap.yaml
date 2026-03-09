@@ -1,123 +1,117 @@
 id: opa.tcs.learning-theory.computational-statistical-gap
 kind: problem
-title: "Computational-Statistical Gap"
+title: Computational-Statistical Gap
 aliases:
-  - "Information-computation gap"
-  - "Statistical vs computational sample complexity"
-
+- Information-computation gap
+- Statistical vs computational sample complexity
+- Computational-Statistical Gap in Learning
+- Computational-Statistical Gaps Characterization
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - learning-theory
-
+- learning-theory
 problem_type: conjecture
 answer_type: bound
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: computational
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    For many statistical estimation problems, the information-theoretically optimal
-    sample complexity is much smaller than what any known polynomial-time algorithm
-    achieves. Is there a fundamental computational-statistical gap, where polynomial-time
-    algorithms provably require more samples than information-theoretic bounds? Can we
-    prove such gaps unconditionally, or at least under standard complexity assumptions?
-  informal: >
-    Some learning problems can be solved with very few examples if we have unlimited
-    computation time, but all known efficient algorithms need many more examples.
-    Is this gap inherent, or are we missing better algorithms?
+  canonical: 'For many statistical estimation problems, the information-theoretically
+    optimal sample complexity is much smaller than what any known polynomial-time
+    algorithm achieves. Is there a fundamental computational-statistical gap, where
+    polynomial-time algorithms provably require more samples than information-theoretic
+    bounds? Can we prove such gaps unconditionally, or at least under standard complexity
+    assumptions?
 
-why_it_matters: >
-  The computational-statistical gap is central to understanding the limits of efficient
-  machine learning. It determines whether statistical optimality and computational
-  efficiency can be simultaneously achieved, with implications for sparse recovery,
-  community detection, and planted problems.
+    '
+  informal: 'Some learning problems can be solved with very few examples if we have
+    unlimited computation time, but all known efficient algorithms need many more
+    examples. Is this gap inherent, or are we missing better algorithms?
 
+    '
+why_it_matters: 'The computational-statistical gap is central to understanding the
+  limits of efficient machine learning. It determines whether statistical optimality
+  and computational efficiency can be simultaneously achieved, with implications for
+  sparse recovery, community detection, and planted problems.
+
+  '
 prerequisites:
-  - statistical learning theory
-  - computational complexity
-  - planted problems
-  - sparse recovery
-
+- statistical learning theory
+- computational complexity
+- planted problems
+- sparse recovery
 dates:
   first_stated: 2013
-
 sources:
   canonical:
-    - source_id: src_berthet_rigollet_2013
-      kind: paper
-      title: "Computational Lower Bounds for Sparse PCA"
-      authors:
-        - "Quentin Berthet"
-        - "Philippe Rigollet"
-      url: "https://arxiv.org/abs/1304.0828"
-      year: 2013
-  status_evidence:
-    - source_id: src_brennan_bresler_2020
-      kind: paper
-      title: "Reducibility and Statistical-Computational Gaps from Secret Leakage"
-      authors:
-        - "Matthew Brennan"
-        - "Guy Bresler"
-      url: "https://doi.org/10.4230/LIPIcs.ITCS.2020.21"
-      year: 2020
-
-partial_results:
-  - summary: "Berthet and Rigollet (2013) showed computational-statistical gaps for sparse PCA assuming the planted clique conjecture."
+  - source_id: src_berthet_rigollet_2013
+    kind: paper
+    title: Computational Lower Bounds for Sparse PCA
+    authors:
+    - Quentin Berthet
+    - Philippe Rigollet
+    url: https://arxiv.org/abs/1304.0828
     year: 2013
-  - summary: "Brennan and Bresler (2020) developed a framework for proving computational-statistical gaps via reductions between average-case problems."
+  status_evidence:
+  - source_id: src_brennan_bresler_2020
+    kind: paper
+    title: Reducibility and Statistical-Computational Gaps from Secret Leakage
+    authors:
+    - Matthew Brennan
+    - Guy Bresler
+    url: https://doi.org/10.4230/LIPIcs.ITCS.2020.21
     year: 2020
-  - summary: "Unconditional computational-statistical gaps (not relying on conjectures) remain open except in restricted models like SQ."
-    year: 2020
-
+partial_results:
+- summary: Berthet and Rigollet (2013) showed computational-statistical gaps for sparse
+    PCA assuming the planted clique conjecture.
+  year: 2013
+- summary: Brennan and Bresler (2020) developed a framework for proving computational-statistical
+    gaps via reductions between average-case problems.
+  year: 2020
+- summary: Unconditional computational-statistical gaps (not relying on conjectures)
+    remain open except in restricted models like SQ.
+  year: 2020
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.learning-theory.agnostic-learning-limits"
-    - "opa.tcs.learning-theory.pac-learning-dnf"
-
+  - opa.tcs.learning-theory.agnostic-learning-limits
+  - opa.tcs.learning-theory.pac-learning-dnf
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.85
-  underexplored: 0.30
-  toolability: 0.40
-  formality: 0.80
+  underexplored: 0.3
+  toolability: 0.4
+  formality: 0.8
   ai_fit: 0.35
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-
+  - python
 machine_generated:
-  summary: >
-    The computational-statistical gap problem asks whether some learning tasks
-    inherently require more data for efficient algorithms than for unbounded
-    computation, a fundamental question in modern learning theory.
-  decomposition:
-    - "Prove unconditional computational-statistical gaps beyond the SQ model"
-    - "Develop a comprehensive theory of average-case reductions for statistical problems"
-  disclaimer: unverified
+  summary: 'The computational-statistical gap problem asks whether some learning tasks
+    inherently require more data for efficient algorithms than for unbounded computation,
+    a fundamental question in modern learning theory.
 
+    '
+  decomposition:
+  - Prove unconditional computational-statistical gaps beyond the SQ model
+  - Develop a comprehensive theory of average-case reductions for statistical problems
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

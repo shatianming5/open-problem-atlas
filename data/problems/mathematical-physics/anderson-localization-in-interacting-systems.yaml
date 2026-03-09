@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does Anderson localization persist in the presence of interactions at finite temperature in dimensions d >= 2,
-    or does it always eventually thermalize?
+  canonical: Does Anderson localization persist in the presence of interactions at
+    finite temperature in dimensions d >= 2, or does it always eventually thermalize?
 sources:
   canonical:
   - source_id: src_basko_2006
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/cond-mat/0602510
   status_evidence:
   - source_id: src_basko_2006
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/cond-mat/0602510
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

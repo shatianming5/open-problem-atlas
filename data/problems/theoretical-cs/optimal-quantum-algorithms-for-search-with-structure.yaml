@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can quantum computers exploit structure in search problems beyond quadratic Grover speedup, such as for backtracking
-    or branch-and-bound?
+  canonical: Can quantum computers exploit structure in search problems beyond quadratic
+    Grover speedup, such as for backtracking or branch-and-bound?
 sources:
   canonical:
   - source_id: src_montanaro_2018
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3313276.3316310
   status_evidence:
   - source_id: src_montanaro_2018
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3313276.3316310
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

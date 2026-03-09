@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can anomalous dimensions of operators in strongly coupled gauge theories be computed exactly beyond the integrable
-    (planar N=4 SYM) limit?
+  canonical: Can anomalous dimensions of operators in strongly coupled gauge theories
+    be computed exactly beyond the integrable (planar N=4 SYM) limit?
 sources:
   canonical:
   - source_id: src_beisert_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1012.3982
   status_evidence:
   - source_id: src_beisert_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1012.3982
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

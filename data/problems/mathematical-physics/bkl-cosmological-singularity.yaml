@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the Belinsky-Khalatnikov-Lifshitz oscillatory approach to cosmological singularities generic for solutions
-    of the Einstein equations?
+  canonical: Is the Belinsky-Khalatnikov-Lifshitz oscillatory approach to cosmological
+    singularities generic for solutions of the Einstein equations?
 sources:
   canonical:
   - source_id: src_berger_2002
-    kind: website
+    kind: paper
     url: https://doi.org/10.12942/lrr-2002-1
   status_evidence:
   - source_id: src_berger_2002
-    kind: website
+    kind: paper
     url: https://doi.org/10.12942/lrr-2002-1
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'What is the nature of the spin glass phase in three dimensions: does the Parisi replica symmetry breaking picture
-    or the droplet model apply?'
+  canonical: 'What is the nature of the spin glass phase in three dimensions: does
+    the Parisi replica symmetry breaking picture or the droplet model apply?'
 sources:
   canonical:
   - source_id: src_parisi_1979
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevLett.43.1754
   status_evidence:
   - source_id: src_parisi_1979
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevLett.43.1754
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

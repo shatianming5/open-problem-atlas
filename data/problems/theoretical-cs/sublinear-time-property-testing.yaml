@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the query complexity of testing graph properties in sublinear time.
+  canonical: Determine the query complexity of testing graph properties in sublinear
+    time.
 sources:
   canonical:
   - source_id: curated_sublinear_time_property_testing
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

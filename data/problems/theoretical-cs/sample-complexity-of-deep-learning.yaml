@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Explain the surprisingly low sample complexity of deep learning relative to classical bounds.
+  canonical: Explain the surprisingly low sample complexity of deep learning relative
+    to classical bounds.
 sources:
   canonical:
   - source_id: curated_sample_complexity_of_deep_learning
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

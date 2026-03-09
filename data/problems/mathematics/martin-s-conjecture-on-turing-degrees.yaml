@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Assuming the Axiom of Determinacy, every order-preserving function on the Turing degrees is either eventually
-    constant or eventually equal to a Turing jump iterate.
+  canonical: Assuming the Axiom of Determinacy, every order-preserving function on
+    the Turing degrees is either eventually constant or eventually equal to a Turing
+    jump iterate.
 sources:
   canonical:
   - source_id: src_martin_1980
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

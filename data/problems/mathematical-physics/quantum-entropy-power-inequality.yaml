@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does a full quantum analogue of the entropy power inequality hold for bosonic quantum systems? Partial results
-    exist but the general conjecture is open.
+  canonical: Does a full quantum analogue of the entropy power inequality hold for
+    bosonic quantum systems? Partial results exist but the general conjecture is open.
 sources:
   canonical:
   - source_id: src_konig_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1205.3409
   status_evidence:
   - source_id: src_konig_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1205.3409
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

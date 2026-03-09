@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Robertson-Seymour graph minor testing algorithm be made practical? Current bounds are astronomical in
-    the parameter.
+  canonical: Can the Robertson-Seymour graph minor testing algorithm be made practical?
+    Current bounds are astronomical in the parameter.
 sources:
   canonical:
   - source_id: src_robertson_seymour_2004
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/j.jctb.2004.08.001
   status_evidence:
   - source_id: src_robertson_seymour_2004
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/j.jctb.2004.08.001
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

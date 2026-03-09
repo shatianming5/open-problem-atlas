@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For every positive even integer 2k, there are infinitely many consecutive prime pairs with difference 2k.
+  canonical: For every positive even integer 2k, there are infinitely many consecutive
+    prime pairs with difference 2k.
 sources:
   canonical:
   - source_id: src_polignac_1849
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

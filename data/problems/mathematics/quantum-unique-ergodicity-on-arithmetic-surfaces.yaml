@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does quantum unique ergodicity hold for all Hecke-Maass forms on non-compact arithmetic surfaces, extending the
-    Lindenstrauss-Soundararajan results?
+  canonical: Does quantum unique ergodicity hold for all Hecke-Maass forms on non-compact
+    arithmetic surfaces, extending the Lindenstrauss-Soundararajan results?
 sources:
   canonical:
   - source_id: src_lindenstrauss_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2207.09501
   status_evidence:
   - source_id: src_lindenstrauss_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2207.09501
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

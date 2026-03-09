@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A composite number n is a Giuga number if and only if sum_{k=1}^{n-1} k^{n-1} = -1 mod n. Determine if any Giuga
-    number exists.
+  canonical: A composite number n is a Giuga number if and only if sum_{k=1}^{n-1}
+    k^{n-1} = -1 mod n. Determine if any Giuga number exists.
 sources:
   canonical:
   - source_id: curated_giuga_s_conjecture
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the Learning Parities with Noise problem solvable in time 2^{o(n)} or is the 2^{O(n/log n)} bound of Blum,
-    Kalai, Wasserman essentially optimal?
+  canonical: Is the Learning Parities with Noise problem solvable in time 2^{o(n)}
+    or is the 2^{O(n/log n)} bound of Blum, Kalai, Wasserman essentially optimal?
 sources:
   canonical:
   - source_id: src_lyubashevsky_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2007.12600
   status_evidence:
   - source_id: src_lyubashevsky_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2007.12600
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

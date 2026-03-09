@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does quantum circuit complexity of a holographic state grow linearly in time for an exponentially long period,
-    as conjectured for black hole interiors?
+  canonical: Does quantum circuit complexity of a holographic state grow linearly
+    in time for an exponentially long period, as conjectured for black hole interiors?
 sources:
   canonical:
   - source_id: src_susskind_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1402.5674
   status_evidence:
   - source_id: src_susskind_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1402.5674
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If every derivation of a commutative ring R is inner, then R is a polynomial ring.
+  canonical: If every derivation of a commutative ring R is inner, then R is a polynomial
+    ring.
 sources:
   canonical:
   - source_id: src_nakai_1960
-    kind: website
+    kind: paper
     url: https://doi.org/10.2969/jmsj/01230345
   status_evidence:
   - source_id: src_nakai_1960
-    kind: website
+    kind: paper
     url: https://doi.org/10.2969/jmsj/01230345
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

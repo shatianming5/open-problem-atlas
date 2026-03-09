@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What are the optimal time-memory tradeoffs for memory-hard functions used in password hashing?
+  canonical: What are the optimal time-memory tradeoffs for memory-hard functions
+    used in password hashing?
 sources:
   canonical:
   - source_id: src_alwen_blocki_2016
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-662-49896-5_27
   status_evidence:
   - source_id: src_alwen_blocki_2016
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-662-49896-5_27
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal time for predecessor search over n w-bit integers? Van Emde Boas trees achieve O(log w) but
-    optimality is unknown.
+  canonical: What is the optimal time for predecessor search over n w-bit integers?
+    Van Emde Boas trees achieve O(log w) but optimality is unknown.
 sources:
   canonical:
   - source_id: src_patrascu_thorup_2006
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/1132516.1132551
   status_evidence:
   - source_id: src_patrascu_thorup_2006
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/1132516.1132551
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is it possible to walk to infinity in the Gaussian integers using steps of bounded length, stepping only on Gaussian
-    primes?
+  canonical: Is it possible to walk to infinity in the Gaussian integers using steps
+    of bounded length, stepping only on Gaussian primes?
 sources:
   canonical:
   - source_id: curated_gaussian_moat_problem
@@ -30,3 +30,7 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+aliases:
+- Density of Gaussian Moat Crossings
+problem_type: bound
+answer_type: bound

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove uniform bounds on the number of rational points on curves of fixed genus.
+  canonical: Prove uniform bounds on the number of rational points on curves of fixed
+    genus.
 sources:
   canonical:
   - source_id: curated_uniform_boundedness_for_rational_points
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

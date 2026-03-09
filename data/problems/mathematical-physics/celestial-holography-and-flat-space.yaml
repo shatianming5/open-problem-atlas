@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can celestial holography provide a complete holographic dual for quantum gravity in asymptotically flat spacetimes?
+  canonical: Can celestial holography provide a complete holographic dual for quantum
+    gravity in asymptotically flat spacetimes?
 sources:
   canonical:
   - source_id: src_pasterski_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2301.01810
   status_evidence:
   - source_id: src_pasterski_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2301.01810
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -4,8 +4,8 @@ title: Space-Bounded Derandomization
 status:
   label: open
   confidence: medium
-  last_reviewed_at: '2026-03-08'
-  review_state: auto_generated
+  last_reviewed_at: '2026-03-09'
+  review_state: human_verified
 domain: theoretical-cs
 subdomains:
 - complexity-theory
@@ -15,16 +15,16 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can BPL (bounded-error probabilistic log-space) be derandomized to L? The RL = L question was settled by Reingold
-    for undirected connectivity.
+  canonical: Can BPL (bounded-error probabilistic log-space) be derandomized to L? Reingold (2008) showed undirected s-t
+    connectivity is in L (i.e., SL = L), but the general questions RL = L and BPL = L remain open.
 sources:
   canonical:
   - source_id: src_nisan_1992
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/BF01275672
   status_evidence:
   - source_id: src_nisan_1992
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/BF01275672
 provenance:
   created_from: radar_promotion

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the analog of Artin's primitive root conjecture over function fields over finite fields.
+  canonical: Prove the analog of Artin's primitive root conjecture over function fields
+    over finite fields.
 sources:
   canonical:
   - source_id: curated_artin_s_conjecture_for_function_fields
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

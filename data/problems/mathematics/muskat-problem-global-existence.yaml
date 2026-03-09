@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove global existence of solutions to the Muskat problem for arbitrary initial data.
+  canonical: Prove global existence of solutions to the Muskat problem for arbitrary
+    initial data.
 sources:
   canonical:
   - source_id: curated_muskat_problem_global_existence
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

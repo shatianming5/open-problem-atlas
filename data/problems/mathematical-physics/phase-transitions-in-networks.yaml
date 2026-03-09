@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can a comprehensive theory of phase transitions on complex networks predict critical behavior for arbitrary degree
-    distributions and correlations?
+  canonical: Can a comprehensive theory of phase transitions on complex networks predict
+    critical behavior for arbitrary degree distributions and correlations?
 sources:
   canonical:
   - source_id: src_dorogovtsev_2008
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0705.0010
   status_evidence:
   - source_id: src_dorogovtsev_2008
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0705.0010
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

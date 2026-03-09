@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Are splay trees O(1)-competitive with the optimal offline binary search tree for every access sequence?
+  canonical: Are splay trees O(1)-competitive with the optimal offline binary search
+    tree for every access sequence?
 sources:
   canonical:
   - source_id: src_sleator_tarjan_1985
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3828.3835
   status_evidence:
   - source_id: src_sleator_tarjan_1985
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3828.3835
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

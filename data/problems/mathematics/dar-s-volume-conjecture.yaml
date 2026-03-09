@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A conjectured inequality relating the volume of a convex body to its mean width and other intrinsic volumes.
+  canonical: A conjectured inequality relating the volume of a convex body to its
+    mean width and other intrinsic volumes.
 sources:
   canonical:
   - source_id: src_dar_1999
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

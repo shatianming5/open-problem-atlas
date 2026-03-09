@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Are there total Boolean functions with exponential quantum-classical communication complexity separations?
+  canonical: Are there total Boolean functions with exponential quantum-classical
+    communication complexity separations?
 sources:
   canonical:
   - source_id: src_buhrman_2010
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0907.3584
   status_evidence:
   - source_id: src_buhrman_2010
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0907.3584
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

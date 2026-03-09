@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the enormous discrepancy between the observed cosmological constant and quantum field theory predictions
-    be resolved through a rigorous mathematical framework?
+  canonical: Can the enormous discrepancy between the observed cosmological constant
+    and quantum field theory predictions be resolved through a rigorous mathematical
+    framework?
 sources:
   canonical:
   - source_id: src_polchinski_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/0603249
   status_evidence:
   - source_id: src_polchinski_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/0603249
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

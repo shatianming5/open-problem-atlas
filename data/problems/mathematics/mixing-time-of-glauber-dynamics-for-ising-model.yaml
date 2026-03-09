@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact mixing time of Glauber dynamics for the Ising model on Z^d at all temperatures, especially
-    near criticality.
+  canonical: Determine the exact mixing time of Glauber dynamics for the Ising model
+    on Z^d at all temperatures, especially near criticality.
 sources:
   canonical:
   - source_id: src_lubetzky_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1205.0542
   status_evidence:
   - source_id: src_lubetzky_2012
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1205.0542
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

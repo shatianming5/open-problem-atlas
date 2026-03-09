@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Eigenstate Thermalization Hypothesis be rigorously proved for specific many-body quantum systems, establishing
-    when quantum thermalization occurs?
+  canonical: Can the Eigenstate Thermalization Hypothesis be rigorously proved for
+    specific many-body quantum systems, establishing when quantum thermalization occurs?
 sources:
   canonical:
   - source_id: src_dalessio_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1509.06411
   status_evidence:
   - source_id: src_dalessio_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1509.06411
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

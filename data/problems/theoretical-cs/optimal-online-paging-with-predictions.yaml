@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal competitive ratio for online paging when given machine-learned predictions of varying quality?
+  canonical: What is the optimal competitive ratio for online paging when given machine-learned
+    predictions of varying quality?
 sources:
   canonical:
   - source_id: src_lykouris_vassilvitskii_2021
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3450349
   status_evidence:
   - source_id: src_lykouris_vassilvitskii_2021
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3450349
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

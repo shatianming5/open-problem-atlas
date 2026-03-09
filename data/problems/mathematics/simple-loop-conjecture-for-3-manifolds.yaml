@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If a 2-sided immersion of a surface into a 3-manifold is not injective on fundamental groups, then there is an
-    essential simple closed curve in the kernel.
+  canonical: If a 2-sided immersion of a surface into a 3-manifold is not injective
+    on fundamental groups, then there is an essential simple closed curve in the kernel.
 sources:
   canonical:
   - source_id: src_gabai_1985
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the existence of quantum spin liquid ground states in realistic materials.
+  canonical: Prove the existence of quantum spin liquid ground states in realistic
+    materials.
 sources:
   canonical:
   - source_id: curated_quantum_spin_liquid_materials
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the exactly solvable features of the SYK model be extended to higher-dimensional models while preserving
-    maximal chaos and holographic duality?
+  canonical: Can the exactly solvable features of the SYK model be extended to higher-dimensional
+    models while preserving maximal chaos and holographic duality?
 sources:
   canonical:
   - source_id: src_kim_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2303.02179
   status_evidence:
   - source_id: src_kim_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2303.02179
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine which of Impagliazzo's five worlds (Algorithmica, Heuristica, Pessiland, Minicrypt, Cryptomania) is
-    the actual state of complexity.
+  canonical: Determine which of Impagliazzo's five worlds (Algorithmica, Heuristica,
+    Pessiland, Minicrypt, Cryptomania) is the actual state of complexity.
 sources:
   canonical:
   - source_id: curated_impagliazzo_s_five_worlds
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether smooth solutions to the 3D incompressible Euler equations can develop singularities in finite
-    time.
+  canonical: Determine whether smooth solutions to the 3D incompressible Euler equations
+    can develop singularities in finite time.
 sources:
   canonical:
   - source_id: curated_euler_equations_blow_up_problem
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

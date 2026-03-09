@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Bogomolov conjecture be extended to give effective height bounds for points of small height on abelian
-    varieties over function fields?
+  canonical: Can the Bogomolov conjecture be extended to give effective height bounds
+    for points of small height on abelian varieties over function fields?
 sources:
   canonical:
   - source_id: src_yuan_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2104.12906
   status_evidence:
   - source_id: src_yuan_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2104.12906
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

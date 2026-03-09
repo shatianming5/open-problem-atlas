@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact speed of simple random walk on the infinite cluster of supercritical Bernoulli percolation
-    on Z^d.
+  canonical: Determine the exact speed of simple random walk on the infinite cluster
+    of supercritical Bernoulli percolation on Z^d.
 sources:
   canonical:
   - source_id: src_berger_2007
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/math/0610243
   status_evidence:
   - source_id: src_berger_2007
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/math/0610243
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Provide a complete mathematical framework for the renormalization group in QFT.
+  canonical: Provide a complete mathematical framework for the renormalization group
+    in QFT.
 sources:
   canonical:
   - source_id: curated_renormalization_group_mathematical_framework
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

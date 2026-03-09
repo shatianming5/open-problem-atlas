@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the resurgence conjecture relating perturbative and non-perturbative sectors of QFT.
+  canonical: Prove the resurgence conjecture relating perturbative and non-perturbative
+    sectors of QFT.
 sources:
   canonical:
   - source_id: curated_resurgence_in_qft
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

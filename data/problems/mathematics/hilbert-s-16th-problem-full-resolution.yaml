@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the maximum number of limit cycles for polynomial vector fields of degree n.
+  canonical: Determine the maximum number of limit cycles for polynomial vector fields
+    of degree n.
 sources:
   canonical:
   - source_id: curated_hilbert_s_16th_problem_full_resolution
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

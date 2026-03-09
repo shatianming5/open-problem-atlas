@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the Sachdev-Ye-Kitaev model saturate the Maldacena-Shenker-Stanford bound on chaos for all values of the
-    coupling, and what is the precise large-q expansion?
+  canonical: Does the Sachdev-Ye-Kitaev model saturate the Maldacena-Shenker-Stanford
+    bound on chaos for all values of the coupling, and what is the precise large-q
+    expansion?
 sources:
   canonical:
   - source_id: src_maldacena_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1503.01409
   status_evidence:
   - source_id: src_maldacena_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1503.01409
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

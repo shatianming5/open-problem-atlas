@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does a complete non-perturbative formulation of string theory (M-theory) exist beyond the matrix model and AdS/CFT
-    descriptions?
+  canonical: Does a complete non-perturbative formulation of string theory (M-theory)
+    exist beyond the matrix model and AdS/CFT descriptions?
 sources:
   canonical:
   - source_id: src_banks_1997
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/9610043
   status_evidence:
   - source_id: src_banks_1997
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/9610043
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

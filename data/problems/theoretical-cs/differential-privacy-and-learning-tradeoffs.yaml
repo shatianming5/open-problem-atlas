@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact cost of differential privacy for learning fundamental concept classes.
+  canonical: Determine the exact cost of differential privacy for learning fundamental
+    concept classes.
 sources:
   canonical:
   - source_id: curated_differential_privacy_and_learning_tradeoffs
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

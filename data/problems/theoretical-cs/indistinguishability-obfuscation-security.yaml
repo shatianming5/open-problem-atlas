@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the security of indistinguishability obfuscation from well-studied assumptions.
+  canonical: Prove the security of indistinguishability obfuscation from well-studied
+    assumptions.
 sources:
   canonical:
   - source_id: curated_indistinguishability_obfuscation_security
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

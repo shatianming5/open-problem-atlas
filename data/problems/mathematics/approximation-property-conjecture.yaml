@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Characterize which Banach spaces have the approximation property and determine if it is equivalent to the bounded
-    approximation property.
+  canonical: Characterize which Banach spaces have the approximation property and
+    determine if it is equivalent to the bounded approximation property.
 sources:
   canonical:
   - source_id: src_grothendieck_1955
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Derive rigorous bounds on effective field theory coefficients from unitarity and causality.
+  canonical: Derive rigorous bounds on effective field theory coefficients from unitarity
+    and causality.
 sources:
   canonical:
   - source_id: curated_effective_field_theory_bounds_from_unitarity
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

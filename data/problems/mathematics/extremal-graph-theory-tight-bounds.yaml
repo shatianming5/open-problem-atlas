@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine tight Turan-type bounds for forbidden subgraphs beyond complete bipartite graphs.
+  canonical: Determine tight Turan-type bounds for forbidden subgraphs beyond complete
+    bipartite graphs.
 sources:
   canonical:
   - source_id: curated_extremal_graph_theory_tight_bounds
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine which cryptographic primitives can be constructed using quantum mechanics alone.
+  canonical: Determine which cryptographic primitives can be constructed using quantum
+    mechanics alone.
 sources:
   canonical:
   - source_id: curated_quantum_cryptographic_primitives
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

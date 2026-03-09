@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every graph with at least 3 vertices is determined up to isomorphism by its deck of vertex-deleted subgraphs.
+  canonical: Every graph with at least 3 vertices is determined up to isomorphism
+    by its deck of vertex-deleted subgraphs.
 sources:
   canonical:
   - source_id: curated_reconstruction_conjecture_full_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

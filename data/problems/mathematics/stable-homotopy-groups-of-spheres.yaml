@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Compute the stable homotopy groups of spheres pi_n^s for all n. Only a finite range is known.
+  canonical: Compute the stable homotopy groups of spheres pi_n^s for all n. Only
+    a finite range is known.
 sources:
   canonical:
   - source_id: src_ravenel_1986
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

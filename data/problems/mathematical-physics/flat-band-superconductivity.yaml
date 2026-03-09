@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the theoretical upper bound on superconducting transition temperature in flat-band systems like twisted
-    bilayer graphene?
+  canonical: What is the theoretical upper bound on superconducting transition temperature
+    in flat-band systems like twisted bilayer graphene?
 sources:
   canonical:
   - source_id: src_cao_2018
-    kind: website
+    kind: paper
     url: https://doi.org/10.1038/nature26160
   status_evidence:
   - source_id: src_cao_2018
-    kind: website
+    kind: paper
     url: https://doi.org/10.1038/nature26160
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

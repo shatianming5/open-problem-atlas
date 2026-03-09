@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The hemisphere has the minimum filling area among all Riemannian metrics on the disk whose boundary has length
-    2*pi.
+  canonical: The hemisphere has the minimum filling area among all Riemannian metrics
+    on the disk whose boundary has length 2*pi.
 sources:
   canonical:
   - source_id: src_gromov_1983
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

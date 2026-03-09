@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can one prove tight space lower bounds for single-pass streaming algorithms for fundamental graph problems like
-    maximum matching and minimum cut?
+  canonical: Can one prove tight space lower bounds for single-pass streaming algorithms
+    for fundamental graph problems like maximum matching and minimum cut?
 sources:
   canonical:
   - source_id: src_kapralov_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2204.08014
   status_evidence:
   - source_id: src_kapralov_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2204.08014
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can polar codes be made to achieve capacity universally for all discrete memoryless channels with efficient decoding?
+  canonical: Can polar codes be made to achieve capacity universally for all discrete
+    memoryless channels with efficient decoding?
 sources:
   canonical:
   - source_id: src_arikan_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.2009.2021379
   status_evidence:
   - source_id: src_arikan_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.2009.2021379
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

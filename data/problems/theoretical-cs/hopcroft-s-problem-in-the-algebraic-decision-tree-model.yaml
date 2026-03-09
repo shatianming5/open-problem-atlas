@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal time to detect incidences between n points and n lines? The best known is O(n^{4/3}) and
-    matching lower bounds are unknown.
+  canonical: What is the optimal time to detect incidences between n points and n
+    lines? The best known is O(n^{4/3}) and matching lower bounds are unknown.
 sources:
   canonical:
   - source_id: src_erickson_1996
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/237218.237412
   status_evidence:
   - source_id: src_erickson_1996
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/237218.237412
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

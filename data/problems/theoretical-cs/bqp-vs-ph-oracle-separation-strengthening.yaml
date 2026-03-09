@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Raz-Tal oracle separation of BQP from PH be derandomized or strengthened to give unconditional evidence
-    that BQP is not in PH?
+  canonical: Can the Raz-Tal oracle separation of BQP from PH be derandomized or strengthened
+    to give unconditional evidence that BQP is not in PH?
 sources:
   canonical:
   - source_id: src_raz_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1804.00082
   status_evidence:
   - source_id: src_raz_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1804.00082
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

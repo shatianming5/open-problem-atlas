@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If Dehn surgery on a knot K in S^3 yields a lens space, then K is a Berge knot.
+  canonical: If Dehn surgery on a knot K in S^3 yields a lens space, then K is a Berge
+    knot.
 sources:
   canonical:
   - source_id: src_berge_1991
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

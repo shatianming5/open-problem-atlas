@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the spectral gap problem undecidable for two-dimensional lattice Hamiltonians, extending the known undecidability
-    result for 1D systems?
+  canonical: Is the spectral gap problem undecidable for two-dimensional lattice Hamiltonians,
+    extending the known undecidability result for 1D systems?
 sources:
   canonical:
   - source_id: src_cubitt_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1502.04573
   status_evidence:
   - source_id: src_cubitt_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1502.04573
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

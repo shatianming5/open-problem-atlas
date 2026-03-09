@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can topological string theory provide a complete solution to enumerative geometry problems like Gromov-Witten
-    invariants of arbitrary Calabi-Yau manifolds?
+  canonical: Can topological string theory provide a complete solution to enumerative
+    geometry problems like Gromov-Witten invariants of arbitrary Calabi-Yau manifolds?
 sources:
   canonical:
   - source_id: src_huang_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1310.4818
   status_evidence:
   - source_id: src_huang_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1310.4818
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

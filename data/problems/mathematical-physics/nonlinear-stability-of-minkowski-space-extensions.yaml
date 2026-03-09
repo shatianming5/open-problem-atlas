@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Christodoulou-Klainerman proof of nonlinear stability of Minkowski space be extended to include matter
-    fields with less decay at infinity?
+  canonical: Can the Christodoulou-Klainerman proof of nonlinear stability of Minkowski
+    space be extended to include matter fields with less decay at infinity?
 sources:
   canonical:
   - source_id: src_christodoulou_1993
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

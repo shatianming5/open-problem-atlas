@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Do odd perfect numbers exist? Despite searches up to 10^{2200} and many necessary conditions, existence remains
-    unresolved.
+  canonical: Do odd perfect numbers exist? Despite searches up to 10^{2200} and many
+    necessary conditions, existence remains unresolved.
 sources:
   canonical:
   - source_id: src_ochem_2023
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

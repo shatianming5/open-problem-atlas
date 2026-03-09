@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the polynomial hierarchy collapse to any finite level, or is it infinite? Proving PH is infinite would separate
-    P from NP.
+  canonical: Does the polynomial hierarchy collapse to any finite level, or is it
+    infinite? Proving PH is infinite would separate P from NP.
 sources:
   canonical:
   - source_id: src_arora_barak_2009
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

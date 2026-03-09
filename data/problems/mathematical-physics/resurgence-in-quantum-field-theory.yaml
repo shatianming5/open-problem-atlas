@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can resurgent trans-series in asymptotic expansions of QFT path integrals be rigorously proved to recover exact
-    non-perturbative information?
+  canonical: Can resurgent trans-series in asymptotic expansions of QFT path integrals
+    be rigorously proved to recover exact non-perturbative information?
 sources:
   canonical:
   - source_id: src_dunne_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2210.07855
   status_evidence:
   - source_id: src_dunne_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2210.07855
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

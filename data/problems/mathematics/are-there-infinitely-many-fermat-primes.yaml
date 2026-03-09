@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the set of primes of the form 2^(2^n) + 1 finite or infinite? Only five are known.
+  canonical: Is the set of primes of the form 2^(2^n) + 1 finite or infinite? Only
+    five are known.
 sources:
   canonical:
   - source_id: src_fermat_1640
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

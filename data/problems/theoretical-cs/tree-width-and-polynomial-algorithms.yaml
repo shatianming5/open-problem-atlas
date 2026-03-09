@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Characterize all graph problems that can be solved in polynomial time on graphs of bounded tree-width.
+  canonical: Characterize all graph problems that can be solved in polynomial time
+    on graphs of bounded tree-width.
 sources:
   canonical:
   - source_id: curated_tree_width_and_polynomial_algorithms
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

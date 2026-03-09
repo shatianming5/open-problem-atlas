@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the Lang-Trotter conjecture on the distribution of Frobenius traces of elliptic curves.
+  canonical: Prove the Lang-Trotter conjecture on the distribution of Frobenius traces
+    of elliptic curves.
 sources:
   canonical:
   - source_id: curated_lang_trotter_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

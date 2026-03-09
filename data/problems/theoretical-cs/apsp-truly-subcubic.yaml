@@ -1,118 +1,113 @@
 id: opa.tcs.graph-algorithms.apsp-truly-subcubic
 kind: problem
-title: "All-Pairs Shortest Paths in Truly Subcubic Time"
+title: All-Pairs Shortest Paths in Truly Subcubic Time
 aliases:
-  - "APSP subcubic algorithm"
-  - "Truly subcubic shortest paths"
-
+- APSP subcubic algorithm
+- Truly subcubic shortest paths
+- All-Pairs Shortest Paths Optimal
+- Faster All-Pairs Shortest Paths
+- Fine-Grained Complexity of All-Pairs Shortest Paths
+- Dynamic All-Pairs Shortest Paths
+- Dynamic Shortest Paths Optimal
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - graph-algorithms
-
+- graph-algorithms
 problem_type: conjecture
 answer_type: bound
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: computational
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    Can the All-Pairs Shortest Paths (APSP) problem on a graph with n vertices and
-    arbitrary edge weights be solved in O(n^(3-epsilon)) time for some constant
+  canonical: 'Can the All-Pairs Shortest Paths (APSP) problem on a graph with n vertices
+    and arbitrary edge weights be solved in O(n^(3-epsilon)) time for some constant
     epsilon > 0? The best known algorithm runs in O(n^3 / 2^(Omega(sqrt(log n))))
     time, barely improving on the cubic bound.
-  informal: >
-    Can we find shortest paths between all pairs of vertices in a weighted graph
-    significantly faster than the naive cubic-time algorithm?
 
-why_it_matters: >
-  APSP is one of the most fundamental graph problems and serves as a central
-  problem in fine-grained complexity theory. Many other problems have been shown
-  to be equivalent in complexity to APSP, so a truly subcubic algorithm would have
-  far-reaching consequences.
+    '
+  informal: 'Can we find shortest paths between all pairs of vertices in a weighted
+    graph significantly faster than the naive cubic-time algorithm?
 
+    '
+why_it_matters: 'APSP is one of the most fundamental graph problems and serves as
+  a central problem in fine-grained complexity theory. Many other problems have been
+  shown to be equivalent in complexity to APSP, so a truly subcubic algorithm would
+  have far-reaching consequences.
+
+  '
 prerequisites:
-  - graph algorithms
-  - shortest path algorithms
-  - matrix multiplication
-  - fine-grained complexity
-
+- graph algorithms
+- shortest path algorithms
+- matrix multiplication
+- fine-grained complexity
 dates:
   first_stated: 1969
-
 sources:
   canonical:
-    - source_id: src_williams_2014_apsp
-      kind: paper
-      title: "Faster All-Pairs Shortest Paths via Circuit Complexity"
-      authors:
-        - "Ryan Williams"
-      url: "https://doi.org/10.1145/2591796.2591811"
-      year: 2014
-  status_evidence:
-    - source_id: src_williams_williams_2018
-      kind: paper
-      title: "Subcubic Equivalences Between Path, Matrix, and Triangle Problems"
-      authors:
-        - "Virginia Vassilevska Williams"
-        - "Ryan Williams"
-      url: "https://doi.org/10.1145/3186893"
-      year: 2018
-
-partial_results:
-  - summary: "Floyd-Warshall and Johnson's algorithms achieve O(n^3) time for dense graphs."
-    year: 1969
-  - summary: "Williams (2014) achieved the best known improvement: O(n^3 / 2^(Omega(sqrt(log n)))) using circuit complexity techniques."
+  - source_id: src_williams_2014_apsp
+    kind: paper
+    title: Faster All-Pairs Shortest Paths via Circuit Complexity
+    authors:
+    - Ryan Williams
+    url: https://doi.org/10.1145/2591796.2591811
     year: 2014
-  - summary: "Vassilevska Williams and Williams (2018) showed subcubic equivalence between APSP, negative triangle detection, and other problems."
+  status_evidence:
+  - source_id: src_williams_williams_2018
+    kind: paper
+    title: Subcubic Equivalences Between Path, Matrix, and Triangle Problems
+    authors:
+    - Virginia Vassilevska Williams
+    - Ryan Williams
+    url: https://doi.org/10.1145/3186893
     year: 2018
-
+partial_results:
+- summary: Floyd-Warshall and Johnson's algorithms achieve O(n^3) time for dense graphs.
+  year: 1969
+- summary: 'Williams (2014) achieved the best known improvement: O(n^3 / 2^(Omega(sqrt(log
+    n)))) using circuit complexity techniques.'
+  year: 2014
+- summary: Vassilevska Williams and Williams (2018) showed subcubic equivalence between
+    APSP, negative triangle detection, and other problems.
+  year: 2018
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.algorithms.k-clique-detection"
-
+  - opa.tcs.algorithms.k-clique-detection
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.85
-  underexplored: 0.30
+  underexplored: 0.3
   toolability: 0.35
   formality: 0.85
   ai_fit: 0.25
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-
+  - python
 machine_generated:
-  summary: >
-    Whether APSP can be solved in truly subcubic O(n^(3-epsilon)) time is a central
-    open problem with deep connections to fine-grained complexity.
-  decomposition:
-    - "Develop algorithms achieving truly subcubic time for APSP"
-    - "Prove conditional lower bounds showing APSP requires near-cubic time"
-  disclaimer: unverified
+  summary: 'Whether APSP can be solved in truly subcubic O(n^(3-epsilon)) time is
+    a central open problem with deep connections to fine-grained complexity.
 
+    '
+  decomposition:
+  - Develop algorithms achieving truly subcubic time for APSP
+  - Prove conditional lower bounds showing APSP requires near-cubic time
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the linear arboricity of every d-regular graph equal to ceil((d+1)/2), as conjectured by Akiyama, Exoo, and
-    Harary?
+  canonical: Is the linear arboricity of every d-regular graph equal to ceil((d+1)/2),
+    as conjectured by Akiyama, Exoo, and Harary?
 sources:
   canonical:
   - source_id: src_ferber_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2205.01588
   status_evidence:
   - source_id: src_ferber_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2205.01588
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

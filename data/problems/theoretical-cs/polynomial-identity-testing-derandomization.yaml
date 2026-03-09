@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can polynomial identity testing be derandomized in polynomial time, providing a hitting set generator for arithmetic
-    circuits?
+  canonical: Can polynomial identity testing be derandomized in polynomial time, providing
+    a hitting set generator for arithmetic circuits?
 sources:
   canonical:
   - source_id: src_agrawal_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2107.12386
   status_evidence:
   - source_id: src_agrawal_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2107.12386
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

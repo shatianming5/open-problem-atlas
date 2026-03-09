@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the Penrose inequality relating the ADM mass to the area of the outermost apparent horizon for general
-    initial data sets including non-time-symmetric cases.
+  canonical: Prove the Penrose inequality relating the ADM mass to the area of the
+    outermost apparent horizon for general initial data sets including non-time-symmetric
+    cases.
 sources:
   canonical:
   - source_id: src_mars_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0906.5566
   status_evidence:
   - source_id: src_mars_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0906.5566
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

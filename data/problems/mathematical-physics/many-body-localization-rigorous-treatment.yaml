@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does many-body localization exist as a stable dynamical phase in interacting quantum systems in dimensions d
-    >= 1, or does it eventually thermalize?
+  canonical: Does many-body localization exist as a stable dynamical phase in interacting
+    quantum systems in dimensions d >= 1, or does it eventually thermalize?
 sources:
   canonical:
   - source_id: src_imbrie_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1403.7837
   status_evidence:
   - source_id: src_imbrie_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1403.7837
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

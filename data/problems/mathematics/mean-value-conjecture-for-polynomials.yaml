@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Prove Smale''s mean value conjecture: for a polynomial p of degree n, there is a critical point c with |p(c)/c|
-    <= |p''(0)|*(n-1)/n.'
+  canonical: 'Prove Smale''s mean value conjecture: for a polynomial p of degree n,
+    there is a critical point c with |p(c)/c| <= |p''(0)|*(n-1)/n.'
 sources:
   canonical:
   - source_id: curated_mean_value_conjecture_for_polynomials
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Any convex body in R^3 can be partitioned into 8 pieces of equal volume by 3 hyperplanes.
+  canonical: Any convex body in R^3 can be partitioned into 8 pieces of equal volume
+    by 3 hyperplanes.
 sources:
   canonical:
   - source_id: src_gruenbaum_1960
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

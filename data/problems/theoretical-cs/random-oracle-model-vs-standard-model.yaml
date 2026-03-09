@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Which schemes proven secure in the random oracle model can be instantiated securely in the standard model?
+  canonical: Which schemes proven secure in the random oracle model can be instantiated
+    securely in the standard model?
 sources:
   canonical:
   - source_id: src_canetti_goldreich_halevi_1998
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/1008731.1008734
   status_evidence:
   - source_id: src_canetti_goldreich_halevi_1998
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/1008731.1008734
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Do bipartite Ramanujan graphs exist for every degree d >= 3? The Marcus-Spielman-Srivastava result covers bipartite
-    cases; the non-bipartite case remains open.
+  canonical: Do bipartite Ramanujan graphs exist for every degree d >= 3? The Marcus-Spielman-Srivastava
+    result covers bipartite cases; the non-bipartite case remains open.
 sources:
   canonical:
   - source_id: src_marcus_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1304.4132
   status_evidence:
   - source_id: src_marcus_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1304.4132
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

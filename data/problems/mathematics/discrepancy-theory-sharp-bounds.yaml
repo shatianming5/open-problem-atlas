@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine sharp bounds in combinatorial discrepancy for specific set systems.
+  canonical: Determine sharp bounds in combinatorial discrepancy for specific set
+    systems.
 sources:
   canonical:
   - source_id: curated_discrepancy_theory_sharp_bounds
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

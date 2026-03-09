@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The sequence of numbers of independent sets of each size in a matroid is log-concave.
+  canonical: The sequence of numbers of independent sets of each size in a matroid
+    is log-concave.
 sources:
   canonical:
   - source_id: src_mason_1972
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

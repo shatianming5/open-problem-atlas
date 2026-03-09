@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For every positive integer d, there exists a coprime integer a such that the continued fraction expansion of
-    a/d has all partial quotients bounded by an absolute constant (conjectured to be 5).
+  canonical: For every positive integer d, there exists a coprime integer a such that
+    the continued fraction expansion of a/d has all partial quotients bounded by an
+    absolute constant (conjectured to be 5).
 sources:
   canonical:
   - source_id: src_zaremba_1972
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

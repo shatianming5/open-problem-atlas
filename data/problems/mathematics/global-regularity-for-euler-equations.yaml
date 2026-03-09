@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Do solutions of the 3D incompressible Euler equations develop finite-time singularities from smooth initial data?
+  canonical: Do solutions of the 3D incompressible Euler equations develop finite-time
+    singularities from smooth initial data?
 sources:
   canonical:
   - source_id: src_beale_1984
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

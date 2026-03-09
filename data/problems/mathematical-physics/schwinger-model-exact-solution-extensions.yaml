@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the exact solvability of the Schwinger model be extended to QED in higher dimensions or to non-Abelian gauge
-    theories in two dimensions?
+  canonical: Can the exact solvability of the Schwinger model be extended to QED in
+    higher dimensions or to non-Abelian gauge theories in two dimensions?
 sources:
   canonical:
   - source_id: src_schwinger_1962
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRev.128.2425
   status_evidence:
   - source_id: src_schwinger_1962
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRev.128.2425
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact quantum capacity of the depolarizing channel. Despite decades of study, the quantum capacity
-    is known only in limited parameter regimes.
+  canonical: Determine the exact quantum capacity of the depolarizing channel. Despite
+    decades of study, the quantum capacity is known only in limited parameter regimes.
 sources:
   canonical:
   - source_id: src_smith_2008
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0807.4935
   status_evidence:
   - source_id: src_smith_2008
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0807.4935
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

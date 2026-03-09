@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is Mochizuki's claimed proof of the ABC conjecture via Inter-Universal Teichmuller Theory correct, or is a new
-    approach needed?
+  canonical: Is Mochizuki's claimed proof of the ABC conjecture via Inter-Universal
+    Teichmuller Theory correct, or is a new approach needed?
 sources:
   canonical:
   - source_id: src_scholze_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2012.14434
   status_evidence:
   - source_id: src_scholze_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2012.14434
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

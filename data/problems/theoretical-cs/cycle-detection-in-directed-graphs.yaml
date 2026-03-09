@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can all simple cycles in a directed graph be enumerated with optimal delay between outputs?
+  canonical: Can all simple cycles in a directed graph be enumerated with optimal
+    delay between outputs?
 sources:
   canonical:
   - source_id: src_johnson_1975
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0204007
   status_evidence:
   - source_id: src_johnson_1975
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0204007
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

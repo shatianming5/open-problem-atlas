@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The Bochner-Riesz means of order delta converge in L^p for the optimal range of delta, specifically for delta
-    > max(0, n|1/p - 1/2| - 1/2).
+  canonical: The Bochner-Riesz means of order delta converge in L^p for the optimal
+    range of delta, specifically for delta > max(0, n|1/p - 1/2| - 1/2).
 sources:
   canonical:
   - source_id: src_bochner_1936
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

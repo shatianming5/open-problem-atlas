@@ -1,150 +1,146 @@
 id: opa.tcs.cryptography.existence-of-one-way-functions
 kind: problem
-title: "Existence of One-Way Functions"
+title: Existence of One-Way Functions
 aliases:
-  - "Do one-way functions exist?"
-  - "OWF existence"
-  - "One-way function conjecture"
-
+- Do one-way functions exist?
+- OWF existence
+- One-way function conjecture
+- One-Way Functions Existence
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - cryptography
-
+- cryptography
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: proof_assistant
   machine_actionability: low
 tier: tier_2
 statement:
-  canonical: >
-    A function f: {0,1}* -> {0,1}* is called a one-way function if (1) f is
-    computable in polynomial time, and (2) for every probabilistic polynomial-time
-    algorithm A, the probability that A(f(x), 1^|x|) outputs some x' with
-    f(x') = f(x) is negligible in |x|, where x is chosen uniformly at random.
-    Do one-way functions exist? Equivalently, does there exist a polynomial-time
-    computable function that cannot be inverted by any probabilistic polynomial-time
-    algorithm with non-negligible probability?
-  informal: >
-    A one-way function is easy to compute but hard to reverse. For example,
-    multiplying two large prime numbers is easy, but finding the prime factors
-    of the product is believed to be hard. Do functions with this property
-    actually exist, or can every efficiently computable function be efficiently
-    inverted? The entire field of cryptography rests on the assumption that
-    such functions exist.
+  canonical: 'A function f: {0,1}* -> {0,1}* is called a one-way function if (1) f
+    is computable in polynomial time, and (2) for every probabilistic polynomial-time
+    algorithm A, the probability that A(f(x), 1^|x|) outputs some x'' with f(x'')
+    = f(x) is negligible in |x|, where x is chosen uniformly at random. Do one-way
+    functions exist? Equivalently, does there exist a polynomial-time computable function
+    that cannot be inverted by any probabilistic polynomial-time algorithm with non-negligible
+    probability?
 
-why_it_matters: >
-  The existence of one-way functions is the minimal assumption on which almost
-  all of modern cryptography is built. Impagliazzo and Luby showed that one-way
-  functions exist if and only if pseudorandom generators exist, which in turn
-  are equivalent to the existence of pseudorandom functions, commitment schemes,
-  and digital signatures. The existence of one-way functions implies P != NP,
-  but P != NP alone is not known to imply the existence of one-way functions.
-  Resolving this question would either validate or invalidate the theoretical
-  foundations of cryptography.
+    '
+  informal: 'A one-way function is easy to compute but hard to reverse. For example,
+    multiplying two large prime numbers is easy, but finding the prime factors of
+    the product is believed to be hard. Do functions with this property actually exist,
+    or can every efficiently computable function be efficiently inverted? The entire
+    field of cryptography rests on the assumption that such functions exist.
 
+    '
+why_it_matters: 'The existence of one-way functions is the minimal assumption on which
+  almost all of modern cryptography is built. Impagliazzo and Luby showed that one-way
+  functions exist if and only if pseudorandom generators exist, which in turn are
+  equivalent to the existence of pseudorandom functions, commitment schemes, and digital
+  signatures. The existence of one-way functions implies P != NP, but P != NP alone
+  is not known to imply the existence of one-way functions. Resolving this question
+  would either validate or invalidate the theoretical foundations of cryptography.
+
+  '
 prerequisites:
-  - computational complexity theory
-  - cryptography
-  - probability theory
-  - pseudorandom generators
-  - average-case complexity
-
+- computational complexity theory
+- cryptography
+- probability theory
+- pseudorandom generators
+- average-case complexity
 dates:
   first_stated: 1976
-
 sources:
   canonical:
-    - source_id: src_diffie_hellman_1976
-      kind: paper
-      title: "New Directions in Cryptography"
-      authors:
-        - "Whitfield Diffie"
-        - "Martin E. Hellman"
-      url: "https://doi.org/10.1109/TIT.1976.1055638"
-      year: 1976
-      locator: "IEEE Transactions on Information Theory, 22(6), pp. 644-654"
-    - source_id: src_impagliazzo_luby_1989
-      kind: paper
-      title: "One-Way Functions Are Essential for Complexity Based Cryptography"
-      authors:
-        - "Russell Impagliazzo"
-        - "Michael Luby"
-      url: "https://doi.org/10.1109/SFCS.1989.63483"
-      year: 1989
-      locator: "Proceedings of FOCS 1989, pp. 230-235"
-  status_evidence:
-    - source_id: src_goldreich_2001
-      kind: textbook
-      title: "Foundations of Cryptography, Volume 1: Basic Tools"
-      authors:
-        - "Oded Goldreich"
-      url: "https://doi.org/10.1017/CBO9780511546891"
-      year: 2001
-    - source_id: src_impagliazzo_1995
-      kind: paper
-      title: "A Personal View of Average-Case Complexity"
-      authors:
-        - "Russell Impagliazzo"
-      url: "https://doi.org/10.1109/SCT.1995.514853"
-      year: 1995
-
-partial_results:
-  - summary: "Impagliazzo and Luby proved that one-way functions exist if and only if pseudorandom generators exist."
+  - source_id: src_diffie_hellman_1976
+    kind: paper
+    title: New Directions in Cryptography
+    authors:
+    - Whitfield Diffie
+    - Martin E. Hellman
+    url: https://doi.org/10.1109/TIT.1976.1055638
+    year: 1976
+    locator: IEEE Transactions on Information Theory, 22(6), pp. 644-654
+  - source_id: src_impagliazzo_luby_1989
+    kind: paper
+    title: One-Way Functions Are Essential for Complexity Based Cryptography
+    authors:
+    - Russell Impagliazzo
+    - Michael Luby
+    url: https://doi.org/10.1109/SFCS.1989.63483
     year: 1989
-  - summary: "Hastad, Impagliazzo, Levin, and Luby showed that any one-way function can be transformed into a pseudorandom generator."
-    year: 1999
-  - summary: "No candidate one-way function has been proven to be one-way; the security of candidates like integer factorization and discrete logarithm remains conjectural."
-    year: 2000
-  - summary: "Liu and Pass showed connections between one-way functions and time-bounded Kolmogorov complexity, proving that one-way functions exist iff the time-bounded Kolmogorov complexity problem is hard on average."
-    year: 2020
-
+    locator: Proceedings of FOCS 1989, pp. 230-235
+  status_evidence:
+  - source_id: src_goldreich_2001
+    kind: textbook
+    title: 'Foundations of Cryptography, Volume 1: Basic Tools'
+    authors:
+    - Oded Goldreich
+    url: https://doi.org/10.1017/CBO9780511546891
+    year: 2001
+  - source_id: src_impagliazzo_1995
+    kind: paper
+    title: A Personal View of Average-Case Complexity
+    authors:
+    - Russell Impagliazzo
+    url: https://doi.org/10.1109/SCT.1995.514853
+    year: 1995
+partial_results:
+- summary: Impagliazzo and Luby proved that one-way functions exist if and only if
+    pseudorandom generators exist.
+  year: 1989
+- summary: Hastad, Impagliazzo, Levin, and Luby showed that any one-way function can
+    be transformed into a pseudorandom generator.
+  year: 1999
+- summary: No candidate one-way function has been proven to be one-way; the security
+    of candidates like integer factorization and discrete logarithm remains conjectural.
+  year: 2000
+- summary: Liu and Pass showed connections between one-way functions and time-bounded
+    Kolmogorov complexity, proving that one-way functions exist iff the time-bounded
+    Kolmogorov complexity problem is hard on average.
+  year: 2020
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.complexity-theory.p-vs-np"
-
+  - opa.tcs.complexity-theory.p-vs-np
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.95
-  underexplored: 0.20
+  underexplored: 0.2
   toolability: 0.25
-  formality: 0.90
+  formality: 0.9
   ai_fit: 0.15
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-    - lean
-
+  - python
+  - lean
 machine_generated:
-  summary: >
-    This problem asks whether one-way functions exist -- functions that are easy to compute but hard to invert -- which is the minimal assumption underlying all of modern cryptography.
-  decomposition:
-    - "Prove average-case hardness for candidate one-way functions such as factoring or lattice-based constructions"
-    - "Establish connections between worst-case and average-case complexity to derive one-way functions from P != NP"
-  disclaimer: unverified
+  summary: 'This problem asks whether one-way functions exist -- functions that are
+    easy to compute but hard to invert -- which is the minimal assumption underlying
+    all of modern cryptography.
 
+    '
+  decomposition:
+  - Prove average-case hardness for candidate one-way functions such as factoring
+    or lattice-based constructions
+  - Establish connections between worst-case and average-case complexity to derive
+    one-way functions from P != NP
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

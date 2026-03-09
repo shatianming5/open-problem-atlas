@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can Floquet topological phases that have no static counterpart be stabilized against heating in many-body interacting
-    systems?
+  canonical: Can Floquet topological phases that have no static counterpart be stabilized
+    against heating in many-body interacting systems?
 sources:
   canonical:
   - source_id: src_rudner_2013
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1212.3324
   status_evidence:
   - source_id: src_rudner_2013
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1212.3324
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

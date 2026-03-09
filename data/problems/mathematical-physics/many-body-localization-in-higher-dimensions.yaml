@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does many-body localization survive in dimensions greater than one, or does it inevitably thermalize due to rare-region
-    effects?
+  canonical: Does many-body localization survive in dimensions greater than one, or
+    does it inevitably thermalize due to rare-region effects?
 sources:
   canonical:
   - source_id: src_nandkishore_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1404.0686
   status_evidence:
   - source_id: src_nandkishore_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1404.0686
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

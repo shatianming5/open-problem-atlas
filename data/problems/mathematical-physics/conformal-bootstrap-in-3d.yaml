@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine all consistent 3D conformal field theories using the conformal bootstrap.
+  canonical: Determine all consistent 3D conformal field theories using the conformal
+    bootstrap.
 sources:
   canonical:
   - source_id: curated_conformal_bootstrap_in_3d
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

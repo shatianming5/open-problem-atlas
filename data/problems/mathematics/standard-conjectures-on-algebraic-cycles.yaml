@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A set of conjectures about algebraic cycles proposed by Grothendieck, including the Lefschetz standard conjecture
-    and the Hodge standard conjecture.
+  canonical: A set of conjectures about algebraic cycles proposed by Grothendieck,
+    including the Lefschetz standard conjecture and the Hodge standard conjecture.
 sources:
   canonical:
   - source_id: src_grothendieck_1969
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

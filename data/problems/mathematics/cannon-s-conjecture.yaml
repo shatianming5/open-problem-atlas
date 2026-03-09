@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A finitely presented group whose boundary at infinity is the 2-sphere acts geometrically on hyperbolic 3-space.
+  canonical: A finitely presented group whose boundary at infinity is the 2-sphere
+    acts geometrically on hyperbolic 3-space.
 sources:
   canonical:
   - source_id: curated_cannon_s_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

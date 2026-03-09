@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is there a natural large cardinal axiom that is inconsistent, providing an upper bound on the large cardinal
-    hierarchy?
+  canonical: Is there a natural large cardinal axiom that is inconsistent, providing
+    an upper bound on the large cardinal hierarchy?
 sources:
   canonical:
   - source_id: src_kunen_1971
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

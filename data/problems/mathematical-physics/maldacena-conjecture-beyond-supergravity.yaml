@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can AdS/CFT duality be proven for the full quantum string theory on AdS_5 x S^5, beyond the supergravity and
-    planar limits?
+  canonical: Can AdS/CFT duality be proven for the full quantum string theory on AdS_5
+    x S^5, beyond the supergravity and planar limits?
 sources:
   canonical:
   - source_id: src_maldacena_1998
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/9711200
   status_evidence:
   - source_id: src_maldacena_1998
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/9711200
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

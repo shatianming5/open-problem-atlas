@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can spectral sparsifiers with O(n/epsilon^2) edges be constructed in nearly linear time?
+  canonical: Can spectral sparsifiers with O(n/epsilon^2) edges be constructed in
+    nearly linear time?
 sources:
   canonical:
   - source_id: src_batson_spielman_srivastava_2012
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/090772873
   status_evidence:
   - source_id: src_batson_spielman_srivastava_2012
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/090772873
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

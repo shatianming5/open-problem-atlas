@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Complete the connection between the geometric Langlands program and N=4 super Yang-Mills theory.
+  canonical: Complete the connection between the geometric Langlands program and N=4
+    super Yang-Mills theory.
 sources:
   canonical:
   - source_id: curated_geometric_langlands_and_physics_full_program
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can one fully classify rational vertex operator algebras arising from WZW models at all levels, including the
-    non-simply-laced cases?
+  canonical: Can one fully classify rational vertex operator algebras arising from
+    WZW models at all levels, including the non-simply-laced cases?
 sources:
   canonical:
   - source_id: src_arakawa_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2302.03206
   status_evidence:
   - source_id: src_arakawa_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2302.03206
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

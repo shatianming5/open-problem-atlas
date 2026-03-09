@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the amplituhedron construction generalize beyond planar N=4 SYM to provide a geometric formulation of scattering
-    amplitudes in realistic theories?
+  canonical: Does the amplituhedron construction generalize beyond planar N=4 SYM
+    to provide a geometric formulation of scattering amplitudes in realistic theories?
 sources:
   canonical:
   - source_id: src_arkani-hamed_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1312.2007
   status_evidence:
   - source_id: src_arkani-hamed_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1312.2007
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

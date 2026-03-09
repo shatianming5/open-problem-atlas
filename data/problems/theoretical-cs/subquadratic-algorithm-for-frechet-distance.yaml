@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Frechet distance between two polygonal curves be computed in truly sub-quadratic time?
+  canonical: Can the Frechet distance between two polygonal curves be computed in
+    truly sub-quadratic time?
 sources:
   canonical:
   - source_id: src_bringmann_2014
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/FOCS.2014.63
   status_evidence:
   - source_id: src_bringmann_2014
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/FOCS.2014.63
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

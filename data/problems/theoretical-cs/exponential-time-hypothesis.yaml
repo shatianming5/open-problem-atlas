@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does 3-SAT require exponential time, i.e., does there exist a constant delta > 0 such that no algorithm solves
-    3-SAT in time 2^(delta*n)?
+  canonical: Does 3-SAT require exponential time, i.e., does there exist a constant
+    delta > 0 such that no algorithm solves 3-SAT in time 2^(delta*n)?
 sources:
   canonical:
   - source_id: src_impagliazzo_paturi_2001
-    kind: website
+    kind: paper
     url: https://doi.org/10.1006/jcss.2000.1727
   status_evidence:
   - source_id: src_impagliazzo_paturi_2001
-    kind: website
+    kind: paper
     url: https://doi.org/10.1006/jcss.2000.1727
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

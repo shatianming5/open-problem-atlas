@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Woodin''s Ultimate-L conjecture: is there a canonical inner model that is close to V (the universe of sets)
-    and satisfies the Generalized Continuum Hypothesis?'
+  canonical: 'Woodin''s Ultimate-L conjecture: is there a canonical inner model that
+    is close to V (the universe of sets) and satisfies the Generalized Continuum Hypothesis?'
 sources:
   canonical:
   - source_id: src_woodin_2010
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

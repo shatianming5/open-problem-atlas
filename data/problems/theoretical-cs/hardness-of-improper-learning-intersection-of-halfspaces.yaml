@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is improperly learning the intersection of two halfspaces computationally hard? The problem has resisted classification.
+  canonical: Is improperly learning the intersection of two halfspaces computationally
+    hard? The problem has resisted classification.
 sources:
   canonical:
   - source_id: src_klivans_sherstov_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/070684914
   status_evidence:
   - source_id: src_klivans_sherstov_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/070684914
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

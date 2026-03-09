@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the complete set of second-law-like constraints governing quantum thermodynamic transitions for finite-dimensional
-    quantum systems?
+  canonical: What is the complete set of second-law-like constraints governing quantum
+    thermodynamic transitions for finite-dimensional quantum systems?
 sources:
   canonical:
   - source_id: src_brandao_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1305.5278
   status_evidence:
   - source_id: src_brandao_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1305.5278
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

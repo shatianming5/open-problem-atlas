@@ -1,126 +1,117 @@
 id: opa.tcs.cryptography.public-key-from-owf
 kind: problem
-title: "Public-Key Cryptography from One-Way Functions"
+title: Public-Key Cryptography from One-Way Functions
 aliases:
-  - "PKE from OWF"
-  - "Key exchange from minimal assumptions"
-
+- PKE from OWF
+- Key exchange from minimal assumptions
+- Public-Key Cryptography from OWF
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - cryptography
-
+- cryptography
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: proof_assistant
   machine_actionability: low
 tier: tier_2
 statement:
-  canonical: >
-    Can public-key encryption be constructed from one-way functions alone? One-way
-    functions are known to imply private-key cryptography (pseudorandom generators,
+  canonical: 'Can public-key encryption be constructed from one-way functions alone?
+    One-way functions are known to imply private-key cryptography (pseudorandom generators,
     symmetric encryption, digital signatures), but it is unknown whether they suffice
     for public-key encryption or key exchange.
-  informal: >
-    If hard-to-invert functions exist, does that automatically mean we can do
-    public-key cryptography? We know hard-to-invert functions give us symmetric
+
+    '
+  informal: 'If hard-to-invert functions exist, does that automatically mean we can
+    do public-key cryptography? We know hard-to-invert functions give us symmetric
     crypto, but it is open whether they give us asymmetric/public-key crypto.
 
-why_it_matters: >
-  This is one of the most fundamental questions in cryptography. A positive answer
-  would unify the foundations of cryptography under one-way functions. A negative
-  answer (a black-box separation exists) would mean public-key crypto requires
+    '
+why_it_matters: 'This is one of the most fundamental questions in cryptography. A
+  positive answer would unify the foundations of cryptography under one-way functions.
+  A negative answer (a black-box separation exists) would mean public-key crypto requires
   fundamentally different assumptions.
 
+  '
 prerequisites:
-  - one-way functions
-  - public-key encryption
-  - key exchange
-  - black-box separations
-
+- one-way functions
+- public-key encryption
+- key exchange
+- black-box separations
 dates:
   first_stated: 1990
-
 sources:
   canonical:
-    - source_id: src_impagliazzo_rudich_1989
-      kind: paper
-      title: "Limits on the Provable Consequences of One-Way Permutations"
-      authors:
-        - "Russell Impagliazzo"
-        - "Steven Rudich"
-      url: "https://doi.org/10.1145/73007.73012"
-      year: 1989
-  status_evidence:
-    - source_id: src_gertner_kannan_malkin_reingold_vishwanathan_2000
-      kind: paper
-      title: "The Relationship between Public Key Encryption and Oblivious Transfer"
-      authors:
-        - "Yael Gertner"
-        - "Sampath Kannan"
-        - "Tal Malkin"
-        - "Omer Reingold"
-        - "Mahesh Viswanathan"
-      url: "https://doi.org/10.1109/SFCS.2000.892127"
-      year: 2000
-
-partial_results:
-  - summary: "Impagliazzo and Rudich (1989) proved that public-key encryption cannot be constructed from one-way functions via black-box reductions."
+  - source_id: src_impagliazzo_rudich_1989
+    kind: paper
+    title: Limits on the Provable Consequences of One-Way Permutations
+    authors:
+    - Russell Impagliazzo
+    - Steven Rudich
+    url: https://doi.org/10.1145/73007.73012
     year: 1989
-  - summary: "Non-black-box techniques (like those of Barak) leave open the possibility of non-black-box constructions."
-    year: 2001
-  - summary: "The question remains open for both standard and non-black-box constructions."
-    year: 2020
-
+  status_evidence:
+  - source_id: src_gertner_kannan_malkin_reingold_vishwanathan_2000
+    kind: paper
+    title: The Relationship between Public Key Encryption and Oblivious Transfer
+    authors:
+    - Yael Gertner
+    - Sampath Kannan
+    - Tal Malkin
+    - Omer Reingold
+    - Mahesh Viswanathan
+    url: https://doi.org/10.1109/SFCS.2000.892127
+    year: 2000
+partial_results:
+- summary: Impagliazzo and Rudich (1989) proved that public-key encryption cannot
+    be constructed from one-way functions via black-box reductions.
+  year: 1989
+- summary: Non-black-box techniques (like those of Barak) leave open the possibility
+    of non-black-box constructions.
+  year: 2001
+- summary: The question remains open for both standard and non-black-box constructions.
+  year: 2020
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.cryptography.existence-of-one-way-functions"
-    - "opa.tcs.cryptography.black-box-separations"
-    - "opa.tcs.cryptography.indistinguishability-obfuscation"
-
+  - opa.tcs.cryptography.existence-of-one-way-functions
+  - opa.tcs.cryptography.black-box-separations
+  - opa.tcs.cryptography.indistinguishability-obfuscation
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
-  impact: 0.90
-  underexplored: 0.30
-  toolability: 0.20
-  formality: 0.90
+  impact: 0.9
+  underexplored: 0.3
+  toolability: 0.2
+  formality: 0.9
   ai_fit: 0.15
-
 ai:
   solver_ready: false
   recommended_tools:
-    - lean
-
+  - lean
 machine_generated:
-  summary: >
-    Whether public-key encryption can be built from one-way functions alone is a
-    central open question in theoretical cryptography, with black-box impossibility
+  summary: 'Whether public-key encryption can be built from one-way functions alone
+    is a central open question in theoretical cryptography, with black-box impossibility
     results but open for non-black-box constructions.
-  decomposition:
-    - "Explore non-black-box constructions of PKE from OWF"
-    - "Strengthen black-box impossibility results to cover more general constructions"
-  disclaimer: unverified
 
+    '
+  decomposition:
+  - Explore non-black-box constructions of PKE from OWF
+  - Strengthen black-box impossibility results to cover more general constructions
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

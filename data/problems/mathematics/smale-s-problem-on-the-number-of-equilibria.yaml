@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the number of isolated equilibria of a polynomial vector field on R^n bounded by a function of the degree
-    and dimension?
+  canonical: Is the number of isolated equilibria of a polynomial vector field on
+    R^n bounded by a function of the degree and dimension?
 sources:
   canonical:
   - source_id: src_smale_1998b
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

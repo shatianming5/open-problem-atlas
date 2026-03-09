@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend l^2 decoupling inequalities to more general manifolds beyond the paraboloid.
+  canonical: Extend l^2 decoupling inequalities to more general manifolds beyond the
+    paraboloid.
 sources:
   canonical:
   - source_id: src_bourgaindemeter_2015
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

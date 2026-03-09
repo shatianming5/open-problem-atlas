@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Develop a complete theory explaining when and why interpolation leads to good generalization.
+  canonical: Develop a complete theory explaining when and why interpolation leads
+    to good generalization.
 sources:
   canonical:
   - source_id: curated_benign_overfitting_theory
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

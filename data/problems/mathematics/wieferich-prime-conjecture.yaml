@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether infinitely many Wieferich primes (primes p with 2^{p-1} = 1 mod p^2) exist.
+  canonical: Determine whether infinitely many Wieferich primes (primes p with 2^{p-1}
+    = 1 mod p^2) exist.
 sources:
   canonical:
   - source_id: curated_wieferich_prime_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

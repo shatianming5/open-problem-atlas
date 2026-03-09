@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The solution to the free Schrodinger equation with L^2 initial data converges pointwise almost everywhere to
-    the initial data.
+  canonical: The solution to the free Schrodinger equation with L^2 initial data converges
+    pointwise almost everywhere to the initial data.
 sources:
   canonical:
   - source_id: src_carleson_1980
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

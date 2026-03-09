@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the chromatic number of a graph at most the ceiling of the average of the clique number and the maximum degree
-    plus one?
+  canonical: Is the chromatic number of a graph at most the ceiling of the average
+    of the clique number and the maximum degree plus one?
 sources:
   canonical:
   - source_id: src_reed_2020
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/j.jctb.1998.09.003
   status_evidence:
   - source_id: src_reed_2020
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/j.jctb.1998.09.003
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

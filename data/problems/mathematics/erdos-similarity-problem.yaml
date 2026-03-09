@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does there exist an infinite set S such that every measurable set of positive measure contains an affine copy
-    of S?
+  canonical: Does there exist an infinite set S such that every measurable set of
+    positive measure contains an affine copy of S?
 sources:
   canonical:
   - source_id: src_erdos_1975
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

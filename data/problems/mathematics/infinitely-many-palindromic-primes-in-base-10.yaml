@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether there are infinitely many palindromic primes in base 10.
+  canonical: Determine whether there are infinitely many palindromic primes in base
+    10.
 sources:
   canonical:
   - source_id: curated_infinitely_many_palindromic_primes_in_base_10
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

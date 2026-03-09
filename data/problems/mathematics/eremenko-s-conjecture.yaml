@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every connected component of the escaping set of a transcendental entire function is unbounded.
+  canonical: Every connected component of the escaping set of a transcendental entire
+    function is unbounded.
 sources:
   canonical:
   - source_id: src_eremenko_1989
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

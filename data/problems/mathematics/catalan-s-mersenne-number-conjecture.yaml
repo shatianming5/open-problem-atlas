@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: In the sequence 2, M_2=3, M_3=7, M_7=127, M_{127}=..., every term is prime.
+  canonical: In the sequence 2, M_2=3, M_3=7, M_7=127, M_{127}=..., every term is
+    prime.
 sources:
   canonical:
   - source_id: curated_catalan_s_mersenne_number_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

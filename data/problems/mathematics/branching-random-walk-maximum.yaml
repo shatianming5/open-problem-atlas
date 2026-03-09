@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the precise position and fluctuations of the maximum of branching random walk.
+  canonical: Determine the precise position and fluctuations of the maximum of branching
+    random walk.
 sources:
   canonical:
   - source_id: curated_branching_random_walk_maximum
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

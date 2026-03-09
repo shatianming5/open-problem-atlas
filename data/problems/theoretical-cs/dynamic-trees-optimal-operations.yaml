@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the optimal amortized cost per operation for dynamic tree data structures.
+  canonical: Determine the optimal amortized cost per operation for dynamic tree data
+    structures.
 sources:
   canonical:
   - source_id: curated_dynamic_trees_optimal_operations
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

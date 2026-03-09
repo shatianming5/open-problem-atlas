@@ -1,148 +1,147 @@
 id: opa.tcs.algorithms.strongly-polynomial-lp
 kind: problem
-title: "Strongly Polynomial Algorithm for Linear Programming"
+title: Strongly Polynomial Algorithm for Linear Programming
 aliases:
-  - "Is LP in strongly polynomial time?"
-  - "Smale's 9th problem"
-  - "Strongly polynomial linear programming"
-
+- Is LP in strongly polynomial time?
+- Smale's 9th problem
+- Strongly polynomial linear programming
+- Linear Programming in Strongly Polynomial Time
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - algorithms
-
+- algorithms
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: proof_assistant
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    A linear program (LP) is the problem of optimizing a linear objective function
-    subject to linear inequality and equality constraints: minimize c^T x subject
-    to Ax <= b, x >= 0, where A is an m x n matrix. A strongly polynomial
+  canonical: 'A linear program (LP) is the problem of optimizing a linear objective
+    function subject to linear inequality and equality constraints: minimize c^T x
+    subject to Ax <= b, x >= 0, where A is an m x n matrix. A strongly polynomial
     algorithm is one whose running time is bounded by a polynomial in n and m alone,
-    independent of the bit-lengths of the coefficients in A, b, and c. Known
-    polynomial-time algorithms for LP (ellipsoid method, interior-point methods)
-    are weakly polynomial — their running time depends on the bit-length of the input.
-    Does there exist a strongly polynomial-time algorithm for linear programming?
-  informal: >
-    Linear programming is the problem of finding the best outcome in a mathematical
-    model with linear constraints. We know how to solve it efficiently, but all
-    known methods have running times that depend on the sizes of the numbers in
-    the input, not just on the number of variables and constraints. Can we find
-    a method whose speed depends only on the number of variables and constraints?
+    independent of the bit-lengths of the coefficients in A, b, and c. Known polynomial-time
+    algorithms for LP (ellipsoid method, interior-point methods) are weakly polynomial
+    — their running time depends on the bit-length of the input. Does there exist
+    a strongly polynomial-time algorithm for linear programming?
 
-why_it_matters: >
-  Linear programming is arguably the most important optimization problem, with
-  applications throughout operations research, economics, engineering, and
-  computer science. While weakly polynomial algorithms exist (Khachiyan's
-  ellipsoid method, Karmarkar's interior point method), the existence of a
-  strongly polynomial algorithm remains one of Smale's 18 problems for the
-  21st century. It is fundamental to understanding the complexity of
-  combinatorial optimization and the boundary between discrete and continuous
-  computation.
+    '
+  informal: 'Linear programming is the problem of finding the best outcome in a mathematical
+    model with linear constraints. We know how to solve it efficiently, but all known
+    methods have running times that depend on the sizes of the numbers in the input,
+    not just on the number of variables and constraints. Can we find a method whose
+    speed depends only on the number of variables and constraints?
 
+    '
+why_it_matters: 'Linear programming is arguably the most important optimization problem,
+  with applications throughout operations research, economics, engineering, and computer
+  science. While weakly polynomial algorithms exist (Khachiyan''s ellipsoid method,
+  Karmarkar''s interior point method), the existence of a strongly polynomial algorithm
+  remains one of Smale''s 18 problems for the 21st century. It is fundamental to understanding
+  the complexity of combinatorial optimization and the boundary between discrete and
+  continuous computation.
+
+  '
 prerequisites:
-  - linear programming
-  - optimization theory
-  - polynomial-time algorithms
-  - interior point methods
-  - combinatorial optimization
-
+- linear programming
+- optimization theory
+- polynomial-time algorithms
+- interior point methods
+- combinatorial optimization
 dates:
   first_stated: 1979
-
 sources:
   canonical:
-    - source_id: src_khachiyan_1979
-      kind: paper
-      title: "A Polynomial Algorithm in Linear Programming"
-      authors:
-        - "Leonid G. Khachiyan"
-      url: "https://doi.org/10.1016/0041-5553(80)90061-0"
-      year: 1979
-      locator: "Soviet Mathematics Doklady, 20, pp. 191-194"
-    - source_id: src_smale_1998
-      kind: paper
-      title: "Mathematical Problems for the Next Century"
-      authors:
-        - "Stephen Smale"
-      url: "https://doi.org/10.1007/BF03025291"
-      year: 1998
-      locator: "The Mathematical Intelligencer, 20(2), pp. 7-15 (Problem 9)"
+  - source_id: src_khachiyan_1979
+    kind: paper
+    title: A Polynomial Algorithm in Linear Programming
+    authors:
+    - Leonid G. Khachiyan
+    url: https://doi.org/10.1016/0041-5553(80)90061-0
+    year: 1979
+    locator: Soviet Mathematics Doklady, 20, pp. 191-194
+  - source_id: src_smale_1998
+    kind: paper
+    title: Mathematical Problems for the Next Century
+    authors:
+    - Stephen Smale
+    url: https://doi.org/10.1007/BF03025291
+    year: 1998
+    locator: The Mathematical Intelligencer, 20(2), pp. 7-15 (Problem 9)
   status_evidence:
-    - source_id: src_megiddo_1983
-      kind: paper
-      title: "Towards a Genuinely Polynomial Algorithm for Linear Programming"
-      authors:
-        - "Nimrod Megiddo"
-      url: "https://doi.org/10.1137/0212002"
-      year: 1983
-    - source_id: src_kitahara_mizuno_2013
-      kind: survey
-      title: "A Bound for the Number of Different Basic Feasible Solutions Generated by the Simplex Method"
-      authors:
-        - "Tomonari Kitahara"
-        - "Shinji Mizuno"
-      url: "https://doi.org/10.1007/s10107-013-0654-x"
-      year: 2013
-
+  - source_id: src_megiddo_1983
+    kind: paper
+    title: Towards a Genuinely Polynomial Algorithm for Linear Programming
+    authors:
+    - Nimrod Megiddo
+    url: https://doi.org/10.1137/0212002
+    year: 1983
+  - source_id: src_kitahara_mizuno_2013
+    kind: survey
+    title: A Bound for the Number of Different Basic Feasible Solutions Generated
+      by the Simplex Method
+    authors:
+    - Tomonari Kitahara
+    - Shinji Mizuno
+    url: https://doi.org/10.1007/s10107-013-0654-x
+    year: 2013
 partial_results:
-  - summary: "Khachiyan's ellipsoid method (1979) and Karmarkar's interior point method (1984) gave weakly polynomial algorithms for LP, resolving the question of polynomial-time solvability but not strong polynomiality."
-    year: 1984
-  - summary: "Tardos showed that the number of arithmetic operations can be bounded by a polynomial in n and m for LP with integer data, but each operation may involve large numbers."
-    year: 1986
-  - summary: "Strongly polynomial algorithms exist for special cases: network flow, minimum cost flow (via combinatorial algorithms)."
-    year: 1972
-  - summary: "Dadush and Huiberts gave a condition-number-free algorithm using O(n^{2.5} log(n/delta)) pivots with high probability, but it is not strongly polynomial."
-    year: 2020
-
+- summary: Khachiyan's ellipsoid method (1979) and Karmarkar's interior point method
+    (1984) gave weakly polynomial algorithms for LP, resolving the question of polynomial-time
+    solvability but not strong polynomiality.
+  year: 1984
+- summary: Tardos showed that the number of arithmetic operations can be bounded by
+    a polynomial in n and m for LP with integer data, but each operation may involve
+    large numbers.
+  year: 1986
+- summary: 'Strongly polynomial algorithms exist for special cases: network flow,
+    minimum cost flow (via combinatorial algorithms).'
+  year: 1972
+- summary: Dadush and Huiberts gave a condition-number-free algorithm using O(n^{2.5}
+    log(n/delta)) pivots with high probability, but it is not strongly polynomial.
+  year: 2020
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related: []
-
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.87
-  underexplored: 0.30
-  toolability: 0.40
-  formality: 0.90
+  underexplored: 0.3
+  toolability: 0.4
+  formality: 0.9
   ai_fit: 0.25
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-    - sage
-
+  - python
+  - sage
 machine_generated:
-  summary: >
-    This problem asks whether linear programming admits a strongly polynomial algorithm whose runtime depends only on the number of variables and constraints, not on the magnitudes of the input numbers.
-  decomposition:
-    - "Design pivot rules or interior point variants that achieve iteration counts independent of input bit-length"
-    - "Exploit combinatorial structure of LP feasible regions to bypass dependence on numerical precision"
-  disclaimer: unverified
+  summary: 'This problem asks whether linear programming admits a strongly polynomial
+    algorithm whose runtime depends only on the number of variables and constraints,
+    not on the magnitudes of the input numbers.
 
+    '
+  decomposition:
+  - Design pivot rules or interior point variants that achieve iteration counts independent
+    of input bit-length
+  - Exploit combinatorial structure of LP feasible regions to bypass dependence on
+    numerical precision
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

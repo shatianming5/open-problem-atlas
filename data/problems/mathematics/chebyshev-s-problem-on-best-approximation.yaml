@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For multivariate polynomial approximation, characterize the best approximation from an arbitrary set in L^p norms.
+  canonical: For multivariate polynomial approximation, characterize the best approximation
+    from an arbitrary set in L^p norms.
 sources:
   canonical:
   - source_id: src_chebyshev_1853
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

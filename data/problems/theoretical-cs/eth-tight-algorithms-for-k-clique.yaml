@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the n^{omega*k/3} algorithm for k-clique detection optimal under the Exponential Time Hypothesis, where omega
-    is the matrix multiplication exponent?
+  canonical: Is the n^{omega*k/3} algorithm for k-clique detection optimal under the
+    Exponential Time Hypothesis, where omega is the matrix multiplication exponent?
 sources:
   canonical:
   - source_id: src_lincoln_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2211.11006
   status_evidence:
   - source_id: src_lincoln_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2211.11006
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the series sum_{n=1}^{infty} 1/(n^3 sin(n)^2) converge? This depends on the irrationality measure of pi.
+  canonical: Does the series sum_{n=1}^{infty} 1/(n^3 sin(n)^2) converge? This depends
+    on the irrationality measure of pi.
 sources:
   canonical:
   - source_id: src_borwein_2008
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

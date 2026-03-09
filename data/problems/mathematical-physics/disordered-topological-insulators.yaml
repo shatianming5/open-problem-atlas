@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the complete phase diagram of topological insulators in the presence of strong disorder, and does topology
-    persist beyond the Anderson localization transition?
+  canonical: What is the complete phase diagram of topological insulators in the presence
+    of strong disorder, and does topology persist beyond the Anderson localization
+    transition?
 sources:
   canonical:
   - source_id: src_li_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0811.3045
   status_evidence:
   - source_id: src_li_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0811.3045
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

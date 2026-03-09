@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can spontaneous supersymmetry breaking be rigorously established in any 4D supersymmetric quantum field theory
-    using constructive field theory methods?
+  canonical: Can spontaneous supersymmetry breaking be rigorously established in any
+    4D supersymmetric quantum field theory using constructive field theory methods?
 sources:
   canonical:
   - source_id: src_witten_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.07454
   status_evidence:
   - source_id: src_witten_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.07454
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal time complexity for convex hull computation in R^d for d >= 4? The gap between upper and
-    lower bounds grows with dimension.
+  canonical: What is the optimal time complexity for convex hull computation in R^d
+    for d >= 4? The gap between upper and lower bounds grows with dimension.
 sources:
   canonical:
   - source_id: src_chazelle_1993
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/BF02573985
   status_evidence:
   - source_id: src_chazelle_1993
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/BF02573985
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

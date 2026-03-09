@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can non-interactive key exchange be achieved for three or more parties without trusted setup or multilinear maps?
+  canonical: Can non-interactive key exchange be achieved for three or more parties
+    without trusted setup or multilinear maps?
 sources:
   canonical:
   - source_id: src_boneh_zhandry_2014
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-662-44371-2_30
   status_evidence:
   - source_id: src_boneh_zhandry_2014
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-662-44371-2_30
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the IMO 2023 Problem 6 result on sequences with a_n dividing a_{a_n} be generalized to characterize all such
-    divisibility recurrences?
+  canonical: Can the IMO 2023 Problem 6 result on sequences with a_n dividing a_{a_n}
+    be generalized to characterize all such divisibility recurrences?
 sources:
   canonical:
   - source_id: src_imo_2023
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact divisibility properties of Bernoulli numbers by prime powers.
+  canonical: Determine the exact divisibility properties of Bernoulli numbers by prime
+    powers.
 sources:
   canonical:
   - source_id: curated_bernoulli_numbers_divisibility
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

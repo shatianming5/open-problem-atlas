@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Classify all exotic smooth structures on R^4. Uncountably many exist, but a complete classification is lacking.
+  canonical: Classify all exotic smooth structures on R^4. Uncountably many exist,
+    but a complete classification is lacking.
 sources:
   canonical:
   - source_id: src_donaldson_1983
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

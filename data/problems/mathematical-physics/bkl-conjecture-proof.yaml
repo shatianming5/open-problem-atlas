@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the Belinski-Khalatnikov-Lifshitz conjecture on the structure of cosmological singularities.
+  canonical: Prove the Belinski-Khalatnikov-Lifshitz conjecture on the structure of
+    cosmological singularities.
 sources:
   canonical:
   - source_id: curated_bkl_conjecture_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

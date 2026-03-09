@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend the Langlands classification of representations to loop groups and double loop groups.
+  canonical: Extend the Langlands classification of representations to loop groups
+    and double loop groups.
 sources:
   canonical:
   - source_id: curated_langlands_classification_for_loop_groups
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

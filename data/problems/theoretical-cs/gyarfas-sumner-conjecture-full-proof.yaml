@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For every tree T, chi-bounded classes of T-free graphs have bounded chromatic number as a function of clique
-    number.
+  canonical: For every tree T, chi-bounded classes of T-free graphs have bounded chromatic
+    number as a function of clique number.
 sources:
   canonical:
   - source_id: curated_gyarfas_sumner_conjecture_full_proof
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

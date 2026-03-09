@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the polynomial method give tight quantum query lower bounds for all total Boolean functions?
+  canonical: Can the polynomial method give tight quantum query lower bounds for all
+    total Boolean functions?
 sources:
   canonical:
   - source_id: src_beals_et_al_2001
-    kind: website
+    kind: paper
     url: https://doi.org/10.1006/jcss.2000.1732
   status_evidence:
   - source_id: src_beals_et_al_2001
-    kind: website
+    kind: paper
     url: https://doi.org/10.1006/jcss.2000.1732
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

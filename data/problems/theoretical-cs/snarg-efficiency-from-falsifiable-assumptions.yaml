@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Construct succinct non-interactive arguments with optimal efficiency from falsifiable assumptions.
+  canonical: Construct succinct non-interactive arguments with optimal efficiency
+    from falsifiable assumptions.
 sources:
   canonical:
   - source_id: curated_snarg_efficiency_from_falsifiable_assumptions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

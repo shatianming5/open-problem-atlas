@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal preprocessing time for exact string matching in the comparison model? Gaps remain between
-    known algorithms.
+  canonical: What is the optimal preprocessing time for exact string matching in the
+    comparison model? Gaps remain between known algorithms.
 sources:
   canonical:
   - source_id: src_knuth_morris_pratt_1977
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0206024
   status_evidence:
   - source_id: src_knuth_morris_pratt_1977
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0206024
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

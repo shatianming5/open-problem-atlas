@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Derive Fourier's law of heat conduction rigorously from microscopic Hamiltonian dynamics for a realistic model
-    system.
+  canonical: Derive Fourier's law of heat conduction rigorously from microscopic Hamiltonian
+    dynamics for a realistic model system.
 sources:
   canonical:
   - source_id: src_bonetto_2000
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/math-ph/0002052
   status_evidence:
   - source_id: src_bonetto_2000
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/math-ph/0002052
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

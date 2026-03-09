@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the exact behavior of scattering amplitudes in QCD at high energies in the Regge limit, including pomeron
-    and odderon contributions?
+  canonical: What is the exact behavior of scattering amplitudes in QCD at high energies
+    in the Regge limit, including pomeron and odderon contributions?
 sources:
   canonical:
   - source_id: src_lipatov_1997
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-ph/9706312
   status_evidence:
   - source_id: src_lipatov_1997
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-ph/9706312
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

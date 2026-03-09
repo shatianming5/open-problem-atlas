@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether the corona theorem holds for the algebra H^inf of bounded holomorphic functions on the unit
-    ball in C^n.
+  canonical: Determine whether the corona theorem holds for the algebra H^inf of bounded
+    holomorphic functions on the unit ball in C^n.
 sources:
   canonical:
   - source_id: curated_corona_problem_in_several_complex_variables
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

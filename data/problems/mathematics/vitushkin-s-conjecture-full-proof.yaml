@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A compact set in the plane is removable for bounded analytic functions if and only if it has zero analytic capacity.
+  canonical: A compact set in the plane is removable for bounded analytic functions
+    if and only if it has zero analytic capacity.
 sources:
   canonical:
   - source_id: curated_vitushkin_s_conjecture_full_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

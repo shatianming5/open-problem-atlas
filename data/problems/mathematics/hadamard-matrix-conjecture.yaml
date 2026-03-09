@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does a Hadamard matrix of order 4k exist for every positive integer k? The smallest unknown case is order 668.
+  canonical: Does a Hadamard matrix of order 4k exist for every positive integer k?
+    The smallest unknown case is order 668.
 sources:
   canonical:
   - source_id: src_kharaghani_2020
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

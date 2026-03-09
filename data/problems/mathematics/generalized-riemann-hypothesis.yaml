@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: All nontrivial zeros of every Dirichlet L-function lie on the critical line Re(s) = 1/2.
+  canonical: All nontrivial zeros of every Dirichlet L-function lie on the critical
+    line Re(s) = 1/2.
 sources:
   canonical:
   - source_id: curated_generalized_riemann_hypothesis
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

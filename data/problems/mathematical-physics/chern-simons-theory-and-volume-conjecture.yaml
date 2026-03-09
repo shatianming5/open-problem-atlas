@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Can the Volume Conjecture be proved: that the colored Jones polynomial of a hyperbolic knot determines the hyperbolic
-    volume of its complement?'
+  canonical: 'Can the Volume Conjecture be proved: that the colored Jones polynomial
+    of a hyperbolic knot determines the hyperbolic volume of its complement?'
 sources:
   canonical:
   - source_id: src_murakami_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2103.06663
   status_evidence:
   - source_id: src_murakami_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2103.06663
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

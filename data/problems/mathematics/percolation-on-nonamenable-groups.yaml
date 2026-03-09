@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether every nonamenable Cayley graph has a nonempty interval of p-values with infinitely many infinite
-    clusters.
+  canonical: Determine whether every nonamenable Cayley graph has a nonempty interval
+    of p-values with infinitely many infinite clusters.
 sources:
   canonical:
   - source_id: curated_percolation_on_nonamenable_groups
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

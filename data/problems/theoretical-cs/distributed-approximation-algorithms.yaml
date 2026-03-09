@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the round complexity of distributed approximation algorithms for NP-hard problems.
+  canonical: Determine the round complexity of distributed approximation algorithms
+    for NP-hard problems.
 sources:
   canonical:
   - source_id: curated_distributed_approximation_algorithms
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

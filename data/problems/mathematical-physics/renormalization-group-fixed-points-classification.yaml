@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can all renormalization group fixed points in four dimensions be classified? Is there a finite number of UV-complete
-    QFTs?
+  canonical: Can all renormalization group fixed points in four dimensions be classified?
+    Is there a finite number of UV-complete QFTs?
 sources:
   canonical:
   - source_id: src_rychkov_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1601.05000
   status_evidence:
   - source_id: src_rychkov_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1601.05000
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

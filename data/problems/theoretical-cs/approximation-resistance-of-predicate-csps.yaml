@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Characterize exactly which predicates yield approximation-resistant constraint satisfaction problems under the
-    Unique Games Conjecture.
+  canonical: Characterize exactly which predicates yield approximation-resistant constraint
+    satisfaction problems under the Unique Games Conjecture.
 sources:
   canonical:
   - source_id: src_austrin_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0904.4441
   status_evidence:
   - source_id: src_austrin_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0904.4441
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

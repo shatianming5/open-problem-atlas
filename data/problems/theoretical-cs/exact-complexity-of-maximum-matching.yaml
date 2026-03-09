@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can maximum bipartite matching be solved in O(m sqrt(n)) time in the worst case, or is there a conditional lower
-    bound ruling this out?
+  canonical: Can maximum bipartite matching be solved in O(m sqrt(n)) time in the
+    worst case, or is there a conditional lower bound ruling this out?
 sources:
   canonical:
   - source_id: src_chen_2023c
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2301.02363
   status_evidence:
   - source_id: src_chen_2023c
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2301.02363
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

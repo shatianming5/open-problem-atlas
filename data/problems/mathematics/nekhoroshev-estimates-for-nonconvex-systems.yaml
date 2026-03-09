@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove Nekhoroshev-type exponential stability estimates for general non-convex Hamiltonian systems.
+  canonical: Prove Nekhoroshev-type exponential stability estimates for general non-convex
+    Hamiltonian systems.
 sources:
   canonical:
   - source_id: curated_nekhoroshev_estimates_for_nonconvex_systems
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can higher-form generalized symmetries provide a rigorous criterion for confinement in non-abelian gauge theories?
+  canonical: Can higher-form generalized symmetries provide a rigorous criterion for
+    confinement in non-abelian gauge theories?
 sources:
   canonical:
   - source_id: src_gaiotto_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2211.11767
   status_evidence:
   - source_id: src_gaiotto_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2211.11767
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

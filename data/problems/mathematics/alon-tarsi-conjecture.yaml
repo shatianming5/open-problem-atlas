@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The number of even Latin squares of odd order differs from the number of odd ones.
+  canonical: The number of even Latin squares of odd order differs from the number
+    of odd ones.
 sources:
   canonical:
   - source_id: curated_alon_tarsi_conjecture
@@ -29,3 +30,7 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+aliases:
+- Alon-Tarsi Conjecture on Latin Squares
+problem_type: open_question
+answer_type: boolean

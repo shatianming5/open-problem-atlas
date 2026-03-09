@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend reverse mathematics beyond the big five subsystems of second-order arithmetic.
+  canonical: Extend reverse mathematics beyond the big five subsystems of second-order
+    arithmetic.
 sources:
   canonical:
   - source_id: curated_reverse_mathematics_beyond_big_five
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

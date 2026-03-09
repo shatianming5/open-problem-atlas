@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the optimal complexity of sorting n integers in the word RAM model.
+  canonical: Determine the optimal complexity of sorting n integers in the word RAM
+    model.
 sources:
   canonical:
   - source_id: curated_sorting_optimality_for_integers
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

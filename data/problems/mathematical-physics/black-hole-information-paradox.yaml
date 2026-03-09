@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: How is unitarity preserved during black hole evaporation? The island formula provides partial progress, but a
-    complete resolution remains open.
+  canonical: How is unitarity preserved during black hole evaporation? The island
+    formula provides partial progress, but a complete resolution remains open.
 sources:
   canonical:
   - source_id: src_hawking_1976
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevD.14.2460
   status_evidence:
   - source_id: src_hawking_1976
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevD.14.2460
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

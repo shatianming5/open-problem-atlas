@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For every integer k >= 2, there exists a prime in the sequence k*2^n + 1 for some positive integer n.
+  canonical: For every integer k >= 2, there exists a prime in the sequence k*2^n
+    + 1 for some positive integer n.
 sources:
   canonical:
   - source_id: curated_sierpinski_s_prime_sequence_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

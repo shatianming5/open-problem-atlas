@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the best polynomial-time approximation ratio for the metric TSP.
+  canonical: Determine the best polynomial-time approximation ratio for the metric
+    TSP.
 sources:
   canonical:
   - source_id: curated_traveling_salesman_problem_approximation_ratio
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

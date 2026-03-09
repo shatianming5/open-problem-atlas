@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Does FP = #P? Equivalently, can every counting problem associated with an NP decision problem be solved in polynomial
-    time?'
+  canonical: 'Does FP = #P? Equivalently, can every counting problem associated with
+    an NP decision problem be solved in polynomial time?'
 sources:
   canonical:
   - source_id: src_valiant_1979b
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/0304-3975(79)90044-8
   status_evidence:
   - source_id: src_valiant_1979b
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/0304-3975(79)90044-8
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

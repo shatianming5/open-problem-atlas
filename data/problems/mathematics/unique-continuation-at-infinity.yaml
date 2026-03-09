@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If a solution to an elliptic PDE decays faster than any exponential at infinity, must it be identically zero?
+  canonical: If a solution to an elliptic PDE decays faster than any exponential at
+    infinity, must it be identically zero?
 sources:
   canonical:
   - source_id: curated_unique_continuation_at_infinity
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

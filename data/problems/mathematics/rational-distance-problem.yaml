@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does there exist a point in the plane at rational distance from all four vertices of the unit square?
+  canonical: Does there exist a point in the plane at rational distance from all four
+    vertices of the unit square?
 sources:
   canonical:
   - source_id: src_guy_2020
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

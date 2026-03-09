@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A block of a finite group with abelian defect group is derived equivalent to its Brauer correspondent.
+  canonical: A block of a finite group with abelian defect group is derived equivalent
+    to its Brauer correspondent.
 sources:
   canonical:
   - source_id: src_broue_1990
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

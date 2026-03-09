@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Develop the complete theory of gravitational lensing in the strong-field regime.
+  canonical: Develop the complete theory of gravitational lensing in the strong-field
+    regime.
 sources:
   canonical:
   - source_id: curated_gravitational_lensing_strong_field
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

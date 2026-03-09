@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If r >= 10 points in general position in the projective plane are blown up, the resulting surface has no curves
-    of negative self-intersection below a certain bound.
+  canonical: If r >= 10 points in general position in the projective plane are blown
+    up, the resulting surface has no curves of negative self-intersection below a
+    certain bound.
 sources:
   canonical:
   - source_id: src_nagata_1959
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

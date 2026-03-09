@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is quantum contextuality both necessary and sufficient for quantum computational advantage in all models of quantum
-    computation?
+  canonical: Is quantum contextuality both necessary and sufficient for quantum computational
+    advantage in all models of quantum computation?
 sources:
   canonical:
   - source_id: src_howard_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1401.4174
   status_evidence:
   - source_id: src_howard_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1401.4174
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

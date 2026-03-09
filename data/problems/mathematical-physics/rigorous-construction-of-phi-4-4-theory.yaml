@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can one rigorously construct the interacting phi^4 quantum field theory in 4 spacetime dimensions, or prove its
-    triviality?
+  canonical: Can one rigorously construct the interacting phi^4 quantum field theory
+    in 4 spacetime dimensions, or prove its triviality?
 sources:
   canonical:
   - source_id: src_aizenman_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1912.07973
   status_evidence:
   - source_id: src_aizenman_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1912.07973
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

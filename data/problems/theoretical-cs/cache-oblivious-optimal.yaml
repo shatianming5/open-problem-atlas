@@ -1,125 +1,118 @@
 id: opa.tcs.algorithms.cache-oblivious-optimal
 kind: problem
-title: "Optimal Cache-Oblivious Algorithms"
+title: Optimal Cache-Oblivious Algorithms
 aliases:
-  - "Cache-oblivious vs cache-aware gap"
-  - "Cache-oblivious lower bounds"
-
+- Cache-oblivious vs cache-aware gap
+- Cache-oblivious lower bounds
+- Cache-Oblivious Optimal B-Tree
+- Optimal Cache-Oblivious B-Trees
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - algorithms
-
+- algorithms
 problem_type: conjecture
 answer_type: bound
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: computational
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    Cache-oblivious algorithms operate efficiently in the memory hierarchy without
-    knowing cache parameters (block size B, cache size M). For which problems can
-    cache-oblivious algorithms match the performance of cache-aware algorithms? Is
-    there a separation: a problem where cache-aware algorithms are provably more
+  canonical: 'Cache-oblivious algorithms operate efficiently in the memory hierarchy
+    without knowing cache parameters (block size B, cache size M). For which problems
+    can cache-oblivious algorithms match the performance of cache-aware algorithms?
+    Is there a separation: a problem where cache-aware algorithms are provably more
     efficient than any cache-oblivious algorithm?
-  informal: >
-    Algorithms that automatically adapt to the memory hierarchy without knowing its
-    parameters can often match algorithms that are specifically designed for the
+
+    '
+  informal: 'Algorithms that automatically adapt to the memory hierarchy without knowing
+    its parameters can often match algorithms that are specifically designed for the
     cache. Is this always possible, or are there problems where knowledge of cache
     parameters provably helps?
 
-why_it_matters: >
-  Cache-oblivious algorithms are practically important because they automatically
-  perform well across diverse hardware. Understanding whether they can always match
-  cache-aware algorithms would determine the limits of hardware-independent algorithm
-  design.
+    '
+why_it_matters: 'Cache-oblivious algorithms are practically important because they
+  automatically perform well across diverse hardware. Understanding whether they can
+  always match cache-aware algorithms would determine the limits of hardware-independent
+  algorithm design.
 
+  '
 prerequisites:
-  - external memory model
-  - cache-oblivious model
-  - memory hierarchy
-  - I/O complexity
-
+- external memory model
+- cache-oblivious model
+- memory hierarchy
+- I/O complexity
 dates:
   first_stated: 1999
-
 sources:
   canonical:
-    - source_id: src_frigo_leiserson_prokop_ramachandran_1999
-      kind: paper
-      title: "Cache-Oblivious Algorithms"
-      authors:
-        - "Matteo Frigo"
-        - "Charles E. Leiserson"
-        - "Harald Prokop"
-        - "Sridhar Ramachandran"
-      url: "https://doi.org/10.1109/SFFCS.1999.814600"
-      year: 1999
-  status_evidence:
-    - source_id: src_brodal_fagerberg_2003
-      kind: paper
-      title: "On the Limits of Cache-Obliviousness"
-      authors:
-        - "Gerth Stølting Brodal"
-        - "Rolf Fagerberg"
-      url: "https://doi.org/10.1145/509907.509952"
-      year: 2003
-
-partial_results:
-  - summary: "Frigo et al. (1999) showed that cache-oblivious algorithms match cache-aware for sorting, matrix multiplication, and FFT."
+  - source_id: src_frigo_leiserson_prokop_ramachandran_1999
+    kind: paper
+    title: Cache-Oblivious Algorithms
+    authors:
+    - Matteo Frigo
+    - Charles E. Leiserson
+    - Harald Prokop
+    - Sridhar Ramachandran
+    url: https://doi.org/10.1109/SFFCS.1999.814600
     year: 1999
-  - summary: "Brodal and Fagerberg (2003) showed funnel sort is an optimal cache-oblivious sorting algorithm."
+  status_evidence:
+  - source_id: src_brodal_fagerberg_2003
+    kind: paper
+    title: On the Limits of Cache-Obliviousness
+    authors:
+    - Gerth Stølting Brodal
+    - Rolf Fagerberg
+    url: https://doi.org/10.1145/509907.509952
     year: 2003
-  - summary: "For some problems like priority queues, small gaps between cache-aware and cache-oblivious are known."
-    year: 2003
-
+partial_results:
+- summary: Frigo et al. (1999) showed that cache-oblivious algorithms match cache-aware
+    for sorting, matrix multiplication, and FFT.
+  year: 1999
+- summary: Brodal and Fagerberg (2003) showed funnel sort is an optimal cache-oblivious
+    sorting algorithm.
+  year: 2003
+- summary: For some problems like priority queues, small gaps between cache-aware
+    and cache-oblivious are known.
+  year: 2003
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.algorithms.sorting-networks-depth"
-
+  - opa.tcs.algorithms.sorting-networks-depth
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.65
   underexplored: 0.45
-  toolability: 0.40
-  formality: 0.80
+  toolability: 0.4
+  formality: 0.8
   ai_fit: 0.25
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-
+  - python
 machine_generated:
-  summary: >
-    Whether cache-oblivious algorithms can always match cache-aware performance,
-    or whether there are provable separations, is a fundamental question in
-    algorithm design for modern hardware.
-  decomposition:
-    - "Prove a separation between cache-oblivious and cache-aware models"
-    - "Develop optimal cache-oblivious algorithms for remaining open problems"
-  disclaimer: unverified
+  summary: 'Whether cache-oblivious algorithms can always match cache-aware performance,
+    or whether there are provable separations, is a fundamental question in algorithm
+    design for modern hardware.
 
+    '
+  decomposition:
+  - Prove a separation between cache-oblivious and cache-aware models
+  - Develop optimal cache-oblivious algorithms for remaining open problems
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

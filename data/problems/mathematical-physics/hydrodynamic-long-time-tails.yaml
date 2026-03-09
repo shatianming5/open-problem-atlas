@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can long-time tails in hydrodynamic correlation functions be rigorously derived from microscopic dynamics for
-    interacting particle systems?
+  canonical: Can long-time tails in hydrodynamic correlation functions be rigorously
+    derived from microscopic dynamics for interacting particle systems?
 sources:
   canonical:
   - source_id: src_alder_1970
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevA.1.18
   status_evidence:
   - source_id: src_alder_1970
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevA.1.18
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

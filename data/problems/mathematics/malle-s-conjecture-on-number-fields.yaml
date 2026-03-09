@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The number of number fields with Galois group G and discriminant bounded by X grows as c*X^a*(log X)^b for specific
-    a, b depending on G.
+  canonical: The number of number fields with Galois group G and discriminant bounded
+    by X grows as c*X^a*(log X)^b for specific a, b depending on G.
 sources:
   canonical:
   - source_id: curated_malle_s_conjecture_on_number_fields
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

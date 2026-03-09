@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For a Fano variety V, the number of rational points of height at most B grows as c*B*(log B)^{rho-1} for specific
-    constants.
+  canonical: For a Fano variety V, the number of rational points of height at most
+    B grows as c*B*(log B)^{rho-1} for specific constants.
 sources:
   canonical:
   - source_id: curated_manin_s_conjecture_on_rational_points
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

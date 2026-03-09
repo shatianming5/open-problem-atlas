@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the set of Axiom A diffeomorphisms dense in the space of all C^r diffeomorphisms of a compact manifold (Smale's
-    conjecture)?
+  canonical: Is the set of Axiom A diffeomorphisms dense in the space of all C^r diffeomorphisms
+    of a compact manifold (Smale's conjecture)?
 sources:
   canonical:
   - source_id: src_smale_1967
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

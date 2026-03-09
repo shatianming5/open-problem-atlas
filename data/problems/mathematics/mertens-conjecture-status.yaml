@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Although disproved, determine the exact growth rate of the Mertens function M(x) = sum_{n<=x} mu(n).
+  canonical: Although disproved, determine the exact growth rate of the Mertens function
+    M(x) = sum_{n<=x} mu(n).
 sources:
   canonical:
   - source_id: curated_mertens_conjecture_status
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

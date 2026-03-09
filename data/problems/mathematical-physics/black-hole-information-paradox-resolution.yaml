@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Resolve the black hole information paradox by demonstrating unitarity of black hole evaporation.
+  canonical: Resolve the black hole information paradox by demonstrating unitarity
+    of black hole evaporation.
 sources:
   canonical:
   - source_id: curated_black_hole_information_paradox_resolution
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

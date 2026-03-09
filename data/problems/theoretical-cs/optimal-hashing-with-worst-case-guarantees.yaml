@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can constant-time hash table lookups be achieved with worst-case guarantees using O(n) space and simple operations?
+  canonical: Can constant-time hash table lookups be achieved with worst-case guarantees
+    using O(n) space and simple operations?
 sources:
   canonical:
   - source_id: src_fredman_komlos_szemeredi_1984
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/828.1884
   status_evidence:
   - source_id: src_fredman_komlos_szemeredi_1984
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/828.1884
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

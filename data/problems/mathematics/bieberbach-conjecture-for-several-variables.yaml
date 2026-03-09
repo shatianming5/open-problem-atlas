@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the sharp coefficient bounds for univalent functions in several complex variables.
+  canonical: Determine the sharp coefficient bounds for univalent functions in several
+    complex variables.
 sources:
   canonical:
   - source_id: curated_bieberbach_conjecture_for_several_variables
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

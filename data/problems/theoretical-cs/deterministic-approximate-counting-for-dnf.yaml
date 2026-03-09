@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the number of satisfying assignments of a DNF formula be deterministically approximated in polynomial time,
-    matching the randomized result of Luby and Velickovic?
+  canonical: Can the number of satisfying assignments of a DNF formula be deterministically
+    approximated in polynomial time, matching the randomized result of Luby and Velickovic?
 sources:
   canonical:
   - source_id: src_moitra_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1711.03236
   status_evidence:
   - source_id: src_moitra_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1711.03236
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

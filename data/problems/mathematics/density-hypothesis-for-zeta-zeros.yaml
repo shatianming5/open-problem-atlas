@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Prove the density hypothesis: N(sigma, T) << T^{2(1-sigma)+epsilon} for sigma >= 1/2.'
+  canonical: 'Prove the density hypothesis: N(sigma, T) << T^{2(1-sigma)+epsilon}
+    for sigma >= 1/2.'
 sources:
   canonical:
   - source_id: curated_density_hypothesis_for_zeta_zeros
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

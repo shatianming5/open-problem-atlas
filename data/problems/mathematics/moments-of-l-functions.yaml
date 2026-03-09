@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Compute the moments of families of L-functions and prove the conjectures of Conrey-Farmer-Keating-Rubinstein-Snaith.
+  canonical: Compute the moments of families of L-functions and prove the conjectures
+    of Conrey-Farmer-Keating-Rubinstein-Snaith.
 sources:
   canonical:
   - source_id: curated_moments_of_l_functions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

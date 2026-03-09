@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does every bounded linear operator on a separable infinite-dimensional Banach space have a non-trivial closed
-    invariant subspace?
+  canonical: Does every bounded linear operator on a separable infinite-dimensional
+    Banach space have a non-trivial closed invariant subspace?
 sources:
   canonical:
   - source_id: src_enflo_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2305.15442
   status_evidence:
   - source_id: src_enflo_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2305.15442
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

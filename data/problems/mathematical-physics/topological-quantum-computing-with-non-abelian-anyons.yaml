@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can non-Abelian anyons be braided to perform universal quantum computation in a topologically protected manner
-    in realistic physical systems?
+  canonical: Can non-Abelian anyons be braided to perform universal quantum computation
+    in a topologically protected manner in realistic physical systems?
 sources:
   canonical:
   - source_id: src_nayak_2008
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0707.1889
   status_evidence:
   - source_id: src_nayak_2008
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0707.1889
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

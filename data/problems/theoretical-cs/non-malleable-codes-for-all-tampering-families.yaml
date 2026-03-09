@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can non-malleable codes be constructed for all efficient tampering families with optimal rate?
+  canonical: Can non-malleable codes be constructed for all efficient tampering families
+    with optimal rate?
 sources:
   canonical:
   - source_id: src_dziembowski_pietrzak_wichs_2010
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-642-13190-5_21
   status_evidence:
   - source_id: src_dziembowski_pietrzak_wichs_2010
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-642-13190-5_21
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -1,123 +1,118 @@
 id: opa.tcs.complexity-theory.communication-complexity-open
 kind: problem
-title: "Log-Rank Conjecture in Communication Complexity"
+title: Log-Rank Conjecture in Communication Complexity
 aliases:
-  - "Log-rank conjecture"
-  - "Communication complexity vs matrix rank"
-
+- Log-rank conjecture
+- Communication complexity vs matrix rank
+- Log-Rank Conjecture (Full Resolution)
+- Log-Rank Conjecture
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - complexity-theory
-
+- complexity-theory
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: proof_assistant
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    The log-rank conjecture (Lovász and Saks, 1988) states that the deterministic
+  canonical: 'The log-rank conjecture (Lovász and Saks, 1988) states that the deterministic
     communication complexity of a Boolean function f(x,y) is at most polylogarithmic
     in the rank of its communication matrix M_f (where M_f[x,y] = f(x,y) over the
     reals). Is this conjecture true?
-  informal: >
-    When two parties need to compute a joint function of their inputs by exchanging
-    messages, is the amount of communication needed always bounded by a polynomial
-    in the logarithm of the rank of the function's truth table viewed as a matrix?
 
-why_it_matters: >
-  The log-rank conjecture is one of the most important open problems in communication
-  complexity. It connects algebraic properties (matrix rank) to combinatorial ones
-  (communication cost) and has implications for circuit complexity, data structures,
+    '
+  informal: 'When two parties need to compute a joint function of their inputs by
+    exchanging messages, is the amount of communication needed always bounded by a
+    polynomial in the logarithm of the rank of the function''s truth table viewed
+    as a matrix?
+
+    '
+why_it_matters: 'The log-rank conjecture is one of the most important open problems
+  in communication complexity. It connects algebraic properties (matrix rank) to combinatorial
+  ones (communication cost) and has implications for circuit complexity, data structures,
   and learning theory.
 
+  '
 prerequisites:
-  - communication complexity
-  - matrix rank
-  - Boolean functions
-  - combinatorial rectangles
-
+- communication complexity
+- matrix rank
+- Boolean functions
+- combinatorial rectangles
 dates:
   first_stated: 1988
-
 sources:
   canonical:
-    - source_id: src_lovasz_saks_1988
-      kind: paper
-      title: "Lattices, Möbius Functions and Communication Complexity"
-      authors:
-        - "László Lovász"
-        - "Michael Saks"
-      url: "https://doi.org/10.1109/SFCS.1988.21960"
-      year: 1988
-  status_evidence:
-    - source_id: src_chattopadhyay_mande_sherif_2020
-      kind: paper
-      title: "The Log-Approximate-Rank Conjecture is False"
-      authors:
-        - "Arkadev Chattopadhyay"
-        - "Nikhil Mande"
-        - "Suhail Sherif"
-      url: "https://doi.org/10.1145/3313276.3316324"
-      year: 2019
-
-partial_results:
-  - summary: "Lovász and Saks (1988) proved the communication complexity is at most O(rank(M_f)), and conjectured polylog(rank) suffices."
+  - source_id: src_lovasz_saks_1988
+    kind: paper
+    title: Lattices, Möbius Functions and Communication Complexity
+    authors:
+    - László Lovász
+    - Michael Saks
+    url: https://doi.org/10.1109/SFCS.1988.21960
     year: 1988
-  - summary: "Chattopadhyay, Mande, and Sherif (2019) disproved the approximate version (log-approximate-rank conjecture), but the exact version remains open."
+  status_evidence:
+  - source_id: src_chattopadhyay_mande_sherif_2020
+    kind: paper
+    title: The Log-Approximate-Rank Conjecture is False
+    authors:
+    - Arkadev Chattopadhyay
+    - Nikhil Mande
+    - Suhail Sherif
+    url: https://doi.org/10.1145/3313276.3316324
     year: 2019
-  - summary: "Sudakov and Tomon (2023) proved a nearly tight bound of O(sqrt(rank)), improving previous results."
-    year: 2023
-
+partial_results:
+- summary: Lovász and Saks (1988) proved the communication complexity is at most O(rank(M_f)),
+    and conjectured polylog(rank) suffices.
+  year: 1988
+- summary: Chattopadhyay, Mande, and Sherif (2019) disproved the approximate version
+    (log-approximate-rank conjecture), but the exact version remains open.
+  year: 2019
+- summary: Sudakov and Tomon (2023) proved a nearly tight bound of O(sqrt(rank)),
+    improving previous results.
+  year: 2023
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.complexity-theory.formula-vs-circuit-complexity"
-
+  - opa.tcs.complexity-theory.formula-vs-circuit-complexity
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
-  impact: 0.80
-  underexplored: 0.30
+  impact: 0.8
+  underexplored: 0.3
   toolability: 0.35
-  formality: 0.90
-  ai_fit: 0.20
-
+  formality: 0.9
+  ai_fit: 0.2
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-    - lean
-
+  - python
+  - lean
 machine_generated:
-  summary: >
-    The log-rank conjecture asks whether deterministic communication complexity is
-    polylogarithmic in the rank of the communication matrix, connecting algebra
+  summary: 'The log-rank conjecture asks whether deterministic communication complexity
+    is polylogarithmic in the rank of the communication matrix, connecting algebra
     and combinatorics.
-  decomposition:
-    - "Improve the upper bound from O(sqrt(rank)) toward polylog(rank)"
-    - "Develop new combinatorial or algebraic techniques for analyzing communication protocols"
-  disclaimer: unverified
 
+    '
+  decomposition:
+  - Improve the upper bound from O(sqrt(rank)) toward polylog(rank)
+  - Develop new combinatorial or algebraic techniques for analyzing communication
+    protocols
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

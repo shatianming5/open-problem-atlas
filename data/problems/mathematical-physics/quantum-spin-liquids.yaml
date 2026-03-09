@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Do quantum spin liquids with long-range entanglement and fractionalized excitations exist as stable ground states
-    of realistic Hamiltonians in two or three dimensions?
+  canonical: Do quantum spin liquids with long-range entanglement and fractionalized
+    excitations exist as stable ground states of realistic Hamiltonians in two or
+    three dimensions?
 sources:
   canonical:
   - source_id: src_savary_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1601.03742
   status_evidence:
   - source_id: src_savary_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1601.03742
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

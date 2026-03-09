@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the round complexity of fundamental graph problems in the MPC model.
+  canonical: Determine the round complexity of fundamental graph problems in the MPC
+    model.
 sources:
   canonical:
   - source_id: curated_massively_parallel_computation_model
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If A is a subset of Z with positive upper Banach density, then A-A contains a Bohr neighborhood.
+  canonical: If A is a subset of Z with positive upper Banach density, then A-A contains
+    a Bohr neighborhood.
 sources:
   canonical:
   - source_id: src_ruzsa_1991
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

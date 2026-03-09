@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every L-homomorphism between L-groups should give rise to a transfer of automorphic representations, the full
-    functoriality principle of the Langlands program.
+  canonical: Every L-homomorphism between L-groups should give rise to a transfer
+    of automorphic representations, the full functoriality principle of the Langlands
+    program.
 sources:
   canonical:
   - source_id: src_langlands_1970
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

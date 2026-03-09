@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The model category of quasi-categories is Quillen equivalent to all other models of (infinity,1)-categories.
+  canonical: The model category of quasi-categories is Quillen equivalent to all other
+    models of (infinity,1)-categories.
 sources:
   canonical:
   - source_id: src_joyal_2002
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

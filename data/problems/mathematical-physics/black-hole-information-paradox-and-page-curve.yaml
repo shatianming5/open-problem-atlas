@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the island formula and replica wormholes provide a fully rigorous derivation of the Page curve for black
-    hole evaporation in a UV-complete theory?
+  canonical: Can the island formula and replica wormholes provide a fully rigorous
+    derivation of the Page curve for black hole evaporation in a UV-complete theory?
 sources:
   canonical:
   - source_id: src_penington_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1911.11977
   status_evidence:
   - source_id: src_penington_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1911.11977
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

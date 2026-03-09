@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does every graph with minimum degree at least 3 contain a cycle whose length is a power of 2?
+  canonical: Does every graph with minimum degree at least 3 contain a cycle whose
+    length is a power of 2?
 sources:
   canonical:
   - source_id: src_erdos_2020
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

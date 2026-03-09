@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove Greenberg's conjecture that the Iwasawa lambda and mu invariants vanish for totally real number fields.
+  canonical: Prove Greenberg's conjecture that the Iwasawa lambda and mu invariants
+    vanish for totally real number fields.
 sources:
   canonical:
   - source_id: curated_greenberg_s_conjecture_on_iwasawa_invariants
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

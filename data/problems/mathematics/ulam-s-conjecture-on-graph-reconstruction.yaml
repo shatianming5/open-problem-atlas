@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that every graph on at least 3 vertices is reconstructible from its vertex-deleted subgraphs.
+  canonical: Prove that every graph on at least 3 vertices is reconstructible from
+    its vertex-deleted subgraphs.
 sources:
   canonical:
   - source_id: curated_ulam_s_conjecture_on_graph_reconstruction
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

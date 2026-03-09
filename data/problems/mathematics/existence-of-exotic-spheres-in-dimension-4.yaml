@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does there exist an exotic smooth structure on S^4? This is equivalent to the smooth 4D Poincare conjecture and
-    is the key remaining case.
+  canonical: Does there exist an exotic smooth structure on S^4? This is equivalent
+    to the smooth 4D Poincare conjecture and is the key remaining case.
 sources:
   canonical:
   - source_id: src_scorpan_2020
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

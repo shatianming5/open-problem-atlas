@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the maximum density of a graph that avoids an induced copy of a fixed graph H.
+  canonical: Determine the maximum density of a graph that avoids an induced copy
+    of a fixed graph H.
 sources:
   canonical:
   - source_id: curated_induced_subgraph_density
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

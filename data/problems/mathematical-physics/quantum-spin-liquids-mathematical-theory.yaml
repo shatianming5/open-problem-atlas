@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can quantum spin liquid ground states be rigorously proved to exist in physically realistic 2D frustrated spin
-    models like the kagome Heisenberg antiferromagnet?
+  canonical: Can quantum spin liquid ground states be rigorously proved to exist in
+    physically realistic 2D frustrated spin models like the kagome Heisenberg antiferromagnet?
 sources:
   canonical:
   - source_id: src_savary_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2204.04263
   status_evidence:
   - source_id: src_savary_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2204.04263
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

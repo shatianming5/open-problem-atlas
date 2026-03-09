@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Compute K_n(Z) for all n and verify the Lichtenbaum-Quillen conjecture in full generality.
+  canonical: Compute K_n(Z) for all n and verify the Lichtenbaum-Quillen conjecture
+    in full generality.
 sources:
   canonical:
   - source_id: curated_algebraic_k_theory_of_number_fields
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

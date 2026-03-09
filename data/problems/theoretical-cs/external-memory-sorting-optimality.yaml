@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that the sorting complexity in the external memory model is Theta(N/B * log_{M/B}(N/B)) I/Os.
+  canonical: Prove that the sorting complexity in the external memory model is Theta(N/B
+    * log_{M/B}(N/B)) I/Os.
 sources:
   canonical:
   - source_id: curated_external_memory_sorting_optimality
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

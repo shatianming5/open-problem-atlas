@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the existence of designs with given parameters, extending Wilson's theorem.
+  canonical: Determine the existence of designs with given parameters, extending Wilson's
+    theorem.
 sources:
   canonical:
   - source_id: curated_design_theory_existence_problems
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

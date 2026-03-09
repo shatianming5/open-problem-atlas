@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For any number field K and any prime p, the p-adic regulator of K is nonzero.
+  canonical: For any number field K and any prime p, the p-adic regulator of K is
+    nonzero.
 sources:
   canonical:
   - source_id: curated_leopoldt_s_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

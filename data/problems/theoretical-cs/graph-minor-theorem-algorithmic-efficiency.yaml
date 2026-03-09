@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Improve the algorithmic efficiency of the Robertson-Seymour graph minor theorem to practical running times.
+  canonical: Improve the algorithmic efficiency of the Robertson-Seymour graph minor
+    theorem to practical running times.
 sources:
   canonical:
   - source_id: curated_graph_minor_theorem_algorithmic_efficiency
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

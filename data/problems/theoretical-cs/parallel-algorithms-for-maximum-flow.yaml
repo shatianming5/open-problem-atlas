@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can maximum flow be solved in polylogarithmic parallel time (NC)? This is a major open problem in parallel algorithms.
+  canonical: Can maximum flow be solved in polylogarithmic parallel time (NC)? This
+    is a major open problem in parallel algorithms.
 sources:
   canonical:
   - source_id: src_greenlaw_hoover_ruzzo_1995
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/1.9781611970135
   status_evidence:
   - source_id: src_greenlaw_hoover_ruzzo_1995
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/1.9781611970135
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

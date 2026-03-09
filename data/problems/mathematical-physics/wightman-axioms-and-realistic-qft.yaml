@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Construct a QFT satisfying all Wightman axioms that describes a realistic physical theory in 4D.
+  canonical: Construct a QFT satisfying all Wightman axioms that describes a realistic
+    physical theory in 4D.
 sources:
   canonical:
   - source_id: curated_wightman_axioms_and_realistic_qft
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

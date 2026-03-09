@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Count BPS states in string theory and verify agreement with black hole entropy.
+  canonical: Count BPS states in string theory and verify agreement with black hole
+    entropy.
 sources:
   canonical:
   - source_id: curated_bps_state_counting
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

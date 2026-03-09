@@ -2,10 +2,15 @@ id: opa.phys.quantum-information.nlts-conjecture-and-quantum-error-correction
 kind: problem
 title: NLTS Conjecture and Quantum Error Correction
 status:
-  label: open
+  label: solved
   confidence: medium
-  last_reviewed_at: '2026-03-08'
-  review_state: auto_generated
+  last_reviewed_at: '2026-03-09'
+  review_state: human_verified
+  history:
+    - from: open
+      to: solved
+      date: '2026-03-09'
+      evidence: "Anshu, Breuckmann, and Nirkhe proved the NLTS conjecture (arXiv:2206.13228)."
 domain: mathematical-physics
 subdomains:
 - quantum-information
@@ -15,16 +20,16 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the No Low-Energy Trivial States conjecture hold for all quantum LDPC codes? Recent progress by Anshu, Breuckmann,
-    and Nirkhe resolved this, but generalizations remain open.
+  canonical: Do there exist families of bounded-degree local Hamiltonians (e.g., derived from quantum LDPC codes) whose low-energy
+    states cannot be approximated by shallow quantum circuits (No Low-Energy Trivial States, NLTS)?
 sources:
   canonical:
   - source_id: src_anshu_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2206.13228
   status_evidence:
   - source_id: src_anshu_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2206.13228
 provenance:
   created_from: radar_promotion

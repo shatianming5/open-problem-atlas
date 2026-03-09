@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Several related conjectures remain open: the Buchsbaum-Eisenbud-Horrocks conjecture on minimal Betti numbers
-    of modules of finite length.'
+  canonical: 'Several related conjectures remain open: the Buchsbaum-Eisenbud-Horrocks
+    conjecture on minimal Betti numbers of modules of finite length.'
 sources:
   canonical:
   - source_id: src_hochster_2004
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/math/0407076
   status_evidence:
   - source_id: src_hochster_2004
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/math/0407076
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the swampland conjectures characterizing effective field theories inconsistent with quantum gravity.
+  canonical: Prove the swampland conjectures characterizing effective field theories
+    inconsistent with quantum gravity.
 sources:
   canonical:
   - source_id: curated_swampland_conjectures_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

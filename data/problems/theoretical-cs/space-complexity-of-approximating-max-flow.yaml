@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can max-flow in directed graphs be (1+epsilon)-approximated in O(n polylog n) space in the streaming model?
+  canonical: Can max-flow in directed graphs be (1+epsilon)-approximated in O(n polylog
+    n) space in the streaming model?
 sources:
   canonical:
   - source_id: src_assadi_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2302.03543
   status_evidence:
   - source_id: src_assadi_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2302.03543
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the exact quantum query complexity of approximate counting? Can quantum computers count n marked items
-    out of N with fewer than O(sqrt(N/n)) queries?
+  canonical: What is the exact quantum query complexity of approximate counting? Can
+    quantum computers count n marked items out of N with fewer than O(sqrt(N/n)) queries?
 sources:
   canonical:
   - source_id: src_brassard_hoyer_tapp_1998
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/BFb0054319
   status_evidence:
   - source_id: src_brassard_hoyer_tapp_1998
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/BFb0054319
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

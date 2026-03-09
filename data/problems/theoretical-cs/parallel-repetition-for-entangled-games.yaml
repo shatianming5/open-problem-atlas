@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the value of an entangled game decrease exponentially under parallel repetition, analogous to Raz's theorem
-    for classical games?
+  canonical: Does the value of an entangled game decrease exponentially under parallel
+    repetition, analogous to Raz's theorem for classical games?
 sources:
   canonical:
   - source_id: src_yuen_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2305.15209
   status_evidence:
   - source_id: src_yuen_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2305.15209
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

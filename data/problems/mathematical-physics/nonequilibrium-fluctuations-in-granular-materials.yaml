@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can a consistent statistical mechanics framework be developed for granular materials that captures jamming transitions
-    and force chain statistics?
+  canonical: Can a consistent statistical mechanics framework be developed for granular
+    materials that captures jamming transitions and force chain statistics?
 sources:
   canonical:
   - source_id: src_edwards_1989
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/0378-4371(89)90034-4
   status_evidence:
   - source_id: src_edwards_1989
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/0378-4371(89)90034-4
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

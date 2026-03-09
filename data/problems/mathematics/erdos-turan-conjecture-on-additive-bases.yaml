@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'If A is an additive basis of order 2 (i.e., every sufficiently large integer can be written as a sum of two
-    elements of A), then the number of representations r(n) = |{(a,b) in A x A : a+b = n}| is unbounded.'
+  canonical: 'If A is an additive basis of order 2 (i.e., every sufficiently large
+    integer can be written as a sum of two elements of A), then the number of representations
+    r(n) = |{(a,b) in A x A : a+b = n}| is unbounded.'
 sources:
   canonical:
   - source_id: src_erdos_turan_1941
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

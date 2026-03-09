@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Develop the theory of quantum Hall effect without external magnetic field (Chern insulators).
+  canonical: Develop the theory of quantum Hall effect without external magnetic field
+    (Chern insulators).
 sources:
   canonical:
   - source_id: curated_quantum_hall_effect_without_external_field
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

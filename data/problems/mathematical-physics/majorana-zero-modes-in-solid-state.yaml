@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Has a topological Majorana zero mode been unambiguously observed in a solid-state system, distinguishing it from
-    trivial Andreev bound states?
+  canonical: Has a topological Majorana zero mode been unambiguously observed in a
+    solid-state system, distinguishing it from trivial Andreev bound states?
 sources:
   canonical:
   - source_id: src_lutchyn_2018
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1707.04899
   status_evidence:
   - source_id: src_lutchyn_2018
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1707.04899
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

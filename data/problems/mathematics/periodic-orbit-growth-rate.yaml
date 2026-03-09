@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the growth rate of the number of periodic orbits for generic dynamical systems.
+  canonical: Determine the growth rate of the number of periodic orbits for generic
+    dynamical systems.
 sources:
   canonical:
   - source_id: curated_periodic_orbit_growth_rate
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Polymath14 bounds for Ramsey multiplicity of C4-free graphs be improved using the flag algebra method?
+  canonical: Can the Polymath14 bounds for Ramsey multiplicity of C4-free graphs be
+    improved using the flag algebra method?
 sources:
   canonical:
   - source_id: src_polymath14_2021
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

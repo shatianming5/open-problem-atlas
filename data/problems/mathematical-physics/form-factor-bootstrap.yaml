@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can form factors of local operators in massive integrable QFTs be determined exactly using the form factor bootstrap
-    and extended to non-integrable deformations?
+  canonical: Can form factors of local operators in massive integrable QFTs be determined
+    exactly using the form factor bootstrap and extended to non-integrable deformations?
 sources:
   canonical:
   - source_id: src_smirnov_1992
-    kind: website
+    kind: paper
     url: https://doi.org/10.1142/1115
   status_evidence:
   - source_id: src_smirnov_1992
-    kind: website
+    kind: paper
     url: https://doi.org/10.1142/1115
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

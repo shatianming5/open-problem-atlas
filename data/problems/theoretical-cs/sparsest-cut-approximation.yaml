@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the sparsest cut in a graph be approximated to within O(1) in polynomial time? The best known uses O(sqrt(log
-    n)) by Arora-Rao-Vazirani.
+  canonical: Can the sparsest cut in a graph be approximated to within O(1) in polynomial
+    time? The best known uses O(sqrt(log n)) by Arora-Rao-Vazirani.
 sources:
   canonical:
   - source_id: src_arora_rao_vazirani_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/1502793.1502794
   status_evidence:
   - source_id: src_arora_rao_vazirani_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/1502793.1502794
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

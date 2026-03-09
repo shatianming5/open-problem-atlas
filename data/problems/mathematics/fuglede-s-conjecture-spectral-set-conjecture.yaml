@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A bounded measurable set in R^n tiles R^n by translations if and only if L^2 of the set has an orthogonal basis
-    of exponential functions.
+  canonical: A bounded measurable set in R^n tiles R^n by translations if and only
+    if L^2 of the set has an orthogonal basis of exponential functions.
 sources:
   canonical:
   - source_id: src_fuglede_1974
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

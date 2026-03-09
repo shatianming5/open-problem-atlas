@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is there a rigorous equivalence between the minimal tensor network complexity of a holographic state and the
-    volume of the Einstein-Rosen bridge in AdS/CFT?
+  canonical: Is there a rigorous equivalence between the minimal tensor network complexity
+    of a holographic state and the volume of the Einstein-Rosen bridge in AdS/CFT?
 sources:
   canonical:
   - source_id: src_susskind_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1402.5674
   status_evidence:
   - source_id: src_susskind_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1402.5674
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

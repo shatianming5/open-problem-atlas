@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend the computation of the homotopy type of cobordism categories to all dimensions.
+  canonical: Extend the computation of the homotopy type of cobordism categories to
+    all dimensions.
 sources:
   canonical:
   - source_id: curated_galatius_madsen_tillmann_weiss_theorem_extensions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

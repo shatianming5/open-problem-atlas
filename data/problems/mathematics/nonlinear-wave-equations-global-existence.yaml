@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove global existence for nonlinear wave equations with large data in critical spaces.
+  canonical: Prove global existence for nonlinear wave equations with large data in
+    critical spaces.
 sources:
   canonical:
   - source_id: curated_nonlinear_wave_equations_global_existence
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

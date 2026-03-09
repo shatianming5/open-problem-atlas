@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact communication complexity of information-theoretically secure computation.
+  canonical: Determine the exact communication complexity of information-theoretically
+    secure computation.
 sources:
   canonical:
   - source_id: curated_information_theoretic_secure_computation
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

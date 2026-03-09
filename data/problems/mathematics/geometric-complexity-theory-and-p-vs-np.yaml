@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the algebraic geometry and representation theory framework of Geometric Complexity Theory resolve the permanent
-    vs determinant conjecture as a step toward P != NP?
+  canonical: Can the algebraic geometry and representation theory framework of Geometric
+    Complexity Theory resolve the permanent vs determinant conjecture as a step toward
+    P != NP?
 sources:
   canonical:
   - source_id: src_mulmuley_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0709.0746
   status_evidence:
   - source_id: src_mulmuley_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0709.0746
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

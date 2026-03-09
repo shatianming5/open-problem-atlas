@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: How large can the gap between proper and improper learning be? Are there concept classes where improper learning
-    is exponentially easier?
+  canonical: How large can the gap between proper and improper learning be? Are there
+    concept classes where improper learning is exponentially easier?
 sources:
   canonical:
   - source_id: src_feldman_et_al_2012
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/1.9781611973099.14
   status_evidence:
   - source_id: src_feldman_et_al_2012
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/1.9781611973099.14
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

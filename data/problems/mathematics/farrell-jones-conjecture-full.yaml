@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The assembly map in algebraic K-theory and L-theory is an isomorphism for all groups.
+  canonical: The assembly map in algebraic K-theory and L-theory is an isomorphism
+    for all groups.
 sources:
   canonical:
   - source_id: curated_farrell_jones_conjecture_full
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

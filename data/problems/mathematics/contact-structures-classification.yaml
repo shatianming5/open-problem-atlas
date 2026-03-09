@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Classify contact structures on 3-manifolds beyond the tight/overtwisted dichotomy.
+  canonical: Classify contact structures on 3-manifolds beyond the tight/overtwisted
+    dichotomy.
 sources:
   canonical:
   - source_id: curated_contact_structures_classification
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

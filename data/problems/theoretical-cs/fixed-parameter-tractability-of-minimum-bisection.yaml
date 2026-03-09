@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the minimum bisection problem fixed-parameter tractable when parameterized by the cut size?
+  canonical: Is the minimum bisection problem fixed-parameter tractable when parameterized
+    by the cut size?
 sources:
   canonical:
   - source_id: src_cygan_et_al_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-319-21275-3
   status_evidence:
   - source_id: src_cygan_et_al_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-319-21275-3
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

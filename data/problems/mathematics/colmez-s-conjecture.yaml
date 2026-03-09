@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The Faltings height of a CM abelian variety is given by logarithmic derivatives of Artin L-functions.
+  canonical: The Faltings height of a CM abelian variety is given by logarithmic derivatives
+    of Artin L-functions.
 sources:
   canonical:
   - source_id: src_colmez_1993
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

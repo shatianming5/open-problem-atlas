@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the approximability of degree-bounded network design problems such as minimum degree spanning tree?
+  canonical: What is the approximability of degree-bounded network design problems
+    such as minimum degree spanning tree?
 sources:
   canonical:
   - source_id: src_singh_lau_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/2746539.2746618
   status_evidence:
   - source_id: src_singh_lau_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/2746539.2746618
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

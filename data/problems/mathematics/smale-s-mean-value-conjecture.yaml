@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For a polynomial p of degree n with p(0) = 0 and p'(0) = 1, there exists a critical point c with |p(c)/c| <=
-    (n-1)/n.
+  canonical: For a polynomial p of degree n with p(0) = 0 and p'(0) = 1, there exists
+    a critical point c with |p(c)/c| <= (n-1)/n.
 sources:
   canonical:
   - source_id: src_smale_1981
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

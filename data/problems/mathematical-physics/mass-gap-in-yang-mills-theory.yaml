@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that for any compact simple gauge group, quantum Yang-Mills theory on R^4 exists and has a mass gap, as
-    stated in the Clay Millennium Problems.
+  canonical: Prove that for any compact simple gauge group, quantum Yang-Mills theory
+    on R^4 exists and has a mass gap, as stated in the Clay Millennium Problems.
 sources:
   canonical:
   - source_id: src_jaffe_2006
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

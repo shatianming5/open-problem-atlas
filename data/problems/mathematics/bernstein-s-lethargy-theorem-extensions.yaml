@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Characterize the rates of best approximation in arbitrary Banach spaces for general compact operators.
+  canonical: Characterize the rates of best approximation in arbitrary Banach spaces
+    for general compact operators.
 sources:
   canonical:
   - source_id: src_bernstein_1938
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

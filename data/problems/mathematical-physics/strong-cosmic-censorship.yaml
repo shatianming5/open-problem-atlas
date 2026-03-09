@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the strong cosmic censorship conjecture true, asserting that the maximal Cauchy development of generic initial
-    data is inextendible as a suitably regular Lorentzian manifold?
+  canonical: Is the strong cosmic censorship conjecture true, asserting that the maximal
+    Cauchy development of generic initial data is inextendible as a suitably regular
+    Lorentzian manifold?
 sources:
   canonical:
   - source_id: src_christodoulou_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.4007/annals.2009.170.339
   status_evidence:
   - source_id: src_christodoulou_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.4007/annals.2009.170.339
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

@@ -2,10 +2,15 @@ id: opa.mathematics.topology.triangulation-conjecture-higher-dimensions
 kind: problem
 title: Triangulation Conjecture (Higher Dimensions)
 status:
-  label: open
+  label: disproved
   confidence: medium
-  last_reviewed_at: '2026-03-08'
-  review_state: auto_generated
+  last_reviewed_at: '2026-03-09'
+  review_state: human_verified
+  history:
+    - from: open
+      to: disproved
+      date: '2026-03-09'
+      evidence: "Manolescu (2016) disproved the Triangulation Conjecture in dimensions >= 5."
 domain: mathematics
 subdomains:
 - topology
@@ -16,15 +21,15 @@ verification_profile:
 tier: tier_3
 statement:
   canonical: Can every topological manifold of dimension >= 5 be triangulated as a simplicial complex? This was recently shown
-    to be false, but many specific cases remain open.
+    to be false (Manolescu, 2016).
 sources:
   canonical:
   - source_id: src_manolescu_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1303.2354
   status_evidence:
   - source_id: src_manolescu_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1303.2354
 provenance:
   created_from: radar_promotion

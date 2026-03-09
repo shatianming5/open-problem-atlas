@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For simple separable nuclear unital C*-algebras, finite nuclear dimension, Z-stability, and strict comparison
-    are equivalent.
+  canonical: For simple separable nuclear unital C*-algebras, finite nuclear dimension,
+    Z-stability, and strict comparison are equivalent.
 sources:
   canonical:
   - source_id: src_tomswinter_2008
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is k-Clique W[1]-complete or fixed-parameter tractable? Showing W[1] != FPT would yield major separations.
+  canonical: Is k-Clique W[1]-complete or fixed-parameter tractable? Showing W[1]
+    != FPT would yield major separations.
 sources:
   canonical:
   - source_id: src_downey_fellows_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4612-0515-9
   status_evidence:
   - source_id: src_downey_fellows_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4612-0515-9
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

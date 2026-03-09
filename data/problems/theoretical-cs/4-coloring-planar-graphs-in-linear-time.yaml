@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can every planar graph be 4-colored in provably linear time? Current algorithms have large hidden constants.
+  canonical: Can every planar graph be 4-colored in provably linear time? Current
+    algorithms have large hidden constants.
 sources:
   canonical:
   - source_id: src_robertson_sanders_seymour_thomas_1997
-    kind: website
+    kind: paper
     url: https://doi.org/10.1006/jctb.1997.1750
   status_evidence:
   - source_id: src_robertson_sanders_seymour_thomas_1997
-    kind: website
+    kind: paper
     url: https://doi.org/10.1006/jctb.1997.1750
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

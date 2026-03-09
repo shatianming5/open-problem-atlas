@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine complete phase diagrams for classes of interacting particle systems.
+  canonical: Determine complete phase diagrams for classes of interacting particle
+    systems.
 sources:
   canonical:
   - source_id: curated_interacting_particle_systems_phase_diagrams
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

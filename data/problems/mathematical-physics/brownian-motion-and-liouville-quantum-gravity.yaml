@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can one rigorously construct Brownian motion on Liouville quantum gravity surfaces and prove the KPZ relation
-    for random planar maps?
+  canonical: Can one rigorously construct Brownian motion on Liouville quantum gravity
+    surfaces and prove the KPZ relation for random planar maps?
 sources:
   canonical:
   - source_id: src_gwynne_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1908.05573
   status_evidence:
   - source_id: src_gwynne_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1908.05573
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

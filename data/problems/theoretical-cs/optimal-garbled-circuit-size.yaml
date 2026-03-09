@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the minimum size of garbled circuits for secure computation? Can the 2x overhead of Yao's construction
-    be improved?
+  canonical: What is the minimum size of garbled circuits for secure computation?
+    Can the 2x overhead of Yao's construction be improved?
 sources:
   canonical:
   - source_id: src_zahur_rosulek_evans_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-662-46803-6_1
   status_evidence:
   - source_id: src_zahur_rosulek_evans_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-662-46803-6_1
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

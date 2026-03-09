@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact Holevo capacity for important families of quantum channels.
+  canonical: Determine the exact Holevo capacity for important families of quantum
+    channels.
 sources:
   canonical:
   - source_id: curated_holevo_capacity_exact_computation
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

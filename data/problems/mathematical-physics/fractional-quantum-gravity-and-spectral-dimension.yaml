@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the spectral dimension of spacetime flow from 4 to 2 at short distances in all approaches to quantum gravity,
-    and what is the mathematical mechanism?
+  canonical: Does the spectral dimension of spacetime flow from 4 to 2 at short distances
+    in all approaches to quantum gravity, and what is the mathematical mechanism?
 sources:
   canonical:
   - source_id: src_carlip_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.13836
   status_evidence:
   - source_id: src_carlip_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.13836
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

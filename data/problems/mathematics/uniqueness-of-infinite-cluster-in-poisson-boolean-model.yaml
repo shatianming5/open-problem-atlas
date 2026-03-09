@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: In the supercritical Poisson-Boolean percolation model in R^d, prove that there is a.s. a unique infinite cluster.
+  canonical: In the supercritical Poisson-Boolean percolation model in R^d, prove
+    that there is a.s. a unique infinite cluster.
 sources:
   canonical:
   - source_id: src_meester_1996b
-    kind: website
+    kind: paper
     url: https://doi.org/10.1017/CBO9780511750540
   status_evidence:
   - source_id: src_meester_1996b
-    kind: website
+    kind: paper
     url: https://doi.org/10.1017/CBO9780511750540
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

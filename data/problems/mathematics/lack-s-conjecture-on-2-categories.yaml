@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A coherence result for tricategories stating that every tricategory is triequivalent to a Gray-category.
+  canonical: A coherence result for tricategories stating that every tricategory is
+    triequivalent to a Gray-category.
 sources:
   canonical:
   - source_id: src_lack_2007
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

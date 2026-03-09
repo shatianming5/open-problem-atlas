@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Characterize all algebraic varieties whose Cox ring (total coordinate ring) is finitely generated.
+  canonical: Characterize all algebraic varieties whose Cox ring (total coordinate
+    ring) is finitely generated.
 sources:
   canonical:
   - source_id: src_hu_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1090/S0002-9947-00-02498-9
   status_evidence:
   - source_id: src_hu_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1090/S0002-9947-00-02498-9
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

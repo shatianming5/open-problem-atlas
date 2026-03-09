@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the resurgence program reconstruct the full non-perturbative content of quantum field theories from their
-    asymptotic perturbative expansions?
+  canonical: Can the resurgence program reconstruct the full non-perturbative content
+    of quantum field theories from their asymptotic perturbative expansions?
 sources:
   canonical:
   - source_id: src_dunne_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1511.05977
   status_evidence:
   - source_id: src_dunne_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1511.05977
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

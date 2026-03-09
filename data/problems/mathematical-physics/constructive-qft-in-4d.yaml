@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can any interacting quantum field theory be rigorously constructed in four spacetime dimensions satisfying the
-    Wightman or Osterwalder-Schrader axioms?
+  canonical: Can any interacting quantum field theory be rigorously constructed in
+    four spacetime dimensions satisfying the Wightman or Osterwalder-Schrader axioms?
 sources:
   canonical:
   - source_id: src_glimm_1987
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4612-4728-9
   status_evidence:
   - source_id: src_glimm_1987
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4612-4728-9
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

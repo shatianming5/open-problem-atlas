@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: In a generic nearly integrable Hamiltonian system with more than two degrees of freedom, there exist orbits whose
-    action variables change by O(1) over time (Arnold diffusion).
+  canonical: In a generic nearly integrable Hamiltonian system with more than two
+    degrees of freedom, there exist orbits whose action variables change by O(1) over
+    time (Arnold diffusion).
 sources:
   canonical:
   - source_id: src_arnold_1964
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

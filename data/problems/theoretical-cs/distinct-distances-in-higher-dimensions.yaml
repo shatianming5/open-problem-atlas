@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the minimum number of distinct distances determined by n points in R^d for d >= 3? The planar case was
-    settled by Guth and Katz.
+  canonical: What is the minimum number of distinct distances determined by n points
+    in R^d for d >= 3? The planar case was settled by Guth and Katz.
 sources:
   canonical:
   - source_id: src_guth_katz_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.4007/annals.2015.181.1.2
   status_evidence:
   - source_id: src_guth_katz_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.4007/annals.2015.181.1.2
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

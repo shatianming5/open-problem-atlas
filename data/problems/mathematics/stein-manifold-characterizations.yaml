@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Develop new characterizations of Stein manifolds relevant to complex geometry.
+  canonical: Develop new characterizations of Stein manifolds relevant to complex
+    geometry.
 sources:
   canonical:
   - source_id: curated_stein_manifold_characterizations
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

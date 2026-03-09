@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal tradeoff between circuit lower bounds and derandomization? Can BPP = P be proved from weaker
-    assumptions than NEXP circuit lower bounds?
+  canonical: What is the optimal tradeoff between circuit lower bounds and derandomization?
+    Can BPP = P be proved from weaker assumptions than NEXP circuit lower bounds?
 sources:
   canonical:
   - source_id: src_impagliazzo_wigderson_1997
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/258533.258590
   status_evidence:
   - source_id: src_impagliazzo_wigderson_1997
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/258533.258590
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

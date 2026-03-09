@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend the exact solution of the Kitaev honeycomb model to more general lattices.
+  canonical: Extend the exact solution of the Kitaev honeycomb model to more general
+    lattices.
 sources:
   canonical:
   - source_id: curated_kitaev_honeycomb_model_extensions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

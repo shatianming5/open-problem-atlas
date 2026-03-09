@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove various positivity conjectures in algebraic combinatorics including Macdonald positivity for general types.
+  canonical: Prove various positivity conjectures in algebraic combinatorics including
+    Macdonald positivity for general types.
 sources:
   canonical:
   - source_id: curated_algebraic_combinatorics_positivity_conjectures
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

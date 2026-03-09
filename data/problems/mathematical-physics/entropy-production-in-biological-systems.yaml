@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can minimum entropy production principles or thermodynamic bounds constrain the efficiency and design of biological
-    molecular machines?
+  canonical: Can minimum entropy production principles or thermodynamic bounds constrain
+    the efficiency and design of biological molecular machines?
 sources:
   canonical:
   - source_id: src_seifert_2019
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1901.00953
   status_evidence:
   - source_id: src_seifert_2019
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1901.00953
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

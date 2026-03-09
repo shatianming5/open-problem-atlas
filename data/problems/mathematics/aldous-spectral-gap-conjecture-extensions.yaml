@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: While Aldous' conjecture that the spectral gap of the random walk on the symmetric group equals the spectral
-    gap of the corresponding random transposition walk was proven, extensions to other groups remain open.
+  canonical: While Aldous' conjecture that the spectral gap of the random walk on
+    the symmetric group equals the spectral gap of the corresponding random transposition
+    walk was proven, extensions to other groups remain open.
 sources:
   canonical:
   - source_id: src_caputo_2010
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0906.1238
   status_evidence:
   - source_id: src_caputo_2010
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0906.1238
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

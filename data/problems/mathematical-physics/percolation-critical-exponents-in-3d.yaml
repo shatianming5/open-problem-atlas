@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can exact values of percolation critical exponents in three dimensions be determined analytically?
+  canonical: Can exact values of percolation critical exponents in three dimensions
+    be determined analytically?
 sources:
   canonical:
   - source_id: src_stauffer_1994
-    kind: website
+    kind: paper
     url: https://doi.org/10.1201/9781315274386
   status_evidence:
   - source_id: src_stauffer_1994
-    kind: website
+    kind: paper
     url: https://doi.org/10.1201/9781315274386
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

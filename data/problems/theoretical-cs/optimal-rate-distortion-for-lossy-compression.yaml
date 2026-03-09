@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the rate-distortion function be achieved with polynomial-time encoding and decoding for general sources?
+  canonical: Can the rate-distortion function be achieved with polynomial-time encoding
+    and decoding for general sources?
 sources:
   canonical:
   - source_id: src_gupta_verdu_weissman_2010
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.2010.2054510
   status_evidence:
   - source_id: src_gupta_verdu_weissman_2010
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.2010.2054510
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

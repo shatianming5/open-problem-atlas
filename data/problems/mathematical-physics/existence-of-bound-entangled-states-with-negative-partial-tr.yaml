@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Do there exist bound entangled states with a negative partial transpose (NPT)? This is one of the longest-standing
-    open problems in quantum entanglement theory.
+  canonical: Do there exist bound entangled states with a negative partial transpose
+    (NPT)? This is one of the longest-standing open problems in quantum entanglement
+    theory.
 sources:
   canonical:
   - source_id: src_horodecki_1998
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/quant-ph/9801069
   status_evidence:
   - source_id: src_horodecki_1998
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/quant-ph/9801069
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

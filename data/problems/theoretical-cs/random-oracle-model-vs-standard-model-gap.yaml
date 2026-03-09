@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Characterize which constructions proven secure in the random oracle model can be instantiated in the standard
-    model.
+  canonical: Characterize which constructions proven secure in the random oracle model
+    can be instantiated in the standard model.
 sources:
   canonical:
   - source_id: curated_random_oracle_model_vs_standard_model_gap
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

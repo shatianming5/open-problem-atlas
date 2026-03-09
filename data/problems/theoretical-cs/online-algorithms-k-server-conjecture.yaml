@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the k-server problem have an O(k)-competitive online algorithm in general metric spaces?
+  canonical: Does the k-server problem have an O(k)-competitive online algorithm in
+    general metric spaces?
 sources:
   canonical:
   - source_id: src_manasse_mcgeoch_sleator_1990
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/BF01759073
   status_evidence:
   - source_id: src_manasse_mcgeoch_sleator_1990
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/BF01759073
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

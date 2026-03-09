@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can topological recursion be proved to compute all-genus Gromov-Witten invariants of arbitrary toric Calabi-Yau
-    threefolds?
+  canonical: Can topological recursion be proved to compute all-genus Gromov-Witten
+    invariants of arbitrary toric Calabi-Yau threefolds?
 sources:
   canonical:
   - source_id: src_eynard_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2303.15519
   status_evidence:
   - source_id: src_eynard_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2303.15519
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

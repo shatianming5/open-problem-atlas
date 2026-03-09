@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can general relativity be quantized as a mathematically consistent quantum field theory, either perturbatively
-    or non-perturbatively?
+  canonical: Can general relativity be quantized as a mathematically consistent quantum
+    field theory, either perturbatively or non-perturbatively?
 sources:
   canonical:
   - source_id: src_kiefer_2007
-    kind: website
+    kind: paper
     url: https://doi.org/10.1093/acprof:oso/9780199212521.001.0001
   status_evidence:
   - source_id: src_kiefer_2007
-    kind: website
+    kind: paper
     url: https://doi.org/10.1093/acprof:oso/9780199212521.001.0001
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

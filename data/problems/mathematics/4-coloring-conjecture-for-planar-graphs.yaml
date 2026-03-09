@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can every planar graph be 4-colored such that no face has all vertices of the same color, known as the strong
-    4-coloring conjecture?
+  canonical: Can every planar graph be 4-colored such that no face has all vertices
+    of the same color, known as the strong 4-coloring conjecture?
 sources:
   canonical:
   - source_id: src_thomassen_2020
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

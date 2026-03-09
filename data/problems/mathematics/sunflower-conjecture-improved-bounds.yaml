@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the sunflower lemma bound be further improved beyond the recent breakthrough by Alweiss, Lovett, Wu, and
-    Zhang to match the conjectured O(k)^n bound?
+  canonical: Can the sunflower lemma bound be further improved beyond the recent breakthrough
+    by Alweiss, Lovett, Wu, and Zhang to match the conjectured O(k)^n bound?
 sources:
   canonical:
   - source_id: src_alweiss_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1908.08483
   status_evidence:
   - source_id: src_alweiss_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1908.08483
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

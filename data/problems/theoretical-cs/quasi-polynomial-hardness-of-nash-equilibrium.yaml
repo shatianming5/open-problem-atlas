@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the quasi-polynomial time algorithm for approximate Nash equilibrium by Lipton, Markakis, and Mehta be improved
-    to polynomial time, or is there a matching lower bound?
+  canonical: Can the quasi-polynomial time algorithm for approximate Nash equilibrium
+    by Lipton, Markakis, and Mehta be improved to polynomial time, or is there a matching
+    lower bound?
 sources:
   canonical:
   - source_id: src_lipton_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2203.07978
   status_evidence:
   - source_id: src_lipton_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2203.07978
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

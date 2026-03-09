@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the ten-fold way classification of topological insulators via K-theory extend rigorously to strongly interacting
-    systems?
+  canonical: Does the ten-fold way classification of topological insulators via K-theory
+    extend rigorously to strongly interacting systems?
 sources:
   canonical:
   - source_id: src_freed_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2106.09670
   status_evidence:
   - source_id: src_freed_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2106.09670
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

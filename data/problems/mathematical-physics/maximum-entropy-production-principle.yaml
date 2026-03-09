@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is there a rigorous maximum entropy production principle for nonequilibrium steady states, and under what conditions
-    does it hold?
+  canonical: Is there a rigorous maximum entropy production principle for nonequilibrium
+    steady states, and under what conditions does it hold?
 sources:
   canonical:
   - source_id: src_martyushev_2006
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/j.physrep.2006.08.002
   status_evidence:
   - source_id: src_martyushev_2006
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/j.physrep.2006.08.002
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

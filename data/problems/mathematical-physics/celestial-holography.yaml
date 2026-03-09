@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does celestial holography provide a complete holographic dual for gravitational scattering in asymptotically
-    flat spacetimes?
+  canonical: Does celestial holography provide a complete holographic dual for gravitational
+    scattering in asymptotically flat spacetimes?
 sources:
   canonical:
   - source_id: src_pasterski_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1705.01027
   status_evidence:
   - source_id: src_pasterski_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1705.01027
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

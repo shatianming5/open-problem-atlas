@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Prove or disprove the existence of Siegel zeros: real zeros of L-functions close to s = 1.'
+  canonical: 'Prove or disprove the existence of Siegel zeros: real zeros of L-functions
+    close to s = 1.'
 sources:
   canonical:
   - source_id: curated_existence_of_siegel_zeros
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the equilibrium crystal shape (Wulff shape) be derived rigorously from microscopic models at low temperature
-    for three-dimensional lattice systems?
+  canonical: Can the equilibrium crystal shape (Wulff shape) be derived rigorously
+    from microscopic models at low temperature for three-dimensional lattice systems?
 sources:
   canonical:
   - source_id: src_dobrushin_1992
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4612-2168-5
   status_evidence:
   - source_id: src_dobrushin_1992
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4612-2168-5
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

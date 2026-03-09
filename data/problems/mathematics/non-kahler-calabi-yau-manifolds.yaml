@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether non-Kahler Calabi-Yau manifolds exist and classify them.
+  canonical: Determine whether non-Kahler Calabi-Yau manifolds exist and classify
+    them.
 sources:
   canonical:
   - source_id: curated_non_kahler_calabi_yau_manifolds
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

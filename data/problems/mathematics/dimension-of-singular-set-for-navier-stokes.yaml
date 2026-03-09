@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the Hausdorff dimension of the potential singular set for solutions of the 3D Navier-Stokes equations?
-    The Caffarelli-Kohn-Nirenberg theorem gives dimension < 1.
+  canonical: What is the Hausdorff dimension of the potential singular set for solutions
+    of the 3D Navier-Stokes equations? The Caffarelli-Kohn-Nirenberg theorem gives
+    dimension < 1.
 sources:
   canonical:
   - source_id: src_caffarelli_1982
-    kind: website
+    kind: paper
     url: https://doi.org/10.1002/cpa.3160350604
   status_evidence:
   - source_id: src_caffarelli_1982
-    kind: website
+    kind: paper
     url: https://doi.org/10.1002/cpa.3160350604
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

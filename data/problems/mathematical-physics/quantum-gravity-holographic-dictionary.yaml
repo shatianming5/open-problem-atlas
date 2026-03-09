@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Complete the holographic dictionary relating bulk gravity to boundary CFT quantities.
+  canonical: Complete the holographic dictionary relating bulk gravity to boundary
+    CFT quantities.
 sources:
   canonical:
   - source_id: curated_quantum_gravity_holographic_dictionary
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

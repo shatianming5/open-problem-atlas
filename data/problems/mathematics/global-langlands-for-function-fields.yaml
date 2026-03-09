@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Complete the proof of the global Langlands correspondence over function fields for all reductive groups.
+  canonical: Complete the proof of the global Langlands correspondence over function
+    fields for all reductive groups.
 sources:
   canonical:
   - source_id: curated_global_langlands_for_function_fields
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

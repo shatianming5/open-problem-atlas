@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend precise formulas for the p-adic valuation of factorials to more general arithmetic functions.
+  canonical: Extend precise formulas for the p-adic valuation of factorials to more
+    general arithmetic functions.
 sources:
   canonical:
   - source_id: curated_de_polignac_s_formula_extensions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

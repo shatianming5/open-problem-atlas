@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the entropy conjecture relating the topological entropy to the spectral radius of the action on homology.
+  canonical: Prove the entropy conjecture relating the topological entropy to the
+    spectral radius of the action on homology.
 sources:
   canonical:
   - source_id: curated_entropy_conjecture_for_diffeomorphisms
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

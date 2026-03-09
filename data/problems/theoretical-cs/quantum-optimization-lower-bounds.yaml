@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can one prove unconditional lower bounds showing that quantum approximate optimization algorithms require super-constant
-    depth for specific combinatorial problems?
+  canonical: Can one prove unconditional lower bounds showing that quantum approximate
+    optimization algorithms require super-constant depth for specific combinatorial
+    problems?
 sources:
   canonical:
   - source_id: src_basso_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2207.14169
   status_evidence:
   - source_id: src_basso_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2207.14169
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

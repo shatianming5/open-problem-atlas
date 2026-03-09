@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact value of Bloch's constant for holomorphic functions on the unit disk.
+  canonical: Determine the exact value of Bloch's constant for holomorphic functions
+    on the unit disk.
 sources:
   canonical:
   - source_id: src_bloch_1925
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

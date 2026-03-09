@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can all symmetry-protected topological phases of interacting fermions and bosons be completely classified in
-    arbitrary dimensions?
+  canonical: Can all symmetry-protected topological phases of interacting fermions
+    and bosons be completely classified in arbitrary dimensions?
 sources:
   canonical:
   - source_id: src_chen_2013
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1106.4752
   status_evidence:
   - source_id: src_chen_2013
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1106.4752
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

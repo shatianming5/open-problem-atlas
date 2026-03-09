@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Following Helfgott's proof of the ternary Goldbach conjecture, can the methods be extended to resolve the binary
-    Goldbach conjecture for all even numbers?
+  canonical: Following Helfgott's proof of the ternary Goldbach conjecture, can the
+    methods be extended to resolve the binary Goldbach conjecture for all even numbers?
 sources:
   canonical:
   - source_id: src_helfgott_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1312.7748
   status_evidence:
   - source_id: src_helfgott_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1312.7748
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

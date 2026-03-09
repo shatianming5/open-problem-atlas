@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can directed graph reachability (s-t connectivity) be solved in deterministic logarithmic space?
+  canonical: Can directed graph reachability (s-t connectivity) be solved in deterministic
+    logarithmic space?
 sources:
   canonical:
   - source_id: src_wigderson_1992
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/3-540-55210-3_182
   status_evidence:
   - source_id: src_wigderson_1992
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/3-540-55210-3_182
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

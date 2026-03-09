@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal competitive ratio for oblivious routing in general undirected graphs? The O(log n) upper
-    bound and Omega(log n / log log n) lower bound leave a gap.
+  canonical: What is the optimal competitive ratio for oblivious routing in general
+    undirected graphs? The O(log n) upper bound and Omega(log n / log log n) lower
+    bound leave a gap.
 sources:
   canonical:
   - source_id: src_racke_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2107.10048
   status_evidence:
   - source_id: src_racke_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2107.10048
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

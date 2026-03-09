@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If V is an affine variety such that V x C is isomorphic to C^{n+1}, is V necessarily isomorphic to C^n? Open
-    for n >= 3 in characteristic zero.
+  canonical: If V is an affine variety such that V x C is isomorphic to C^{n+1}, is
+    V necessarily isomorphic to C^n? Open for n >= 3 in characteristic zero.
 sources:
   canonical:
   - source_id: src_gupta_2014
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

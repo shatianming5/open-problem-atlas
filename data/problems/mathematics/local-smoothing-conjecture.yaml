@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Solutions to the wave equation gain 1/2 - epsilon derivatives locally in L^p for p > 2.
+  canonical: Solutions to the wave equation gain 1/2 - epsilon derivatives locally
+    in L^p for p > 2.
 sources:
   canonical:
   - source_id: src_sogge_1991
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

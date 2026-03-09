@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can collaborative mathematical efforts further improve the lower bound of 5 for the chromatic number of the plane
-    found by de Grey?
+  canonical: Can collaborative mathematical efforts further improve the lower bound
+    of 5 for the chromatic number of the plane found by de Grey?
 sources:
   canonical:
   - source_id: src_polymath_2020
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

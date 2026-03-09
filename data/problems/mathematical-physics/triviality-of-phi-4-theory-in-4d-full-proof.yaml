@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that the continuum limit of lattice phi^4 theory in 4D is trivial (free field).
+  canonical: Prove that the continuum limit of lattice phi^4 theory in 4D is trivial
+    (free field).
 sources:
   canonical:
   - source_id: curated_triviality_of_phi_4_theory_in_4d_full_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

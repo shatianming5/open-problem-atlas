@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can fracton topological orders with immobile excitations be fully classified, and do they exist in natural materials?
+  canonical: Can fracton topological orders with immobile excitations be fully classified,
+    and do they exist in natural materials?
 sources:
   canonical:
   - source_id: src_nandkishore_2019
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1803.11196
   status_evidence:
   - source_id: src_nandkishore_2019
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1803.11196
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

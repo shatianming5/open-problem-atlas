@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove Stanley's conjecture on the positivity of chromatic symmetric functions for certain graph classes.
+  canonical: Prove Stanley's conjecture on the positivity of chromatic symmetric functions
+    for certain graph classes.
 sources:
   canonical:
   - source_id: curated_stanley_s_positivity_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

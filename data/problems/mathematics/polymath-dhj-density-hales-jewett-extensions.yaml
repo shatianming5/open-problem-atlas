@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Polymath1 density Hales-Jewett theorem bounds be made effective and tight, giving the exact threshold
-    density?
+  canonical: Can the Polymath1 density Hales-Jewett theorem bounds be made effective
+    and tight, giving the exact threshold density?
 sources:
   canonical:
   - source_id: src_polymath1_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0910.3926
   status_evidence:
   - source_id: src_polymath1_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0910.3926
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can all non-invertible (categorical) symmetries in quantum field theories be classified, and what are their implications
-    for phase structure?
+  canonical: Can all non-invertible (categorical) symmetries in quantum field theories
+    be classified, and what are their implications for phase structure?
 sources:
   canonical:
   - source_id: src_shao_2024
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2305.18296
   status_evidence:
   - source_id: src_shao_2024
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2305.18296
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

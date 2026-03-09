@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the swampland conjectures be proven, delineating which effective field theories can be consistently coupled
-    to quantum gravity?
+  canonical: Can the swampland conjectures be proven, delineating which effective
+    field theories can be consistently coupled to quantum gravity?
 sources:
   canonical:
   - source_id: src_vafa_2005
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/0509212
   status_evidence:
   - source_id: src_vafa_2005
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/0509212
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

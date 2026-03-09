@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact energetic cost of information erasure in quantum systems.
+  canonical: Determine the exact energetic cost of information erasure in quantum
+    systems.
 sources:
   canonical:
   - source_id: curated_landauer_s_principle_exact_bounds
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

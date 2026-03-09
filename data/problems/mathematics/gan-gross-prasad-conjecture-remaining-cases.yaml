@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the remaining cases of the Gan-Gross-Prasad conjecture on restriction of automorphic representations.
+  canonical: Prove the remaining cases of the Gan-Gross-Prasad conjecture on restriction
+    of automorphic representations.
 sources:
   canonical:
   - source_id: curated_gan_gross_prasad_conjecture_remaining_cases
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

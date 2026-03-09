@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Find single-source shortest paths with negative edge weights in near-linear time.
+  canonical: Find single-source shortest paths with negative edge weights in near-linear
+    time.
 sources:
   canonical:
   - source_id: curated_shortest_paths_with_negative_weights
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

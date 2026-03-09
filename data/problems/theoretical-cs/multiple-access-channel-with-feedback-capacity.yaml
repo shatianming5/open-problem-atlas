@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does feedback increase the capacity region of the multiple access channel? Cover and Leung conjectured it does.
+  canonical: Does feedback increase the capacity region of the multiple access channel?
+    Cover and Leung conjectured it does.
 sources:
   canonical:
   - source_id: src_cover_leung_1981
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.1981.1056307
   status_evidence:
   - source_id: src_cover_leung_1981
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.1981.1056307
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

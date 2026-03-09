@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does pointwise convergence of Fourier series hold for L^2 functions in dimensions greater than 1?
+  canonical: Does pointwise convergence of Fourier series hold for L^2 functions in
+    dimensions greater than 1?
 sources:
   canonical:
   - source_id: curated_carleson_s_theorem_in_higher_dimensions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

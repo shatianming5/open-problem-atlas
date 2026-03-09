@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Are hash-based signature schemes and code-based encryption schemes secure against quantum adversaries at claimed
-    security levels?
+  canonical: Are hash-based signature schemes and code-based encryption schemes secure
+    against quantum adversaries at claimed security levels?
 sources:
   canonical:
   - source_id: src_bernstein_lange_2017
-    kind: website
+    kind: paper
     url: https://doi.org/10.1038/nature23461
   status_evidence:
   - source_id: src_bernstein_lange_2017
-    kind: website
+    kind: paper
     url: https://doi.org/10.1038/nature23461
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

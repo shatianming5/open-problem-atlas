@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Provide a complete proof of the cobordism hypothesis classifying extended TQFTs.
+  canonical: Provide a complete proof of the cobordism hypothesis classifying extended
+    TQFTs.
 sources:
   canonical:
   - source_id: curated_cobordism_hypothesis_full_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

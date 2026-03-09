@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the step complexity of wait-free algorithms for fundamental shared memory problems.
+  canonical: Determine the step complexity of wait-free algorithms for fundamental
+    shared memory problems.
 sources:
   canonical:
   - source_id: curated_wait_free_algorithms_complexity
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

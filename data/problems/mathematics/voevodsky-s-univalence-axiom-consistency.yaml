@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The univalence axiom is consistent with all standard type-theoretic constructions and models in simplicial sets.
+  canonical: The univalence axiom is consistent with all standard type-theoretic constructions
+    and models in simplicial sets.
 sources:
   canonical:
   - source_id: src_voevodsky_2006
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

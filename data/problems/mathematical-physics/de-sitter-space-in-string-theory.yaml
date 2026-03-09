@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does string theory admit stable or metastable de Sitter vacua, or does the de Sitter swampland conjecture forbid
-    them?
+  canonical: Does string theory admit stable or metastable de Sitter vacua, or does
+    the de Sitter swampland conjecture forbid them?
 sources:
   canonical:
   - source_id: src_obied_2018
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1806.08362
   status_evidence:
   - source_id: src_obied_2018
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1806.08362
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

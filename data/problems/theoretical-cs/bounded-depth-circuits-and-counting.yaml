@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove tight lower bounds for bounded-depth circuits computing counting functions.
+  canonical: Prove tight lower bounds for bounded-depth circuits computing counting
+    functions.
 sources:
   canonical:
   - source_id: curated_bounded_depth_circuits_and_counting
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

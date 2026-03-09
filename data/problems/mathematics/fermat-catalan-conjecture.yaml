@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: There are only finitely many solutions to a^m + b^n = c^k with 1/m + 1/n + 1/k < 1 and gcd(a,b,c)=1.
+  canonical: There are only finitely many solutions to a^m + b^n = c^k with 1/m +
+    1/n + 1/k < 1 and gcd(a,b,c)=1.
 sources:
   canonical:
   - source_id: curated_fermat_catalan_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Resolve foundational questions in algorithmic information theory about randomness and complexity.
+  canonical: Resolve foundational questions in algorithmic information theory about
+    randomness and complexity.
 sources:
   canonical:
   - source_id: curated_algorithmic_information_theory_foundations
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

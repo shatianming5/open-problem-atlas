@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does a rectangular parallelepiped exist with all edges, face diagonals, and space diagonal having integer lengths?
+  canonical: Does a rectangular parallelepiped exist with all edges, face diagonals,
+    and space diagonal having integer lengths?
 sources:
   canonical:
   - source_id: src_butler_2020
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

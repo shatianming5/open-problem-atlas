@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend the minimal model program to compact Kahler manifolds that are not necessarily projective.
+  canonical: Extend the minimal model program to compact Kahler manifolds that are
+    not necessarily projective.
 sources:
   canonical:
   - source_id: curated_minimal_model_program_for_kahler_varieties
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

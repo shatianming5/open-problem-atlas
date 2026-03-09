@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A Fano manifold admits a Kahler-Einstein metric if and only if it is K-polystable.
+  canonical: A Fano manifold admits a Kahler-Einstein metric if and only if it is
+    K-polystable.
 sources:
   canonical:
   - source_id: curated_tian_yau_donaldson_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

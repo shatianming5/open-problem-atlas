@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove superpolynomial lower bounds for algebraic circuits computing explicit polynomials.
+  canonical: Prove superpolynomial lower bounds for algebraic circuits computing explicit
+    polynomials.
 sources:
   canonical:
   - source_id: curated_algebraic_circuits_lower_bounds
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

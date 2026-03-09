@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact value of the Erdos-Szekeres function ES(n) for all n.
+  canonical: Determine the exact value of the Erdos-Szekeres function ES(n) for all
+    n.
 sources:
   canonical:
   - source_id: curated_happy_ending_problem_exact_bounds
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

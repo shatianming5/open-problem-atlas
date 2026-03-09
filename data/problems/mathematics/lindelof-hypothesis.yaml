@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The Riemann zeta function satisfies zeta(1/2 + it) = O(t^epsilon) for every epsilon > 0. This is weaker than
-    the Riemann Hypothesis but still open.
+  canonical: The Riemann zeta function satisfies zeta(1/2 + it) = O(t^epsilon) for
+    every epsilon > 0. This is weaker than the Riemann Hypothesis but still open.
 sources:
   canonical:
   - source_id: src_lindelof_1908
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the power of quantum proofs of proximity compared to classical ones.
+  canonical: Determine the power of quantum proofs of proximity compared to classical
+    ones.
 sources:
   canonical:
   - source_id: curated_quantum_proofs_of_proximity
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Provide rigorous proofs for the Parisi solution of the Sherrington-Kirkpatrick spin glass model.
+  canonical: Provide rigorous proofs for the Parisi solution of the Sherrington-Kirkpatrick
+    spin glass model.
 sources:
   canonical:
   - source_id: curated_spin_glass_theory_rigorous_foundation
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

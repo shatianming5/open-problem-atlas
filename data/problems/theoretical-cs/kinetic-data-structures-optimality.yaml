@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the optimal efficiency of kinetic data structures for geometric problems.
+  canonical: Determine the optimal efficiency of kinetic data structures for geometric
+    problems.
 sources:
   canonical:
   - source_id: curated_kinetic_data_structures_optimality
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

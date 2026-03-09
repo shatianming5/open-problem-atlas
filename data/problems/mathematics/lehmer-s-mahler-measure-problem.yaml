@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is there a constant c > 0 such that every algebraic integer alpha (not a root of unity) satisfies M(alpha) >=
-    1 + c?
+  canonical: Is there a constant c > 0 such that every algebraic integer alpha (not
+    a root of unity) satisfies M(alpha) >= 1 + c?
 sources:
   canonical:
   - source_id: src_lehmer_1933
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

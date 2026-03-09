@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the topological order in fractional quantum Hall states be fully classified using modular tensor categories
-    and unitary fusion categories?
+  canonical: Can the topological order in fractional quantum Hall states be fully
+    classified using modular tensor categories and unitary fusion categories?
 sources:
   canonical:
   - source_id: src_wen_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2106.08457
   status_evidence:
   - source_id: src_wen_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2106.08457
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

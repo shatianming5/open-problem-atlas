@@ -1,120 +1,113 @@
 id: opa.tcs.complexity-theory.vp-vs-vnp
 kind: problem
-title: "VP vs VNP Problem"
+title: VP vs VNP Problem
 aliases:
-  - "Valiant's algebraic P vs NP"
-  - "VP = VNP?"
-  - "Algebraic complexity conjecture"
-
+- Valiant's algebraic P vs NP
+- VP = VNP?
+- Algebraic complexity conjecture
+- 'Algebraic Complexity: VP vs VNP'
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - complexity-theory
-
+- complexity-theory
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: proof_assistant
   machine_actionability: low
 tier: tier_2
 statement:
-  canonical: >
-    Let VP denote the class of polynomial families computable by arithmetic circuits of
-    polynomial size, and VNP denote Valiant's class of polynomial families that are
-    definable as exponential sums over VP families (analogous to NP). Does VP = VNP?
-  informal: >
-    Is the permanent polynomial as easy to compute as the determinant? This is the
-    algebraic analogue of P vs NP, asking whether every polynomial with a short
+  canonical: 'Let VP denote the class of polynomial families computable by arithmetic
+    circuits of polynomial size, and VNP denote Valiant''s class of polynomial families
+    that are definable as exponential sums over VP families (analogous to NP). Does
+    VP = VNP?
+
+    '
+  informal: 'Is the permanent polynomial as easy to compute as the determinant? This
+    is the algebraic analogue of P vs NP, asking whether every polynomial with a short
     description also has a short computation.
 
-why_it_matters: >
-  VP vs VNP is the central problem of algebraic complexity theory, introduced by
-  Valiant in 1979. The permanent vs determinant question has deep connections to
-  combinatorics, representation theory, and algebraic geometry. Resolving VP != VNP
-  is considered a necessary step toward P != NP.
+    '
+why_it_matters: 'VP vs VNP is the central problem of algebraic complexity theory,
+  introduced by Valiant in 1979. The permanent vs determinant question has deep connections
+  to combinatorics, representation theory, and algebraic geometry. Resolving VP !=
+  VNP is considered a necessary step toward P != NP.
 
+  '
 prerequisites:
-  - algebraic complexity theory
-  - arithmetic circuits
-  - permanent and determinant
-  - Valiant's classes
-
+- algebraic complexity theory
+- arithmetic circuits
+- permanent and determinant
+- Valiant's classes
 dates:
   first_stated: 1979
-
 sources:
   canonical:
-    - source_id: src_valiant_1979
-      kind: paper
-      title: "Completeness Classes in Algebra"
-      authors:
-        - "Leslie G. Valiant"
-      url: "https://doi.org/10.1109/SFCS.1979.29"
-      year: 1979
-  status_evidence:
-    - source_id: src_burgisser_2000
-      kind: textbook
-      title: "Completeness and Reduction in Algebraic Complexity Theory"
-      authors:
-        - "Peter Bürgisser"
-      url: "https://doi.org/10.1007/978-3-662-04179-6"
-      year: 2000
-
-partial_results:
-  - summary: "Valiant (1979) proved the permanent is VNP-complete, so VP != VNP iff the permanent requires superpolynomial arithmetic circuits."
+  - source_id: src_valiant_1979
+    kind: paper
+    title: Completeness Classes in Algebra
+    authors:
+    - Leslie G. Valiant
+    url: https://doi.org/10.1109/SFCS.1979.29
     year: 1979
-  - summary: "Mignon and Ressayre (2004) proved that any determinantal representation of the permanent requires exponential size over the reals."
-    year: 2004
-  - summary: "Landsberg, Manivel, and Ressayre established lower bounds on determinantal complexity of the permanent using representation theory."
-    year: 2013
-
+  status_evidence:
+  - source_id: src_burgisser_2000
+    kind: textbook
+    title: Completeness and Reduction in Algebraic Complexity Theory
+    authors:
+    - Peter Bürgisser
+    url: https://doi.org/10.1007/978-3-662-04179-6
+    year: 2000
+partial_results:
+- summary: Valiant (1979) proved the permanent is VNP-complete, so VP != VNP iff the
+    permanent requires superpolynomial arithmetic circuits.
+  year: 1979
+- summary: Mignon and Ressayre (2004) proved that any determinantal representation
+    of the permanent requires exponential size over the reals.
+  year: 2004
+- summary: Landsberg, Manivel, and Ressayre established lower bounds on determinantal
+    complexity of the permanent using representation theory.
+  year: 2013
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.complexity-theory.p-vs-np"
-    - "opa.tcs.complexity-theory.circuit-complexity-explicit-functions"
-
+  - opa.tcs.complexity-theory.p-vs-np
+  - opa.tcs.complexity-theory.circuit-complexity-explicit-functions
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
-  impact: 0.90
+  impact: 0.9
   underexplored: 0.25
   toolability: 0.25
   formality: 0.95
   ai_fit: 0.15
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-    - lean
-
+  - python
+  - lean
 machine_generated:
-  summary: >
-    VP vs VNP is Valiant's algebraic analogue of P vs NP, asking whether the permanent
-    polynomial can be computed by polynomial-size arithmetic circuits.
-  decomposition:
-    - "Prove superpolynomial arithmetic circuit lower bounds for the permanent"
-    - "Develop connections between algebraic and Boolean complexity"
-  disclaimer: unverified
+  summary: 'VP vs VNP is Valiant''s algebraic analogue of P vs NP, asking whether
+    the permanent polynomial can be computed by polynomial-size arithmetic circuits.
 
+    '
+  decomposition:
+  - Prove superpolynomial arithmetic circuit lower bounds for the permanent
+  - Develop connections between algebraic and Boolean complexity
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

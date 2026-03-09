@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can one construct a fully rigorous non-trivial 4-dimensional TQFT that detects exotic smooth structures on 4-manifolds?
+  canonical: Can one construct a fully rigorous non-trivial 4-dimensional TQFT that
+    detects exotic smooth structures on 4-manifolds?
 sources:
   canonical:
   - source_id: src_witten_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1710.01791
   status_evidence:
   - source_id: src_witten_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1710.01791
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

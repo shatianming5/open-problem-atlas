@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can analogue Hawking radiation in laboratory systems provide conclusive evidence for the Hawking effect, and
-    what corrections arise beyond the leading order?
+  canonical: Can analogue Hawking radiation in laboratory systems provide conclusive
+    evidence for the Hawking effect, and what corrections arise beyond the leading
+    order?
 sources:
   canonical:
   - source_id: src_unruh_1981
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevLett.46.1351
   status_evidence:
   - source_id: src_unruh_1981
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevLett.46.1351
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

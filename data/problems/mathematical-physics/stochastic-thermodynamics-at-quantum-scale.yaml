@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can stochastic thermodynamics be consistently extended to the quantum regime with proper treatment of measurement
-    backaction and coherence?
+  canonical: Can stochastic thermodynamics be consistently extended to the quantum
+    regime with proper treatment of measurement backaction and coherence?
 sources:
   canonical:
   - source_id: src_esposito_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0811.3948
   status_evidence:
   - source_id: src_esposito_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0811.3948
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

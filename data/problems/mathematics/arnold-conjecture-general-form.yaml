@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the Arnold conjecture on the number of fixed points of Hamiltonian diffeomorphisms for general manifolds.
+  canonical: Prove the Arnold conjecture on the number of fixed points of Hamiltonian
+    diffeomorphisms for general manifolds.
 sources:
   canonical:
   - source_id: curated_arnold_conjecture_general_form
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

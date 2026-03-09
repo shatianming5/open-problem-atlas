@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that max(|A+A|, |A*A|) >= |A|^{2-epsilon} for every epsilon > 0 and finite set A of reals.
+  canonical: Prove that max(|A+A|, |A*A|) >= |A|^{2-epsilon} for every epsilon > 0
+    and finite set A of reals.
 sources:
   canonical:
   - source_id: curated_bourgain_s_sum_product_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine optimal algorithms for computing convex hulls in dimensions d >= 4.
+  canonical: Determine optimal algorithms for computing convex hulls in dimensions
+    d >= 4.
 sources:
   canonical:
   - source_id: curated_convex_hull_in_higher_dimensions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

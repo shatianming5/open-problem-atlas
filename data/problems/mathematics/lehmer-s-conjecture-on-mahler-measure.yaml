@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is there a universal lower bound c > 1 for the Mahler measure of algebraic integers that are not roots of unity,
-    with Lehmer's polynomial giving the minimum?
+  canonical: Is there a universal lower bound c > 1 for the Mahler measure of algebraic
+    integers that are not roots of unity, with Lehmer's polynomial giving the minimum?
 sources:
   canonical:
   - source_id: src_smyth_2020
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

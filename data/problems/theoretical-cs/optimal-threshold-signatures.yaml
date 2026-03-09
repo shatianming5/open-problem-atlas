@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can threshold signature schemes be constructed with optimal round complexity and communication for all threshold
-    values?
+  canonical: Can threshold signature schemes be constructed with optimal round complexity
+    and communication for all threshold values?
 sources:
   canonical:
   - source_id: src_gennaro_goldfeder_2018
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3243734.3243859
   status_evidence:
   - source_id: src_gennaro_goldfeder_2018
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/3243734.3243859
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

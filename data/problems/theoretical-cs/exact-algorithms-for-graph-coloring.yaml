@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can k-coloring be solved in time O*(2^{(1-epsilon)*n}) for some epsilon > 0 for all k >= 3?
+  canonical: Can k-coloring be solved in time O*(2^{(1-epsilon)*n}) for some epsilon
+    > 0 for all k >= 3?
 sources:
   canonical:
   - source_id: src_bjorklund_husfeldt_koivisto_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/070683933
   status_evidence:
   - source_id: src_bjorklund_husfeldt_koivisto_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/070683933
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

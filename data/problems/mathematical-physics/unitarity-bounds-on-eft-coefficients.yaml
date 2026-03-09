@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What are the complete positivity/unitarity bounds on Wilson coefficients in the Standard Model Effective Field
-    Theory at all mass dimensions?
+  canonical: What are the complete positivity/unitarity bounds on Wilson coefficients
+    in the Standard Model Effective Field Theory at all mass dimensions?
 sources:
   canonical:
   - source_id: src_adams_2006
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/0602178
   status_evidence:
   - source_id: src_adams_2006
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/0602178
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

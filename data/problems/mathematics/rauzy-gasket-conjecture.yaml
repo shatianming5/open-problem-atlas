@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The Rauzy gasket (arising from interval exchange transformations) has Hausdorff dimension strictly between 1
-    and 2.
+  canonical: The Rauzy gasket (arising from interval exchange transformations) has
+    Hausdorff dimension strictly between 1 and 2.
 sources:
   canonical:
   - source_id: src_rauzy_1979
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

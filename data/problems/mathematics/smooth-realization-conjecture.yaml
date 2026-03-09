@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every ergodic measure-preserving system with finite entropy can be realized as a smooth diffeomorphism of a compact
-    manifold.
+  canonical: Every ergodic measure-preserving system with finite entropy can be realized
+    as a smooth diffeomorphism of a compact manifold.
 sources:
   canonical:
   - source_id: src_katok_1980
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

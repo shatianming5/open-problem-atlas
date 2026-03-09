@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can all moduli in a string compactification be rigorously stabilized in a de Sitter vacuum with small positive
-    cosmological constant?
+  canonical: Can all moduli in a string compactification be rigorously stabilized
+    in a de Sitter vacuum with small positive cosmological constant?
 sources:
   canonical:
   - source_id: src_demirtas_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2207.05750
   status_evidence:
   - source_id: src_demirtas_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2207.05750
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

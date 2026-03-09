@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every oriented graph has a vertex whose second neighborhood is at least as large as its first.
+  canonical: Every oriented graph has a vertex whose second neighborhood is at least
+    as large as its first.
 sources:
   canonical:
   - source_id: curated_seymour_s_second_neighborhood_conjecture_full
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

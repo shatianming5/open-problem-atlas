@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What are the universality classes of phase transitions in active matter systems, and how do they differ from
-    equilibrium universality?
+  canonical: What are the universality classes of phase transitions in active matter
+    systems, and how do they differ from equilibrium universality?
 sources:
   canonical:
   - source_id: src_marchetti_2013
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1207.2929
   status_evidence:
   - source_id: src_marchetti_2013
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1207.2929
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

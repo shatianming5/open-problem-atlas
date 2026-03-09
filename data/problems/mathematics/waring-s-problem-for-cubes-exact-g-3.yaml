@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: It is known that every positive integer is a sum of at most 9 cubes, but the exact value of g(3) (whether 4 or
-    5 suffice for large enough n) remains open.
+  canonical: It is known that every positive integer is a sum of at most 9 cubes,
+    but the exact value of g(3) (whether 4 or 5 suffice for large enough n) remains
+    open.
 sources:
   canonical:
   - source_id: src_deshouillers_2000
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

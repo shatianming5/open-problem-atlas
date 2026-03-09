@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For each indecomposable projective module P over an Artin algebra, there exists i > 0 with Ext^i(D(A), P) nonzero.
+  canonical: For each indecomposable projective module P over an Artin algebra, there
+    exists i > 0 with Ext^i(D(A), P) nonzero.
 sources:
   canonical:
   - source_id: src_auslanderreiten_1975b
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that Bartnik's quasi-local mass equals the infimum of the ADM mass over admissible extensions.
+  canonical: Prove that Bartnik's quasi-local mass equals the infimum of the ADM mass
+    over admissible extensions.
 sources:
   canonical:
   - source_id: curated_bartnik_s_quasi_local_mass_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

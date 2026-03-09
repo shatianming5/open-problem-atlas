@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that n points in the plane determine at least cn/sqrt(log n) distinct distances.
+  canonical: Prove that n points in the plane determine at least cn/sqrt(log n) distinct
+    distances.
 sources:
   canonical:
   - source_id: curated_erdos_distinct_distances_problem_full
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

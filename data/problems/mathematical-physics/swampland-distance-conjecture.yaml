@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Is the Swampland Distance Conjecture true for all consistent quantum gravity theories: does an infinite tower
-    of states become exponentially light at infinite distance in moduli space?'
+  canonical: 'Is the Swampland Distance Conjecture true for all consistent quantum
+    gravity theories: does an infinite tower of states become exponentially light
+    at infinite distance in moduli space?'
 sources:
   canonical:
   - source_id: src_vafa_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2103.01135
   status_evidence:
   - source_id: src_vafa_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2103.01135
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

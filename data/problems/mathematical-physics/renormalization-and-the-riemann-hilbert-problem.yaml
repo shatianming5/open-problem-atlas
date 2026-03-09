@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Connes-Kreimer algebraic approach to renormalization be extended to provide a complete non-perturbative
-    framework for QFT via the Riemann-Hilbert correspondence?
+  canonical: Can the Connes-Kreimer algebraic approach to renormalization be extended
+    to provide a complete non-perturbative framework for QFT via the Riemann-Hilbert
+    correspondence?
 sources:
   canonical:
   - source_id: src_connes_2001
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/9912092
   status_evidence:
   - source_id: src_connes_2001
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/9912092
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether it is decidable if all terms of a linear recurrence sequence are positive.
+  canonical: Determine whether it is decidable if all terms of a linear recurrence
+    sequence are positive.
 sources:
   canonical:
   - source_id: curated_positivity_of_linear_recurrence_sequences
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

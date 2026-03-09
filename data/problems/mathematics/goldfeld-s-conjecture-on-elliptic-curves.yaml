@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that at least 50% of elliptic curves have rank 0 and 50% have rank 1.
+  canonical: Prove that at least 50% of elliptic curves have rank 0 and 50% have rank
+    1.
 sources:
   canonical:
   - source_id: curated_goldfeld_s_conjecture_on_elliptic_curves
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

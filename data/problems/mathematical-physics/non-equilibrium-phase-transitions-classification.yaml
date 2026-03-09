@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can all non-equilibrium phase transitions in driven diffusive systems be classified into universality classes
-    analogous to equilibrium statistical mechanics?
+  canonical: Can all non-equilibrium phase transitions in driven diffusive systems
+    be classified into universality classes analogous to equilibrium statistical mechanics?
 sources:
   canonical:
   - source_id: src_marro_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1017/CBO9780511524288
   status_evidence:
   - source_id: src_marro_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1017/CBO9780511524288
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

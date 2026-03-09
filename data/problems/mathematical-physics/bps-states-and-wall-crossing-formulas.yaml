@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Kontsevich-Soibelman wall-crossing formula for BPS states be rigorously derived from first principles
-    in all N=2 supersymmetric field theories?
+  canonical: Can the Kontsevich-Soibelman wall-crossing formula for BPS states be
+    rigorously derived from first principles in all N=2 supersymmetric field theories?
 sources:
   canonical:
   - source_id: src_kontsevich_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2206.15462
   status_evidence:
   - source_id: src_kontsevich_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2206.15462
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

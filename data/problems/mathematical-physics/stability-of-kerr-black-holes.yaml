@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the Kerr metric stable under linearized and nonlinear gravitational perturbations for all sub-extremal spin
-    parameters?
+  canonical: Is the Kerr metric stable under linearized and nonlinear gravitational
+    perturbations for all sub-extremal spin parameters?
 sources:
   canonical:
   - source_id: src_dafermos_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1601.06467
   status_evidence:
   - source_id: src_dafermos_2016
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1601.06467
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

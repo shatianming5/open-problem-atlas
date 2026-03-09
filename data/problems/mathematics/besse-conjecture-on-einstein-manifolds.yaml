@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: A closed Riemannian manifold of dimension n >= 3 satisfying the critical point equation for the total scalar
-    curvature is Einstein.
+  canonical: A closed Riemannian manifold of dimension n >= 3 satisfying the critical
+    point equation for the total scalar curvature is Einstein.
 sources:
   canonical:
   - source_id: src_besse_1987
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

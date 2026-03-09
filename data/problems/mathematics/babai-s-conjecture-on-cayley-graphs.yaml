@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The diameter of every connected Cayley graph of a finite simple group is polylogarithmic in the size of the group.
+  canonical: The diameter of every connected Cayley graph of a finite simple group
+    is polylogarithmic in the size of the group.
 sources:
   canonical:
   - source_id: curated_babai_s_conjecture_on_cayley_graphs
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

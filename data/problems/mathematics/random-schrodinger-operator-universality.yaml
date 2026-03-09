@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove universality of eigenvalue statistics for random Schrodinger operators in dimensions d >= 3.
+  canonical: Prove universality of eigenvalue statistics for random Schrodinger operators
+    in dimensions d >= 3.
 sources:
   canonical:
   - source_id: curated_random_schrodinger_operator_universality
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

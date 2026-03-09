@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the precise computational complexity of determining whether a given quantum state is separable or entangled?
-    The problem is known to be NP-hard in general, but the exact complexity class remains unclear.
+  canonical: What is the precise computational complexity of determining whether a
+    given quantum state is separable or entangled? The problem is known to be NP-hard
+    in general, but the exact complexity class remains unclear.
 sources:
   canonical:
   - source_id: src_gurvits_2003
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/quant-ph/0303055
   status_evidence:
   - source_id: src_gurvits_2003
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/quant-ph/0303055
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

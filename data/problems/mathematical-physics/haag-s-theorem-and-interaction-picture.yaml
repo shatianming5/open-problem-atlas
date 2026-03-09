@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: How should perturbative QFT be rigorously justified given Haag's theorem, which proves the interaction picture
-    does not exist for interacting fields?
+  canonical: How should perturbative QFT be rigorously justified given Haag's theorem,
+    which proves the interaction picture does not exist for interacting fields?
 sources:
   canonical:
   - source_id: src_earman_2006
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/j.shpsb.2005.12.004
   status_evidence:
   - source_id: src_earman_2006
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/j.shpsb.2005.12.004
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

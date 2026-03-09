@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Make Faltings'' theorem effective: give an algorithm to find all rational points on curves of genus >= 2.'
+  canonical: 'Make Faltings'' theorem effective: give an algorithm to find all rational
+    points on curves of genus >= 2.'
 sources:
   canonical:
   - source_id: curated_effective_faltings_theorem
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

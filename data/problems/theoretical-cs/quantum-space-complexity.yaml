@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the power of quantum computation with restricted space? Is quantum logspace more powerful than classical
-    logspace?
+  canonical: What is the power of quantum computation with restricted space? Is quantum
+    logspace more powerful than classical logspace?
 sources:
   canonical:
   - source_id: src_watrous_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1006/jcss.1999.1655
   status_evidence:
   - source_id: src_watrous_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1006/jcss.1999.1655
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

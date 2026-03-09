@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can quantum computers provide a provable super-polynomial speedup for combinatorial optimization problems? No
-    unconditional separation is known.
+  canonical: Can quantum computers provide a provable super-polynomial speedup for
+    combinatorial optimization problems? No unconditional separation is known.
 sources:
   canonical:
   - source_id: src_farhi_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1411.4028
   status_evidence:
   - source_id: src_farhi_2014
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1411.4028
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

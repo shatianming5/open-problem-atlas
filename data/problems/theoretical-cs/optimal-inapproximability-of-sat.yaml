@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the optimal inapproximability ratio for MAX-3-SAT exactly 7/8, assuming P != NP? Hastad showed 7/8 + epsilon
-    is NP-hard; matching the algorithm remains open.
+  canonical: Is the optimal inapproximability ratio for MAX-3-SAT exactly 7/8, assuming
+    P != NP? Hastad showed 7/8 + epsilon is NP-hard; matching the algorithm remains
+    open.
 sources:
   canonical:
   - source_id: src_hastad_2001
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/502090.502098
   status_evidence:
   - source_id: src_hastad_2001
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/502090.502098
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

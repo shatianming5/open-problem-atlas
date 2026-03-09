@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that the planted clique problem in G(n, 1/2) requires super-polynomial time when the clique size is o(sqrt(n)).
+  canonical: Prove that the planted clique problem in G(n, 1/2) requires super-polynomial
+    time when the clique size is o(sqrt(n)).
 sources:
   canonical:
   - source_id: curated_planted_clique_computational_hardness
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

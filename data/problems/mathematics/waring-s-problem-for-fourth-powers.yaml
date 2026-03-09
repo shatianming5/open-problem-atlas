@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Determine the exact value of g(4) in Waring''s problem: every sufficiently large integer is a sum of at most
-    g(4) fourth powers.'
+  canonical: 'Determine the exact value of g(4) in Waring''s problem: every sufficiently
+    large integer is a sum of at most g(4) fourth powers.'
 sources:
   canonical:
   - source_id: curated_waring_s_problem_for_fourth_powers
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

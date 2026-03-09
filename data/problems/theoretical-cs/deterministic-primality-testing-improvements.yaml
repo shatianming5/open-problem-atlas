@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the AKS primality test be improved to run in O(log^3 n) or faster unconditionally?
+  canonical: Can the AKS primality test be improved to run in O(log^3 n) or faster
+    unconditionally?
 sources:
   canonical:
   - source_id: src_agrawal_kayal_saxena_2004
-    kind: website
+    kind: paper
     url: https://doi.org/10.4007/annals.2004.160.781
   status_evidence:
   - source_id: src_agrawal_kayal_saxena_2004
-    kind: website
+    kind: paper
     url: https://doi.org/10.4007/annals.2004.160.781
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

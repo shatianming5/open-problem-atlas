@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can strong entropic uncertainty relations be derived for complementary observables in quantum gravity settings,
-    connecting holography and quantum information?
+  canonical: Can strong entropic uncertainty relations be derived for complementary
+    observables in quantum gravity settings, connecting holography and quantum information?
 sources:
   canonical:
   - source_id: src_coles_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1511.04857
   status_evidence:
   - source_id: src_coles_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1511.04857
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

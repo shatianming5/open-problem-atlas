@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Why is the QCD vacuum angle theta approximately zero? Is the axion mechanism the correct resolution?
+  canonical: Why is the QCD vacuum angle theta approximately zero? Is the axion mechanism
+    the correct resolution?
 sources:
   canonical:
   - source_id: src_peccei_1977
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevLett.38.1440
   status_evidence:
   - source_id: src_peccei_1977
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevLett.38.1440
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine optimal algorithms for learning when a constant fraction of training data is adversarial.
+  canonical: Determine optimal algorithms for learning when a constant fraction of
+    training data is adversarial.
 sources:
   canonical:
   - source_id: curated_list_decodable_learning_theory
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

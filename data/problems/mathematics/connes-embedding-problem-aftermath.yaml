@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What new separations in operator algebra theory follow from the negative resolution of the Connes embedding problem
-    via MIP*=RE?
+  canonical: What new separations in operator algebra theory follow from the negative
+    resolution of the Connes embedding problem via MIP*=RE?
 sources:
   canonical:
   - source_id: src_ozawa_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.11507
   status_evidence:
   - source_id: src_ozawa_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.11507
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

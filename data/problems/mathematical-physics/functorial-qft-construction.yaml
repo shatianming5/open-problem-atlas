@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Construct examples of fully extended topological field theories classified by the cobordism hypothesis.
+  canonical: Construct examples of fully extended topological field theories classified
+    by the cobordism hypothesis.
 sources:
   canonical:
   - source_id: curated_functorial_qft_construction
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

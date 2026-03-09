@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Prove the hoop conjecture: a black hole forms when, and only when, a mass is compacted into a small enough region.'
+  canonical: 'Prove the hoop conjecture: a black hole forms when, and only when, a
+    mass is compacted into a small enough region.'
 sources:
   canonical:
   - source_id: curated_hoop_conjecture_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Classify all groups that are amenable, relating to the existence of finitely additive invariant measures.
+  canonical: Classify all groups that are amenable, relating to the existence of finitely
+    additive invariant measures.
 sources:
   canonical:
   - source_id: src_vonneumann_1929
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

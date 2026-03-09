@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Resolve the remaining homological conjectures including the Canonical Element Conjecture generalizations.
+  canonical: Resolve the remaining homological conjectures including the Canonical
+    Element Conjecture generalizations.
 sources:
   canonical:
   - source_id: curated_homological_conjectures_in_commutative_algebra_general
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

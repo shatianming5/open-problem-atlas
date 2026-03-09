@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Given an extension L/K of number fields with Galois group G/N, when can it be embedded in an extension M/K with
-    Galois group G?
+  canonical: Given an extension L/K of number fields with Galois group G/N, when can
+    it be embedded in an extension M/K with Galois group G?
 sources:
   canonical:
   - source_id: src_neukirch_1979
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

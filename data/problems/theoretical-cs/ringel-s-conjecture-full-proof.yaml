@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The complete graph K_{2n+1} can be decomposed into 2n+1 copies of any tree on n+1 vertices.
+  canonical: The complete graph K_{2n+1} can be decomposed into 2n+1 copies of any
+    tree on n+1 vertices.
 sources:
   canonical:
   - source_id: curated_ringel_s_conjecture_full_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

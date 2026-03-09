@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that the Tamagawa number of a simply connected semisimple algebraic group over a number field is 1.
+  canonical: Prove that the Tamagawa number of a simply connected semisimple algebraic
+    group over a number field is 1.
 sources:
   canonical:
   - source_id: curated_weil_s_conjecture_on_tamagawa_numbers
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

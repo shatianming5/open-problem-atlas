@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove compactness of the set of constant scalar curvature metrics in a conformal class for dimensions n >= 25.
+  canonical: Prove compactness of the set of constant scalar curvature metrics in
+    a conformal class for dimensions n >= 25.
 sources:
   canonical:
   - source_id: curated_schoen_s_conjecture_on_constant_scalar_curvature
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

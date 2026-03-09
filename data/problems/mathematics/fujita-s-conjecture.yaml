@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For a smooth projective variety X of dimension n with ample divisor L, the divisor K_X + mL is basepoint-free
-    for m >= n+1 and very ample for m >= n+2.
+  canonical: For a smooth projective variety X of dimension n with ample divisor L,
+    the divisor K_X + mL is basepoint-free for m >= n+1 and very ample for m >= n+2.
 sources:
   canonical:
   - source_id: src_fujita_1987
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

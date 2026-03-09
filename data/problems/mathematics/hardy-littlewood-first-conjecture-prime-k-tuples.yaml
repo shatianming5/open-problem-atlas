@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The density of prime k-tuples (e.g., twin primes, prime triplets) follows a specific asymptotic formula involving
-    a product over primes.
+  canonical: The density of prime k-tuples (e.g., twin primes, prime triplets) follows
+    a specific asymptotic formula involving a product over primes.
 sources:
   canonical:
   - source_id: src_hardy_1923
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

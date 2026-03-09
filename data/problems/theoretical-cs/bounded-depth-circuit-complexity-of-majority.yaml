@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the exact complexity of the majority function in bounded-depth circuits with unbounded fan-in (AC0)?
+  canonical: What is the exact complexity of the majority function in bounded-depth
+    circuits with unbounded fan-in (AC0)?
 sources:
   canonical:
   - source_id: src_hastad_1987
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/28395.28404
   status_evidence:
   - source_id: src_hastad_1987
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/28395.28404
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

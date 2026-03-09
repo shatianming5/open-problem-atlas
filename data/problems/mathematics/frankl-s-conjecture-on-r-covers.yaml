@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the maximum number of edges in a k-uniform hypergraph on n vertices with no r-cover of size less than
-    t.
+  canonical: Determine the maximum number of edges in a k-uniform hypergraph on n
+    vertices with no r-cover of size less than t.
 sources:
   canonical:
   - source_id: src_frankl_1995
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/0097-3165(95)90097-7
   status_evidence:
   - source_id: src_frankl_1995
-    kind: website
+    kind: paper
     url: https://doi.org/10.1016/0097-3165(95)90097-7
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

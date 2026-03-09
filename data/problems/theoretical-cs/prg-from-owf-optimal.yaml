@@ -1,122 +1,114 @@
 id: opa.tcs.cryptography.prg-from-owf-optimal
 kind: problem
-title: "Optimal Pseudorandom Generators from One-Way Functions"
+title: Optimal Pseudorandom Generators from One-Way Functions
 aliases:
-  - "PRG from OWF with optimal seed length"
-  - "HILL generator efficiency"
-
+- PRG from OWF with optimal seed length
+- HILL generator efficiency
+- Pseudorandom Generators from One-Way Functions
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - cryptography
-
+- cryptography
 problem_type: conjecture
 answer_type: bound
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: computational
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    Håstad, Impagliazzo, Levin, and Luby (1999) proved that pseudorandom generators
-    (PRGs) can be constructed from any one-way function. However, the construction
+  canonical: 'Håstad, Impagliazzo, Levin, and Luby (1999) proved that pseudorandom
+    generators (PRGs) can be constructed from any one-way function. However, the construction
     incurs a significant overhead in seed length. Can we construct PRGs from one-way
     functions with optimal (linear or near-linear) seed length and polynomial security
     loss?
-  informal: >
-    We know how to build pseudorandom generators from any one-way function, but the
-    known construction is very inefficient. Can we make it practical?
 
-why_it_matters: >
-  The HILL construction is one of the most fundamental results in cryptography but
-  the polynomial blowup in seed length limits its practical applicability. An optimal
-  construction would tighten the foundations of pseudorandomness.
+    '
+  informal: 'We know how to build pseudorandom generators from any one-way function,
+    but the known construction is very inefficient. Can we make it practical?
 
+    '
+why_it_matters: 'The HILL construction is one of the most fundamental results in cryptography
+  but the polynomial blowup in seed length limits its practical applicability. An
+  optimal construction would tighten the foundations of pseudorandomness.
+
+  '
 prerequisites:
-  - pseudorandom generators
-  - one-way functions
-  - computational entropy
-  - hardcore predicates
-
+- pseudorandom generators
+- one-way functions
+- computational entropy
+- hardcore predicates
 dates:
   first_stated: 1999
-
 sources:
   canonical:
-    - source_id: src_hill_1999
-      kind: paper
-      title: "A Pseudorandom Generator from Any One-Way Function"
-      authors:
-        - "Johan Håstad"
-        - "Russell Impagliazzo"
-        - "Leonid A. Levin"
-        - "Michael Luby"
-      url: "https://doi.org/10.1137/S0097539793244708"
-      year: 1999
-  status_evidence:
-    - source_id: src_vadhan_zheng_2012
-      kind: paper
-      title: "Characterizing Pseudoentropy and Simplifying Pseudorandom Generator Constructions"
-      authors:
-        - "Salil Vadhan"
-        - "Colin Jia Zheng"
-      url: "https://doi.org/10.1145/2213977.2214051"
-      year: 2012
-
-partial_results:
-  - summary: "HILL (1999) proved PRGs exist from any OWF, with seed length O(n^8) where n is the security parameter."
+  - source_id: src_hill_1999
+    kind: paper
+    title: A Pseudorandom Generator from Any One-Way Function
+    authors:
+    - Johan Håstad
+    - Russell Impagliazzo
+    - Leonid A. Levin
+    - Michael Luby
+    url: https://doi.org/10.1137/S0097539793244708
     year: 1999
-  - summary: "Vadhan and Zheng (2012) simplified the construction but did not significantly improve the seed length."
+  status_evidence:
+  - source_id: src_vadhan_zheng_2012
+    kind: paper
+    title: Characterizing Pseudoentropy and Simplifying Pseudorandom Generator Constructions
+    authors:
+    - Salil Vadhan
+    - Colin Jia Zheng
+    url: https://doi.org/10.1145/2213977.2214051
     year: 2012
-  - summary: "Haitner, Reingold, and Vadhan (2013) improved the construction but a large polynomial gap remains."
-    year: 2013
-
+partial_results:
+- summary: HILL (1999) proved PRGs exist from any OWF, with seed length O(n^8) where
+    n is the security parameter.
+  year: 1999
+- summary: Vadhan and Zheng (2012) simplified the construction but did not significantly
+    improve the seed length.
+  year: 2012
+- summary: Haitner, Reingold, and Vadhan (2013) improved the construction but a large
+    polynomial gap remains.
+  year: 2013
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.cryptography.existence-of-one-way-functions"
-    - "opa.tcs.cryptography.public-key-from-owf"
-
+  - opa.tcs.cryptography.existence-of-one-way-functions
+  - opa.tcs.cryptography.public-key-from-owf
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.75
   underexplored: 0.35
-  toolability: 0.30
+  toolability: 0.3
   formality: 0.85
-  ai_fit: 0.20
-
+  ai_fit: 0.2
 ai:
   solver_ready: false
   recommended_tools:
-    - lean
-
+  - lean
 machine_generated:
-  summary: >
-    Constructing pseudorandom generators from one-way functions with optimal seed
-    length is a fundamental efficiency question in the foundations of cryptography.
-  decomposition:
-    - "Reduce the seed length overhead in the HILL construction"
-    - "Prove lower bounds on the necessary seed length for black-box constructions"
-  disclaimer: unverified
+  summary: 'Constructing pseudorandom generators from one-way functions with optimal
+    seed length is a fundamental efficiency question in the foundations of cryptography.
 
+    '
+  decomposition:
+  - Reduce the seed length overhead in the HILL construction
+  - Prove lower bounds on the necessary seed length for black-box constructions
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

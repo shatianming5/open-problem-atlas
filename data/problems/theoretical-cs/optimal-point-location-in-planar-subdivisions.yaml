@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can point location queries in planar subdivisions be answered in O(log n) time with O(n) space using a simple
-    data structure?
+  canonical: Can point location queries in planar subdivisions be answered in O(log
+    n) time with O(n) space using a simple data structure?
 sources:
   canonical:
   - source_id: src_kirkpatrick_1983
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0212002
   status_evidence:
   - source_id: src_kirkpatrick_1983
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0212002
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

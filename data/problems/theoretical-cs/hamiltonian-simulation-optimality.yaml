@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the optimal gate complexity for simulating a general sparse Hamiltonian on a quantum computer?
+  canonical: What is the optimal gate complexity for simulating a general sparse Hamiltonian
+    on a quantum computer?
 sources:
   canonical:
   - source_id: src_berry_childs_kothari_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/FOCS.2015.54
   status_evidence:
   - source_id: src_berry_childs_kothari_2015
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/FOCS.2015.54
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

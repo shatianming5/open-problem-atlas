@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Construct non-malleable codes for arbitrary tampering families with optimal rate.
+  canonical: Construct non-malleable codes for arbitrary tampering families with optimal
+    rate.
 sources:
   canonical:
   - source_id: curated_non_malleable_codes_for_general_tampering
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

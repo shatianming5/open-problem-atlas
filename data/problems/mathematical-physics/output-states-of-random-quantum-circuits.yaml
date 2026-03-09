@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the output distribution of random quantum circuits be efficiently sampled classically to within constant
-    total variation distance? This is the core of quantum supremacy claims.
+  canonical: Can the output distribution of random quantum circuits be efficiently
+    sampled classically to within constant total variation distance? This is the core
+    of quantum supremacy claims.
 sources:
   canonical:
   - source_id: src_arute_2019
-    kind: website
+    kind: paper
     url: https://doi.org/10.1038/s41586-019-1666-5
   status_evidence:
   - source_id: src_arute_2019
-    kind: website
+    kind: paper
     url: https://doi.org/10.1038/s41586-019-1666-5
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

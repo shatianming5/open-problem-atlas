@@ -1,121 +1,114 @@
 id: opa.tcs.algorithms.dynamic-optimality-conjecture
 kind: problem
-title: "Dynamic Optimality Conjecture for Binary Search Trees"
+title: Dynamic Optimality Conjecture for Binary Search Trees
 aliases:
-  - "Splay tree optimality"
-  - "BST dynamic optimality"
-
+- Splay tree optimality
+- BST dynamic optimality
+- Dynamic Optimality for Binary Search Trees
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - algorithms
-
+- algorithms
 problem_type: conjecture
 answer_type: boolean
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: proof_assistant
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    The dynamic optimality conjecture (Sleator and Tarjan, 1985) states that splay
-    trees are O(1)-competitive with any offline binary search tree algorithm. That is,
-    for any sequence of accesses, the total cost of splay tree operations is at most
-    a constant factor times the cost of the optimal offline BST for that sequence.
-    Is this conjecture true?
-  informal: >
-    Is the splay tree always within a constant factor of the best possible binary
-    search tree for any access sequence, even compared to one that knows the future?
+  canonical: 'The dynamic optimality conjecture (Sleator and Tarjan, 1985) states
+    that splay trees are O(1)-competitive with any offline binary search tree algorithm.
+    That is, for any sequence of accesses, the total cost of splay tree operations
+    is at most a constant factor times the cost of the optimal offline BST for that
+    sequence. Is this conjecture true?
 
-why_it_matters: >
-  Dynamic optimality would establish splay trees as universally optimal BSTs, meaning
-  no other BST algorithm can do significantly better on any access pattern. This is one
-  of the most important open problems in data structures.
+    '
+  informal: 'Is the splay tree always within a constant factor of the best possible
+    binary search tree for any access sequence, even compared to one that knows the
+    future?
 
+    '
+why_it_matters: 'Dynamic optimality would establish splay trees as universally optimal
+  BSTs, meaning no other BST algorithm can do significantly better on any access pattern.
+  This is one of the most important open problems in data structures.
+
+  '
 prerequisites:
-  - binary search trees
-  - amortized analysis
-  - competitive analysis
-  - splay trees
-
+- binary search trees
+- amortized analysis
+- competitive analysis
+- splay trees
 dates:
   first_stated: 1985
-
 sources:
   canonical:
-    - source_id: src_sleator_tarjan_1985
-      kind: paper
-      title: "Self-Adjusting Binary Search Trees"
-      authors:
-        - "Daniel D. Sleator"
-        - "Robert E. Tarjan"
-      url: "https://doi.org/10.1145/3828.3835"
-      year: 1985
-  status_evidence:
-    - source_id: src_demaine_harmon_iacono_patrascu_2007
-      kind: paper
-      title: "Dynamic Optimality — Almost"
-      authors:
-        - "Erik D. Demaine"
-        - "Dion Harmon"
-        - "John Iacono"
-        - "Mihai Pătraşcu"
-      url: "https://doi.org/10.1137/090759392"
-      year: 2007
-
-partial_results:
-  - summary: "Sleator and Tarjan (1985) proved splay trees satisfy the static optimality theorem and many other access lemmas."
+  - source_id: src_sleator_tarjan_1985
+    kind: paper
+    title: Self-Adjusting Binary Search Trees
+    authors:
+    - Daniel D. Sleator
+    - Robert E. Tarjan
+    url: https://doi.org/10.1145/3828.3835
     year: 1985
-  - summary: "Demaine et al. (2007) constructed Tango trees achieving O(log log n)-competitive ratio, nearly matching the conjecture."
+  status_evidence:
+  - source_id: src_demaine_harmon_iacono_patrascu_2007
+    kind: paper
+    title: Dynamic Optimality — Almost
+    authors:
+    - Erik D. Demaine
+    - Dion Harmon
+    - John Iacono
+    - Mihai Pătraşcu
+    url: https://doi.org/10.1137/090759392
     year: 2007
-  - summary: "The conjecture remains open despite decades of effort; even O(log log n)-competitiveness was only achieved in 2004."
-    year: 2007
-
+partial_results:
+- summary: Sleator and Tarjan (1985) proved splay trees satisfy the static optimality
+    theorem and many other access lemmas.
+  year: 1985
+- summary: Demaine et al. (2007) constructed Tango trees achieving O(log log n)-competitive
+    ratio, nearly matching the conjecture.
+  year: 2007
+- summary: The conjecture remains open despite decades of effort; even O(log log n)-competitiveness
+    was only achieved in 2004.
+  year: 2007
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.algorithms.union-find-optimal"
-
+  - opa.tcs.algorithms.union-find-optimal
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
-  impact: 0.80
-  underexplored: 0.30
-  toolability: 0.40
+  impact: 0.8
+  underexplored: 0.3
+  toolability: 0.4
   formality: 0.85
   ai_fit: 0.25
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-
+  - python
 machine_generated:
-  summary: >
-    The dynamic optimality conjecture asks whether splay trees are O(1)-competitive
+  summary: 'The dynamic optimality conjecture asks whether splay trees are O(1)-competitive
     with any offline BST, making them universally optimal among BSTs.
-  decomposition:
-    - "Close the gap between O(log log n)-competitive and O(1)-competitive"
-    - "Develop better lower bound techniques for BST model"
-  disclaimer: unverified
 
+    '
+  decomposition:
+  - Close the gap between O(log log n)-competitive and O(1)-competitive
+  - Develop better lower bound techniques for BST model
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

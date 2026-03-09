@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the complete phase diagram of QCD at finite baryon density and temperature? The sign problem prevents
-    direct Monte Carlo simulation.
+  canonical: What is the complete phase diagram of QCD at finite baryon density and
+    temperature? The sign problem prevents direct Monte Carlo simulation.
 sources:
   canonical:
   - source_id: src_fukushima_2011
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1005.4814
   status_evidence:
   - source_id: src_fukushima_2011
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1005.4814
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

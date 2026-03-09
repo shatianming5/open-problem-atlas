@@ -1,121 +1,112 @@
 id: opa.tcs.algorithms.union-find-optimal
 kind: problem
-title: "Union-Find Optimal Bounds"
+title: Union-Find Optimal Bounds
 aliases:
-  - "Disjoint set union optimality"
-  - "Union-Find lower bound tightness"
-
+- Disjoint set union optimality
+- Union-Find lower bound tightness
+- Union-Find Lower Bound Tightness
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - algorithms
-
+- algorithms
 problem_type: open_question
 answer_type: bound
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: computational
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    The Union-Find (disjoint set) data structure supports union and find operations.
-    Tarjan (1975) showed that union by rank with path compression achieves O(alpha(n))
-    amortized time per operation, where alpha is the inverse Ackermann function.
-    Fredman and Saks (1989) proved an Omega(alpha(n)) lower bound in the cell probe
-    model. Is this tight in more restrictive but natural models? What are the optimal
-    bounds for concurrent and cache-oblivious variants?
-  informal: >
-    The union-find data structure is essentially optimal for the pointer machine model,
-    but what about for modern computing models that account for parallelism, caching,
-    and concurrency?
+  canonical: 'The Union-Find (disjoint set) data structure supports union and find
+    operations. Tarjan (1975) showed that union by rank with path compression achieves
+    O(alpha(n)) amortized time per operation, where alpha is the inverse Ackermann
+    function. Fredman and Saks (1989) proved an Omega(alpha(n)) lower bound in the
+    cell probe model. Is this tight in more restrictive but natural models? What are
+    the optimal bounds for concurrent and cache-oblivious variants?
 
-why_it_matters: >
-  Union-Find is one of the most important data structures in computer science, used
-  in algorithms for minimum spanning trees, connected components, and equivalence
-  classes. Understanding its optimal performance in modern computational models
-  has practical significance.
+    '
+  informal: 'The union-find data structure is essentially optimal for the pointer
+    machine model, but what about for modern computing models that account for parallelism,
+    caching, and concurrency?
 
+    '
+why_it_matters: 'Union-Find is one of the most important data structures in computer
+  science, used in algorithms for minimum spanning trees, connected components, and
+  equivalence classes. Understanding its optimal performance in modern computational
+  models has practical significance.
+
+  '
 prerequisites:
-  - disjoint set data structures
-  - inverse Ackermann function
-  - cell probe model
-  - amortized analysis
-
+- disjoint set data structures
+- inverse Ackermann function
+- cell probe model
+- amortized analysis
 dates:
   first_stated: 1989
-
 sources:
   canonical:
-    - source_id: src_tarjan_1975
-      kind: paper
-      title: "Efficiency of a Good but not Linear Set Union Algorithm"
-      authors:
-        - "Robert E. Tarjan"
-      url: "https://doi.org/10.1145/321879.321884"
-      year: 1975
-  status_evidence:
-    - source_id: src_fredman_saks_1989
-      kind: paper
-      title: "The Cell Probe Complexity of Dynamic Data Structures"
-      authors:
-        - "Michael Fredman"
-        - "Michael Saks"
-      url: "https://doi.org/10.1145/73007.73040"
-      year: 1989
-
-partial_results:
-  - summary: "Tarjan (1975) showed O(alpha(n)) amortized time per operation using union by rank and path compression."
+  - source_id: src_tarjan_1975
+    kind: paper
+    title: Efficiency of a Good but not Linear Set Union Algorithm
+    authors:
+    - Robert E. Tarjan
+    url: https://doi.org/10.1145/321879.321884
     year: 1975
-  - summary: "Fredman and Saks (1989) proved matching Omega(alpha(n)) lower bound in the cell probe model."
+  status_evidence:
+  - source_id: src_fredman_saks_1989
+    kind: paper
+    title: The Cell Probe Complexity of Dynamic Data Structures
+    authors:
+    - Michael Fredman
+    - Michael Saks
+    url: https://doi.org/10.1145/73007.73040
     year: 1989
-  - summary: "Optimal bounds for concurrent and distributed union-find remain open."
-    year: 2019
-
+partial_results:
+- summary: Tarjan (1975) showed O(alpha(n)) amortized time per operation using union
+    by rank and path compression.
+  year: 1975
+- summary: Fredman and Saks (1989) proved matching Omega(alpha(n)) lower bound in
+    the cell probe model.
+  year: 1989
+- summary: Optimal bounds for concurrent and distributed union-find remain open.
+  year: 2019
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.algorithms.dynamic-optimality-conjecture"
-
+  - opa.tcs.algorithms.dynamic-optimality-conjecture
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
-  impact: 0.60
-  underexplored: 0.40
-  toolability: 0.40
-  formality: 0.90
+  impact: 0.6
+  underexplored: 0.4
+  toolability: 0.4
+  formality: 0.9
   ai_fit: 0.25
-
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-
+  - python
 machine_generated:
-  summary: >
-    While the classical Union-Find problem is essentially solved, optimal bounds for
-    concurrent, cache-oblivious, and distributed variants remain open.
-  decomposition:
-    - "Determine optimal bounds for concurrent union-find"
-    - "Analyze union-find in cache-oblivious and external memory models"
-  disclaimer: unverified
+  summary: 'While the classical Union-Find problem is essentially solved, optimal
+    bounds for concurrent, cache-oblivious, and distributed variants remain open.
 
+    '
+  decomposition:
+  - Determine optimal bounds for concurrent union-find
+  - Analyze union-find in cache-oblivious and external memory models
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

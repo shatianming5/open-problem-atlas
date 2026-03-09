@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Develop the theory of higher categories as applied to algebraic topology and geometry.
+  canonical: Develop the theory of higher categories as applied to algebraic topology
+    and geometry.
 sources:
   canonical:
   - source_id: curated_higher_categorical_structures_in_algebra
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

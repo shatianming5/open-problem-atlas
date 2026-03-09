@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If f is a conformal map on the unit disk, then f' is in L^p for all p < 4/3 + epsilon.
+  canonical: If f is a conformal map on the unit disk, then f' is in L^p for all p
+    < 4/3 + epsilon.
 sources:
   canonical:
   - source_id: curated_brennan_s_conjecture_analysis_form
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

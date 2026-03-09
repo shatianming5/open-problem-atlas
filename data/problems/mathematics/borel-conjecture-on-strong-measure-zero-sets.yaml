@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every strong measure zero set of reals is countable. This is independent of ZFC but remains open under additional
-    axioms.
+  canonical: Every strong measure zero set of reals is countable. This is independent
+    of ZFC but remains open under additional axioms.
 sources:
   canonical:
   - source_id: src_borel_1919
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can Voronoi diagrams in R^d be computed in output-sensitive optimal time for d >= 3?
+  canonical: Can Voronoi diagrams in R^d be computed in output-sensitive optimal time
+    for d >= 3?
 sources:
   canonical:
   - source_id: src_chan_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/s004540010013
   status_evidence:
   - source_id: src_chan_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/s004540010013
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

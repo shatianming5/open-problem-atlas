@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is pi normal in base 10, meaning every finite digit string appears with equal limiting frequency? No irrational
-    algebraic or natural constant has been proved normal.
+  canonical: Is pi normal in base 10, meaning every finite digit string appears with
+    equal limiting frequency? No irrational algebraic or natural constant has been
+    proved normal.
 sources:
   canonical:
   - source_id: src_bailey_2020
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

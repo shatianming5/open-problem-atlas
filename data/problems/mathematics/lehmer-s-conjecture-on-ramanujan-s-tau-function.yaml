@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Prove that Ramanujan''s tau function never vanishes: tau(n) is nonzero for all n.'
+  canonical: 'Prove that Ramanujan''s tau function never vanishes: tau(n) is nonzero
+    for all n.'
 sources:
   canonical:
   - source_id: curated_lehmer_s_conjecture_on_ramanujan_s_tau_function
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

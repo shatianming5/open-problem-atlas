@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine optimal Lieb-Robinson bounds for information propagation in quantum lattice systems.
+  canonical: Determine optimal Lieb-Robinson bounds for information propagation in
+    quantum lattice systems.
 sources:
   canonical:
   - source_id: curated_lieb_robinson_bounds_optimal
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

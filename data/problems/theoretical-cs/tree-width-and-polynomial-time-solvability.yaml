@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is there a polynomial-time algorithm for testing if a graph has tree-width at most k for every fixed k, running
-    in time O(n^{f(k)}) for some explicit f?
+  canonical: Is there a polynomial-time algorithm for testing if a graph has tree-width
+    at most k for every fixed k, running in time O(n^{f(k)}) for some explicit f?
 sources:
   canonical:
   - source_id: src_bodlaender_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2001.07458
   status_evidence:
   - source_id: src_bodlaender_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2001.07458
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

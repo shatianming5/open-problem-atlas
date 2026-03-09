@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Develop a systematic theory of non-Fermi liquid behavior in strongly correlated electron systems.
+  canonical: Develop a systematic theory of non-Fermi liquid behavior in strongly
+    correlated electron systems.
 sources:
   canonical:
   - source_id: curated_non_fermi_liquid_theory_foundation
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

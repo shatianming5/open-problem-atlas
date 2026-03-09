@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the conjecture that any set of packet routing requests can be scheduled in time proportional to congestion
-    plus dilation.
+  canonical: Prove the conjecture that any set of packet routing requests can be scheduled
+    in time proportional to congestion plus dilation.
 sources:
   canonical:
   - source_id: curated_congestion_plus_dilation_conjecture
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

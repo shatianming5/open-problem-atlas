@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Develop homotopy type theory as a complete alternative foundation for mathematics.
+  canonical: Develop homotopy type theory as a complete alternative foundation for
+    mathematics.
 sources:
   canonical:
   - source_id: curated_homotopy_type_theory_foundations
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

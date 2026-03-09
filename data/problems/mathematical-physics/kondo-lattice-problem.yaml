@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the ground state of the Kondo lattice model be determined in two and three dimensions, and does it explain
-    heavy fermion quantum criticality?
+  canonical: Can the ground state of the Kondo lattice model be determined in two
+    and three dimensions, and does it explain heavy fermion quantum criticality?
 sources:
   canonical:
   - source_id: src_coleman_2007
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0709.0163
   status_evidence:
   - source_id: src_coleman_2007
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0709.0163
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the optimal communication complexity of zero-knowledge proofs for NP.
+  canonical: Determine the optimal communication complexity of zero-knowledge proofs
+    for NP.
 sources:
   canonical:
   - source_id: curated_optimal_zero_knowledge_proofs
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

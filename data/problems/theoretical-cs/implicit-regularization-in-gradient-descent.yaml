@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Rigorously characterize the implicit regularization of gradient descent for overparameterized models.
+  canonical: Rigorously characterize the implicit regularization of gradient descent
+    for overparameterized models.
 sources:
   canonical:
   - source_id: curated_implicit_regularization_in_gradient_descent
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

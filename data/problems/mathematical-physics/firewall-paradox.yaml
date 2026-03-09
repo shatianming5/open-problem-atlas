@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Must an observer falling into an old black hole encounter a firewall at the event horizon, in apparent contradiction
-    with the equivalence principle?
+  canonical: Must an observer falling into an old black hole encounter a firewall
+    at the event horizon, in apparent contradiction with the equivalence principle?
 sources:
   canonical:
   - source_id: src_almheiri_2013
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1207.3123
   status_evidence:
   - source_id: src_almheiri_2013
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1207.3123
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

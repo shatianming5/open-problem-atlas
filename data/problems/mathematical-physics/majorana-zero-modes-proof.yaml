@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Rigorously prove the existence of Majorana zero modes in solid-state systems.
+  canonical: Rigorously prove the existence of Majorana zero modes in solid-state
+    systems.
 sources:
   canonical:
   - source_id: curated_majorana_zero_modes_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

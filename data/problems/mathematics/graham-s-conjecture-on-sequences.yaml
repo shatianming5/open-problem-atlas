@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove Graham's conjecture that every sequence with sum exceeding 1 contains a subsequence with sum close to 1.
+  canonical: Prove Graham's conjecture that every sequence with sum exceeding 1 contains
+    a subsequence with sum close to 1.
 sources:
   canonical:
   - source_id: curated_graham_s_conjecture_on_sequences
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

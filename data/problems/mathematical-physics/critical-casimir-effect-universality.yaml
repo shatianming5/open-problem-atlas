@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Are the universal scaling functions for critical Casimir forces fully determined for all boundary condition combinations
-    and geometries?
+  canonical: Are the universal scaling functions for critical Casimir forces fully
+    determined for all boundary condition combinations and geometries?
 sources:
   canonical:
   - source_id: src_gambassi_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0812.0935
   status_evidence:
   - source_id: src_gambassi_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0812.0935
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

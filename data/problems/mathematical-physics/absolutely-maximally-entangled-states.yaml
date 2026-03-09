@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the existence of absolutely maximally entangled states for all numbers of parties.
+  canonical: Determine the existence of absolutely maximally entangled states for
+    all numbers of parties.
 sources:
   canonical:
   - source_id: curated_absolutely_maximally_entangled_states
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

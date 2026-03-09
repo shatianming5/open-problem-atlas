@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Following the recent proof by Gowers, Green, Manners, and Tao, what are the optimal quantitative bounds in the
-    Polynomial Freiman-Ruzsa conjecture over F_2^n?
+  canonical: Following the recent proof by Gowers, Green, Manners, and Tao, what are
+    the optimal quantitative bounds in the Polynomial Freiman-Ruzsa conjecture over
+    F_2^n?
 sources:
   canonical:
   - source_id: src_gowers_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2311.05762
   status_evidence:
   - source_id: src_gowers_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2311.05762
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

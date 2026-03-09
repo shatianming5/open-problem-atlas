@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every graph on three or more vertices is uniquely determined (up to isomorphism) by its multiset of vertex-deleted
-    subgraphs.
+  canonical: Every graph on three or more vertices is uniquely determined (up to isomorphism)
+    by its multiset of vertex-deleted subgraphs.
 sources:
   canonical:
   - source_id: src_kelly_1957
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

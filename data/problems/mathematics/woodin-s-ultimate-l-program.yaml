@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Complete Woodin's program showing that the inner model Ultimate L satisfies CH and is compatible with all large
-    cardinals.
+  canonical: Complete Woodin's program showing that the inner model Ultimate L satisfies
+    CH and is compatible with all large cardinals.
 sources:
   canonical:
   - source_id: curated_woodin_s_ultimate_l_program
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -1,127 +1,120 @@
 id: opa.tcs.cryptography.indistinguishability-obfuscation
 kind: problem
-title: "Indistinguishability Obfuscation from Standard Assumptions"
+title: Indistinguishability Obfuscation from Standard Assumptions
 aliases:
-  - "iO from standard assumptions"
-  - "Program obfuscation"
-
+- iO from standard assumptions
+- Program obfuscation
+- Obfuscation from Standard Assumptions
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - cryptography
-
+- cryptography
 problem_type: conjecture
 answer_type: existential
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: expert_review
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: >
-    Indistinguishability obfuscation (iO) transforms a program into an equivalent but
-    "unintelligible" program such that obfuscations of any two functionally equivalent
+  canonical: 'Indistinguishability obfuscation (iO) transforms a program into an equivalent
+    but "unintelligible" program such that obfuscations of any two functionally equivalent
     programs are computationally indistinguishable. Can iO be constructed from well-studied,
     standard cryptographic assumptions (e.g., LWE, DDH) without relying on new or
     poorly understood assumptions?
-  informal: >
-    Can we make computer programs unreadable while preserving their functionality,
-    based on well-understood mathematical assumptions? Current constructions rely on
-    novel assumptions whose security is less well understood.
 
-why_it_matters: >
-  iO is often called the "master tool" of cryptography because it implies almost all
-  other cryptographic primitives. Jain, Lin, and Sahai (2021) constructed iO from
-  sub-exponential hardness of well-studied assumptions, but whether standard (polynomial)
-  hardness suffices remains open.
+    '
+  informal: 'Can we make computer programs unreadable while preserving their functionality,
+    based on well-understood mathematical assumptions? Current constructions rely
+    on novel assumptions whose security is less well understood.
 
+    '
+why_it_matters: 'iO is often called the "master tool" of cryptography because it implies
+  almost all other cryptographic primitives. Jain, Lin, and Sahai (2021) constructed
+  iO from sub-exponential hardness of well-studied assumptions, but whether standard
+  (polynomial) hardness suffices remains open.
+
+  '
 prerequisites:
-  - indistinguishability obfuscation
-  - multilinear maps
-  - learning with errors
-  - functional encryption
-
+- indistinguishability obfuscation
+- multilinear maps
+- learning with errors
+- functional encryption
 dates:
   first_stated: 2013
-
 sources:
   canonical:
-    - source_id: src_garg_gentry_halevi_raykova_sahai_waters_2013
-      kind: paper
-      title: "Candidate Indistinguishability Obfuscation and Functional Encryption for All Circuits"
-      authors:
-        - "Sanjam Garg"
-        - "Craig Gentry"
-        - "Shai Halevi"
-        - "Mariana Raykova"
-        - "Amit Sahai"
-        - "Brent Waters"
-      url: "https://doi.org/10.1109/FOCS.2013.13"
-      year: 2013
-  status_evidence:
-    - source_id: src_jain_lin_sahai_2021
-      kind: paper
-      title: "Indistinguishability Obfuscation from Well-Founded Assumptions"
-      authors:
-        - "Aayush Jain"
-        - "Huijia Lin"
-        - "Amit Sahai"
-      url: "https://doi.org/10.1145/3406325.3451093"
-      year: 2021
-
-partial_results:
-  - summary: "Garg et al. (2013) gave the first candidate iO construction based on multilinear maps."
+  - source_id: src_garg_gentry_halevi_raykova_sahai_waters_2013
+    kind: paper
+    title: Candidate Indistinguishability Obfuscation and Functional Encryption for
+      All Circuits
+    authors:
+    - Sanjam Garg
+    - Craig Gentry
+    - Shai Halevi
+    - Mariana Raykova
+    - Amit Sahai
+    - Brent Waters
+    url: https://doi.org/10.1109/FOCS.2013.13
     year: 2013
-  - summary: "Jain, Lin, and Sahai (2021) constructed iO from sub-exponential LWE + SXDH + assumptions on pseudorandom generators."
+  status_evidence:
+  - source_id: src_jain_lin_sahai_2021
+    kind: paper
+    title: Indistinguishability Obfuscation from Well-Founded Assumptions
+    authors:
+    - Aayush Jain
+    - Huijia Lin
+    - Amit Sahai
+    url: https://doi.org/10.1145/3406325.3451093
     year: 2021
-  - summary: "Whether polynomial-security assumptions suffice, and whether the reliance on new PRG assumptions can be removed, remains open."
-    year: 2021
-
+partial_results:
+- summary: Garg et al. (2013) gave the first candidate iO construction based on multilinear
+    maps.
+  year: 2013
+- summary: Jain, Lin, and Sahai (2021) constructed iO from sub-exponential LWE + SXDH
+    + assumptions on pseudorandom generators.
+  year: 2021
+- summary: Whether polynomial-security assumptions suffice, and whether the reliance
+    on new PRG assumptions can be removed, remains open.
+  year: 2021
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.cryptography.public-key-from-owf"
-    - "opa.tcs.cryptography.homomorphic-encryption-efficiency"
-
+  - opa.tcs.cryptography.public-key-from-owf
+  - opa.tcs.cryptography.homomorphic-encryption-efficiency
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.95
   underexplored: 0.25
-  toolability: 0.20
+  toolability: 0.2
   formality: 0.85
   ai_fit: 0.15
-
 ai:
   solver_ready: false
   recommended_tools:
-    - lean
-
+  - lean
 machine_generated:
-  summary: >
-    Constructing indistinguishability obfuscation from purely standard polynomial-hardness
+  summary: 'Constructing indistinguishability obfuscation from purely standard polynomial-hardness
     assumptions is one of the most important open problems in cryptography.
-  decomposition:
-    - "Remove the need for sub-exponential hardness in iO constructions"
-    - "Base iO on standard LWE without additional assumptions"
-  disclaimer: unverified
 
+    '
+  decomposition:
+  - Remove the need for sub-exponential hardness in iO constructions
+  - Base iO on standard LWE without additional assumptions
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

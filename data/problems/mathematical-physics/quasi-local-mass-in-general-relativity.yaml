@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is there a unique, physically satisfactory definition of quasi-local mass in general relativity?
+  canonical: Is there a unique, physically satisfactory definition of quasi-local
+    mass in general relativity?
 sources:
   canonical:
   - source_id: src_szabados_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.12942/lrr-2009-4
   status_evidence:
   - source_id: src_szabados_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.12942/lrr-2009-4
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

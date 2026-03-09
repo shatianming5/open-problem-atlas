@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend the proof of Macdonald positivity (proven for type A by Haiman) to all Lie types.
+  canonical: Extend the proof of Macdonald positivity (proven for type A by Haiman)
+    to all Lie types.
 sources:
   canonical:
   - source_id: src_haiman_2001
-    kind: website
+    kind: paper
     url: https://doi.org/10.1090/S0894-0347-01-00373-3
   status_evidence:
   - source_id: src_haiman_2001
-    kind: website
+    kind: paper
     url: https://doi.org/10.1090/S0894-0347-01-00373-3
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the Newtonian N-body problem with generic masses always have infinitely many periodic orbits?
+  canonical: Does the Newtonian N-body problem with generic masses always have infinitely
+    many periodic orbits?
 sources:
   canonical:
   - source_id: src_montgomery_2001
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the maximum number of unit distances among n points in the plane? The conjectured bound is O(n^{1+epsilon})
-    for all epsilon > 0.
+  canonical: What is the maximum number of unit distances among n points in the plane?
+    The conjectured bound is O(n^{1+epsilon}) for all epsilon > 0.
 sources:
   canonical:
   - source_id: src_spencer_szemeredi_trotter_1984
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4613-8200-3_9
   status_evidence:
   - source_id: src_spencer_szemeredi_trotter_1984
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-1-4613-8200-3_9
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

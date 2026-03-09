@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Polymath15 results on upper tails of subgraph counts in random graphs be made tight for all graphs H?
+  canonical: Can the Polymath15 results on upper tails of subgraph counts in random
+    graphs be made tight for all graphs H?
 sources:
   canonical:
   - source_id: src_polymath15_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2103.09424
   status_evidence:
   - source_id: src_polymath15_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2103.09424
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the polynomial n^2 + n + 41 take infinitely many prime values? This is a specific case of the Bunyakovsky
-    conjecture.
+  canonical: Does the polynomial n^2 + n + 41 take infinitely many prime values? This
+    is a specific case of the Bunyakovsky conjecture.
 sources:
   canonical:
   - source_id: src_mollin_1997
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

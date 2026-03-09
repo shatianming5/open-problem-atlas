@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'For a fibration f: X -> Y of smooth projective varieties, the Kodaira dimension satisfies kappa(X) >= kappa(Y)
-    + kappa(F) where F is a general fiber.'
+  canonical: 'For a fibration f: X -> Y of smooth projective varieties, the Kodaira
+    dimension satisfies kappa(X) >= kappa(Y) + kappa(F) where F is a general fiber.'
 sources:
   canonical:
   - source_id: src_iitaka_1970
@@ -30,3 +30,7 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+aliases:
+- Iitaka Conjecture (Full)
+problem_type: open_question
+answer_type: boolean

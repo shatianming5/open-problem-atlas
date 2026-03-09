@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the Maldacena-Shenker-Stanford bound on quantum Lyapunov exponents for general systems.
+  canonical: Prove the Maldacena-Shenker-Stanford bound on quantum Lyapunov exponents
+    for general systems.
 sources:
   canonical:
   - source_id: curated_quantum_lyapunov_exponent_bound
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

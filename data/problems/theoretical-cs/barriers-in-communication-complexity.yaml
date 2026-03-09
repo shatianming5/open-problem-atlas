@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can new techniques beyond discrepancy and corruption break through current communication complexity lower bound
-    barriers for natural problems?
+  canonical: Can new techniques beyond discrepancy and corruption break through current
+    communication complexity lower bound barriers for natural problems?
 sources:
   canonical:
   - source_id: src_goos_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2309.12949
   status_evidence:
   - source_id: src_goos_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2309.12949
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

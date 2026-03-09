@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the precise circuit complexity of NEXP? Is NEXP contained in TC0 or does it require circuits beyond ACC0?
+  canonical: What is the precise circuit complexity of NEXP? Is NEXP contained in
+    TC0 or does it require circuits beyond ACC0?
 sources:
   canonical:
   - source_id: src_williams_2014
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/2559903
   status_evidence:
   - source_id: src_williams_2014
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/2559903
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -1,119 +1,111 @@
 id: opa.tcs.computational-geometry.range-searching-lower-bounds
 kind: problem
-title: "Range Searching Lower Bounds"
+title: Range Searching Lower Bounds
 aliases:
-  - "Simplex range searching complexity"
-  - "Halfspace range counting"
-
+- Simplex range searching complexity
+- Halfspace range counting
+- Range Searching Lower Bounds in Higher Dimensions
 status:
   label: open
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: '2026-03-01'
   review_state: human_verified
-  reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
-
+  reviewer: OpenProblemAtlas
+  stale_after: '2027-03-01'
 domain: theoretical-cs
 subdomains:
-  - computational-geometry
-
+- computational-geometry
 problem_type: conjecture
 answer_type: bound
 verification_mode: proof
-
-
 verification_profile:
   statement_precision: high
   solution_checkability: computational
   machine_actionability: medium
 tier: tier_1
 statement:
-  canonical: >
-    In range searching, we preprocess n points in R^d to answer queries asking how
-    many points lie inside a given geometric range (halfspace, simplex, box, etc.).
-    What are tight lower bounds for the space-query time tradeoff? For simplex range
-    searching in d >= 3 dimensions, is the known O(n/sqrt(m)) query time with O(m)
-    space (for m >= n) tight? Can we prove matching lower bounds?
-  informal: >
-    How efficiently can we count points inside geometric shapes after preprocessing?
-    We have good algorithms, but proving they cannot be improved requires lower
-    bounds that are largely missing.
+  canonical: 'In range searching, we preprocess n points in R^d to answer queries
+    asking how many points lie inside a given geometric range (halfspace, simplex,
+    box, etc.). What are tight lower bounds for the space-query time tradeoff? For
+    simplex range searching in d >= 3 dimensions, is the known O(n/sqrt(m)) query
+    time with O(m) space (for m >= n) tight? Can we prove matching lower bounds?
 
-why_it_matters: >
-  Range searching is fundamental to computational geometry, databases, and geographic
-  information systems. Establishing tight lower bounds would determine whether current
-  algorithms are optimal or can be improved.
+    '
+  informal: 'How efficiently can we count points inside geometric shapes after preprocessing?
+    We have good algorithms, but proving they cannot be improved requires lower bounds
+    that are largely missing.
 
+    '
+why_it_matters: 'Range searching is fundamental to computational geometry, databases,
+  and geographic information systems. Establishing tight lower bounds would determine
+  whether current algorithms are optimal or can be improved.
+
+  '
 prerequisites:
-  - computational geometry
-  - data structure lower bounds
-  - partition trees
-  - cuttings
-
+- computational geometry
+- data structure lower bounds
+- partition trees
+- cuttings
 dates:
   first_stated: 1993
-
 sources:
   canonical:
-    - source_id: src_chazelle_1993
-      kind: paper
-      title: "Lower Bounds on the Complexity of Polytope Range Searching"
-      authors:
-        - "Bernard Chazelle"
-      url: "https://doi.org/10.1090/S0894-0347-1993-1169044-7"
-      year: 1993
-  status_evidence:
-    - source_id: src_matousek_2002
-      kind: textbook
-      title: "Lectures on Discrete Geometry"
-      authors:
-        - "Jiří Matoušek"
-      url: "https://doi.org/10.1007/978-1-4613-0039-7"
-      year: 2002
-
-partial_results:
-  - summary: "Chazelle (1993) proved Omega(n^(1-1/d) / log^(O(1)) n) lower bounds for simplex range searching with linear space."
+  - source_id: src_chazelle_1993
+    kind: paper
+    title: Lower Bounds on the Complexity of Polytope Range Searching
+    authors:
+    - Bernard Chazelle
+    url: https://doi.org/10.1090/S0894-0347-1993-1169044-7
     year: 1993
-  - summary: "For halfspace range counting in 3D, the best upper bound is O(n/sqrt(m)) with space O(m), and matching lower bounds are unknown."
+  status_evidence:
+  - source_id: src_matousek_2002
+    kind: textbook
+    title: Lectures on Discrete Geometry
+    authors:
+    - Jiří Matoušek
+    url: https://doi.org/10.1007/978-1-4613-0039-7
     year: 2002
-  - summary: "In the semigroup model, tight bounds are known for some variants but not for simplex range searching."
-    year: 2002
-
+partial_results:
+- summary: Chazelle (1993) proved Omega(n^(1-1/d) / log^(O(1)) n) lower bounds for
+    simplex range searching with linear space.
+  year: 1993
+- summary: For halfspace range counting in 3D, the best upper bound is O(n/sqrt(m))
+    with space O(m), and matching lower bounds are unknown.
+  year: 2002
+- summary: In the semigroup model, tight bounds are known for some variants but not
+    for simplex range searching.
+  year: 2002
 relations:
   equivalent_to: []
   generalizes: []
   special_cases: []
   related:
-    - "opa.tcs.computational-geometry.minimum-enclosing-ball"
-    - "opa.tcs.algorithms.nearest-neighbor-high-dim"
-
+  - opa.tcs.computational-geometry.minimum-enclosing-ball
+  - opa.tcs.algorithms.nearest-neighbor-high-dim
 formalization:
   available: false
   wanted: true
   systems: []
-
 scores:
   impact: 0.65
-  underexplored: 0.40
+  underexplored: 0.4
   toolability: 0.35
   formality: 0.85
-  ai_fit: 0.20
-
+  ai_fit: 0.2
 ai:
   solver_ready: false
   recommended_tools:
-    - python
-
+  - python
 machine_generated:
-  summary: >
-    Proving tight lower bounds for range searching data structures, especially
+  summary: 'Proving tight lower bounds for range searching data structures, especially
     simplex range searching, is a major open problem in computational geometry.
-  decomposition:
-    - "Prove tight space-query time tradeoff lower bounds for simplex range searching"
-    - "Extend lower bounds to dynamic and high-dimensional settings"
-  disclaimer: unverified
 
+    '
+  decomposition:
+  - Prove tight space-query time tradeoff lower bounds for simplex range searching
+  - Extend lower bounds to dynamic and high-dimensional settings
+  disclaimer: unverified
 provenance:
   created_from: manual_curation
-  parser_version: "0.3.1"
-  schema_version: "1.0.0"
+  parser_version: 0.3.1
+  schema_version: 1.0.0

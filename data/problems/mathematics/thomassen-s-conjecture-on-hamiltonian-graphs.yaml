@@ -29,3 +29,7 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+aliases:
+- Thomassen's Conjecture on Hamiltonian 4-Connected Graphs
+problem_type: open_question
+answer_type: boolean

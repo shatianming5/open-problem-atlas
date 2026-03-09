@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For an ample line bundle L on an n-dimensional variety, K_X + (n+2)L is very ample.
+  canonical: For an ample line bundle L on an n-dimensional variety, K_X + (n+2)L
+    is very ample.
 sources:
   canonical:
   - source_id: curated_fujita_conjecture_full
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

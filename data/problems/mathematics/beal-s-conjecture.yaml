@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: If a^x + b^y = c^z where a,b,c,x,y,z are positive integers with x,y,z > 2, then a,b,c share a common prime factor.
+  canonical: If a^x + b^y = c^z where a,b,c,x,y,z are positive integers with x,y,z
+    > 2, then a,b,c share a common prime factor.
 sources:
   canonical:
   - source_id: curated_beal_s_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

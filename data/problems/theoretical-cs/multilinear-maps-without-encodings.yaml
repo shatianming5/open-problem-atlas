@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can cryptographic multilinear maps be constructed without vulnerabilities to zeroizing attacks?
+  canonical: Can cryptographic multilinear maps be constructed without vulnerabilities
+    to zeroizing attacks?
 sources:
   canonical:
   - source_id: src_garg_gentry_halevi_2013
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-642-38348-9_1
   status_evidence:
   - source_id: src_garg_gentry_halevi_2013
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-642-38348-9_1
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

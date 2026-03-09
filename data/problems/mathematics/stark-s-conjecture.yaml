@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The leading term of the Taylor expansion of an Artin L-function at s=0 is given by a Stark unit.
+  canonical: The leading term of the Taylor expansion of an Artin L-function at s=0
+    is given by a Stark unit.
 sources:
   canonical:
   - source_id: curated_stark_s_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

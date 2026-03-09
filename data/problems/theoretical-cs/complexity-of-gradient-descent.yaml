@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is gradient descent on non-convex functions PPAD-complete in general, or are there natural classes of functions
-    where it converges in polynomial time?
+  canonical: Is gradient descent on non-convex functions PPAD-complete in general,
+    or are there natural classes of functions where it converges in polynomial time?
 sources:
   canonical:
   - source_id: src_daskalakis_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.06025
   status_evidence:
   - source_id: src_daskalakis_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2209.06025
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

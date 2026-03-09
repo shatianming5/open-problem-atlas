@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the Turan number ex(n, K_4^3) for the complete 3-uniform hypergraph on 4 vertices.
+  canonical: Determine the Turan number ex(n, K_4^3) for the complete 3-uniform hypergraph
+    on 4 vertices.
 sources:
   canonical:
   - source_id: curated_turan_problem_for_hypergraphs
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

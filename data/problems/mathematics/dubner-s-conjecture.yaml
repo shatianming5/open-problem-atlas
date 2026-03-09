@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For every k >= 1, there exist infinitely many primes that are repunits in base k.
+  canonical: For every k >= 1, there exist infinitely many primes that are repunits
+    in base k.
 sources:
   canonical:
   - source_id: curated_dubner_s_conjecture
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

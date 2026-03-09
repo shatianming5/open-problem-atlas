@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every planar graph has a straight-line drawing in which all edge lengths are integers.
+  canonical: Every planar graph has a straight-line drawing in which all edge lengths
+    are integers.
 sources:
   canonical:
   - source_id: src_harborth_1975
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

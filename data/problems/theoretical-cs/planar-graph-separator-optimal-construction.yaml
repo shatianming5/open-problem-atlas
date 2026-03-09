@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can planar graph separators of optimal size O(sqrt(n)) be constructed in linear time with best constants?
+  canonical: Can planar graph separators of optimal size O(sqrt(n)) be constructed
+    in linear time with best constants?
 sources:
   canonical:
   - source_id: src_lipton_tarjan_1979
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0136016
   status_evidence:
   - source_id: src_lipton_tarjan_1979
-    kind: website
+    kind: paper
     url: https://doi.org/10.1137/0136016
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

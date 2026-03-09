@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can non-abelian anyons be realized and manipulated for universal topological quantum computation?
+  canonical: Can non-abelian anyons be realized and manipulated for universal topological
+    quantum computation?
 sources:
   canonical:
   - source_id: src_freedman_kitaev_wang_2002
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/s002200200645
   status_evidence:
   - source_id: src_freedman_kitaev_wang_2002
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/s002200200645
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

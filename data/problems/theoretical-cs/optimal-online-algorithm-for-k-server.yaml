@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the optimal competitive ratio for the k-server problem on general metric spaces.
+  canonical: Determine the optimal competitive ratio for the k-server problem on general
+    metric spaces.
 sources:
   canonical:
   - source_id: curated_optimal_online_algorithm_for_k_server
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

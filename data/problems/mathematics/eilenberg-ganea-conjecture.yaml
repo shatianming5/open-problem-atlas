@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every group of cohomological dimension 2 has geometric dimension 2 (i.e., admits a 2-dimensional Eilenberg-MacLane
-    space).
+  canonical: Every group of cohomological dimension 2 has geometric dimension 2 (i.e.,
+    admits a 2-dimensional Eilenberg-MacLane space).
 sources:
   canonical:
   - source_id: src_eilenberg_1957
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

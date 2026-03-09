@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does the discrepancy between the measured and predicted muon anomalous magnetic moment indicate new physics,
-    or is it due to hadronic uncertainties?
+  canonical: Does the discrepancy between the measured and predicted muon anomalous
+    magnetic moment indicate new physics, or is it due to hadronic uncertainties?
 sources:
   canonical:
   - source_id: src_aoyama_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2006.04822
   status_evidence:
   - source_id: src_aoyama_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2006.04822
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

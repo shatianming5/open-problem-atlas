@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is Kolmogorov complexity of a string within a constant factor of the Shannon entropy of its source? Characterizing
-    the gap for various source models remains open.
+  canonical: Is Kolmogorov complexity of a string within a constant factor of the
+    Shannon entropy of its source? Characterizing the gap for various source models
+    remains open.
 sources:
   canonical:
   - source_id: src_li_vitanyi_2008
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-0-387-49820-1
   status_evidence:
   - source_id: src_li_vitanyi_2008
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-0-387-49820-1
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

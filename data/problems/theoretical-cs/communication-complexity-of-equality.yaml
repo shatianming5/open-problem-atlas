@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the exact randomized communication complexity of the equality function.
+  canonical: Determine the exact randomized communication complexity of the equality
+    function.
 sources:
   canonical:
   - source_id: curated_communication_complexity_of_equality
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the maximal violation of additivity of Holevo capacity and how does it scale with channel dimension?
+  canonical: What is the maximal violation of additivity of Holevo capacity and how
+    does it scale with channel dimension?
 sources:
   canonical:
   - source_id: src_hastings_2009b
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0809.3972
   status_evidence:
   - source_id: src_hastings_2009b
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0809.3972
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

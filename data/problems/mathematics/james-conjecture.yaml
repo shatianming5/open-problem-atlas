@@ -15,8 +15,9 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: For the symmetric group, decomposition numbers can be computed from the canonical basis of a Fock space when
-    the prime p is at least as large as the weight of the block.
+  canonical: For the symmetric group, decomposition numbers can be computed from the
+    canonical basis of a Fock space when the prime p is at least as large as the weight
+    of the block.
 sources:
   canonical:
   - source_id: src_james_1990
@@ -30,3 +31,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

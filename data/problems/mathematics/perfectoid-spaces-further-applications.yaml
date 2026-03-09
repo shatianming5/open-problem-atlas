@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Find new applications of perfectoid spaces in number theory and algebraic geometry.
+  canonical: Find new applications of perfectoid spaces in number theory and algebraic
+    geometry.
 sources:
   canonical:
   - source_id: curated_perfectoid_spaces_further_applications
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

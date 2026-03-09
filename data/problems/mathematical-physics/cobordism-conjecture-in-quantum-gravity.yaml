@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'Does every consistent quantum gravity theory satisfy the Cobordism Conjecture: that the bordism group of quantum
-    gravity is trivial, requiring dynamical objects to end all topological cobordisms?'
+  canonical: 'Does every consistent quantum gravity theory satisfy the Cobordism Conjecture:
+    that the bordism group of quantum gravity is trivial, requiring dynamical objects
+    to end all topological cobordisms?'
 sources:
   canonical:
   - source_id: src_mcnamara_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1909.10355
   status_evidence:
   - source_id: src_mcnamara_2021
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1909.10355
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does open string field theory provide a complete non-perturbative formulation of open string theory, including
-    all D-brane configurations?
+  canonical: Does open string field theory provide a complete non-perturbative formulation
+    of open string theory, including all D-brane configurations?
 sources:
   canonical:
   - source_id: src_erler_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1912.00521
   status_evidence:
   - source_id: src_erler_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1912.00521
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

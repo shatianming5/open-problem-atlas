@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can Kontsevich's deformation quantization formula be extended to give a full star product for arbitrary infinite-dimensional
-    Poisson manifolds?
+  canonical: Can Kontsevich's deformation quantization formula be extended to give
+    a full star product for arbitrary infinite-dimensional Poisson manifolds?
 sources:
   canonical:
   - source_id: src_cattaneo_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2205.02768
   status_evidence:
   - source_id: src_cattaneo_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2205.02768
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

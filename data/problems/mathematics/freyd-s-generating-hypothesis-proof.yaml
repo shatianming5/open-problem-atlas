@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that a map between finite spectra that induces zero on homotopy groups is null.
+  canonical: Prove that a map between finite spectra that induces zero on homotopy
+    groups is null.
 sources:
   canonical:
   - source_id: curated_freyd_s_generating_hypothesis_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

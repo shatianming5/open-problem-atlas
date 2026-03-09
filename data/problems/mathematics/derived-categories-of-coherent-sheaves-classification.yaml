@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Classify all varieties whose derived categories of coherent sheaves are equivalent.
+  canonical: Classify all varieties whose derived categories of coherent sheaves are
+    equivalent.
 sources:
   canonical:
   - source_id: curated_derived_categories_of_coherent_sheaves_classification
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

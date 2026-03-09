@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can conformal field theory partition functions be fully classified using the theory of modular forms and vertex
-    operator algebras for all central charges?
+  canonical: Can conformal field theory partition functions be fully classified using
+    the theory of modular forms and vertex operator algebras for all central charges?
 sources:
   canonical:
   - source_id: src_schellekens_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2302.12247
   status_evidence:
   - source_id: src_schellekens_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2302.12247
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Ryu-Takayanagi formula for holographic entanglement entropy be derived from first principles in a fully
-    non-perturbative quantum gravity setting?
+  canonical: Can the Ryu-Takayanagi formula for holographic entanglement entropy be
+    derived from first principles in a fully non-perturbative quantum gravity setting?
 sources:
   canonical:
   - source_id: src_engelhardt_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2304.09892
   status_evidence:
   - source_id: src_engelhardt_2023
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2304.09892
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

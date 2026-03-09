@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Complete the classification of topological phases of matter including interacting and non-equilibrium systems.
+  canonical: Complete the classification of topological phases of matter including
+    interacting and non-equilibrium systems.
 sources:
   canonical:
   - source_id: curated_topological_phases_classification_complete
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

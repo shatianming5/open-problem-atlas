@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Find the shortest set of line segments (barrier) in the unit square that blocks every line of sight through the
-    square.
+  canonical: Find the shortest set of line segments (barrier) in the unit square that
+    blocks every line of sight through the square.
 sources:
   canonical:
   - source_id: src_mazurkiewicz_1916
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

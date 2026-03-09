@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the Alday-Gaiotto-Tachikawa correspondence relating 4D N=2 gauge theories to 2D CFTs.
+  canonical: Prove the Alday-Gaiotto-Tachikawa correspondence relating 4D N=2 gauge
+    theories to 2D CFTs.
 sources:
   canonical:
   - source_id: curated_agt_correspondence_full_proof
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

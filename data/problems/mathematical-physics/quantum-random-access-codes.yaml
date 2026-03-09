@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What are the optimal success probabilities for quantum random access codes encoding n classical bits into m qubits
-    for general n and m?
+  canonical: What are the optimal success probabilities for quantum random access
+    codes encoding n classical bits into m qubits for general n and m?
 sources:
   canonical:
   - source_id: src_ambainis_1999
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/quant-ph/9904066
   status_evidence:
   - source_id: src_ambainis_1999
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/quant-ph/9904066
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

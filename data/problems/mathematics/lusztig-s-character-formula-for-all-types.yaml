@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove Lusztig's conjecture on the characters of irreducible representations of algebraic groups in positive characteristic
-    for all types.
+  canonical: Prove Lusztig's conjecture on the characters of irreducible representations
+    of algebraic groups in positive characteristic for all types.
 sources:
   canonical:
   - source_id: curated_lusztig_s_character_formula_for_all_types
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

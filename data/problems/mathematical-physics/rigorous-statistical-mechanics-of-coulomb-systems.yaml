@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the free energy and correlation functions of the three-dimensional Coulomb gas be computed rigorously in
-    the thermodynamic limit at all temperatures?
+  canonical: Can the free energy and correlation functions of the three-dimensional
+    Coulomb gas be computed rigorously in the thermodynamic limit at all temperatures?
 sources:
   canonical:
   - source_id: src_lieb_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-662-10018-9
   status_evidence:
   - source_id: src_lieb_1999
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/978-3-662-10018-9
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

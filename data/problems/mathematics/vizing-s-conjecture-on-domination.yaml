@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the domination number of the Cartesian product of two graphs at least the product of their individual domination
-    numbers?
+  canonical: Is the domination number of the Cartesian product of two graphs at least
+    the product of their individual domination numbers?
 sources:
   canonical:
   - source_id: src_bresar_2021
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

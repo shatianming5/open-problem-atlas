@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Complete the theory of Soergel bimodules and prove the full Kazhdan-Lusztig conjecture.
+  canonical: Complete the theory of Soergel bimodules and prove the full Kazhdan-Lusztig
+    conjecture.
 sources:
   canonical:
   - source_id: curated_soergel_bimodules_and_kazhdan_lusztig_theory
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

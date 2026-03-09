@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether smooth solutions to the 3D Navier-Stokes equations can develop singularities from smooth initial
-    data.
+  canonical: Determine whether smooth solutions to the 3D Navier-Stokes equations
+    can develop singularities from smooth initial data.
 sources:
   canonical:
   - source_id: curated_navier_stokes_regularity_for_large_data
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

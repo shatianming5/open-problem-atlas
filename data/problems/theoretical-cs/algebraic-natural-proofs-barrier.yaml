@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the algebraic natural proofs barrier of Forbes, Shpilka, and Volk be circumvented to prove superpolynomial
-    algebraic circuit lower bounds?
+  canonical: Can the algebraic natural proofs barrier of Forbes, Shpilka, and Volk
+    be circumvented to prove superpolynomial algebraic circuit lower bounds?
 sources:
   canonical:
   - source_id: src_forbes_2018
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1701.01717
   status_evidence:
   - source_id: src_forbes_2018
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1701.01717
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound

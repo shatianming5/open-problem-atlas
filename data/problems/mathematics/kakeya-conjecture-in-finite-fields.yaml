@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Following Dvir's proof of the finite field Kakeya conjecture, can analogous tight bounds be obtained for the
-    Kakeya maximal function in Euclidean space R^n?
+  canonical: Following Dvir's proof of the finite field Kakeya conjecture, can analogous
+    tight bounds be obtained for the Kakeya maximal function in Euclidean space R^n?
 sources:
   canonical:
   - source_id: src_dvir_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0803.2336
   status_evidence:
   - source_id: src_dvir_2020
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0803.2336
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

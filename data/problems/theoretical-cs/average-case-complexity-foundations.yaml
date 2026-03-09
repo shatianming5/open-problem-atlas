@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Develop a complete theory of average-case complexity, including worst-case to average-case reductions for NP.
+  canonical: Develop a complete theory of average-case complexity, including worst-case
+    to average-case reductions for NP.
 sources:
   canonical:
   - source_id: curated_average_case_complexity_foundations
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

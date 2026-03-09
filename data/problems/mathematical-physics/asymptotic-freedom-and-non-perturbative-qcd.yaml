@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Develop rigorous non-perturbative methods for QCD building on asymptotic freedom.
+  canonical: Develop rigorous non-perturbative methods for QCD building on asymptotic
+    freedom.
 sources:
   canonical:
   - source_id: curated_asymptotic_freedom_and_non_perturbative_qcd
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

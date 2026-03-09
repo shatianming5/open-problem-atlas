@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can witness encryption be constructed from simpler assumptions such as LWE without relying on multilinear maps
-    or iO?
+  canonical: Can witness encryption be constructed from simpler assumptions such as
+    LWE without relying on multilinear maps or iO?
 sources:
   canonical:
   - source_id: src_garg_gentry_sahai_waters_2013
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/2488608.2488667
   status_evidence:
   - source_id: src_garg_gentry_sahai_waters_2013
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/2488608.2488667
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

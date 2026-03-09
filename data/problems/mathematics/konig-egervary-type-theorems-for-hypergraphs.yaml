@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine when the maximum matching equals the minimum cover in r-uniform hypergraphs.
+  canonical: Determine when the maximum matching equals the minimum cover in r-uniform
+    hypergraphs.
 sources:
   canonical:
   - source_id: curated_konig_egervary_type_theorems_for_hypergraphs
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

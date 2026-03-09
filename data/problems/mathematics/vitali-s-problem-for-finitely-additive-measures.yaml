@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does there exist a finitely additive, translation-invariant measure on all subsets of R^n that extends Lebesgue
-    measure for n >= 3?
+  canonical: Does there exist a finitely additive, translation-invariant measure on
+    all subsets of R^n that extends Lebesgue measure for n >= 3?
 sources:
   canonical:
   - source_id: src_vitali_1905
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

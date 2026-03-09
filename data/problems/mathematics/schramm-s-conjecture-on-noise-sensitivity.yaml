@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is the first-passage percolation geodesic noise-sensitive? More generally, characterize noise sensitivity of
-    random geometric structures.
+  canonical: Is the first-passage percolation geodesic noise-sensitive? More generally,
+    characterize noise sensitivity of random geometric structures.
 sources:
   canonical:
   - source_id: src_schramm_2007
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0710.1723
   status_evidence:
   - source_id: src_schramm_2007
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0710.1723
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

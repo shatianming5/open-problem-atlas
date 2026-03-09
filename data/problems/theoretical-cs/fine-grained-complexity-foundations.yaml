@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Establish the foundations of fine-grained complexity by proving or refuting SETH, the 3SUM conjecture, and APSP
-    conjecture.
+  canonical: Establish the foundations of fine-grained complexity by proving or refuting
+    SETH, the 3SUM conjecture, and APSP conjecture.
 sources:
   canonical:
   - source_id: curated_fine_grained_complexity_foundations
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

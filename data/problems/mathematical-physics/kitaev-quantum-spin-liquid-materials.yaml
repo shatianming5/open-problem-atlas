@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can a material realization of the exact Kitaev spin liquid with Majorana fermion excitations be definitively
-    demonstrated experimentally?
+  canonical: Can a material realization of the exact Kitaev spin liquid with Majorana
+    fermion excitations be definitively demonstrated experimentally?
 sources:
   canonical:
   - source_id: src_trebst_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1701.07056
   status_evidence:
   - source_id: src_trebst_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1701.07056
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

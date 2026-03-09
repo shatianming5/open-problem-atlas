@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: 'What is the nature of the 5/2 fractional quantum Hall state: is it the Moore-Read Pfaffian, anti-Pfaffian, or
-    another topological order?'
+  canonical: 'What is the nature of the 5/2 fractional quantum Hall state: is it the
+    Moore-Read Pfaffian, anti-Pfaffian, or another topological order?'
 sources:
   canonical:
   - source_id: src_son_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1502.03446
   status_evidence:
   - source_id: src_son_2015
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1502.03446
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

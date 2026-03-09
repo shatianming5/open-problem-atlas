@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Every Latin square of odd order n has a transversal (a set of n entries with no repeated row, column, or symbol).
+  canonical: Every Latin square of odd order n has a transversal (a set of n entries
+    with no repeated row, column, or symbol).
 sources:
   canonical:
   - source_id: src_ryser_1967
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

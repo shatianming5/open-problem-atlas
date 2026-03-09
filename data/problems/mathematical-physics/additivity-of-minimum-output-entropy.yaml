@@ -2,10 +2,15 @@ id: opa.phys.quantum-information.additivity-of-minimum-output-entropy
 kind: problem
 title: Additivity of Minimum Output Entropy
 status:
-  label: open
+  label: disproved
   confidence: medium
-  last_reviewed_at: '2026-03-08'
-  review_state: auto_generated
+  last_reviewed_at: '2026-03-09'
+  review_state: human_verified
+  history:
+    - from: open
+      to: disproved
+      date: '2026-03-09'
+      evidence: "Hastings (2009) gave counterexamples to additivity of minimum output entropy."
 domain: mathematical-physics
 subdomains:
 - quantum-information
@@ -20,11 +25,11 @@ statement:
 sources:
   canonical:
   - source_id: src_hastings_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0809.3972
   status_evidence:
   - source_id: src_hastings_2009
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/0809.3972
 provenance:
   created_from: radar_promotion

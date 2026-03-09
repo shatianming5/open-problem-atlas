@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Classify all stationary black hole solutions in higher-dimensional general relativity.
+  canonical: Classify all stationary black hole solutions in higher-dimensional general
+    relativity.
 sources:
   canonical:
   - source_id: curated_black_hole_uniqueness_in_higher_dimensions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

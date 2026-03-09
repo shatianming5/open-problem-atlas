@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the Lichtenbaum-Quillen conjecture relating K-theory and etale cohomology in all remaining cases.
+  canonical: Prove the Lichtenbaum-Quillen conjecture relating K-theory and etale
+    cohomology in all remaining cases.
 sources:
   canonical:
   - source_id: curated_lichtenbaum_quillen_conjecture_remaining_cases
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

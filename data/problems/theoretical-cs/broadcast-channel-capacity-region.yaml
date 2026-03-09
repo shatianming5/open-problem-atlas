@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the capacity region of the general broadcast channel? Marton's inner bound is conjectured to be tight
-    but this is unproven.
+  canonical: What is the capacity region of the general broadcast channel? Marton's
+    inner bound is conjectured to be tight but this is unproven.
 sources:
   canonical:
   - source_id: src_marton_1979
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.1979.1056071
   status_evidence:
   - source_id: src_marton_1979
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.1979.1056071
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: conjecture
+answer_type: boolean

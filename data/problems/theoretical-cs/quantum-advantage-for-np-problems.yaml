@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine whether quantum computers provide a superpolynomial speedup for NP-complete problems.
+  canonical: Determine whether quantum computers provide a superpolynomial speedup
+    for NP-complete problems.
 sources:
   canonical:
   - source_id: curated_quantum_advantage_for_np_problems
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

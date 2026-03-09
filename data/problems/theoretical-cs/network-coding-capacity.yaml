@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the capacity region of a general network coding problem? Characterizing capacity beyond single-source
-    multicast remains open.
+  canonical: What is the capacity region of a general network coding problem? Characterizing
+    capacity beyond single-source multicast remains open.
 sources:
   canonical:
   - source_id: src_ahlswede_cai_li_yeung_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/18.850663
   status_evidence:
   - source_id: src_ahlswede_cai_li_yeung_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/18.850663
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

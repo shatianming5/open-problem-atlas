@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the set of quantum steerable assemblages be fully characterized for arbitrary measurement settings and outcomes?
+  canonical: Can the set of quantum steerable assemblages be fully characterized for
+    arbitrary measurement settings and outcomes?
 sources:
   canonical:
   - source_id: src_cavalcanti_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1604.00501
   status_evidence:
   - source_id: src_cavalcanti_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1604.00501
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

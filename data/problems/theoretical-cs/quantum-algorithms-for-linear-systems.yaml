@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the HHL quantum algorithm for linear systems be made practical with provable end-to-end speedup over classical
-    methods?
+  canonical: Can the HHL quantum algorithm for linear systems be made practical with
+    provable end-to-end speedup over classical methods?
 sources:
   canonical:
   - source_id: src_harrow_hassidim_lloyd_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevLett.103.150502
   status_evidence:
   - source_id: src_harrow_hassidim_lloyd_2009
-    kind: website
+    kind: paper
     url: https://doi.org/10.1103/PhysRevLett.103.150502
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Is there a canonical definition of quantum optimal transport that unifies the various proposed quantum Wasserstein
-    distances and retains classical properties?
+  canonical: Is there a canonical definition of quantum optimal transport that unifies
+    the various proposed quantum Wasserstein distances and retains classical properties?
 sources:
   canonical:
   - source_id: src_demaorais_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2102.07787
   status_evidence:
   - source_id: src_demaorais_2022
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2102.07787
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

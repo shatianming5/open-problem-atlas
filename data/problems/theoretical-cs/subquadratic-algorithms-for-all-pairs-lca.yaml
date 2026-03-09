@@ -15,18 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can all-pairs lowest common ancestors in a tree be computed in truly sub-quadratic time when the output size
-    is quadratic?
+  canonical: Can all-pairs lowest common ancestors in a tree be computed in truly
+    sub-quadratic time when the output size is quadratic?
 sources:
   canonical:
   - source_id: src_bender_farach_colton_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/10719839_9
   status_evidence:
   - source_id: src_bender_farach_colton_2000
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/10719839_9
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: computation
+answer_type: numeric

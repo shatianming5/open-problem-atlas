@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend the graph immersion order theory and prove analogs of the Robertson-Seymour theorem.
+  canonical: Extend the graph immersion order theory and prove analogs of the Robertson-Seymour
+    theorem.
 sources:
   canonical:
   - source_id: curated_immersion_conjecture_generalizations
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

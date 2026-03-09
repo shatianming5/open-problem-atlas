@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: The Fourier transform of an L^p function on R^n restricts to an L^q function on the unit sphere for the optimal
-    Stein-Tomas range.
+  canonical: The Fourier transform of an L^p function on R^n restricts to an L^q function
+    on the unit sphere for the optimal Stein-Tomas range.
 sources:
   canonical:
   - source_id: src_stein_1979
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

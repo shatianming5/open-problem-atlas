@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend Mergelyan's theorem on polynomial approximation to functions on more general compact sets in C^n.
+  canonical: Extend Mergelyan's theorem on polynomial approximation to functions on
+    more general compact sets in C^n.
 sources:
   canonical:
   - source_id: src_mergelyan_1951
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Extend the proof of Property P to characterize all exceptional surgeries on knots.
+  canonical: Extend the proof of Property P to characterize all exceptional surgeries
+    on knots.
 sources:
   canonical:
   - source_id: curated_property_p_conjecture_extensions
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

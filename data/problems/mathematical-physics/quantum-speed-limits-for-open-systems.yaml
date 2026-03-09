@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What are the tightest achievable quantum speed limits for open quantum systems undergoing non-Markovian evolution?
+  canonical: What are the tightest achievable quantum speed limits for open quantum
+    systems undergoing non-Markovian evolution?
 sources:
   canonical:
   - source_id: src_deffner_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1705.08023
   status_evidence:
   - source_id: src_deffner_2017
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/1705.08023
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the Ryu-Takayanagi formula for holographic entanglement entropy be derived from first principles and extended
-    to time-dependent and quantum-corrected settings?
+  canonical: Can the Ryu-Takayanagi formula for holographic entanglement entropy be
+    derived from first principles and extended to time-dependent and quantum-corrected
+    settings?
 sources:
   canonical:
   - source_id: src_ryu_2006
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/0603001
   status_evidence:
   - source_id: src_ryu_2006
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/hep-th/0603001
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

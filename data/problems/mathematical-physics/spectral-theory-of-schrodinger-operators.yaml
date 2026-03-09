@@ -15,18 +15,21 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can the spectral properties of multi-dimensional Schrodinger operators with quasi-periodic potentials be fully
-    characterized, including the nature of the spectrum and localization?
+  canonical: Can the spectral properties of multi-dimensional Schrodinger operators
+    with quasi-periodic potentials be fully characterized, including the nature of
+    the spectrum and localization?
 sources:
   canonical:
   - source_id: src_bourgain_2005
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/b104015
   status_evidence:
   - source_id: src_bourgain_2005
-    kind: website
+    kind: paper
     url: https://doi.org/10.1007/b104015
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: classification
+answer_type: classification_list

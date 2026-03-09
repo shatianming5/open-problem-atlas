@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Does every infinite-dimensional Banach space have a hyperplane (closed subspace of codimension 1) that is isomorphic
-    to the whole space?
+  canonical: Does every infinite-dimensional Banach space have a hyperplane (closed
+    subspace of codimension 1) that is isomorphic to the whole space?
 sources:
   canonical:
   - source_id: src_banach_1932
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

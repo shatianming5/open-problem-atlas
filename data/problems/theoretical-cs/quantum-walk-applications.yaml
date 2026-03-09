@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Determine the full range of quantum speedups achievable via quantum walk algorithms.
+  canonical: Determine the full range of quantum speedups achievable via quantum walk
+    algorithms.
 sources:
   canonical:
   - source_id: curated_quantum_walk_applications
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: algorithm
+answer_type: constructive

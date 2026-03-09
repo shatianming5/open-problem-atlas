@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove that the density of supersingular primes for a non-CM elliptic curve is zero.
+  canonical: Prove that the density of supersingular primes for a non-CM elliptic
+    curve is zero.
 sources:
   canonical:
   - source_id: curated_elkies_conjecture_on_supersingular_primes
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

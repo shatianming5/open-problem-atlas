@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Can SNARKs be constructed with transparent setup and post-quantum security from standard assumptions?
+  canonical: Can SNARKs be constructed with transparent setup and post-quantum security
+    from standard assumptions?
 sources:
   canonical:
   - source_id: src_bitansky_et_al_2012
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/2090236.2090263
   status_evidence:
   - source_id: src_bitansky_et_al_2012
-    kind: website
+    kind: paper
     url: https://doi.org/10.1145/2090236.2090263
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

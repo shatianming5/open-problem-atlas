@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the capacity region of the two-user Gaussian interference channel for all interference regimes?
+  canonical: What is the capacity region of the two-user Gaussian interference channel
+    for all interference regimes?
 sources:
   canonical:
   - source_id: src_etkin_tse_wang_2008
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.2008.920728
   status_evidence:
   - source_id: src_etkin_tse_wang_2008
-    kind: website
+    kind: paper
     url: https://doi.org/10.1109/TIT.2008.920728
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

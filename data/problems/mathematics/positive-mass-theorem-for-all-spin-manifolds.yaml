@@ -15,7 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: Prove the positive mass theorem for asymptotically flat manifolds in all dimensions without the spin assumption.
+  canonical: Prove the positive mass theorem for asymptotically flat manifolds in
+    all dimensions without the spin assumption.
 sources:
   canonical:
   - source_id: curated_positive_mass_theorem_for_all_spin_manifolds
@@ -29,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: open_question
+answer_type: boolean

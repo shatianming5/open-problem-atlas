@@ -15,8 +15,8 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: There exists a constant c such that the diameter of every Cayley graph of a finite simple group G with any generating
-    set is at most (log |G|)^c.
+  canonical: There exists a constant c such that the diameter of every Cayley graph
+    of a finite simple group G with any generating set is at most (log |G|)^c.
 sources:
   canonical:
   - source_id: src_babai_1992
@@ -30,3 +30,5 @@ provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: existence
+answer_type: existential

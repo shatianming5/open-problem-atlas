@@ -5,12 +5,18 @@ aliases:
   - "Kaplansky Unit Problem"
 
 status:
-  label: open
+  label: disproved
   confidence: high
-  last_reviewed_at: "2026-03-01"
+  last_reviewed_at: "2026-03-09"
   review_state: human_verified
   reviewer: "OpenProblemAtlas"
-  stale_after: "2027-03-01"
+  stale_after: "2027-03-09"
+  history:
+    - from: open
+      to: disproved
+      date: "2026-03-09"
+      evidence: "Gardam (2021) constructed a counterexample over the field F_2."
+      reviewer: "OpenProblemAtlas"
 
 domain: mathematics
 subdomains:

@@ -15,17 +15,20 @@ verification_profile:
   machine_actionability: low
 tier: tier_3
 statement:
-  canonical: What is the exact value of the Ramsey number R(5,5)? Current bounds place it between 43 and 48.
+  canonical: What is the exact value of the Ramsey number R(5,5)? Current bounds place
+    it between 43 and 48.
 sources:
   canonical:
   - source_id: src_angeltveit_2024
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2405.18144
   status_evidence:
   - source_id: src_angeltveit_2024
-    kind: website
+    kind: paper
     url: https://arxiv.org/abs/2405.18144
 provenance:
   created_from: radar_promotion
   parser_version: 0.3.1
   schema_version: 1.0.0
+problem_type: bound
+answer_type: bound
